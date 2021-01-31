@@ -167,12 +167,15 @@ def list_files_recursive(path):
 	total_files = 0
 	# r = root, d = directories, f = files
 	pgreen(f"traveling {path} ...", send='')
+	st_time = time.time()
 	for r, d, f in os.walk(path):
 		for current_file in f:
 			total_files += 1
 			if ".exe" in current_file or ".dll" in current_file or "-crypted" in current_file or ".sys" in current_file:
 				current_files.append(os.path.join(r, current_file))
-				pgreen(f"\rtraveling {len(current_files)} / {total_files} [{r}] ... ", send='')
+				if time.time() - st_time >= 0.3:
+					st_time = time.time()
+					pgreen(f"\rtraveling {len(current_files)} / {total_files} [{r}] ... ", send='')
 
 	lst = [internal_file for internal_file in current_files]
 	return lst
@@ -189,10 +192,10 @@ def suitable(name):
 
 # Press the red button
 if __name__ == '__main__':
-	yara.set_config(stack_size=65536)
-	yara.set_config(max_strings_per_rule=50000, stack_size=65536)
-	yara.set_config(max_strings_per_rule=20000)
-	yara.set_config(max_match_data=128)
+	# yara.set_config(stack_size=65536)
+	# yara.set_config(max_strings_per_rule=50000, stack_size=65536)
+	# yara.set_config(max_strings_per_rule=20000)
+	# yara.set_config(max_match_data=128)
 
 	rules = yara.compile('yara.rules')
 
@@ -213,38 +216,39 @@ if __name__ == '__main__':
 				numIi = 0
 			currentSym = ii[numIi]
 
-			if time.time() - st_time >= 0.5:
+			if time.time() - st_time >= 0.3:
 				st_time = time.time()
 				pgreen(f"\rScanning {currentSym} [{file}]", send='')
 
 			if not suitable(file):
 				continue
 
-			pgreen(f'processing {file} ...')
+			pblack(f"=> [{file}]")
+
 			matches = rules.match(file)
-			if matches is not None:
+			if len(matches):
 				for match in matches:
-					pgreen(f'{file}: match {match}')
+					pgreen(f'sign <{match}>')
+			else:
+				pblack(f'no signs')
 
 			try:
 				pe = pefile.PE(file, fast_load=True)
 			except Exception as err:
-				pred(f"\r{file}: {err}")
+				pred(f"\nPE: {err}")
 				continue
 
 			# if len(pe.sections) <= 11:
 			#	continue
 
-			date_created = datetime.fromtimestamp(int(pe.FILE_HEADER.dump_dict()['TimeDateStamp']['Value'].split('[')[0][:-1], 16))
-			if date_created.year <= 2020:
-				continue
-
-			pblack(f"=> [{file}]")
+			# date_created = datetime.fromtimestamp(int(pe.FILE_HEADER.dump_dict()['TimeDateStamp']['Value'].split('[')[0][:-1], 16))
+			# if date_created.year <= 2020:
+			# 	continue
 
 			if hex(pe.OPTIONAL_HEADER.Magic) == '0x10b':
-				pblack("This is a 32-bit binary")
+				pblack("32-bit binary")
 			elif hex(pe.OPTIONAL_HEADER.Magic) == '0x20b':
-				pblack("This is a 64-bit binary")
+				pblack("64-bit binary")
 
 			pblack("Magic : " + hex(pe.OPTIONAL_HEADER.Magic) + " " + "Machine: " + hex(pe.FILE_HEADER.Machine) +
 			       " TimeDateStamp : " + pe.FILE_HEADER.dump_dict()['TimeDateStamp']['Value'].split('[')[1][:-1] +
@@ -273,6 +277,6 @@ if __name__ == '__main__':
 			processed += 1
 
 		except Exception as err:
-			pred(f"Catched OS error: {err}")
+			pred(f"Exception: {err}: {sys.exc_info()[1]}")
 
 	pblack(f"processed {processed} files")

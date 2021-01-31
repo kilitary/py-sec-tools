@@ -6,3 +6,4 @@ file.*
 petarget
 build
 __pycache__
+.idea

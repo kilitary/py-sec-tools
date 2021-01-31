@@ -10,6 +10,17 @@ rule gzip_embed
         $a
 }
 
+rule gzip_mult
+{
+    meta:
+        description = "gzip multiple"
+
+    strings:
+        $a = {1f 8b 08 00}
+
+    condition:
+        #a > 1
+}
 
 rule chertCrypt
 {
