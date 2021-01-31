@@ -1,0 +1,8 @@
+# Project exclude paths
+/38/
+log.txt
+file
+file.*
+petarget
+build
+__pycache__

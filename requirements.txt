@@ -1,0 +1,14 @@
+pefile~=2019.4.18
+psutil~=5.8.0
+torpy~=1.1.4
+future~=0.18.2
+pyAesCrypt~=0.4.4
+requests~=2.25.1
+pywin32~=300
+WMI~=1.5.1
+cryptography~=3.3.1
+
+pysmb~=1.2.6
+
+six~=1.15.0
+filetype~=1.0.7

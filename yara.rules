@@ -1,0 +1,36 @@
+rule gzip_embed
+{
+    meta:
+        description = "gzip embedded"
+
+    strings:
+        $a = {1f 8b 08 00}
+
+    condition:
+        $a
+}
+
+
+rule chertCrypt
+{
+    meta:
+        description = "4ertOcrypt"
+
+    strings:
+        $a = "4ertKcrypt"
+
+    condition:
+        $a
+}
+
+rule upx
+{
+	meta:
+		description = "upx"
+
+	strings:
+		$a = {?? 55 50 58 21}
+
+	condition:
+		$a
+}
