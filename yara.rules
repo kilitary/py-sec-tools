@@ -22,7 +22,7 @@ rule gzip_mult
         #a > 1
 }
 
-rule chertocrypt
+rule chertokrypt
 {
     meta:
         description = "4ertOcrypt"
