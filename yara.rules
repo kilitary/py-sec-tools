@@ -7,13 +7,13 @@ rule gzip_embed
         $a = {1f 8b 08 00}
 
     condition:
-        $a
+        all of them
 }
 
 rule gzip_mult
 {
     meta:
-        description = "gzip multiple"
+        description = "gzip multiple sections"
 
     strings:
         $a = {1f 8b 08 00}
@@ -31,17 +31,29 @@ rule chertCrypt
         $a = "4ertKcrypt"
 
     condition:
-        $a
+        all of them
 }
 
 rule upx
 {
 	meta:
-		description = "upx"
+		description = "upx packer"
 
 	strings:
 		$a = {?? 55 50 58 21}
 
 	condition:
-		$a
+		all of them
+}
+
+rule uac
+{
+	meta:
+		description = "uac elevation (admin)"
+
+	strings:
+		$a = "level=\"highestAvailable\""
+
+	condition:
+		all of them
 }

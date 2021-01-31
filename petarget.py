@@ -192,15 +192,14 @@ def suitable(name):
 
 # Press the red button
 if __name__ == '__main__':
-	# yara.set_config(stack_size=65536)
-	# yara.set_config(max_strings_per_rule=50000, stack_size=65536)
-	# yara.set_config(max_strings_per_rule=20000)
-	# yara.set_config(max_match_data=128)
+	yara.set_config(stack_size=4 * 1024 * 1024)
+	yara.set_config(max_strings_per_rule=50000, stack_size=4 * 1024 * 1024)
+	yara.set_config(max_match_data=1024)
 
 	rules = yara.compile('yara.rules')
 
 	for rule in rules:
-		pgreen(f'rule {rule.identifier}')
+		pgreen(f'rule {rule.identifier}: {rule.meta["description"]}')
 
 	pblack(f'collecting files from {DIR}...')
 	current_year = int(time.localtime().tm_year)
