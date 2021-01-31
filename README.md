@@ -1,3 +1,3 @@
 # petarget
 
-learning python
+learning pytho
