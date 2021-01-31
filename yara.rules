@@ -22,13 +22,14 @@ rule gzip_mult
         #a > 1
 }
 
-rule chertCrypt
+rule chertocrypt
 {
     meta:
         description = "4ertOcrypt"
 
     strings:
         $a = "4ertKcrypt"
+        $b = "SGN"
 
     condition:
         all of them
