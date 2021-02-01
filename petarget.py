@@ -16,7 +16,7 @@ from ctypes import *
 from inspect import getmembers
 from var_dump import var_dump
 import filetype
-import sys
+import sys, traceback
 import magic
 import yara
 
@@ -190,6 +190,10 @@ def suitable(name):
 			return True
 	return False
 
+def mycallback(data):
+	print(data)
+	return yara.CALLBACK_CONTINUE
+
 # Press the red button
 if __name__ == '__main__':
 	yara.set_config(stack_size=4 * 1024 * 1024)
@@ -199,9 +203,11 @@ if __name__ == '__main__':
 	pgreen(f'loading rules ...')
 	rules = []
 	try:
-		rules = yara.compile('yara.rules')
+		rules = yara.compile('yara.rules', error_on_warning=True)
 	except Exception as e:
 		pred(f'{e}')
+		exc_type, exc_value, exc_traceback = sys.exc_info()
+		pred(repr(traceback.format_exception(exc_type, exc_value, exc_traceback)))
 		sys.exit(-1)
 
 	for rule in rules:
@@ -230,7 +236,7 @@ if __name__ == '__main__':
 
 			pblack(f"=> [{file}]")
 
-			matches = rules.matches(file)
+			matches = rules.matches(file, warning_callback=mycallback)
 			if len(matches):
 				for match in matches:
 					pgreen(f'sign <{match}>')

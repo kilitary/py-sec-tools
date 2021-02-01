@@ -17,11 +17,13 @@ if __name__ == '__main__':
 	# print(f'{matches.group(1)}')
 	with open('peid.rules', 'w') as file:
 		for match in matches:
-			sign = str(match[1]).strip().replace('/', '').replace('  ', '')
+			initial_sign = str(match[1]).strip().replace(' ', '')
+			sign_length = len(initial_sign)
+			sign = str(match[1]).strip().replace('/', '').replace(' ', '')
 			desc = str(match[0]).strip('\n\r\t/').replace('/', '')
-			id = re.sub('[^a-z0-9A-Z]', '_', desc) + str(random.randint(10,2211))
-			sign = '{' + re.sub('[^A-Z0-9 ]', '', sign).replace('  ', '') + '}'
-			print(f'{id}: {desc} {len(sign) / 2:.0f} bytes')
+			id = re.sub('[^a-z0-9A-Z]', '_', desc).replace('__', '_') + str(random.randint(101111,2211111))
+			sign = '{' + re.sub('[^A-F0-9 \?]', '', sign).replace('  ', '') + '}'
+			print(f'{id}: {desc} {len(sign) / 2:.0f} bytes [{sign_length%2}] from [{initial_sign}]]')
 
 			try:
 				file.write(f'rule {id}\n'
@@ -35,4 +37,3 @@ if __name__ == '__main__':
 				           '}' + '\r\n')
 			except Exception as e:
 				print(f'write error: {e}')
-# 	pass

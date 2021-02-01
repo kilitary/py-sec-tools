@@ -1,5 +1,3 @@
-include "peid.rules"
-
 rule gzip_embed
 {
     meta:
@@ -12,7 +10,7 @@ rule gzip_embed
         all of them
 }
 
-rule gzip_mult
+rule _gzip_mult
 {
     meta:
         description = "gzip multiple sections"
@@ -60,3 +58,6 @@ rule uac
 	condition:
 		all of them
 }
+
+
+include "peid.rules"
