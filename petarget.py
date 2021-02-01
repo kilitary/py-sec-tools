@@ -196,7 +196,13 @@ if __name__ == '__main__':
 	yara.set_config(max_strings_per_rule=50000, stack_size=4 * 1024 * 1024)
 	yara.set_config(max_match_data=1024)
 
-	rules = yara.compile('yara.rules')
+	pgreen(f'loading rules ...')
+	rules = []
+	try:
+		rules = yara.compile('yara.rules')
+	except Exception as e:
+		pred(f'{e}')
+		sys.exit(-1)
 
 	for rule in rules:
 		pgreen(f'rule {rule.identifier}: {rule.meta["description"]}')
@@ -224,7 +230,7 @@ if __name__ == '__main__':
 
 			pblack(f"=> [{file}]")
 
-			matches = rules.match(file)
+			matches = rules.matches(file)
 			if len(matches):
 				for match in matches:
 					pgreen(f'sign <{match}>')

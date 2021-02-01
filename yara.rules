@@ -1,3 +1,5 @@
+include "peid.rules"
+
 rule gzip_embed
 {
     meta:

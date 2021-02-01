@@ -23,7 +23,7 @@ def main():
 	print(f'{magic.coerce_filename(sys.argv[1])}')
 	print(f'{magic.from_file(sys.argv[1], mime=True)}')
 
-	matches = rules.match(sys.argv[1])
+	matches = rules.matches(sys.argv[1])
 	if len(matches):
 		for match in matches:
 			print(f'{sys.argv[1]}: match {match}')
