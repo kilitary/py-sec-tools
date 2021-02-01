@@ -4686,8 +4686,8 @@ rule _VMProtect_v1_25___PolyTech_yyhayb
 		$a = {68????????E8????????89EC5A5B5A9D585F5E5E595DC3}
 	condition:
 		all of them
-}
-rule _VMProtect_v1_25___PolyTech_acyhlk
+}
+rule _VMProtect_v1_25___PolyTech_acyhlk
 {
 	meta:
 		description = "_ VMProtect v1_25 ___ PolyTech"
@@ -6900,8 +6900,8 @@ rule _VMProtect_v1_25___PolyTech_srkkra
 		$a = {68????????E8????????50525157565556539C68000000008B74242C89E581ECC000000089E70375008A060FB6C0468D0C85????????FF218B750083C504E9}
 	condition:
 		all of them
-}
-rule _VMProtect_v1_25___PolyTech_ffnvjz
+}
+rule _VMProtect_v1_25___PolyTech_ffnvjz
 {
 	meta:
 		description = "_ VMProtect v1_25 ___ PolyTech"
@@ -8508,7 +8508,7 @@ rule _NET_executable__Microsoft_gwrkyf
 	meta:
 		description = "_NET executable __ Microsoft"
 	strings:
-		$a = {00000000000000005F436F724578654D61696E006D73636F7265652E646C6C0000000000FF25}
+		$a = {00 00 00 00 00 00 00 00 5F 43 6F 72 45 78 65 4D 61 69 6E 00 6D 73 63 6F 72 65 65 2E 64 6C 6C 00 00 00 00 00 FF 25}
 	condition:
 		all of them
 }
@@ -9071,8 +9071,8 @@ rule AINEXE_v2_1_qizbxe
 		all of them
 }
 rule AINEXE_v2_30_sujorc
-{
-	meta:
+{
+	meta:
 		description = "AINEXE v2_30"
 	strings:
 		$a = {0E07B9????BE????33FFFCF3A4A1????2D????8ED0BC????8CD8}
@@ -9989,8 +9989,8 @@ rule Armadillo_4_44a_public_build__Silicon_Realms_Toolworks_h__isbeba
 		all of them
 }
 rule Armadillo_5_0_Dll__Silicon_Realms_Toolworks_ycpjvz
-{
-	meta:
+{
+	meta:
 		description = "Armadillo 5_0 Dll __ Silicon Realms Toolworks"
 	strings:
 		$a = {837C2408017505E8DE4B0000FF7424048B4C24108B54240CE8EDFEFFFF59C20C006A0C68????????E8E52400008B4D0833FF3BCF762E6AE05833D2F7F13B450C1BC040751FE88F150000C7000C0000005757575757E82015000083C41433C0E9D50000000FAF4D0C8BF18975083BF7750333F64633DB895DE483FEE07769833D????????03754B83C60F83E6F089750C8B45083B05????????77376A04E8D723000059897DFCFF7508E8EC530000598945E4C745FCFEFFFFFFE85F0000008B5DE43BDF7411FF75085753E82BC5FFFF83C40C3BDF7561566A08FF35????????FF15????????8BD83BDF754C393D????????743356E819EDFFFF5985C00F8572FFFFFF8B45103BC70F8450FFFFFFC7000C000000E945FFFFFF33FF8B750C6A04E87D22000059C3}
@@ -15265,8 +15265,8 @@ rule EXE32Pack_v1_3x_rlohsd
 rule ExeBundle_v3_0_small_loader__qzedfy
 {
 	meta:
-		description = "ExeBundle v3_0 _small loader_"
-	strings:
+		description = "ExeBundle v3_0 _small loader_"
+	strings:
 		$a = {0000000060BE00F040008DBE0020FFFF5783CDFFEB109090909090908A064688074701DB75078B1E83EEFC11DB72EDB80100000001DB75078B1E83EEFC11}
 	condition:
 		all of them
@@ -29838,8 +29838,8 @@ rule Thinstall_2_403__Jitit_nbanlr
 	meta:
 		description = "Thinstall 2_403 __ Jitit"
 	strings:
-		$a = {558BEC83C4F053565733C08945F0B848D24B00E8BC87F4FFBB040B4D0033C05568E8D54B0064FF30648920E89CF4FFFFE8F7FBFFFF6A408D55F0A1F0ED4B008B00E8422EF7FF8B4DF0B201A1F4C24000E8F720F5FF}
-	condition:
+		$a = {558BEC83C4F053565733C08945F0B848D24B00E8BC87F4FFBB040B4D0033C05568E8D54B0064FF30648920E89CF4FFFFE8F7FBFFFF6A408D55F0A1F0ED4B008B00E8422EF7FF8B4DF0B201A1F4C24000E8F720F5FF}
+	condition:
 		all of them
 }
 rule Thinstall_2_4x__2_5x__Jitit_Software_ofizau
