@@ -1,9 +1,0 @@
-rule XE_Executable_Image_using_DOSExtender__fgtezn
-{
-	meta:
-		description = "XE Executable Image _using DOSExtender_"
-	strings:
-		$a = {5845}
-	condition:
-		all of them
-}

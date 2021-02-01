@@ -1,0 +1,9 @@
+rule _Phonebook_configuration_file_Version_v3_v4_cpqmur
+{
+	meta:
+		description = "Phonebook configuration file Version _v3__v4"
+	strings:
+		$a = {026F??????0A0A068D??????010B160C383600000002086F??????0A0D0906085961D21304091E630861D21305070811051E62110460D19D0817580C08078E69380B00000028??????0A2A38ECFFFFFF3FC0FFFFFF}
+	condition:
+		all of them
+}

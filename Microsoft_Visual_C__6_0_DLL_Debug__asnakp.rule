@@ -1,9 +1,0 @@
-rule Microsoft_Visual_C__6_0_DLL_Debug__asnakp
-{
-	meta:
-		description = "Microsoft Visual C__ 6_0 DLL _Debug_"
-	strings:
-		$a = {8B4424088B4C24100BC88B4C240C75098B442404F7E1C2100053F7E18BD88B442408F764241403D88B442408F7E103D35BC21000}
-	condition:
-		all of them
-}

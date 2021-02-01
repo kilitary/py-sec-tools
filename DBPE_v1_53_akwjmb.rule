@@ -1,9 +1,0 @@
-rule _DBPE_v1_53_akwjmb
-{
-	meta:
-		description = "DBPE v1_53"
-	strings:
-		$a = {9C5557565251539CFAE8000000005D81ED5B534000B0}
-	condition:
-		all of them
-}

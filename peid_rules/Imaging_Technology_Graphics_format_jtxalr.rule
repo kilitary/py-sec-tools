@@ -1,0 +1,9 @@
+rule _Imaging_Technology_Graphics_format_jtxalr
+{
+	meta:
+		description = "Imaging Technology Graphics format"
+	strings:
+		$a = {494D0000}
+	condition:
+		all of them
+}

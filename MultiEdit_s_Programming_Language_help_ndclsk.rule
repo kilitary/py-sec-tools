@@ -1,9 +1,0 @@
-rule _MultiEdit_s_Programming_Language_help_ndclsk
-{
-	meta:
-		description = "MultiEdit_s Programming Language help"
-	strings:
-		$a = {0C2A20}
-	condition:
-		all of them
-}

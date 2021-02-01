@@ -1,9 +1,0 @@
-rule PRO_MIDI_Music_file_yjmfvu
-{
-	meta:
-		description = "PRO_MIDI Music file"
-	strings:
-		$a = {52494646????????524D4944}
-	condition:
-		all of them
-}

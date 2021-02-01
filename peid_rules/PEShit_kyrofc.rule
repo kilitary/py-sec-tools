@@ -1,0 +1,9 @@
+rule _PEShit_kyrofc
+{
+	meta:
+		description = "PEShit"
+	strings:
+		$a = {B8????????B9????????33D2EB010F56EB010FE803000000EB010FEB010F5EEB01}
+	condition:
+		all of them
+}

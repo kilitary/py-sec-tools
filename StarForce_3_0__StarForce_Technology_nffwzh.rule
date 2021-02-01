@@ -1,9 +1,0 @@
-rule _StarForce_3_0__StarForce_Technology_nffwzh
-{
-	meta:
-		description = "StarForce 3_0 __ StarForce Technology"
-	strings:
-		$a = {68????????FF25????63}
-	condition:
-		all of them
-}

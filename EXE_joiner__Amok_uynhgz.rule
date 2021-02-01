@@ -1,9 +1,0 @@
-rule EXE_joiner__Amok_uynhgz
-{
-	meta:
-		description = "EXE joiner __ Amok"
-	strings:
-		$a = {A114A14000C1E002A318A140}
-	condition:
-		all of them
-}

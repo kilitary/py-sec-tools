@@ -1,9 +1,0 @@
-rule _Ultra_Compressor_s_Archive_tviwyp
-{
-	meta:
-		description = "Ultra Compressor_s Archive"
-	strings:
-		$a = {5543321A}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Trilobyte_s_JPEG_graphics_Library_aeedlz
-{
-	meta:
-		description = "Trilobyte_s JPEG graphics Library"
-	strings:
-		$a = {8410FFFFFFFF1E000110080000000000}
-	condition:
-		all of them
-}

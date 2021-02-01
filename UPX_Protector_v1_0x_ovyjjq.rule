@@ -1,9 +1,0 @@
-rule UPX_Protector_v1_0x_ovyjjq
-{
-	meta:
-		description = "UPX Protector v1_0x"
-	strings:
-		$a = {EBEC????????8A064688074701DB7507}
-	condition:
-		all of them
-}

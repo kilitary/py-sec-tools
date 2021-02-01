@@ -1,9 +1,0 @@
-rule ARJ_Archive_lfrein
-{
-	meta:
-		description = "ARJ Archive"
-	strings:
-		$a = {60EA}
-	condition:
-		all of them
-}

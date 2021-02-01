@@ -1,9 +1,0 @@
-rule FSG_v1_10_Eng___dulekxt___Microsoft_Visual_C__6_0__waqfbk
-{
-	meta:
-		description = "FSG v1_10 _Eng_ __ dulekxt __ _Microsoft Visual C__ 6_0_"
-	strings:
-		$a = {33C08BB800??????8B9004??????85FF741B33C950EB0C8A0439C0C804341B880439413BCA72F05883C008EBD561E9????????0000000000000000000000000000000000000000000000000000000000000000000000000000}
-	condition:
-		all of them
-}

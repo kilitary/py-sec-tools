@@ -1,9 +1,0 @@
-rule _MEW_11_SE_1_2_poamiu
-{
-	meta:
-		description = "MEW 11 SE 1_2"
-	strings:
-		$a = {E9????????0C??????0000000000000000}
-	condition:
-		all of them
-}

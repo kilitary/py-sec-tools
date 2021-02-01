@@ -1,9 +1,0 @@
-rule Windows_or_OS2_Graphics_format_qxxcpc
-{
-	meta:
-		description = "Windows or OS2 Graphics format"
-	strings:
-		$a = {424D}
-	condition:
-		all of them
-}

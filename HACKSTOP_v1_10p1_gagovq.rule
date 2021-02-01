@@ -1,9 +1,0 @@
-rule HACKSTOP_v1_10p1_gagovq
-{
-	meta:
-		description = "HACKSTOP v1_10p1"
-	strings:
-		$a = {B430CD2186E03D000373??B42FCD21B42ACD21B42CCD21B0FFB44CCD2150B8????58EB}
-	condition:
-		all of them
-}

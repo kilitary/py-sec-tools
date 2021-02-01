@@ -1,9 +1,0 @@
-rule IBM_IOCA_Graphics_format_tdztgm
-{
-	meta:
-		description = "IBM IOCA Graphics format"
-	strings:
-		$a = {0011D3A6FB}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule tElock_v0_70_gjuchi
-{
-	meta:
-		description = "tElock v0_70"
-	strings:
-		$a = {60E8BD100000C383E200F975FA70}
-	condition:
-		all of them
-}

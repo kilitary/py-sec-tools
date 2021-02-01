@@ -1,9 +1,0 @@
-rule Cygwin32_kdzart
-{
-	meta:
-		description = "Cygwin32"
-	strings:
-		$a = {5589E583EC04833D}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _PseudoSigner_0_2_VBOX_4_3_MTE_vxwsfl
-{
-	meta:
-		description = "_ PseudoSigner 0_2 _VBOX 4_3 MTE"
-	strings:
-		$a = {0BC00BC00BC00BC00BC00BC00BC00BC0}
-	condition:
-		all of them
-}

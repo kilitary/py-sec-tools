@@ -1,0 +1,9 @@
+rule _ASPack_v1_02a_rsheum
+{
+	meta:
+		description = "ASPack v1_02a"
+	strings:
+		$a = {60E8????????5D81ED06??????64A023}
+	condition:
+		all of them
+}

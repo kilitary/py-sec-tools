@@ -1,9 +1,0 @@
-rule _APatch_GUI_v1_1_mujgnz
-{
-	meta:
-		description = "APatch GUI v1_1"
-	strings:
-		$a = {5231C0E8FFFFFFFF}
-	condition:
-		all of them
-}

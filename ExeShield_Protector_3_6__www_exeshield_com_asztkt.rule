@@ -1,9 +1,0 @@
-rule _ExeShield_Protector_3_6__www_exeshield_com_asztkt
-{
-	meta:
-		description = "ExeShield Protector 3_6 __ www_exeshield_com"
-	strings:
-		$a = {B8??????005064FF35000000006489250000000033C089085045436F6D706163743200CE1E42AFF8D6CC}
-	condition:
-		all of them
-}

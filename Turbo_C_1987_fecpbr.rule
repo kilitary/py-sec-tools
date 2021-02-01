@@ -1,9 +1,0 @@
-rule _Turbo_C_1987_fecpbr
-{
-	meta:
-		description = "Turbo C 1987"
-	strings:
-		$a = {FBBA????2E89??????B430CD21}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule UPX_v0_89_6__v1_02_v1_05__v1_22_dumdrn
-{
-	meta:
-		description = "UPX v0_89_6 _ v1_02  v1_05 _ v1_22"
-	strings:
-		$a = {01DB??078B1E83EEFC11DB??EDB80100000001DB??078B1E83EEFC11DB11C001DB73??75}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _PseudoSigner_0_2_MEW_11_SE_1_0_isabif
-{
-	meta:
-		description = "_ PseudoSigner 0_2 _MEW 11 SE 1_0"
-	strings:
-		$a = {E909000000000000020000000C90}
-	condition:
-		all of them
-}

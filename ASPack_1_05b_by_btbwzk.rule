@@ -1,9 +1,0 @@
-rule _ASPack_1_05b_by_btbwzk
-{
-	meta:
-		description = "ASPack 1_05b by"
-	strings:
-		$a = {7500E9}
-	condition:
-		all of them
-}

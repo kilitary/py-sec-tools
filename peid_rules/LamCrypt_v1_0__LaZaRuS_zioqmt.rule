@@ -1,0 +1,9 @@
+rule _LamCrypt_v1_0__LaZaRuS_zioqmt
+{
+	meta:
+		description = "LamCrypt v1_0 __ LaZaRuS"
+	strings:
+		$a = {60669CBB00????0080B300104000904B83FBFF75F3669D61B8}
+	condition:
+		all of them
+}

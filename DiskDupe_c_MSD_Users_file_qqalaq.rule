@@ -1,9 +1,0 @@
-rule DiskDupe_c_MSD_Users_file_qqalaq
-{
-	meta:
-		description = "DiskDupe _c_ MSD Users file"
-	strings:
-		$a = {4D53442055736572732056657273696F6E}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule ASPAck_1_061b_miwwla
-{
-	meta:
-		description = "ASPAck 1_061b"
-	strings:
-		$a = {90907500E9}
-	condition:
-		all of them
-}

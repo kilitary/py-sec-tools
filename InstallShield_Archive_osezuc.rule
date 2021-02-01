@@ -1,9 +1,0 @@
-rule InstallShield_Archive_osezuc
-{
-	meta:
-		description = "InstallShield Archive"
-	strings:
-		$a = {2AAB79D8}
-	condition:
-		all of them
-}

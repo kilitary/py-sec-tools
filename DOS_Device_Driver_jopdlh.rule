@@ -1,9 +1,0 @@
-rule DOS_Device_Driver_jopdlh
-{
-	meta:
-		description = "DOS Device Driver"
-	strings:
-		$a = {FFFFFFFF}
-	condition:
-		all of them
-}

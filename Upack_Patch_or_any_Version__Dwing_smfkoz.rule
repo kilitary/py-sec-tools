@@ -1,9 +1,0 @@
-rule _Upack_Patch_or_any_Version__Dwing_smfkoz
-{
-	meta:
-		description = "Upack_Patch or any Version __ Dwing"
-	strings:
-		$a = {60E809000000??????00E90602}
-	condition:
-		all of them
-}

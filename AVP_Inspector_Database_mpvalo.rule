@@ -1,9 +1,0 @@
-rule AVP_Inspector_Database_mpvalo
-{
-	meta:
-		description = "AVP Inspector Database"
-	strings:
-		$a = {47686F737420427573746572}
-	condition:
-		all of them
-}

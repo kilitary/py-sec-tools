@@ -1,9 +1,0 @@
-rule Wicat_GED_Graphics_format_adsmzr
-{
-	meta:
-		description = "Wicat GED Graphics format"
-	strings:
-		$a = {0D004000}
-	condition:
-		all of them
-}

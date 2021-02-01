@@ -1,9 +1,0 @@
-rule ASPack_v1_00b_vdftix
-{
-	meta:
-		description = "ASPack v1_00b"
-	strings:
-		$a = {60E8????????5D81ED921A44??B88C1A44??03C52B85CD1D44??8985D91D44??80BDC41D44}
-	condition:
-		all of them
-}

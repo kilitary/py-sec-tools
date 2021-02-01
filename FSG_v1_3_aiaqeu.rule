@@ -1,9 +1,0 @@
-rule FSG_v1_3_aiaqeu
-{
-	meta:
-		description = "FSG v1_3"
-	strings:
-		$a = {BEA4014000AD93AD97AD5696B280A4B680FF1373}
-	condition:
-		all of them
-}

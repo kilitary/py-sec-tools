@@ -1,0 +1,9 @@
+rule _E2C_by_DoP_mjoprz
+{
+	meta:
+		description = "E2C by DoP"
+	strings:
+		$a = {BE????BF????B9????FC57F3A5C3}
+	condition:
+		all of them
+}

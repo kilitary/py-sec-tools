@@ -1,0 +1,9 @@
+rule _Exe_Shield_v2_7b_zomoub
+{
+	meta:
+		description = "Exe Shield v2_7b"
+	strings:
+		$a = {03DEEB01F8B880??4200EB02CD206817A0B3ABEB01E8590FB6DB680BA1B3}
+	condition:
+		all of them
+}

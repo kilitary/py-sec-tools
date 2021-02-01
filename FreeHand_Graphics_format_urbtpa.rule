@@ -1,9 +1,0 @@
-rule FreeHand_Graphics_format_urbtpa
-{
-	meta:
-		description = "FreeHand Graphics format"
-	strings:
-		$a = {41474432}
-	condition:
-		all of them
-}

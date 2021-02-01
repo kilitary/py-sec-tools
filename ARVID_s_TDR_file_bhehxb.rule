@@ -1,9 +1,0 @@
-rule ARVID_s_TDR_file_bhehxb
-{
-	meta:
-		description = "ARVID_s TDR file"
-	strings:
-		$a = {74000000}
-	condition:
-		all of them
-}

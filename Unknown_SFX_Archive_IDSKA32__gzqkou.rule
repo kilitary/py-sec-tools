@@ -1,9 +1,0 @@
-rule _Unknown_SFX_Archive_IDSKA32__gzqkou
-{
-	meta:
-		description = "Unknown SFX Archive _IDSKA32_"
-	strings:
-		$a = {6964736B613332}
-	condition:
-		all of them
-}

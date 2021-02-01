@@ -1,0 +1,9 @@
+rule _Safeguard_1_03__Simonzh_ysigrn
+{
+	meta:
+		description = "Safeguard 1_03 __ Simonzh"
+	strings:
+		$a = {E8??000000}
+	condition:
+		all of them
+}

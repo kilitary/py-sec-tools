@@ -1,9 +1,0 @@
-rule The_aPE_Inline_Patch_Basic_Advanced_Stealth__jpggta
-{
-	meta:
-		description = "The aPE Inline Patch Basic_ Advanced_ Stealth_"
-	strings:
-		$a = {B9??????00E8????0000890168}
-	condition:
-		all of them
-}

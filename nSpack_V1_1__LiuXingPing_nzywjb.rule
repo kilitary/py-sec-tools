@@ -1,9 +1,0 @@
-rule _nSpack_V1_1__LiuXingPing_nzywjb
-{
-	meta:
-		description = "nSpack V1_1 __ LiuXingPing"
-	strings:
-		$a = {9C60E8000000005DB8578440002D50844000}
-	condition:
-		all of them
-}

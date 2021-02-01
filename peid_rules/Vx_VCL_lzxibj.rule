@@ -1,0 +1,9 @@
+rule _Vx_VCL_lzxibj
+{
+	meta:
+		description = "Vx_ VCL"
+	strings:
+		$a = {01B9????8135????4747E2F8C3}
+	condition:
+		all of them
+}

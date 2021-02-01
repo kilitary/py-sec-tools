@@ -1,9 +1,0 @@
-rule nbuild_v1_0_soft_drbjen
-{
-	meta:
-		description = "nbuild v1_0 _soft"
-	strings:
-		$a = {B9????BB????C0????80????43E2}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _Joiner_sign_from_pinch_25_03_2007_20_10__xnryap
-{
-	meta:
-		description = "Joiner _sign from pinch 25_03_2007 20_10_"
-	strings:
-		$a = {81EC040100008BF46804010000566A00E87C01000033C06A0068800000006A036A006A00680000008056E8500100008BD86A006A006A006A026A0053E84401}
-	condition:
-		all of them
-}

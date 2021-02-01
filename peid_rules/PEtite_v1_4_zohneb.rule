@@ -1,0 +1,9 @@
+rule _PEtite_v1_4_zohneb
+{
+	meta:
+		description = "PEtite v1_4"
+	strings:
+		$a = {????????59F3A583C8FF8BDFAB40AB40}
+	condition:
+		all of them
+}

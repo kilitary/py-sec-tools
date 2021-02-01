@@ -1,9 +1,0 @@
-rule Pelles_C_2_90_3_00_4_00_DLL_X86_CRT_LIB__nocujy
-{
-	meta:
-		description = "Pelles C 2_90_ 3_00_ 4_00 DLL _X86 CRT_LIB_"
-	strings:
-		$a = {5589E55356578B5D0C8B7510BF0100000085DB7510833D????????00750731C0E9????????83FB01740583FB0275??85FF74}
-	condition:
-		all of them
-}

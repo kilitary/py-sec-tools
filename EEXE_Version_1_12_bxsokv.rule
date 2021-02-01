@@ -1,9 +1,0 @@
-rule EEXE_Version_1_12_bxsokv
-{
-	meta:
-		description = "EEXE Version 1_12"
-	strings:
-		$a = {B430CD213C0373??BA1F000E1FB409CD21B8FF4CCD21}
-	condition:
-		all of them
-}

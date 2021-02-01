@@ -1,9 +1,0 @@
-rule tElock_v0_92a_pdfhnl
-{
-	meta:
-		description = "tElock v0_92a"
-	strings:
-		$a = {E97EE9FFFF00}
-	condition:
-		all of them
-}

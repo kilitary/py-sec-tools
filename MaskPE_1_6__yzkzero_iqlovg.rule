@@ -1,9 +1,0 @@
-rule MaskPE_1_6__yzkzero_iqlovg
-{
-	meta:
-		description = "MaskPE 1_6 __ yzkzero"
-	strings:
-		$a = {36812C24??????00C360}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _Shrinker_3_4_zzjjws
-{
-	meta:
-		description = "Shrinker 3_4"
-	strings:
-		$a = {558BEC5657756B6800010000E8110B000083C404}
-	condition:
-		all of them
-}

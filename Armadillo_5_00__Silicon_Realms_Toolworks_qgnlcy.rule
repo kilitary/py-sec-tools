@@ -1,9 +1,0 @@
-rule _Armadillo_5_00__Silicon_Realms_Toolworks_qgnlcy
-{
-	meta:
-		description = "Armadillo 5_00 __ Silicon Realms Toolworks"
-	strings:
-		$a = {E8E3400000E916FEFFFF6A0C68????????E8441500008B4D0833FF3BCF762E6AE05833D2F7F13B450C1BC040751FE836130000C7000C0000005757575757E8C712000083C41433C0E9D50000000FAF4D0C8BF18975}
-	condition:
-		all of them
-}

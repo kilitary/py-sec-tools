@@ -1,0 +1,9 @@
+rule _WARNING__TROJAN__XiaoHui_hgvygq
+{
+	meta:
+		description = "WARNING __ TROJAN __ XiaoHui"
+	strings:
+		$a = {609CE8000000005DB8??8540002D??854000}
+	condition:
+		all of them
+}

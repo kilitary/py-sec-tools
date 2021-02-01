@@ -1,9 +1,0 @@
-rule _CubiComp_PictureMaker_graphics_format_red__vnpmxw
-{
-	meta:
-		description = "CubiComp PictureMaker graphics format _red_"
-	strings:
-		$a = {160CFF0200000000}
-	condition:
-		all of them
-}

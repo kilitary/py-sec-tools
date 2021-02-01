@@ -1,0 +1,9 @@
+rule _Unknown_packer_07__neexsm
+{
+	meta:
+		description = "Unknown packer _07_"
+	strings:
+		$a = {8CC805????50B8????50B0??068CD20683}
+	condition:
+		all of them
+}

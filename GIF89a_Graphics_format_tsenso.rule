@@ -1,9 +1,0 @@
-rule _GIF89a_Graphics_format_tsenso
-{
-	meta:
-		description = "GIF89a Graphics format"
-	strings:
-		$a = {474946383961}
-	condition:
-		all of them
-}

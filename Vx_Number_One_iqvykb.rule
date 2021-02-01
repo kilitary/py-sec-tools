@@ -1,9 +1,0 @@
-rule _Vx_Number_One_iqvykb
-{
-	meta:
-		description = "Vx_ Number One"
-	strings:
-		$a = {F9073C536D696C653EE8}
-	condition:
-		all of them
-}

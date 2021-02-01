@@ -1,0 +1,9 @@
+rule _RCryptor_v1_6__Vaska_hmhwrs
+{
+	meta:
+		description = "RCryptor v1_6 __ Vaska"
+	strings:
+		$a = {33D068????????FFD2}
+	condition:
+		all of them
+}

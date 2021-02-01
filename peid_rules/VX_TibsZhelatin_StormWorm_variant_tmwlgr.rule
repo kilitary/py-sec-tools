@@ -1,0 +1,9 @@
+rule _VX_TibsZhelatin_StormWorm_variant_tmwlgr
+{
+	meta:
+		description = "VX_ TibsZhelatin _StormWorm_ variant"
+	strings:
+		$a = {FF74241C588D80????7704506862343504E8}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule _FIZ_Archive_qbunef
-{
-	meta:
-		description = "FIZ Archive"
-	strings:
-		$a = {46495A1A01}
-	condition:
-		all of them
-}

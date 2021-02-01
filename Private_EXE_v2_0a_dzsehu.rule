@@ -1,9 +1,0 @@
-rule _Private_EXE_v2_0a_dzsehu
-{
-	meta:
-		description = "Private EXE v2_0a"
-	strings:
-		$a = {53E8????????5B8BC32D}
-	condition:
-		all of them
-}

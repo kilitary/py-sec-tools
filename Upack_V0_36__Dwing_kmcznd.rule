@@ -1,9 +1,0 @@
-rule Upack_V0_36__Dwing_kmcznd
-{
-	meta:
-		description = "Upack V0_36 __ Dwing"
-	strings:
-		$a = {BE????????FF36E9C3000000}
-	condition:
-		all of them
-}

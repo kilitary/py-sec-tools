@@ -1,9 +1,0 @@
-rule TXT2COM_utlhqj
-{
-	meta:
-		description = "TXT2COM"
-	strings:
-		$a = {E8????CD20}
-	condition:
-		all of them
-}

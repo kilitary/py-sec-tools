@@ -1,0 +1,9 @@
+rule _Exe_Guarder_v1_8__Exeicon_com_h__drwvpy
+{
+	meta:
+		description = "Exe Guarder v1_8 __ Exeicon_com _h_"
+	strings:
+		$a = {558BEC83C4C053565733C08945F08945EC8945C0E85B73FFFFE8D687FFFFE8C5A9FFFFE8E0}
+	condition:
+		all of them
+}

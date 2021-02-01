@@ -1,9 +1,0 @@
-rule PureBasic_4_x_DLL__Neil_Hodgson_zvspom
-{
-	meta:
-		description = "PureBasic 4_x DLL __ Neil Hodgson"
-	strings:
-		$a = {837C240801750E8B442404A3??????10E822000000837C2408027500837C2408007505E8??000000837C2408037500B801000000C20C00680000000068001000006800000000E8??0F0000A3}
-	condition:
-		all of them
-}

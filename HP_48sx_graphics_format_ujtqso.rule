@@ -1,9 +1,0 @@
-rule HP_48sx_graphics_format_ujtqso
-{
-	meta:
-		description = "HP_48sx graphics format"
-	strings:
-		$a = {4850485034382D41}
-	condition:
-		all of them
-}

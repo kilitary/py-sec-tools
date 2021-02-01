@@ -1,9 +1,0 @@
-rule Microsoft_Bitmap_Graphics_format_asprlk
-{
-	meta:
-		description = "Microsoft Bitmap Graphics format"
-	strings:
-		$a = {01000900}
-	condition:
-		all of them
-}

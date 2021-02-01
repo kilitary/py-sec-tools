@@ -1,9 +1,0 @@
-rule _Microsoft_Windows_Shortcut_file_bvbqfk
-{
-	meta:
-		description = "Microsoft Windows Shortcut file"
-	strings:
-		$a = {4C000000011402000000}
-	condition:
-		all of them
-}

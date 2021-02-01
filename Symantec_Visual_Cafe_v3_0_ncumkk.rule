@@ -1,9 +1,0 @@
-rule Symantec_Visual_Cafe_v3_0_ncumkk
-{
-	meta:
-		description = "Symantec Visual Cafe v3_0"
-	strings:
-		$a = {53FF15??????00B3223818740380C3FE8A48014033D23ACA740A3ACB74068A480140EBF23810740140????????FF15}
-	condition:
-		all of them
-}

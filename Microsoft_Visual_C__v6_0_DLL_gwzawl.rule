@@ -1,9 +1,0 @@
-rule Microsoft_Visual_C__v6_0_DLL_gwzawl
-{
-	meta:
-		description = "Microsoft Visual C__ v6_0 DLL"
-	strings:
-		$a = {558D6C????81EC????????8B45??83F801560F84????????85C00F84}
-	condition:
-		all of them
-}

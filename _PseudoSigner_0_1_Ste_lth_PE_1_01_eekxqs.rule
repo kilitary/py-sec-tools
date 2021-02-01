@@ -1,9 +1,0 @@
-rule _PseudoSigner_0_1_Ste_lth_PE_1_01_eekxqs
-{
-	meta:
-		description = "_ PseudoSigner 0_1 _Ste_lth PE 1_01"
-	strings:
-		$a = {0BC00BC00BC00BC00BC00BC00BC00BC0BA????????FFE2BAE0104000B868241A40890283C203B84000E8EE890283C2FDFFE22D3D5B20486964655045205D3D2D90000000}
-	condition:
-		all of them
-}

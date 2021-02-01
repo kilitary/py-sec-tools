@@ -1,9 +1,0 @@
-rule Hyper_Archive_uomhoi
-{
-	meta:
-		description = "Hyper Archive"
-	strings:
-		$a = {1A5354}
-	condition:
-		all of them
-}

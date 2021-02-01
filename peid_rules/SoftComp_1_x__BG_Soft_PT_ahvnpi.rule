@@ -1,0 +1,9 @@
+rule _SoftComp_1_x__BG_Soft_PT_ahvnpi
+{
+	meta:
+		description = "SoftComp 1_x __ BG Soft PT"
+	strings:
+		$a = {E800000000812C243A1041005DE800000000812C24310100008B852A0F41002904248B042489852A0F4100588B852A0F4100}
+	condition:
+		all of them
+}

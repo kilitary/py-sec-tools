@@ -1,0 +1,9 @@
+rule _Microsoft_R_Incremental_Linker_Version_5_12_8078_MASMTASM__xjfjlm
+{
+	meta:
+		description = "Microsoft _R_ Incremental Linker Version 5_12_8078 _MASMTASM_"
+	strings:
+		$a = {6A006800304000681E3040006A00E80D0000006A00E800000000FF2500204000FF25082040}
+	condition:
+		all of them
+}

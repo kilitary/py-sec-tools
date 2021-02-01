@@ -1,9 +1,0 @@
-rule _InstallShield_Cabinet_Archive_hgokvs
-{
-	meta:
-		description = "InstallShield Cabinet Archive"
-	strings:
-		$a = {495363}
-	condition:
-		all of them
-}

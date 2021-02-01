@@ -1,9 +1,0 @@
-rule LZEXE_v0_91_v1_00a_2__mmfkfp
-{
-	meta:
-		description = "LZEXE v0_91_ v1_00a _2_"
-	strings:
-		$a = {BF????0689F90E411F8CCB89FE}
-	condition:
-		all of them
-}

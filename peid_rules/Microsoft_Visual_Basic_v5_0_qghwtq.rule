@@ -1,0 +1,9 @@
+rule _Microsoft_Visual_Basic_v5_0_qghwtq
+{
+	meta:
+		description = "Microsoft Visual Basic v5_0"
+	strings:
+		$a = {68????????E8????????00000000000030000000}
+	condition:
+		all of them
+}

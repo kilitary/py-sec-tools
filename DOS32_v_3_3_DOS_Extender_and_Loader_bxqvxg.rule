@@ -1,9 +1,0 @@
-rule DOS32_v_3_3_DOS_Extender_and_Loader_bxqvxg
-{
-	meta:
-		description = "DOS32 v_3_3 DOS_Extender and Loader"
-	strings:
-		$a = {0E1FFC9C5B8BC380F4??509D9C583AE775??BA????B409CD21B44CCD21}
-	condition:
-		all of them
-}

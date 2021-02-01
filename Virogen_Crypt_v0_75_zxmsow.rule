@@ -1,9 +1,0 @@
-rule Virogen_Crypt_v0_75_zxmsow
-{
-	meta:
-		description = "Virogen Crypt v0_75"
-	strings:
-		$a = {9C55E8EC00000087D55D6087D580BD1527400001}
-	condition:
-		all of them
-}

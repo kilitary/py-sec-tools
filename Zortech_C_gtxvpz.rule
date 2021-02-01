@@ -1,9 +1,0 @@
-rule Zortech_C_gtxvpz
-{
-	meta:
-		description = "Zortech C"
-	strings:
-		$a = {E8????2EFF??????FC06}
-	condition:
-		all of them
-}

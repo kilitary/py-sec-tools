@@ -1,9 +1,0 @@
-rule _EXE2COM_With_CRC_check__jtilkc
-{
-	meta:
-		description = "EXE2COM _With CRC check_"
-	strings:
-		$a = {B3??B9????33D2BE????8BFEAC32C3AA434932E403D0E3}
-	condition:
-		all of them
-}

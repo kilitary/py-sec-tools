@@ -1,9 +1,0 @@
-rule _TrueType_Font_file_trvvil
-{
-	meta:
-		description = "TrueType Font file"
-	strings:
-		$a = {00010000????????????????4F532F32}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule UPX_0_72_fujxae
-{
-	meta:
-		description = "UPX 0_72"
-	strings:
-		$a = {60E80000000083CDFF31DB5E}
-	condition:
-		all of them
-}

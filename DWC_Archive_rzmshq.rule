@@ -1,9 +1,0 @@
-rule DWC_Archive_rzmshq
-{
-	meta:
-		description = "DWC Archive"
-	strings:
-		$a = {445743}
-	condition:
-		all of them
-}

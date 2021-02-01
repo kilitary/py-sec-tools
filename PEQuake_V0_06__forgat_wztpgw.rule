@@ -1,9 +1,0 @@
-rule _PEQuake_V0_06__forgat_wztpgw
-{
-	meta:
-		description = "PEQuake V0_06 __ forgat"
-	strings:
-		$a = {E8A5000000}
-	condition:
-		all of them
-}

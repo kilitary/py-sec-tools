@@ -1,9 +1,0 @@
-rule Microsoft_Visual_C__6_0__8_0_hxrhue
-{
-	meta:
-		description = "Microsoft Visual C__ 6_0 _ 8_0"
-	strings:
-		$a = {3D00100000730EF7D803C483C0048500948B0050C3518D4C240881E9001000002D0010000085013D0010000073EC2BC88BC485018BE18B088B400450C3}
-	condition:
-		all of them
-}

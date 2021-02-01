@@ -1,0 +1,9 @@
+rule _DalKrypt_1_0__by_DalKiT_mbygyh
+{
+	meta:
+		description = "DalKrypt 1_0 _ by DalKiT"
+	strings:
+		$a = {68001040005868??????005F33DBEB0D8A140380EA0780F2048814034381FB??????0072EBFFE7}
+	condition:
+		all of them
+}

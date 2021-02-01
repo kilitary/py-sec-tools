@@ -1,9 +1,0 @@
-rule _PseudoSigner_0_1_Armadillo_3_00_oitlvh
-{
-	meta:
-		description = "_ PseudoSigner 0_1 _Armadillo 3_00"
-	strings:
-		$a = {60E82A0000005D5051EB0FB9EB0FB8EB07B9EB0F90EB08FDEB0BF2EBF5EBF6F2EB08FDEBE9F3EBE4FCE959585051EB85E9}
-	condition:
-		all of them
-}

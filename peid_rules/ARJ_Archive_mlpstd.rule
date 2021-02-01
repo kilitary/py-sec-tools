@@ -1,0 +1,9 @@
+rule _ARJ_Archive_mlpstd
+{
+	meta:
+		description = "ARJ Archive"
+	strings:
+		$a = {60EA}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule CC_v2_61_Beta_wpvwjj
-{
-	meta:
-		description = "CC v2_61 Beta"
-	strings:
-		$a = {BA????B430CD213C0273??33C00650CB}
-	condition:
-		all of them
-}

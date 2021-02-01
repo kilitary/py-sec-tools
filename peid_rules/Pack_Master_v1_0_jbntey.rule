@@ -1,0 +1,9 @@
+rule _Pack_Master_v1_0_jbntey
+{
+	meta:
+		description = "Pack Master v1_0"
+	strings:
+		$a = {60E801????????83C404E801????????5D81}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule Turbo_Basic_v1_0_1987_dsiite
-{
-	meta:
-		description = "Turbo Basic v1_0 1987"
-	strings:
-		$a = {2E8C??????2EC7}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule VProtector_V1_1__vcasm_znwctf
-{
-	meta:
-		description = "VProtector V1_1 __ vcasm"
-	strings:
-		$a = {B81AED4100B9ECEB41005051E874000000E8516A00005883E810B9B3000000}
-	condition:
-		all of them
-}

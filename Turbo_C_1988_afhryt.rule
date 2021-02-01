@@ -1,9 +1,0 @@
-rule Turbo_C_1988_afhryt
-{
-	meta:
-		description = "Turbo C 1988"
-	strings:
-		$a = {8CD8BB????8EDB8CD38BCCFA8E??????BC}
-	condition:
-		all of them
-}

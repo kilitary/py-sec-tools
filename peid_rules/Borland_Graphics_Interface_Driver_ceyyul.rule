@@ -1,0 +1,9 @@
+rule _Borland_Graphics_Interface_Driver_ceyyul
+{
+	meta:
+		description = "Borland Graphics Interface Driver"
+	strings:
+		$a = {46424744}
+	condition:
+		all of them
+}

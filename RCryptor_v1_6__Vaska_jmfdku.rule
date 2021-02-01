@@ -1,9 +1,0 @@
-rule RCryptor_v1_6__Vaska_jmfdku
-{
-	meta:
-		description = "RCryptor v1_6 __ Vaska"
-	strings:
-		$a = {33D068????????FFD2}
-	condition:
-		all of them
-}

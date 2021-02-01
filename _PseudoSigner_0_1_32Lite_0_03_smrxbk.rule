@@ -1,9 +1,0 @@
-rule _PseudoSigner_0_1_32Lite_0_03_smrxbk
-{
-	meta:
-		description = "_ PseudoSigner 0_1 _32Lite 0_03"
-	strings:
-		$a = {6006FC1E07BE909090906A04689010909068????????E9}
-	condition:
-		all of them
-}

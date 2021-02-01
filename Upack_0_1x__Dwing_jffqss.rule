@@ -1,9 +1,0 @@
-rule _Upack_0_1x__Dwing_jffqss
-{
-	meta:
-		description = "Upack 0_1x __ Dwing"
-	strings:
-		$a = {BE48014000AD8BF8}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Packman_0_0_0_1__bubba_xbzuks
-{
-	meta:
-		description = "Packman 0_0_0_1 __ bubba"
-	strings:
-		$a = {60E800000000588DA8??FEFFFF8D98??????FF8D????010000}
-	condition:
-		all of them
-}

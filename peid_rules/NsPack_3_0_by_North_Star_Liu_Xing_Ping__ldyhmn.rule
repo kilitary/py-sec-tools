@@ -1,0 +1,9 @@
+rule _NsPack_3_0_by_North_Star_Liu_Xing_Ping__ldyhmn
+{
+	meta:
+		description = "NsPack 3_0 by North Star _Liu Xing Ping_"
+	strings:
+		$a = {9C60E8000000005DB8070000002BE88DB555F9FFFF668B066683F80074158BF58DB57DF9FFFF668B066683F8010F8442020000C606018BD52B9511F9FFFF8995}
+	condition:
+		all of them
+}

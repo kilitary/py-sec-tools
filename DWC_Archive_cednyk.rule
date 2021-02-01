@@ -1,9 +1,0 @@
-rule DWC_Archive_cednyk
-{
-	meta:
-		description = "DWC Archive"
-	strings:
-		$a = {445743}
-	condition:
-		all of them
-}

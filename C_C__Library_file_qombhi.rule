@@ -1,9 +1,0 @@
-rule C_C__Library_file_qombhi
-{
-	meta:
-		description = "C_ C__ Library file"
-	strings:
-		$a = {F00D0000}
-	condition:
-		all of them
-}

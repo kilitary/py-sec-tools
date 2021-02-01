@@ -1,9 +1,0 @@
-rule PECompact_2_x_beta_version__Jeremy_Collake_msqesg
-{
-	meta:
-		description = "PECompact 2_x _beta version_ __Jeremy Collake"
-	strings:
-		$a = {B8??????0080002840}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Turbo_Pascal_v6_0_Unit_jzbyuj
-{
-	meta:
-		description = "Turbo Pascal v6_0 Unit"
-	strings:
-		$a = {5450553900}
-	condition:
-		all of them
-}

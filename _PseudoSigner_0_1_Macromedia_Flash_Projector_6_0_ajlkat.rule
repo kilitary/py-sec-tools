@@ -1,9 +1,0 @@
-rule _PseudoSigner_0_1_Macromedia_Flash_Projector_6_0_ajlkat
-{
-	meta:
-		description = "_ PseudoSigner 0_1 _Macromedia Flash Projector 6_0"
-	strings:
-		$a = {9090909068????????6764FF360000676489260000F19090909083EC4456FF15248149008BF08A063C22751C8A4601463C22740C84C074088A4601463C2275F4803E22750F46EB0CE9}
-	condition:
-		all of them
-}

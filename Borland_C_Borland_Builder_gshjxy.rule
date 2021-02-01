@@ -1,9 +1,0 @@
-rule Borland_C_Borland_Builder_gshjxy
-{
-	meta:
-		description = "Borland C  Borland Builder"
-	strings:
-		$a = {3BCF76052BCFFCF3AA59}
-	condition:
-		all of them
-}

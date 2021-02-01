@@ -1,9 +1,0 @@
-rule FSG_v1_1_xqfivz
-{
-	meta:
-		description = "FSG v1_1"
-	strings:
-		$a = {BBD00140??BF??1040??BE}
-	condition:
-		all of them
-}

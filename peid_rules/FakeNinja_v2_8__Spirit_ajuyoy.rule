@@ -1,0 +1,9 @@
+rule _FakeNinja_v2_8__Spirit_ajuyoy
+{
+	meta:
+		description = "FakeNinja v2_8 __ Spirit"
+	strings:
+		$a = {BA????????FFE264114000FF3584114000E840}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule _NextSun_Audio_file_nnlsje
-{
-	meta:
-		description = "NextSun Audio file"
-	strings:
-		$a = {2E736E64}
-	condition:
-		all of them
-}

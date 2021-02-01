@@ -1,9 +1,0 @@
-rule Werus_Crypter_1_0__by_Kas_nawhbd
-{
-	meta:
-		description = "Werus Crypter 1_0 _ by Kas"
-	strings:
-		$a = {BBE8124000803305E97DFFFFFF}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _SoftSentry_v2_11_prbkiz
+{
+	meta:
+		description = "SoftSentry v2_11"
+	strings:
+		$a = {558BEC83EC??535657E950}
+	condition:
+		all of them
+}

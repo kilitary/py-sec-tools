@@ -1,9 +1,0 @@
-rule SMK_movie_file_jvqoap
-{
-	meta:
-		description = "SMK movie file"
-	strings:
-		$a = {534D4B32}
-	condition:
-		all of them
-}

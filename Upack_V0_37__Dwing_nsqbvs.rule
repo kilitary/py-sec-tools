@@ -1,9 +1,0 @@
-rule _Upack_V0_37__Dwing_nsqbvs
-{
-	meta:
-		description = "Upack V0_37 __ Dwing"
-	strings:
-		$a = {BE????????AD50FF????EB}
-	condition:
-		all of them
-}

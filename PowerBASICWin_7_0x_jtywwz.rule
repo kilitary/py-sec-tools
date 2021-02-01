@@ -1,9 +1,0 @@
-rule _PowerBASICWin_7_0x_jtywwz
-{
-	meta:
-		description = "PowerBASICWin 7_0x"
-	strings:
-		$a = {558BEC535657BB00??4000662EF705????400004000F85DB000000}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _Obsidium_v1_0_0_59_Final_rbxtuu
-{
-	meta:
-		description = "Obsidium v1_0_0_59 Final"
-	strings:
-		$a = {E8AB1C}
-	condition:
-		all of them
-}

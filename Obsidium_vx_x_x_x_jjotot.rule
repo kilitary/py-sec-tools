@@ -1,9 +1,0 @@
-rule Obsidium_vx_x_x_x_jjotot
-{
-	meta:
-		description = "Obsidium vx_x_x_x"
-	strings:
-		$a = {E84719}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule PCIENC_Cryptor_okckeg
-{
-	meta:
-		description = "PCIENC Cryptor"
-	strings:
-		$a = {06504349454E}
-	condition:
-		all of them
-}

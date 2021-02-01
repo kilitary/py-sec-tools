@@ -1,9 +1,0 @@
-rule tElock_v0_71b2_rgqyqf
-{
-	meta:
-		description = "tElock v0_71b2"
-	strings:
-		$a = {60E844110000C383}
-	condition:
-		all of them
-}

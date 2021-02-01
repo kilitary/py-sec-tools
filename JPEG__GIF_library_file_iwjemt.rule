@@ -1,9 +1,0 @@
-rule JPEG__GIF_library_file_iwjemt
-{
-	meta:
-		description = "JPEG _ GIF library file"
-	strings:
-		$a = {0005160700020000}
-	condition:
-		all of them
-}

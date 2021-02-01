@@ -1,9 +1,0 @@
-rule _Micrografix_Draw_Graphics_format_vocowk
-{
-	meta:
-		description = "Micrografix Draw Graphics format"
-	strings:
-		$a = {01FF020403020002}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule WarWind_Save_file_ayakqt
-{
-	meta:
-		description = "WarWind Save file"
-	strings:
-		$a = {574152534156}
-	condition:
-		all of them
-}

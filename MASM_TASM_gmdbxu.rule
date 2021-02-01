@@ -1,9 +1,0 @@
-rule MASM_TASM_gmdbxu
-{
-	meta:
-		description = "MASM  TASM"
-	strings:
-		$a = {6A00E8??0?0000A3??324000E8??0?0000}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule WordPerfect_Graphics_format_xpabwj
-{
-	meta:
-		description = "WordPerfect Graphics format"
-	strings:
-		$a = {FF57504310000000}
-	condition:
-		all of them
-}

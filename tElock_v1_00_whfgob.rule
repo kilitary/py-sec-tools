@@ -1,9 +1,0 @@
-rule tElock_v1_00_whfgob
-{
-	meta:
-		description = "tElock v1_00"
-	strings:
-		$a = {E9E5E2FFFF}
-	condition:
-		all of them
-}

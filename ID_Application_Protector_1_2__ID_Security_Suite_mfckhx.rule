@@ -1,9 +1,0 @@
-rule ID_Application_Protector_1_2__ID_Security_Suite_mfckhx
-{
-	meta:
-		description = "ID Application Protector 1_2 __ ID Security Suite"
-	strings:
-		$a = {60E8000000005D81EDF20B4700B91922470081E9EA0E470089EA81C2EA0E47008D3A89FE31C0E9D3020000CCCCCCCCE9CA020000433A5C57696E646F77735C536F66745761726550726F746563746F725C}
-	condition:
-		all of them
-}

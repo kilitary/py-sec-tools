@@ -1,9 +1,0 @@
-rule _RAR_Configuration_file_budrhu
-{
-	meta:
-		description = "RAR Configuration file"
-	strings:
-		$a = {52415220434F4E464947}
-	condition:
-		all of them
-}

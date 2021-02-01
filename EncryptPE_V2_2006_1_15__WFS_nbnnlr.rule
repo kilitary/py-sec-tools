@@ -1,9 +1,0 @@
-rule EncryptPE_V2_2006_1_15__WFS_nbnnlr
-{
-	meta:
-		description = "EncryptPE V2_2006_1_15 __ WFS"
-	strings:
-		$a = {4550453A20456E637279707450452056322E323030362E312E3135}
-	condition:
-		all of them
-}

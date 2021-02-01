@@ -1,9 +1,0 @@
-rule Img_Software_Set_graphics_file_oaczqv
-{
-	meta:
-		description = "Img Software Set graphics file"
-	strings:
-		$a = {53434D49202020314154}
-	condition:
-		all of them
-}

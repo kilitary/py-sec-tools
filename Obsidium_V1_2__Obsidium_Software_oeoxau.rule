@@ -1,9 +1,0 @@
-rule Obsidium_V1_2__Obsidium_Software_oeoxau
-{
-	meta:
-		description = "Obsidium V1_2 __ Obsidium Software"
-	strings:
-		$a = {EB02????E8771E0000}
-	condition:
-		all of them
-}

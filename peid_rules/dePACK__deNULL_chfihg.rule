@@ -1,0 +1,9 @@
+rule _dePACK__deNULL_chfihg
+{
+	meta:
+		description = "dePACK __ deNULL"
+	strings:
+		$a = {EB01DD606800??????68??????00E8??000000}
+	condition:
+		all of them
+}

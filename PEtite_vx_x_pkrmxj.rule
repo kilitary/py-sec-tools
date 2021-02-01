@@ -1,9 +1,0 @@
-rule _PEtite_vx_x_pkrmxj
-{
-	meta:
-		description = "PEtite vx_x"
-	strings:
-		$a = {B8????????669C6050}
-	condition:
-		all of them
-}

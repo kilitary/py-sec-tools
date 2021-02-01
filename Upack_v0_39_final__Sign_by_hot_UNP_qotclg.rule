@@ -1,9 +1,0 @@
-rule _Upack_v0_39_final__Sign_by_hot_UNP_qotclg
-{
-	meta:
-		description = "Upack v0_39 final __ Sign by hot_UNP"
-	strings:
-		$a = {BEB011????AD50FF7634EB7C4801????0B014C6F61644C696272617279410000181000001000000000??????0000????00100000000200000400000000003900040000000000000000??????0002000000000000}
-	condition:
-		all of them
-}

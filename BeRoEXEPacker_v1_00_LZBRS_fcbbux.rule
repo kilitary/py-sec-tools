@@ -1,9 +1,0 @@
-rule BeRoEXEPacker_v1_00_LZBRS_fcbbux
-{
-	meta:
-		description = "BeRoEXEPacker v1_00 _LZBRS"
-	strings:
-		$a = {60BE????????BF????????FCAD8D1C07B0803BFB733BE81C0000007203A4EBF2E81A0000008D51FFE812000000568BF72BF2F3A45EEBDB02C07503AC12C0C333}
-	condition:
-		all of them
-}

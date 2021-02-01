@@ -1,9 +1,0 @@
-rule Dr_Web_Virus_Finding_Engine__InSoft_EDV_Systeme_bklafe
-{
-	meta:
-		description = "Dr_Web Virus_Finding Engine __ InSoft EDV_Systeme"
-	strings:
-		$a = {B801000000C20C008D80000000008BD28B??2404}
-	condition:
-		all of them
-}

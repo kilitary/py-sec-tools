@@ -1,9 +1,0 @@
-rule _Unknown_Packer__Northfox_xvnstq
-{
-	meta:
-		description = "Unknown Packer __ Northfox"
-	strings:
-		$a = {545968617A79}
-	condition:
-		all of them
-}

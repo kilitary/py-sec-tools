@@ -1,9 +1,0 @@
-rule RIX_graphics_file_tcmfyc
-{
-	meta:
-		description = "RIX graphics file"
-	strings:
-		$a = {52495833}
-	condition:
-		all of them
-}

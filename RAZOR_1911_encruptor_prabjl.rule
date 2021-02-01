@@ -1,9 +1,0 @@
-rule RAZOR_1911_encruptor_prabjl
-{
-	meta:
-		description = "RAZOR 1911 encruptor"
-	strings:
-		$a = {E8????BF????3BFC72??B44CCD21BE????B9????FDF3A5FC}
-	condition:
-		all of them
-}

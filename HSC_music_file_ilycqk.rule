@@ -1,9 +1,0 @@
-rule _HSC_music_file_ilycqk
-{
-	meta:
-		description = "HSC music file"
-	strings:
-		$a = {C8E20420}
-	condition:
-		all of them
-}

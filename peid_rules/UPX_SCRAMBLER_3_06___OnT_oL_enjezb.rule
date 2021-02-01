@@ -1,0 +1,9 @@
+rule _UPX_SCRAMBLER_3_06___OnT_oL_enjezb
+{
+	meta:
+		description = "UPX_SCRAMBLER 3_06 __ _OnT_oL"
+	strings:
+		$a = {E8000000005983C10751C3C3BE????????83EC04893424B9800000008136????????50B80400000050033424585883E903E2E9EBD6}
+	condition:
+		all of them
+}

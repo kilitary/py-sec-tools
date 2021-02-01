@@ -1,0 +1,9 @@
+rule _Windows_or_OS2_Graphics_format_qsktfw
+{
+	meta:
+		description = "Windows or OS2 Graphics format"
+	strings:
+		$a = {424D}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule _PPC_PROTECT_1_1X__Alexey_Gorchakov_aojdeg
+{
+	meta:
+		description = "PPC_PROTECT 1_1X __ Alexey Gorchakov"
+	strings:
+		$a = {FF5F2DE920009FE5000090E518008FE518009FE5000090E510008FE50100A0E3000000EB020000EA04F01FE5}
+	condition:
+		all of them
+}

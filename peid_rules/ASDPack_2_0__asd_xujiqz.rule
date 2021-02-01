@@ -1,0 +1,9 @@
+rule _ASDPack_2_0__asd_xujiqz
+{
+	meta:
+		description = "ASDPack 2_0 __ asd"
+	strings:
+		$a = {5B43837B74}
+	condition:
+		all of them
+}

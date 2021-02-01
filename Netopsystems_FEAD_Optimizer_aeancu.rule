@@ -1,9 +1,0 @@
-rule _Netopsystems_FEAD_Optimizer_aeancu
-{
-	meta:
-		description = "Netopsystems FEAD Optimizer"
-	strings:
-		$a = {E80000000058BB000040008B}
-	condition:
-		all of them
-}

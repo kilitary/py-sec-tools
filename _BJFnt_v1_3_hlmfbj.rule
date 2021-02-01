@@ -1,9 +1,0 @@
-rule _BJFnt_v1_3_hlmfbj
-{
-	meta:
-		description = "_BJFnt v1_3"
-	strings:
-		$a = {EB??3A????1EEB??CD209CEB??CD20EB??CD2060EB}
-	condition:
-		all of them
-}

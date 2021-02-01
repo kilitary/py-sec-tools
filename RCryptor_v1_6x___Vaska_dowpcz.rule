@@ -1,9 +1,0 @@
-rule _RCryptor_v1_6x___Vaska_dowpcz
-{
-	meta:
-		description = "RCryptor v1_6x ___ Vaska"
-	strings:
-		$a = {60906161807FF04590600F851B8B1FFF68????????C3}
-	condition:
-		all of them
-}

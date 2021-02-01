@@ -1,9 +1,0 @@
-rule DSHIELD_avhwcb
-{
-	meta:
-		description = "DSHIELD"
-	strings:
-		$a = {06E8????5E83EE??16179C58B9????25????2E}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _Mew_10_v1_0_Eng___Northfox_hersiu
+{
+	meta:
+		description = "Mew 10 v1_0 _Eng_ __ Northfox"
+	strings:
+		$a = {33C0E9??????FF}
+	condition:
+		all of them
+}

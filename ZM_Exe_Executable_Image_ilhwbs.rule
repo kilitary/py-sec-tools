@@ -1,9 +1,0 @@
-rule _ZM_Exe_Executable_Image_ilhwbs
-{
-	meta:
-		description = "ZM_Exe Executable Image"
-	strings:
-		$a = {5A4D}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _VITec_graphics_file_format_lcgzrq
-{
-	meta:
-		description = "VITec graphics file format"
-	strings:
-		$a = {005B07200000002C}
-	condition:
-		all of them
-}

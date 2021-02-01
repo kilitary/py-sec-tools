@@ -1,9 +1,0 @@
-rule LX_Exe_Executable_Image_xkrfap
-{
-	meta:
-		description = "LX_Exe Executable Image"
-	strings:
-		$a = {4C58}
-	condition:
-		all of them
-}

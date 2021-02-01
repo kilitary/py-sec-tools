@@ -1,9 +1,0 @@
-rule Borland_C__DLL_odvsds
-{
-	meta:
-		description = "Borland C__ DLL"
-	strings:
-		$a = {EB1066623A432B2B484F4F4B90}
-	condition:
-		all of them
-}

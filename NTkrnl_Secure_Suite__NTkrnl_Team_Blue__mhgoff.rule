@@ -1,9 +1,0 @@
-rule _NTkrnl_Secure_Suite__NTkrnl_Team_Blue__mhgoff
-{
-	meta:
-		description = "NTkrnl Secure Suite __ NTkrnl Team _Blue_"
-	strings:
-		$a = {6829194300E801000000C3C3A2A9614EA50EC7A659906E4D4CDB3646FB6EC445A3C22E0E41591A501739624DB861248ECFD10E9E7A66C08D6B9C527E964680AF}
-	condition:
-		all of them
-}

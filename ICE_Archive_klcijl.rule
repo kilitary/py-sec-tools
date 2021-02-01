@@ -1,9 +1,0 @@
-rule ICE_Archive_klcijl
-{
-	meta:
-		description = "ICE Archive"
-	strings:
-		$a = {????2D6C68??2D}
-	condition:
-		all of them
-}

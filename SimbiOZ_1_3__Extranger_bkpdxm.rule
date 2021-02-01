@@ -1,9 +1,0 @@
-rule _SimbiOZ_1_3__Extranger_bkpdxm
-{
-	meta:
-		description = "SimbiOZ 1_3 __ Extranger"
-	strings:
-		$a = {57578D7C240450B800??????AB585FC3}
-	condition:
-		all of them
-}

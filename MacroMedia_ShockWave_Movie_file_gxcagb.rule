@@ -1,9 +1,0 @@
-rule MacroMedia_ShockWave_Movie_file_gxcagb
-{
-	meta:
-		description = "MacroMedia ShockWave Movie file"
-	strings:
-		$a = {465753}
-	condition:
-		all of them
-}

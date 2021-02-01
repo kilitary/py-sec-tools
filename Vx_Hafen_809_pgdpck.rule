@@ -1,9 +1,0 @@
-rule Vx_Hafen_809_pgdpck
-{
-	meta:
-		description = "Vx_ Hafen_809"
-	strings:
-		$a = {E8????1C??81EE????501E068CC88ED80633C08EC026??????073D}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Microsoft_Visual_C__6_0_SFX_Custom_segprl
-{
-	meta:
-		description = "Microsoft Visual C__ 6_0 SFX Custom"
-	strings:
-		$a = {E821480000E916FEFFFF51C70108B40030E8A448000059C3568BF1E8EAFFFFFFF6????????740756E8F6040000598BC65EC204008B44240483C1095183C00950}
-	condition:
-		all of them
-}

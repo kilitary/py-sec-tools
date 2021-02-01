@@ -1,0 +1,9 @@
+rule _yoda_s_Protector_1_0x__Ashkbiz_Danehkar_hhlaom
+{
+	meta:
+		description = "yoda_s Protector 1_0x __ Ashkbiz Danehkar"
+	strings:
+		$a = {E803000000EB01??BB55000000E803}
+	condition:
+		all of them
+}

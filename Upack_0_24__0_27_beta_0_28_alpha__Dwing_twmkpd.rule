@@ -1,9 +1,0 @@
-rule Upack_0_24__0_27_beta_0_28_alpha__Dwing_twmkpd
-{
-	meta:
-		description = "Upack 0_24 _ 0_27 beta  0_28 alpha __ Dwing"
-	strings:
-		$a = {BE88014000AD8BF895AD91F3A5ADB5??F3ABAD509751588D54855CFF1672572C037302B0003C0772022C03500FB65FFFC1E3??B3008D1C5B8D9C9D0C100000B0}
-	condition:
-		all of them
-}

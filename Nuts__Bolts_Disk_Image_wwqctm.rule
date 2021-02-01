@@ -1,9 +1,0 @@
-rule Nuts__Bolts_Disk_Image_wwqctm
-{
-	meta:
-		description = "Nuts _ Bolts Disk Image"
-	strings:
-		$a = {4E42696D}
-	condition:
-		all of them
-}

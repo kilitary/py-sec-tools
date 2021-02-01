@@ -1,0 +1,9 @@
+rule _PCrypt_v3_51_tkpblg
+{
+	meta:
+		description = "PCrypt v3_51"
+	strings:
+		$a = {504352595054FF76332E353100E9}
+	condition:
+		all of them
+}

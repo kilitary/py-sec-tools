@@ -1,9 +1,0 @@
-rule Themida__Oreans_Technologies_2004_mkxzks
-{
-	meta:
-		description = "Themida __ Oreans Technologies 2004"
-	strings:
-		$a = {B800000000600BC07458E8000000005805430000008038E9750361EB35E8}
-	condition:
-		all of them
-}

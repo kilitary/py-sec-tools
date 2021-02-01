@@ -1,9 +1,0 @@
-rule Vx_Kuku_448_ientdl
-{
-	meta:
-		description = "Vx_ Kuku_448"
-	strings:
-		$a = {AE75EDE2F8893E????BA????0E07BF????EB}
-	condition:
-		all of them
-}

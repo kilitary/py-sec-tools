@@ -1,0 +1,9 @@
+rule _AHTeam_EP_Protector_0_3_fake_PCGuard_4_03_4_15___FEUERRADER_eziczn
+{
+	meta:
+		description = "AHTeam EP Protector 0_3 _fake PCGuard 4_03_4_15_ __ FEUERRADER"
+	strings:
+		$a = {90}
+	condition:
+		all of them
+}

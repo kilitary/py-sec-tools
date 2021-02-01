@@ -1,9 +1,0 @@
-rule _FSG_v1_10_Eng___dulekxt_okauqs
-{
-	meta:
-		description = "FSG v1_10 _Eng_ __ dulekxt"
-	strings:
-		$a = {????E802000000E800E8000000005E2B}
-	condition:
-		all of them
-}

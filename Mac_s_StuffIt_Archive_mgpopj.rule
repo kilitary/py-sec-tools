@@ -1,9 +1,0 @@
-rule Mac_s_StuffIt_Archive_mgpopj
-{
-	meta:
-		description = "Mac_s StuffIt Archive"
-	strings:
-		$a = {5349542100}
-	condition:
-		all of them
-}

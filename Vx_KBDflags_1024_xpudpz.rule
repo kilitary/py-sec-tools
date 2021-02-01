@@ -1,9 +1,0 @@
-rule Vx_KBDflags_1024_xpudpz
-{
-	meta:
-		description = "Vx_ KBDflags_1024"
-	strings:
-		$a = {8BEC2E892E2403BC00048CD52E892E22}
-	condition:
-		all of them
-}

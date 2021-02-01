@@ -1,9 +1,0 @@
-rule Lotus_Graphics_format_swccge
-{
-	meta:
-		description = "Lotus Graphics format"
-	strings:
-		$a = {0100000001000800}
-	condition:
-		all of them
-}

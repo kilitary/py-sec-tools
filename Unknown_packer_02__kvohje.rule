@@ -1,9 +1,0 @@
-rule _Unknown_packer_02__kvohje
-{
-	meta:
-		description = "Unknown packer _02_"
-	strings:
-		$a = {FA8CDE8CCF8EDF8EC783C7??BB}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _Real_Networks_VideoAudio_file_hvrruh
-{
-	meta:
-		description = "Real Networks VideoAudio file"
-	strings:
-		$a = {2E524D46}
-	condition:
-		all of them
-}

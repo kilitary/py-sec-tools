@@ -1,9 +1,0 @@
-rule _TIFF_Graphics_file_IBM__shvywu
-{
-	meta:
-		description = "TIFF Graphics file _IBM_"
-	strings:
-		$a = {49492A}
-	condition:
-		all of them
-}

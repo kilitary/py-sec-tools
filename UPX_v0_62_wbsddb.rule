@@ -1,9 +1,0 @@
-rule _UPX_v0_62_wbsddb
-{
-	meta:
-		description = "UPX v0_62"
-	strings:
-		$a = {807C2408010F859501000060E80000000058}
-	condition:
-		all of them
-}

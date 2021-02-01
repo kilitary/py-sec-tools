@@ -1,0 +1,9 @@
+rule _PECompact_v1_20__v1_20_1_vnvezp
+{
+	meta:
+		description = "PECompact v1_20 _ v1_20_1"
+	strings:
+		$a = {EB0668????????C39C60E802??????33C08BC483C004938BE38B5BFC81EB0F7040??87DD8B859A7040}
+	condition:
+		all of them
+}

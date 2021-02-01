@@ -1,9 +1,0 @@
-rule HA_Archive_kynmnb
-{
-	meta:
-		description = "HA Archive"
-	strings:
-		$a = {4841}
-	condition:
-		all of them
-}

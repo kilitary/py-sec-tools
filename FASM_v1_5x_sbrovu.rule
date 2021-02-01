@@ -1,9 +1,0 @@
-rule FASM_v1_5x_sbrovu
-{
-	meta:
-		description = "FASM v1_5x"
-	strings:
-		$a = {6A00FF15????4000A3????4000}
-	condition:
-		all of them
-}

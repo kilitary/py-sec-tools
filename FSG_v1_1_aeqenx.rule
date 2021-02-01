@@ -1,9 +1,0 @@
-rule FSG_v1_1_aeqenx
-{
-	meta:
-		description = "FSG v1_1"
-	strings:
-		$a = {EB01??EB02??????80????00}
-	condition:
-		all of them
-}

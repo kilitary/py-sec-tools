@@ -1,9 +1,0 @@
-rule EP_v2_0_biakrq
-{
-	meta:
-		description = "EP v2_0"
-	strings:
-		$a = {6A??60E90101}
-	condition:
-		all of them
-}

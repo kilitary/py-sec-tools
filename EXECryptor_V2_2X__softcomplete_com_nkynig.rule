@@ -1,9 +1,0 @@
-rule _EXECryptor_V2_2X__softcomplete_com_nkynig
-{
-	meta:
-		description = "EXECryptor V2_2X __ softcomplete_com"
-	strings:
-		$a = {FFE0E804000000FFFFFFFF5EC300}
-	condition:
-		all of them
-}

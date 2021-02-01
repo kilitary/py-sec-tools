@@ -1,0 +1,9 @@
+rule _CRYPToCRACK_s_PE_Protector_V0_9_2__Lukas_Fleischer_cmysit
+{
+	meta:
+		description = "CRYPToCRACK_s PE Protector V0_9_2 __ Lukas Fleischer"
+	strings:
+		$a = {E801000000E8585B81E300FFFFFF66813B4D5A753784DB75338BF303????813E504500007526}
+	condition:
+		all of them
+}

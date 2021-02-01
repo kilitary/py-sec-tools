@@ -1,9 +1,0 @@
-rule _Sc_Obfuscator__SuperCRacker_yxcacl
-{
-	meta:
-		description = "Sc Obfuscator __ SuperCRacker"
-	strings:
-		$a = {6033C98B1D00}
-	condition:
-		all of them
-}

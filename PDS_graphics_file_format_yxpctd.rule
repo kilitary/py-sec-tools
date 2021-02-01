@@ -1,9 +1,0 @@
-rule _PDS_graphics_file_format_yxpctd
-{
-	meta:
-		description = "PDS graphics file format"
-	strings:
-		$a = {494D4147454944454E54494649455220}
-	condition:
-		all of them
-}

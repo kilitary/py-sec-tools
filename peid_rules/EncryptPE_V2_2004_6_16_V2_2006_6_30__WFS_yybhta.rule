@@ -1,0 +1,9 @@
+rule _EncryptPE_V2_2004_6_16_V2_2006_6_30__WFS_yybhta
+{
+	meta:
+		description = "EncryptPE V2_2004_6_16_V2_2006_6_30 __ WFS"
+	strings:
+		$a = {609C64FF3500000000E87A010000000000000000000000000000????????????????0000000000000000000000000000000000000000}
+	condition:
+		all of them
+}

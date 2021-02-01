@@ -1,9 +1,0 @@
-rule PS_AdobeFont_v_1_0_jdxfhd
-{
-	meta:
-		description = "PS_AdobeFont v_1_0"
-	strings:
-		$a = {8001????0000252150532D41646F6265466F6E742D312E303A}
-	condition:
-		all of them
-}

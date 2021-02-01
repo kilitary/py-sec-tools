@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_1_PENightMare_2_Beta_uikjmq
+{
+	meta:
+		description = "_ PseudoSigner 0_1 _PENightMare 2 Beta"
+	strings:
+		$a = {60E910000000EF4003A7078F071C375D43A704B92C3AE9}
+	condition:
+		all of them
+}

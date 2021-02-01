@@ -1,9 +1,0 @@
-rule Vx_VCL_encrypted__kfvnfd
-{
-	meta:
-		description = "Vx_ VCL _encrypted_"
-	strings:
-		$a = {01B9????8134????4646E2F8C3}
-	condition:
-		all of them
-}

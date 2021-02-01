@@ -1,0 +1,9 @@
+rule _yoda_s_Crypter_1_3__Ashkbiz_Danehkar_wnbexr
+{
+	meta:
+		description = "yoda_s Crypter 1_3 __ Ashkbiz Danehkar"
+	strings:
+		$a = {558BEC53565760E8000000005D81ED6C284000B95D344000}
+	condition:
+		all of them
+}

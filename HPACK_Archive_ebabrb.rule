@@ -1,9 +1,0 @@
-rule HPACK_Archive_ebabrb
-{
-	meta:
-		description = "HPACK Archive"
-	strings:
-		$a = {4850414B}
-	condition:
-		all of them
-}

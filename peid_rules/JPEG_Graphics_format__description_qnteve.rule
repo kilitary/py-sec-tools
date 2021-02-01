@@ -1,0 +1,9 @@
+rule _JPEG_Graphics_format__description_qnteve
+{
+	meta:
+		description = "JPEG Graphics format _ description"
+	strings:
+		$a = {FFD8FFFE0027}
+	condition:
+		all of them
+}

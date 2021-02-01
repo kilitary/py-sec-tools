@@ -1,9 +1,0 @@
-rule AHPack_0_1__FEUERRADER_vbkcnk
-{
-	meta:
-		description = "AHPack 0_1 __ FEUERRADER"
-	strings:
-		$a = {60669CBB????????80B300104000904B83FBFF75F3669D61}
-	condition:
-		all of them
-}

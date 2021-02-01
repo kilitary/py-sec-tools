@@ -1,9 +1,0 @@
-rule _VMProtect_v1_25___PolyTech_orqgdp
-{
-	meta:
-		description = "_ VMProtect v1_25 ___ PolyTech"
-	strings:
-		$a = {68????????E8????????52509C55535156575368000000008B74242C89E581ECC000000089E70375008A060FB6C046FF2485????????8B45000145049C8F4500E9}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _Borland_Delphi_v6_0_uvauvz
+{
+	meta:
+		description = "Borland Delphi v6_0"
+	strings:
+		$a = {68001040006804010000E83903000005001040C6005C68????????68????????6A00E8}
+	condition:
+		all of them
+}

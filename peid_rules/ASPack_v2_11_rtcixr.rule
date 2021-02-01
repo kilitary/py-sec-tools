@@ -1,0 +1,9 @@
+rule _ASPack_v2_11_rtcixr
+{
+	meta:
+		description = "ASPack v2_11"
+	strings:
+		$a = {60E8F9110000C383}
+	condition:
+		all of them
+}

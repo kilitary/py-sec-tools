@@ -1,9 +1,0 @@
-rule _Vx_Caz_1204_gsrrfx
-{
-	meta:
-		description = "Vx_ Caz_1204"
-	strings:
-		$a = {E8????5E83EE031E06B8FFFFCD2F3C10}
-	condition:
-		all of them
-}

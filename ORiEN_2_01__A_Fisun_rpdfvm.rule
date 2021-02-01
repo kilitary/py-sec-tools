@@ -1,9 +1,0 @@
-rule ORiEN_2_01__A_Fisun_rpdfvm
-{
-	meta:
-		description = "ORiEN 2_01 __ A_ Fisun"
-	strings:
-		$a = {E95D010000}
-	condition:
-		all of them
-}

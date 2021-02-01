@@ -1,9 +1,0 @@
-rule _kryptor_8_ndohmo
-{
-	meta:
-		description = "kryptor 8"
-	strings:
-		$a = {EB6A87DB}
-	condition:
-		all of them
-}

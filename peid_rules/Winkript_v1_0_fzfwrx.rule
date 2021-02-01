@@ -1,0 +1,9 @@
+rule _Winkript_v1_0_fzfwrx
+{
+	meta:
+		description = "Winkript v1_0"
+	strings:
+		$a = {33C08BB800??????8B9004??????85FF741B33C950EB0C8A0439C0C804341B880439413BCA72F058}
+	condition:
+		all of them
+}

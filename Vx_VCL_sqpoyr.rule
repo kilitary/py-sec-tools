@@ -1,9 +1,0 @@
-rule Vx_VCL_sqpoyr
-{
-	meta:
-		description = "Vx_ VCL"
-	strings:
-		$a = {ACB90080F2AEB90400ACAE75??E2FA89}
-	condition:
-		all of them
-}

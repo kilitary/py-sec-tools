@@ -1,9 +1,0 @@
-rule Microsoft_C_nxnyqc
-{
-	meta:
-		description = "Microsoft C"
-	strings:
-		$a = {B430CD213C0273??B8}
-	condition:
-		all of them
-}

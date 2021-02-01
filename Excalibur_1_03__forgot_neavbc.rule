@@ -1,9 +1,0 @@
-rule Excalibur_1_03__forgot_neavbc
-{
-	meta:
-		description = "Excalibur 1_03 __ forgot"
-	strings:
-		$a = {E90000000060E8140000005D81ED00000000}
-	condition:
-		all of them
-}

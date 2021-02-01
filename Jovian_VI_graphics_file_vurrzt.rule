@@ -1,9 +1,0 @@
-rule Jovian_VI_graphics_file_vurrzt
-{
-	meta:
-		description = "Jovian VI graphics file"
-	strings:
-		$a = {5649??????????00}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Datafile_from_Norton_Utilities_jtkifu
-{
-	meta:
-		description = "Datafile from Norton Utilities"
-	strings:
-		$a = {504E4349}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _ASPack_v1_06b_vmfeqm
-{
-	meta:
-		description = "ASPack v1_06b"
-	strings:
-		$a = {9061BE????????8DBE????????5783CDFF}
-	condition:
-		all of them
-}

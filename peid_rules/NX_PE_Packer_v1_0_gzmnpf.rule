@@ -1,0 +1,9 @@
+rule _NX_PE_Packer_v1_0_gzmnpf
+{
+	meta:
+		description = "NX PE Packer v1_0"
+	strings:
+		$a = {FF60FFCAFF00BADC0DE040005000600070008000}
+	condition:
+		all of them
+}

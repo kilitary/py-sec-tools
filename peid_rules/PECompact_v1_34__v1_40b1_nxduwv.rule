@@ -1,0 +1,9 @@
+rule _PECompact_v1_34__v1_40b1_nxduwv
+{
+	meta:
+		description = "PECompact v1_34 _ v1_40b1"
+	strings:
+		$a = {EB0668????????C39C60E802??????33C08BC483C004938BE38B5BFC81EB0F8040??87DD8B85A68040??0185038040??66C785??0080??40909001859E80??40BBF810}
+	condition:
+		all of them
+}

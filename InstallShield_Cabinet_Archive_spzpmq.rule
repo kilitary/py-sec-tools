@@ -1,9 +1,0 @@
-rule InstallShield_Cabinet_Archive_spzpmq
-{
-	meta:
-		description = "InstallShield Cabinet Archive"
-	strings:
-		$a = {495363}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Armadillo_v1_71_fvflkh
-{
-	meta:
-		description = "Armadillo v1_71"
-	strings:
-		$a = {558BEC6AFF68????????68????????64A1}
-	condition:
-		all of them
-}

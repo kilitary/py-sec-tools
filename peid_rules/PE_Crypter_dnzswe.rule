@@ -1,0 +1,9 @@
+rule _PE_Crypter_dnzswe
+{
+	meta:
+		description = "PE_Crypter"
+	strings:
+		$a = {60E8000000005DEB26}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule _ASPack_v2_000_bryxmy
-{
-	meta:
-		description = "ASPack v2_000"
-	strings:
-		$a = {60E870050000EB4C}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Upack_v0_35_alpha__Dwing_odnbtf
-{
-	meta:
-		description = "Upack v0_35 alpha __ Dwing"
-	strings:
-		$a = {8BF28BCA034C191C03541A20}
-	condition:
-		all of them
-}

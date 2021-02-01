@@ -1,9 +1,0 @@
-rule Microsoft_Windows_Enhanced_Metafile_ftiubx
-{
-	meta:
-		description = "Microsoft Windows Enhanced Metafile"
-	strings:
-		$a = {0100000058}
-	condition:
-		all of them
-}

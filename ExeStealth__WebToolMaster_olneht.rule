@@ -1,9 +1,0 @@
-rule ExeStealth__WebToolMaster_olneht
-{
-	meta:
-		description = "ExeStealth __ WebToolMaster"
-	strings:
-		$a = {EB585368617265776172652D56657273696F6E20457865537465616C74682C20636F6E7461637420737570706F727440776562746F6F6C6D61737465722E636F}
-	condition:
-		all of them
-}

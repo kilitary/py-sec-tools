@@ -1,9 +1,0 @@
-rule North_Star_PE_Shrinker_1_3__Liuxingping_fjsxbp
-{
-	meta:
-		description = "North Star PE Shrinker 1_3 __ Liuxingping"
-	strings:
-		$a = {9C60E8000000005DB8B38540002DAC8540002BE88DB5}
-	condition:
-		all of them
-}

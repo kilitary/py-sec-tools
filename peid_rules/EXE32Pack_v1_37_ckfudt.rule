@@ -1,0 +1,9 @@
+rule _EXE32Pack_v1_37_ckfudt
+{
+	meta:
+		description = "EXE32Pack v1_37"
+	strings:
+		$a = {3BC074028183553BC074028183533BC97401BC????????0281??????????????3BDB7401BE5D8BD581ED4C8E40}
+	condition:
+		all of them
+}

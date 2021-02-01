@@ -1,9 +1,0 @@
-rule Petite_v2_2__www_un4seen_competite_kzeqqx
-{
-	meta:
-		description = "Petite v2_2 __ www_un4seen_competite"
-	strings:
-		$a = {B800????00??00????????????????0000}
-	condition:
-		all of them
-}

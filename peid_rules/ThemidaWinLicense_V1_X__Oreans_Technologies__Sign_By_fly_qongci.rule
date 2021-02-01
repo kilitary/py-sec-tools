@@ -1,0 +1,9 @@
+rule _ThemidaWinLicense_V1_X__Oreans_Technologies__Sign_By_fly_qongci
+{
+	meta:
+		description = "ThemidaWinLicense V1_X __ Oreans Technologies _ Sign_By_fly"
+	strings:
+		$a = {00000000000000000000000000000000????????????????000000000000000000000000????????????????00000000000000000000000000000000000000004B45524E454C33322E646C6C000000437265617465}
+	condition:
+		all of them
+}

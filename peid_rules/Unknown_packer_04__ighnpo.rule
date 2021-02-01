@@ -1,0 +1,9 @@
+rule _Unknown_packer_04__ighnpo
+{
+	meta:
+		description = "Unknown packer _04_"
+	strings:
+		$a = {BC????C32EFF2E????CF}
+	condition:
+		all of them
+}

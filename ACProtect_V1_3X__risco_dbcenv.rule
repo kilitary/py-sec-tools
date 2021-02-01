@@ -1,9 +1,0 @@
-rule ACProtect_V1_3X__risco_dbcenv
-{
-	meta:
-		description = "ACProtect V1_3X __ risco"
-	strings:
-		$a = {6050E8010000007583}
-	condition:
-		all of them
-}

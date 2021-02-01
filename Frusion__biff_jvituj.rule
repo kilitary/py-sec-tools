@@ -1,9 +1,0 @@
-rule Frusion__biff_jvituj
-{
-	meta:
-		description = "Frusion __ biff"
-	strings:
-		$a = {83EC0C535556576804010000C7442414}
-	condition:
-		all of them
-}

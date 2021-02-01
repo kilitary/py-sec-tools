@@ -1,9 +1,0 @@
-rule UPX_V2_00_V2_90__Markus_Oberhumer__Laszlo_Molnar__John_Reiser_kovckm
-{
-	meta:
-		description = "UPX V2_00_V2_90 __ Markus Oberhumer _ Laszlo Molnar _ John Reiser"
-	strings:
-		$a = {FFD58D87????????8020??8060????585054505357FFD558618D4424??6A0039C475FA83EC80E9}
-	condition:
-		all of them
-}

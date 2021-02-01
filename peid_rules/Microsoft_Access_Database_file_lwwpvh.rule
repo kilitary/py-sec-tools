@@ -1,0 +1,9 @@
+rule _Microsoft_Access_Database_file_lwwpvh
+{
+	meta:
+		description = "Microsoft Access Database file"
+	strings:
+		$a = {000100005374616E64617264204A657420444200}
+	condition:
+		all of them
+}

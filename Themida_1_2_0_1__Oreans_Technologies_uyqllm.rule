@@ -1,9 +1,0 @@
-rule Themida_1_2_0_1__Oreans_Technologies_uyqllm
-{
-	meta:
-		description = "Themida 1_2_0_1 __ Oreans Technologies"
-	strings:
-		$a = {8BC58BD460E8000000005D81ED????35098995????350989B5????35098985????350983BD????350900740C8BE88BE2B801000000C20C008B4424248985????35096A45E8A3000000689A748307E8DF0000006825}
-	condition:
-		all of them
-}

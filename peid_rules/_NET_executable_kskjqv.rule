@@ -1,0 +1,9 @@
+rule __NET_executable_kskjqv
+{
+	meta:
+		description = "_NET executable"
+	strings:
+		$a = {FF15FC814000B12238087402B120408038007410}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule _Armadillo_v2_53_oyypjn
+{
+	meta:
+		description = "Armadillo v2_53"
+	strings:
+		$a = {558BEC6AFF68????????40????????685464A100000000506489250000000083EC585356578965E8FF??????155833D28AD489}
+	condition:
+		all of them
+}

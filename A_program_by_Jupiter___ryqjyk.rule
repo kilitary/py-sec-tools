@@ -1,9 +1,0 @@
-rule _A_program_by_Jupiter___ryqjyk
-{
-	meta:
-		description = "A program by Jupiter __"
-	strings:
-		$a = {2BC0740568????????50}
-	condition:
-		all of them
-}

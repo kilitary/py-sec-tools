@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_1_Borland_Delphi_6_0__7_0_iwvjpc
+{
+	meta:
+		description = "_ PseudoSigner 0_1 _Borland Delphi 6_0 _ 7_0"
+	strings:
+		$a = {9090909068????????6764FF360000676489260000F190909090538BD833C0A3090909006A00E8090900FFA309090900A109090900A30909090033C0A30909090033C0A309090900E8}
+	condition:
+		all of them
+}

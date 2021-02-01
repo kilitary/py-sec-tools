@@ -1,9 +1,0 @@
-rule _CAN2EXE_v0_01_czpqgg
-{
-	meta:
-		description = "CAN2EXE v0_01"
-	strings:
-		$a = {268E06????B9????33C08BF8F2AEE3??26380575??EB??E9}
-	condition:
-		all of them
-}

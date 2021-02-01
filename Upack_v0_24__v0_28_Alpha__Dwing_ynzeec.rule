@@ -1,9 +1,0 @@
-rule Upack_v0_24__v0_28_Alpha__Dwing_ynzeec
-{
-	meta:
-		description = "Upack v0_24 _ v0_28 Alpha __ Dwing"
-	strings:
-		$a = {BE88014000AD????95AD91F3A5AD}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _PENinja_modified_btklaa
+{
+	meta:
+		description = "PENinja modified"
+	strings:
+		$a = {5D83ED06EB02EA048D}
+	condition:
+		all of them
+}

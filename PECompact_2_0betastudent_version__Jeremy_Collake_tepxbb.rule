@@ -1,9 +1,0 @@
-rule PECompact_2_0betastudent_version__Jeremy_Collake_tepxbb
-{
-	meta:
-		description = "PECompact 2_0betastudent version __Jeremy Collake"
-	strings:
-		$a = {B8??????EE05121313125064FF350000000064892500}
-	condition:
-		all of them
-}

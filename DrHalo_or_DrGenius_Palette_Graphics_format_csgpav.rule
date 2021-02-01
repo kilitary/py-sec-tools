@@ -1,9 +1,0 @@
-rule DrHalo_or_DrGenius_Palette_Graphics_format_csgpav
-{
-	meta:
-		description = "DrHalo or DrGenius Palette Graphics format"
-	strings:
-		$a = {4148E30000000A00}
-	condition:
-		all of them
-}

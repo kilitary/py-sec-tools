@@ -1,9 +1,0 @@
-rule _UPX_Modified_Stub_b__Farb_rausch_Consumer_Consulting_cavdsj
-{
-	meta:
-		description = "UPX Modified Stub b __ Farb_rausch Consumer Consulting"
-	strings:
-		$a = {60BE????????8DBE????????5783CDFFFCB28031DBA4B302E86D00000073F631C9E864000000731C31C0E85B0000007323B30241B010E84F00000010C073F7753FAAEBD4E84D00000029D97510E842000000EB28AC}
-	condition:
-		all of them
-}

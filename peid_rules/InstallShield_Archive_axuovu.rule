@@ -1,0 +1,9 @@
+rule _InstallShield_Archive_axuovu
+{
+	meta:
+		description = "InstallShield Archive"
+	strings:
+		$a = {2AAB79D8}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule _CalComp_Graphics_format_csvcnz
-{
-	meta:
-		description = "CalComp Graphics format"
-	strings:
-		$a = {02500A}
-	condition:
-		all of them
-}

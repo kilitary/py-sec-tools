@@ -1,9 +1,0 @@
-rule _N_Joy_1_3__NEX_cfjnig
-{
-	meta:
-		description = "N_Joy 1_3 __ NEX"
-	strings:
-		$a = {558BEC83C4F0B848364000E854EEFFFF6A0068D82B40006A0A6A00E82CEFFFFFE823E7FFFF8D4000}
-	condition:
-		all of them
-}

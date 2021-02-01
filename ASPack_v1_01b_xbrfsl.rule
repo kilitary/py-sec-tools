@@ -1,9 +1,0 @@
-rule ASPack_v1_01b_xbrfsl
-{
-	meta:
-		description = "ASPack v1_01b"
-	strings:
-		$a = {60E8????????5D81EDD22A44??B8CC2A44??03C52B85A52E44??8985B12E44??80BD9C2E44}
-	condition:
-		all of them
-}

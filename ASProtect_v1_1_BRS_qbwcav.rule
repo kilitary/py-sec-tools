@@ -1,9 +1,0 @@
-rule ASProtect_v1_1_BRS_qbwcav
-{
-	meta:
-		description = "ASProtect v1_1 BRS"
-	strings:
-		$a = {60E9??05}
-	condition:
-		all of them
-}

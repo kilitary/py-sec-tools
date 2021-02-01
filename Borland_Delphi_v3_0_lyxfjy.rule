@@ -1,9 +1,0 @@
-rule Borland_Delphi_v3_0_lyxfjy
-{
-	meta:
-		description = "Borland Delphi v3_0"
-	strings:
-		$a = {83????6A00FF15F8100BB08D??????516A086A006A0068}
-	condition:
-		all of them
-}

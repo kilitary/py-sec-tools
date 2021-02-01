@@ -1,9 +1,0 @@
-rule _DxPack_V0_86__Dxd_erexcr
-{
-	meta:
-		description = "DxPack V0_86 __ Dxd"
-	strings:
-		$a = {60E8000000005D8BFD81ED061040002BBD9412400081EF0600000083BD14134000010F842F010000}
-	condition:
-		all of them
-}

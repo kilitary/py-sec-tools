@@ -1,9 +1,0 @@
-rule ASPack_v1_08_04_fjisrg
-{
-	meta:
-		description = "ASPack v1_08_04"
-	strings:
-		$a = {60E841060000EB41}
-	condition:
-		all of them
-}

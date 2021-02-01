@@ -1,9 +1,0 @@
-rule _Unknown_SFX_Archive_aWAW__ysoukn
-{
-	meta:
-		description = "Unknown SFX Archive _aWAW_"
-	strings:
-		$a = {61574157}
-	condition:
-		all of them
-}

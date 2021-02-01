@@ -1,9 +1,0 @@
-rule _FACRYPT_v1_0_bwxiwz
-{
-	meta:
-		description = "FACRYPT v1_0"
-	strings:
-		$a = {B9????B3??33D2BE????8BFEAC32C3AA494332E403D0E3}
-	condition:
-		all of them
-}

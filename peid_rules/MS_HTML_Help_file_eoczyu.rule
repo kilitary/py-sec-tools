@@ -1,0 +1,9 @@
+rule _MS_HTML_Help_file_eoczyu
+{
+	meta:
+		description = "MS HTML_Help file"
+	strings:
+		$a = {49545346}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule _PPC_PROTECT_1_0__Alexey_Gorchakov_chkpfl
-{
-	meta:
-		description = "PPC_PROTECT 1_0 __ Alexey Gorchakov"
-	strings:
-		$a = {FF5F2DE9}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _ASPack_v1_02b_zghqwa
+{
+	meta:
+		description = "ASPack v1_02b"
+	strings:
+		$a = {60E8000000005D81ED96784300B89078430003C5}
+	condition:
+		all of them
+}

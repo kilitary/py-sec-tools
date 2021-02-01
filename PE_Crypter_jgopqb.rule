@@ -1,9 +1,0 @@
-rule PE_Crypter_jgopqb
-{
-	meta:
-		description = "PE_Crypter"
-	strings:
-		$a = {60E8000000005DB9????????8031154181F9}
-	condition:
-		all of them
-}

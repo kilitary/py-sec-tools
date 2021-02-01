@@ -1,9 +1,0 @@
-rule PeStubOEP_v1_x_ntbzbc
-{
-	meta:
-		description = "PeStubOEP v1_x"
-	strings:
-		$a = {9033C933D2B8??????00B9FF}
-	condition:
-		all of them
-}

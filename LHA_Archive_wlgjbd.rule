@@ -1,9 +1,0 @@
-rule LHA_Archive_wlgjbd
-{
-	meta:
-		description = "LHA Archive"
-	strings:
-		$a = {??????6C6835}
-	condition:
-		all of them
-}

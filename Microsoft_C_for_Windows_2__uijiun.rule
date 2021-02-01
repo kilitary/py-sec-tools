@@ -1,9 +1,0 @@
-rule Microsoft_C_for_Windows_2__uijiun
-{
-	meta:
-		description = "Microsoft C for Windows _2_"
-	strings:
-		$a = {8CD8??45558BEC1E8ED8575689}
-	condition:
-		all of them
-}

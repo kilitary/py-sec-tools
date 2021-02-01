@@ -1,9 +1,0 @@
-rule Packman_V1_0__Brandon_LaCombe_stdnnp
-{
-	meta:
-		description = "Packman V1_0 __ Brandon LaCombe"
-	strings:
-		$a = {60E8000000005B8D5BC6011B8B138D73146A08590116AD4975FA}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _FIDO_mail_packet_zdujjz
-{
-	meta:
-		description = "FIDO mail packet"
-	strings:
-		$a = {03000300CD07}
-	condition:
-		all of them
-}

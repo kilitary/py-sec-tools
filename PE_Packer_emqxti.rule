@@ -1,9 +1,0 @@
-rule _PE_Packer_emqxti
-{
-	meta:
-		description = "PE Packer"
-	strings:
-		$a = {FC8B35700140??83EE406A4068??3010}
-	condition:
-		all of them
-}

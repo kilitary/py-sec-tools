@@ -1,0 +1,9 @@
+rule _EXECryptor_v1_3_0_45_slnwki
+{
+	meta:
+		description = "EXECryptor v1_3_0_45"
+	strings:
+		$a = {E8240000008B4C240CC70117000100C781??????????????31C089411489411880A1}
+	condition:
+		all of them
+}

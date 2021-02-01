@@ -1,9 +1,0 @@
-rule _ShellModify_0_1__pll621_gsejaj
-{
-	meta:
-		description = "ShellModify 0_1 __ pll621"
-	strings:
-		$a = {558BEC6AFF6898664100683C3D410064A100000000}
-	condition:
-		all of them
-}

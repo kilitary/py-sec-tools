@@ -1,0 +1,9 @@
+rule _Ultra_Compressor_s_Archive_ixnlae
+{
+	meta:
+		description = "Ultra Compressor_s Archive"
+	strings:
+		$a = {5543321A}
+	condition:
+		all of them
+}

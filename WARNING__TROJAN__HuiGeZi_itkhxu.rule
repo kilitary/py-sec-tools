@@ -1,9 +1,0 @@
-rule WARNING__TROJAN__HuiGeZi_itkhxu
-{
-	meta:
-		description = "WARNING __ TROJAN __ HuiGeZi"
-	strings:
-		$a = {558BEC81C4??FEFFFF53565733C08985??FEFFFF}
-	condition:
-		all of them
-}

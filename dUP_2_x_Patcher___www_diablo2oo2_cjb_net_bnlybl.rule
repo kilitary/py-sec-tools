@@ -1,9 +1,0 @@
-rule dUP_2_x_Patcher___www_diablo2oo2_cjb_net_bnlybl
-{
-	meta:
-		description = "dUP 2_x Patcher ___ www_diablo2oo2_cjb_net"
-	strings:
-		$a = {8BCB85C974??803A017408ACAE750A4249EBEF47464249EBE9}
-	condition:
-		all of them
-}

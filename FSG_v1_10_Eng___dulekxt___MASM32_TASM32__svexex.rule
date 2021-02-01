@@ -1,9 +1,0 @@
-rule FSG_v1_10_Eng___dulekxt___MASM32_TASM32__svexex
-{
-	meta:
-		description = "FSG v1_10 _Eng_ __ dulekxt __ _MASM32  TASM32_"
-	strings:
-		$a = {03F723FE33FBEB02CD20BB80??4000EB0186EB0190B8F400000083EE052B}
-	condition:
-		all of them
-}

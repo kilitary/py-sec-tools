@@ -1,9 +1,0 @@
-rule SafeDisc_v4_uvyhyh
-{
-	meta:
-		description = "SafeDisc v4"
-	strings:
-		$a = {000000000000000000000000426F475F}
-	condition:
-		all of them
-}

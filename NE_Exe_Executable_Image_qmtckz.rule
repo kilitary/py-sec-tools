@@ -1,9 +1,0 @@
-rule NE_Exe_Executable_Image_qmtckz
-{
-	meta:
-		description = "NE_Exe Executable Image"
-	strings:
-		$a = {4E45}
-	condition:
-		all of them
-}

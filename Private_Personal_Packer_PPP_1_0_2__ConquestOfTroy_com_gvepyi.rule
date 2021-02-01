@@ -1,9 +1,0 @@
-rule Private_Personal_Packer_PPP_1_0_2__ConquestOfTroy_com_gvepyi
-{
-	meta:
-		description = "Private Personal Packer _PPP_ 1_0_2 __ ConquestOfTroy_com"
-	strings:
-		$a = {E817000000E868000000FF352C370010E8ED0100006A00E82E040000E841040000A3743700106A64E85F040000E830040000A3783700106A64E84E040000E81F040000A37C370010A1743700108B1D783700102BD8}
-	condition:
-		all of them
-}

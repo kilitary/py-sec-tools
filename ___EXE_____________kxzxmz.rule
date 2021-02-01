@@ -1,9 +1,0 @@
-rule ___EXE_____________kxzxmz
-{
-	meta:
-		description = "_____EXE________ ______ __ ____"
-	strings:
-		$a = {558BEC83C4E453565733C08945E48945}
-	condition:
-		all of them
-}

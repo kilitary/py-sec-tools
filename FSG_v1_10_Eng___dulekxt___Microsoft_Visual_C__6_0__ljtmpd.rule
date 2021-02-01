@@ -1,9 +1,0 @@
-rule FSG_v1_10_Eng___dulekxt___Microsoft_Visual_C__6_0__ljtmpd
-{
-	meta:
-		description = "FSG v1_10 _Eng_ __ dulekxt __ _Microsoft Visual C__ 6_0_"
-	strings:
-		$a = {0E1F068C06????26A1????A3????8EC06633FF6633C9}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule TPAV_Cryptor_V1_1__msaha_dev__Sign_By_fly_vxkytj
-{
-	meta:
-		description = "TPAV Cryptor V1_1 __ msaha_dev _ Sign_By_fly"
-	strings:
-		$a = {8D8508FFFFFF508D85C4FEFFFF506A006A006A046A006A006A008D95C0FEFFFF33C0E8????FFFF8B85C0FEFFFFE8????FFFF506A00FF152C????70}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule ____2_2b_Anti__xiaohui_ukkfok
-{
-	meta:
-		description = "______ 2_2b Anti __ xiaohui"
-	strings:
-		$a = {EBF41155078BECB814800E03E8D109000A5733D2FF7518B9E81FDE1681C08DBDEE7FFBF8}
-	condition:
-		all of them
-}

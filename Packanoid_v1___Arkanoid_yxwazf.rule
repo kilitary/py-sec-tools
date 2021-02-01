@@ -1,9 +1,0 @@
-rule _Packanoid_v1___Arkanoid_yxwazf
-{
-	meta:
-		description = "Packanoid v1 ___ Arkanoid"
-	strings:
-		$a = {BF??????0081FF??????007410812F??00000083C704BB05????00FFE3BE??????00FFE600000000}
-	condition:
-		all of them
-}

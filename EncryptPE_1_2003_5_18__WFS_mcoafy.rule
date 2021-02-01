@@ -1,9 +1,0 @@
-rule EncryptPE_1_2003_5_18__WFS_mcoafy
-{
-	meta:
-		description = "EncryptPE 1_2003_5_18 __ WFS"
-	strings:
-		$a = {609C64FF3500000000E879}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _eXPressor_v1_5_0_1_Options__Light_Full_support_CGSoftLabs_xrevwi
+{
+	meta:
+		description = "eXPressor v1_5_0_1 _Options __ Light_ Full support_ CGSoftLabs"
+	strings:
+		$a = {558BEC81EC??02000053565783A5??FDFFFF00F3EB0C655850722D762E312E35}
+	condition:
+		all of them
+}

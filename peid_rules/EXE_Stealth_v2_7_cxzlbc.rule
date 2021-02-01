@@ -1,0 +1,9 @@
+rule _EXE_Stealth_v2_7_cxzlbc
+{
+	meta:
+		description = "EXE Stealth v2_7"
+	strings:
+		$a = {EB00EB2F536861726577617265202D20}
+	condition:
+		all of them
+}

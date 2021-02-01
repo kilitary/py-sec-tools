@@ -1,9 +1,0 @@
-rule ACProtect_v1_90g__Risco_software_Inc__nzvman
-{
-	meta:
-		description = "ACProtect v1_90g __ Risco software Inc_"
-	strings:
-		$a = {600F87020000001BF8E8010000007383042406C3}
-	condition:
-		all of them
-}

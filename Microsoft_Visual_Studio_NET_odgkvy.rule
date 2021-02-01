@@ -1,9 +1,0 @@
-rule Microsoft_Visual_Studio_NET_odgkvy
-{
-	meta:
-		description = "Microsoft Visual Studio _NET"
-	strings:
-		$a = {FF250020400000000000000000000000000000000000000000000000000000000000000000000000}
-	condition:
-		all of them
-}

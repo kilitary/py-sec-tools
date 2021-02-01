@@ -1,0 +1,9 @@
+rule _SafeDisc_v4_lzgrwp
+{
+	meta:
+		description = "SafeDisc v4"
+	strings:
+		$a = {000000000000000000000000426F475F}
+	condition:
+		all of them
+}

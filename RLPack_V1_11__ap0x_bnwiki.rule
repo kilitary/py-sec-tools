@@ -1,9 +1,0 @@
-rule _RLPack_V1_11__ap0x_bnwiki
-{
-	meta:
-		description = "RLPack V1_11 __ ap0x"
-	strings:
-		$a = {60E8000000008B2C2483C4048DB54A0200008D9D1101000033FFEB0FFF743704FF3437FFD383C40883C708833C370075EB}
-	condition:
-		all of them
-}

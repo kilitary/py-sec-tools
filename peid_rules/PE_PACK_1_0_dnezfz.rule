@@ -1,0 +1,9 @@
+rule _PE_PACK_1_0_dnezfz
+{
+	meta:
+		description = "PE_PACK 1_0"
+	strings:
+		$a = {50FCAD33C2AB8BD0E2F8}
+	condition:
+		all of them
+}

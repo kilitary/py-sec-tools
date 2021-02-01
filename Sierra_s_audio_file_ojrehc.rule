@@ -1,9 +1,0 @@
-rule Sierra_s_audio_file_ojrehc
-{
-	meta:
-		description = "Sierra_s audio file"
-	strings:
-		$a = {8D0C534F4C0022560D}
-	condition:
-		all of them
-}

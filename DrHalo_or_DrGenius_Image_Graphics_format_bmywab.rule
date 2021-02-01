@@ -1,9 +1,0 @@
-rule DrHalo_or_DrGenius_Image_Graphics_format_bmywab
-{
-	meta:
-		description = "DrHalo or DrGenius Image Graphics format"
-	strings:
-		$a = {????3A030000}
-	condition:
-		all of them
-}

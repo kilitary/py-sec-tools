@@ -1,9 +1,0 @@
-rule _DCrypt_Private_0_9b__drmist_vrzwpo
-{
-	meta:
-		description = "DCrypt Private 0_9b __ drmist"
-	strings:
-		$a = {B9??????00E8000000005868??????0083E80B0F1800D00048E2FBC3}
-	condition:
-		all of them
-}

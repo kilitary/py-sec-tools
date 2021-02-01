@@ -1,9 +1,0 @@
-rule _Hyper_Archive_czvmkb
-{
-	meta:
-		description = "Hyper Archive"
-	strings:
-		$a = {1A5354}
-	condition:
-		all of them
-}

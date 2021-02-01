@@ -1,9 +1,0 @@
-rule SA2_Adlib_Module_music_file_xyvmfg
-{
-	meta:
-		description = "SA2 Adlib Module music file"
-	strings:
-		$a = {53416454}
-	condition:
-		all of them
-}

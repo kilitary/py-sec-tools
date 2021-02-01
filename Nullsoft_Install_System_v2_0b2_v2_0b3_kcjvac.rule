@@ -1,9 +1,0 @@
-rule Nullsoft_Install_System_v2_0b2_v2_0b3_kcjvac
-{
-	meta:
-		description = "Nullsoft Install System v2_0b2_ v2_0b3"
-	strings:
-		$a = {83EC0C53555657FF15??7040008B35??92400005E803000089442414B320FF152C704000BF0004000068??????0057FF15????400057FF15}
-	condition:
-		all of them
-}

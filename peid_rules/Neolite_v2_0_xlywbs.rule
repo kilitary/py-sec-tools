@@ -1,0 +1,9 @@
+rule _Neolite_v2_0_xlywbs
+{
+	meta:
+		description = "Neolite v2_0"
+	strings:
+		$a = {E9A6000000}
+	condition:
+		all of them
+}

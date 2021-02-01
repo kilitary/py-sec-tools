@@ -1,9 +1,0 @@
-rule Hide_Protect_V1_016C__SoftWar_Company___Sign_By_fly_kciwus
-{
-	meta:
-		description = "Hide_Protect V1_016C__ SoftWar Company   _ Sign_By_fly"
-	strings:
-		$a = {909090E9D8}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Windows_Icon_Graphics_format_dzeqsf
-{
-	meta:
-		description = "Windows Icon Graphics format"
-	strings:
-		$a = {00000100}
-	condition:
-		all of them
-}

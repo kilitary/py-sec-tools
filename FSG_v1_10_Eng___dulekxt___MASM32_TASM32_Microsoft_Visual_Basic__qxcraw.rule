@@ -1,9 +1,0 @@
-rule _FSG_v1_10_Eng___dulekxt___MASM32_TASM32_Microsoft_Visual_Basic__qxcraw
-{
-	meta:
-		description = "FSG v1_10 _Eng_ __ dulekxt __ _MASM32  TASM32  Microsoft Visual Basic_"
-	strings:
-		$a = {F7D0EB02CD20BEBB741CFBEB02CD20BF3B????FBC1C10333F7EB02CD2068}
-	condition:
-		all of them
-}

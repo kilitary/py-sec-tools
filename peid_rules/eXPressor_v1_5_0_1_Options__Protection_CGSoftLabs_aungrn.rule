@@ -1,0 +1,9 @@
+rule _eXPressor_v1_5_0_1_Options__Protection_CGSoftLabs_aungrn
+{
+	meta:
+		description = "eXPressor v1_5_0_1 _Options __ Protection_ CGSoftLabs"
+	strings:
+		$a = {5E00008000000068915DD42735C55A4CA54048C4084EC0}
+	condition:
+		all of them
+}

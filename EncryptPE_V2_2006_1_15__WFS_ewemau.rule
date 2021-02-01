@@ -1,9 +1,0 @@
-rule EncryptPE_V2_2006_1_15__WFS_ewemau
-{
-	meta:
-		description = "EncryptPE V2_2006_1_15 __ WFS"
-	strings:
-		$a = {609C64FF3500000000E873010000000000000000000000000000????????????????0000000000000000000000000000000000000000}
-	condition:
-		all of them
-}

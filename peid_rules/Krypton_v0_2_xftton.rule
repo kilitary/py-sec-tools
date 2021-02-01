@@ -1,0 +1,9 @@
+rule _Krypton_v0_2_xftton
+{
+	meta:
+		description = "Krypton v0_2"
+	strings:
+		$a = {8B04249C60E8????????5D81ED0A4540??80BD674440????0F8548}
+	condition:
+		all of them
+}

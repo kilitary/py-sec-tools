@@ -1,0 +1,9 @@
+rule _ASProtect_vx_x_sskswb
+{
+	meta:
+		description = "ASProtect vx_x"
+	strings:
+		$a = {9060??????0000}
+	condition:
+		all of them
+}

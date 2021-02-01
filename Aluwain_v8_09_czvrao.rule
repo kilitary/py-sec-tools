@@ -1,9 +1,0 @@
-rule Aluwain_v8_09_czvrao
-{
-	meta:
-		description = "Aluwain v8_09"
-	strings:
-		$a = {8BEC1EE8????9D5E}
-	condition:
-		all of them
-}

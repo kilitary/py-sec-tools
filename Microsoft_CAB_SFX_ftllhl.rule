@@ -1,9 +1,0 @@
-rule Microsoft_CAB_SFX_ftllhl
-{
-	meta:
-		description = "Microsoft CAB SFX"
-	strings:
-		$a = {E80A000000E97AFFFFFFCCCCCCCCCC}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule NeoLite_v2_0_fiqwlg
-{
-	meta:
-		description = "NeoLite v2_0"
-	strings:
-		$a = {E9A6}
-	condition:
-		all of them
-}

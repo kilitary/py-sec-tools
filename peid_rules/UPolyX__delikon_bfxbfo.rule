@@ -1,0 +1,9 @@
+rule _UPolyX__delikon_bfxbfo
+{
+	meta:
+		description = "UPolyX __ delikon"
+	strings:
+		$a = {FF96??????0061E9??????FF}
+	condition:
+		all of them
+}

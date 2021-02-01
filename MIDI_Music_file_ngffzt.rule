@@ -1,9 +1,0 @@
-rule _MIDI_Music_file_ngffzt
-{
-	meta:
-		description = "MIDI Music file"
-	strings:
-		$a = {4D54686400000006????????????4D54}
-	condition:
-		all of them
-}

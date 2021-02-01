@@ -1,9 +1,0 @@
-rule _Intel_DCX_Graphics_format_cizfuj
-{
-	meta:
-		description = "Intel DCX Graphics format"
-	strings:
-		$a = {B168DE3A041000}
-	condition:
-		all of them
-}

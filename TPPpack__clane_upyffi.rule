@@ -1,9 +1,0 @@
-rule TPPpack__clane_upyffi
-{
-	meta:
-		description = "TPPpack __ clane"
-	strings:
-		$a = {E8000000005D81EDF58F40006033??E8}
-	condition:
-		all of them
-}

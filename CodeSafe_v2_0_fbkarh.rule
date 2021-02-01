@@ -1,9 +1,0 @@
-rule CodeSafe_v2_0_fbkarh
-{
-	meta:
-		description = "CodeSafe v2_0"
-	strings:
-		$a = {9CFE03??60BE????41??8DBE??10FFFF5783CDFFEB10}
-	condition:
-		all of them
-}

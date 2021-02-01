@@ -1,0 +1,9 @@
+rule _WinUpack_v0_39_final__By_Dwing_c_2005_h1__yzzemw
+{
+	meta:
+		description = "WinUpack v0_39 final __ By Dwing _c_2005 _h1_"
+	strings:
+		$a = {BEB011????AD50FF7634EB7C4801????0B014C6F61644C6962726172794100001810000010000000????????0000????00100000000200000400000000003900040000000000000000??????0002000000000000}
+	condition:
+		all of them
+}

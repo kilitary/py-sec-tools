@@ -1,9 +1,0 @@
-rule VMProtect_0_x__PolyTech_wkftwc
-{
-	meta:
-		description = "VMProtect 0_x __ PolyTech"
-	strings:
-		$a = {5B20564D50726F7465637420}
-	condition:
-		all of them
-}

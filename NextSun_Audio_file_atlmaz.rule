@@ -1,9 +1,0 @@
-rule NextSun_Audio_file_atlmaz
-{
-	meta:
-		description = "NextSun Audio file"
-	strings:
-		$a = {2E736E64}
-	condition:
-		all of them
-}

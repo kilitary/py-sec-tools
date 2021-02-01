@@ -1,9 +1,0 @@
-rule JEDMICS_CCITT4_Graphics_format_oevpyp
-{
-	meta:
-		description = "JEDMICS CCITT4 Graphics format"
-	strings:
-		$a = {80000000??????00}
-	condition:
-		all of them
-}

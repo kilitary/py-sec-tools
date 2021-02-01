@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_2_FSG_1_31_eeneww
+{
+	meta:
+		description = "_ PseudoSigner 0_2 _FSG 1_31"
+	strings:
+		$a = {BE90909000BF90909000BB9090900053BB90909000B280}
+	condition:
+		all of them
+}

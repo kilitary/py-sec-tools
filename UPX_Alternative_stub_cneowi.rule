@@ -1,9 +1,0 @@
-rule _UPX_Alternative_stub_cneowi
-{
-	meta:
-		description = "UPX Alternative stub"
-	strings:
-		$a = {B9????BE????BFC0FFFD}
-	condition:
-		all of them
-}

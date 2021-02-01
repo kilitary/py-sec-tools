@@ -1,9 +1,0 @@
-rule _aPack_v0_98b_exe__nkopql
-{
-	meta:
-		description = "aPack v0_98b _exe_"
-	strings:
-		$a = {93071F05????8ED0BC????EA}
-	condition:
-		all of them
-}

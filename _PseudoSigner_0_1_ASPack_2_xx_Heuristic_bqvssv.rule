@@ -1,9 +1,0 @@
-rule _PseudoSigner_0_1_ASPack_2_xx_Heuristic_bqvssv
-{
-	meta:
-		description = "_ PseudoSigner 0_1 _ASPack 2_xx Heuristic"
-	strings:
-		$a = {9090909068????????6764FF360000676489260000F190909090A8030000617508B801000000C20C006800000000C38B85260400008D8D3B0400005150FF95}
-	condition:
-		all of them
-}

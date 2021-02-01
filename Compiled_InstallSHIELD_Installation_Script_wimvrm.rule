@@ -1,9 +1,0 @@
-rule Compiled_InstallSHIELD_Installation_Script_wimvrm
-{
-	meta:
-		description = "Compiled InstallSHIELD Installation Script"
-	strings:
-		$a = {B8C90C00}
-	condition:
-		all of them
-}

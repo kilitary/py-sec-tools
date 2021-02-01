@@ -37,11 +37,11 @@ if __name__ == '__main__':
 				continue
 
 			try:
-				include_file.write(f'include "{id}.rule"\r\n')
+				include_file.write(f'include "peid_rules/{id}.rule"\r\n')
 			except Exception as e:
 				print(f'write error: {e}')
 
-			with open(f'{id}.rule', 'w') as file:
+			with open(f'peid_rules/{id}.rule', 'w') as file:
 				file.write(f'rule _{id}\n'
 				           '{\r\n'
 				           '\tmeta:\n'

@@ -1,9 +1,0 @@
-rule _TTPpack_gkclwx
-{
-	meta:
-		description = "TTPpack"
-	strings:
-		$a = {E8000000005D81EDF58F40006033F6E8110000008B642408648F05}
-	condition:
-		all of them
-}

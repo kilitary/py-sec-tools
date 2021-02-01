@@ -1,9 +1,0 @@
-rule PMODEW_v_1_12_1_16_1_21_1_33_DOS_extender_fxgwwo
-{
-	meta:
-		description = "PMODEW v_1_12_ 1_16_ 1_21_ 1_33 DOS extender"
-	strings:
-		$a = {FC1607BF????8BF757B9????F3A5061E071F5FBE????060EA4}
-	condition:
-		all of them
-}

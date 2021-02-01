@@ -1,9 +1,0 @@
-rule VOB_ProtectCD_dsmrvh
-{
-	meta:
-		description = "VOB ProtectCD"
-	strings:
-		$a = {363E268AC060E8}
-	condition:
-		all of them
-}

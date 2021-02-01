@@ -1,0 +1,9 @@
+rule _GOES_graphics_file_eljazi
+{
+	meta:
+		description = "GOES graphics file"
+	strings:
+		$a = {C8C4D940C1D9C5C1}
+	condition:
+		all of them
+}

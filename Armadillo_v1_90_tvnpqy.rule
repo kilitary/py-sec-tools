@@ -1,9 +1,0 @@
-rule Armadillo_v1_90_tvnpqy
-{
-	meta:
-		description = "Armadillo v1_90"
-	strings:
-		$a = {558BEC6AFF6810F2400068649A400064A100000000506489250000000083EC58}
-	condition:
-		all of them
-}

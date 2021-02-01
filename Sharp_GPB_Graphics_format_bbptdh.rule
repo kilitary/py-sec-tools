@@ -1,9 +1,0 @@
-rule Sharp_GPB_Graphics_format_bbptdh
-{
-	meta:
-		description = "Sharp GPB Graphics format"
-	strings:
-		$a = {4D00000000????????08000000030000}
-	condition:
-		all of them
-}

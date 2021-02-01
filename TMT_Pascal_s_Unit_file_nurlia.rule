@@ -1,9 +1,0 @@
-rule _TMT_Pascal_s_Unit_file_nurlia
-{
-	meta:
-		description = "TMT_Pascal_s Unit file"
-	strings:
-		$a = {5000000053504650}
-	condition:
-		all of them
-}

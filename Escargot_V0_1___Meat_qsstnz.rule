@@ -1,9 +1,0 @@
-rule Escargot_V0_1___Meat_qsstnz
-{
-	meta:
-		description = "Escargot V0_1 __ __Meat"
-	strings:
-		$a = {EB0440302E31606861}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Alias_PIXVivid_IMG_Graphics_format_sfuldi
-{
-	meta:
-		description = "Alias PIXVivid IMG Graphics format"
-	strings:
-		$a = {????????0000????0018????????01}
-	condition:
-		all of them
-}

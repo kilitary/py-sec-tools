@@ -1,0 +1,9 @@
+rule _Microsoft_Windows_Metafile_zgtfzg
+{
+	meta:
+		description = "Microsoft Windows Metafile"
+	strings:
+		$a = {D7CDC69A}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule EXERefactor_V0_1__random_lbnepx
-{
-	meta:
-		description = "EXERefactor V0_1 __ random"
-	strings:
-		$a = {558BEC81EC900B0000535657E9588C01005553434154494F4E}
-	condition:
-		all of them
-}

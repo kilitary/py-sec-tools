@@ -1,9 +1,0 @@
-rule RAR_Archive_tkthnj
-{
-	meta:
-		description = "RAR Archive"
-	strings:
-		$a = {52617221}
-	condition:
-		all of them
-}

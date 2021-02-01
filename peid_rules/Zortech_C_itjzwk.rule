@@ -1,0 +1,9 @@
+rule _Zortech_C_itjzwk
+{
+	meta:
+		description = "Zortech C"
+	strings:
+		$a = {FAFCB8??????8CC88ED8}
+	condition:
+		all of them
+}

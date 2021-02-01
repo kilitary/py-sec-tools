@@ -1,9 +1,0 @@
-rule CrunchPE_v5_0_hilghq
-{
-	meta:
-		description = "CrunchPE v5_0"
-	strings:
-		$a = {EB1503??????06}
-	condition:
-		all of them
-}

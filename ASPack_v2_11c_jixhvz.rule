@@ -1,9 +1,0 @@
-rule ASPack_v2_11c_jixhvz
-{
-	meta:
-		description = "ASPack v2_11c"
-	strings:
-		$a = {60E802000000EB095D5581ED39394400C3E959040000}
-	condition:
-		all of them
-}

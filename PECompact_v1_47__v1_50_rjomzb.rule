@@ -1,9 +1,0 @@
-rule PECompact_v1_47__v1_50_rjomzb
-{
-	meta:
-		description = "PECompact v1_47 _ v1_50"
-	strings:
-		$a = {EB0668????????C39C60E802??????33C08BC483C004938BE38B5BFC81EB0F9040??87DD8B85A29040??0185039040??66C785??9040??909001859E9040??BB2D12}
-	condition:
-		all of them
-}

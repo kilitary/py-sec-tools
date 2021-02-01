@@ -1,9 +1,0 @@
-rule Vcasm_Protector_1_0a__1_0d__vcasm_rgkvnd
-{
-	meta:
-		description = "Vcasm_Protector 1_0a _ 1_0d __ vcasm"
-	strings:
-		$a = {558BEC6AFF68??????0068??????0064A1000000005064892500000000E803000000}
-	condition:
-		all of them
-}

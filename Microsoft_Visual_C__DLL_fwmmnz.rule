@@ -1,9 +1,0 @@
-rule Microsoft_Visual_C__DLL_fwmmnz
-{
-	meta:
-		description = "Microsoft Visual C__ DLL"
-	strings:
-		$a = {535657BB01??????8B??2414}
-	condition:
-		all of them
-}

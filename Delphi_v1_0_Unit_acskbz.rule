@@ -1,9 +1,0 @@
-rule _Delphi_v1_0_Unit_acskbz
-{
-	meta:
-		description = "Delphi v1_0 Unit"
-	strings:
-		$a = {44435531}
-	condition:
-		all of them
-}

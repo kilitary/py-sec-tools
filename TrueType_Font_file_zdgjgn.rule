@@ -1,9 +1,0 @@
-rule _TrueType_Font_file_zdgjgn
-{
-	meta:
-		description = "TrueType Font file"
-	strings:
-		$a = {00010000????????????????4C545348}
-	condition:
-		all of them
-}

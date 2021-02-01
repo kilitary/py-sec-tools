@@ -1,9 +1,0 @@
-rule EmbedPE_v1_24__cyclotron_fegqwq
-{
-	meta:
-		description = "EmbedPE v1_24 __ cyclotron"
-	strings:
-		$a = {83EC506068????????E8CBFF0000}
-	condition:
-		all of them
-}

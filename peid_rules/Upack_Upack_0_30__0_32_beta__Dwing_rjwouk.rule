@@ -1,0 +1,9 @@
+rule _Upack_Upack_0_30__0_32_beta__Dwing_rjwouk
+{
+	meta:
+		description = "Upack Upack 0_30 _ 0_32 beta __ Dwing"
+	strings:
+		$a = {8A074704183C0273F78B073C??75F1B0000FC803461C2BC7ABE2E58B5E348B763846AD??C00F84}
+	condition:
+		all of them
+}

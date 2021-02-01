@@ -1,0 +1,9 @@
+rule _Armadillo_V5_00_V5_X_Dll__Silicon_Realms_Toolworks__Sign_By_fly_xxrhkt
+{
+	meta:
+		description = "Armadillo V5_00_V5_X Dll __ Silicon Realms Toolworks _ Sign_By_fly"
+	strings:
+		$a = {837C2408017505E8????????FF7424048B4C24108B54240CE8????????59C20C006A0C68????????E8????????8B4D0833FF3BCF762E6AE05833D2F7F13B450C1BC040751FE8????????C7000C0000005757575757}
+	condition:
+		all of them
+}

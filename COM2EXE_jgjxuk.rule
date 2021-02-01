@@ -1,9 +1,0 @@
-rule COM2EXE_jgjxuk
-{
-	meta:
-		description = "COM2EXE"
-	strings:
-		$a = {F0FFFEFF}
-	condition:
-		all of them
-}

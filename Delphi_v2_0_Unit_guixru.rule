@@ -1,9 +1,0 @@
-rule Delphi_v2_0_Unit_guixru
-{
-	meta:
-		description = "Delphi v2_0 Unit"
-	strings:
-		$a = {44435532}
-	condition:
-		all of them
-}

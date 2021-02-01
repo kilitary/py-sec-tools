@@ -1,0 +1,9 @@
+rule __VMProtect_v1_25___PolyTech_htbmua
+{
+	meta:
+		description = "_ VMProtect v1_25 ___ PolyTech"
+	strings:
+		$a = {68????????E8????????0FB60646668B550083C50266891407E9}
+	condition:
+		all of them
+}

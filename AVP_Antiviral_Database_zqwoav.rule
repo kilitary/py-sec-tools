@@ -1,9 +1,0 @@
-rule AVP_Antiviral_Database_zqwoav
-{
-	meta:
-		description = "AVP Antiviral Database"
-	strings:
-		$a = {41565020416E7469766972616C204461746162617365}
-	condition:
-		all of them
-}

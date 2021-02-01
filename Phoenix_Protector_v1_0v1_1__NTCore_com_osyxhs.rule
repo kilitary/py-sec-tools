@@ -1,9 +1,0 @@
-rule _Phoenix_Protector_v1_0v1_1__NTCore_com_osyxhs
-{
-	meta:
-		description = "Phoenix Protector v1_0v1_1 __ NTCore_com"
-	strings:
-		$a = {026F??????0A0A068D??????010B160C383600000002086F??????0A0D0906085961D21304091E630861D21305070811051E62110460D19D0817580C08078E69380B00000028??????0A2A38ECFFFFFF3FC0FFFFFF0773??????0A38E5FFFFFF}
-	condition:
-		all of them
-}

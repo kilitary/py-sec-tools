@@ -1,9 +1,0 @@
-rule NoodleCrypt_v2_00_Eng___NoodleSpa_jeuqrx
-{
-	meta:
-		description = "NoodleCrypt v2_00 _Eng_ __ NoodleSpa"
-	strings:
-		$a = {EB019AE876000000}
-	condition:
-		all of them
-}

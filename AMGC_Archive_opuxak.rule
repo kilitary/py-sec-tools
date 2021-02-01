@@ -1,9 +1,0 @@
-rule AMGC_Archive_opuxak
-{
-	meta:
-		description = "AMGC Archive"
-	strings:
-		$a = {AD362200}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _OAZ_Fax_Graphics_format_vippfw
-{
-	meta:
-		description = "OAZ Fax Graphics format"
-	strings:
-		$a = {0F0F0F0F01000000}
-	condition:
-		all of them
-}

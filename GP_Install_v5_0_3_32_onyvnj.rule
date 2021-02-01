@@ -1,9 +1,0 @@
-rule GP_Install_v5_0_3_32_onyvnj
-{
-	meta:
-		description = "GP_Install v5_0_3_32"
-	strings:
-		$a = {558BEC33C951515151515151535657B8C41C4100E86B3EFFFF33C055687620410064FF30648920BAA047410033C0E8310AFFFF33D2A1A0}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule Scodl_Graphics_format_lekskh
-{
-	meta:
-		description = "Scodl Graphics format"
-	strings:
-		$a = {E001??00????00}
-	condition:
-		all of them
-}

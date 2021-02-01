@@ -1,9 +1,0 @@
-rule _PCIENC_Cryptor_wdyvnl
-{
-	meta:
-		description = "PCIENC Cryptor"
-	strings:
-		$a = {06504349454E}
-	condition:
-		all of them
-}

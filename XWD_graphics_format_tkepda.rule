@@ -1,9 +1,0 @@
-rule XWD_graphics_format_tkepda
-{
-	meta:
-		description = "XWD graphics format"
-	strings:
-		$a = {000000710000000700000002000000}
-	condition:
-		all of them
-}

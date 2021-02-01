@@ -1,9 +1,0 @@
-rule kryptor_5_zymnos
-{
-	meta:
-		description = "kryptor 5"
-	strings:
-		$a = {E803??????E9EB685833D27402E9E940427502}
-	condition:
-		all of them
-}

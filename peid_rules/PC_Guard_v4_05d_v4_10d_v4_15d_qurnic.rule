@@ -1,0 +1,9 @@
+rule _PC_Guard_v4_05d_v4_10d_v4_15d_qurnic
+{
+	meta:
+		description = "PC_Guard v4_05d_ v4_10d_ v4_15d"
+	strings:
+		$a = {FC5550E8000000005DEB01}
+	condition:
+		all of them
+}

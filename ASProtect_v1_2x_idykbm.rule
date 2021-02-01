@@ -1,9 +1,0 @@
-rule _ASProtect_v1_2x_idykbm
-{
-	meta:
-		description = "ASProtect v1_2x"
-	strings:
-		$a = {6801??????E801??????C3C3}
-	condition:
-		all of them
-}

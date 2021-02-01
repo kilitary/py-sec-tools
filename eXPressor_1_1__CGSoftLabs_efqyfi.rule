@@ -1,9 +1,0 @@
-rule eXPressor_1_1__CGSoftLabs_efqyfi
-{
-	meta:
-		description = "eXPressor 1_1 __ CGSoftLabs"
-	strings:
-		$a = {E9????0000E9????0000E9??120000E9??0C0000E9????0000E9????0000E9????0000}
-	condition:
-		all of them
-}

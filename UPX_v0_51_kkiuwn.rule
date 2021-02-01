@@ -1,9 +1,0 @@
-rule _UPX_v0_51_kkiuwn
-{
-	meta:
-		description = "UPX v0_51"
-	strings:
-		$a = {60E8000000005883E83D508DB8??????FF578DB0D801????83CDFF31DB????????01DB75078B1E83EEFC11DB730B8A0646880747EBEB90}
-	condition:
-		all of them
-}

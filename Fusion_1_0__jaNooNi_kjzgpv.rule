@@ -1,9 +1,0 @@
-rule Fusion_1_0__jaNooNi_kjzgpv
-{
-	meta:
-		description = "Fusion 1_0 __ jaNooNi"
-	strings:
-		$a = {68043040006804304000E8090300006804304000E8C7020000}
-	condition:
-		all of them
-}

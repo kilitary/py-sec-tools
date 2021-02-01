@@ -1,9 +1,0 @@
-rule NsPack_1_4_by_North_Star_Liu_Xing_Ping__uomfiu
-{
-	meta:
-		description = "NsPack 1_4 by North Star _Liu Xing Ping_"
-	strings:
-		$a = {8BDF833F00750A83C704B900000000EB16B901000000033B83C304833B00742D01138B33037B0457515253}
-	condition:
-		all of them
-}

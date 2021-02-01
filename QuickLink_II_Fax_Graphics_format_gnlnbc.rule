@@ -1,9 +1,0 @@
-rule QuickLink_II_Fax_Graphics_format_gnlnbc
-{
-	meta:
-		description = "QuickLink II Fax Graphics format"
-	strings:
-		$a = {514C494946415820}
-	condition:
-		all of them
-}

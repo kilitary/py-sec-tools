@@ -1,9 +1,0 @@
-rule WATCOM_CC__htibjg
-{
-	meta:
-		description = "WATCOM CC__"
-	strings:
-		$a = {E9????????????????5741}
-	condition:
-		all of them
-}

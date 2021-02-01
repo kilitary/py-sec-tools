@@ -1,9 +1,0 @@
-rule __PseudoSigner_0_1_VBOX_4_3_MTE_jglsnl
-{
-	meta:
-		description = "_ PseudoSigner 0_1 _VBOX 4_3 MTE"
-	strings:
-		$a = {0BC00BC00BC00BC00BC00BC00BC00BC0E9}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule TAV_nrddmi
-{
-	meta:
-		description = "TAV"
-	strings:
-		$a = {E8????4D5ACB}
-	condition:
-		all of them
-}

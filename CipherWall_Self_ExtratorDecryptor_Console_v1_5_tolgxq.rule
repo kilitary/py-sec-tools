@@ -1,9 +1,0 @@
-rule _CipherWall_Self_ExtratorDecryptor_Console_v1_5_tolgxq
-{
-	meta:
-		description = "CipherWall Self_ExtratorDecryptor _Console_ v1_5"
-	strings:
-		$a = {9061BE001042008DBE0000FEFFC787C02002000B6E5B9B5783CDFFEB0E909090908A064688074701DB75078B1E83EEFC11DB72EDB80100000001DB75078B1E83EEFC11DB11C001DB73EF75098B1E83EEFC11DB73E4}
-	condition:
-		all of them
-}

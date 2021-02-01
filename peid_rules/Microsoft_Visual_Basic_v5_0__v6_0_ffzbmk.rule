@@ -1,0 +1,9 @@
+rule _Microsoft_Visual_Basic_v5_0__v6_0_ffzbmk
+{
+	meta:
+		description = "Microsoft Visual Basic v5_0 _ v6_0"
+	strings:
+		$a = {68????????E8????????0000??00000030??00}
+	condition:
+		all of them
+}

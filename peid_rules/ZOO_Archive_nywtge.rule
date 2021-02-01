@@ -1,0 +1,9 @@
+rule _ZOO_Archive_nywtge
+{
+	meta:
+		description = "ZOO Archive"
+	strings:
+		$a = {5A4F4F}
+	condition:
+		all of them
+}

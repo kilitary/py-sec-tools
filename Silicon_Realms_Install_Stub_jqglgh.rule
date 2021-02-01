@@ -1,9 +1,0 @@
-rule Silicon_Realms_Install_Stub_jqglgh
-{
-	meta:
-		description = "Silicon Realms Install Stub"
-	strings:
-		$a = {558BEC6AFF68??92400068????400064A100000000506489250000000083EC585356578965E8FF15????400033D28AD48915????40008BC881E1FF000000890D????4000C1E10803CA890D????4000C1E810A3}
-	condition:
-		all of them
-}

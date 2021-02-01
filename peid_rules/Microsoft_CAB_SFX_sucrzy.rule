@@ -1,0 +1,9 @@
+rule _Microsoft_CAB_SFX_sucrzy
+{
+	meta:
+		description = "Microsoft CAB SFX"
+	strings:
+		$a = {558BEC83EC4456FF15??1000018BF08A063C2275148A46014684C074043C2275F4803E22750D??EB0A3C20}
+	condition:
+		all of them
+}

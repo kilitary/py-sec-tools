@@ -1,9 +1,0 @@
-rule id_Software_s_WAD_file_oujjid
-{
-	meta:
-		description = "id Software_s WAD file"
-	strings:
-		$a = {505741440B00}
-	condition:
-		all of them
-}

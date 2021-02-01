@@ -1,9 +1,0 @@
-rule _PseudoSigner_0_2__BJFNT_1_2_hotbpr
-{
-	meta:
-		description = "_ PseudoSigner 0_2 __BJFNT 1_2"
-	strings:
-		$a = {EB0269B183EC04EB03CD20EBEB01EB9CEB01EBEB00}
-	condition:
-		all of them
-}

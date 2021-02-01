@@ -1,9 +1,0 @@
-rule Alpha_BMP_graphics_file_sqojgj
-{
-	meta:
-		description = "Alpha BMP graphics file"
-	strings:
-		$a = {FFFF000164000000}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule FSG_v1_10_Eng___dulekxt___Borland_Delphi_Microsoft_Visual_C___jzvdhr
-{
-	meta:
-		description = "FSG v1_10 _Eng_ __ dulekxt __ _Borland Delphi  Microsoft Visual C___"
-	strings:
-		$a = {1E0E1FB8????8EC0268A1E????80????72}
-	condition:
-		all of them
-}

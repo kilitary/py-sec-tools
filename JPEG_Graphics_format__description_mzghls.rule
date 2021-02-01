@@ -1,9 +1,0 @@
-rule _JPEG_Graphics_format__description_mzghls
-{
-	meta:
-		description = "JPEG Graphics format _ description"
-	strings:
-		$a = {FFD8FFFE0027}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule ASProtect_vx_x_yyuoku
-{
-	meta:
-		description = "ASProtect vx_x"
-	strings:
-		$a = {609CE8????????8BDD5D81ED????????899D}
-	condition:
-		all of them
-}

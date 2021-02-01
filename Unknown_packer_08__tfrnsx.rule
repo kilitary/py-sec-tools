@@ -1,9 +1,0 @@
-rule Unknown_packer_08__tfrnsx
-{
-	meta:
-		description = "Unknown packer _08_"
-	strings:
-		$a = {8BC42D????24008BF857B9????BE????F3A5FDC3974F4F}
-	condition:
-		all of them
-}

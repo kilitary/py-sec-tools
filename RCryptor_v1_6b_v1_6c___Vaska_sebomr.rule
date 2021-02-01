@@ -1,9 +1,0 @@
-rule RCryptor_v1_6b_v1_6c___Vaska_sebomr
-{
-	meta:
-		description = "RCryptor v1_6b  v1_6c ___ Vaska"
-	strings:
-		$a = {8BC70304242BC78038500F851B8B1FFF68}
-	condition:
-		all of them
-}

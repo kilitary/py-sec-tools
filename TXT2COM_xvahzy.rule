@@ -1,9 +1,0 @@
-rule _TXT2COM_xvahzy
-{
-	meta:
-		description = "TXT2COM"
-	strings:
-		$a = {E8????CD20}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _PE_PACK_1_0_rspznx
+{
+	meta:
+		description = "PE_PACK 1_0"
+	strings:
+		$a = {7400E9}
+	condition:
+		all of them
+}

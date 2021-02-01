@@ -1,9 +1,0 @@
-rule ASDPack_2_0__asd_eiqabh
-{
-	meta:
-		description = "ASDPack 2_0 __ asd"
-	strings:
-		$a = {5B43837B74}
-	condition:
-		all of them
-}

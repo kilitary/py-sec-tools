@@ -1,9 +1,0 @@
-rule _Exe_Shield_vx_x_rebadr
-{
-	meta:
-		description = "Exe Shield vx_x"
-	strings:
-		$a = {65786573686C2E646C6CC05D00}
-	condition:
-		all of them
-}

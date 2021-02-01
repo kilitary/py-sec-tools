@@ -1,9 +1,0 @@
-rule _Windows_Write_file_rgbhml
-{
-	meta:
-		description = "Windows Write file"
-	strings:
-		$a = {??BE000000AB000000}
-	condition:
-		all of them
-}

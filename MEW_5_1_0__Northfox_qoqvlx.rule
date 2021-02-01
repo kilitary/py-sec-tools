@@ -1,9 +1,0 @@
-rule MEW_5_1_0__Northfox_qoqvlx
-{
-	meta:
-		description = "MEW 5 1_0 __ Northfox"
-	strings:
-		$a = {BE4801??????????95A533C0}
-	condition:
-		all of them
-}

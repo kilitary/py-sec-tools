@@ -1,0 +1,9 @@
+rule _PolyCrypt_PE__2_1_4b2_1_5__JLab_Software_Creations_h_signed__sgzxrt
+{
+	meta:
+		description = "PolyCrypt PE _ 2_1_4b2_1_5 __ JLab Software Creations _h_signed_"
+	strings:
+		$a = {506F6C7943727970742050452028632920323030342D323030352C204A4C6162536F6674776172652E0050004300500045}
+	condition:
+		all of them
+}

@@ -1,9 +1,0 @@
-rule SGI_Image_Graphics_format_mjkdpw
-{
-	meta:
-		description = "SGI Image Graphics format"
-	strings:
-		$a = {01DA00010003}
-	condition:
-		all of them
-}

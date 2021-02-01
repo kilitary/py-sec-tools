@@ -1,9 +1,0 @@
-rule _Upack_Patch__Dwing_vuksbr
-{
-	meta:
-		description = "Upack_Patch __ Dwing"
-	strings:
-		$a = {813A0000000200000000}
-	condition:
-		all of them
-}

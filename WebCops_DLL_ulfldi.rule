@@ -1,9 +1,0 @@
-rule _WebCops_DLL_ulfldi
-{
-	meta:
-		description = "WebCops _DLL"
-	strings:
-		$a = {A8BE58DCD6CCC4634A0FE002BBCEF35C5023FB62E73D2B}
-	condition:
-		all of them
-}

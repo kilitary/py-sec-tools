@@ -1,9 +1,0 @@
-rule Limit_Archive_agykjp
-{
-	meta:
-		description = "Limit Archive"
-	strings:
-		$a = {4C4D1A}
-	condition:
-		all of them
-}

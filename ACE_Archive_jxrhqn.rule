@@ -1,9 +1,0 @@
-rule _ACE_Archive_jxrhqn
-{
-	meta:
-		description = "ACE Archive"
-	strings:
-		$a = {??????????????2A2A4143452A2A}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule PE_PROTECT_0_9_icvhru
-{
-	meta:
-		description = "PE_PROTECT 0_9"
-	strings:
-		$a = {E9CF0000000D0A0D0AC4C4C4C4C4C4C4C4C4C4C4}
-	condition:
-		all of them
-}

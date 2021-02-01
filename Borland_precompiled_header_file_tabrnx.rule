@@ -1,9 +1,0 @@
-rule Borland_precompiled_header_file_tabrnx
-{
-	meta:
-		description = "Borland precompiled header file"
-	strings:
-		$a = {545053}
-	condition:
-		all of them
-}

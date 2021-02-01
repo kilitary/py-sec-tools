@@ -1,9 +1,0 @@
-rule _eXpressor_v1_4_5__CGSoftLabs_cdddte
-{
-	meta:
-		description = "eXpressor v1_4_5 __ CGSoftLabs"
-	strings:
-		$a = {558BEC83EC50535657BE????????8D7DF4A5A566A58B}
-	condition:
-		all of them
-}

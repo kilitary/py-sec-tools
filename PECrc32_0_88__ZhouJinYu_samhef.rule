@@ -1,9 +1,0 @@
-rule _PECrc32_0_88__ZhouJinYu_samhef
-{
-	meta:
-		description = "PECrc32 0_88 __ ZhouJinYu"
-	strings:
-		$a = {60E8000000005D81EDB6A445008DBDB0A4450081EF82000000}
-	condition:
-		all of them
-}

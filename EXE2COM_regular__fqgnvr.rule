@@ -1,9 +1,0 @@
-rule EXE2COM_regular__fqgnvr
-{
-	meta:
-		description = "EXE2COM _regular_"
-	strings:
-		$a = {E98CCA81C3????3B16????76??BA????B409CD21CD200D}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule ASProtect_2_0_tbepog
-{
-	meta:
-		description = "ASProtect 2_0"
-	strings:
-		$a = {6801??4000E801000000C3C3}
-	condition:
-		all of them
-}

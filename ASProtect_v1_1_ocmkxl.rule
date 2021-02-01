@@ -1,9 +1,0 @@
-rule _ASProtect_v1_1_ocmkxl
-{
-	meta:
-		description = "ASProtect v1_1"
-	strings:
-		$a = {9060E81B??????E9FC}
-	condition:
-		all of them
-}

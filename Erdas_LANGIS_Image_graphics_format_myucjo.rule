@@ -1,9 +1,0 @@
-rule Erdas_LANGIS_Image_graphics_format_myucjo
-{
-	meta:
-		description = "Erdas LANGIS Image graphics format"
-	strings:
-		$a = {48454144373400000300}
-	condition:
-		all of them
-}

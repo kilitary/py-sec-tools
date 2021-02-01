@@ -1,9 +1,0 @@
-rule _PEMangle_vtsylz
-{
-	meta:
-		description = "PEMangle"
-	strings:
-		$a = {609CBE001040008BFEB928030000BB78563412AD33C3ABE2FA9D61}
-	condition:
-		all of them
-}

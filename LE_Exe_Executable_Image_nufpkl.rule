@@ -1,9 +1,0 @@
-rule LE_Exe_Executable_Image_nufpkl
-{
-	meta:
-		description = "LE_Exe Executable Image"
-	strings:
-		$a = {4C45}
-	condition:
-		all of them
-}

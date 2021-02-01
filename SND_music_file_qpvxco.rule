@@ -1,9 +1,0 @@
-rule SND_music_file_qpvxco
-{
-	meta:
-		description = "SND music file"
-	strings:
-		$a = {0000F82A??00}
-	condition:
-		all of them
-}

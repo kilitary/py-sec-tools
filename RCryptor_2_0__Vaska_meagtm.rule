@@ -1,9 +1,0 @@
-rule RCryptor_2_0__Vaska_meagtm
-{
-	meta:
-		description = "RCryptor 2_0 __ Vaska"
-	strings:
-		$a = {60906161807FF04590600F851B8B1FFF6840A11413B800101413903D24C0141374068030F640EBF3B88C201813903DB9271813740680308940EBF3C3}
-	condition:
-		all of them
-}

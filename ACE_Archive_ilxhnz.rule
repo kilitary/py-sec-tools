@@ -1,9 +1,0 @@
-rule ACE_Archive_ilxhnz
-{
-	meta:
-		description = "ACE Archive"
-	strings:
-		$a = {??????????????2A2A4143452A2A}
-	condition:
-		all of them
-}

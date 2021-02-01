@@ -1,9 +1,0 @@
-rule _SciFax_Graphics_file_svftho
-{
-	meta:
-		description = "SciFax Graphics file"
-	strings:
-		$a = {44543D00}
-	condition:
-		all of them
-}

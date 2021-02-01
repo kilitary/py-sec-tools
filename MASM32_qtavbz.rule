@@ -1,9 +1,0 @@
-rule _MASM32_qtavbz
-{
-	meta:
-		description = "MASM32"
-	strings:
-		$a = {6A??680030400068??3040006A00E8070000006A00E806000000FF250820}
-	condition:
-		all of them
-}

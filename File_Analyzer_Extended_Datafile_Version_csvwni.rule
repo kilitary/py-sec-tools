@@ -1,9 +1,0 @@
-rule File_Analyzer_Extended_Datafile_Version_csvwni
-{
-	meta:
-		description = "File Analyzer Extended Datafile Version"
-	strings:
-		$a = {230345585444????3A03}
-	condition:
-		all of them
-}
