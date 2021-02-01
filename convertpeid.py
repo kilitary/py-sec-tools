@@ -17,13 +17,22 @@ if __name__ == '__main__':
 	# print(f'{matches.group(1)}')
 	with open('peid.rules', 'w') as file:
 		for match in matches:
-			initial_sign = str(match[1]).strip().replace(' ', '')
+			sign = initial_sign = match[1].strip().replace(' ', '')
+			if re.search(r'[^A-F0-9\?]', initial_sign):
+				print(f'skip bad sign [{initial_sign}]')
+				continue
+
 			sign_length = len(initial_sign)
-			sign = str(match[1]).strip().replace('/', '').replace(' ', '')
-			desc = str(match[0]).strip('\n\r\t/').replace('/', '')
-			id = re.sub('[^a-z0-9A-Z]', '_', desc).replace('__', '_') + str(random.randint(101111,2211111))
-			sign = '{' + re.sub('[^A-F0-9 \?]', '', sign).replace('  ', '') + '}'
-			print(f'{id}: {desc} {len(sign) / 2:.0f} bytes [{sign_length%2}] from [{initial_sign}]]')
+			desc = re.sub('[^A-Za-z0-9 ]', '_', str(match[0]).strip('\n\r\t/').replace('/', ''))
+			id = re.sub('[^a-z0-9A-Z]', '_', desc).replace('__', '_') + '_' + str_id_generator(size=6)
+			sign = '{' + re.sub(r'[^A-F0-9 \?]', '', sign).replace('  ', '') + '}'
+			bad = sign_length % 2
+
+			print(f'{id}: {desc} {len(sign) / 2:.0f} bytes [{bad}] from [{initial_sign}]')
+
+			if bad:
+				print(f'bad sign')
+				continue
 
 			try:
 				file.write(f'rule {id}\n'

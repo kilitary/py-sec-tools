@@ -1,3 +1,5 @@
+import "pe"
+
 rule gzip_embed
 {
     meta:
@@ -60,4 +62,50 @@ rule uac
 }
 
 
-include "peid.rules"
+rule single_section
+{
+	meta:
+		description = "single_section"
+    condition:
+        pe.number_of_sections == 1
+}
+
+rule control_panel_applet
+{
+	meta:
+    		description = "control_panel_applet"
+    condition:
+        pe.exports("CPlApplet")
+}
+
+rule has_dll_characteristic
+{
+	meta:
+    		description = "has_dll_characteristic"
+    condition:
+        pe.characteristics & pe.DLL
+}
+
+rule is_pe
+{
+	meta:
+    		description = "is_pe"
+    condition:
+        pe.is_pe
+}
+
+rule invalid_checksum
+{
+	meta:
+    	description = "invalid checksum"
+    condition:
+        pe.checksum != pe.calculate_checksum()
+}
+
+rule invalid_date
+{
+	meta:
+    	description = "invalid date"
+    condition:
+       pe.timestamp >= 161220845
+}

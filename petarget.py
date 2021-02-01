@@ -203,7 +203,7 @@ if __name__ == '__main__':
 	pgreen(f'loading rules ...')
 	rules = []
 	try:
-		rules = yara.compile('yara.rules', error_on_warning=True)
+		rules = yara.compile('yara.rules', error_on_warning=False)
 	except Exception as e:
 		pred(f'{e}')
 		exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -236,7 +236,7 @@ if __name__ == '__main__':
 
 			pblack(f"=> [{file}]")
 
-			matches = rules.matches(file, warning_callback=mycallback)
+			matches = rules.match(file)
 			if len(matches):
 				for match in matches:
 					pgreen(f'sign <{match}>')
