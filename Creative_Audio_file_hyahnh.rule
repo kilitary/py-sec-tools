@@ -1,0 +1,9 @@
+rule Creative_Audio_file_hyahnh
+{
+	meta:
+		description = "Creative Audio file"
+	strings:
+		$a = {437265617469766520566F6963652046696C65}
+	condition:
+		all of them
+}

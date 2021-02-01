@@ -1,0 +1,9 @@
+rule MoleBox_v2_0_fovyib
+{
+	meta:
+		description = "MoleBox v2_0"
+	strings:
+		$a = {E8????????60E84F}
+	condition:
+		all of them
+}

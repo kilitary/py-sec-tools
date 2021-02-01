@@ -1,0 +1,9 @@
+rule Vx_ARCV_4_jewqvz
+{
+	meta:
+		description = "Vx_ ARCV_4"
+	strings:
+		$a = {E800005D81ED060181FC4F50740B8DB68601BF000157A4EB111E06}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule RCryptor_1_6_by_Vaska_Damrai_sign_20_03_2007_20_41__ddrqin
+{
+	meta:
+		description = "RCryptor 1_6 by Vaska _Damrai sign 20_03_2007 20_41_"
+	strings:
+		$a = {832C244F6840A11413FF542404834424044FB8001014133D24C01413740680302B40EBF3B88C2018133DB9271813740680301940EBF3E800000000C3}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Obsidium_V1_3_0_0__Obsidium_Software_lwapft
+{
+	meta:
+		description = "Obsidium V1_3_0_0 __ Obsidium Software"
+	strings:
+		$a = {EB04????????E8??000000}
+	condition:
+		all of them
+}

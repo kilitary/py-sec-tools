@@ -1,0 +1,9 @@
+rule _SkD_Undetectabler_3_No_FSG_2_Method___SkD_vlggjy
+{
+	meta:
+		description = "SkD Undetectabler 3 _No FSG 2 Method_ __ SkD"
+	strings:
+		$a = {558BEC81EC100200006800020000}
+	condition:
+		all of them
+}

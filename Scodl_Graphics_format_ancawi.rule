@@ -1,0 +1,9 @@
+rule _Scodl_Graphics_format_ancawi
+{
+	meta:
+		description = "Scodl Graphics format"
+	strings:
+		$a = {E001??00????00}
+	condition:
+		all of them
+}

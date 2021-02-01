@@ -15,7 +15,9 @@ if __name__ == '__main__':
 
 	# var_dump(matches)
 	# print(f'{matches.group(1)}')
-	with open('peid.rules', 'w') as file:
+
+	os.unlink('peid.rules')
+	with open('peid.rules', 'a') as include_file:
 		for match in matches:
 			sign = initial_sign = match[1].strip().replace(' ', '')
 			if re.search(r'[^A-F0-9\?]', initial_sign):
@@ -35,7 +37,12 @@ if __name__ == '__main__':
 				continue
 
 			try:
-				file.write(f'rule {id}\n'
+				include_file.write(f'include "{id}.rule"\r\n')
+			except Exception as e:
+				print(f'write error: {e}')
+
+			with open(f'{id}.rule', 'w') as file:
+				file.write(f'rule _{id}\n'
 				           '{\r\n'
 				           '\tmeta:\n'
 				           f'\t\tdescription = "{desc}"\r\n'
@@ -44,5 +51,3 @@ if __name__ == '__main__':
 				           '\tcondition:\n'
 				           '\t\tall of them\r\n'
 				           '}' + '\r\n')
-			except Exception as e:
-				print(f'write error: {e}')

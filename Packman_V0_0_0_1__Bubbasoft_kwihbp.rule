@@ -1,0 +1,9 @@
+rule Packman_V0_0_0_1__Bubbasoft_kwihbp
+{
+	meta:
+		description = "Packman V0_0_0_1 __ Bubbasoft"
+	strings:
+		$a = {60E8000000005883E83D508DB8??????FF578DB0E8}
+	condition:
+		all of them
+}

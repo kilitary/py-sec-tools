@@ -1,0 +1,9 @@
+rule Micrografix_Draw_Graphics_format_gqdnpf
+{
+	meta:
+		description = "Micrografix Draw Graphics format"
+	strings:
+		$a = {01FF020403020002}
+	condition:
+		all of them
+}

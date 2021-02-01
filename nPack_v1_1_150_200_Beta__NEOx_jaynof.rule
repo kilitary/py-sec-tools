@@ -1,0 +1,9 @@
+rule nPack_v1_1_150_200_Beta__NEOx_jaynof
+{
+	meta:
+		description = "nPack v1_1 150_200 Beta __ NEOx"
+	strings:
+		$a = {833D40??????007505E901000000C3E841000000B880??????2B0508??????A33C????00E85E000000E8E0010000E8EC060000E8F7050000}
+	condition:
+		all of them
+}

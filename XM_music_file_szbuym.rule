@@ -1,0 +1,9 @@
+rule XM_music_file_szbuym
+{
+	meta:
+		description = "XM music file"
+	strings:
+		$a = {457874656E646564204D6F64756C653A}
+	condition:
+		all of them
+}

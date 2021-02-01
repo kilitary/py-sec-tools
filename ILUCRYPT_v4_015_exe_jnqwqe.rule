@@ -1,0 +1,9 @@
+rule ILUCRYPT_v4_015_exe_jnqwqe
+{
+	meta:
+		description = "ILUCRYPT v4_015 _exe"
+	strings:
+		$a = {8BECFAC746F7????4281FA????75F9FF66F7}
+	condition:
+		all of them
+}

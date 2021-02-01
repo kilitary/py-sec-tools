@@ -1,0 +1,9 @@
+rule Cracked_by_Autohack_2__siqmdt
+{
+	meta:
+		description = "Cracked by Autohack _2_"
+	strings:
+		$a = {0E1FB409BA????CD21FA8E06????BE????8B0E????83F9}
+	condition:
+		all of them
+}

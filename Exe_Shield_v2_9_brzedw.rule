@@ -1,0 +1,9 @@
+rule Exe_Shield_v2_9_brzedw
+{
+	meta:
+		description = "Exe Shield v2_9"
+	strings:
+		$a = {60E8000000005D81ED0B204000B9EB0800008DBD532040008BF7AC??????F8}
+	condition:
+		all of them
+}

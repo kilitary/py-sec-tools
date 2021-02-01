@@ -1,0 +1,9 @@
+rule _Microsoft_C_lnudor
+{
+	meta:
+		description = "Microsoft C"
+	strings:
+		$a = {B430CD213C0273??B8}
+	condition:
+		all of them
+}

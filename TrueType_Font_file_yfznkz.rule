@@ -1,0 +1,9 @@
+rule TrueType_Font_file_yfznkz
+{
+	meta:
+		description = "TrueType Font file"
+	strings:
+		$a = {00010000????????????????4F532F32}
+	condition:
+		all of them
+}

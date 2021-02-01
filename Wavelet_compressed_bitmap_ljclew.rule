@@ -1,0 +1,9 @@
+rule _Wavelet_compressed_bitmap_ljclew
+{
+	meta:
+		description = "Wavelet compressed bitmap"
+	strings:
+		$a = {5749}
+	condition:
+		all of them
+}

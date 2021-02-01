@@ -1,0 +1,9 @@
+rule Exe_Shield_v2_7_fnfoyl
+{
+	meta:
+		description = "Exe Shield v2_7"
+	strings:
+		$a = {EB0668F4860600C39C60E8020000}
+	condition:
+		all of them
+}

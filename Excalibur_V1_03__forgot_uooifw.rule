@@ -1,0 +1,9 @@
+rule Excalibur_V1_03__forgot_uooifw
+{
+	meta:
+		description = "Excalibur V1_03 __ forgot"
+	strings:
+		$a = {E90000000060E8140000005D81ED000000006A45E8A30000006800000000E85861EB39}
+	condition:
+		all of them
+}

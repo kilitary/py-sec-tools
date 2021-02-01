@@ -1,0 +1,9 @@
+rule UPX_v0_51_lwhkpt
+{
+	meta:
+		description = "UPX v0_51"
+	strings:
+		$a = {60E8000000005883E83D508DB8??????FF57668187????????????8DB0F001????83CDFF31DB909090EB0890908A064688074701DB7507}
+	condition:
+		all of them
+}

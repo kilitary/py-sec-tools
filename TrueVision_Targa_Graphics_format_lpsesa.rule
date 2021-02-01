@@ -1,0 +1,9 @@
+rule TrueVision_Targa_Graphics_format_lpsesa
+{
+	meta:
+		description = "TrueVision Targa Graphics format"
+	strings:
+		$a = {0000020000000000}
+	condition:
+		all of them
+}

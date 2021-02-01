@@ -1,0 +1,9 @@
+rule _Gentee_Installer_Custom_xgvtsk
+{
+	meta:
+		description = "Gentee Installer Custom"
+	strings:
+		$a = {558BEC81EC140400005356576A00FF15084140006800504000FF150441400085C074296A00A100204000????????4140008BF06A0656FF151C4140006A0356FF}
+	condition:
+		all of them
+}

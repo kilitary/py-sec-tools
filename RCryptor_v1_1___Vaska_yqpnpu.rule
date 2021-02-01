@@ -1,0 +1,9 @@
+rule RCryptor_v1_1___Vaska_yqpnpu
+{
+	meta:
+		description = "RCryptor v1_1 ___ Vaska"
+	strings:
+		$a = {8B042483E84F68????????FFD0}
+	condition:
+		all of them
+}

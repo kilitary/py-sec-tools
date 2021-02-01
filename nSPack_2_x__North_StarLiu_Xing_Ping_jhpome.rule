@@ -1,0 +1,9 @@
+rule nSPack_2_x__North_StarLiu_Xing_Ping_jhpome
+{
+	meta:
+		description = "nSPack 2_x __ North StarLiu Xing Ping"
+	strings:
+		$a = {FFFF8B4E088D56108B368BFE83F900743F8A07472CE83C0177F78B07807A01}
+	condition:
+		all of them
+}

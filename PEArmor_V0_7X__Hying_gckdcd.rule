@@ -1,0 +1,9 @@
+rule PEArmor_V0_7X__Hying_gckdcd
+{
+	meta:
+		description = "PEArmor V0_7X __ Hying"
+	strings:
+		$a = {609C64FF3500000000E879010000900000000000000000000000????????????????0000000000000000000000000000000000000000}
+	condition:
+		all of them
+}

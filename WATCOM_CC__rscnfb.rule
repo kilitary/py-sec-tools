@@ -1,0 +1,9 @@
+rule WATCOM_CC__rscnfb
+{
+	meta:
+		description = "WATCOM CC__"
+	strings:
+		$a = {E9????????????????5741}
+	condition:
+		all of them
+}

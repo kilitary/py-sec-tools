@@ -1,0 +1,9 @@
+rule SDProtect__Randy_Li_yovhfe
+{
+	meta:
+		description = "SDProtect __ Randy Li"
+	strings:
+		$a = {558BEC6AFF68????????688888880864A10000000050648925000000005864A300000000585858588BE8E83B000000E801000000FF5805}
+	condition:
+		all of them
+}

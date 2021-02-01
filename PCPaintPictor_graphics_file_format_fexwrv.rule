@@ -1,0 +1,9 @@
+rule PCPaintPictor_graphics_file_format_fexwrv
+{
+	meta:
+		description = "PCPaintPictor graphics file format"
+	strings:
+		$a = {3412????????0000}
+	condition:
+		all of them
+}

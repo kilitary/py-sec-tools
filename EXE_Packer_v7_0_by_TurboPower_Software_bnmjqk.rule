@@ -1,0 +1,9 @@
+rule EXE_Packer_v7_0_by_TurboPower_Software_bnmjqk
+{
+	meta:
+		description = "EXE Packer v7_0 by TurboPower Software"
+	strings:
+		$a = {1E068CC383????2E????????B9????8CC88ED88BF14E8BFE}
+	condition:
+		all of them
+}

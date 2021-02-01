@@ -1,0 +1,9 @@
+rule _PUNiSHER_V1_5_Demo__FEUERRADER_alxfoy
+{
+	meta:
+		description = "PUNiSHER V1_5 Demo__ FEUERRADER"
+	strings:
+		$a = {EB0483A4BCCE60EB0480BC0411E800000000}
+	condition:
+		all of them
+}

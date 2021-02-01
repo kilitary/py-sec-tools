@@ -1,0 +1,9 @@
+rule XJ_XPAL__LiNSoN_ourwfi
+{
+	meta:
+		description = "XJ  XPAL __ LiNSoN"
+	strings:
+		$a = {558BEC6AFF68????400068????400064A100000000506489250000000083EC44535657669C}
+	condition:
+		all of them
+}

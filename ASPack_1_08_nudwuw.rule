@@ -1,0 +1,9 @@
+rule ASPack_1_08_nudwuw
+{
+	meta:
+		description = "ASPack 1_08"
+	strings:
+		$a = {909090750190E9}
+	condition:
+		all of them
+}

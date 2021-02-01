@@ -1,0 +1,9 @@
+rule FSG_v1_1_vjpwpr
+{
+	meta:
+		description = "FSG v1_1"
+	strings:
+		$a = {BBD00140??BF??1040??BE????????FCB2808A064688074702D275058A16}
+	condition:
+		all of them
+}

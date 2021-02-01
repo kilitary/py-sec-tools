@@ -1,0 +1,9 @@
+rule _Unnamed_Scrambler_2_5_1_Beta_2__2_5_2__p0ke_lyrpuj
+{
+	meta:
+		description = "Unnamed Scrambler 2_5_1_Beta 2_  2_5_2 __ p0ke"
+	strings:
+		$a = {558BECB9150000006A006A004975F9535657B8??3A????E8??EEFFFF33C05568??43????64FF30648920BA??43????B8E464????E80FFDFFFF8BD885DB75076A00E8??EEFFFFBAE864????8BC38B0DE464????E8}
+	condition:
+		all of them
+}

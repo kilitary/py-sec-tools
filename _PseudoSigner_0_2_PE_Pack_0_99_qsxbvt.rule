@@ -1,0 +1,9 @@
+rule _PseudoSigner_0_2_PE_Pack_0_99_qsxbvt
+{
+	meta:
+		description = "_ PseudoSigner 0_2 _PE Pack 0_99"
+	strings:
+		$a = {60E8110000005D83ED0680BDE0049090010F84F2FFCC0A}
+	condition:
+		all of them
+}

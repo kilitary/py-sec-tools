@@ -1,0 +1,9 @@
+rule Stirling_Archive_aqvqan
+{
+	meta:
+		description = "Stirling Archive"
+	strings:
+		$a = {135D658C3A}
+	condition:
+		all of them
+}

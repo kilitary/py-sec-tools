@@ -1,0 +1,9 @@
+rule DOS_Device_Driver_hxjdvv
+{
+	meta:
+		description = "DOS Device Driver"
+	strings:
+		$a = {FFFFFFFF}
+	condition:
+		all of them
+}

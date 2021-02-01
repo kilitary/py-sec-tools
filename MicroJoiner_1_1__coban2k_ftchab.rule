@@ -1,0 +1,9 @@
+rule MicroJoiner_1_1__coban2k_ftchab
+{
+	meta:
+		description = "MicroJoiner 1_1 __ coban2k"
+	strings:
+		$a = {BE0C704000BBF811400033ED83EE04392E7411}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule ASPack_v1_02b_joeplb
+{
+	meta:
+		description = "ASPack v1_02b"
+	strings:
+		$a = {60E8????????5D81ED967843??B8907843??03C52B857D7C43??8985897C43??80BD747C43}
+	condition:
+		all of them
+}

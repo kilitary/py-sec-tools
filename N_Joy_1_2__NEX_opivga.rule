@@ -1,0 +1,9 @@
+rule N_Joy_1_2__NEX_opivga
+{
+	meta:
+		description = "N_Joy 1_2 __ NEX"
+	strings:
+		$a = {558BEC83C4F0B8A4324000E8E8F1FFFF6A0068542A40006A0A6A00E8A8F2FFFFE8C7EAFFFF8D4000}
+	condition:
+		all of them
+}

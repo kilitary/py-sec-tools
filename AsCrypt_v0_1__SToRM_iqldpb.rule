@@ -1,0 +1,9 @@
+rule AsCrypt_v0_1__SToRM_iqldpb
+{
+	meta:
+		description = "AsCrypt v0_1 __ SToRM"
+	strings:
+		$a = {83????E2????E2??FF}
+	condition:
+		all of them
+}

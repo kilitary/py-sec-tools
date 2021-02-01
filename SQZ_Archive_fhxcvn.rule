@@ -1,0 +1,9 @@
+rule SQZ_Archive_fhxcvn
+{
+	meta:
+		description = "SQZ Archive"
+	strings:
+		$a = {484C53515A}
+	condition:
+		all of them
+}

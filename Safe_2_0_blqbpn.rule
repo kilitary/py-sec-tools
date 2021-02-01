@@ -1,0 +1,9 @@
+rule _Safe_2_0_blqbpn
+{
+	meta:
+		description = "Safe 2_0"
+	strings:
+		$a = {83EC10535657E8C40100}
+	condition:
+		all of them
+}

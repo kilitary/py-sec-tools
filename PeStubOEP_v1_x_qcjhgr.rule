@@ -1,0 +1,9 @@
+rule PeStubOEP_v1_x_qcjhgr
+{
+	meta:
+		description = "PeStubOEP v1_x"
+	strings:
+		$a = {????B8??????00FFE0}
+	condition:
+		all of them
+}

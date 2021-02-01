@@ -1,0 +1,9 @@
+rule _NsPack_1_4__Liuxingping_pynnxo
+{
+	meta:
+		description = "NsPack 1_4 __ Liuxingping"
+	strings:
+		$a = {9C60E8000000005DB8????40002D????4000}
+	condition:
+		all of them
+}

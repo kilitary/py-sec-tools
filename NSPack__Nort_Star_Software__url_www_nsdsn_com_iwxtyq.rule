@@ -1,0 +1,9 @@
+rule NSPack__Nort_Star_Software__url_www_nsdsn_com_iwxtyq
+{
+	meta:
+		description = "NSPack __ Nort Star Software _ url__www_nsdsn_com"
+	strings:
+		$a = {83F9007428438DB5????FFFF8B165651535256FF33FF73048B430803C250FF95????FFFF5A5B595E83C30CE2E1619DE9??????FF8BB5????FFFF0BF60F84970000008B95????FFFF03F2833E00750E837E04007508837E08007502EB7A8B5E0803DA5352568DBD????FFFF037E0483C60C57}
+	condition:
+		all of them
+}

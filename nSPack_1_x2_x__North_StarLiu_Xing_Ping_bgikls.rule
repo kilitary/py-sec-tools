@@ -1,0 +1,9 @@
+rule nSPack_1_x2_x__North_StarLiu_Xing_Ping_bgikls
+{
+	meta:
+		description = "nSPack 1_x2_x __ North StarLiu Xing Ping"
+	strings:
+		$a = {9C60E8000000005DB8}
+	condition:
+		all of them
+}

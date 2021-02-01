@@ -1,0 +1,9 @@
+rule _PKZIP_Archive_qzepkz
+{
+	meta:
+		description = "PKZIP Archive"
+	strings:
+		$a = {504B0304}
+	condition:
+		all of them
+}

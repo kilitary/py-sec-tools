@@ -1,0 +1,9 @@
+rule _TXT2COM_Read_A_Matic_v1_0__tetoib
+{
+	meta:
+		description = "TXT2COM _Read_A_Matic v1_0_"
+	strings:
+		$a = {B8????8ED88C06????FA8ED0BC????FBB4??CD21A3????0650B434CD21}
+	condition:
+		all of them
+}

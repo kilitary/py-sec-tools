@@ -1,0 +1,9 @@
+rule _FSG_v1_10_Eng___dulekxt___Microsoft_Visual_Basic_5_0_6_0__numbuz
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ dulekxt __ _Microsoft Visual Basic 5_0  6_0_"
+	strings:
+		$a = {C1CB10EB010FB90374F6EE0FB6D38D0583????EF80F3F62BC1EB01DE6877}
+	condition:
+		all of them
+}

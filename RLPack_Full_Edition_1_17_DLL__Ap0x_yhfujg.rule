@@ -1,0 +1,9 @@
+rule RLPack_Full_Edition_1_17_DLL__Ap0x_yhfujg
+{
+	meta:
+		description = "RLPack Full Edition 1_17 DLL __ Ap0x"
+	strings:
+		$a = {807C2408010F85????????60E8000000008B2C2483C4048DB5????????8D9D????????33FFE8}
+	condition:
+		all of them
+}

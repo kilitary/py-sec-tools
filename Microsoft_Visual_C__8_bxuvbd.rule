@@ -1,0 +1,9 @@
+rule Microsoft_Visual_C__8_bxuvbd
+{
+	meta:
+		description = "Microsoft Visual C__ 8"
+	strings:
+		$a = {E8????????E9}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Elicense_System_V4_0_0_0__ViaTech_Inc_wyakqn
+{
+	meta:
+		description = "Elicense System V4_0_0_0 __ ViaTech Inc"
+	strings:
+		$a = {0000000063796200656C6963656E34302E646C6C00000000}
+	condition:
+		all of them
+}

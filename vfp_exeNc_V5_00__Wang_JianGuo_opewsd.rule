@@ -1,0 +1,9 @@
+rule _vfp_exeNc_V5_00__Wang_JianGuo_opewsd
+{
+	meta:
+		description = "vfp_exeNc V5_00 __ Wang JianGuo"
+	strings:
+		$a = {60E8000000005D????????????????????????5064FF350000000064892500000000CC}
+	condition:
+		all of them
+}

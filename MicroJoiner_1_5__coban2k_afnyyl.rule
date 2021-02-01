@@ -1,0 +1,9 @@
+rule MicroJoiner_1_5__coban2k_afnyyl
+{
+	meta:
+		description = "MicroJoiner 1_5 __ coban2k"
+	strings:
+		$a = {BF0510400083EC308BECE8C8FFFFFFE8C3FFFFFF}
+	condition:
+		all of them
+}

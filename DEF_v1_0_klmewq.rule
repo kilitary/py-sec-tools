@@ -1,0 +1,9 @@
+rule DEF_v1_0_klmewq
+{
+	meta:
+		description = "DEF v1_0"
+	strings:
+		$a = {BE??0140006A0559807E070074118B46}
+	condition:
+		all of them
+}

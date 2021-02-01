@@ -1,0 +1,9 @@
+rule tElock_v0_96_nqcjmy
+{
+	meta:
+		description = "tElock v0_96"
+	strings:
+		$a = {E959E4FFFF00}
+	condition:
+		all of them
+}

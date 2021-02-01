@@ -1,0 +1,9 @@
+rule Borland_Delphi_4_0_sgmwnm
+{
+	meta:
+		description = "Borland Delphi 4_0"
+	strings:
+		$a = {558BEC83C4}
+	condition:
+		all of them
+}

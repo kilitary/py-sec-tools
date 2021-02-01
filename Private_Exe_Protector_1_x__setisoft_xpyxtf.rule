@@ -1,0 +1,9 @@
+rule _Private_Exe_Protector_1_x__setisoft_xpyxtf
+{
+	meta:
+		description = "Private Exe Protector 1_x __ setisoft"
+	strings:
+		$a = {B8????????B9??9001??BE??1040??68509141??6801??????C3}
+	condition:
+		all of them
+}

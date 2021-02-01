@@ -1,0 +1,9 @@
+rule Nullsoft_PiMP_Install_System_dwunhj
+{
+	meta:
+		description = "Nullsoft PiMP Install System"
+	strings:
+		$a = {83EC??535556}
+	condition:
+		all of them
+}

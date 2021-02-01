@@ -1,0 +1,9 @@
+rule ZOO_Archive_iysjbc
+{
+	meta:
+		description = "ZOO Archive"
+	strings:
+		$a = {5A4F4F}
+	condition:
+		all of them
+}

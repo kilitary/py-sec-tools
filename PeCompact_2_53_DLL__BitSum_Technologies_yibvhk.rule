@@ -1,0 +1,9 @@
+rule _PeCompact_2_53_DLL__BitSum_Technologies_yibvhk
+{
+	meta:
+		description = "PeCompact 2_53 DLL __ BitSum Technologies"
+	strings:
+		$a = {B8????????5064FF35000000006489250000000033C089085045436F6D706163743200000000080C0048E101565753558B5C241C85DB0F84AB21E8BD0EE6600D}
+	condition:
+		all of them
+}

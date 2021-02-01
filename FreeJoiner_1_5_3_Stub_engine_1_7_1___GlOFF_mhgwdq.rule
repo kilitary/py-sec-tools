@@ -1,0 +1,9 @@
+rule FreeJoiner_1_5_3_Stub_engine_1_7_1___GlOFF_mhgwdq
+{
+	meta:
+		description = "FreeJoiner 1_5_3 _Stub engine 1_7_1_ __ GlOFF"
+	strings:
+		$a = {E802FDFFFF6A00E80D000000CCFF2580104000FF2584104000FF2588104000FF258C104000FF2590104000FF2594104000FF2598104000FF259C104000FF25A0104000FF25A8104000}
+	condition:
+		all of them
+}

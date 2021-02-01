@@ -1,0 +1,9 @@
+rule Goats_Mutilator_v1_6__Goat_e0f_tqziwu
+{
+	meta:
+		description = "Goats Mutilator v1_6 __ Goat_e0f"
+	strings:
+		$a = {E8E801????6001ADB32740??68}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule ASProtect_v1_1_MTE_zrqxhv
+{
+	meta:
+		description = "ASProtect v1_1 MTE"
+	strings:
+		$a = {60E9????????9178797979E9}
+	condition:
+		all of them
+}

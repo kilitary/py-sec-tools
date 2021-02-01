@@ -1,0 +1,9 @@
+rule ORiEN_V1_X_V2_X__Fisun_A_V__aossfv
+{
+	meta:
+		description = "ORiEN V1_X_V2_X __ Fisun A_V_"
+	strings:
+		$a = {4F5269454E2065786563757461626C652066696C65732070726F74656374696F6E2073797374656D}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Borland_C__myrlnf
+{
+	meta:
+		description = "Borland C__"
+	strings:
+		$a = {A1????????C1E002A3}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule PE_Diminisher_v0_1_vslsky
+{
+	meta:
+		description = "PE Diminisher v0_1"
+	strings:
+		$a = {5D8BD581EDA23040??2B95913340??81EA0B??????89959A3340??80BD99}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule MS_HTML_Help_file_plshyb
+{
+	meta:
+		description = "MS HTML_Help file"
+	strings:
+		$a = {49545346}
+	condition:
+		all of them
+}

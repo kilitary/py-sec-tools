@@ -1,0 +1,9 @@
+rule EXECryptor_2_2_4__StrongbitSoftComplete_Development_mypchw
+{
+	meta:
+		description = "EXECryptor 2_2_4 __ StrongbitSoftComplete Development"
+	strings:
+		$a = {E8F7FEFFFF05????0000FFE0E8EBFEFFFF05????0000FFE0E8??000000}
+	condition:
+		all of them
+}

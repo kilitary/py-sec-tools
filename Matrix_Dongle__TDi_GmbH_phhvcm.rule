@@ -1,0 +1,9 @@
+rule Matrix_Dongle__TDi_GmbH_phhvcm
+{
+	meta:
+		description = "Matrix Dongle __ TDi GmbH"
+	strings:
+		$a = {E800000000E800000000595A2BCA2BD1E81AFFFFFF}
+	condition:
+		all of them
+}

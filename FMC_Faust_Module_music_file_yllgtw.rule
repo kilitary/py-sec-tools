@@ -1,0 +1,9 @@
+rule FMC_Faust_Module_music_file_yllgtw
+{
+	meta:
+		description = "FMC Faust Module music file"
+	strings:
+		$a = {464D4321}
+	condition:
+		all of them
+}

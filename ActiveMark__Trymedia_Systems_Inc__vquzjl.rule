@@ -1,0 +1,9 @@
+rule _ActiveMark__Trymedia_Systems_Inc__vquzjl
+{
+	meta:
+		description = "ActiveMark __ Trymedia Systems Inc_"
+	strings:
+		$a = {8925????????EB}
+	condition:
+		all of them
+}

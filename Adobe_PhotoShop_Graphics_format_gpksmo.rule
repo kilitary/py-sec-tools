@@ -1,0 +1,9 @@
+rule Adobe_PhotoShop_Graphics_format_gpksmo
+{
+	meta:
+		description = "Adobe PhotoShop Graphics format"
+	strings:
+		$a = {3842505300010000}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule _Alloy_v1_x_2000_lzvypi
+{
+	meta:
+		description = "Alloy v1_x_2000"
+	strings:
+		$a = {9C60E802??????33C08BC483C004938BE38B5BFC81EB072040??87DD6A0468??10????68??02????6A??FF95462340??0B}
+	condition:
+		all of them
+}

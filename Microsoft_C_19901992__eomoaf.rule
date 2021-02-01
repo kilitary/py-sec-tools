@@ -1,0 +1,9 @@
+rule Microsoft_C_19901992__eomoaf
+{
+	meta:
+		description = "Microsoft C _19901992_"
+	strings:
+		$a = {B430CD213C0273??33C00650CBBF????8B36????2BF781FE????72??BE????FA8ED7}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule _ACProtect_V2_0__risco_huwwwy
+{
+	meta:
+		description = "ACProtect V2_0 __ risco"
+	strings:
+		$a = {68????????68????????C3C3}
+	condition:
+		all of them
+}

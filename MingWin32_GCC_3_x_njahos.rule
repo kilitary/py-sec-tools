@@ -1,0 +1,9 @@
+rule MingWin32_GCC_3_x_njahos
+{
+	meta:
+		description = "MingWin32 GCC 3_x"
+	strings:
+		$a = {5589E583EC08C70424??000000FF15??????00E8??FEFFFF908DB4260000000055}
+	condition:
+		all of them
+}

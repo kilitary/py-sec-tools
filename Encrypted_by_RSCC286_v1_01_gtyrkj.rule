@@ -1,0 +1,9 @@
+rule Encrypted_by_RSCC286_v1_01_gtyrkj
+{
+	meta:
+		description = "Encrypted by_ RSCC286 v1_01"
+	strings:
+		$a = {FE525343432F312E3031FE}
+	condition:
+		all of them
+}

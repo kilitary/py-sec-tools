@@ -1,0 +1,9 @@
+rule Microsoft_Resource_Cursors_file_rqwgzq
+{
+	meta:
+		description = "Microsoft Resource Cursors file"
+	strings:
+		$a = {00000200010020200000??00??00E802000016}
+	condition:
+		all of them
+}

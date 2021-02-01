@@ -1,0 +1,9 @@
+rule Microsoft_Visual_C__Basic_NET_mnwldw
+{
+	meta:
+		description = "Microsoft Visual C_  Basic _NET"
+	strings:
+		$a = {FF250020????000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule CAN_Crunched_ANsi_file_knnrlq
+{
+	meta:
+		description = "CAN _Crunched ANsi_ file"
+	strings:
+		$a = {CA01}
+	condition:
+		all of them
+}

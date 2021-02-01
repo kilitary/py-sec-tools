@@ -1,0 +1,9 @@
+rule FSG_v1_10_Eng___dulekxt___Microsoft_Visual_C__4_x_LCC_Win32_1_x__bsehrw
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ dulekxt __ _Microsoft Visual C__ 4_x  LCC Win32 1_x_"
+	strings:
+		$a = {B8????8ED8B8????CD21A3????3C037D??B409}
+	condition:
+		all of them
+}

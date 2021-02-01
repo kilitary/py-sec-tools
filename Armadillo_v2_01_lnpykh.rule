@@ -1,0 +1,9 @@
+rule Armadillo_v2_01_lnpykh
+{
+	meta:
+		description = "Armadillo v2_01"
+	strings:
+		$a = {558BEC6AFF680802410068049A400064A100000000506489250000000083EC58}
+	condition:
+		all of them
+}

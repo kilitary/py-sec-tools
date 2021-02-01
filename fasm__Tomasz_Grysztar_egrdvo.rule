@@ -1,0 +1,9 @@
+rule fasm__Tomasz_Grysztar_egrdvo
+{
+	meta:
+		description = "fasm __ Tomasz Grysztar"
+	strings:
+		$a = {5355568B74241485F657B801000000}
+	condition:
+		all of them
+}

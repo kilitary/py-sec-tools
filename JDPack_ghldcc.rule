@@ -1,0 +1,9 @@
+rule JDPack_ghldcc
+{
+	meta:
+		description = "JDPack"
+	strings:
+		$a = {60E8????????5D83ED0680BDE004????010F84F2}
+	condition:
+		all of them
+}

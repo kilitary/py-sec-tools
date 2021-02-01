@@ -1,0 +1,9 @@
+rule Crunch_V5_0__Bitarts_hlabnu
+{
+	meta:
+		description = "Crunch V5_0 __ Bitarts"
+	strings:
+		$a = {EB150300000006}
+	condition:
+		all of them
+}

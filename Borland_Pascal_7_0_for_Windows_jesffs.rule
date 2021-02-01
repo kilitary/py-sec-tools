@@ -1,0 +1,9 @@
+rule Borland_Pascal_7_0_for_Windows_jesffs
+{
+	meta:
+		description = "Borland Pascal 7_0 for Windows"
+	strings:
+		$a = {9AFFFF00009AFFFF00005589E531C09AFFFF0000}
+	condition:
+		all of them
+}

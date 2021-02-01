@@ -1,0 +1,9 @@
+rule Borland_Delphi_3_0____woohgb
+{
+	meta:
+		description = "Borland Delphi 3_0 _____"
+	strings:
+		$a = {558BEC83}
+	condition:
+		all of them
+}

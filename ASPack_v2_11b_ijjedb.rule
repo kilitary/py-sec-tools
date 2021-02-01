@@ -1,0 +1,9 @@
+rule ASPack_v2_11b_ijjedb
+{
+	meta:
+		description = "ASPack v2_11b"
+	strings:
+		$a = {60E802000000EB095D55}
+	condition:
+		all of them
+}

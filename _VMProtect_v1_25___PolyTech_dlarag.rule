@@ -1,0 +1,9 @@
+rule _VMProtect_v1_25___PolyTech_dlarag
+{
+	meta:
+		description = "_ VMProtect v1_25 ___ PolyTech"
+	strings:
+		$a = {68????????E8????????89EC595F585B5F5A595D9D5EC3}
+	condition:
+		all of them
+}

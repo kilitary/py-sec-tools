@@ -1,0 +1,9 @@
+rule _SGI_Image_Graphics_format_vrbimd
+{
+	meta:
+		description = "SGI Image Graphics format"
+	strings:
+		$a = {01DA00010003}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule _FileShield_ufacnb
+{
+	meta:
+		description = "FileShield"
+	strings:
+		$a = {501EEB??9000008BD8}
+	condition:
+		all of them
+}

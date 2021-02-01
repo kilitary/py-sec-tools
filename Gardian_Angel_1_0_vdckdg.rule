@@ -1,0 +1,9 @@
+rule Gardian_Angel_1_0_vdckdg
+{
+	meta:
+		description = "Gardian Angel 1_0"
+	strings:
+		$a = {068CC88ED88EC0FCBF????EB}
+	condition:
+		all of them
+}

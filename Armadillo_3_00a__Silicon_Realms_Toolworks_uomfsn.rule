@@ -1,0 +1,9 @@
+rule _Armadillo_3_00a__Silicon_Realms_Toolworks_uomfsn
+{
+	meta:
+		description = "Armadillo 3_00a __ Silicon Realms Toolworks"
+	strings:
+		$a = {60E8000000005D5051EB0F??EB0F??EB07??EB0F??EB08FDEB0BF2EBF5EBF6F2EB08FDEBE9F3EBE4FC??59585051EB0F??EB0F??EB07??EB0F??EB08FDEB0BF2EBF5EBF6F2EB08FDEBE9F3EBE4FC??59585051EB0F}
+	condition:
+		all of them
+}

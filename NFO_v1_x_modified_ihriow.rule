@@ -1,0 +1,9 @@
+rule NFO_v1_x_modified_ihriow
+{
+	meta:
+		description = "NFO v1_x modified"
+	strings:
+		$a = {609C8D50}
+	condition:
+		all of them
+}

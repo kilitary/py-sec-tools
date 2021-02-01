@@ -1,0 +1,9 @@
+rule Portable_BitMap_PBM_Graphics_format_oiqlhu
+{
+	meta:
+		description = "Portable BitMap _PBM_ Graphics format"
+	strings:
+		$a = {50360A}
+	condition:
+		all of them
+}

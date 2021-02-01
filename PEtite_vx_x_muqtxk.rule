@@ -1,0 +1,9 @@
+rule PEtite_vx_x_muqtxk
+{
+	meta:
+		description = "PEtite vx_x"
+	strings:
+		$a = {B8????????669C6050}
+	condition:
+		all of them
+}

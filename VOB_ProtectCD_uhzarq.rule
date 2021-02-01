@@ -1,0 +1,9 @@
+rule _VOB_ProtectCD_uhzarq
+{
+	meta:
+		description = "VOB ProtectCD"
+	strings:
+		$a = {363E268AC060E8}
+	condition:
+		all of them
+}

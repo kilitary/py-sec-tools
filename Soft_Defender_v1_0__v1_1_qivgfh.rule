@@ -1,0 +1,9 @@
+rule Soft_Defender_v1_0__v1_1_qivgfh
+{
+	meta:
+		description = "Soft Defender v1_0 _ v1_1"
+	strings:
+		$a = {74077505193267E8E8741F751DE8683944CD??599C50740A7508E859C204??558BECE8F4FFFFFF565753780F790DE8349947493433EF313452472368A2AF470159E8????????5805BA01????03C874BE75BCE8}
+	condition:
+		all of them
+}

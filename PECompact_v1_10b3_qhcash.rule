@@ -1,0 +1,9 @@
+rule PECompact_v1_10b3_qhcash
+{
+	meta:
+		description = "PECompact v1_10b3"
+	strings:
+		$a = {EB0668????????C39C60E802??????33C08BC483C004938BE38B5BFC81EB0F6040??87DD8B85956040??0185036040??66C785??6040??9090BB95}
+	condition:
+		all of them
+}

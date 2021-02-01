@@ -1,0 +1,9 @@
+rule _Hitachi_Raster_Format_graphics_format_nufphm
+{
+	meta:
+		description = "Hitachi Raster Format graphics format"
+	strings:
+		$a = {434144432F4B5220525354}
+	condition:
+		all of them
+}

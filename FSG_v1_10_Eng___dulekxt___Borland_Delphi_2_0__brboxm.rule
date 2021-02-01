@@ -1,0 +1,9 @@
+rule FSG_v1_10_Eng___dulekxt___Borland_Delphi_2_0__brboxm
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ dulekxt __ _Borland Delphi 2_0_"
+	strings:
+		$a = {EB0156E802000000B2D9596880??4100E8020000006532595EEB02CD20BB}
+	condition:
+		all of them
+}

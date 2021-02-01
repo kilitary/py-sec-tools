@@ -1,0 +1,9 @@
+rule Windows_9x_registry_file_vcrtcc
+{
+	meta:
+		description = "Windows 9x registry file"
+	strings:
+		$a = {43524547}
+	condition:
+		all of them
+}

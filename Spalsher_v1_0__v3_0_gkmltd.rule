@@ -1,0 +1,9 @@
+rule Spalsher_v1_0__v3_0_gkmltd
+{
+	meta:
+		description = "Spalsher v1_0 _ v3_0"
+	strings:
+		$a = {9C608B442424E8????????5D81ED????????50E8ED02????8CC00F84}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule SMK_movie_file_vrvakq
+{
+	meta:
+		description = "SMK movie file"
+	strings:
+		$a = {534D4B32}
+	condition:
+		all of them
+}

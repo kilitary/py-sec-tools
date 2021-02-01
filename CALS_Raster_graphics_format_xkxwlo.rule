@@ -1,0 +1,9 @@
+rule CALS_Raster_graphics_format_xkxwlo
+{
+	meta:
+		description = "CALS Raster graphics format"
+	strings:
+		$a = {737263646F6369643A20}
+	condition:
+		all of them
+}

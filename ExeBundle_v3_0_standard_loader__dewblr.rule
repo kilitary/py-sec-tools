@@ -1,0 +1,9 @@
+rule ExeBundle_v3_0_standard_loader__dewblr
+{
+	meta:
+		description = "ExeBundle v3_0 _standard loader_"
+	strings:
+		$a = {0000000060BE00B042008DBE0060FDFFC787B0E40200313C4BDF5783CDFFEB0E909090908A064688074701DB75078B1E83EEFC11DB72EDB80100000001DB}
+	condition:
+		all of them
+}

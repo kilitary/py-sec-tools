@@ -1,0 +1,9 @@
+rule Vcasm_Protector_V1_X__vcasm_rxlfep
+{
+	meta:
+		description = "Vcasm Protector V1_X __ vcasm"
+	strings:
+		$a = {EB??5B5650726F746563745D}
+	condition:
+		all of them
+}

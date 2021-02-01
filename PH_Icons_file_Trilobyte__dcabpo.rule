@@ -1,0 +1,9 @@
+rule PH_Icons_file_Trilobyte__dcabpo
+{
+	meta:
+		description = "PH Icons file _Trilobyte_"
+	strings:
+		$a = {69636F6E0100100010}
+	condition:
+		all of them
+}

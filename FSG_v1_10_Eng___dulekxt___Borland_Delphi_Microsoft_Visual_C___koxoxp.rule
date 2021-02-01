@@ -1,0 +1,9 @@
+rule _FSG_v1_10_Eng___dulekxt___Borland_Delphi_Microsoft_Visual_C___koxoxp
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ dulekxt __ _Borland Delphi  Microsoft Visual C___"
+	strings:
+		$a = {C1C810EB010FBF03746677C1E91D6883????77EB02CD205EEB02CD202BF7}
+	condition:
+		all of them
+}

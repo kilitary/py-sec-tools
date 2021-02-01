@@ -1,0 +1,9 @@
+rule _HA_Archive_oujpdt
+{
+	meta:
+		description = "HA Archive"
+	strings:
+		$a = {4841}
+	condition:
+		all of them
+}

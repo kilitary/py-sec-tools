@@ -1,0 +1,9 @@
+rule EmbedPE_1_13__cyclotron_qetbff
+{
+	meta:
+		description = "EmbedPE 1_13 __ cyclotron"
+	strings:
+		$a = {83EC5060685DB9525AE82F990000}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule MASM_TASM_vagyzz
+{
+	meta:
+		description = "MASM  TASM"
+	strings:
+		$a = {535152565755E8????????5D81ED423040??FF95323540??B8373040??03C52B851B3440??8985273440??83}
+	condition:
+		all of them
+}

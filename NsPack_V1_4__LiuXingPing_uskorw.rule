@@ -1,0 +1,9 @@
+rule NsPack_V1_4__LiuXingPing_uskorw
+{
+	meta:
+		description = "NsPack V1_4 __ LiuXingPing"
+	strings:
+		$a = {9C60E8000000005DB8B18540002DAA854000}
+	condition:
+		all of them
+}

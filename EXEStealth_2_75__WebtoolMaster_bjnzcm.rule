@@ -1,0 +1,9 @@
+rule EXEStealth_2_75__WebtoolMaster_bjnzcm
+{
+	meta:
+		description = "EXEStealth 2_75 __ WebtoolMaster"
+	strings:
+		$a = {33C9B44ECD217302FF??BA??00B8??3DCD21}
+	condition:
+		all of them
+}

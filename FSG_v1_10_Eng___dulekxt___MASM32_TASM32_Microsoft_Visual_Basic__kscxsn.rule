@@ -1,0 +1,9 @@
+rule FSG_v1_10_Eng___dulekxt___MASM32_TASM32_Microsoft_Visual_Basic__kscxsn
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ dulekxt __ _MASM32  TASM32  Microsoft Visual Basic_"
+	strings:
+		$a = {F7D80FBEC2BE80????000FBEC9BF083B6507EB02D829BBECC59AF8EB0194}
+	condition:
+		all of them
+}

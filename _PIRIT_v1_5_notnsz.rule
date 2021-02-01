@@ -1,0 +1,9 @@
+rule __PIRIT_v1_5_notnsz
+{
+	meta:
+		description = "_PIRIT v1_5"
+	strings:
+		$a = {B44DCD21E8????FDE8????B451CD21}
+	condition:
+		all of them
+}

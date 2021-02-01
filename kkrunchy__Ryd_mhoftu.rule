@@ -1,0 +1,9 @@
+rule kkrunchy__Ryd_mhoftu
+{
+	meta:
+		description = "kkrunchy __ Ryd"
+	strings:
+		$a = {BD08????00C74500??????00FF4D08C6450C058D7D1431C0B40489C1F3ABBF??????0057BE??????0031C941FF4D0C8D9C8DA0000000FFD610C973F3FF450C91AA83C9FF8D5C8D18FFD674DDE3178D5D1CFFD67410}
+	condition:
+		all of them
+}

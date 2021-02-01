@@ -1,0 +1,9 @@
+rule _ASDPack_2_0__asd_phkayi
+{
+	meta:
+		description = "ASDPack 2_0 __ asd"
+	strings:
+		$a = {8B442404565753E8CD010000C30000000000000000000000000010000000}
+	condition:
+		all of them
+}

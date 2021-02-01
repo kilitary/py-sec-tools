@@ -1,0 +1,9 @@
+rule Turbo_Pascal_v5_0_Unit_qtkhny
+{
+	meta:
+		description = "Turbo Pascal v5_0 Unit"
+	strings:
+		$a = {5450553500}
+	condition:
+		all of them
+}

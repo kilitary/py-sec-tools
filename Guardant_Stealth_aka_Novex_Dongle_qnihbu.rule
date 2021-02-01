@@ -1,0 +1,9 @@
+rule _Guardant_Stealth_aka_Novex_Dongle_qnihbu
+{
+	meta:
+		description = "Guardant Stealth aka Novex Dongle"
+	strings:
+		$a = {558BEC83C4F060E851FFFFFF}
+	condition:
+		all of them
+}

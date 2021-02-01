@@ -1,0 +1,9 @@
+rule _FOXSQZ_Archive_hhqslk
+{
+	meta:
+		description = "FOXSQZ Archive"
+	strings:
+		$a = {464F5853515A}
+	condition:
+		all of them
+}

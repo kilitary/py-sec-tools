@@ -1,0 +1,9 @@
+rule _EP_ExE_Pack_V1_0__Elite_Coding_Group_bjxugo
+{
+	meta:
+		description = "_EP _ExE Pack_ V1_0 __ Elite Coding Group"
+	strings:
+		$a = {6068????????B8????????FF10}
+	condition:
+		all of them
+}

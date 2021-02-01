@@ -1,0 +1,9 @@
+rule _by_Central_Point_Software_ccvets
+{
+	meta:
+		description = "by Central Point Software"
+	strings:
+		$a = {50515256578BEB1E2E}
+	condition:
+		all of them
+}

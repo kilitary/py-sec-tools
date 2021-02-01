@@ -1,0 +1,9 @@
+rule _WATCOM_CC__32_Run_Time_System_1988_1995_waggqy
+{
+	meta:
+		description = "WATCOM CC__ 32 Run_Time System 1988_1995"
+	strings:
+		$a = {E9????????????????574154434F4D20432F432B2B33322052756E2D54}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule _Obsidium_1_3_0_0__Obsidium_Software_nronxr
+{
+	meta:
+		description = "Obsidium 1_3_0_0 __ Obsidium Software"
+	strings:
+		$a = {EB02????E825000000}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule _eXPressor_V1_3__CGSoftLabs_qgytgh
+{
+	meta:
+		description = "eXPressor V1_3 __ CGSoftLabs"
+	strings:
+		$a = {558BEC83EC??535657E9B006}
+	condition:
+		all of them
+}

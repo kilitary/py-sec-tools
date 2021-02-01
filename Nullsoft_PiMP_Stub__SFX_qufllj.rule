@@ -1,0 +1,9 @@
+rule Nullsoft_PiMP_Stub__SFX_qufllj
+{
+	meta:
+		description = "Nullsoft PiMP Stub __ SFX"
+	strings:
+		$a = {81EC????????535556}
+	condition:
+		all of them
+}

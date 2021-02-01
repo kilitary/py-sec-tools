@@ -1,0 +1,9 @@
+rule _PNG_Graphics_format_vhuzsx
+{
+	meta:
+		description = "PNG Graphics format"
+	strings:
+		$a = {89504E470D0A1A0A}
+	condition:
+		all of them
+}

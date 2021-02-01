@@ -1,0 +1,9 @@
+rule FreeHand_8_document_syiukw
+{
+	meta:
+		description = "FreeHand 8 document"
+	strings:
+		$a = {41474433}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Amiga_AIFF_8SFX_Audio_file_szuyzc
+{
+	meta:
+		description = "Amiga AIFF 8SFX Audio file"
+	strings:
+		$a = {464F524D????????3853565856484452}
+	condition:
+		all of them
+}

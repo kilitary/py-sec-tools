@@ -1,0 +1,9 @@
+rule _Macromedia_Windows_Flash_ProjectorPlayer_v3_0_jryvgr
+{
+	meta:
+		description = "Macromedia Windows Flash ProjectorPlayer v3_0"
+	strings:
+		$a = {83EC4456FF15706144008BF08A063C22751C8A4601463C22740C84C074088A4601463C2275F4803E22750F46EB0C3C207E088A4601463C207FF88A0684C0740C3C207F088A46014684C075F48D442404C744243000}
+	condition:
+		all of them
+}

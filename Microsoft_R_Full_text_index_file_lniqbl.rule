@@ -1,0 +1,9 @@
+rule Microsoft_R_Full_text_index_file_lniqbl
+{
+	meta:
+		description = "Microsoft _R_ Full_text index file"
+	strings:
+		$a = {6C6C2D7465787420696E646578}
+	condition:
+		all of them
+}

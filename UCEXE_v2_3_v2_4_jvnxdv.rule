@@ -1,0 +1,9 @@
+rule UCEXE_v2_3_v2_4_jvnxdv
+{
+	meta:
+		description = "UCEXE v2_3_ v2_4"
+	strings:
+		$a = {501E0E1FFC33F6E8????160733F633FFB9????F3A506B8????50CB}
+	condition:
+		all of them
+}

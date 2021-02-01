@@ -1,0 +1,9 @@
+rule with_added_PK_signature_uritex
+{
+	meta:
+		description = "with added _PK_ signature"
+	strings:
+		$a = {C7??????????8CD805}
+	condition:
+		all of them
+}

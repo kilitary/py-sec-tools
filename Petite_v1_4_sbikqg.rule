@@ -1,0 +1,9 @@
+rule Petite_v1_4_sbikqg
+{
+	meta:
+		description = "Petite v1_4"
+	strings:
+		$a = {B8????????669C60508BD8030068????????6A00}
+	condition:
+		all of them
+}

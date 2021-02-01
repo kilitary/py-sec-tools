@@ -1,0 +1,9 @@
+rule Upack_0_2x__Dwing_thukfc
+{
+	meta:
+		description = "Upack 0_2x __ Dwing"
+	strings:
+		$a = {BE88014000AD8BF8}
+	condition:
+		all of them
+}

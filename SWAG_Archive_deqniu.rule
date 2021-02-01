@@ -1,0 +1,9 @@
+rule SWAG_Archive_deqniu
+{
+	meta:
+		description = "SWAG Archive"
+	strings:
+		$a = {????2D7377312D}
+	condition:
+		all of them
+}

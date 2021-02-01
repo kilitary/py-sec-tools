@@ -1,0 +1,9 @@
+rule aPack_v0_62_hqhevl
+{
+	meta:
+		description = "aPack v0_62"
+	strings:
+		$a = {1E068CC88ED8??????8EC050BE????33FFFCB6}
+	condition:
+		all of them
+}

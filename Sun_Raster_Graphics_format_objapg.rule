@@ -1,0 +1,9 @@
+rule Sun_Raster_Graphics_format_objapg
+{
+	meta:
+		description = "Sun Raster Graphics format"
+	strings:
+		$a = {59A66A95}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule FSG_v2_0_sizfmw
+{
+	meta:
+		description = "FSG v2_0"
+	strings:
+		$a = {8725????????619455A4B680FF1373F933C9FF13731633C0FF13731FB68041B010FF1312C073FA75}
+	condition:
+		all of them
+}

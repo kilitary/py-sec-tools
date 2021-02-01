@@ -1,0 +1,9 @@
+rule Scitech_Software_Display_Driver_dcopuw
+{
+	meta:
+		description = "Scitech Software Display Driver"
+	strings:
+		$a = {56424541462E445256}
+	condition:
+		all of them
+}

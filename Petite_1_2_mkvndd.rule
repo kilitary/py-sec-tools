@@ -1,0 +1,9 @@
+rule Petite_1_2_mkvndd
+{
+	meta:
+		description = "Petite 1_2"
+	strings:
+		$a = {669C60E8CA000000030004000500060007000800}
+	condition:
+		all of them
+}

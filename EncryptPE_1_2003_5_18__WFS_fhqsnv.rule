@@ -1,0 +1,9 @@
+rule EncryptPE_1_2003_5_18__WFS_fhqsnv
+{
+	meta:
+		description = "EncryptPE 1_2003_5_18 __ WFS"
+	strings:
+		$a = {555756525153E8000000005D8BD581ED973B4000}
+	condition:
+		all of them
+}

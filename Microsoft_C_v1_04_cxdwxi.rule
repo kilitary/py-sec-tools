@@ -1,0 +1,9 @@
+rule Microsoft_C_v1_04_cxdwxi
+{
+	meta:
+		description = "Microsoft C v1_04"
+	strings:
+		$a = {FAB8????8ED88ED0268B??????2BD8F7??????75??B104D3E3EB}
+	condition:
+		all of them
+}

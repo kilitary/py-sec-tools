@@ -1,0 +1,9 @@
+rule CodeCrypt_v0_14b_ivjvij
+{
+	meta:
+		description = "CodeCrypt v0_14b"
+	strings:
+		$a = {E9C5020000EB02833D58EB02FF1D5BEB020FC75F}
+	condition:
+		all of them
+}

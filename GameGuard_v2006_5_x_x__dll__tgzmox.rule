@@ -1,0 +1,9 @@
+rule GameGuard_v2006_5_x_x__dll__tgzmox
+{
+	meta:
+		description = "GameGuard v2006_5_x_x ___dll_"
+	strings:
+		$a = {31FF740661E94A4D50305ABA7D000000807C240801E90000000060BE????????31FF740661E94A4D50308DBE????????31C9740661E94A4D5030B87D00000039C2B84C000000F7D0753F64A13000000085C078238B}
+	condition:
+		all of them
+}

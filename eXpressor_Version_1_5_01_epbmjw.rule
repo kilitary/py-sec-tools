@@ -1,0 +1,9 @@
+rule _eXpressor_Version_1_5_01_epbmjw
+{
+	meta:
+		description = "eXpressor Version 1_5_01"
+	strings:
+		$a = {558BEC81EC5002000053565783A5D0FDFFFF00F3EB0C655850722D762E312E352E00}
+	condition:
+		all of them
+}

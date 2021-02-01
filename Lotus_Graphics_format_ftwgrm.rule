@@ -1,0 +1,9 @@
+rule _Lotus_Graphics_format_ftwgrm
+{
+	meta:
+		description = "Lotus Graphics format"
+	strings:
+		$a = {0100000001000800}
+	condition:
+		all of them
+}

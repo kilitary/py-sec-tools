@@ -1,0 +1,9 @@
+rule __NET_executable_ixxtiq
+{
+	meta:
+		description = "_NET executable"
+	strings:
+		$a = {FF2500204000000000000000000000000000000000000000000000000000000000000000000000000000000000000000}
+	condition:
+		all of them
+}

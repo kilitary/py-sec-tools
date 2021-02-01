@@ -1,0 +1,9 @@
+rule _C_C__Library_file_jfwubp
+{
+	meta:
+		description = "C_ C__ Library file"
+	strings:
+		$a = {F00D0000}
+	condition:
+		all of them
+}

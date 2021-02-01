@@ -1,0 +1,9 @@
+rule _UPX_v0_76_1_dos_exe_ljyhzu
+{
+	meta:
+		description = "UPX v0_76_1 _dos exe"
+	strings:
+		$a = {B9????BE????89F71EA9????8CC805????8ED805????8EC0FDF3A5FC}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Microsoft_Windows_Metafile_levzjo
+{
+	meta:
+		description = "Microsoft Windows Metafile"
+	strings:
+		$a = {D7CDC69A}
+	condition:
+		all of them
+}

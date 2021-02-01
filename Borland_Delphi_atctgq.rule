@@ -1,0 +1,9 @@
+rule Borland_Delphi_atctgq
+{
+	meta:
+		description = "Borland Delphi"
+	strings:
+		$a = {558BEC83C4F4}
+	condition:
+		all of them
+}

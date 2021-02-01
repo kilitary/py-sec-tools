@@ -1,0 +1,9 @@
+rule COMPACK_v5_1_kjlkxc
+{
+	meta:
+		description = "COMPACK v5_1"
+	strings:
+		$a = {BD????50068CCB03DD8CD24B8EDBBE????BF????8EC2B9????F3A54A4D75??8BF78EDA0E070616}
+	condition:
+		all of them
+}

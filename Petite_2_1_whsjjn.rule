@@ -1,0 +1,9 @@
+rule Petite_2_1_whsjjn
+{
+	meta:
+		description = "Petite 2_1"
+	strings:
+		$a = {64FF350000000064892500000000669C60508BD8}
+	condition:
+		all of them
+}

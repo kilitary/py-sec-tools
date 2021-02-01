@@ -1,0 +1,9 @@
+rule Stony_Brook_Pascal_v6_14_ufkwqh
+{
+	meta:
+		description = "Stony Brook Pascal v6_14"
+	strings:
+		$a = {31ED9A????????5589E5??EC????9A}
+	condition:
+		all of them
+}

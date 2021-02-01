@@ -1,0 +1,9 @@
+rule _AutoLogic_Graphics_format_dtstlk
+{
+	meta:
+		description = "AutoLogic Graphics format"
+	strings:
+		$a = {FF040007}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Trivial173_by_SMTSMF_eozpmv
+{
+	meta:
+		description = "Trivial173 by SMTSMF"
+	strings:
+		$a = {EB????285472697669616C31373320627920534D542F534D4629}
+	condition:
+		all of them
+}

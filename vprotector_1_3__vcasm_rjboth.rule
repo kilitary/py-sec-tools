@@ -1,0 +1,9 @@
+rule _vprotector_1_3__vcasm_rjboth
+{
+	meta:
+		description = "vprotector 1_3 __ vcasm"
+	strings:
+		$a = {E9B9160000558BEC81EC740400005768}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule InterGraph_Graphics_format_gyatif
+{
+	meta:
+		description = "InterGraph Graphics format"
+	strings:
+		$a = {0809FE0118000000}
+	condition:
+		all of them
+}

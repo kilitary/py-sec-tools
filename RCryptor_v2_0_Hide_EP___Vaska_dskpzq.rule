@@ -1,0 +1,9 @@
+rule _RCryptor_v2_0_Hide_EP___Vaska_dskpzq
+{
+	meta:
+		description = "RCryptor v2_0 _Hide EP_ ___ Vaska"
+	strings:
+		$a = {F7D183F1FF6A00F7D183F1FF810424DC20??00F7D183F1FFE800000000F7D183F1FFC3}
+	condition:
+		all of them
+}

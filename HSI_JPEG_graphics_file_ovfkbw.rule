@@ -1,0 +1,9 @@
+rule HSI_JPEG_graphics_file_ovfkbw
+{
+	meta:
+		description = "HSI JPEG graphics file"
+	strings:
+		$a = {687369310000}
+	condition:
+		all of them
+}

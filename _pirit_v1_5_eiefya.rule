@@ -1,0 +1,9 @@
+rule _pirit_v1_5_eiefya
+{
+	meta:
+		description = "_pirit v1_5"
+	strings:
+		$a = {??????5B24555044FB322E315D}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Microsoft_Visual_C__4_2_DLL__yjdobd
+{
+	meta:
+		description = "Microsoft Visual C__ 4_2 _DLL_"
+	strings:
+		$a = {53B8????????8B??????565785DB5575}
+	condition:
+		all of them
+}

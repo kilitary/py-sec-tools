@@ -1,0 +1,9 @@
+rule RIX_graphics_file_ecvisv
+{
+	meta:
+		description = "RIX graphics file"
+	strings:
+		$a = {52495833}
+	condition:
+		all of them
+}

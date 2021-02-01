@@ -1,0 +1,9 @@
+rule Free_Pascal_v0_99_10_aelqhk
+{
+	meta:
+		description = "Free Pascal v0_99_10"
+	strings:
+		$a = {C605????4000??E8????0000}
+	condition:
+		all of them
+}

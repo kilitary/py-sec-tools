@@ -1,0 +1,9 @@
+rule TIFF_Graphics_file_Macintosh__zfgihl
+{
+	meta:
+		description = "TIFF Graphics file _Macintosh_"
+	strings:
+		$a = {4D4D00}
+	condition:
+		all of them
+}

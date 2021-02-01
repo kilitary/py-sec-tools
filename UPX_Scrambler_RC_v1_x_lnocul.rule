@@ -1,0 +1,9 @@
+rule _UPX_Scrambler_RC_v1_x_lnocul
+{
+	meta:
+		description = "UPX_Scrambler RC v1_x"
+	strings:
+		$a = {9061BE002044008DBE00F0FBFFC7879CE004006AF08A5E5783CDFFEB0E}
+	condition:
+		all of them
+}

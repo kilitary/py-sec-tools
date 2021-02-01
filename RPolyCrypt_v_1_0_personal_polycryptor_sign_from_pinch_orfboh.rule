@@ -1,0 +1,9 @@
+rule RPolyCrypt_v_1_0_personal_polycryptor_sign_from_pinch_orfboh
+{
+	meta:
+		description = "RPolyCrypt v 1_0 _personal polycryptor_ sign from pinch"
+	strings:
+		$a = {5058979760618B04248078F36AE80000000058E800000000589191EB000F856BF4766FE80000000083C404E8000000005890E80000000083C4048B04248078F1}
+	condition:
+		all of them
+}

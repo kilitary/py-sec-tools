@@ -1,0 +1,9 @@
+rule Crunch_4__Bit_Arts_ttqsew
+{
+	meta:
+		description = "Crunch 4 __ Bit_Arts"
+	strings:
+		$a = {EB100000000000000000000000000000000055E800000000}
+	condition:
+		all of them
+}

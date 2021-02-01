@@ -1,0 +1,9 @@
+rule _Microsoft_C_19881989__czzayv
+{
+	meta:
+		description = "Microsoft C _19881989_"
+	strings:
+		$a = {B430CD213C0273??CD20BF????8B??????2BF781??????72}
+	condition:
+		all of them
+}

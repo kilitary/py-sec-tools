@@ -1,6 +1,8 @@
 import "pe"
 import "time"
 
+include "peid.rules"
+
 rule gzip_embed
 {
     meta:

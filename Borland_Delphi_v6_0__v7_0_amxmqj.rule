@@ -1,0 +1,9 @@
+rule Borland_Delphi_v6_0__v7_0_amxmqj
+{
+	meta:
+		description = "Borland Delphi v6_0 _ v7_0"
+	strings:
+		$a = {558BEC83C4F0B8????????E8????????E8}
+	condition:
+		all of them
+}

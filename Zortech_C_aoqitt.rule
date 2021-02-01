@@ -1,0 +1,9 @@
+rule Zortech_C_aoqitt
+{
+	meta:
+		description = "Zortech C"
+	strings:
+		$a = {E8????2EFF??????FC06}
+	condition:
+		all of them
+}

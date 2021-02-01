@@ -1,0 +1,9 @@
+rule TAV_bdyaoi
+{
+	meta:
+		description = "TAV"
+	strings:
+		$a = {E8????4D5ACB}
+	condition:
+		all of them
+}

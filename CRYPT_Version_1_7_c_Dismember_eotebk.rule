@@ -1,0 +1,9 @@
+rule _CRYPT_Version_1_7_c_Dismember_eotebk
+{
+	meta:
+		description = "CRYPT Version 1_7 _c_ Dismember"
+	strings:
+		$a = {0E179C58F6????74??E9}
+	condition:
+		all of them
+}

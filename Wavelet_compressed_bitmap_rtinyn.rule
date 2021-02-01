@@ -1,0 +1,9 @@
+rule Wavelet_compressed_bitmap_rtinyn
+{
+	meta:
+		description = "Wavelet compressed bitmap"
+	strings:
+		$a = {5749}
+	condition:
+		all of them
+}

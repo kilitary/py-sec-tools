@@ -1,0 +1,9 @@
+rule ASYLUM_Music_File_v_1_0_nnmdii
+{
+	meta:
+		description = "ASYLUM Music File v_1_0"
+	strings:
+		$a = {4153594C554D204D7573696320466F726D61742056312E3000}
+	condition:
+		all of them
+}

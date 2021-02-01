@@ -1,0 +1,9 @@
+rule _PseudoSigner_0_1_Video_Lan_Client_swhytp
+{
+	meta:
+		description = "_ PseudoSigner 0_1 _Video_Lan_Client"
+	strings:
+		$a = {5589E583EC08909090909090909090909090909001FFFF0101010001909090909090909090909090909000010001000190900001E9}
+	condition:
+		all of them
+}

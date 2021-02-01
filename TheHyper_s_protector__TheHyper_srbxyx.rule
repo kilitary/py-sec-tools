@@ -1,0 +1,9 @@
+rule TheHyper_s_protector__TheHyper_srbxyx
+{
+	meta:
+		description = "TheHyper_s protector __ TheHyper"
+	strings:
+		$a = {558BEC83EC148BFCE814000000????0101????0101??????00????0101????02015EE80D0000006B65726E656C33322E646C6C008B4604FF108BD8E80D0000005669727475616C416C6C6F6300538B06FF108907E8}
+	condition:
+		all of them
+}

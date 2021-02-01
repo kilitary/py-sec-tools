@@ -1,0 +1,9 @@
+rule Microsoft_Paint_Graphics_format_tjvffi
+{
+	meta:
+		description = "Microsoft Paint Graphics format"
+	strings:
+		$a = {4C696E53}
+	condition:
+		all of them
+}

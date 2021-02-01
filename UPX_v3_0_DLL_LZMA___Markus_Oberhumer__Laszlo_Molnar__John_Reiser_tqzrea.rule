@@ -1,0 +1,9 @@
+rule UPX_v3_0_DLL_LZMA___Markus_Oberhumer__Laszlo_Molnar__John_Reiser_tqzrea
+{
+	meta:
+		description = "UPX v3_0 _DLL_LZMA_ __ Markus Oberhumer _ Laszlo Molnar _ John Reiser"
+	strings:
+		$a = {807C2408010F85C70B000060BE00??????8DBE00????FF5789E58D9C2480C1FFFF31C05039DC75FB46465368??????00}
+	condition:
+		all of them
+}

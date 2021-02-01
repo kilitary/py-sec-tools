@@ -1,0 +1,9 @@
+rule ASProtect_v1_2x_njjoxm
+{
+	meta:
+		description = "ASProtect v1_2x"
+	strings:
+		$a = {00006801??????C3AA}
+	condition:
+		all of them
+}

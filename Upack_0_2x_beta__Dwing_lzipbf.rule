@@ -1,0 +1,9 @@
+rule Upack_0_2x_beta__Dwing_lzipbf
+{
+	meta:
+		description = "Upack 0_2x beta __ Dwing"
+	strings:
+		$a = {BE88014000AD8BF895}
+	condition:
+		all of them
+}

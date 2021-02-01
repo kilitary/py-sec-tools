@@ -1,0 +1,9 @@
+rule E_language_rxxnmf
+{
+	meta:
+		description = "E language"
+	strings:
+		$a = {E80600000050E8??010000558BEC81C4F0FEFFFF}
+	condition:
+		all of them
+}

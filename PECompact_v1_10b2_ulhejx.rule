@@ -1,0 +1,9 @@
+rule PECompact_v1_10b2_ulhejx
+{
+	meta:
+		description = "PECompact v1_10b2"
+	strings:
+		$a = {EB0668????????C39C60E802??????33C08BC483C004938BE38B5BFC81}
+	condition:
+		all of them
+}

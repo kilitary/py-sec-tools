@@ -1,0 +1,9 @@
+rule _IDA_Interactive_Disassembler_database_ulfphc
+{
+	meta:
+		description = "IDA _Interactive Disassembler_ database"
+	strings:
+		$a = {494441}
+	condition:
+		all of them
+}

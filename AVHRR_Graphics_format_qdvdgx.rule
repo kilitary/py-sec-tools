@@ -1,0 +1,9 @@
+rule AVHRR_Graphics_format_qdvdgx
+{
+	meta:
+		description = "AVHRR Graphics format"
+	strings:
+		$a = {D5C8000100030001}
+	condition:
+		all of them
+}

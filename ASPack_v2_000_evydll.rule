@@ -1,0 +1,9 @@
+rule ASPack_v2_000_evydll
+{
+	meta:
+		description = "ASPack v2_000"
+	strings:
+		$a = {60E848110000C383}
+	condition:
+		all of them
+}

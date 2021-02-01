@@ -1,0 +1,9 @@
+rule eXPressor_v1_2__CGSoftLabs_obvieh
+{
+	meta:
+		description = "eXPressor v1_2 __ CGSoftLabs"
+	strings:
+		$a = {457850722D762E312E322E}
+	condition:
+		all of them
+}

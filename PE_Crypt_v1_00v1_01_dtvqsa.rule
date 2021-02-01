@@ -1,0 +1,9 @@
+rule PE_Crypt_v1_00v1_01_dtvqsa
+{
+	meta:
+		description = "PE Crypt v1_00v1_01"
+	strings:
+		$a = {E8????????5B83EB05EB04524E44}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule MOD_8_Track_Oktatracker_music_file_yyrsep
+{
+	meta:
+		description = "MOD 8 Track Oktatracker music file"
+	strings:
+		$a = {4F4354}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Obsidium_vx_x_x_x_dzowzo
+{
+	meta:
+		description = "Obsidium vx_x_x_x"
+	strings:
+		$a = {E84719}
+	condition:
+		all of them
+}

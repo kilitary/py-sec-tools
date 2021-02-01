@@ -1,0 +1,9 @@
+rule HACKSTOP_v1_00_kueqae
+{
+	meta:
+		description = "HACKSTOP v1_00"
+	strings:
+		$a = {FABD????FFE56A49480C??E4??3F983F}
+	condition:
+		all of them
+}

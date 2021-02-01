@@ -1,0 +1,9 @@
+rule PECompact_2_0betastudent_version__Jeremy_Collake_tatxns
+{
+	meta:
+		description = "PECompact 2_0betastudent version __ Jeremy Collake"
+	strings:
+		$a = {B8????????80B8BF10001001747AC680BF100010019C5553515752568D980F1000108B53148BE86A406800100000FF73046A008B4B1003CA8B01FFD08BF8508B338B531403F28B4B0C03CA8D85B7100010FF73048F}
+	condition:
+		all of them
+}

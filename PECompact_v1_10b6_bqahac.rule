@@ -1,0 +1,9 @@
+rule PECompact_v1_10b6_bqahac
+{
+	meta:
+		description = "PECompact v1_10b6"
+	strings:
+		$a = {EB0668????????C39C60E802??????33C08BC483C004938BE38B5BFC81EB0F6040??87DD8B859A6040??0185036040??66C785??6040??90900185926040??BB14}
+	condition:
+		all of them
+}

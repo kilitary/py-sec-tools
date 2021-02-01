@@ -1,0 +1,9 @@
+rule _WATCOM_CC__hgzozj
+{
+	meta:
+		description = "WATCOM CC__"
+	strings:
+		$a = {E9????????????????5741}
+	condition:
+		all of them
+}

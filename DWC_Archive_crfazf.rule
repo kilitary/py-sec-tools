@@ -1,0 +1,9 @@
+rule _DWC_Archive_crfazf
+{
+	meta:
+		description = "DWC Archive"
+	strings:
+		$a = {445743}
+	condition:
+		all of them
+}

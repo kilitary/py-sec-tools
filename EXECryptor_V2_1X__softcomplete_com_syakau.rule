@@ -1,0 +1,9 @@
+rule _EXECryptor_V2_1X__softcomplete_com_syakau
+{
+	meta:
+		description = "EXECryptor V2_1X __ softcomplete_com"
+	strings:
+		$a = {E9????????669C60508D88????????8D900416????8BDC8BE1}
+	condition:
+		all of them
+}

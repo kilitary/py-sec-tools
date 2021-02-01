@@ -1,0 +1,9 @@
+rule _Borland_Delphi_Component__sgrjba
+{
+	meta:
+		description = "Borland Delphi _Component_"
+	strings:
+		$a = {C3E9??????FF8D40}
+	condition:
+		all of them
+}

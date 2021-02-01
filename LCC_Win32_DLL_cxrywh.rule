@@ -1,0 +1,9 @@
+rule _LCC_Win32_DLL_cxrywh
+{
+	meta:
+		description = "LCC Win32 DLL"
+	strings:
+		$a = {5589E5535657837D0C017505E817??????FF7510FF750CFF7508A1}
+	condition:
+		all of them
+}

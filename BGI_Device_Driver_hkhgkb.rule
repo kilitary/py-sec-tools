@@ -1,0 +1,9 @@
+rule BGI_Device_Driver_hkhgkb
+{
+	meta:
+		description = "BGI Device Driver"
+	strings:
+		$a = {706B080842474920}
+	condition:
+		all of them
+}

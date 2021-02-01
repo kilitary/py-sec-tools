@@ -1,0 +1,9 @@
+rule Macromedia_Windows_Flash_ProjectorPlayer_v5_0_youfqd
+{
+	meta:
+		description = "Macromedia Windows Flash ProjectorPlayer v5_0"
+	strings:
+		$a = {83EC4456FF15248149008BF08A063C22751C8A4601463C22740C84C074088A4601463C2275F4803E22750F46EB0C}
+	condition:
+		all of them
+}

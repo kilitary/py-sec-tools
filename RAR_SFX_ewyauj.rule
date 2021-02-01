@@ -1,0 +1,9 @@
+rule _RAR_SFX_ewyauj
+{
+	meta:
+		description = "RAR SFX"
+	strings:
+		$a = {E8????????50E8????????0000000090}
+	condition:
+		all of them
+}

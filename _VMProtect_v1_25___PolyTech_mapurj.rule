@@ -1,0 +1,9 @@
+rule _VMProtect_v1_25___PolyTech_mapurj
+{
+	meta:
+		description = "_ VMProtect v1_25 ___ PolyTech"
+	strings:
+		$a = {68????????E8????????52515350579C55545668000000008B74242C89E581ECC000000089E70375008A0683EEFF0FB6C0FF2485????????89EC5B5E5D5D9D5F585B595AC3}
+	condition:
+		all of them
+}

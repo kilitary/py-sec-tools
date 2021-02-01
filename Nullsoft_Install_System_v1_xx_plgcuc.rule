@@ -1,0 +1,9 @@
+rule Nullsoft_Install_System_v1_xx_plgcuc
+{
+	meta:
+		description = "Nullsoft Install System v1_xx"
+	strings:
+		$a = {505351521E069CB82135CD2153BB????26????49485B}
+	condition:
+		all of them
+}

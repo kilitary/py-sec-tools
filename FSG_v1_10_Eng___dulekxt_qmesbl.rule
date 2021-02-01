@@ -1,0 +1,9 @@
+rule FSG_v1_10_Eng___dulekxt_qmesbl
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ dulekxt"
+	strings:
+		$a = {EB02????EB02}
+	condition:
+		all of them
+}

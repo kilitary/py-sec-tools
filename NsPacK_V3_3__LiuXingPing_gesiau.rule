@@ -1,0 +1,9 @@
+rule NsPacK_V3_3__LiuXingPing_gesiau
+{
+	meta:
+		description = "NsPacK V3_3 __ LiuXingPing"
+	strings:
+		$a = {9C60E8000000005D83ED078D85????????80380074}
+	condition:
+		all of them
+}

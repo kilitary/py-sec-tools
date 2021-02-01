@@ -1,0 +1,9 @@
+rule Virtual_Image_Maker_Graphics_file_xsatnf
+{
+	meta:
+		description = "Virtual Image Maker Graphics file"
+	strings:
+		$a = {534F4D56}
+	condition:
+		all of them
+}

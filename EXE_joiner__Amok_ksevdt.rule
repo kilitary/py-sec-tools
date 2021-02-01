@@ -1,0 +1,9 @@
+rule _EXE_joiner__Amok_ksevdt
+{
+	meta:
+		description = "EXE joiner __ Amok"
+	strings:
+		$a = {A114A14000C1E002A318A140}
+	condition:
+		all of them
+}

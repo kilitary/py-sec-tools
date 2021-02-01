@@ -1,0 +1,9 @@
+rule MS_Run_Time_Library_1990_10__vwimln
+{
+	meta:
+		description = "MS Run_Time Library 1990 _10_"
+	strings:
+		$a = {E8????2EFF2E????BB????E8????CB}
+	condition:
+		all of them
+}

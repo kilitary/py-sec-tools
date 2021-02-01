@@ -1,0 +1,9 @@
+rule Krypton_v0_4_gcyahk
+{
+	meta:
+		description = "Krypton v0_4"
+	strings:
+		$a = {54E8????????5D8BC581ED6134????2B856037????83E806}
+	condition:
+		all of them
+}

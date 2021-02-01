@@ -1,0 +1,9 @@
+rule GIF89a_Graphics_format_mgcaqv
+{
+	meta:
+		description = "GIF89a Graphics format"
+	strings:
+		$a = {474946383961}
+	condition:
+		all of them
+}

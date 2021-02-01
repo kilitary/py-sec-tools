@@ -1,0 +1,9 @@
+rule ASPack_v1_07b_dwgebi
+{
+	meta:
+		description = "ASPack v1_07b"
+	strings:
+		$a = {909075??E9}
+	condition:
+		all of them
+}

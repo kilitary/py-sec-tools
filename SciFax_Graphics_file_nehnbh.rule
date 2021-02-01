@@ -1,0 +1,9 @@
+rule SciFax_Graphics_file_nehnbh
+{
+	meta:
+		description = "SciFax Graphics file"
+	strings:
+		$a = {44543D00}
+	condition:
+		all of them
+}

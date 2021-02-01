@@ -1,0 +1,9 @@
+rule WinZip_32_bit_6_x_veyfxl
+{
+	meta:
+		description = "WinZip _32_bit_ 6_x"
+	strings:
+		$a = {FF15??????00B12238087402B120408038007410380874064080380075F680380074014033C9????????FF15}
+	condition:
+		all of them
+}

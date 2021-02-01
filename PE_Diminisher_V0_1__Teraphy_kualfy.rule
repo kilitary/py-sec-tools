@@ -1,0 +1,9 @@
+rule _PE_Diminisher_V0_1__Teraphy_kualfy
+{
+	meta:
+		description = "PE Diminisher V0_1 __ Teraphy"
+	strings:
+		$a = {535152565755E800000000}
+	condition:
+		all of them
+}

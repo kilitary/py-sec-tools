@@ -1,0 +1,9 @@
+rule _Inno_Installer_v5_1_2_tbuosv
+{
+	meta:
+		description = "Inno Installer v5_1_2"
+	strings:
+		$a = {9C60E80000000058BBDC1E00002BC35068????????680050000068D8000000E8C1FEFFFFE997FFFFFFCCCC}
+	condition:
+		all of them
+}

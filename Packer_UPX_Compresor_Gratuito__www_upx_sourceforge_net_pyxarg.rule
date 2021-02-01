@@ -1,0 +1,9 @@
+rule _Packer_UPX_Compresor_Gratuito__www_upx_sourceforge_net_pyxarg
+{
+	meta:
+		description = "Packer_UPX Compresor__Gratuito___ www_upx_sourceforge_net"
+	strings:
+		$a = {60BE???04?008DBE????F?FF}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Golded_s_Output_text_file_efqqhv
+{
+	meta:
+		description = "Golded_s Output text file"
+	strings:
+		$a = {C4205B}
+	condition:
+		all of them
+}

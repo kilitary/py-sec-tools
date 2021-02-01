@@ -1,0 +1,9 @@
+rule DrWeb_v4_00_Virus_DataBase_bhwbgq
+{
+	meta:
+		description = "DrWeb v4_00_ Virus DataBase"
+	strings:
+		$a = {49445257}
+	condition:
+		all of them
+}

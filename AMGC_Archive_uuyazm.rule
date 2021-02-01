@@ -1,0 +1,9 @@
+rule _AMGC_Archive_uuyazm
+{
+	meta:
+		description = "AMGC Archive"
+	strings:
+		$a = {AD362200}
+	condition:
+		all of them
+}

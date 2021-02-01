@@ -1,0 +1,9 @@
+rule _kryptor_3_ytakgh
+{
+	meta:
+		description = "kryptor 3"
+	strings:
+		$a = {EB6687DB}
+	condition:
+		all of them
+}

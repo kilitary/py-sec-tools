@@ -1,0 +1,9 @@
+rule Unknown_SFX_Archive_IDSKA32__fobfbl
+{
+	meta:
+		description = "Unknown SFX Archive _IDSKA32_"
+	strings:
+		$a = {6964736B613332}
+	condition:
+		all of them
+}

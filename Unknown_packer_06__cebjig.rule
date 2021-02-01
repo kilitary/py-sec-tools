@@ -1,0 +1,9 @@
+rule Unknown_packer_06__cebjig
+{
+	meta:
+		description = "Unknown packer _06_"
+	strings:
+		$a = {FAB8????BE????33F00E172E??????BA????87E65B33DC}
+	condition:
+		all of them
+}

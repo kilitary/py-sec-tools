@@ -1,0 +1,9 @@
+rule ASPack_v1_08_04_azchrn
+{
+	meta:
+		description = "ASPack v1_08_04"
+	strings:
+		$a = {60E8????????EB}
+	condition:
+		all of them
+}

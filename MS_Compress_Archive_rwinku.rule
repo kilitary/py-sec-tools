@@ -1,0 +1,9 @@
+rule MS_Compress_Archive_rwinku
+{
+	meta:
+		description = "MS Compress Archive"
+	strings:
+		$a = {535A4444}
+	condition:
+		all of them
+}

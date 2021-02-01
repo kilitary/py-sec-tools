@@ -1,0 +1,9 @@
+rule EXECryptor_2_02_1__www_strongbit_com__Sign_By_haggar_nzenmk
+{
+	meta:
+		description = "EXECryptor 2_02_1 __ www_strongbit_com _ Sign_By_haggar"
+	strings:
+		$a = {A4??????00000000FFFFFFFF3C??????94??????D8??????00000000FFFFFFFFB8??????D4??????00000000000000000000000000000000000000006B65726E656C33322E646C6C0000000000004765744D6F6475}
+	condition:
+		all of them
+}

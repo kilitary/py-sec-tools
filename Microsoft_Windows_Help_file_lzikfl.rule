@@ -1,0 +1,9 @@
+rule Microsoft_Windows_Help_file_lzikfl
+{
+	meta:
+		description = "Microsoft Windows Help file"
+	strings:
+		$a = {3F5F03}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Hasp_4_envelope_dongle_Alladin__cvywkw
+{
+	meta:
+		description = "Hasp 4 envelope dongle _Alladin_"
+	strings:
+		$a = {1002D0510F0083}
+	condition:
+		all of them
+}

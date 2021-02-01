@@ -1,0 +1,9 @@
+rule Upack_0_1x_0_20_0_21_0_24_beta__Dwing_zzpxzl
+{
+	meta:
+		description = "Upack 0_1x  0_20  0_21  0_24 beta __ Dwing"
+	strings:
+		$a = {BE8801????AD8BF8????????33}
+	condition:
+		all of them
+}

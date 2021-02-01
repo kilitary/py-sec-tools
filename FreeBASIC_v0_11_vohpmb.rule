@@ -1,0 +1,9 @@
+rule _FreeBASIC_v0_11_vohpmb
+{
+	meta:
+		description = "FreeBASIC v0_11"
+	strings:
+		$a = {E8????0000E801000000C35589E5}
+	condition:
+		all of them
+}

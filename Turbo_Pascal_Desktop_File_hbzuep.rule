@@ -1,0 +1,9 @@
+rule _Turbo_Pascal_Desktop_File_hbzuep
+{
+	meta:
+		description = "Turbo Pascal Desktop File"
+	strings:
+		$a = {547572626F2050617363616C204465736B746F70}
+	condition:
+		all of them
+}

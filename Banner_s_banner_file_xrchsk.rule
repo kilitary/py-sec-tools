@@ -1,0 +1,9 @@
+rule _Banner_s_banner_file_xrchsk
+{
+	meta:
+		description = "Banner_s banner file"
+	strings:
+		$a = {D1BA0100}
+	condition:
+		all of them
+}

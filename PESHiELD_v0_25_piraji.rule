@@ -1,0 +1,9 @@
+rule PESHiELD_v0_25_piraji
+{
+	meta:
+		description = "PESHiELD v0_25"
+	strings:
+		$a = {60E82B000000}
+	condition:
+		all of them
+}

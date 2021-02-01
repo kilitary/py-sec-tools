@@ -1,0 +1,9 @@
+rule Microsoft_Bitmap_Graphics_format_dkugtp
+{
+	meta:
+		description = "Microsoft Bitmap Graphics format"
+	strings:
+		$a = {01000900}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule WWPACK_v3_03_ofxqtl
+{
+	meta:
+		description = "WWPACK v3_03"
+	strings:
+		$a = {B8????8CCA03D08CC981C1????51B9????510606BB????53}
+	condition:
+		all of them
+}

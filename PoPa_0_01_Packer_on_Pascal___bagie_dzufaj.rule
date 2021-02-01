@@ -1,0 +1,9 @@
+rule PoPa_0_01_Packer_on_Pascal___bagie_dzufaj
+{
+	meta:
+		description = "PoPa 0_01 _Packer on Pascal_ __ bagie"
+	strings:
+		$a = {558BEC83C4EC53565733C08945ECB8A43E0010E830F6FFFF33C05568BE400010????????89206A0068800000006A036A006A0168000000808D55EC33C0E862E7FFFF8B45ECE832F2FFFF50E8B4F6FFFFA364660010}
+	condition:
+		all of them
+}

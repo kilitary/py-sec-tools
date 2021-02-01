@@ -1,0 +1,9 @@
+rule ENIGMA_Protector__Sukhov_Vladimir_gsgdjv
+{
+	meta:
+		description = "ENIGMA Protector __ Sukhov Vladimir"
+	strings:
+		$a = {456E69676D612070726F746563746F72207631}
+	condition:
+		all of them
+}

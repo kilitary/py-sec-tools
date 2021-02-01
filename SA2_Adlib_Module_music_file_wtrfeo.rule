@@ -1,0 +1,9 @@
+rule _SA2_Adlib_Module_music_file_wtrfeo
+{
+	meta:
+		description = "SA2 Adlib Module music file"
+	strings:
+		$a = {53416454}
+	condition:
+		all of them
+}

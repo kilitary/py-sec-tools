@@ -1,0 +1,9 @@
+rule Packman_0_0_0_1_lypqma
+{
+	meta:
+		description = "Packman 0_0_0_1"
+	strings:
+		$a = {60E8????????588DA8}
+	condition:
+		all of them
+}

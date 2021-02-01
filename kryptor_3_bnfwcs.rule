@@ -1,0 +1,9 @@
+rule kryptor_3_bnfwcs
+{
+	meta:
+		description = "kryptor 3"
+	strings:
+		$a = {EB6687DB}
+	condition:
+		all of them
+}

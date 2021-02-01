@@ -1,0 +1,9 @@
+rule Armadillo_V5_20_Beta1__Silicon_Realms_Toolworks__Sign_By_fly__20080214_ysvdes
+{
+	meta:
+		description = "Armadillo V5_20_Beta1 __ Silicon Realms Toolworks _ Sign_By_fly _ 20080214"
+	strings:
+		$a = {E88E3F0000E916FEFFFF6A0C68????????E89E1600008B4D0833FF3BCF762E6AE05833D2F7F13B450C1BC040751FE8F5140000C7000C0000005757575757E88614000083C41433C0E9D50000000FAF4D0C8BF18975}
+	condition:
+		all of them
+}

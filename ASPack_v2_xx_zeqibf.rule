@@ -1,0 +1,9 @@
+rule ASPack_v2_xx_zeqibf
+{
+	meta:
+		description = "ASPack v2_xx"
+	strings:
+		$a = {A8030000617508B801000000C20C006800000000C38B85260400008D8D3B0400005150FF95}
+	condition:
+		all of them
+}

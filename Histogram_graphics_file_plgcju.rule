@@ -1,0 +1,9 @@
+rule Histogram_graphics_file_plgcju
+{
+	meta:
+		description = "Histogram graphics file"
+	strings:
+		$a = {6D6877616E68000401020102}
+	condition:
+		all of them
+}

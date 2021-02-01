@@ -1,0 +1,9 @@
+rule _PureBasic_DLL__Neil_Hodgson_rerzpl
+{
+	meta:
+		description = "PureBasic DLL __ Neil Hodgson"
+	strings:
+		$a = {837C24080175??8B442404A3??????10E8}
+	condition:
+		all of them
+}

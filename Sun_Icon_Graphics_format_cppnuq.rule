@@ -1,0 +1,9 @@
+rule Sun_Icon_Graphics_format_cppnuq
+{
+	meta:
+		description = "Sun Icon Graphics format"
+	strings:
+		$a = {2F2A20466F726D61745F76657273696F6E3D312C}
+	condition:
+		all of them
+}

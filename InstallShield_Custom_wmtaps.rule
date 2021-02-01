@@ -1,0 +1,9 @@
+rule InstallShield_Custom_wmtaps
+{
+	meta:
+		description = "InstallShield Custom"
+	strings:
+		$a = {558BEC83EC4456FF15????41008BF085F675086AFFFF15????41008A06578B3D????41003C22751B56FFD78BF08A063C22740484C075F1803E22751556FFD78B}
+	condition:
+		all of them
+}

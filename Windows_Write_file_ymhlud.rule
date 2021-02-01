@@ -1,0 +1,9 @@
+rule Windows_Write_file_ymhlud
+{
+	meta:
+		description = "Windows Write file"
+	strings:
+		$a = {??BE000000AB000000}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule fasm__Tomasz_Grysztar_yhpnwb
+{
+	meta:
+		description = "fasm __ Tomasz Grysztar"
+	strings:
+		$a = {6A24}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Unknown_SFX_Archive_MRI__eunlqf
+{
+	meta:
+		description = "Unknown SFX Archive _MRI_"
+	strings:
+		$a = {4D5249}
+	condition:
+		all of them
+}

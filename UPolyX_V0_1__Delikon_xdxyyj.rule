@@ -1,0 +1,9 @@
+rule UPolyX_V0_1__Delikon_xdxyyj
+{
+	meta:
+		description = "UPolyX V0_1 __ Delikon"
+	strings:
+		$a = {E2??FF??0000000000000000000000000000}
+	condition:
+		all of them
+}

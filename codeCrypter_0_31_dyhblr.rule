@@ -1,0 +1,9 @@
+rule codeCrypter_0_31_dyhblr
+{
+	meta:
+		description = "codeCrypter 0_31"
+	strings:
+		$a = {5058535B90BB????4000FFE390CCCCCC558BEC5DC3}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule ASPack_v1_08_bnljkr
+{
+	meta:
+		description = "ASPack v1_08"
+	strings:
+		$a = {90907501FFE9}
+	condition:
+		all of them
+}

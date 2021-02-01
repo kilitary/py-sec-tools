@@ -1,0 +1,9 @@
+rule PC_Shrinker_v0_29_rusbgu
+{
+	meta:
+		description = "PC Shrinker v0_29"
+	strings:
+		$a = {??BA????B9????8CDD??8CC8??8ED88EC033F68BFEFC????AD??33C2AB}
+	condition:
+		all of them
+}

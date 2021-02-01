@@ -1,0 +1,9 @@
+rule UPX_Modified_stub_cjgpgy
+{
+	meta:
+		description = "UPX Modified stub"
+	strings:
+		$a = {50BE????????8DBE????????5783CD}
+	condition:
+		all of them
+}

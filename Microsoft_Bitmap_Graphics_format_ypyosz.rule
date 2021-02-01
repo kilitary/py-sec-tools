@@ -1,0 +1,9 @@
+rule _Microsoft_Bitmap_Graphics_format_ypyosz
+{
+	meta:
+		description = "Microsoft Bitmap Graphics format"
+	strings:
+		$a = {01000900}
+	condition:
+		all of them
+}

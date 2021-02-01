@@ -1,0 +1,9 @@
+rule NsPack_2_9__North_Star_jtnsyi
+{
+	meta:
+		description = "NsPack 2_9 __ North Star"
+	strings:
+		$a = {9C60E8000000005DB8070000002BE88DB5????FFFF8B0683F80074118DB5????FFFF8B0683F8010F844B020000C706010000008BD58B85????FFFF2BD08995????FFFF0195????FFFF8DB5????FFFF01168B368BFD}
+	condition:
+		all of them
+}

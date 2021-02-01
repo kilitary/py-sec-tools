@@ -1,0 +1,9 @@
+rule CorelPhotoPaint_Image_jdfgch
+{
+	meta:
+		description = "CorelPhotoPaint Image"
+	strings:
+		$a = {4350543746494C45}
+	condition:
+		all of them
+}

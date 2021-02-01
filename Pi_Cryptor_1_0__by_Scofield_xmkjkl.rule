@@ -1,0 +1,9 @@
+rule _Pi_Cryptor_1_0__by_Scofield_xmkjkl
+{
+	meta:
+		description = "Pi Cryptor 1_0 _ by Scofield"
+	strings:
+		$a = {8955F8BB010000008A041F240F8B55FC8A143280E20F32C28A141F80E2F002D088141F468D45F48B55FCE8????????8B45F4E8????????3BF07E05BE0100000043FF4DF875C2????????5A595964891068}
+	condition:
+		all of them
+}

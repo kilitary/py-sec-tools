@@ -1,0 +1,9 @@
+rule Borland_Pascal_v7_0_arning
+{
+	meta:
+		description = "Borland Pascal v7_0"
+	strings:
+		$a = {B8????8ED88C??????8CD38CC02BD88BC405????C1????03D8B4??CD210E}
+	condition:
+		all of them
+}

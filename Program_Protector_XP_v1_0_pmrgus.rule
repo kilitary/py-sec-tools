@@ -1,0 +1,9 @@
+rule Program_Protector_XP_v1_0_pmrgus
+{
+	meta:
+		description = "Program Protector XP v1_0"
+	strings:
+		$a = {E8????????000000000000}
+	condition:
+		all of them
+}

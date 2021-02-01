@@ -1,0 +1,9 @@
+rule _ADEX_Graphics_format_jjjhoh
+{
+	meta:
+		description = "ADEX Graphics format"
+	strings:
+		$a = {504943540008??02}
+	condition:
+		all of them
+}

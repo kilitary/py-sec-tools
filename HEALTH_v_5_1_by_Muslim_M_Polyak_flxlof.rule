@@ -1,0 +1,9 @@
+rule _HEALTH_v_5_1_by_Muslim_M_Polyak_flxlof
+{
+	meta:
+		description = "HEALTH v_5_1 by Muslim M_Polyak"
+	strings:
+		$a = {1EE8????2E8C06????2E893E????8BD7B8????CD218BD80E1FE8????0657A1????26}
+	condition:
+		all of them
+}

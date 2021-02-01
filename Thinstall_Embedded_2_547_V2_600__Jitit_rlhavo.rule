@@ -1,0 +1,9 @@
+rule Thinstall_Embedded_2_547_V2_600__Jitit_rlhavo
+{
+	meta:
+		description = "Thinstall Embedded 2_547_V2_600 __ Jitit"
+	strings:
+		$a = {E80000000058BBBC1800002BC35068????????68601B00006860000000E835FFFFFFE999FFFFFF0000}
+	condition:
+		all of them
+}

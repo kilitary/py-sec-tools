@@ -1,0 +1,9 @@
+rule CrypKey_V6_1X_DLL__CrypKey_Canada_Inc__gmhxcp
+{
+	meta:
+		description = "CrypKey V6_1X DLL __ CrypKey _Canada_ Inc_"
+	strings:
+		$a = {833D????????00753468????????E8}
+	condition:
+		all of them
+}

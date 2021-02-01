@@ -1,0 +1,9 @@
+rule Symantec_WinFax_PRO_8_3_Coverpage_ayrkfs
+{
+	meta:
+		description = "Symantec WinFax PRO 8_3 Coverpage"
+	strings:
+		$a = {FFFF??????????436F7665724461746162617365}
+	condition:
+		all of them
+}

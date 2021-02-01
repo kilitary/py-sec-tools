@@ -1,0 +1,9 @@
+rule CGM_Graphics_format_czhium
+{
+	meta:
+		description = "CGM Graphics format"
+	strings:
+		$a = {002A0848694A61616B2032}
+	condition:
+		all of them
+}

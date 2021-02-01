@@ -1,0 +1,9 @@
+rule Unknown_UPX_or_File_modifyer_zujsaz
+{
+	meta:
+		description = "Unknown UPX or File modifyer"
+	strings:
+		$a = {E802000000CD035A81C286EAFEFF81C24523010089D181C13C05000052812A3353451283C20439CA7EF389CA8B42048D182902BB7856000083EA043B14247DECC3}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule _XMI_music_file_dfwddg
+{
+	meta:
+		description = "XMI music file"
+	strings:
+		$a = {464F524D????????584D4944}
+	condition:
+		all of them
+}

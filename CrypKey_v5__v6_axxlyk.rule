@@ -1,0 +1,9 @@
+rule CrypKey_v5__v6_axxlyk
+{
+	meta:
+		description = "CrypKey v5 _ v6"
+	strings:
+		$a = {E8????????5883D80589C381C3????????8B436450}
+	condition:
+		all of them
+}

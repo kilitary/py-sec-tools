@@ -1,0 +1,9 @@
+rule _MultiEdit_s_compiled_macros_tgeiqy
+{
+	meta:
+		description = "MultiEdit_s compiled macros"
+	strings:
+		$a = {1EAA}
+	condition:
+		all of them
+}

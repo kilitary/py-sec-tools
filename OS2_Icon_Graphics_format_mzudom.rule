@@ -1,0 +1,9 @@
+rule _OS2_Icon_Graphics_format_mzudom
+{
+	meta:
+		description = "OS2 Icon Graphics format"
+	strings:
+		$a = {43494E000000}
+	condition:
+		all of them
+}

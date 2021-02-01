@@ -1,0 +1,9 @@
+rule _ASProtect_2_3_SKE_build_04_26_Beta_jflhke
+{
+	meta:
+		description = "ASProtect 2_3 SKE build 04_26 Beta"
+	strings:
+		$a = {6801604000E801000000C3C30D6C653E0984BB918938D05A1D606DAFD5512DA92FE162D8C15A8D6B6E94A7F91D268C8EFB08A87E9D3B0CDF145E62147D78D06E}
+	condition:
+		all of them
+}

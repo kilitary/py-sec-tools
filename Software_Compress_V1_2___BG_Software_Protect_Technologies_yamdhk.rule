@@ -1,0 +1,9 @@
+rule _Software_Compress_V1_2___BG_Software_Protect_Technologies_yamdhk
+{
+	meta:
+		description = "Software Compress V1_2 __  BG Software Protect Technologies"
+	strings:
+		$a = {E9BE000000608B7424248B7C2428FCB28033DBA4B302E86D0000}
+	condition:
+		all of them
+}

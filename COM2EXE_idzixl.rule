@@ -1,0 +1,9 @@
+rule _COM2EXE_idzixl
+{
+	meta:
+		description = "COM2EXE"
+	strings:
+		$a = {F0FFFEFF}
+	condition:
+		all of them
+}

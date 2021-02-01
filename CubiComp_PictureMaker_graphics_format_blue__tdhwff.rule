@@ -1,0 +1,9 @@
+rule _CubiComp_PictureMaker_graphics_format_blue__tdhwff
+{
+	meta:
+		description = "CubiComp PictureMaker graphics format _blue_"
+	strings:
+		$a = {360CFF0200000000}
+	condition:
+		all of them
+}

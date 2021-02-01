@@ -1,0 +1,9 @@
+rule _FSG_v1_3_draldg
+{
+	meta:
+		description = "FSG v1_3"
+	strings:
+		$a = {BBD0014000BF00104000BE????????53BB????????B280A4B680FFD373F933C9}
+	condition:
+		all of them
+}

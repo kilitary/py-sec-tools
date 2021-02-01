@@ -1,0 +1,9 @@
+rule Upack_V0_37__Dwing_aspjxl
+{
+	meta:
+		description = "Upack V0_37 __ Dwing"
+	strings:
+		$a = {BE????????AD50FF????EB}
+	condition:
+		all of them
+}

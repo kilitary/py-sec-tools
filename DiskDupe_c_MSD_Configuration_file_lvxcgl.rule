@@ -1,0 +1,9 @@
+rule _DiskDupe_c_MSD_Configuration_file_lvxcgl
+{
+	meta:
+		description = "DiskDupe _c_ MSD Configuration file"
+	strings:
+		$a = {4D534420446174612056657273}
+	condition:
+		all of them
+}

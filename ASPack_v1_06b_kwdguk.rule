@@ -1,0 +1,9 @@
+rule _ASPack_v1_06b_kwdguk
+{
+	meta:
+		description = "ASPack v1_06b"
+	strings:
+		$a = {907500E9}
+	condition:
+		all of them
+}

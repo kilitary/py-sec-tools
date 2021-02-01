@@ -1,0 +1,9 @@
+rule Unnamed_Scrambler_2_5_1_Beta_2__2_5_2__p0ke_itpseq
+{
+	meta:
+		description = "Unnamed Scrambler 2_5_1_Beta 2_  2_5_2 __ p0ke"
+	strings:
+		$a = {558BECB9??0000006A006A004975F9535657B8????4000E8??EAFFFF33C05568????400064FF30648920BA????4000B8????4000E863F3FFFF8BD885DB75076A00E8????FFFFBA????40008BC38B0D????4000E8}
+	condition:
+		all of them
+}

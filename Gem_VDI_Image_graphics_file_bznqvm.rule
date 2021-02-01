@@ -1,0 +1,9 @@
+rule Gem_VDI_Image_graphics_file_bznqvm
+{
+	meta:
+		description = "Gem VDI Image graphics file"
+	strings:
+		$a = {000100??00??0001}
+	condition:
+		all of them
+}

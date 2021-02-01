@@ -1,0 +1,9 @@
+rule A_program_by_Jupiter___ofvfqd
+{
+	meta:
+		description = "A program by Jupiter __"
+	strings:
+		$a = {2BC0740568????????50}
+	condition:
+		all of them
+}

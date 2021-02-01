@@ -1,0 +1,9 @@
+rule Trilobyte_s_RNR_graphics_library_qsofto
+{
+	meta:
+		description = "Trilobyte_s RNR graphics library"
+	strings:
+		$a = {8410??????????????10}
+	condition:
+		all of them
+}

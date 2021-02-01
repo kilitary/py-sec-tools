@@ -1,0 +1,9 @@
+rule _Native_UD_Packer_1_1_Modded_Poison_Ivy_Shellcode___okkixot_nmabwn
+{
+	meta:
+		description = "Native UD Packer 1_1 _Modded Poison Ivy Shellcode_ __ okkixot"
+	strings:
+		$a = {31C031DB31C9EB0E6A006A006A006A00FF1528414000FF159440400089C76888130000FF1598404000FF159440400081C78813000039F87305E9840000006A406800100000FF35043040006A00FF15A440400089C7}
+	condition:
+		all of them
+}

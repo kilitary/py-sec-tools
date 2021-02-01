@@ -1,0 +1,9 @@
+rule _Netopsystems_FEAD_Optimizer_hfjmcb
+{
+	meta:
+		description = "Netopsystems FEAD Optimizer"
+	strings:
+		$a = {60BE005043008DBE00C0FCFF}
+	condition:
+		all of them
+}

@@ -1,0 +1,9 @@
+rule Dual_s_Cryptor__dual_vmwwmd
+{
+	meta:
+		description = "Dual_s Cryptor __ dual"
+	strings:
+		$a = {558BEC81EC00050000E8000000005D81ED0E}
+	condition:
+		all of them
+}

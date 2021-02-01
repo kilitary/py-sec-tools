@@ -1,0 +1,9 @@
+rule Safedisc_V4_50_000__Macrovision_Corporation__Sign_By_fly__20080117_vtzkye
+{
+	meta:
+		description = "Safedisc V4_50_000 __ Macrovision Corporation _ Sign_By_fly _ 20080117"
+	strings:
+		$a = {558BEC60BB6E??????B80D??????33C98A0885C9740CB8E4??????2BC383E805EB0E51B92B??????8BC12BC303410159C603E98943015168D9??????33C085C974058B4508EB0050E825FCFFFF83C4085983F80074}
+	condition:
+		all of them
+}

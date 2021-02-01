@@ -1,0 +1,9 @@
+rule _MacPaint_Graphics_format_mbbwin
+{
+	meta:
+		description = "MacPaint Graphics format"
+	strings:
+		$a = {00000002FFFFFFFF}
+	condition:
+		all of them
+}

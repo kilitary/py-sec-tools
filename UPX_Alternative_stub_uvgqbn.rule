@@ -1,0 +1,9 @@
+rule UPX_Alternative_stub_uvgqbn
+{
+	meta:
+		description = "UPX Alternative stub"
+	strings:
+		$a = {B9????BE????BFC0FFFD}
+	condition:
+		all of them
+}
