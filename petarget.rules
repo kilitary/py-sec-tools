@@ -95,7 +95,7 @@ private rule import_create_remote_thread
 		description = "remote thread api"
 
 	condition:
-        pe.imports("KErnel32.dll", "CreateRemoteThread") or pe.imports("Kernel32.dll", "CreateRemoteThreadEx")
+        pe.imports("KERnel32.dll", "CreateRemoteThread") or pe.imports("Kernel32.dll", "CreateRemoteThreadEx")
 }
 
 rule suspect
