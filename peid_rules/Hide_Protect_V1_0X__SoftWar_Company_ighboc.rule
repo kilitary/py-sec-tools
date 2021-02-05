@@ -1,9 +1,0 @@
-rule _Hide_Protect_V1_0X__SoftWar_Company_ighboc
-{
-	meta:
-		description = "Hide_Protect V1_0X__ SoftWar Company"
-	strings:
-		$a = {909090909090909090909090909090909090909090909090909090909090909090909090}
-	condition:
-		all of them
-}

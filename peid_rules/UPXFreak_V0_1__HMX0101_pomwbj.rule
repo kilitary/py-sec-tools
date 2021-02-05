@@ -1,9 +1,0 @@
-rule _UPXFreak_V0_1__HMX0101_pomwbj
-{
-	meta:
-		description = "UPXFreak V0_1 __ HMX0101"
-	strings:
-		$a = {BE????????83C601FFE60000}
-	condition:
-		all of them
-}

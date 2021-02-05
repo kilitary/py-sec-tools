@@ -1,9 +1,0 @@
-rule _Borland_precompiled_header_file_jyrjzh
-{
-	meta:
-		description = "Borland precompiled header file"
-	strings:
-		$a = {545053}
-	condition:
-		all of them
-}

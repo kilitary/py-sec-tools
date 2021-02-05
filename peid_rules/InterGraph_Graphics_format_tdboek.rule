@@ -1,9 +1,0 @@
-rule _InterGraph_Graphics_format_tdboek
-{
-	meta:
-		description = "InterGraph Graphics format"
-	strings:
-		$a = {0809FE0118000000}
-	condition:
-		all of them
-}

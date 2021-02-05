@@ -1,9 +1,0 @@
-rule _Inset_Systems_PIX_Graphics_format_lvhouv
-{
-	meta:
-		description = "Inset Systems PIX Graphics format"
-	strings:
-		$a = {0300??0000002000}
-	condition:
-		all of them
-}

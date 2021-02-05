@@ -1,0 +1,9 @@
+rule __EP_ExE_Pack_V1_4_lite_final__6aHguT__g_l_u_k_uacgnz
+{
+	meta:
+		description = "_EP_ExE Pack_ V1_4 lite final __ 6aHguT _ g_l_u_k"
+	strings:
+		$a = {9090909061B8????????FFE0558BEC60558B75088B7D0CE802000000EB048B1C24C381C30002000053578B07890383C70483C3044E75F35F5EFCB2808A064688074702D275058A164612D273EF02D275058A164612}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

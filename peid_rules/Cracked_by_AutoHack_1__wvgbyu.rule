@@ -1,9 +1,0 @@
-rule _Cracked_by_AutoHack_1__wvgbyu
-{
-	meta:
-		description = "Cracked by AutoHack _1_"
-	strings:
-		$a = {FA505157561E062E803E??????74??8E06????2BFFFC}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _PECompact_v0_90_rvdxcc
-{
-	meta:
-		description = "PECompact v0_90"
-	strings:
-		$a = {EB0668????4000C39C60BD????0000B902000000B0908DBD7A424000F3AA01ADD9434000FFB5}
-	condition:
-		all of them
-}

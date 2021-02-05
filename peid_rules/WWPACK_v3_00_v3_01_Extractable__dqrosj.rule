@@ -1,9 +1,0 @@
-rule _WWPACK_v3_00_v3_01_Extractable__dqrosj
-{
-	meta:
-		description = "WWPACK v3_00_ v3_01 _Extractable_"
-	strings:
-		$a = {B8????8CCA03D08CC981C1????516A??06068CD383????536A??FC}
-	condition:
-		all of them
-}

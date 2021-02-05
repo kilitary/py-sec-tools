@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_2_DxPack_1_0_ngfrus
+{
+	meta:
+		description = "_ PseudoSigner 0_2 _DxPack 1_0"
+	strings:
+		$a = {60E8000000005D8BFD81ED909090902BB90000000081EF9090909083BD90909090900F8400000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

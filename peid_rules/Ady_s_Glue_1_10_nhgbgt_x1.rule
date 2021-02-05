@@ -1,0 +1,9 @@
+rule _Ady_s_Glue_1_10_nhgbgt
+{
+	meta:
+		description = "Ady_s Glue 1_10"
+	strings:
+		$a = {2E????????0E1FBF????33DB33C0AC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

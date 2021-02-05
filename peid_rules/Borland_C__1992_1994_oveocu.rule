@@ -1,9 +1,0 @@
-rule _Borland_C__1992_1994_oveocu
-{
-	meta:
-		description = "Borland C__ 1992_ 1994"
-	strings:
-		$a = {8CC88ED88C1E????8C06????8C06????8C06}
-	condition:
-		all of them
-}

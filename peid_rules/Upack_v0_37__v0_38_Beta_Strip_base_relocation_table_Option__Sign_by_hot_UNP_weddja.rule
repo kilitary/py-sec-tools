@@ -1,9 +1,0 @@
-rule _Upack_v0_37__v0_38_Beta_Strip_base_relocation_table_Option__Sign_by_hot_UNP_weddja
-{
-	meta:
-		description = "Upack v0_37 _ v0_38 Beta _Strip base relocation table Option___ Sign by hot_UNP"
-	strings:
-		$a = {52CC00000000????????09??08??08}
-	condition:
-		all of them
-}

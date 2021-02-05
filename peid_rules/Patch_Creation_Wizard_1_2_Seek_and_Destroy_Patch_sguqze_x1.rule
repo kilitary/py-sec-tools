@@ -1,0 +1,9 @@
+rule _Patch_Creation_Wizard_1_2_Seek_and_Destroy_Patch_sguqze
+{
+	meta:
+		description = "Patch Creation Wizard 1_2 Seek and Destroy Patch"
+	strings:
+		$a = {6A00E89B020000A37A3340006A00688E1040006A006A0150E8B5020000685A31400068123140006A006A006A046A016A006A0068A23040006A00E85102000085C07431FF35623140006A006A30E862020000E80B01}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

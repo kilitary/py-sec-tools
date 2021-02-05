@@ -1,0 +1,9 @@
+rule _SimplePack_1_0X__bagie_ppahyc
+{
+	meta:
+		description = "SimplePack 1_0X __ bagie"
+	strings:
+		$a = {60E8000000005B8D5BFA6A00FF93????000089C58B7D3C8D743D008DBEF80000008B868800000009C0}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,0 +1,9 @@
+rule _NsPack_3_0_by_North_Star_Liu_Xing_Ping__irsxqa
+{
+	meta:
+		description = "NsPack 3_0 by North Star _Liu Xing Ping_"
+	strings:
+		$a = {FF25A4??????00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

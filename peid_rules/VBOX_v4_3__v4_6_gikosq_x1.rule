@@ -1,0 +1,9 @@
+rule _VBOX_v4_3__v4_6_gikosq
+{
+	meta:
+		description = "VBOX v4_3 _ v4_6"
+	strings:
+		$a = {????????9003C433C433C52BC533C58BC5????2BC548????0BC086E08CE0????8CE086E003C440}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

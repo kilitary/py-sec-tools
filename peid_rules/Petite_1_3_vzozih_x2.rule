@@ -1,0 +1,9 @@
+rule _Petite_1_3_vzozih
+{
+	meta:
+		description = "Petite 1_3"
+	strings:
+		$a = {????????????9C60508D8800??????8D90????00008BDC8BE1680000????53508004240850800424425080042461508004249D50800424BB833A000F84DA1400008B442418F64203807419FD807203808BF08BF803}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

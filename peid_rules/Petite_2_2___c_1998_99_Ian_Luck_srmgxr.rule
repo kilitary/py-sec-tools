@@ -1,9 +1,0 @@
-rule _Petite_2_2___c_1998_99_Ian_Luck_srmgxr
-{
-	meta:
-		description = "Petite 2_2 __ _c_1998_99 Ian Luck"
-	strings:
-		$a = {??????????68????????64FF350000000064892500000000669C6050680000????8B3C248B306681C780078D74060889388B5E1050566A026880080000576A??6A06566A04688008000057FFD383EE0859F3A55966}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _Upx_v1_2__Marcus__Lazlo_hvtjky
+{
+	meta:
+		description = "Upx v1_2 __ Marcus _ Lazlo"
+	strings:
+		$a = {60BE????????8DBE????????5783CDFFEB05A401DB75078B1E83EEFC11DB72F231C04001DB75078B1E83EEFC11DB11C001DB75078B1E83EEFC11DB73E631C983}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

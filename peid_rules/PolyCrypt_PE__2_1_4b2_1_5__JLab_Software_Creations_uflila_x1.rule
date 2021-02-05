@@ -1,0 +1,9 @@
+rule _PolyCrypt_PE__2_1_4b2_1_5__JLab_Software_Creations_uflila
+{
+	meta:
+		description = "PolyCrypt PE _ 2_1_4b2_1_5 __ JLab Software Creations"
+	strings:
+		$a = {918BF4ADFEC9803408??E2FAC360E8EDFFFFFFEB}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

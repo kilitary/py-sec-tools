@@ -1,9 +1,0 @@
-rule _MS_Compress_Archive_wzyybe
-{
-	meta:
-		description = "MS Compress Archive"
-	strings:
-		$a = {535A4444}
-	condition:
-		all of them
-}

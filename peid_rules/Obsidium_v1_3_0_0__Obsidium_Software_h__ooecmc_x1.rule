@@ -1,0 +1,9 @@
+rule _Obsidium_v1_3_0_0__Obsidium_Software_h__ooecmc
+{
+	meta:
+		description = "Obsidium v1_3_0_0 __ Obsidium Software _h_"
+	strings:
+		$a = {EB03CD20EBEB01EB1EEB01EBEB02CD209CEB03CD}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

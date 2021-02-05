@@ -1,9 +1,0 @@
-rule _Banner_s_font_file_ihshsf
-{
-	meta:
-		description = "Banner_s font file"
-	strings:
-		$a = {ABCD00}
-	condition:
-		all of them
-}

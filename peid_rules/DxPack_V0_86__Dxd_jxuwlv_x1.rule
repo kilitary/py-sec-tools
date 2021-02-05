@@ -1,0 +1,9 @@
+rule _DxPack_V0_86__Dxd_jxuwlv
+{
+	meta:
+		description = "DxPack V0_86 __ Dxd"
+	strings:
+		$a = {60E8000000005D8BFD81ED061040002BBD9412400081EF0600000083BD14134000010F842F010000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

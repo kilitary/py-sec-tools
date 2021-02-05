@@ -1,0 +1,9 @@
+rule _ExeSplitter_1_3_Split_Crypt_Method___Bill_Prisoner_TPOC_ylsnkp
+{
+	meta:
+		description = "ExeSplitter 1_3 _Split_Crypt Method_ __ Bill Prisoner  TPOC"
+	strings:
+		$a = {E8000000005D81ED05104000B9????????8D851D10400080306640E2FA8F98676666??????????????66}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

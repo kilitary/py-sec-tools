@@ -1,9 +1,0 @@
-rule _Themida_1_9_2_0_gmfzbw
-{
-	meta:
-		description = "Themida 1_9_2_0"
-	strings:
-		$a = {BE????BF????B9????56FCF3A55FE9}
-	condition:
-		all of them
-}

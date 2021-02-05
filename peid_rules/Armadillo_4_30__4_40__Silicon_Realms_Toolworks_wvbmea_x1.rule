@@ -1,0 +1,9 @@
+rule _Armadillo_4_30__4_40__Silicon_Realms_Toolworks_wvbmea
+{
+	meta:
+		description = "Armadillo 4_30 _ 4_40 __ Silicon Realms Toolworks"
+	strings:
+		$a = {558BEC6AFF6840????006880????0064A100000000506489250000000083EC585356578965E8FF1588????0033D28AD4891530????008BC881E1FF000000890D2C????00C1E10803CA890D28????00C1E810A324}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

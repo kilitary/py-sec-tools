@@ -1,0 +1,9 @@
+rule _Minke_V1_0_1__Codius__Sign_by_fly_eueleo
+{
+	meta:
+		description = "Minke V1_0_1 __ Codius _ Sign by fly"
+	strings:
+		$a = {558BEC83C4F053??????????10E87AF6FFFFBE6866001033C05568DB40001064FF30648920E8FAF8FFFFBAEC4000108BC6E8F2FAFFFF8BD8B86C6600108B16E888F2FFFFB86C660010E876F2FFFF8BD08BC38B0EE8}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

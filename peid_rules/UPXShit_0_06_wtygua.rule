@@ -1,9 +1,0 @@
-rule _UPXShit_0_06_wtygua
-{
-	meta:
-		description = "UPXShit 0_06"
-	strings:
-		$a = {B8????4300B915000000803408??E2FAE9D6FFFFFF}
-	condition:
-		all of them
-}

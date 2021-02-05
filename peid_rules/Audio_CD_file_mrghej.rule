@@ -1,9 +1,0 @@
-rule _Audio_CD_file_mrghej
-{
-	meta:
-		description = "Audio_CD file"
-	strings:
-		$a = {52494646????????43444441666D74}
-	condition:
-		all of them
-}

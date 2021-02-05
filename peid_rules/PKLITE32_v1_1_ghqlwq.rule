@@ -1,9 +1,0 @@
-rule _PKLITE32_v1_1_ghqlwq
-{
-	meta:
-		description = "PKLITE32 v1_1"
-	strings:
-		$a = {68????????68????????6800000000E8}
-	condition:
-		all of them
-}

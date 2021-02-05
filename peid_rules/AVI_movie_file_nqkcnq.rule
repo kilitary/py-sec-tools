@@ -1,9 +1,0 @@
-rule _AVI_movie_file_nqkcnq
-{
-	meta:
-		description = "AVI movie file"
-	strings:
-		$a = {52494646????????415649??4C495354}
-	condition:
-		all of them
-}

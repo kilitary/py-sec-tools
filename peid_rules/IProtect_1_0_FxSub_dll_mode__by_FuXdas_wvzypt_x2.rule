@@ -1,0 +1,9 @@
+rule _IProtect_1_0_FxSub_dll_mode__by_FuXdas_wvzypt
+{
+	meta:
+		description = "IProtect 1_0 _FxSub_dll mode_ _ by FuXdas"
+	strings:
+		$a = {EB332E4655584C6F61644C696272617279410046784C69622E646C6C000000000000000000000000000000000000000000??????0060E8000000005D81ED71104000FF742420E8400000000BC0742F898563104000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

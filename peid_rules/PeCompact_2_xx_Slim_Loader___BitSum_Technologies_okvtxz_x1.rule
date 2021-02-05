@@ -1,0 +1,9 @@
+rule _PeCompact_2_xx_Slim_Loader___BitSum_Technologies_okvtxz
+{
+	meta:
+		description = "PeCompact 2_xx _Slim Loader_ __ BitSum Technologies"
+	strings:
+		$a = {B8??????025064FF35000000006489250000000033C089085045436F6D706163743200}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

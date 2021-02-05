@@ -1,0 +1,9 @@
+rule _NsPack_3_0__North_Star_ldjrro
+{
+	meta:
+		description = "NsPack 3_0 __ North Star"
+	strings:
+		$a = {9C60E8000000005DB8070000002BE88DB5????FFFF668B066683F80074158BF58DB5????FFFF668B066683F8010F8442020000C606018BD52B95????FFFF8995????FFFF0195????FFFF8DB5????FFFF0116606A40}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

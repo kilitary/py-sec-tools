@@ -1,0 +1,9 @@
+rule _Interplay_s_MVE_file_ouhxhf
+{
+	meta:
+		description = "Interplay_s MVE file"
+	strings:
+		$a = {496E746572706C6179204D56452046696C651A001A}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

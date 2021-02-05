@@ -1,9 +1,0 @@
-rule _TPACK_v1_7_Archive_nxwdmo
-{
-	meta:
-		description = "TPACK v1_7 Archive"
-	strings:
-		$a = {??54504143??312E37}
-	condition:
-		all of them
-}

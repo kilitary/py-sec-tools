@@ -1,0 +1,9 @@
+rule _The_aPE_Inline_Patch_Basic_Advanced_Stealth__sdomrt
+{
+	meta:
+		description = "The aPE Inline Patch Basic_ Advanced_ Stealth_"
+	strings:
+		$a = {B9??????00E8????0000890168}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

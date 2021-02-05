@@ -1,0 +1,9 @@
+rule _RCryptor_1_6c_by_Vaska_UsAr_sign_21_03_2007_22_25__rgnmio
+{
+	meta:
+		description = "RCryptor 1_6c by Vaska _UsAr sign 21_03_2007 22_25_"
+	strings:
+		$a = {33D06840A11413FFD2B8001014133D24C0141374068030BB40EBF333C0C3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

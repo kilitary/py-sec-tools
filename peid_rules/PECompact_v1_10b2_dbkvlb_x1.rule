@@ -1,0 +1,9 @@
+rule _PECompact_v1_10b2_dbkvlb
+{
+	meta:
+		description = "PECompact v1_10b2"
+	strings:
+		$a = {EB0668????????C39C60E802??????33C08BC483C004938BE38B5BFC81EB0F6040??87DD8B859460}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,9 +1,0 @@
-rule _Portable_BitMap_PBM_Graphics_format_jvrrvp
-{
-	meta:
-		description = "Portable BitMap _PBM_ Graphics format"
-	strings:
-		$a = {50360A}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _Microsoft_Visual_C__8_0_kbpbut
+{
+	meta:
+		description = "Microsoft Visual C__ 8_0"
+	strings:
+		$a = {6A??FF????????????????????E8}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

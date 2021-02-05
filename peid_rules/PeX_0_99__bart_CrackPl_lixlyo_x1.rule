@@ -1,0 +1,9 @@
+rule _PeX_0_99__bart_CrackPl_lixlyo
+{
+	meta:
+		description = "PeX 0_99 __ bart_CrackPl"
+	strings:
+		$a = {E9F5??????0D0AC4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4C4}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

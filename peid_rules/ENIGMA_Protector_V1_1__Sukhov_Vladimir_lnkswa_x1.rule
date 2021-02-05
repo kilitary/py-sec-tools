@@ -1,0 +1,9 @@
+rule _ENIGMA_Protector_V1_1__Sukhov_Vladimir_lnkswa
+{
+	meta:
+		description = "ENIGMA Protector V1_1__ Sukhov Vladimir"
+	strings:
+		$a = {60E8000000005D81EDFB1D4000B97B0900008BF7AC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

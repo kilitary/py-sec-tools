@@ -1,0 +1,108 @@
+import "pe"
+import "time"
+
+//global rule SizeLimit
+//{
+//	meta:
+//		description = "filter > 211mb files"
+//    condition:
+//        filesize < 211MB
+//}
+
+private rule uac
+{
+	meta:
+		description = "uac elevation (admin)"
+
+	strings:
+		$a = "level=\"highestAvailable\""
+
+	condition:
+		all of them
+}
+
+rule upx
+{
+	meta:
+		description = "upx packer"
+
+	strings:
+		$a = {?? 55 50 58 21}
+
+	condition:
+		$a
+}
+
+private rule has_dll_characteristic
+{
+	meta:
+    	description = "has_dll_characteristic"
+
+    condition:
+        pe.characteristics & pe.DLL
+}
+
+
+private rule is_pe
+{
+	meta:
+    	description = "is_pe"
+
+    condition:
+        pe.is_pe
+}
+
+
+private rule invalid_checksum
+{
+	meta:
+    	description = "invalid checksum"
+
+    condition:
+        pe.checksum != pe.calculate_checksum()
+}
+
+private rule invalid_date
+{
+	meta:
+    	description = "invalid date"
+
+    condition:
+      pe.timestamp < 631188601 or pe.timestamp >= time.now()
+}
+
+private rule invalid_resource_date
+{
+	meta:
+    	description = "invalid  resource date"
+
+    condition:
+      pe.resource_timestamp < 631188601 or pe.resource_timestamp >= time.now()
+}
+
+private rule does_not_have_authenticode_signs
+{
+	meta:
+		description = "does not have authenticode signs"
+
+	condition:
+		pe.number_of_signatures == 0 and is_pe
+}
+
+private rule import_create_remote_thread
+{
+	meta:
+		description = "remote thread api"
+
+	condition:
+        pe.imports("kernel32.dll", "CreateRemoteThread") or pe.imports("kernel32.dll", "CreateRemoteThreadEx")
+}
+
+rule suspect
+{
+	meta:
+    	description = "suspectious"
+
+    condition:
+        invalid_checksum and import_create_remote_thread
+}

@@ -1,0 +1,9 @@
+rule _PcShare______v4_0______ysyoje
+{
+	meta:
+		description = "PcShare _________ v4_0 __ ______"
+	strings:
+		$a = {558BEC6AFF689034400068B628400064A1}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

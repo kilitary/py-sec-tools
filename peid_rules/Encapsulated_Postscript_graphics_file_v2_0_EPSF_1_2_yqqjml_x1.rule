@@ -1,0 +1,9 @@
+rule _Encapsulated_Postscript_graphics_file_v2_0_EPSF_1_2_yqqjml
+{
+	meta:
+		description = "Encapsulated Postscript graphics file v2_0 EPSF_1_2"
+	strings:
+		$a = {252150532D41646F62652D322E3020455053462D312E32}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,9 +1,0 @@
-rule _Obsidium_1_2_5_8__Obsidium_Software_attkue
-{
-	meta:
-		description = "Obsidium 1_2_5_8 __ Obsidium Software"
-	strings:
-		$a = {E80E0000008B54240C8382B80000000D33C0C36467FF3600006467892600005033C08B00C3E9FA000000E8D5FFFFFF5864678F06000083C404E82B130000}
-	condition:
-		all of them
-}

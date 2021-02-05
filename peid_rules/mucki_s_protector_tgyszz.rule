@@ -1,9 +1,0 @@
-rule _mucki_s_protector_tgyszz
-{
-	meta:
-		description = "mucki_s protector"
-	strings:
-		$a = {BE????????B9????????8A06F6D0880646E2F7E9}
-	condition:
-		all of them
-}

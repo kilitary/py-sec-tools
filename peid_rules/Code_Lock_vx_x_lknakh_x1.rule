@@ -1,0 +1,9 @@
+rule _Code_Lock_vx_x_lknakh
+{
+	meta:
+		description = "Code_Lock vx_x"
+	strings:
+		$a = {434F44452D4C4F434B2E4F435800}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

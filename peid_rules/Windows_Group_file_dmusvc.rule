@@ -1,9 +1,0 @@
-rule _Windows_Group_file_dmusvc
-{
-	meta:
-		description = "Windows Group file"
-	strings:
-		$a = {504D4343}
-	condition:
-		all of them
-}

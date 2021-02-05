@@ -1,9 +1,0 @@
-rule _TAV_ekezrf
-{
-	meta:
-		description = "TAV"
-	strings:
-		$a = {E8????4D5ACB}
-	condition:
-		all of them
-}

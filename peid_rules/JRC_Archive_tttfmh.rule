@@ -1,9 +1,0 @@
-rule _JRC_Archive_tttfmh
-{
-	meta:
-		description = "JRC Archive"
-	strings:
-		$a = {4A526368697665}
-	condition:
-		all of them
-}

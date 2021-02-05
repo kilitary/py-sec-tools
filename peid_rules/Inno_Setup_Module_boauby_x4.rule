@@ -1,0 +1,9 @@
+rule _Inno_Setup_Module_boauby
+{
+	meta:
+		description = "Inno Setup Module"
+	strings:
+		$a = {558BEC83C4??53565733C08945F08945??8945??E8????FFFFE8????FFFFE8????FFFFE8????FFFFE8????FFFF}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

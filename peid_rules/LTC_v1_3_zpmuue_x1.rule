@@ -1,0 +1,9 @@
+rule _LTC_v1_3_zpmuue
+{
+	meta:
+		description = "LTC v1_3"
+	strings:
+		$a = {54E8000000005D8BC581EDF67340002B858775400083E806}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

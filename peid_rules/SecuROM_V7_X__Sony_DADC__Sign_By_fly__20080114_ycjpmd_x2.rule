@@ -1,0 +1,9 @@
+rule _SecuROM_V7_X__Sony_DADC__Sign_By_fly__20080114_ycjpmd
+{
+	meta:
+		description = "SecuROM V7_X __ Sony DADC _ Sign_By_fly _ 20080114"
+	strings:
+		$a = {9C9C83EC1CC7442418????????C7442414BF03010089742410BEF0??????C14C241818??896C240C8B2E016C2418??83C60466FF4C2414525A75ED80642418FE??8B74241CC1E1008B6C2418897424188B74241089}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

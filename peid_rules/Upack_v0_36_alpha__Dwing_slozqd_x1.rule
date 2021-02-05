@@ -1,0 +1,9 @@
+rule _Upack_v0_36_alpha__Dwing_slozqd
+{
+	meta:
+		description = "Upack v0_36 alpha __ Dwing"
+	strings:
+		$a = {ABE2E55D598B7668515946AD85C0}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

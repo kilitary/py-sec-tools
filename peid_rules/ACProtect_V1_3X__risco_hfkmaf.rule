@@ -1,9 +1,0 @@
-rule _ACProtect_V1_3X__risco_hfkmaf
-{
-	meta:
-		description = "ACProtect V1_3X __ risco"
-	strings:
-		$a = {601EE83B01BFCC012E033ECA012EC705}
-	condition:
-		all of them
-}

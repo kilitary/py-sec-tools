@@ -1,9 +1,0 @@
-rule _ACProtect_1_4x__RISCO_soft_beqasa
-{
-	meta:
-		description = "ACProtect 1_4x __ RISCO soft"
-	strings:
-		$a = {4753443102001100}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule __VMProtect_v1_25___PolyTech_pcyvfd
-{
-	meta:
-		description = "_ VMProtect v1_25 ___ PolyTech"
-	strings:
-		$a = {68????????E8????????89EC58585A5D5B9D595F5F5EC3}
-	condition:
-		all of them
-}

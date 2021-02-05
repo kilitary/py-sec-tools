@@ -1,0 +1,9 @@
+rule _ASPack_v2_xx_uwovug
+{
+	meta:
+		description = "ASPack v2_xx"
+	strings:
+		$a = {A8030000617508B801000000C20C006800000000C38B85260400008D8D3B0400005150FF95}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

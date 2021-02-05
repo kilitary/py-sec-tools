@@ -1,0 +1,9 @@
+rule _tElock_v0_7x__v0_84_zqdmvd
+{
+	meta:
+		description = "tElock v0_7x _ v0_84"
+	strings:
+		$a = {60E80000000083CDFF31DB5E8DBEFA????FF57668187????????????81C6B301????EB0A????????8A064688074701DB7507}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

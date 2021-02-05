@@ -1,9 +1,0 @@
-rule _MoleBox_v2_5_4__Teggo_pmrnxe
-{
-	meta:
-		description = "MoleBox v2_5_4 __ Teggo"
-	strings:
-		$a = {??????008B4DF08B118915??????008B45FCA3??????005F5E8BE55DC3CCCCCCE8EBFBFFFF58E8??0700005889442424615858FFD0E8????00006A00FF15??????00CCCCCCCCCCCCCCCCCCCCCCCCCCCC}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _Armadillo_5_00_Dll__Silicon_Realms_Toolworks_bljsqy
-{
-	meta:
-		description = "Armadillo 5_00 Dll __ Silicon Realms Toolworks"
-	strings:
-		$a = {837C2408017505E8DE4B0000FF7424048B4C24108B54240CE8EDFEFFFF59C20C006A0C68????????E8E52400008B4D0833FF3BCF762E6AE05833D2F7F13B450C1BC040751FE88F150000C7000C0000005757575757}
-	condition:
-		all of them
-}

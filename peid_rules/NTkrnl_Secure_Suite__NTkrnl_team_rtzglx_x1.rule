@@ -1,0 +1,9 @@
+rule _NTkrnl_Secure_Suite__NTkrnl_team_rtzglx
+{
+	meta:
+		description = "NTkrnl Secure Suite __ NTkrnl team"
+	strings:
+		$a = {341000002810000000000000000000000000000000000000000000004110000050100000000000004B65726E656C33322E646C6C0000004C6F61644C6962726172794100000047657450726F6341646472657373}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

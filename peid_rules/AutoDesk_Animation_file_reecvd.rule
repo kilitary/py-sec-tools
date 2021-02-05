@@ -1,9 +1,0 @@
-rule _AutoDesk_Animation_file_reecvd
-{
-	meta:
-		description = "AutoDesk Animation file"
-	strings:
-		$a = {??????0012AF????4001C8}
-	condition:
-		all of them
-}

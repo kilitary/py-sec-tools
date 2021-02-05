@@ -1,0 +1,9 @@
+rule _Zortech_C_v2_00_1988_1989_eehdll
+{
+	meta:
+		description = "Zortech C v2_00 1988_ 1989"
+	strings:
+		$a = {FAB8????8ED88C??????268B??????891E????8BD82B1E????891E}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

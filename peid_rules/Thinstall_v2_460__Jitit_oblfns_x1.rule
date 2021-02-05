@@ -1,0 +1,9 @@
+rule _Thinstall_v2_460__Jitit_oblfns
+{
+	meta:
+		description = "Thinstall v2_460 __ Jitit"
+	strings:
+		$a = {558BEC515356576A006A00FF15F418400050E887FCFFFF5959A1941A40008B40100305901A40008945FC8B45FCFFE05F5E5BC9C3000000760C0000D40C00001E}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

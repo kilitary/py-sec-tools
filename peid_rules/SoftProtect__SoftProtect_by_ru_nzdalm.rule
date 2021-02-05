@@ -1,9 +1,0 @@
-rule _SoftProtect__SoftProtect_by_ru_nzdalm
-{
-	meta:
-		description = "SoftProtect __ SoftProtect_by_ru"
-	strings:
-		$a = {EB01E360E803??????D2EB0B58EB014840EB0135FFE0E76160E803??????83EB0EEB010C58EB013540EB0136FFE00B61EB01839CEB01D5EB08359DEB0189EB030BEBF7E8????????58E8????????5983010180395C}
-	condition:
-		all of them
-}

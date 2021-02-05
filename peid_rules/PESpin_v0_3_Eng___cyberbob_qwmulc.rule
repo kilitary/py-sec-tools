@@ -1,9 +1,0 @@
-rule _PESpin_v0_3_Eng___cyberbob_qwmulc
-{
-	meta:
-		description = "PESpin v0_3 _Eng_ __ cyberbob"
-	strings:
-		$a = {EB016860E8000000008B1C2483C312812BE8B10600FE4BFD822C24B7CD46}
-	condition:
-		all of them
-}

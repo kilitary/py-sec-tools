@@ -1,0 +1,9 @@
+rule _RLPack_V1_18_Basic_Edition_aPLib_or_LZMA___ap0x_xxtjwn
+{
+	meta:
+		description = "RLPack V1_18 Basic Edition _aPLib or LZMA_ __ ap0x"
+	strings:
+		$a = {60E8000000008B2C2483C4048DB5????00008D9D??02000033FFE8??010000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

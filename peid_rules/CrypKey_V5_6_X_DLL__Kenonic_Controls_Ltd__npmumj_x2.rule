@@ -1,0 +1,9 @@
+rule _CrypKey_V5_6_X_DLL__Kenonic_Controls_Ltd__npmumj
+{
+	meta:
+		description = "CrypKey V5_6_X DLL __ Kenonic Controls Ltd_"
+	strings:
+		$a = {8B0C24E9C08D01??C13A6ECA5D7E796DB3645A71EA}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

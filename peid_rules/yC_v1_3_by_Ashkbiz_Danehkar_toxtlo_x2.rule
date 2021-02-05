@@ -1,0 +1,9 @@
+rule _yC_v1_3_by_Ashkbiz_Danehkar_toxtlo
+{
+	meta:
+		description = "yC v1_3 by Ashkbiz Danehkar"
+	strings:
+		$a = {558BEC81ECC00000005356578DBD40FFFFFFB930000000B8CCCCCCCCF3AB60E8000000005D81ED84524100B9755E410081E9DE5241008BD581C2DE5241008D3A8BF733C0EB0490EB01C2AC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

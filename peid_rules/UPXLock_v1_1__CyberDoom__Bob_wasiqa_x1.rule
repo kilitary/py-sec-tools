@@ -1,0 +1,9 @@
+rule _UPXLock_v1_1__CyberDoom__Bob_wasiqa
+{
+	meta:
+		description = "UPXLock v1_1 __ CyberDoom _ Bob"
+	strings:
+		$a = {60E8????????5D81ED??????0060}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

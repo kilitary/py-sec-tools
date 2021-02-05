@@ -1,9 +1,0 @@
-rule _DIET_v1_44_v1_45f_fsodke
-{
-	meta:
-		description = "DIET v1_44_ v1_45f"
-	strings:
-		$a = {F99CEB}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _ASPack_v1_08_01_ekvsxv
-{
-	meta:
-		description = "ASPack v1_08_01"
-	strings:
-		$a = {9075??90E9}
-	condition:
-		all of them
-}

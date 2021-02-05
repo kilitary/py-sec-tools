@@ -1,9 +1,0 @@
-rule _Stone_s_PE_Encruptor_v1_13_pamuhj
-{
-	meta:
-		description = "Stone_s PE Encruptor v1_13"
-	strings:
-		$a = {555756525153E8????????5D8BD581}
-	condition:
-		all of them
-}

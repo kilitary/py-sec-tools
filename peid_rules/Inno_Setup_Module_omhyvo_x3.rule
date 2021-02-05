@@ -1,0 +1,9 @@
+rule _Inno_Setup_Module_omhyvo
+{
+	meta:
+		description = "Inno Setup Module"
+	strings:
+		$a = {558BEC83C4B853565733C08945F08945BC8945B8E8B370FFFFE81A85FFFFE825A7FFFFE86C}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,0 +1,9 @@
+rule _SkD_Undetectabler_Pro_2_0_No_UPX_Method___SkD_jvtfat
+{
+	meta:
+		description = "SkD Undetectabler Pro 2_0 _No UPX Method_ __ SkD"
+	strings:
+		$a = {558BEC83C4F0B8FC260010E8ECF3FFFF6A0FE815F5FFFFE864FDFFFFE8BBEDFFFF8D40}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

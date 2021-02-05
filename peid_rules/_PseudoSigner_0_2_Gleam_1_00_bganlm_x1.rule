@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_2_Gleam_1_00_bganlm
+{
+	meta:
+		description = "_ PseudoSigner 0_2 _Gleam 1_00"
+	strings:
+		$a = {90909090909090909090909090909090909090909090EB0B83EC0C535657E8240200FF}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

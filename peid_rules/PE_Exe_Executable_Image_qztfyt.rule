@@ -1,9 +1,0 @@
-rule _PE_Exe_Executable_Image_qztfyt
-{
-	meta:
-		description = "PE_Exe Executable Image"
-	strings:
-		$a = {50450000}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _Vx_Quake_518_bbtiov
+{
+	meta:
+		description = "Vx_ Quake_518"
+	strings:
+		$a = {1E068CC88ED8??????????????B82135CD2181}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

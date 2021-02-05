@@ -1,9 +1,0 @@
-rule _Crypto_Lock_V2_02_Eng___Ryan_Thian_lbtboc
-{
-	meta:
-		description = "Crypto_Lock V2_02 _Eng_ __ Ryan Thian"
-	strings:
-		$a = {5B81E300FFFFFF66813B4D5A75338BF303733C813E5045000075260FB746188BC869C0AD0B0000F7E02DAB5D414B69C9DEC0000003C1}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _Special_EXE_Pasword_Protector_v1_01_Eng___Pavol_Cerven_tczlbt
-{
-	meta:
-		description = "Special EXE Pasword Protector v1_01 _Eng_ __ Pavol Cerven"
-	strings:
-		$a = {60E8000000005D81ED0600000089AD8C0100008BC52B85FE75000089853E7700008D95C67700008D8DFF77000055680020000051526A00FF95047A00005D6A00FF95FC7900008D8D607800008D9585010000556800}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _GEM_Image_graphics_file_jruvmf
-{
-	meta:
-		description = "GEM Image graphics file"
-	strings:
-		$a = {0001000800040002}
-	condition:
-		all of them
-}

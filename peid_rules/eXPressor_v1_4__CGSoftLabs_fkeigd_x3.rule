@@ -1,0 +1,9 @@
+rule _eXPressor_v1_4__CGSoftLabs_fkeigd
+{
+	meta:
+		description = "eXPressor v1_4 __ CGSoftLabs"
+	strings:
+		$a = {669C60508BD803006854BC00006A00FF50148BCC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

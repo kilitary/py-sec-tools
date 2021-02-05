@@ -1,9 +1,0 @@
-rule _Windows_Icon_Graphics_format_urofvw
-{
-	meta:
-		description = "Windows Icon Graphics format"
-	strings:
-		$a = {00000100}
-	condition:
-		all of them
-}

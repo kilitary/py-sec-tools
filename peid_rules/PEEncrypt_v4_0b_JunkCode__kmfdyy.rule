@@ -1,9 +1,0 @@
-rule _PEEncrypt_v4_0b_JunkCode__kmfdyy
-{
-	meta:
-		description = "PEEncrypt v4_0b _JunkCode_"
-	strings:
-		$a = {66????006683??00}
-	condition:
-		all of them
-}

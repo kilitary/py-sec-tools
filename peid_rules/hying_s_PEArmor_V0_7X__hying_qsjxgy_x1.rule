@@ -1,0 +1,9 @@
+rule _hying_s_PEArmor_V0_7X__hying_qsjxgy
+{
+	meta:
+		description = "hying_s PEArmor V0_7X __ hying"
+	strings:
+		$a = {60E8000000005D81ED????????8DB5????????555681C5????????55C3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

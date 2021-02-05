@@ -1,9 +1,0 @@
-rule _PEiD_Bundle_1_02_DLL__BoB_BobSoft_nhslua
-{
-	meta:
-		description = "PEiD_Bundle 1_02 DLL __ BoB  BobSoft"
-	strings:
-		$a = {837C2408010F85????????60E89C0000000000000000000000000000004100080039000800000000000000000000000000000000000000000001000080000000}
-	condition:
-		all of them
-}

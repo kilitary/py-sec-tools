@@ -1,9 +1,0 @@
-rule _CPAV_ekiyiu
-{
-	meta:
-		description = "CPAV"
-	strings:
-		$a = {E8????4D5AB1019301000002}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_1_Microsoft_Visual_C__7_0_DLL_eyrldk
+{
+	meta:
+		description = "_ PseudoSigner 0_1 _Microsoft Visual C__ 7_0 DLL"
+	strings:
+		$a = {558D6C010081EC000000008B459083F801560F840000000085C00F84????????E9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

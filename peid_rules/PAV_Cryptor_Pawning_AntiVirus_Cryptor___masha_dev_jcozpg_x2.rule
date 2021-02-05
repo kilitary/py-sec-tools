@@ -1,0 +1,9 @@
+rule _PAV_Cryptor_Pawning_AntiVirus_Cryptor___masha_dev_jcozpg
+{
+	meta:
+		description = "PAV_Cryptor _Pawning AntiVirus Cryptor_ __ masha_dev"
+	strings:
+		$a = {53565755BB2C????70BE00300070BF20????70807B28007516833F0074118B1789D033D289178BE8FFD5833F0075EF833D04300070007406FF1554300070807B2802750A833E00750533C089430CFF151C30007080}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

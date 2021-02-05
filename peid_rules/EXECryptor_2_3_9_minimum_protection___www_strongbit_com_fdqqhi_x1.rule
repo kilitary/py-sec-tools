@@ -1,0 +1,9 @@
+rule _EXECryptor_2_3_9_minimum_protection___www_strongbit_com_fdqqhi
+{
+	meta:
+		description = "EXECryptor 2_3_9 _minimum protection_ __ www_strongbit_com"
+	strings:
+		$a = {5168????????5981F1123CCB98E9532C0000F7D7E9EB6000008345F802E9E3360000F645F8200F841E21000055E980620000870C248BE9????????000023C181E9????????57E9ED0000000F88????????E92C0D00}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

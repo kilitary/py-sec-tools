@@ -1,0 +1,9 @@
+rule _UPX_v0_62_xtpxum
+{
+	meta:
+		description = "UPX v0_62"
+	strings:
+		$a = {60E8000000005883E83D508DB8??????FF57668187????????????8DB0EC01????83CDFF31DBEB07908A064688074701DB7507}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

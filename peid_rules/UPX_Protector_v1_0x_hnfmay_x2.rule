@@ -1,0 +1,9 @@
+rule _UPX_Protector_v1_0x_hnfmay
+{
+	meta:
+		description = "UPX Protector v1_0x"
+	strings:
+		$a = {EB??????????8A064688074701DB75078B1E83EEFC11DB}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

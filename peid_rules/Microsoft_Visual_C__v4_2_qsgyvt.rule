@@ -1,9 +1,0 @@
-rule _Microsoft_Visual_C__v4_2_qsgyvt
-{
-	meta:
-		description = "Microsoft Visual C__ v4_2"
-	strings:
-		$a = {64A100000000558BEC6AFF68????????68????????506489250000000083EC??535657}
-	condition:
-		all of them
-}

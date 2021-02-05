@@ -1,9 +1,0 @@
-rule _RLPack_V1_15_V1_17_Dll__ap0x_hebctm
-{
-	meta:
-		description = "RLPack V1_15_V1_17 Dll __ ap0x"
-	strings:
-		$a = {807C2408010F85??01000060E8000000008B2C2483C4048DB5????????8D9D????????33FFE8}
-	condition:
-		all of them
-}

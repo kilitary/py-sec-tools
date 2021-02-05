@@ -1,9 +1,0 @@
-rule _Amiga_IFFILBM_Graphics_format_zyybnc
-{
-	meta:
-		description = "Amiga IFFILBM Graphics format"
-	strings:
-		$a = {464F524D????????494C424D424D4844}
-	condition:
-		all of them
-}

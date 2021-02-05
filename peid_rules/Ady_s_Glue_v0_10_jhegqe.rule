@@ -1,9 +1,0 @@
-rule _Ady_s_Glue_v0_10_jhegqe
-{
-	meta:
-		description = "Ady_s Glue v0_10"
-	strings:
-		$a = {2E8C06????0E0733C08ED8BE????BF????FCB9????56F3A51E075F}
-	condition:
-		all of them
-}

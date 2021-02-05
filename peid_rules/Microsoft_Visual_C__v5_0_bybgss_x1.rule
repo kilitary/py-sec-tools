@@ -1,0 +1,9 @@
+rule _Microsoft_Visual_C__v5_0_bybgss
+{
+	meta:
+		description = "Microsoft Visual C__ v5_0"
+	strings:
+		$a = {558BEC6AFF686864A100000000506489250000000083EC535657}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

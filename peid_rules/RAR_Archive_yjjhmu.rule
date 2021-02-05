@@ -1,9 +1,0 @@
-rule _RAR_Archive_yjjhmu
-{
-	meta:
-		description = "RAR Archive"
-	strings:
-		$a = {52617221}
-	condition:
-		all of them
-}

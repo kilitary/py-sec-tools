@@ -1,9 +1,0 @@
-rule _Wise_Installer_Stub_nxcyrc
-{
-	meta:
-		description = "Wise Installer Stub"
-	strings:
-		$a = {558BEC81EC????00005356576A015E6A048975E8FF15??404000FF15??4040008BF8897D??8A073C220F85??0000008A470147897D??33DB3AC3740D3C2274098A470147897D??EBEF803F22750447897D??803F20}
-	condition:
-		all of them
-}

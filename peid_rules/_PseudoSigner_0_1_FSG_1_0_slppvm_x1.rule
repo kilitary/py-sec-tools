@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_1_FSG_1_0_slppvm
+{
+	meta:
+		description = "_ PseudoSigner 0_1 _FSG 1_0"
+	strings:
+		$a = {9090909068????????6764FF360000676489260000F190909090BBD0014000BF00104000BE9090909053E80A00000002D275058A164612D2C3FCB280A46A025BE9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

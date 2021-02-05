@@ -1,0 +1,9 @@
+rule _ACProtect_v1_41_cfitoh
+{
+	meta:
+		description = "ACProtect v1_41"
+	strings:
+		$a = {60760377017B74037501784787EEE8010000007683C40485EEEB017F85F2EB01790F8601000000FCEB0178790287F261518F051938010160EB01E9E901000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

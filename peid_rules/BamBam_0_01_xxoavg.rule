@@ -1,9 +1,0 @@
-rule _BamBam_0_01_xxoavg
-{
-	meta:
-		description = "BamBam 0_01"
-	strings:
-		$a = {6A14E89A0500008BD85368FB????00E86CFDFFFFB9050000008BF3BFFB????0053F3A5E88D0500008B3D03????00A12B????00668B152F????00B980????002BCF8945E8890D6B????00668955EC8B413C33D203C1}
-	condition:
-		all of them
-}

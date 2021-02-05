@@ -1,0 +1,9 @@
+rule _Armadillo_v1_84_ecpnov
+{
+	meta:
+		description = "Armadillo v1_84"
+	strings:
+		$a = {558BEC6AFF68E8C1400068F486400064A100000000506489250000000083EC58}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

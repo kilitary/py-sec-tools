@@ -1,0 +1,9 @@
+rule _Inno_Setup_Module_v5_eaghoo
+{
+	meta:
+		description = "Inno Setup Module v5"
+	strings:
+		$a = {558BEC83C4CC53565733C08945F08945DCE8????FFFFE8????FFFFE8????FFFFE8????FFFFE8??F3FFFFE8??F4FFFF33C055}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,9 +1,0 @@
-rule _Shrinker_3_3_ezihvp
-{
-	meta:
-		description = "Shrinker 3_3"
-	strings:
-		$a = {0000558BEC565775656800010000E8}
-	condition:
-		all of them
-}

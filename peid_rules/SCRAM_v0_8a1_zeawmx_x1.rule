@@ -1,0 +1,9 @@
+rule _SCRAM_v0_8a1_zeawmx
+{
+	meta:
+		description = "SCRAM_ v0_8a1"
+	strings:
+		$a = {B430CD213C0277??CD20BC????B9????8BFCB2??584C}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

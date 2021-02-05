@@ -1,9 +1,0 @@
-rule _Pe123_v2006_4_12_lwofqx
-{
-	meta:
-		description = "Pe123 v2006_4_12"
-	strings:
-		$a = {48E2F7C3515352E8DDFF5A5B59C3B90000E2FEC3}
-	condition:
-		all of them
-}

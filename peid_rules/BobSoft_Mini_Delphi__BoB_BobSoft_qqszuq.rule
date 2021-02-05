@@ -1,9 +1,0 @@
-rule _BobSoft_Mini_Delphi__BoB_BobSoft_qqszuq
-{
-	meta:
-		description = "BobSoft Mini Delphi __ BoB  BobSoft"
-	strings:
-		$a = {558BEC83C4F0B8????????E8}
-	condition:
-		all of them
-}

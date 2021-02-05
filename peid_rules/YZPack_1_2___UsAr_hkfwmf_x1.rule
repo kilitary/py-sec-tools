@@ -1,0 +1,9 @@
+rule _YZPack_1_2___UsAr_hkfwmf
+{
+	meta:
+		description = "YZPack 1_2 ___ UsAr"
+	strings:
+		$a = {4D5A52456083EC188BEC8BFC33C0648B4030780C8B400C8B701CAD8B4008EB098B403483C07C8B403CABE9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

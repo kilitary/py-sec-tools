@@ -1,9 +1,0 @@
-rule _FASM_v1_3x_kzzdyl
-{
-	meta:
-		description = "FASM v1_3x"
-	strings:
-		$a = {6A??FF15????????A3}
-	condition:
-		all of them
-}

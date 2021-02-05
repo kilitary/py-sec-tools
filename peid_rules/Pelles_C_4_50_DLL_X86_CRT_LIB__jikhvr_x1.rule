@@ -1,0 +1,9 @@
+rule _Pelles_C_4_50_DLL_X86_CRT_LIB__jikhvr
+{
+	meta:
+		description = "Pelles C 4_50 DLL _X86 CRT_LIB_"
+	strings:
+		$a = {5589E55356578B5D0C8B751085DB750D833D????????00750431C0EB5783FB01740583FB0275}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

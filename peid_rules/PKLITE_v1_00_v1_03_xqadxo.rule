@@ -1,9 +1,0 @@
-rule _PKLITE_v1_00_v1_03_xqadxo
-{
-	meta:
-		description = "PKLITE v1_00_ v1_03"
-	strings:
-		$a = {B8????BA????8CDB03D83B}
-	condition:
-		all of them
-}

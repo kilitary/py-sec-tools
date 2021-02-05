@@ -1,0 +1,9 @@
+rule _MEW_11_SE_v1_1_davgue
+{
+	meta:
+		description = "MEW 11 SE v1_1"
+	strings:
+		$a = {E9??????FF0C??00000000000000000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

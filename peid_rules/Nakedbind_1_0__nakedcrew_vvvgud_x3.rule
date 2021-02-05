@@ -1,0 +1,9 @@
+rule _Nakedbind_1_0__nakedcrew_vvvgud
+{
+	meta:
+		description = "Nakedbind 1_0 __ nakedcrew"
+	strings:
+		$a = {648B05????????558BEC6AFF68????40??68????40??50648925????????83EC08505356578965E8C745FC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

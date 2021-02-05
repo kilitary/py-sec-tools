@@ -1,9 +1,0 @@
-rule _InstallShield_3_x_Custom_wcajpe
-{
-	meta:
-		description = "InstallShield 3_x Custom"
-	strings:
-		$a = {64A100000000558BEC6AFF6800A040006834764000506489250000000083EC605356578965E8FF158CE34000A370B1400033C0A071B14000A37CB14000A170B1}
-	condition:
-		all of them
-}

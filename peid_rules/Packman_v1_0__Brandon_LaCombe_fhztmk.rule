@@ -1,9 +1,0 @@
-rule _Packman_v1_0__Brandon_LaCombe_fhztmk
-{
-	meta:
-		description = "Packman v1_0 __ Brandon LaCombe"
-	strings:
-		$a = {60E8000000005B8D5BC6011B8B138D73146A08590116AD4975FA8BE8C606E98B430C8946016A046800100000FF730851FF55088B}
-	condition:
-		all of them
-}

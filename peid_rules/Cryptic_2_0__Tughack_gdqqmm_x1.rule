@@ -1,0 +1,9 @@
+rule _Cryptic_2_0__Tughack_gdqqmm
+{
+	meta:
+		description = "Cryptic 2_0 __ Tughack"
+	strings:
+		$a = {B800004000BB??????00B900100000BA??????0003D803C803D13BCA74068031??41EBF6FFE3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

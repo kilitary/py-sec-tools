@@ -1,9 +1,0 @@
-rule _Stirling_Archive_bqodxg
-{
-	meta:
-		description = "Stirling Archive"
-	strings:
-		$a = {135D658C3A}
-	condition:
-		all of them
-}

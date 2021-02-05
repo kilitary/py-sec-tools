@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_1_NorthStar_PE_Shrinker_1_3_plgfeo
+{
+	meta:
+		description = "_ PseudoSigner 0_1 _NorthStar PE Shrinker 1_3"
+	strings:
+		$a = {9C60E8000000005DB8B38540002DAC8540002BE88DB500000000E9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,9 +1,0 @@
-rule _KByS_Packer_v0_28_karqof
-{
-	meta:
-		description = "KByS Packer v0_28"
-	strings:
-		$a = {68??????00E801000000C3C3608B7424248B7C2428FCB28033DBA4B302E86D00}
-	condition:
-		all of them
-}

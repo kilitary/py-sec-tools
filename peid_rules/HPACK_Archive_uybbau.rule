@@ -1,9 +1,0 @@
-rule _HPACK_Archive_uybbau
-{
-	meta:
-		description = "HPACK Archive"
-	strings:
-		$a = {4850414B}
-	condition:
-		all of them
-}

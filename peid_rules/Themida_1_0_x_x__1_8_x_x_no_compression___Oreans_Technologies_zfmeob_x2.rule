@@ -1,0 +1,9 @@
+rule _Themida_1_0_x_x__1_8_x_x_no_compression___Oreans_Technologies_zfmeob
+{
+	meta:
+		description = "Themida 1_0_x_x _ 1_8_x_x _no compression_ __ Oreans Technologies"
+	strings:
+		$a = {558BEC83C4D860E8000000005A81EA????????8BDAC745D8000000008B45D8408945D8817DD880000000740F8B45088983????????FF450843EBE18945DC618B45DCC9C20400558BEC81C47CFFFFFF60E800000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

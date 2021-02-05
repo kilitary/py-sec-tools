@@ -1,9 +1,0 @@
-rule _ACE_SFX_Archive_jhmoql
-{
-	meta:
-		description = "ACE_SFX Archive"
-	strings:
-		$a = {2A2A4143452A2A}
-	condition:
-		all of them
-}

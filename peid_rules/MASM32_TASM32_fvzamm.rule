@@ -1,9 +1,0 @@
-rule _MASM32_TASM32_fvzamm
-{
-	meta:
-		description = "MASM32  TASM32"
-	strings:
-		$a = {2BC050E8}
-	condition:
-		all of them
-}

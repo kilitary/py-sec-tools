@@ -1,0 +1,9 @@
+rule _UPX_v3_0_EXE_LZMA___Markus_Oberhumer__Laszlo_Molnar__John_Reiser_ectwkb
+{
+	meta:
+		description = "UPX v3_0 _EXE_LZMA_ __ Markus Oberhumer _ Laszlo Molnar _ John Reiser"
+	strings:
+		$a = {60BE????????8DBE??????FF5789E58D9C2480C1FFFF31C05039DC75FB46465368??????005783C3045368??????0056}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

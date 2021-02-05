@@ -1,0 +1,9 @@
+rule _Enigma_protector_1_10_unregistered__nsrazg
+{
+	meta:
+		description = "Enigma protector 1_10 _unregistered_"
+	strings:
+		$a = {6072807288728C729072947298729C72A072A459A8B05CE839D539E439F131F95C3D58CA5F56B12D207A2E301632722B72361CA533A99CAD9CB19CB59CB99CBD9CC19CC59CC99CCD9CD19CD59CD99CDD9CE19CE589}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

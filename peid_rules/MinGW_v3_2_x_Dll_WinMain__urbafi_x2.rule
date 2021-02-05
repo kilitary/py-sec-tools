@@ -1,0 +1,9 @@
+rule _MinGW_v3_2_x_Dll_WinMain__urbafi
+{
+	meta:
+		description = "MinGW v3_2_x _Dll_WinMain_"
+	strings:
+		$a = {558BECA1????????85C07409B8010000005DC20C008B450C5756538B5D10}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

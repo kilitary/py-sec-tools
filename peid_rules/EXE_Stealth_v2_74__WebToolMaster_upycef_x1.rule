@@ -1,0 +1,9 @@
+rule _EXE_Stealth_v2_74__WebToolMaster_upycef
+{
+	meta:
+		description = "EXE Stealth v2_74 __ WebToolMaster"
+	strings:
+		$a = {061E0E0E071FBE????B9????871481??????EB??C7??????840087??????FB1F584A}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

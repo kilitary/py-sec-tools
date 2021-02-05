@@ -1,9 +1,0 @@
-rule _Turbo_Pascal_v5_5_Unit_pkgpqf
-{
-	meta:
-		description = "Turbo Pascal v5_5 Unit"
-	strings:
-		$a = {5450553600}
-	condition:
-		all of them
-}

@@ -1,9 +1,0 @@
-rule _v_02Packer__tt_t_avihfj
-{
-	meta:
-		description = "v_02Packer __ tt_t"
-	strings:
-		$a = {60E836FEFFFFC390??00}
-	condition:
-		all of them
-}

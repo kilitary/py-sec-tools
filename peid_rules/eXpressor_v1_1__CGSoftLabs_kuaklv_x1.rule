@@ -1,0 +1,9 @@
+rule _eXpressor_v1_1__CGSoftLabs_kuaklv
+{
+	meta:
+		description = "eXpressor v1_1 __ CGSoftLabs"
+	strings:
+		$a = {E915130000E9F0120000E958120000E9AF0C0000E9AE020000E9B40B0000E9E00C0000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

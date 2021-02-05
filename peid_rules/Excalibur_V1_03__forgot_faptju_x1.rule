@@ -1,0 +1,9 @@
+rule _Excalibur_V1_03__forgot_faptju
+{
+	meta:
+		description = "Excalibur V1_03 __ forgot"
+	strings:
+		$a = {E90000000060E8140000005D81ED000000006A45E8A30000006800000000E85861EB39}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

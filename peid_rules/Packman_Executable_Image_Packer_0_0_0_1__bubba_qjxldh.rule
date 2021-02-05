@@ -1,9 +1,0 @@
-rule _Packman_Executable_Image_Packer_0_0_0_1__bubba_qjxldh
-{
-	meta:
-		description = "Packman Executable Image Packer 0_0_0_1 __ bubba"
-	strings:
-		$a = {60E800000000588DA8????FFFF8D98??????FF}
-	condition:
-		all of them
-}

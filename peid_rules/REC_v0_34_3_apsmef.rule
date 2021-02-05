@@ -1,9 +1,0 @@
-rule _REC_v0_34_3_apsmef
-{
-	meta:
-		description = "REC v0_34 _3"
-	strings:
-		$a = {061EB430CD213C0273??33C00650CB}
-	condition:
-		all of them
-}

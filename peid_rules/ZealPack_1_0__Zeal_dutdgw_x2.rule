@@ -1,0 +1,9 @@
+rule _ZealPack_1_0__Zeal_dutdgw
+{
+	meta:
+		description = "ZealPack 1_0 __ Zeal"
+	strings:
+		$a = {C745F400004000C745F0????????8B45F405????????8945F4C745FC00000000EB098B4DFC83C101894DFC8B55FC3B55F07D228B45F40345FC8A08884DF80FBE55F883F20F8855F88B45F40345FC8A4DF88808EBCD}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

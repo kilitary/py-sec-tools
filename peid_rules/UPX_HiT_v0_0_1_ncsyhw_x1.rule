@@ -1,0 +1,9 @@
+rule _UPX_HiT_v0_0_1_ncsyhw
+{
+	meta:
+		description = "UPX_HiT v0_0_1"
+	strings:
+		$a = {94BC??????00B9??00000080340C??E2FA94FFE061}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

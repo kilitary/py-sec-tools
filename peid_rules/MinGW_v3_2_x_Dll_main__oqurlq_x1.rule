@@ -1,0 +1,9 @@
+rule _MinGW_v3_2_x_Dll_main__oqurlq
+{
+	meta:
+		description = "MinGW v3_2_x _Dll_main_"
+	strings:
+		$a = {5589E583EC086A006A006A006A00E80D000000B800000000C9C3909090909090FF253820400090900000000000000000FFFFFFFF00000000FFFFFFFF0000000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

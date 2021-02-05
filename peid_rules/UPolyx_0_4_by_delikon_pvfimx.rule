@@ -1,9 +1,0 @@
-rule _UPolyx_0_4_by_delikon_pvfimx
-{
-	meta:
-		description = "UPolyx 0_4 by delikon"
-	strings:
-		$a = {C3??????????83EC0489}
-	condition:
-		all of them
-}

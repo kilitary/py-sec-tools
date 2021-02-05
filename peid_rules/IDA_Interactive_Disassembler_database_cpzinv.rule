@@ -1,9 +1,0 @@
-rule _IDA_Interactive_Disassembler_database_cpzinv
-{
-	meta:
-		description = "IDA _Interactive Disassembler_ database"
-	strings:
-		$a = {494441}
-	condition:
-		all of them
-}

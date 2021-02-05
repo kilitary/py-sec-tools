@@ -1,9 +1,0 @@
-rule _WinRAR_32_bit_SFX_Module_vciqjk
-{
-	meta:
-		description = "WinRAR 32_bit SFX Module"
-	strings:
-		$a = {E9????0000000000000000}
-	condition:
-		all of them
-}

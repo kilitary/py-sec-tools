@@ -1,9 +1,0 @@
-rule ______v1_0_____isgbee
-{
-	meta:
-		description = "_________ v1_0 __ ____"
-	strings:
-		$a = {64A1000000005589E56AFF681C304000}
-	condition:
-		all of them
-}

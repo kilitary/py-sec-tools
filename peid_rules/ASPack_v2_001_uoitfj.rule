@@ -1,9 +1,0 @@
-rule _ASPack_v2_001_uoitfj
-{
-	meta:
-		description = "ASPack v2_001"
-	strings:
-		$a = {60E872050000EB4C}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _LTC_v1_3_cvxvvk
+{
+	meta:
+		description = "LTC v1_3"
+	strings:
+		$a = {60EB03C784E8EB03C7849AE8000000005D81ED10000000EB03C784E964A023000000EB}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

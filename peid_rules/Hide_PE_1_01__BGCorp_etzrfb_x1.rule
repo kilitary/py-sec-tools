@@ -1,0 +1,9 @@
+rule _Hide_PE_1_01__BGCorp_etzrfb
+{
+	meta:
+		description = "Hide PE 1_01 __ BGCorp"
+	strings:
+		$a = {??BA??????00B8????????890283C204B8????????890283C204B8????????890283C2F8FFE20D0A2D3D5B20486964655045206279204247436F7270205D3D2D}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

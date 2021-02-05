@@ -1,9 +1,0 @@
-rule _ASPack_v1_08_elabyf
-{
-	meta:
-		description = "ASPack v1_08"
-	strings:
-		$a = {90907501FFE9}
-	condition:
-		all of them
-}

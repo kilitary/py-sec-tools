@@ -1,0 +1,9 @@
+rule _PECompact_v0_978_bmfufx
+{
+	meta:
+		description = "PECompact v0_978"
+	strings:
+		$a = {EB0668????????C39C60E802??????33C08BC483C004938BE38B5BFC81EB248840??87DD8B85A988}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

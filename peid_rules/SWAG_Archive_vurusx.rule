@@ -1,9 +1,0 @@
-rule _SWAG_Archive_vurusx
-{
-	meta:
-		description = "SWAG Archive"
-	strings:
-		$a = {????2D7377312D}
-	condition:
-		all of them
-}

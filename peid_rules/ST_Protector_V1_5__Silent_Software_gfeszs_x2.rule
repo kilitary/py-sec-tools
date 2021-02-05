@@ -1,0 +1,9 @@
+rule _ST_Protector_V1_5__Silent_Software_gfeszs
+{
+	meta:
+		description = "ST Protector V1_5 __ Silent Software"
+	strings:
+		$a = {000000004B65526E456C33322E644C6C000047657450726F634164647265737300004C6F61644C696272617279410000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,0 +1,9 @@
+rule _KByS_V0_28_DLL__shoooo_rrvyjx
+{
+	meta:
+		description = "KByS V0_28 DLL __ shoooo"
+	strings:
+		$a = {B8????????BA????????03C2FFE0????????60E800000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

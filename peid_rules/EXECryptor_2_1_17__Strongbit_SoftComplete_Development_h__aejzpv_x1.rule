@@ -1,0 +1,9 @@
+rule _EXECryptor_2_1_17__Strongbit_SoftComplete_Development_h__aejzpv
+{
+	meta:
+		description = "EXECryptor 2_1_17 __ Strongbit  SoftComplete Development _h_"
+	strings:
+		$a = {558BEC83C4F4565753BE????????B80000????8945FC89C28B460C09C00F84??00000001D089C350FF1594??????09C00F850F00000053FF1598??????09C00F84??0000008945F86A008F45F48B0609C08B55FC0F}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

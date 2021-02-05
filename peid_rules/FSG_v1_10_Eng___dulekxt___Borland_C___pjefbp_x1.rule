@@ -1,0 +1,9 @@
+rule _FSG_v1_10_Eng___dulekxt___Borland_C___pjefbp
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ dulekxt __ _Borland C___"
+	strings:
+		$a = {23CAEB025A0DE8020000006A3558C1C910BE80????000FB6C9EB02CD20BB}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

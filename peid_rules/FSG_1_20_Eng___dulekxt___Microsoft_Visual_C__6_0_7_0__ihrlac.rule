@@ -1,9 +1,0 @@
-rule _FSG_1_20_Eng___dulekxt___Microsoft_Visual_C__6_0_7_0__ihrlac
-{
-	meta:
-		description = "FSG 1_20 _Eng_ __ dulekxt __ _Microsoft Visual C__ 6_0  7_0_"
-	strings:
-		$a = {33C22CFB8D3D7E45B480E8020000008A45586802??8C7FEB02CD205E80C91603F7EB0240B068F400000080F12C5BC1E9050FB6C98A160FB6C90FBFC72AD3E802000000994C5880EA53C1C9162AD3E8020000009DCE}
-	condition:
-		all of them
-}

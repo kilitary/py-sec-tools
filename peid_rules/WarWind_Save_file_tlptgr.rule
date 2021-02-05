@@ -1,9 +1,0 @@
-rule _WarWind_Save_file_tlptgr
-{
-	meta:
-		description = "WarWind Save file"
-	strings:
-		$a = {574152534156}
-	condition:
-		all of them
-}

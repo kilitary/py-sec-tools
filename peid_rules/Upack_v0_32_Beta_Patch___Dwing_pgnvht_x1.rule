@@ -1,0 +1,9 @@
+rule _Upack_v0_32_Beta_Patch___Dwing_pgnvht
+{
+	meta:
+		description = "Upack v0_32 Beta _Patch_ __ Dwing"
+	strings:
+		$a = {BE8801????AD50??AD91F3A5}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

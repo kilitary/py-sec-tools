@@ -1,9 +1,0 @@
-rule __PseudoSigner_0_1_Microsoft_Visual_C__6_20_iqohfq
-{
-	meta:
-		description = "_ PseudoSigner 0_1 _Microsoft Visual C__ 6_20"
-	strings:
-		$a = {9090909068????????6764FF360000676489260000F190909090558BEC83EC50535657BE909090908D7DF4A5A566A58B}
-	condition:
-		all of them
-}

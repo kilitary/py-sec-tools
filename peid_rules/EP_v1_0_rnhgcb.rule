@@ -1,9 +1,0 @@
-rule _EP_v1_0_rnhgcb
-{
-	meta:
-		description = "EP v1_0"
-	strings:
-		$a = {81EB2A018B0F1E5B03CB0E51B9100151CB}
-	condition:
-		all of them
-}

@@ -1,0 +1,9 @@
+rule _SOFTWrapper_for_Win9xNT_Evaluation_Version__qdlhlh
+{
+	meta:
+		description = "SOFTWrapper for Win9xNT _Evaluation Version_"
+	strings:
+		$a = {E8000000005D8BC52D??????005081ED050000008BC52B85030F00008985030F00008BF003B50B0F00008BF803BD070F0000837F0C00742B56578B7F1003F88B761003F0833F00740C8B1E891F83C60483C704EBEF}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,9 +1,0 @@
-rule _GZIP_Archive_fsebia
-{
-	meta:
-		description = "GZIP Archive"
-	strings:
-		$a = {1F8B0808??????35}
-	condition:
-		all of them
-}

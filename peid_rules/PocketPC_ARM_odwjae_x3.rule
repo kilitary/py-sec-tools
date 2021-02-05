@@ -1,0 +1,9 @@
+rule _PocketPC_ARM_odwjae
+{
+	meta:
+		description = "PocketPC ARM"
+	strings:
+		$a = {F0402DE90040A0E10150A0E10260A0E10370A0E1??0000EB0730A0E10620A0E10510A0E10400A0E1??????EBF040BDE8??0000EA??402DE9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

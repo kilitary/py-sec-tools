@@ -1,9 +1,0 @@
-rule _Borland_Delphi_bjcaei
-{
-	meta:
-		description = "Borland Delphi"
-	strings:
-		$a = {558BEC83C4F4}
-	condition:
-		all of them
-}

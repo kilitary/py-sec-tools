@@ -1,0 +1,9 @@
+rule _EXECryptor_2_3_9_compressed_resources___www_strongbit_com_wvgrcs
+{
+	meta:
+		description = "EXECryptor 2_3_9 _compressed resources_ __ www_strongbit_com"
+	strings:
+		$a = {CC??????00000000FFFFFFFF3C??????B4??????08??????00000000FFFFFFFFE8??????04??????00000000000000000000000000000000000000006B65726E656C33322E646C6C0000000000004765744D6F6475}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

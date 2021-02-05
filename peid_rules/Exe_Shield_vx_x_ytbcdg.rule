@@ -1,9 +1,0 @@
-rule _Exe_Shield_vx_x_ytbcdg
-{
-	meta:
-		description = "Exe Shield vx_x"
-	strings:
-		$a = {53E8000000005B8BC32D}
-	condition:
-		all of them
-}

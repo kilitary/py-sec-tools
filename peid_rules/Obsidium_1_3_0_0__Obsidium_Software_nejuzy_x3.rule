@@ -1,0 +1,9 @@
+rule _Obsidium_1_3_0_0__Obsidium_Software_nejuzy
+{
+	meta:
+		description = "Obsidium 1_3_0_0 __ Obsidium Software"
+	strings:
+		$a = {EB04258034CAE829000000EB02C181EB013A8B54240CEB0232928382B800000022EB02F27F33C0EB04657E1479C3EB0405AD7F45EB0405650BE86467FF360000EB040DF6A87F646789260000EB048D68C7FBEB016B}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_1_PESHiELD_0_25_fbdhja
+{
+	meta:
+		description = "_ PseudoSigner 0_1 _PESHiELD 0_25"
+	strings:
+		$a = {60E82B0000009090909090909090909090909090909090909090909090909090909090909090909090909090909090CCCCE9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

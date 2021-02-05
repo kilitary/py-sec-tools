@@ -1,0 +1,9 @@
+rule _Mew_11_SE_v1_2_Eng___Northfox_sicfzb
+{
+	meta:
+		description = "Mew 11 SE v1_2 _Eng_ __ Northfox"
+	strings:
+		$a = {061E52B8????1ECD2186E03D}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

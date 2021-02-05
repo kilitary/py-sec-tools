@@ -1,0 +1,9 @@
+rule _mucki_s_protector_II__mucki_oidrco
+{
+	meta:
+		description = "mucki_s protector II __ mucki"
+	strings:
+		$a = {E8240000008B4C240CC70117000100C781B80000000000000031C0894114894118806A00E885C07412648B3D180000008B7F300FB6470285C07401C3C70424????????BE????????B9????????8A06F6D0880646E2F7C3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

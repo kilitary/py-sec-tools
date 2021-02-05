@@ -1,9 +1,0 @@
-rule _APEX_C_BLT_Apex_4_0___500mhz_pgrmuh
-{
-	meta:
-		description = "APEX_C _BLT Apex 4_0_ __ 500mhz"
-	strings:
-		$a = {68????????B9FFFFFF0001D0F7E2720148E2F7B9FF0000008B34248036FD46E2FAC3}
-	condition:
-		all of them
-}
