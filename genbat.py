@@ -20,49 +20,93 @@ from outputdebugstring import olog
 import sys, traceback
 import magic
 import random
-from enum import Enum
+from enum import Enum, auto
 
 pipe = ''
-cmds = []
+commands = []
 code = ''
 gotos = []
+names = []
+ip_offset = 0
+
+class Operand(Enum):
+	SET = auto()
+	COLOR = auto()
+	GOTO = auto()
 
 def write(filename, code):
-    with open(filename, "w") as file:
-        ret = file.write(code)
-        print(f'\r\n=> written {ret} bytes to {filename}\r\n')
+	with open(filename, "w") as file:
+		ret = file.write(code)
+		print(f'\r\nwritten {ret} bytes to {filename}\r\n')
 
 def str_id_generator(size=6, chars="qwertyuiopasdfghjklzxcvbnm1234567890"):
-    return (''.join(random.choice(chars) for _ in range(size)))
+	return random.choice(names) + "_" + (''.join(random.choice(chars) for _ in range(size)))
 
-def pushcmd(cmd, random_offset=False):
-    if random_offset:
-        if len(cmds) == 0:
-            idx = 0
-        else:
-            idx = random.randint(0, len(cmds) - 1)
-        cmds.insert(idx, cmd)
-    else:
-        cmds.append(cmd)
+def pushcmd(cmd, random_offset=False, offset=0) -> int:
+	_index = 0
+	if offset != 0:
+		commands.insert(offset, cmd)
+		print(f'offset push: inserting [{cmd}] @ {offset}')
+	elif random_offset:
+		if len(commands) == 0:
+			_index = 0
+		else:
+			_index = random.randint(0, len(commands) - 1)
+
+		print(f'random push: inserting  [{cmd}] @ {_index}')
+		commands.insert(_index, cmd)
+		offset = _index
+	else:
+		commands.append(cmd)
+		offset = len(commands)
+		print(f'seqntl push: added  [{cmd}] @ {offset}')
+	#print(f'size after: {len(commands)}')
+
+	return offset
 
 def pullout():
-    global code
-    code = '\n'.join(cmds)
+	global code
+	code = commands
 
 if __name__ == '__main__':
-    num_gotos = random.randint(1, 22)
+	max = random.randint(6, 8)
+	num_gotos = random.randint(5, max)
+	names = open('names.txt', 'r').read().split("\n")
 
-    for x in range(0, num_gotos):
-        lab = 'g' + str_id_generator()
-        gotos.append(f"{lab}")
-        pushcmd(f":{lab}", random_offset=True)
+	ii = ['\\', '|', '/', '-', '*']
+	numIi = 0
+	offset = 0
+	for step in range(0, max - 1):
+		if (max >= 100000):
+			numIi += 1
+			if numIi >= len(ii):
+				numIi = 0
+			currentSym = ii[numIi]
+			print(f'\r[{step / max:.0f}%] mutating code ... {currentSym}', end='')
 
-    for x in range(0, random.randint(3, 8)):
-        label = gotos[random.randint(0, len(gotos) - 1)]
-        pushcmd("goto :" + label, random_offset=True)
-        pushcmd(f"echo {str_id_generator()}", random_offset=False)
+		print(f'offset: {offset}')
+		choose = random.choice([1, 2, 3])
 
-    pullout()
-    print(f"=> code ({len(cmds)} commands):\r\n\r\n{code}")
+		if choose == 1:
+			offset = pushcmd(f"ECHO {str_id_generator()}", offset=offset + 1)
+		if choose == 2:
+			offset = pushcmd(f"TITLE {str_id_generator()}", offset=offset + 1)
+		if choose == 3:
+			offset = pushcmd(f"REM {str_id_generator()}", offset=offset + 1)
 
-    write("mut.cmd", code)
+		offset = pushcmd(f"REM ipoffset {offset} {step}/{max}", offset=offset + 1)
+
+		lab = str_id_generator(size=4)
+		offset = pushcmd("GOTO :" + lab, random_offset=True)
+		pushcmd(f":{lab}", offset=offset + 1)
+
+		if step == max - 1:
+			pushcmd('EXIT')
+
+	pullout()
+
+	for index, line in enumerate(code):
+		print(f'{index:08} {line}')
+	print(f"\ncode: {len(commands)} commands")
+
+	write("mut.cmd", "\n".join(code))
