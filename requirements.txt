@@ -12,3 +12,5 @@ pysmb~=1.2.6
 
 six~=1.15.0
 filetype~=1.0.7
+
+python-magic~=0.4.18
