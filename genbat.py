@@ -74,7 +74,7 @@ def str_lbl_generator(size=6, chars="qwertyuiopasdfghjklzxcvbnm1234567890"):
 def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890"):
 	return ''.join(secrets.choice(chars) for _ in range(size))
 
-def str_str_generator(size=6, chars=" qwertyuiopasdfghjklzxcvbnm 1234567890 "):
+def str_str_generator(size=6, chars=" Aqwertyuiopasdfghjklzxcvbnm 1234567890 "):
 	y = ''
 	for x in range(0, random.randint(1, 4)):
 		y += ''.join(secrets.choice(chars) for _ in range(size))
