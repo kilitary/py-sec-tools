@@ -60,11 +60,14 @@ class Reassember(object):
 
 	def assemble_code(self) -> str:
 		code = ''
-		for command in self.command_pipeline:
-			code += str(command).strip() + "\n"
+		pipeline = sorted(self.command_pipeline, key=lambda command: command.offset)
+
+		for command in pipeline:
+			code += str(command).strip() + f"\n"
 		return code.strip()
 
 	def push_command(self, command) -> int:
+		command.offset = self.offset
 		self.command_pipeline.append(command)
 		self.offset += 1
 
@@ -135,11 +138,6 @@ if __name__ == '__main__':
 	offset = 0
 	reassember = Reassember("mut.cmd")
 	max = max_operands = random.randint(5, 11)
-
-	deb(f'prefill ({max})...')
-
-	for x in range(0, max):
-		reassember.push_command(Command(Operand.REM, str_str_generator(size=10)))
 
 	num_gotos = random.randint(5, max)
 	names = open('names.txt', 'r').read().split("\n")
