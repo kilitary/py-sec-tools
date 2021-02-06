@@ -71,7 +71,7 @@ def write(filename, code):
 def str_lbl_generator(size=6, chars="qwertyuiopasdfghjklzxcvbnm1234567890"):
 	return secrets.choice(names)  # + "_" + (''.join(secrets.choice(chars) for _ in range(size)))
 
-def str_id_generator(size=6, chars="qwertyuiopasdfghjklzxcvbnm1234567890"):
+def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890"):
 	return ''.join(secrets.choice(chars) for _ in range(size))
 
 def str_str_generator(size=6, chars=" qwertyuiopasdfghjklzxcvbnm 1234567890 "):
