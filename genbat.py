@@ -30,10 +30,10 @@ code = ''
 gotos = []
 names = []
 ip_offset = 0
-
 ip_debug = False
 
 class Operand(Enum):
+	LABEL = auto()
 	SET = auto()
 	SETV = auto()
 	COLOR = auto()
@@ -41,9 +41,31 @@ class Operand(Enum):
 	TITLE = auto()
 	ECHO = auto()
 	REM = auto()
+	EXIT = auto()
+
+class Reassember(object):
+	command_pipeline = []
+	code = ''
+	offset = 0
+
+	def __init__(self):
+		pass
+
+	def get_code(self) -> str:
+		code = ''
+		for command in self.command_pipeline:
+			code += str(command) + "\n"
+		return code
+
+	def push_command(self, command) -> int:
+		self.command_pipeline.append(command)
+		self.offset += 1
+		return offset
 
 class Command(object):
 	operands = {
+		Operand.LABEL: ":",
+		Operand.EXIT : "EXIT",
 		Operand.REM  : "REM",
 		Operand.ECHO : "ECHO",
 		Operand.TITLE: "TITLE",
@@ -53,28 +75,29 @@ class Command(object):
 		Operand.GOTO : "GOTO"
 	}
 
-	def __init__(self, operand, param):
+	def __init__(self, operand, param=None):
 		self.operand = operand
 		self.param = param
 		self.offset = 0
 
 	def __str__(self):
-		command = operands[self.operand] + " " + self.param
+		param = self.param if self.param is not None else ''
+		command = self.operands[self.operand] + " " + param
 		return command
 
-def write(filename, code):
+def write(filename, code) -> None:
 	with open(filename, "w") as file:
 		file.write("@ECHO ===========================================================\n")
 		ret = file.write(code)
 		print(f'\r\nwritten {ret} bytes to {filename}\r\n')
 
-def str_lbl_generator(size=6, chars="qwertyuiopasdfghjklzxcvbnm1234567890"):
+def str_lbl_generator(size=6, chars="qwertyuiopasdfghjklzxcvbnm1234567890") -> str:
 	return secrets.choice(names)  # + "_" + (''.join(secrets.choice(chars) for _ in range(size)))
 
-def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890"):
+def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890") -> str:
 	return ''.join(secrets.choice(chars) for _ in range(size))
 
-def str_str_generator(size=6, chars=" Aqwertyuiopasdfghjklzxcvbnm 1234567890 "):
+def str_str_generator(size=6, chars=" Aqwertyuiopasdfghjklzxcvbnm 1234567890 ") -> str:
 	y = ''
 	for x in range(0, random.randint(1, 4)):
 		y += ''.join(secrets.choice(chars) for _ in range(size))
@@ -103,42 +126,44 @@ def pushcmd(cmd, random_offset=False, offset=0) -> int:
 
 	return offset
 
-def pullout():
+def pullout() -> None:
 	global code
 	code = commands
 
-def junk(num=1):
+def junk(num=1) -> int:
 	offset = 0
 
 	for x in range(num):
 		choose = secrets.choice([1, 2, 3, 4, 5])
 
 		if choose == 1:
-			offset = pushcmd(f"ECHO {str_id_generator(size=5)}")
+			reassember.push_command(Command(Operand.ECHO, str_id_generator(size=5)))
 		if choose == 2:
-			offset = pushcmd(f"TITLE {str_id_generator(size=11)}")
+			reassember.push_command(Command(Operand.TITLE, str_id_generator(size=11)))
 		if choose == 3:
-			offset = pushcmd(f"REM {str_str_generator(size=10)}")
+			reassember.push_command(Command(Operand.REM, str_str_generator(size=10)))
 		if choose == 4:
-			offset = pushcmd(f"SET {secrets.choice(names)}=\"{str_str_generator(size=10)}\"")
+			reassember.push_command(Command(Operand.SET, f"{secrets.choice(names)}=\"{str_str_generator(size=10)}\""))
 		if choose == 5:
-			offset = pushcmd(f"SET {secrets.choice(names)}[{random.randint(0, 500)}]=\"{str_str_generator(size=10)}\"")
+			reassember.push_command(Command(Operand.SETV, f"{secrets.choice(names)}[{random.randint(0, 500)}]=\"{str_str_generator(size=10)}\""))
 
 	return offset
 
 if __name__ == '__main__':
 	# max = random.randint(6, 33)
+	offset = 0
+	reassember = Reassember()
 	max = max_operands = random.randint(5, 11)
 	print(f'prefill ({max})...')
 	for x in range(0, max):
-		pushcmd(f'REM {str_str_generator(size=8)}')
+		reassember.push_command(Command(Operand.REM, str_str_generator(size=10)))
 
 	num_gotos = random.randint(5, max)
 	names = open('names.txt', 'r').read().split("\n")
 
 	ii = ['\\', '|', '/', '-']
 	numIi = 0
-	offset = 0
+
 	for step in range(0, max_operands - 1):
 		if max >= 100000:
 			numIi += 1
@@ -149,23 +174,21 @@ if __name__ == '__main__':
 
 		# print(f'offset: {offset}')
 
-		offset = junk(2)
-
+		junk(2)
 		lab = str_lbl_generator(size=4)
-		pushcmd("GOTO :" + lab, random_offset=True)
+		reassember.push_command(Command(Operand.GOTO, ":" + lab))
 
-		offset = junk(2)
-
-		pushcmd(f":{lab}", offset=offset + 1)
+		junk(2)
+		reassember.push_command(Command(Operand.LABEL, lab))
 
 		if step == max - 2:
-			pushcmd('EXIT')
+			reassember.push_command(Command(Operand.EXIT))
 
 	pullout()
 
 	for index, line in enumerate(code):
 		print(f'{index:08} {line}')
 
-	print(f"\ncode: {len(commands)} commands")
+	print(f"{reassember.get_code()}")
 
-	write("mut.cmd", "\n".join(code))
+	write("mut.cmd", reassember.get_code())
