@@ -137,7 +137,7 @@ def str_str_generator(size=6, chars=" Aqwertyuiopasdfghjklzxcvbnm 1234567890 ") 
 		y += ''.join(secrets.choice(chars) for _ in range(size)).strip()
 	return y.strip()
 
-def junk(min=0, max=2) -> None:
+def add_junk(min=0, max=2) -> None:
 	for x in range(min, max):
 		choose = secrets.choice([1, 2, 3, 4, 5])
 
@@ -175,16 +175,12 @@ if __name__ == '__main__':
 
 		# deb(f'offset: {offset}')
 
-		junk(min=1, max=2)
+		add_junk(min=1, max=2)
 		lab = str_lbl_generator()
 		reassember.push_command(Command(Operand.GOTO, ":" + lab, offset=ip_offset))
 
-		junk(min=1, max=2)
-		if len(reassember.command_pipeline) >= 3:
-			randomize = True
-		else:
-			randomize = False
-		reassember.push_command(Command(Operand.LABEL, ":" + lab), randomize_offset=randomize)
+		add_junk(min=1, max=2)
+		reassember.push_command(Command(Operand.LABEL, ":" + lab), randomize_offset=True)
 
 		if step == max - 2:
 			reassember.push_command(Command(Operand.EXIT))
