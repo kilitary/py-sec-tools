@@ -104,5 +104,5 @@ rule suspect
     	description = "suspectious"
 
     condition:
-        invalid_checksum and import_create_remote_thread
+        upx and import_create_remote_thread
 }

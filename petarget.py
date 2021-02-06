@@ -204,7 +204,7 @@ if __name__ == '__main__':
     # yara.set_config(max_strings_per_rule=50000, stack_size=4 * 1024 * 1024)
     # yara.set_config(max_match_data=1024)
 
-    pgreen(f'[{os.getcwd()}] loading rules ...')
+    pblack(f'[{os.getcwd()}] loading rules ...')
     rules = []
     try:
         rules = yara.compile('petarget.rules', error_on_warning=False)
@@ -215,14 +215,14 @@ if __name__ == '__main__':
         sys.exit(-1)
 
     for rule in rules:
-        pgreen(f'rule {rule.identifier}: ' + rule.meta.get("description", "<none>") + " (private=" + str(rule.is_private) + ")"+ " (global=" + str(rule.is_global) + ")")
+        pblack(f'rule {rule.identifier}: ' + rule.meta.get("description", "<none>") + " (private=" + str(rule.is_private) + ")"+ " (global=" + str(rule.is_global) + ")")
 
     pblack(f'collecting files from {DIR}...')
     current_year = int(time.localtime().tm_year)
     files = list_files_recursive(DIR)
     ii = ['\\', '|', '/', '-', '*']
     numIi = 0
-    pgreen(f'scanning {len(files)} files ...')
+    pblack(f'scanning {len(files)} files ...')
     st_time = time.time()
     for file in files:
         try:
