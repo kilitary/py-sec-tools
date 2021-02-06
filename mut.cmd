@@ -1,24 +1,112 @@
-TITLE Vevay_yoton9
-GOTO :Wren_bepz
-GOTO :Ivonne_ex1y
-TITLE Mary_309xlk
-REM ipoffset 3 2/7
-:Ivonne_ex1y
-GOTO :Teena_1xbq
-REM Dee_zdz2yf
-REM ipoffset 7 5/7
-:Teena_1xbq
-ECHO Willy_wffpag
-REM ipoffset 2 1/7
-:Wren_bepz
-GOTO :Naomi_imz3
-TITLE Teresita_wpstwu
-GOTO :Maritsa_pq8d
-:Maritsa_pq8d
-REM ipoffset 10 4/7
-:Naomi_imz3
-GOTO :Alta_qrsq
-ECHO Vivianna_u5lvbe
-REM ipoffset 10 3/7
-:Alta_qrsq
-REM ipoffset 1 0/7
+ECHO Gerianna_aly84f
+ECHO Anna_8wvceh
+ECHO Debor_tag5nf
+ECHO Gaylene_415jnw
+ECHO Melva_qdlm5b
+ECHO Wandis_7dcgrz
+TITLE Bridget_kgxskf
+TITLE Bess_16act7
+TITLE Maisey_howlqp
+ECHO Meaghan_pfnz1m
+REM Nicoli_5v3l1t
+:Lorianna_zjh3
+REM Nana_j5gx56
+TITLE Eolande_cjroy1
+REM Bea_sz5w0e
+ECHO Grethel_4p1pre
+ECHO Caprice_l352de
+REM Ferdinanda_h3mcsq
+REM Joly_3d8fv6
+REM Pru_q0zhxg
+REM Heidi_teqc6w
+ECHO Chandal_re4d1v
+REM Faythe_adrgpq
+REM Rois_qjk653
+REM Francisca_78cnjo
+GOTO :Adeline_hrme
+GOTO :Farand_qq0n
+TITLE Opaline_cv2cme
+TITLE Irma_ny621x
+ECHO Berry_hcl4km
+REM Ella_l74mhu
+REM Dacy_zsumz9
+TITLE Opalina_9mhf6p
+TITLE Nelly_9kj3w3
+TITLE Gwyn_etaotu
+:Farand_qq0n
+TITLE Di_did0ks
+REM Cathyleen_4uquug
+TITLE Berrie_lqfw6y
+ECHO Marne_a2gzq7
+GOTO :Hildy_h0i8
+GOTO :Lorianna_zjh3
+REM Tamra_v4vh05
+REM Sibelle_260efx
+TITLE Maxi_n1rjn7
+ECHO Janeczka_cfgoed
+REM _qh1mpy
+:Adeline_hrme
+ECHO Thekla_jj8lhx
+TITLE Nancee_epbnul
+ECHO Crista_58svuh
+TITLE Claudelle_wksjb1
+:Daffy_c8o9
+TITLE Ollie_ztapz5
+TITLE Xaviera_uz0owh
+TITLE Dulcine_og8oy8
+REM Leila_e2u3x6
+TITLE Dorisa_g36ovr
+TITLE Davita_x4x2pf
+:Anastasia_lfuj
+TITLE Allx_ofpbb7
+ECHO Shelba_bz69au
+TITLE Latrina_7a6ck8
+TITLE Kirbee_z4l4k4
+REM Nerty_0mvwco
+ECHO Sileas_etf1st
+:Hildy_h0i8
+REM Leisha_x9wxaf
+REM Maxi_t1svkx
+:Kara-Lynn_m1dj
+TITLE Janie_w29rae
+REM Deloris_4g1ky0
+TITLE Cacilie_9rrd68
+TITLE Jeanne_a8mlav
+ECHO Bunni_0l2o4o
+REM Mirabel_6fj5tm
+:Emilee_sg8y
+REM Tildi_f61wsk
+REM Elsey_o599sk
+ECHO Anabella_2hxe44
+TITLE Verile_ovt9v9
+TITLE Sadye_u17o73
+TITLE Riki_l7arr3
+REM Liane_hdy8gf
+REM Athene_psm4hl
+GOTO :Daffy_c8o9
+ECHO Karen_pyvs93
+ECHO Lulu_zimeix
+ECHO Piper_w7n858
+TITLE Fifi_oyp6ln
+ECHO Sally_gzvw8m
+ECHO Dulcy_q59ze1
+REM Bianca_iauymf
+TITLE Adda_3v04oc
+TITLE Charmine_b6bf8l
+REM Peri_13zj3f
+REM Christian_rdznhq
+REM Elie_5x6u9e
+GOTO :Anastasia_lfuj
+REM Elsi_k0943t
+REM Estele_9rq3go
+TITLE Laryssa_w1u7ck
+GOTO :Kara-Lynn_m1dj
+TITLE Codee_5ljjdp
+TITLE Samantha_tehpin
+TITLE Jaquenette_khkrek
+GOTO :Emilee_sg8y
+ECHO Melonie_76qc9r
+REM Cristen_5wxx24
+ECHO Berget_bikm8f
+ECHO Caresa_7q9w5u
+TITLE Rubi_s7bhn1

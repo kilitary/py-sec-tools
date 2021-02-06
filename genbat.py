@@ -21,6 +21,8 @@ import sys, traceback
 import magic
 import random
 from enum import Enum, auto
+import string
+import secrets
 
 pipe = ''
 commands = []
@@ -40,7 +42,7 @@ def write(filename, code):
 		print(f'\r\nwritten {ret} bytes to {filename}\r\n')
 
 def str_id_generator(size=6, chars="qwertyuiopasdfghjklzxcvbnm1234567890"):
-	return random.choice(names) + "_" + (''.join(random.choice(chars) for _ in range(size)))
+	return secrets.choice(names) + "_" + (''.join(secrets.choice(chars) for _ in range(size)))
 
 def pushcmd(cmd, random_offset=False, offset=0) -> int:
 	_index = 0
@@ -60,7 +62,6 @@ def pushcmd(cmd, random_offset=False, offset=0) -> int:
 		commands.append(cmd)
 		offset = len(commands)
 		print(f'seqntl push: added  [{cmd}] @ {offset}')
-	#print(f'size after: {len(commands)}')
 
 	return offset
 
@@ -68,8 +69,20 @@ def pullout():
 	global code
 	code = commands
 
+def junk(num=1):
+	for x in range(0, num):
+		choose = random.choice([1, 2, 3])
+
+		if choose == 1:
+			offset = pushcmd(f"ECHO {str_id_generator()}", random_offset=True)
+		if choose == 2:
+			offset = pushcmd(f"TITLE {str_id_generator()}", random_offset=True)
+		if choose == 3:
+			offset = pushcmd(f"REM {str_id_generator()}", random_offset=True)
+	return offset
+
 if __name__ == '__main__':
-	max = random.randint(6, 8)
+	max = random.randint(6, 11)
 	num_gotos = random.randint(5, max)
 	names = open('names.txt', 'r').read().split("\n")
 
@@ -85,19 +98,16 @@ if __name__ == '__main__':
 			print(f'\r[{step / max:.0f}%] mutating code ... {currentSym}', end='')
 
 		print(f'offset: {offset}')
-		choose = random.choice([1, 2, 3])
 
-		if choose == 1:
-			offset = pushcmd(f"ECHO {str_id_generator()}", offset=offset + 1)
-		if choose == 2:
-			offset = pushcmd(f"TITLE {str_id_generator()}", offset=offset + 1)
-		if choose == 3:
-			offset = pushcmd(f"REM {str_id_generator()}", offset=offset + 1)
+		offset = junk(4)
 
-		offset = pushcmd(f"REM ipoffset {offset} {step}/{max}", offset=offset + 1)
+		# offset = pushcmd(f"REM ipoffset {offset} {step}/{max}")
 
 		lab = str_id_generator(size=4)
 		offset = pushcmd("GOTO :" + lab, random_offset=True)
+
+		offset = junk(8)
+
 		pushcmd(f":{lab}", offset=offset + 1)
 
 		if step == max - 1:
