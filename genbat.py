@@ -31,7 +31,7 @@ code = ''
 gotos = []
 names = []
 ip_offset = 0
-ip_debug = False
+IP_DEBUG = False
 
 class Operand(Enum):
 	LABEL = auto()
@@ -88,7 +88,7 @@ class Reassember(object):
 		self.command_pipeline.append(command)
 		self.offset += 1
 
-		if ip_debug:
+		if IP_DEBUG:
 			deb(f'{self.offset:04d} {command} ({len(reassember)})')
 			var_dump(self.command_pipeline)
 

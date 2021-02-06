@@ -1,30 +1,22 @@
 @ECHO ===========================================================
-SET Rosaleen[113]="5g5rdwe35b"
-:Arleen
-GOTO :Arleen
-:Nixie
-:Prudi
-REM o4afc5tx37
-REM sujv19em2x
-:Arlen
-GOTO :Nixie
-REM t5dmfojcwou3opblt2q
-REM eoceq
-GOTO :Prudi
-REM ardfis7huh
-:Beverie
-SET Andria="gpo Ayqx4rvyt4c7by kwd r wugma"
-GOTO :Arlen
-REM 8t  fg5p3o
-:Mable
-TITLE iApbk0va
-:Maighdiln
-GOTO :Maighdiln
-REM k4iyy5zpu02z 5
-ECHO rsiq8
-GOTO :Beverie
-TITLE 65cyw3th
-ECHO vcphe
-GOTO :Mable
-TITLE 0oawt7kn
+ECHO v567r
+:Gabriella
+GOTO :Mareah
+ECHO hyAAj
+:Mareah
+:Leeann
+:Alis
+SET Farra[424]="A8m953y856mkg2mh7fc9zfawdb 5"
+GOTO :Atlante
+:Atlante
+SET Corny[276]="x0va qa49ddjup5k0ft08ynly 3kw7"
+SET Minetta[474]="rsqrp7glk"
+GOTO :Alis
+TITLE z50A9oe9
+REM ud8va
+GOTO :Gabriella
+SET Gwendolen[160]="s j61p8zl"
+REM bzwfarv80kjuaeAt4b2q
+GOTO :Leeann
+REM 157xh6Axq
 EXIT
