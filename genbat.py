@@ -58,21 +58,39 @@ class Reassember(object):
 	def save(self) -> None:
 		self.write(self.filename, self.assemble_code())
 
+	def sort(self) -> None:
+		self.command_pipeline = sorted(self.command_pipeline, key=lambda command: command.offset)
+
 	def assemble_code(self) -> str:
 		code = ''
-		pipeline = sorted(self.command_pipeline, key=lambda command: command.offset)
 
-		for command in pipeline:
+		self.sort()
+
+		for command in self.command_pipeline:
 			code += str(command).strip() + f"\n"
+
 		return code.strip()
 
-	def push_command(self, command) -> int:
-		command.offset = self.offset
+	def get_operand_at(self, offset):
+		for command in self.command_pipeline:
+			if command.offset == offset:
+				return command.operand
+		else:
+			return None
+
+	def push_command(self, command, randomize_offset=False) -> int:
+		if randomize_offset:
+			command.offset = random.randint(0, len(self.command_pipeline) - 1)
+			olog(f"push {command} @ {command.offset} ({self.get_operand_at(command.offset)})")
+			ip_offset = command.offset
+		else:
+			command.offset = self.offset
 		self.command_pipeline.append(command)
 		self.offset += 1
 
 		if ip_debug:
-			deb(f'{self.offset:08d} {command} ({len(reassember)})')
+			deb(f'{self.offset:04d} {command} ({len(reassember)})')
+			var_dump(self.command_pipeline)
 
 		return self.offset
 
@@ -95,15 +113,17 @@ class Command(object):
 		Operand.GOTO : "GOTO"
 	}
 
-	def __init__(self, operand, param=None):
+	def __init__(self, operand, param=None, offset=0):
 		self.operand = operand
 		self.param = param
-		self.offset = 0
+		self.offset = offset
 
 	def __str__(self):
 		param = self.param if self.param is not None else ''
 		command = self.operands[self.operand] + " " + param
 		return command
+
+##################################################################################################################################
 
 def str_lbl_generator() -> str:
 	return secrets.choice(names)  # + "_" + (''.join(secrets.choice(chars) for _ in range(size)))
@@ -157,10 +177,14 @@ if __name__ == '__main__':
 
 		junk(min=1, max=2)
 		lab = str_lbl_generator()
-		reassember.push_command(Command(Operand.GOTO, ":" + lab))
+		reassember.push_command(Command(Operand.GOTO, ":" + lab, offset=ip_offset))
 
 		junk(min=1, max=2)
-		reassember.push_command(Command(Operand.LABEL, ":" + lab))
+		if len(reassember.command_pipeline) >= 3:
+			randomize = True
+		else:
+			randomize = False
+		reassember.push_command(Command(Operand.LABEL, ":" + lab), randomize_offset=randomize)
 
 		if step == max - 2:
 			reassember.push_command(Command(Operand.EXIT))

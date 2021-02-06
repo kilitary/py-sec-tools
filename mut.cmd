@@ -1,42 +1,30 @@
 @ECHO ===========================================================
-ECHO bhahr
-GOTO :Ivory
-REM 0rmkfivi2dvAxp 066
-:Ivory
-REM g2la145avn57umt
-GOTO :Alvera
-TITLE za3pA1pk
-:Alvera
-TITLE kz3p4qnn
-GOTO :Heda
-REM 6epzdggbjg3vkumAaegg
-:Heda
-SET Issi[316]="jwtv4r72ue"
-GOTO :Jamima
-SET Pegeen="jbe15yy0jx8 k4 fA6ak"
-:Jamima
-REM te 97ht61t
-GOTO :Corliss
-SET Katie[145]="wiewxdbvg7"
-:Corliss
-REM vtklh6joAfkchz
-GOTO :Abbe
-SET Mariann[274]="osdq03 8ra81dzwnj321qkwfAht q1"
-:Abbe
-SET Christen[436]="kbw757Axuh9o5wserzhs"
-GOTO :Elie
-TITLE 42s2mqpi
-:Elie
-SET Hedi[80]="pgdvop bmqvjak prunproc 3kdhr36v2fnu0"
-GOTO :Danell
-SET Tootsie[391]="ceA2c8c4jaku0vpr3AAhva4vxj2t"
-:Danell
-TITLE 654ptg0j
-GOTO :Ladonna
-ECHO kke1m
-:Ladonna
-TITLE twAr0ero
-GOTO :Nerte
-TITLE bbAb0gt3
-:Nerte
+SET Rosaleen[113]="5g5rdwe35b"
+:Arleen
+GOTO :Arleen
+:Nixie
+:Prudi
+REM o4afc5tx37
+REM sujv19em2x
+:Arlen
+GOTO :Nixie
+REM t5dmfojcwou3opblt2q
+REM eoceq
+GOTO :Prudi
+REM ardfis7huh
+:Beverie
+SET Andria="gpo Ayqx4rvyt4c7by kwd r wugma"
+GOTO :Arlen
+REM 8t  fg5p3o
+:Mable
+TITLE iApbk0va
+:Maighdiln
+GOTO :Maighdiln
+REM k4iyy5zpu02z 5
+ECHO rsiq8
+GOTO :Beverie
+TITLE 65cyw3th
+ECHO vcphe
+GOTO :Mable
+TITLE 0oawt7kn
 EXIT
