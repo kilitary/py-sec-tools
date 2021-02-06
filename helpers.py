@@ -54,6 +54,7 @@ if Config.IS_RELEASE:
 else:
 	def deb(msg, end='\n'):
 		print(msg, end=end)
+		flog(msg)
 		sys.stdout.flush()
 		sys.stderr.flush()
 
