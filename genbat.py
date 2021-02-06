@@ -35,8 +35,32 @@ ip_debug = False
 
 class Operand(Enum):
 	SET = auto()
+	SETV = auto()
 	COLOR = auto()
 	GOTO = auto()
+	TITLE = auto()
+	ECHO = auto()
+	REM = auto()
+
+class Command(object):
+	operands = {
+		Operand.REM  : "REM",
+		Operand.ECHO : "ECHO",
+		Operand.TITLE: "TITLE",
+		Operand.SET  : "SET",
+		Operand.SETV : "SET",
+		Operand.COLOR: "COLOR",
+		Operand.GOTO : "GOTO"
+	}
+
+	def __init__(self, operand, param):
+		self.operand = operand
+		self.param = param
+		self.offset = 0
+
+	def __str__(self):
+		command = operands[self.operand] + " " + self.param
+		return command
 
 def write(filename, code):
 	with open(filename, "w") as file:
@@ -86,7 +110,7 @@ def pullout():
 def junk(num=1):
 	offset = 0
 
-	for x in range(0, num):
+	for x in range(num):
 		choose = secrets.choice([1, 2, 3, 4, 5])
 
 		if choose == 1:
@@ -94,7 +118,7 @@ def junk(num=1):
 		if choose == 2:
 			offset = pushcmd(f"TITLE {str_id_generator(size=11)}")
 		if choose == 3:
-			offset = pushcmd(f"REM {str_id_generator(size=5)}")
+			offset = pushcmd(f"REM {str_str_generator(size=10)}")
 		if choose == 4:
 			offset = pushcmd(f"SET {secrets.choice(names)}=\"{str_str_generator(size=10)}\"")
 		if choose == 5:
