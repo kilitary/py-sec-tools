@@ -60,7 +60,7 @@ if __name__ == '__main__':
     for x in range(0, random.randint(3, 8)):
         label = gotos[random.randint(0, len(gotos) - 1)]
         pushcmd("goto :" + label, random_offset=True)
-        pushcmd(f"echo {str_id_generator()}", random_offset=True)
+        pushcmd(f"echo {str_id_generator()}", random_offset=False)
 
     pullout()
     print(f"=> code ({len(cmds)} commands):\r\n\r\n{code}")
