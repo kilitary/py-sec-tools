@@ -107,7 +107,7 @@ if __name__ == '__main__':
 	max = max_operands = random.randint(5, 11)
 	print(f'prefill ({max})...')
 	for x in range(0, max):
-		pushcmd(f'REM {str_str_generator(size=5)}')
+		pushcmd(f'REM {str_str_generator(size=6)}')
 
 	num_gotos = random.randint(5, max)
 	names = open('names.txt', 'r').read().split("\n")
