@@ -30,7 +30,7 @@ commands = []
 code = ''
 gotos = []
 names = []
-ip_offset = 0
+
 IP_DEBUG = False
 
 class Operand(Enum):
@@ -44,10 +44,11 @@ class Operand(Enum):
 	REM = auto()
 	EXIT = auto()
 
-class Reassember(object):
+class Assember(object):
 	command_pipeline = []
 	code = ''
 	offset = 0
+	ip_offset = 0
 
 	def __init__(self, filename):
 		self.filename = filename
@@ -55,13 +56,30 @@ class Reassember(object):
 	def __len__(self):
 		return len(self.command_pipeline)
 
+	def add_junk(self, min=0, max=2) -> None:
+		for x in range(min, max):
+			choose = secrets.choice([1, 2, 3, 4, 5])
+
+			if choose == 1:
+				self.push_command(Command(Operand.ECHO, Randomer.str_id_generator(size=5)))
+			elif choose == 2:
+				self.push_command(Command(Operand.TITLE, Randomer.str_id_generator(size=8)))
+			elif choose == 3:
+				self.push_command(Command(Operand.REM, Randomer.str_str_generator(size=5)))
+			elif choose == 4:
+				self.push_command(Command(Operand.SET, f"{secrets.choice(names)}=\"{Randomer.str_str_generator(size=10)}\""))
+			elif choose == 5:
+				self.push_command(Command(Operand.SETV, f"{secrets.choice(names)}[{random.randint(0, 500)}]=\"{Randomer.str_str_generator(size=10)}\""))
+
+		return
+
 	def save(self) -> None:
-		self.write(self.filename, self.assemble_code())
+		self.write(self.filename, self.get_code())
 
 	def sort(self) -> None:
 		self.command_pipeline = sorted(self.command_pipeline, key=lambda command: command.offset)
 
-	def assemble_code(self) -> str:
+	def get_code(self) -> str:
 		code = ''
 
 		self.sort()
@@ -71,7 +89,7 @@ class Reassember(object):
 
 		return code.strip()
 
-	def get_operand_at(self, offset):
+	def get_operand_at(self, offset) -> Operand:
 		for command in self.command_pipeline:
 			if command.offset == offset:
 				return command.operand
@@ -89,7 +107,7 @@ class Reassember(object):
 		self.offset += 1
 
 		if IP_DEBUG:
-			deb(f'{self.offset:04d} {command} ({len(reassember)})')
+			deb(f'{self.offset:04d} {command} ({len(assember)})')
 			var_dump(self.command_pipeline)
 
 		return self.offset
@@ -123,44 +141,32 @@ class Command(object):
 		command = self.operands[self.operand] + " " + param
 		return command
 
-##################################################################################################################################
+class Randomer(object):
+	def __init__(self):
+		pass
 
-def str_lbl_generator() -> str:
-	return secrets.choice(names)  # + "_" + (''.join(secrets.choice(chars) for _ in range(size)))
+	@staticmethod
+	def str_lbl_generator() -> str:
+		return secrets.choice(names)  # + "_" + (''.join(secrets.choice(chars) for _ in range(size)))
 
-def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890") -> str:
-	return ''.join(secrets.choice(chars) for _ in range(size)).strip()
+	@staticmethod
+	def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890") -> str:
+		return ''.join(secrets.choice(chars) for _ in range(size)).strip()
 
-def str_str_generator(size=6, chars=" Aqwertyuiopasdfghjklzxcvbnm 1234567890 ") -> str:
-	y = ''
-	for x in range(0, random.randint(1, 4)):
-		y += ''.join(secrets.choice(chars) for _ in range(size)).strip()
-	return y.strip()
-
-def add_junk(min=0, max=2) -> None:
-	for x in range(min, max):
-		choose = secrets.choice([1, 2, 3, 4, 5])
-
-		if choose == 1:
-			reassember.push_command(Command(Operand.ECHO, str_id_generator(size=5)))
-		elif choose == 2:
-			reassember.push_command(Command(Operand.TITLE, str_id_generator(size=8)))
-		elif choose == 3:
-			reassember.push_command(Command(Operand.REM, str_str_generator(size=5)))
-		elif choose == 4:
-			reassember.push_command(Command(Operand.SET, f"{secrets.choice(names)}=\"{str_str_generator(size=10)}\""))
-		elif choose == 5:
-			reassember.push_command(Command(Operand.SETV, f"{secrets.choice(names)}[{random.randint(0, 500)}]=\"{str_str_generator(size=10)}\""))
-
-	return
+	@staticmethod
+	def str_str_generator(size=6, chars=" Aqwertyuiopasdfghjklzxcvbnm 1234567890 ") -> str:
+		y = ''
+		for x in range(0, random.randint(1, 4)):
+			y += ''.join(secrets.choice(chars) for _ in range(size)).strip()
+		return y.strip()
 
 if __name__ == '__main__':
 	offset = 0
-	reassember = Reassember("mut.cmd")
+	assember = Assember("mut.cmd")
 	max = max_operands = random.randint(5, 11)
 
 	num_gotos = random.randint(5, max)
-	names = open('names.txt', 'r').read().split("\n")
+	names = open('names.txt', 'r').read().lower().split("\n")
 
 	ii = ['\\', '|', '/', '-']
 	numIi = 0
@@ -175,16 +181,15 @@ if __name__ == '__main__':
 
 		# deb(f'offset: {offset}')
 
-		add_junk(min=1, max=2)
-		lab = str_lbl_generator()
-		reassember.push_command(Command(Operand.GOTO, ":" + lab, offset=ip_offset))
-
-		add_junk(min=1, max=2)
-		reassember.push_command(Command(Operand.LABEL, ":" + lab), randomize_offset=True)
+		assember.add_junk(min=1, max=2)
+		lab = Randomer.str_lbl_generator()
+		assember.push_command(Command(Operand.GOTO, ":" + lab))
+		assember.add_junk(min=1, max=2)
+		assember.push_command(Command(Operand.LABEL, ":" + lab))
 
 		if step == max - 2:
-			reassember.push_command(Command(Operand.EXIT))
+			assember.push_command(Command(Operand.EXIT))
 
-	deb(f"{reassember.assemble_code()}")
+	deb(f"{assember.get_code()}")
 
-	reassember.save()
+	assember.save()
