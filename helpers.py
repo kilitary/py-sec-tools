@@ -67,7 +67,7 @@ def server_message(message):
 		sock.sendto(bytes(message, encoding="utf-8"), (Config.UDP_IP, Config.UDP_PORT))
 
 def flog(msg):
-	with open('log.txt', 'at') as file:
+	with open('log.txt', 'at', errors='ignore') as file:
 		file.write(msg + '\r\n')
 
 def combinations(iterable, r):
