@@ -31,6 +31,7 @@ class Assember(object):
 	code = ''
 	offset = 0
 	ip_offset = 0
+	filename = ''
 
 	def __init__(self, filename):
 		self.filename = filename
@@ -102,7 +103,7 @@ class Assember(object):
 		with open(filename, "w") as file:
 			file.write("@ECHO ===========================================================\n")
 			ret = file.write(code)
-			deb(f'\r\nwritten {ret} bytes to {filename}\r\n')
+			deb(f'\nwritten {ret} bytes to {filename}\r\n')
 
 class Command(object):
 	operands = {
@@ -130,7 +131,7 @@ class Command(object):
 if __name__ == '__main__':
 	offset = 0
 	assember = Assember("mut.cmd")
-	max = max_operands = random.randint(4, 16)
+	max = max_operands = random.randint(4, 16111)
 
 	num_gotos = random.randint(5, max)
 
@@ -138,7 +139,7 @@ if __name__ == '__main__':
 	numIi = 0
 
 	for step in range(0, max_operands - 1):
-		if max >= 100000:
+		if max >= 1611:
 			numIi += 1
 			if numIi >= len(ii):
 				numIi = 0
