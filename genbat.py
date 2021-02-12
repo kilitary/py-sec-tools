@@ -1,9 +1,7 @@
 import random
 import secrets
 from enum import Enum, auto
-
 from var_dump import var_dump
-
 from helpers import deb
 from outputdebugstring import olog
 from randomer import Randomer
@@ -12,8 +10,7 @@ pipe = ''
 commands = []
 code = ''
 gotos = []
-
-IP_DEBUG = False
+ip_debug = False
 
 class Operand(Enum):
 	LABEL = auto()
@@ -93,7 +90,7 @@ class Assember(object):
 		self.command_pipeline.append(command)
 		self.offset += 1
 
-		if IP_DEBUG:
+		if ip_debug:
 			deb(f'{self.offset:04d} {command} ({len(assember)})')
 			var_dump(self.command_pipeline)
 
@@ -131,7 +128,7 @@ class Command(object):
 if __name__ == '__main__':
 	offset = 0
 	assember = Assember("mut.cmd")
-	max = max_operands = random.randint(4, 16111)
+	max = max_operands = random.randint(4, 11)
 
 	num_gotos = random.randint(5, max)
 

