@@ -57,7 +57,7 @@ class Assember(object):
 		return
 
 	def save(self) -> None:
-		#var_dump(self.command_pipeline)
+		# var_dump(self.command_pipeline)
 		self.write(self.filename, self.get_code())
 
 	def sort(self) -> None:
@@ -66,10 +66,16 @@ class Assember(object):
 	def get_code(self) -> str:
 		code = ''
 
+		deb(f'\r\nsorting code according to order ...')
 		self.sort()
 
+		deb(f'\r\njoining code ...')
+		step = 0
+		num = len(self.command_pipeline)
 		for command in self.command_pipeline:
 			code += str(command).strip() + f"\n"
+			step += 1
+			deb(f'\rjoining code ... {step / num * 100.0:.2f}% (line {step}/{num}, {len(code)} bytes)', end='')
 
 		return code.strip()
 
@@ -84,7 +90,7 @@ class Assember(object):
 		if offset == -1:
 			max = self.num_commands() - 1 if self.num_commands() - 1 > 0 else 0
 			command.offset = random.randint(0, max)
-			#deb(f"push {command} @ {command.offset} ({self.get_operand_at(command.offset)})")
+		# deb(f"push {command} @ {command.offset} ({self.get_operand_at(command.offset)})")
 		else:
 			command.offset = offset if offset else self.offset + 1
 
@@ -129,7 +135,7 @@ class Command(object):
 if __name__ == '__main__':
 	offset = 0
 	assember = Assember("mut.cmd")
-	max = max_operands = random.randint(4, 11)
+	max = max_operands = random.randint(4, 11111)
 
 	num_gotos = random.randint(1, max)
 
@@ -137,7 +143,7 @@ if __name__ == '__main__':
 	numIi = 0
 	ip = 0
 
-	#for ng in range(num_gotos):
+	# for ng in range(num_gotos):
 	#	assember.junk(min=1, max=4)
 
 	for step in range(0, max_operands - 1):
@@ -146,16 +152,14 @@ if __name__ == '__main__':
 			if numIi >= len(ii):
 				numIi = 0
 			currentSym = ii[numIi]
-			deb(f'\r[{step / max:.0f}%] mutating code ... {currentSym}', end='')
+			deb(f'\r[{step / max * 100.0:.0f}%] mutating code ... {currentSym}', end='')
 
 		# deb(f'offset: {offset}')
 
-		# assember.junk(min=1, max=0)
-		# print(f'new ip: {ip}')
+		assember.junk(min=1, max=14)
 		label = Randomer.str_generator()
 		ip = assember.push_command(Command(Operand.GOTO, ":" + label), offset=-1)
-		# assember.junk(min=1, max=0)
-		# print(f'new ip: {ip}')
+		assember.junk(min=1, max=14)
 		ip = assember.push_command(Command(Operand.LABEL, ":" + label))
 
 		if step == max - 2:
