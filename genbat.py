@@ -8,9 +8,10 @@ from randomer import Randomer
 
 pipe = ''
 commands = []
-code = ''
+_code = ''
 gotos = []
 ip_debug = False
+ii = ['\\', '|', '/', '-']
 
 class Operand(Enum):
 	LABEL = auto()
@@ -24,9 +25,9 @@ class Operand(Enum):
 	EXIT = auto()
 
 class Assember(object):
-	command_pipeline = []
-	code = ''
-	offset = 0
+	_command_pipeline = []
+	_code = None
+	_offset = 0
 	ip_offset = 0
 	filename = ''
 
@@ -34,10 +35,10 @@ class Assember(object):
 		self.filename = filename
 
 	def __len__(self):
-		return len(self.command_pipeline)
+		return len(self._command_pipeline)
 
 	def __getitem__(self, i):
-		return self.command_pipeline[i]
+		return self._command_pipeline[i]
 
 	def junk(self, min=0, max=2) -> None:
 		for x in range(min, max):
@@ -57,30 +58,38 @@ class Assember(object):
 		return
 
 	def save(self) -> None:
-		# var_dump(self.command_pipeline)
+		# var_dump(self._command_pipeline)
 		self.write(self.filename, self.get_code())
 
 	def sort(self) -> None:
-		self.command_pipeline = sorted(self.command_pipeline, key=lambda command: command.offset)
+		self._command_pipeline = sorted(self._command_pipeline, key=lambda command: command.offset)
 
 	def get_code(self) -> str:
-		code = ''
+		if self._code is None:
+			deb(f'\r\nsorting code according to offset order ...')
+			self.sort()
 
-		deb(f'\r\nsorting code according to order ...')
-		self.sort()
+			step = 0
+			code = ''
+			num = len(self._command_pipeline)
+			numIi = 0
 
-		deb(f'\r\njoining code ...')
-		step = 0
-		num = len(self.command_pipeline)
-		for command in self.command_pipeline:
-			code += str(command).strip() + f"\n"
-			step += 1
-			deb(f'\rjoining code ... {step / num * 100.0:.2f}% (line {step}/{num}, {len(code)} bytes)', end='')
+			for command in self._command_pipeline:
+				code += str(command).strip() + f"\n"
+				step += 1
 
-		return code.strip()
+				numIi += 1
+				if numIi >= len(ii):
+					numIi = 0
+				currentSym = ii[numIi]
+
+				deb(f'\rjoining code ... {step / num * 100.0:.1f}% (line {step} of {num}, {len(code)} bytes) {currentSym}', end='')
+
+			self._code = code.strip()
+		return self._code
 
 	def get_operand_at(self, offset):
-		rec = [x for x in self.command_pipeline if x.offset == offset]
+		rec = [x for x in self._command_pipeline if x.offset == offset]
 		return rec[0].operand if len(rec) > 0 else None
 
 	def num_commands(self) -> int:
@@ -92,16 +101,16 @@ class Assember(object):
 			command.offset = random.randint(0, max)
 		# deb(f"push {command} @ {command.offset} ({self.get_operand_at(command.offset)})")
 		else:
-			command.offset = offset if offset else self.offset + 1
+			command.offset = offset if offset else self._offset + 1
 
-		self.command_pipeline.append(command)
-		self.offset = command.offset
+		self._command_pipeline.append(command)
+		self._offset = command.offset
 
 		if ip_debug:
-			deb(f'{self.offset:04d} {command} ({len(assember)})')
-			var_dump(self.command_pipeline)
+			deb(f'{self._offset:04d} {command} ({len(assember)})')
+			var_dump(self._command_pipeline)
 
-		return self.offset
+		return self._offset
 
 	def write(self, filename: str, code: str) -> None:
 		with open(filename, "w") as file:
@@ -135,11 +144,10 @@ class Command(object):
 if __name__ == '__main__':
 	offset = 0
 	assember = Assember("mut.cmd")
-	max = max_operands = random.randint(4, 11111)
+	max = max_operands = random.randint(11111, 21111)
 
 	num_gotos = random.randint(1, max)
 
-	ii = ['\\', '|', '/', '-']
 	numIi = 0
 	ip = 0
 
@@ -156,10 +164,10 @@ if __name__ == '__main__':
 
 		# deb(f'offset: {offset}')
 
-		assember.junk(min=1, max=14)
+		assember.junk(min=1, max=34)
 		label = Randomer.str_generator()
 		ip = assember.push_command(Command(Operand.GOTO, ":" + label), offset=-1)
-		assember.junk(min=1, max=14)
+		assember.junk(min=1, max=34)
 		ip = assember.push_command(Command(Operand.LABEL, ":" + label))
 
 		if step == max - 2:
