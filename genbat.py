@@ -45,15 +45,15 @@ class Assember(object):
 			choose = secrets.choice([1, 2, 3, 4, 5])
 
 			if choose == 1:
-				self.push_command(Command(Operand.ECHO, Randomer.str_id_generator(size=5)))
+				self.push_command(Command(Operand.ECHO, Randomer.str_id_generator(size=random.randint(0, 250))))
 			elif choose == 2:
-				self.push_command(Command(Operand.TITLE, Randomer.str_id_generator(size=8)))
+				self.push_command(Command(Operand.TITLE, Randomer.str_id_generator(size=random.randint(0, 200))))
 			elif choose == 3:
-				self.push_command(Command(Operand.REM, Randomer.str_str_generator(size=5)))
+				self.push_command(Command(Operand.REM, Randomer.str_str_generator(size=random.randint(0, 250))))
 			elif choose == 4:
-				self.push_command(Command(Operand.SET, f"{Randomer.rnd_name()}=\"{Randomer.str_str_generator(size=10)}\""))
+				self.push_command(Command(Operand.SET, f"{Randomer.rnd_name()}=\"{Randomer.str_str_generator(size=random.randint(0, 250))}\""))
 			elif choose == 5:
-				self.push_command(Command(Operand.SETV, f"{Randomer.rnd_name()}[{random.randint(0, 2500)}]=\"{Randomer.str_str_generator(size=10)}\""))
+				self.push_command(Command(Operand.SETV, f"{Randomer.rnd_name()}[{random.randint(0, 250)}]=\"{Randomer.str_str_generator(size=random.randint(0, 250))}\""))
 
 		return
 
@@ -144,7 +144,7 @@ class Command(object):
 if __name__ == '__main__':
 	offset = 0
 	assember = Assember("mut.cmd")
-	max = max_operands = random.randint(11111, 21111)
+	max = max_operands = random.randint(111, 111111)
 
 	num_gotos = random.randint(1, max)
 
@@ -155,19 +155,19 @@ if __name__ == '__main__':
 	#	assember.junk(min=1, max=4)
 
 	for step in range(0, max_operands - 1):
-		if max >= 1611:
+		if max >= 111:
 			numIi += 1
 			if numIi >= len(ii):
 				numIi = 0
 			currentSym = ii[numIi]
-			deb(f'\r[{step / max * 100.0:.0f}%] mutating code ... {currentSym}', end='')
+			deb(f'\r[{step / max * 100.0:.0f}%] generating code ... {currentSym}', end='')
 
 		# deb(f'offset: {offset}')
 
-		assember.junk(min=1, max=34)
+		assember.junk(min=11, max=34)
 		label = Randomer.str_generator()
 		ip = assember.push_command(Command(Operand.GOTO, ":" + label), offset=-1)
-		assember.junk(min=1, max=34)
+		assember.junk(min=11, max=34)
 		ip = assember.push_command(Command(Operand.LABEL, ":" + label))
 
 		if step == max - 2:
