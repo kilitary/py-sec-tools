@@ -6,7 +6,7 @@ from torpy.utils import recv_all
 from torpy.http.requests import do_request
 
 hostname = 'kilitary.ru'  # It's possible use onion hostname here as well
-logging.basicConfig(format="%(asctime)s [%(levelname)s] [%(thread)d] %(filename)s(%(funcName)s:%(lineno)d) - %(message)s", level=logging.WARNING)
+logging.basicConfig(format="%(asctime)s [%(levelname)s] [%(thread)d] %(filename)s(%(funcName)s:%(lineno)d) - %(message)s", level=logging.INFO)
 
 if __name__ == '__main__':
 	while True:

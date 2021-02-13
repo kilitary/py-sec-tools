@@ -13,7 +13,7 @@ import win32api
 import wmi
 import psutil
 from crawler_config import Config
-
+from outputdebugstring import olog
 config = configparser.ConfigParser()
 
 def get_extensions():

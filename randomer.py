@@ -4,12 +4,11 @@ import random
 names = []
 
 class Randomer(object):
-
 	def __init__(self):
 		pass
 
 	@staticmethod
-	def str_lbl_generator() -> str:
+	def str_generator() -> str:
 		global names
 		if len(names) == 0:
 			names = open('names.txt', 'r').read().lower().split("\n")

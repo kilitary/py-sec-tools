@@ -10,6 +10,7 @@ buffer2 = \
 	b"\x05\x2F\x24\x0A\x00\x48\x8D\x05\x78\x7C\x04\x00\x33\xFF"
 
 # Create the decoder and initialize RIP
+
 decoder = Decoder(EXAMPLE_CODE_BITNESS, buffer)
 formatter = Formatter(FormatterSyntax.MASM)
 for instr in decoder:

@@ -53,7 +53,7 @@ private rule is_pe
 }
 
 
-private rule invalid_checksum
+rule invalid_checksum
 {
 	meta:
     	description = "invalid checksum"
@@ -98,7 +98,7 @@ private rule import_create_remote_thread
         pe.imports("KERnel32.dll", "CreateRemoteThread") or pe.imports("Kernel32.dll", "CreateRemoteThreadEx")
 }
 
-rule suspect
+private rule suspect
 {
 	meta:
     	description = "suspectious"
