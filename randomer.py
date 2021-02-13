@@ -12,7 +12,7 @@ class Randomer(object):
 		global names
 		if len(names) == 0:
 			names = open('names.txt', 'r').read().lower().split("\n")
-		return secrets.choice(names)  # + "_" + (''.join(secrets.choice(chars) for _ in range(size)))
+		return secrets.choice(names) + "_" + (''.join(secrets.choice('1234567890') for _ in range(4)))
 
 	@staticmethod
 	def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890") -> str:

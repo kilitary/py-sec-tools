@@ -21,7 +21,7 @@ private rule uac
 		all of them
 }
 
-rule upx
+private rule upx
 {
 	meta:
 		description = "upx packer"
@@ -88,7 +88,14 @@ private rule does_not_have_authenticode_signs
 	condition:
 		pe.number_of_signatures == 0 and is_pe
 }
+private rule KeyboardClassServiceCallback
+{
+	meta:
+		description = "KeyboardClassServiceCallback"
 
+	condition:
+        pe.imports("KERnel32.dll", "CreateRemoteThread") or pe.imports("Kernel32.dll", "CreateRemoteThreadEx")
+}
 private rule import_create_remote_thread
 {
 	meta:

@@ -144,7 +144,7 @@ class Command(object):
 if __name__ == '__main__':
 	offset = 0
 	assember = Assember("mut.cmd")
-	max = max_operands = random.randint(111, 111111)
+	max = max_operands = random.randint(111, 11111)
 
 	num_gotos = random.randint(1, max)
 
@@ -160,7 +160,7 @@ if __name__ == '__main__':
 			if numIi >= len(ii):
 				numIi = 0
 			currentSym = ii[numIi]
-			deb(f'\r[{step / max * 100.0:.0f}%] generating code ... {currentSym}', end='')
+			deb(f'\rgenerating code ... {step / max * 100.0:.0f}% {currentSym}', end='')
 
 		# deb(f'offset: {offset}')
 

@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="genbat" type="PythonConfigurationType" factoryName="Python" activateToolWindowBeforeRun="false">
+  <configuration default="false" name="genbat" type="PythonConfigurationType" factoryName="Python">
     <log_file alias="jhjm" path="$PROJECT_DIR$/log.txt" skipped="false" />
     <module name="petarget" />
     <option name="INTERPRETER_OPTIONS" value="" />
