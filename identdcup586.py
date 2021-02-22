@@ -14,7 +14,9 @@ def fprint(msg):
 		log.write(msg)
 
 def string_allocator(size):
-	# buf[0] = create_string_buffer(size)
+	fprint(f"alloc {size}")
+	if size <= 4:
+		size = 4
 	pBuf = ctypes.create_string_buffer(size)
 	return pBuf
 
@@ -42,7 +44,7 @@ try:
 
 	while True:
 		print()
-		fprint(f'listenng on 113 ({total_buf_size} bytes lost,  {windll.kernel32},  {windll.gdi32},  {windll.user32},  {windll.msvcrt}) ')
+		fprint(f'listenng on 113 ({total_buf_size:.0f} bytes lost,  {windll.kernel32},  {windll.gdi32},  {windll.user32},  {windll.msvcrt}) ')
 
 		try:
 			connection.close()
@@ -52,8 +54,6 @@ try:
 		connection, client_address = sock.accept()
 
 		fprint(f'accepted client: {client_address}, connection = {connection}')
-		buf_size = random.randint(19, 256)
-		total_buf_size += buf_size
 
 		buffer = []
 		while True:
@@ -62,7 +62,11 @@ try:
 				break
 			buffer.append(byte)
 
+		buf_size = len(buffer) / random.randint(19, 256)
+		total_buf_size += buf_size
+
 		pX = string_allocator(buf_size)
+		fprint(f"px={[pX]} in {buf_size} bytes (versus {len(buffer)} buffer)")
 		buffer = b''.join(buffer).decode('utf-8', errors='ignore')
 
 		fprint(f'unclean input ({len(buffer)} bytes): [{buffer}] pX@{pX}')

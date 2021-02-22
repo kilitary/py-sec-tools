@@ -22,8 +22,9 @@ if __name__ == '__main__':
 				try:
 					# Choose random guard node and create 3-hops circuit
 					while num_circuit == prev_num_circuit:
-						pred(f'random wants {prev_num_circuit} again')
-						num_circuit = random.randint(2, 11)
+						num_circuit = random.randint(2, 9)
+						if num_circuit == prev_num_circuit:
+							pred(f'random wants {num_circuit} again')
 					prev_num_circuit = num_circuit
 
 					pblack(f'creating {num_circuit} nodes circuit ... ')
