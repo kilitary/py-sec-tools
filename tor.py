@@ -39,8 +39,9 @@ if __name__ == '__main__':
 							stream.send(bytes(payload, encoding='utf-8'))
 							pblack('receiving ... ', send='')
 							recv = recv_all(stream)
-							pblack(f'{len(recv)} bytes \r\n\r\n{recv.decode()[:4096]}')
-							if str(recv).count("bye=ok"):
+							buf = str(recv.decode(errors="ignore")[:4096])
+							pblack(f'{len(recv)} bytes \r\n\r\n{buf}')
+							if buf.count("bye=ok"):
 								pgreen('\n\rpye&bye check done\r\n')
 							else:
 								pred('no pay&bye service\r\n')
@@ -50,4 +51,5 @@ if __name__ == '__main__':
 				except Exception as e:
 					pred(f"circuit: {e}")
 		except Exception as e:
-			pred(f'TorClient: {e}')
+			type, value, traceback = sys.exc_info()
+			pred(f'TorClient: {e}: {value}:{traceback}')
