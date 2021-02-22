@@ -20,7 +20,6 @@ from outputdebugstring import olog
 import sys, traceback
 import magic
 import yara
-
 DIR = "c:\\"
 processed = 0
 
@@ -139,32 +138,11 @@ def pblack(text):
 	flog(text)
 	olog(text)
 
-def run_fast_scandir(current_dir, ext):  # dir: str, ext: list
-	subfolders, current_files = [], []
-
-	try:
-		for f in os.scandir(current_dir):
-			if f.is_dir():
-				subfolders.append(f.path)
-			if f.is_file():
-				if os.path.splitext(f.name)[1].lower() in ext:
-					current_files.append(f.path)
-
-		for current_dir in list(subfolders):
-			sf, f = run_fast_scandir(current_dir, ext)
-			subfolders.extend(sf)
-			current_files.extend(f)
-	except OSError as internal_err:
-		pblack("Catched OS error: {0}".format(internal_err))
-
-	return subfolders, current_files
-
 def list_files_recursive(path):
 	"""
 	Function that receives as a parameter a directory path
 	:return list_: File List and Its Absolute Paths
 	"""
-
 	import os
 
 	current_files = []
@@ -188,7 +166,7 @@ def suitable(name):
 	goods = ['exe', 'sys', 'dll']
 	name = name.lower()
 	for good in goods:
-		if 'winsxs' in name or "rollup" in name:
+		if 'winsxs' in name or "rollup" in name or "dotnet" in name:
 			return False
 		if name.endswith(good):
 			return True
@@ -250,25 +228,29 @@ if __name__ == '__main__':
 			pblack(f"\r=> [{file}]" + ('=' * 50))
 
 			m = magic.Magic(keep_going=True, uncompress=True)
-			pblack(f'type: {m.from_file(file)}')
+			pgray(f'type: {m.from_file(file)}')
 
 			for match in matches:
-				pgreen(f'sign <{match}>')
+				pred(f'sign <{match}>')
 
-			# try:
-			# 	pe = pefile.PE(file, fast_load=True)
-			# except Exception as err:
-			# 	pred(f"\nPE: {err}")
-			# 	continue
+			try:
+				pe = pefile.PE(file, fast_load=True)
+			except Exception as err:
+				pred(f"\nPE: {err}")
+				continue
 			#
-			# if hex(pe.OPTIONAL_HEADER.Magic) == '0x10b':
-			# 	pblack("32-bit binary")
-			# elif hex(pe.OPTIONAL_HEADER.Magic) == '0x20b':
-			# 	pblack("64-bit binary")
+			if hex(pe.OPTIONAL_HEADER.Magic) == '0x10b':
+				pgray("32-bit binary")
+			elif hex(pe.OPTIONAL_HEADER.Magic) == '0x20b':
+				pgray("64-bit binary")
 			#
-			# pblack("Magic : " + hex(pe.OPTIONAL_HEADER.Magic) + " " + "Machine: " + hex(pe.FILE_HEADER.Machine) +
-			#        " TimeDateStamp : " + pe.FILE_HEADER.dump_dict()['TimeDateStamp']['Value'].split('[')[1][:-1])
-			#
+			pgray("Magic : " + hex(pe.OPTIONAL_HEADER.Magic) + " " + "Machine: " + hex(pe.FILE_HEADER.Machine) +
+			       " TimeDateStamp : " + pe.FILE_HEADER.dump_dict()['TimeDateStamp']['Value'].split('[')[1][:-1])
+
+			# pe_data = gather_file_info_win(file)
+			# timestamp = datetime.fromtimestamp(pe_data['TimeDateStamp'])
+			# pgray(f'alternate time: {timestamp.strftime("%Y-%m-%d %H:%M:%S")}')
+
 			# pblack("NumberOfSections : " + hex(pe.FILE_HEADER.NumberOfSections) + " (" + str(pe.FILE_HEADER.NumberOfSections) + ") " +
 			#        "Characteristics flags : " + hex(pe.FILE_HEADER.Characteristics))
 			# pblack("ImageBase : " + hex(pe.OPTIONAL_HEADER.ImageBase) +

@@ -142,16 +142,15 @@ def main():
 		return
 
 	ifs = net_if_addrs()
-	scan_networks = []
+	scan_networks = [sys.argv[1], sys.argv[1]]
 	# var_dump(ifs, '-----')
-	for iface in ifs:
-		if ifs[iface][1].family == AF_INET:
-			scan_networks.append(ifs[iface][1].address)
-	var_dump(scan_networks)
+	# for iface in ifs:
+	# 	if ifs[iface][1].family == AF_INET:
+	# 		scan_networks.append(ifs[iface][1].address)
+	# var_dump(scan_networks)
 	# deb(f'Beginning scanning %d IP addresses [{sys.argv[1]} - ] ... {(end_ip - start_ip + 1)}')
 
 	for network in scan_networks:
-		network = '192.168.0.1'
 		deb(f'scanning network {network} ... ', end='')
 
 		starting = re.sub(r'^(\d+\.\d+\.\d+)\.\d+?$', r'\1.1', network, 0, re.DOTALL)

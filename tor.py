@@ -1,37 +1,52 @@
 import random
 import logging
-
+from helpers import pgreen, pred, pgray, pblue, pblack, get_computer_uid
 from torpy import TorClient
 from torpy.utils import recv_all
 from torpy.http.requests import do_request
+from randomer import Randomer
+from urllib import parse
+import sys
+
+pgreen(f'def encoding: {sys.getdefaultencoding()}')
 
 hostname = 'kilitary.ru'  # It's possible use onion hostname here as well
-logging.basicConfig(format="%(asctime)s [%(levelname)s] [%(thread)d] %(filename)s(%(funcName)s:%(lineno)d) - %(message)s", level=logging.INFO)
+logging.basicConfig(format="%(asctime)s [%(levelname)s] [%(thread)d] %(filename)s(%(funcName)s:%(lineno)d) - %(message)s", level=logging.WARNING)
 
 if __name__ == '__main__':
 	while True:
+		prev_num_circuit = num_circuit = 0
 		try:
 			with TorClient() as tor:
-				print('tor client (re)created')
+				pblack('tor client (re)created')
 				try:
 					# Choose random guard node and create 3-hops circuit
-					num_circuit = random.randint(2, 9)
-					print(f'creating {num_circuit} nodes circuit ... ', end='')
+					while num_circuit == prev_num_circuit:
+						pred(f'random wants {prev_num_circuit} again')
+						num_circuit = random.randint(2, 11)
+					prev_num_circuit = num_circuit
+
+					pblack(f'creating {num_circuit} nodes circuit ... ')
 					with tor.create_circuit(num_circuit) as circuit:
-						print(f'OK')
+						pgreen(f'OK')
 						# Create tor stream to host
-						print(f'connecting to {hostname} ... ', end='')
+						pblack(f'connecting to {hostname} ... ', send='')
 						with circuit.create_stream((hostname, 80)) as stream:
-							print('OK')
-							# Now we can communicate with host
-							stream.send(b'GET / HTTP/1.0\r\nHost: %s\r\n\r\n' % hostname.encode())
-							print('receiving ... ', end='')
+							pgreen('OK')
+							payload = 'GET /?ray=' + Randomer.str_id_generator() + f' HTTP/1.1\r\nUser-Agent: natural nature\r\nConnection: close\r\nHost: {hostname}\r\n\r\n'
+							pgreen(f'playload:\n{payload}')
+							stream.send(bytes(payload, encoding='utf-8'))
+							pblack('receiving ... ', send='')
 							recv = recv_all(stream)
-							print(f'{len(recv)} bytes \r\n\r\n{recv.decode()[:4096]}')
-					data = do_request('http://kilitary.ru?pay=' + str(random.randint(0, 99999999)) + f"&push='routers:{num_circuit}'",
-					                  headers={'User-Agent': 'Mozilla/6.0', 'X-use': 'ddos'}, verbose=1, retries=3)
-					print(f'data {data[0:14096]}')
+							pblack(f'{len(recv)} bytes \r\n\r\n{recv.decode()[:4096]}')
+							if str(recv).count("bye=ok"):
+								pgreen('\n\rpye&bye check done\r\n')
+							else:
+								pred('no pay&bye service\r\n')
+							data = do_request('http://kilitary.ru?zay=' + str(random.randint(0, 99999999)) + parse.quote(f"&push='routers:{num_circuit}/{get_computer_uid()}/{Randomer.str_str_generator()}'"),
+							                  headers={'User-Agent': 'Mozilla/111.0', 'X-use': 'ddos'}, verbose=1, retries=3)
+							pblack(f'data {data[0:14096]}')
 				except Exception as e:
-					print(f"circuit: {e}")
+					pred(f"circuit: {e}")
 		except Exception as e:
-			print(f'TorClient: {e}')
+			pred(f'TorClient: {e}')

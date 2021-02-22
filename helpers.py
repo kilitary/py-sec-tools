@@ -14,6 +14,7 @@ import wmi
 import psutil
 from crawler_config import Config
 from outputdebugstring import olog
+
 config = configparser.ConfigParser()
 
 def get_extensions():
@@ -76,6 +77,29 @@ def combinations(iterable, r):
 	for indices in itertools.permutations(range(n), r):
 		if sorted(indices) == list(indices):
 			yield tuple(pool[i] for i in indices)
+
+def pred(text):
+	print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(255, 0, 0, text))
+	olog(text)
+	flog(text)
+
+def pgray(text):
+	print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(11, 110, 0, text))
+	flog(text)
+
+def pgreen(text, send='\n'):
+	print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(11, 110, 110, text), end=send)
+	olog(text)
+	flog(text)
+
+def pblue(text):
+	print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(111, 210, 110, text))
+	flog(text)
+
+def pblack(text, send='\n'):
+	print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(21, 25, 244, text), end=send)
+	flog(text)
+	olog(text)
 
 def set_priority(increase=False):
 	if increase:
