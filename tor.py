@@ -11,7 +11,7 @@ import sys
 pgreen(f'def encoding: {sys.getdefaultencoding()}')
 
 hostname = 'kilitary.ru'  # It's possible use onion hostname here as well
-logging.basicConfig(format="%(asctime)s [%(levelname)s] [%(thread)d] %(filename)s(%(funcName)s:%(lineno)d) - %(message)s", level=logging.WARNING)
+logging.basicConfig(format="%(asctime)s [%(levelname)s] [%(thread)d] %(filename)s(%(funcName)s:%(lineno)d) - %(message)s", level=logging.INFO)
 
 if __name__ == '__main__':
 	while True:
@@ -22,7 +22,7 @@ if __name__ == '__main__':
 				try:
 					# Choose random guard node and create 3-hops circuit
 					while num_circuit == prev_num_circuit:
-						num_circuit = random.randint(2, 9)
+						num_circuit = random.randint(2, 6)
 						if num_circuit == prev_num_circuit:
 							pred(f'random wants {num_circuit} again')
 					prev_num_circuit = num_circuit

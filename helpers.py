@@ -65,7 +65,10 @@ def exception(e, marker=''):
 
 def server_message(message):
 	with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
-		sock.sendto(bytes(message, encoding="utf-8"), (Config.UDP_IP, Config.UDP_PORT))
+		try:
+			sock.sendto(bytes(message, encoding="utf-8"), (Config.UDP_IP, Config.UDP_PORT))
+		except Exception as e:
+			deb(f'server_message: {e}')
 
 def flog(msg):
 	with open('log.txt', 'at', errors='ignore') as file:

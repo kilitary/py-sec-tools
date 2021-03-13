@@ -62,7 +62,7 @@ private rule invalid_checksum
         pe.checksum != pe.calculate_checksum()
 }
 
- rule invalid_date
+private rule invalid_date
 {
 	meta:
     	description = "invalid date"
@@ -80,7 +80,7 @@ private rule invalid_resource_date
       pe.resource_timestamp < 631188601 or pe.resource_timestamp >= time.now()
 }
 
- rule does_not_have_authenticode_signs
+private rule does_not_have_authenticode_signs
 {
 	meta:
 		description = "does not have authenticode signs"
@@ -109,16 +109,20 @@ private rule import_create_remote_thread
         pe.imports("kernel32.dll", "CreateRemoteThread") or pe.imports("kernel32.dll", "CreateRemoteThreadEx")
 }
 
-private rule uses_create_remote_thread
+ rule uses_create_remote_thread
 {
 	meta:
 		description = "remote thread api hidden"
 	strings:
-		$a = "CreateRemoteThreadEx" xor wide
-		$b = "CreateRemoteThreadEx" xor ascii
+		$a0 = "CreateRemoteThreadEx" xor wide
+		$a2 = "AdjustPrivilegeToken" xor ascii
+		$a3 = "EnumeratesProcesses" xor ascii
+		$a4 = "WriteProcessMemory" xor ascii
+		$a5 = "SetThreadContext" xor ascii
 
 	condition:
-        (not pe.imports("kernel32.dll", "CreateRemoteThread") and not pe.imports("kernel32.dll", "CreateRemoteThreadEx")) and ($a or $b)
+	//(not pe.imports("kernel32.dll", "CreateRemoteThread") and not pe.imports("kernel32.dll", "CreateRemoteThreadEx")) and
+        all of them
 }
 
 private rule SetWindowsHook
