@@ -1,3 +1,3 @@
 # petarget
 
-learnin pytho
+learnin pytho using pay&bye techniQue
