@@ -1,0 +1,9 @@
+rule _PE_Protector_V2_60_hying_s_PE_Armor_V0_460_modify___Engprog__Sign_By_fly_ddbucp
+{
+	meta:
+		description = "PE_Protector V2_60__hying_s PE_Armor V0_460 modify__ __ Engprog _ Sign_By_fly"
+	strings:
+		$a = {555351525657E8E1000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

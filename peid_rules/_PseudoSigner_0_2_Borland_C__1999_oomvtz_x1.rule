@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_2_Borland_C__1999_oomvtz
+{
+	meta:
+		description = "_ PseudoSigner 0_2 _Borland C__ 1999"
+	strings:
+		$a = {EB1066623A432B2B484F4F4B90E990909090A1????????A3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

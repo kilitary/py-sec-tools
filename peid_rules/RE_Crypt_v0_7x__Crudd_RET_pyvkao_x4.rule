@@ -1,0 +1,9 @@
+rule _RE_Crypt_v0_7x__Crudd_RET_pyvkao
+{
+	meta:
+		description = "RE_Crypt v0_7x __ Crudd _RET"
+	strings:
+		$a = {60E8000000005D81EDE71A4000E8A1000000E8D1000000E885010000F785}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

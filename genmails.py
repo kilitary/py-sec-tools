@@ -22,19 +22,26 @@ if __name__ == '__main__':
 	parser.add_argument('num', type=int, help='num of emails')
 
 	args = parser.parse_args()
+ 
 	with open(args.names, "rt") as inp:
 		names = inp.readlines()
 
 	random.shuffle(names)
+ 
 	for num_email in range(0, args.num):
 		rnd_index = random.randint(0, len(names) - 1)
+  
 		flname = str(names[rnd_index:rnd_index + 1][0]).strip()
 		prefix = ''
+  
 		if random.choice([True, False]):
 			prefix = f"{str_id_generator(size=random.randint(0, 4))}"
+   
 		postfix = ''
+  
 		if random.choice([True, False]):
 			postfix = f"{str_id_generator(size=random.randint(0, 4))}"
+   
 		email = str(prefix + f'{flname}' + postfix + "@gmail.com").lower().strip()
 		print(email)
 		add_email(email)

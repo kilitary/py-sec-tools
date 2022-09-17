@@ -1,0 +1,9 @@
+rule _ID_Application_Protector_V1_2__ID_Security_Suite__Sign_by_fly_mvwesz
+{
+	meta:
+		description = "ID Application Protector V1_2 __ ID Security Suite _ Sign by fly"
+	strings:
+		$a = {558BEC83C4EC53565733C08945ECB8703B0010E83CFAFFFF33C055686C3C001064FF306489206A0A687C3C0010A15056001050E8D8FAFFFF8BD853A15056001050E80AFBFFFF8BF853A15056001050E8D4FAFFFF8B}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

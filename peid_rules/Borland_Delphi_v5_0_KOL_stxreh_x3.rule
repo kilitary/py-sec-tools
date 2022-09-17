@@ -1,0 +1,9 @@
+rule _Borland_Delphi_v5_0_KOL_stxreh
+{
+	meta:
+		description = "Borland Delphi v5_0 KOL"
+	strings:
+		$a = {558BEC83C4F0B8????4000E8????FFFFA1??72400033D2E8????FFFFA1??7240008B0083C014E8????FFFFE8????FFFF}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

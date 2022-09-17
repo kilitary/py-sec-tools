@@ -1,0 +1,9 @@
+rule _nBinder_v4_0_svpczc
+{
+	meta:
+		description = "nBinder v4_0"
+	strings:
+		$a = {5C6E6D725F74656D702E6E6D720000007262000058C7410010F84100110100000000000046E1000046E1000035000000F6884100}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

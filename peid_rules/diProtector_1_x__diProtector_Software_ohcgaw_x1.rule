@@ -1,0 +1,9 @@
+rule _diProtector_1_x__diProtector_Software_ohcgaw
+{
+	meta:
+		description = "diProtector 1_x __ diProtector Software"
+	strings:
+		$a = {0100A0E3140000EB000020E044109FE5032AA0E34030A0E3AE0000EB30008FE50020A0E13A0E8FE2000080E21C109FE520308FE20E0000EB14009FE514109FE57F20A0E3C50000EB04C08FE200F09CE5}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

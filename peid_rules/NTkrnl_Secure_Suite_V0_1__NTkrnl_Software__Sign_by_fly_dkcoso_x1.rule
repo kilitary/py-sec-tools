@@ -1,0 +1,9 @@
+rule _NTkrnl_Secure_Suite_V0_1__NTkrnl_Software__Sign_by_fly_dkcoso
+{
+	meta:
+		description = "NTkrnl Secure Suite V0_1 __ NTkrnl Software _ Sign by fly"
+	strings:
+		$a = {00000000000000000000000034100000281000000000000000000000000000000000000000000000????????????????000000004B65726E656C33322E646C6C0000004C6F61644C69627261727941000000476574}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

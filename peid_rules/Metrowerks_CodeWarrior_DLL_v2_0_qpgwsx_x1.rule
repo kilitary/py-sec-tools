@@ -1,0 +1,9 @@
+rule _Metrowerks_CodeWarrior_DLL_v2_0_qpgwsx
+{
+	meta:
+		description = "Metrowerks CodeWarrior _DLL_ v2_0"
+	strings:
+		$a = {5589E55356578B750C8B5D1083FE01740583FE0275125356FF7508E86EFFFFFF09C0750431C0EB215356FF7508E8????????89C709F6740583FE03750A5356FF7508E847FFFFFF89F88D65F45F5E5B5DC20C00C9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

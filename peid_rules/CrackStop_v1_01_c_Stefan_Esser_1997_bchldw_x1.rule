@@ -1,0 +1,9 @@
+rule _CrackStop_v1_01_c_Stefan_Esser_1997_bchldw
+{
+	meta:
+		description = "CrackStop v1_01 _c_ Stefan Esser 1997"
+	strings:
+		$a = {B448BBFFFFB9EB278BECCD21FAFC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

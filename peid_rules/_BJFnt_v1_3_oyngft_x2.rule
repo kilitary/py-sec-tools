@@ -1,0 +1,9 @@
+rule __BJFnt_v1_3_oyngft
+{
+	meta:
+		description = "_BJFnt v1_3"
+	strings:
+		$a = {EB033A4D3A1EEB02CD209CEB02CD20EB02CD2060}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

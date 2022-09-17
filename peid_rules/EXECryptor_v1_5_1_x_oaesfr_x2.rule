@@ -1,0 +1,9 @@
+rule _EXECryptor_v1_5_1_x_oaesfr
+{
+	meta:
+		description = "EXECryptor v1_5_1_x"
+	strings:
+		$a = {E824??????8B4C240CC70117??01??C781B8??????????????31C08941}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

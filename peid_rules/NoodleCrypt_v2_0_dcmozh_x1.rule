@@ -1,0 +1,9 @@
+rule _NoodleCrypt_v2_0_dcmozh
+{
+	meta:
+		description = "NoodleCrypt v2_0"
+	strings:
+		$a = {EB019AE83D000000EB019AE8EB010000EB019AE82C040000EB01}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

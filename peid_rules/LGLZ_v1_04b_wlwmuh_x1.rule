@@ -1,0 +1,9 @@
+rule _LGLZ_v1_04b_wlwmuh
+{
+	meta:
+		description = "LGLZ v1_04b"
+	strings:
+		$a = {FC1E060E8CC8????????BA????03C28BD805????8EDB8EC033F633FFB9????F3A54B484A79}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

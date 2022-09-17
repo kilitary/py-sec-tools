@@ -1,0 +1,9 @@
+rule _Exe_Shield_vx_x_xtylfb
+{
+	meta:
+		description = "Exe Shield vx_x"
+	strings:
+		$a = {65786573686C2E646C6CC05D00}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

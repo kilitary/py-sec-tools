@@ -1,0 +1,9 @@
+rule _DIET_v1_02b_v1_10a_v1_20_lwxmsb
+{
+	meta:
+		description = "DIET v1_02b_ v1_10a_ v1_20"
+	strings:
+		$a = {BE????BF????B9????3BFC72??B44CCD21FDF3A5FC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

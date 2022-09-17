@@ -1,0 +1,9 @@
+rule _tElock_0_99__1_0_private__tE__rfsbml
+{
+	meta:
+		description = "tElock 0_99 _ 1_0 private __ tE_"
+	strings:
+		$a = {E9????FFFF000000??????????????000000000000000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

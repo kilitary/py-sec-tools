@@ -1,0 +1,9 @@
+rule _ASPack_v1_02b_scpedt
+{
+	meta:
+		description = "ASPack v1_02b"
+	strings:
+		$a = {60E8000000005D81ED8A1C4000B99E0000008DBD4C2340008BF733}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

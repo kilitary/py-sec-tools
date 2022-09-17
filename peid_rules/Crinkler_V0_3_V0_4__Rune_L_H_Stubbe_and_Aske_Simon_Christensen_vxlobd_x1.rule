@@ -1,0 +1,9 @@
+rule _Crinkler_V0_3_V0_4__Rune_L_H_Stubbe_and_Aske_Simon_Christensen_vxlobd
+{
+	meta:
+		description = "Crinkler V0_3_V0_4 __ Rune L_H_Stubbe and Aske Simon Christensen"
+	strings:
+		$a = {B80000420031DB43EB58}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

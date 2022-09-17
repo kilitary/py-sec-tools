@@ -1,0 +1,9 @@
+rule _EncryptPE_V2_2004_6_16_V2_2006_6_30__WFS__Sign_by_fly_cxdsxr
+{
+	meta:
+		description = "EncryptPE V2_2004_6_16_V2_2006_6_30 __ WFS _ Sign by fly"
+	strings:
+		$a = {609C64FF3500000000E879010000000000000000000000000000????????????????0000000000000000000000000000000000000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

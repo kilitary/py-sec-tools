@@ -1,0 +1,9 @@
+rule _Kbys_Packer_0_28_Beta_shoooo314_qbncho
+{
+	meta:
+		description = "Kbys Packer 0_28 Beta__shoooo314"
+	strings:
+		$a = {6885AE0101E801000000C3C3608B7424248B7C2428FCB28033DBA4B302E86D00000073F633C9E864000000731C33C0E85B0000007323B30241B010E84F000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

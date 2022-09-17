@@ -1,0 +1,9 @@
+rule _Unknown_by_SMT_yxnwns
+{
+	meta:
+		description = "Unknown by SMT"
+	strings:
+		$a = {60BE????????8DBE????????83????57EB}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

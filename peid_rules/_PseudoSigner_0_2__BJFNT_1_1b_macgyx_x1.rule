@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_2__BJFNT_1_1b_macgyx
+{
+	meta:
+		description = "_ PseudoSigner 0_2 __BJFNT 1_1b"
+	strings:
+		$a = {EB01EA9CEB01EA53EB01EA51EB01EA52EB01EA5690}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

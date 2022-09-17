@@ -1,0 +1,9 @@
+rule _FSG_v1_10_Eng___bartxt_muikko
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ bartxt"
+	strings:
+		$a = {EB0102EB02CD20B880??4200EB0155BEF400000013DF13D80FB638D1F3F7}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

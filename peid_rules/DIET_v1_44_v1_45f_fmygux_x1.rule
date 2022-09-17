@@ -1,0 +1,9 @@
+rule _DIET_v1_44_v1_45f_fmygux
+{
+	meta:
+		description = "DIET v1_44_ v1_45f"
+	strings:
+		$a = {F89C061E5756525153500EFC8CC8BA????03D052}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

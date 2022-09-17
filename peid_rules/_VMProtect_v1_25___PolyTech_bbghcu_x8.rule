@@ -1,0 +1,9 @@
+rule __VMProtect_v1_25___PolyTech_bbghcu
+{
+	meta:
+		description = "_ VMProtect v1_25 ___ PolyTech"
+	strings:
+		$a = {68????????E8????????8A45008A4D0283ED02D2E8668945049C8F4500E9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

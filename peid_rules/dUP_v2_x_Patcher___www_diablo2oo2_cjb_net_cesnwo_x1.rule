@@ -1,0 +1,9 @@
+rule _dUP_v2_x_Patcher___www_diablo2oo2_cjb_net_cesnwo
+{
+	meta:
+		description = "dUP v2_x Patcher ___ www_diablo2oo2_cjb_net"
+	strings:
+		$a = {546869732070726F6772616D2063616E6E6F742062652072756E20696E20444F53206D6F}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

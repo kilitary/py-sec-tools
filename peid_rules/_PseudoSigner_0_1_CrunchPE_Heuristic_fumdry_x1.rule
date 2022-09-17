@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_1_CrunchPE_Heuristic_fumdry
+{
+	meta:
+		description = "_ PseudoSigner 0_1 _CrunchPE Heuristic"
+	strings:
+		$a = {55E80E0000005D83ED068BC5556089AD????????2B8500000000E9}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,0 +1,9 @@
+rule _PE_Lock_NT_v2_02c_kqpnyf
+{
+	meta:
+		description = "PE Lock NT v2_02c"
+	strings:
+		$a = {EB02C7851EEB03CD20C79CEB0269B160EB02EB01}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,0 +1,9 @@
+rule _Dropper_Creator_V0_1__Conflict_ffjnyz
+{
+	meta:
+		description = "Dropper Creator V0_1 __ Conflict"
+	strings:
+		$a = {60E8000000005D8D05????????29C58D85????????31C064034030780C8B400C8B701CAD8B4008EB09}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

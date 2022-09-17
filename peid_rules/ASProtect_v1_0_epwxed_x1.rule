@@ -1,0 +1,9 @@
+rule _ASProtect_v1_0_epwxed
+{
+	meta:
+		description = "ASProtect v1_0"
+	strings:
+		$a = {60E801??????905D81ED????????BB????????03DD2B9D}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

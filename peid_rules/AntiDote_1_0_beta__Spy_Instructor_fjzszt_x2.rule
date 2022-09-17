@@ -1,0 +1,9 @@
+rule _AntiDote_1_0_beta__Spy_Instructor_fjzszt
+{
+	meta:
+		description = "AntiDote 1_0 beta __ Spy Instructor"
+	strings:
+		$a = {E8BBFFFFFF84C0742F680401000068C02360006A00FF1508106000E840FFFFFF506878116000686811600068C0236000E8ABFDFFFF83C41033C0C210009090908B4C2408568B74240833D28BC6F7F18BC685D27408}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

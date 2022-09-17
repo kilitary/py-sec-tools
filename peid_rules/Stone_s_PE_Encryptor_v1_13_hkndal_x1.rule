@@ -1,0 +1,9 @@
+rule _Stone_s_PE_Encryptor_v1_13_hkndal
+{
+	meta:
+		description = "Stone_s PE Encryptor v1_13"
+	strings:
+		$a = {555756525153E8????????5D8BD581ED973B40??2B952D3C40??83EA0B8995363C40??0195243C40??019528}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

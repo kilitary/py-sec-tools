@@ -1,0 +1,9 @@
+rule _diPacker_1_x__diProtector_Software_zzdpsu
+{
+	meta:
+		description = "diPacker 1_x __ diProtector Software"
+	strings:
+		$a = {0F002DE90100A0E3680100EB8C0000EB2B0000EB000020E01C108FE28E208FE20030A0E3670100EB0F00BDE800C08FE200F09CE5}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

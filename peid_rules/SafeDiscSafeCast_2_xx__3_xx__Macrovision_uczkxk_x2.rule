@@ -1,0 +1,9 @@
+rule _SafeDiscSafeCast_2_xx__3_xx__Macrovision_uczkxk
+{
+	meta:
+		description = "SafeDiscSafeCast 2_xx _ 3_xx __ Macrovision"
+	strings:
+		$a = {558BEC60BB????????33C98A0D3D??????85C9740CB8????????2BC383E805EB0E51B9????????8BC12BC303410159C603E9894301516809??????33C085C974058B4508EB0050E87600000083C4085983F800741C}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

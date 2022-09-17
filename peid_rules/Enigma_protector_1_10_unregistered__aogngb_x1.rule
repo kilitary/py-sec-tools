@@ -1,0 +1,9 @@
+rule _Enigma_protector_1_10_unregistered__aogngb
+{
+	meta:
+		description = "Enigma protector 1_10 _unregistered_"
+	strings:
+		$a = {609C64FF3500000000E81B020000000000000000000000000000????????????????0000000000000000000000000000000000000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

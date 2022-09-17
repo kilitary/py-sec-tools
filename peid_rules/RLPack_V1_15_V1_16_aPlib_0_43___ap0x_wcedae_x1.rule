@@ -1,0 +1,9 @@
+rule _RLPack_V1_15_V1_16_aPlib_0_43___ap0x_wcedae
+{
+	meta:
+		description = "RLPack V1_15_V1_16 _aPlib 0_43_ __ ap0x"
+	strings:
+		$a = {60E8000000008B2C2483C4048DB5????????8D9D????????33FFE845010000EB0FFF743704FF3437FFD383C40883C708833C370075EB}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

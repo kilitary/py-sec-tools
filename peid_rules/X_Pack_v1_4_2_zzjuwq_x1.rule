@@ -1,0 +1,9 @@
+rule _X_Pack_v1_4_2_zzjuwq
+{
+	meta:
+		description = "X_Pack v1_4_2"
+	strings:
+		$a = {72??C38BDE83????C1????8CD803C38ED88BDF83????C1????8CC003C38EC0C3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

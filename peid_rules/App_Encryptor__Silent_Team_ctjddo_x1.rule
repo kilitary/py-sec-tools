@@ -1,0 +1,9 @@
+rule _App_Encryptor__Silent_Team_ctjddo
+{
+	meta:
+		description = "App Encryptor __ Silent Team"
+	strings:
+		$a = {60E8000000005D81ED1F1F4000B97B0900008DBD671F40008BF7AC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

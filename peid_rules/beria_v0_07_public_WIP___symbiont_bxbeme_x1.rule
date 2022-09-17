@@ -1,0 +1,9 @@
+rule _beria_v0_07_public_WIP___symbiont_bxbeme
+{
+	meta:
+		description = "beria v0_07 public WIP ___ symbiont"
+	strings:
+		$a = {83EC18538B1D0030????555657683007000033ED55FFD38BF03BF5740D89AE20070000E8880F0000EB0233F66A105589353040????FFD38BF03BF57409892EE83CFEFFFFEB0233F66A18558935D843????FFD38BF0}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

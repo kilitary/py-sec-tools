@@ -1,0 +1,9 @@
+rule _SimplePack_V1_1X_V1_2X_Method2___bagie_jmidnw
+{
+	meta:
+		description = "SimplePack V1_1X_V1_2X _Method2_ __ bagie"
+	strings:
+		$a = {4D5A90EB010052E9??010000504500004C010200}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

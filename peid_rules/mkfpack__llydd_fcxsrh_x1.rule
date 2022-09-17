@@ -1,0 +1,9 @@
+rule _mkfpack__llydd_fcxsrh
+{
+	meta:
+		description = "mkfpack __ llydd"
+	strings:
+		$a = {E8000000005B81EB050000008B939F080000536A406800100000526A00FF933208}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

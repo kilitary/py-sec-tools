@@ -1,0 +1,9 @@
+rule _PolyCryptor_by_SMT_Version_v3_v4_bkrgsv
+{
+	meta:
+		description = "PolyCryptor by SMT Version _v3__v4"
+	strings:
+		$a = {EB??28506F6C7953637279707420??????20627920534D5429}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

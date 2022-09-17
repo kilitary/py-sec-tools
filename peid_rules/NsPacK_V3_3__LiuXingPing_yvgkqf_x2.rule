@@ -1,0 +1,9 @@
+rule _NsPacK_V3_3__LiuXingPing_yvgkqf
+{
+	meta:
+		description = "NsPacK V3_3 __ LiuXingPing"
+	strings:
+		$a = {9C60BD????????01AD543A40??FFB5503A40??6A40FF95883A40??50502D????????8985}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

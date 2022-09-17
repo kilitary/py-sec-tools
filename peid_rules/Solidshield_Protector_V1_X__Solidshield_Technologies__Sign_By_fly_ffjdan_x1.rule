@@ -1,0 +1,9 @@
+rule _Solidshield_Protector_V1_X__Solidshield_Technologies__Sign_By_fly_ffjdan
+{
+	meta:
+		description = "Solidshield Protector V1_X __ Solidshield Technologies _ Sign_By_fly"
+	strings:
+		$a = {68????????FF35????????C3006089000A00000046330000000000000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

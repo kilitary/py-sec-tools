@@ -1,0 +1,9 @@
+rule _PE_Armor_0_46__China_Cracking_Group_hxabeg
+{
+	meta:
+		description = "PE_Armor 0_46 __ China Cracking Group"
+	strings:
+		$a = {E8AA0000002D????0000000000000000003D????002D????0000000000000000000000000000000000000000004B????005C????006F????00000000004B45524E454C33322E646C6C0000000047657450726F6341}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

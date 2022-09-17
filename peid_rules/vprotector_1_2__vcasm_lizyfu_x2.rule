@@ -1,0 +1,9 @@
+rule _vprotector_1_2__vcasm_lizyfu
+{
+	meta:
+		description = "vprotector 1_2 __ vcasm"
+	strings:
+		$a = {EB0B5B5650726F746563745D00E8240000008B4424048B003D0400008075088B642408EB0458EB0CE9648F0500000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

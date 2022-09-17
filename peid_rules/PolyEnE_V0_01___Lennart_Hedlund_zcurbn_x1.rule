@@ -1,0 +1,9 @@
+rule _PolyEnE_V0_01___Lennart_Hedlund_zcurbn
+{
+	meta:
+		description = "PolyEnE V0_01_ __ Lennart Hedlund"
+	strings:
+		$a = {506F6C79456E45004D657373616765426F7841005553455233322E646C6C}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

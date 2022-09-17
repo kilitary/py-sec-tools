@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_2_PE_Intro_1_0_ijslsi
+{
+	meta:
+		description = "_ PseudoSigner 0_2 _PE Intro 1_0"
+	strings:
+		$a = {8B04249C60E8140000005D81ED0A45409080BD67444090900F8548FFED0A}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

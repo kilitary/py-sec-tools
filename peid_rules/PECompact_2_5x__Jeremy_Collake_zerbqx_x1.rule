@@ -1,0 +1,9 @@
+rule _PECompact_2_5x__Jeremy_Collake_zerbqx
+{
+	meta:
+		description = "PECompact 2_5x __ Jeremy Collake"
+	strings:
+		$a = {B8????????FFE0}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

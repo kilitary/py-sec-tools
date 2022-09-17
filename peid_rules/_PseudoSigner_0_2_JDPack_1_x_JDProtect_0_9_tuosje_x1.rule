@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_2_JDPack_1_x_JDProtect_0_9_tuosje
+{
+	meta:
+		description = "_ PseudoSigner 0_2 _JDPack 1_x  JDProtect 0_9"
+	strings:
+		$a = {60E8220000005D8BD581ED909090902B959090909081EA0690909089959090909083BD4500010001}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

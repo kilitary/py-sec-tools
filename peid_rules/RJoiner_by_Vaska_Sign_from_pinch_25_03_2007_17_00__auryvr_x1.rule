@@ -1,0 +1,9 @@
+rule _RJoiner_by_Vaska_Sign_from_pinch_25_03_2007_17_00__auryvr
+{
+	meta:
+		description = "RJoiner by Vaska _Sign from pinch 25_03_2007 17_00_"
+	strings:
+		$a = {E803FDFFFF6A00E80C000000FF256C104000FF2570104000FF2574104000FF2578104000FF257C104000FF2580104000FF2584104000FF2588104000FF258C10}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

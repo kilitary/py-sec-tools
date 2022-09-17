@@ -1,0 +1,9 @@
+rule _Themida_1_8_x_x__Oreans_Technologies_xuokjg
+{
+	meta:
+		description = "Themida 1_8_x_x __ Oreans Technologies"
+	strings:
+		$a = {B8????????600BC07468E8000000005805530000008038E9751361EB45DB2D37??????FFFFFFFFFFFFFFFF3D40E800000000582500F0FFFF33FF66BB195A6683C33466391875120FB7503C03D0BBE944000083C367}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

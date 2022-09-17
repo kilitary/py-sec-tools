@@ -1,0 +1,9 @@
+rule _FSG_v1_10_Eng___dulekxt___Microsoft_Visual_C__6_0_7_0_ASM__qpygap
+{
+	meta:
+		description = "FSG v1_10 _Eng_ __ dulekxt __ _Microsoft Visual C__ 6_0  7_0  ASM_"
+	strings:
+		$a = {E8010000000E59E8010000005858BE80????00EB0261E968F4000000C1C8}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

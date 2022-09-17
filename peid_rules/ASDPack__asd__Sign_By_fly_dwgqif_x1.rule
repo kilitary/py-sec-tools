@@ -1,0 +1,9 @@
+rule _ASDPack__asd__Sign_By_fly_dwgqif
+{
+	meta:
+		description = "ASDPack __ asd _ Sign_By_fly"
+	strings:
+		$a = {00000000????????0000000000000000????????????????0000000000000000000000000000000000000000????????000000004B65726E656C33322E646C6C008D49001F014765744D6F64756C6548616E646C65}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

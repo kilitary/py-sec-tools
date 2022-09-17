@@ -1,0 +1,9 @@
+rule _EXECryptor_2_2_4__StrongbitSoftComplete_Development_h1__bemcsg
+{
+	meta:
+		description = "EXECryptor 2_2_4 __ StrongbitSoftComplete Development _h1_"
+	strings:
+		$a = {068CC88EC0BE????26????34??26????4681??????75??40B3??B3??F3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

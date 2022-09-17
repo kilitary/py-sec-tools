@@ -1,0 +1,9 @@
+rule __PseudoSigner_0_2_Borland_Delphi_DLL_xqgryh
+{
+	meta:
+		description = "_ PseudoSigner 0_2 _Borland Delphi DLL"
+	strings:
+		$a = {558BEC83C4B4B890909090E800000000E8000000008D4000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

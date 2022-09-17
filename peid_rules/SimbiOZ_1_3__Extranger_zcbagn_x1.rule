@@ -1,0 +1,9 @@
+rule _SimbiOZ_1_3__Extranger_zcbagn
+{
+	meta:
+		description = "SimbiOZ 1_3 __ Extranger"
+	strings:
+		$a = {57578D7C240450B800??????AB585FC3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

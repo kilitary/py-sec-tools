@@ -1,0 +1,9 @@
+rule _FSG_1_10_Eng___dulekxt___Borland_Delphi_Microsoft_Visual_C___upuaeb
+{
+	meta:
+		description = "FSG 1_10 _Eng_ __ dulekxt __ _Borland Delphi  Microsoft Visual C___"
+	strings:
+		$a = {2BC2E802000000954A598D3D52F12AE8C1C81CBE2E????18EB02ABA003F7EB02CD2068F40000000BC75B03CB8A068A16E8020000008D4659EB01A402D3EB02CD2002D3E80200000057AB5881C2AA87ACB90FBEC980}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

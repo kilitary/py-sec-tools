@@ -1,0 +1,9 @@
+rule _FreePascal_1_0_4_Win32___Berczi_Gabor_Pierre_Muller__Peter_Vreman__eytskt
+{
+	meta:
+		description = "FreePascal 1_0_4 Win32 __ _Berczi Gabor_ Pierre Muller _ Peter Vreman_"
+	strings:
+		$a = {558BEC83C4B853565733C08945F08945BC8945B8E87371FFFFE8DA85FFFFE881A7FFFFE8C8}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

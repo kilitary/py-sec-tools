@@ -1,0 +1,9 @@
+rule _Crypto_Lock_v2_02_Eng___Ryan_Thian_eldqts
+{
+	meta:
+		description = "Crypto_Lock v2_02 _Eng_ __ Ryan Thian"
+	strings:
+		$a = {60BE??9040008DBE????FFFF5783CDFFEB109090909090908A064688074701DB75078B1E83EEFC11DB72EDB80100000001DB75078B1E83EEFC11DB11C001DB73EF75098B1E83EEFC11DB73E431C983E803720DC1E0}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

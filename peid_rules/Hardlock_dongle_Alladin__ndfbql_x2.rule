@@ -1,0 +1,9 @@
+rule _Hardlock_dongle_Alladin__ndfbql
+{
+	meta:
+		description = "Hardlock dongle _Alladin_"
+	strings:
+		$a = {5B535045435DE8????????5D8BC581ED412440??2B85892640??83E80B89858D2640??0FB6B5912640??8BFD}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

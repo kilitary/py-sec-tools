@@ -1,0 +1,9 @@
+rule _dePACK__deNULL_vilwjp
+{
+	meta:
+		description = "dePACK __ deNULL"
+	strings:
+		$a = {EB01DBE80200000086435E8D1DD075CF83C1EE1D6850??8F83EB023D0F5A}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

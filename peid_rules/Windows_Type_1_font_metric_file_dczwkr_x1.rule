@@ -1,0 +1,9 @@
+rule _Windows_Type_1_font_metric_file_dczwkr
+{
+	meta:
+		description = "Windows Type 1 font metric file"
+	strings:
+		$a = {0001????0000436F7079726967687420}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

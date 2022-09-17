@@ -1,0 +1,9 @@
+rule _MS_Run_Time_Library_1990_07__prpvcz
+{
+	meta:
+		description = "MS Run_Time Library 1990 _07_"
+	strings:
+		$a = {2E8C1E????BB????8EDB1EE8????1F8B1E????0BDB74??8CD18BD4FA8ED3BC????FB}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

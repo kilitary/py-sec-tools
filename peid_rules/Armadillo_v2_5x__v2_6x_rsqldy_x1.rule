@@ -1,0 +1,9 @@
+rule _Armadillo_v2_5x__v2_6x_rsqldy
+{
+	meta:
+		description = "Armadillo v2_5x _ v2_6x"
+	strings:
+		$a = {558BEC6AFF68????????68????????64A100000000506489250000000083EC585356578965E8FF1558??????33D28AD48915EC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

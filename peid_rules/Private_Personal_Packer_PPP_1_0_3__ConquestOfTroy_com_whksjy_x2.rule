@@ -1,0 +1,9 @@
+rule _Private_Personal_Packer_PPP_1_0_3__ConquestOfTroy_com_whksjy
+{
+	meta:
+		description = "Private Personal Packer _PPP_ 1_0_3 __ ConquestOfTroy_com"
+	strings:
+		$a = {E8190000009090E868000000FF352C370010E8ED0100006A00E82E040000E841040000A3743700106A64E85F040000E830040000A3783700106A64E84E040000E81F040000A37C370010A1743700108B1D78370010}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

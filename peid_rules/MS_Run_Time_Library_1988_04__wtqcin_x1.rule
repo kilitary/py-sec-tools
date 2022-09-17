@@ -1,0 +1,9 @@
+rule _MS_Run_Time_Library_1988_04__wtqcin
+{
+	meta:
+		description = "MS Run_Time Library 1988 _04_"
+	strings:
+		$a = {1EB8????8ED8B430CD213C0273??BA????E8????0633C050CB}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

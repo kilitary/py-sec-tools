@@ -1,0 +1,9 @@
+rule _Upack_0_20_beta__Dwing_gtefiq
+{
+	meta:
+		description = "Upack 0_20 beta __ Dwing"
+	strings:
+		$a = {BE88014000AD8BF86A0495A533C0AB48ABF7D859F3ABC1E00AB5??F3ABAD509751588D54855CFF16725A2C037302B0003C0772022C03500FB65FFFC1E3??B300}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,0 +1,9 @@
+rule _MicroJoiner_1_5__coban2k_ylrctq
+{
+	meta:
+		description = "MicroJoiner 1_5 __ coban2k"
+	strings:
+		$a = {BF0510400083EC308BECE8C8FFFFFFE8C3FFFFFF}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

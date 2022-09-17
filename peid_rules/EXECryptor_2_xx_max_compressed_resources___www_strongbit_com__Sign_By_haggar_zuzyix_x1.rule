@@ -1,0 +1,9 @@
+rule _EXECryptor_2_xx_max_compressed_resources___www_strongbit_com__Sign_By_haggar_zuzyix
+{
+	meta:
+		description = "EXECryptor 2_xx _max_ compressed resources_ __ www_strongbit_com _ Sign_By_haggar"
+	strings:
+		$a = {56575331DB89C689D70FB60689C283E01FC1EA05742D4A74158D5C130246C1E00889FA0FB60E4629CA4A29C2EB32C1E3058D5C03044689FA0FB70E29CA4A83C602EB1DC1E3044689C183E10F01CBC1E80573074389}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

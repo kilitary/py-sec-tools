@@ -1,0 +1,9 @@
+rule _Vx_Horse_1776_qhbvui
+{
+	meta:
+		description = "Vx_ Horse_1776"
+	strings:
+		$a = {E8????5D83????061E26????????BF????1E0E1F8BF701EEB9????FCF3A61F1E07}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

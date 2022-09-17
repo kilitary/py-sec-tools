@@ -1,0 +1,9 @@
+rule _Exact_Audio_Copy_vlbbdz
+{
+	meta:
+		description = "Exact Audio Copy"
+	strings:
+		$a = {EB0828657363302E312960682B??????64FF350000000064892500000000B85C??????8B00FFD050BE0010????B900????00EB0549803431400BC975F7580BC0740833C0C700DEC0AD0BBE????????E9AC0000008B}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

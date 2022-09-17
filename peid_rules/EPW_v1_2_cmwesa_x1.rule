@@ -1,0 +1,9 @@
+rule _EPW_v1_2_cmwesa
+{
+	meta:
+		description = "EPW v1_2"
+	strings:
+		$a = {06571E5655525153502E????????8CC005????2E??????8ED8A1????2E}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

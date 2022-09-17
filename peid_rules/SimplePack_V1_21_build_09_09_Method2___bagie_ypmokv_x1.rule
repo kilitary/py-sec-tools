@@ -1,0 +1,9 @@
+rule _SimplePack_V1_21_build_09_09_Method2___bagie_ypmokv
+{
+	meta:
+		description = "SimplePack V1_21_build_09_09 _Method2_ __ bagie"
+	strings:
+		$a = {4D5A90EB010052E986010000504500004C010200000000000000000000000000E0000F030B01000000000000000000000000000000000000000000000C00000000??????0010000000020000010000000000000004}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

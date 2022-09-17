@@ -1,0 +1,9 @@
+rule _YZPack_1_2__UsAr_aovgvs
+{
+	meta:
+		description = "YZPack 1_2 __ UsAr"
+	strings:
+		$a = {6033C08D480750E2FD8BEC648B4030780C8B400C}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

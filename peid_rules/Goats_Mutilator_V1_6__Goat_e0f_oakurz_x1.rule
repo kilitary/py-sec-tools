@@ -1,0 +1,9 @@
+rule _Goats_Mutilator_V1_6__Goat_e0f_oakurz
+{
+	meta:
+		description = "Goats Mutilator V1_6 __ Goat_e0f"
+	strings:
+		$a = {E8EA0B0000??????8B1C79F663D88D22B0BFF64908C302BD3B6C294613285D}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

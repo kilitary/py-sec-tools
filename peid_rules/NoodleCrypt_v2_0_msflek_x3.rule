@@ -1,0 +1,9 @@
+rule _NoodleCrypt_v2_0_msflek
+{
+	meta:
+		description = "NoodleCrypt v2_0"
+	strings:
+		$a = {EB019AE8??000000EB019AE8????0000EB019AE8????0000EB01}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

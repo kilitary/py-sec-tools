@@ -1,0 +1,9 @@
+rule _Microsoft_Visual_C__7_0_ewkfta
+{
+	meta:
+		description = "Microsoft Visual C__ 7_0"
+	strings:
+		$a = {558BEC538B5D08568B750C578B7D10????83}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

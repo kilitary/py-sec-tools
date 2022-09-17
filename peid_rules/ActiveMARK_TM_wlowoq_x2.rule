@@ -1,0 +1,9 @@
+rule _ActiveMARK_TM_wlowoq
+{
+	meta:
+		description = "ActiveMARK_TM"
+	strings:
+		$a = {79070FB707475047B95748F2AE55FF9684??000009C07407890383C304EBD8FF9688??000061E9??????FF}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

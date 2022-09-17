@@ -4,7 +4,6 @@ torpy~=1.1.4
 future~=0.18.2
 pyAesCrypt~=0.4.4
 requests~=2.25.1
-pywin32~=300
 WMI~=1.5.1
 cryptography~=3.3.1
 

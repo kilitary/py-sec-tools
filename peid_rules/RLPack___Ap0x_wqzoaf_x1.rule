@@ -1,0 +1,9 @@
+rule _RLPack___Ap0x_wqzoaf
+{
+	meta:
+		description = "RLPack ___ Ap0x"
+	strings:
+		$a = {60E8000000008B2C2483C4048DB52C0A00008D9D2202000033FFE8830100006A4068001000006800200C006A00FF95CD0900008985140A0000EB1460FFB5140A}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

@@ -1,0 +1,9 @@
+rule _FSG_1_20_Eng___dulekxt___Microsoft_Visual_C__6_0__eslqra
+{
+	meta:
+		description = "FSG 1_20 _Eng_ __ dulekxt __ _Microsoft Visual C__ 6_0_"
+	strings:
+		$a = {EB02CD20EB01918D3580????0033C26883937E7D0CA45B23C36877937E7DEB01FA5FE802000000F7FB5833DFEB013FE8020000001188580FB616EB02CD20EB02862F2AD3EB02CD2080EA2FEB015232D380E9CD80EA}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

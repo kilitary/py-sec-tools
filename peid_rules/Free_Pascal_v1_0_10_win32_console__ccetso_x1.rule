@@ -1,0 +1,9 @@
+rule _Free_Pascal_v1_0_10_win32_console__ccetso
+{
+	meta:
+		description = "Free Pascal v1_0_10 _win32 console_"
+	strings:
+		$a = {C605??????0001E8????0000C605??????0000E8????000050E800000000FF25??????005589E5??EC}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

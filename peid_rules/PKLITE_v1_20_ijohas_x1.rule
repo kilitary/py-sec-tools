@@ -1,0 +1,9 @@
+rule _PKLITE_v1_20_ijohas
+{
+	meta:
+		description = "PKLITE v1_20"
+	strings:
+		$a = {B8????BA????05????3B06????72??B409BA????CD21B44CCD21}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

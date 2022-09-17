@@ -1,0 +1,9 @@
+rule _RCryptor_V2_0_Private__Vaska_nbsp__nbsp__Sign_By_fly_rhntpv
+{
+	meta:
+		description = "RCryptor V2_0 Private __ Vaska_nbsp_ _nbsp__ Sign_By_fly"
+	strings:
+		$a = {F7D183F1FF6A00F7D183F1FF810424????????F7D183F1FFE800000000F7D183F1FFC3}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

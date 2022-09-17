@@ -1,0 +1,9 @@
+rule _Upack_0_38_beta__Dwing_rcpxjb
+{
+	meta:
+		description = "Upack 0_38 beta __ Dwing"
+	strings:
+		$a = {BEB011????AD50FF7634EB7C4801????0B014C6F61644C696272617279410000181000001000000000??????0000????00100000000200000400000000003700040000000000000000??????0002000000000000}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}

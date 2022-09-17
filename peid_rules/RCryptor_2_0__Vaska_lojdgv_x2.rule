@@ -1,0 +1,9 @@
+rule _RCryptor_2_0__Vaska_lojdgv
+{
+	meta:
+		description = "RCryptor 2_0 __ Vaska"
+	strings:
+		$a = {F7D183F1FF6A00F7D183F1FF810424????????F7D183F1FF}
+	condition:
+		$a in (entrypoint..entrypoint + 11111110)
+}
