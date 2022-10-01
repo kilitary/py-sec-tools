@@ -79,7 +79,7 @@ class NonBlockingNetBIOS(base.NBNS):
     def poll(self, timeout=0):
         end_time = time.time() + timeout
         while self.pending_count > 0 and (timeout == 0 or time.time() < end_time):
-            t = max(0, end_time - time.time())
+            t = max(0, int(end_time - time.time()))
             try:
                 ready, _, _ = select.select([self.sock.fileno()], [], [], t)
                 if not ready:
