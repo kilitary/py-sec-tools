@@ -1,3 +1,2 @@
-# petarget
-
-learnin pytho using pay&bye techniQue
+# mail
+kilitary.ru mta  system
