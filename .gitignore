@@ -7,3 +7,5 @@ petarget
 build
 __pycache__
 .idea
+!/GBPUSD.csv
+!/GBPUSD_M5_bars.csv
