@@ -8,7 +8,7 @@ import sys
 bsd_pathes_file = open("bsd-patches.tok", 'r', encoding='utf-8')
 bsd_file_pathes = bsd_pathes_file.readlines()
 
-def get_pred_tok(did_not_insert_dir=True):
+def get_pred_tok(allow_dir=True):
     toks = [
         "\\", "%", "'", "?", "/", ".", "!" + str(random.randint(0, 255)), " ", "..", "$", "^", "@", "!", "&", "*",
         "(", ")", "-", "=", "+", "|", "[",
@@ -20,7 +20,7 @@ def get_pred_tok(did_not_insert_dir=True):
         # "h", "g", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m"
     ]
     
-    if random.randint(0, 2) == 1 and did_not_insert_dir:
+    if random.randint(0, 2) == 1 and allow_dir:
         return bsd_file_pathes[random.randint(0, len(bsd_file_pathes) - 1)].strip()
     
     idx = random.randint(0, len(toks) - 1)
@@ -32,7 +32,7 @@ for step in range(1, 10000):
     tok = ""
     did_not_insert_dir = True
     for step2 in range(1, random.randint(1, 120)):
-        pred = get_pred_tok(did_not_insert_dir=did_not_insert_dir)
+        pred = get_pred_tok(allow_dir=did_not_insert_dir)
         did_not_insert_dir = False
         tok += pred
     
