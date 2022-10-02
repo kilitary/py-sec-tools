@@ -22,7 +22,7 @@ def get_pred_tok(allow_dir=True):
     idx = random.randint(0, len(toks) - 1)
     return toks[idx] * random.randint(1, random.randint(1, 2))
 
-file_object = open("genned-bred-formats_v15.tok", 'a+', encoding='utf-8')
+file_object = open("genned-bred-formats_v15.tok", 'w+', encoding='utf-8')
 
 for step in range(1, 10000):
     tok = ""
