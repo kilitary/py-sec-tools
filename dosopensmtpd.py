@@ -1,4 +1,5 @@
-#  Copyright 2022 Sergey Efimov (kilitary@gmail.com)
+
+#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
 
 import os
 import random

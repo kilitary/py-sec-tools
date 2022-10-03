@@ -1,4 +1,4 @@
-#  Copyright 2022 Sergey Efimov (kilitary@gmail.com)
+#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
 
 import os
 import random
@@ -48,6 +48,9 @@ subject = ''
 class Randomer(object):
     
     def __init__(self):
+        """
+
+        """
         pass
     
     @staticmethod

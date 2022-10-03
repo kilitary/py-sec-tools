@@ -1,4 +1,4 @@
-#  Copyright 2022 Sergey Efimov (kilitary@gmail.com)
+#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
 import os
 import math
 import random
@@ -27,12 +27,10 @@ with open("genned-bred-formats_v15.tok", 'w+', encoding='utf-8') as file_object:
     for _ in range(1, 10000):
         tok = ""
         did_not_insert_dir = True
-        for step2 in range(1, random.randint(1, 120)):
+        for _ in range(1, random.randint(1, 120)):
             pred = get_pred_tok(allow_dir=did_not_insert_dir)
             did_not_insert_dir = False
             tok += pred
         
         print(f'{tok}')
         file_object.write(tok + "\n")
-
-file_object.close()
