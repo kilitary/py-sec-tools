@@ -1,3 +1,5 @@
+#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
+
 from var_dump import var_dump
 import socket
 from randomer import Randomer
@@ -7,6 +9,7 @@ import sys
 import os
 import ctypes
 from ctypes import *
+
 
 def fprint(msg):
     print(msg)
@@ -44,8 +47,7 @@ try:
     
     while True:
         print()
-        fprint(
-            f'listenng on 113 ({total_buf_size:.0f} bytes lost,  {windll.kernel32},  {windll.gdi32},  {windll.user32},  {windll.msvcrt}) ')
+        fprint(f'listenng on 113 ({total_buf_size:.0f} bytes lost,  {windll.kernel32},  {windll.gdi32},  {windll.user32},  {windll.msvcrt}) ')
         
         try:
             connection.close()

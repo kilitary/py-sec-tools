@@ -169,7 +169,7 @@ def filter_dataline(parts):
         
         if not len(subject):
             flog(f'scaning [{newline}')
-            match = re.match(r'^Subject:\s+(.*?)$', newline, re.IGNORECASE | re.UNICODE)
+            match = re.match(r'^Subject:\s+(.*)$', newline, re.IGNORECASE | re.UNICODE)
             flog(f'1:{var_export(newline)}')
             flog(f'1:{var_export(match)}')
             if match:

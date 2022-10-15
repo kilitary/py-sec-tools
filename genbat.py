@@ -1,3 +1,5 @@
+#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
+
 import random
 import secrets
 from enum import Enum, auto
@@ -6,12 +8,14 @@ from helpers import deb
 from outputdebugstring import olog
 from randomer import Randomer
 
+
 pipe = ''
 commands = []
 _code = ''
 gotos = []
 ip_debug = False
 ii = ['\\', '|', '/', '-']
+SET_RND_MAX = 4
 
 class Operand(Enum):
     LABEL = auto()
@@ -24,14 +28,20 @@ class Operand(Enum):
     REM = auto()
     EXIT = auto()
 
-class Assember(object):
+def write(filename: str, code: str) -> None:
+    with open(filename, "w") as file:
+        file.write("@ECHO ===========================================================\n")
+        ret = file.write(code)
+        deb(f'\nwritten {ret} bytes to {filename}\r\n')
+
+class Assembler(object):
     _command_pipeline = []
     _code = None
     _offset = 0
     ip_offset = 0
     filename = ''
     
-    def __init__(self, filename):
+    def __init__(self, filename="out.cmd"):
         self.filename = filename
     
     def __len__(self):
@@ -49,37 +59,36 @@ class Assember(object):
                     Command(
                         Operand.ECHO,
                         Randomer.str_id_generator(
-                            size=random.randint(0, 250))))
+                            size=random.randint(1, SET_RND_MAX))))
             elif choose == 2:
                 self.push_command(
                     Command(
                         Operand.TITLE,
                         Randomer.str_id_generator(
-                            size=random.randint(0, 200))))
+                            size=random.randint(1, SET_RND_MAX))))
             elif choose == 3:
                 self.push_command(
                     Command(
                         Operand.REM,
                         Randomer.str_str_generator(
-                            size=random.randint(0, 250))))
+                            size=random.randint(1, SET_RND_MAX))))
             elif choose == 4:
                 self.push_command(
                     Command(
                         Operand.SET,
-                        f"{Randomer.rnd_name()}=\"{Randomer.str_str_generator(size=random.randint(0, 250))}\""
+                        f"{Randomer.rnd_name()}=\"{Randomer.str_str_generator(size=random.randint(1, SET_RND_MAX))}\""
                     ))
             elif choose == 5:
                 self.push_command(
                     Command(
                         Operand.SETV,
-                        f"{Randomer.rnd_name()}[{random.randint(0, 250)}]=\"{Randomer.str_str_generator(size=random.randint(0, 250))}\""
+                        f"{Randomer.rnd_name()}[{random.randint(0, SET_RND_MAX)}]"
+                        f"=\"{Randomer.str_str_generator(size=random.randint(1, SET_RND_MAX))}\""
                     ))
-        
-        return
     
     def save(self) -> None:
         # var_dump(self._command_pipeline)
-        self.write(self.filename, self.get_code())
+        write(self.filename, self.get_code())
     
     def sort(self) -> None:
         self._command_pipeline = sorted(self._command_pipeline,
@@ -108,6 +117,7 @@ class Assember(object):
                     end='')
             
             self._code = code.strip()
+            deb("\r\nDone\r\n")
         return self._code
     
     def get_operand_at(self, offset):
@@ -129,30 +139,22 @@ class Assember(object):
         self._offset = command.offset
         
         if ip_debug:
-            deb(f'{self._offset:04d} {command} ({len(assember)})')
+            deb(f'{self._offset:04d} {command} ({len(assembler)})')
             var_dump(self._command_pipeline)
         
         return self._offset
-    
-    def write(self, filename: str, code: str) -> None:
-        with open(filename, "w") as file:
-            file.write(
-                "@ECHO ===========================================================\n"
-            )
-            ret = file.write(code)
-            deb(f'\nwritten {ret} bytes to {filename}\r\n')
 
 class Command(object):
     operands = {
         Operand.LABEL: "",
-        Operand.EXIT : "EXIT",
-        Operand.REM  : "REM",
-        Operand.ECHO : "ECHO",
+        Operand.EXIT:  "EXIT",
+        Operand.REM:   "REM",
+        Operand.ECHO:  "ECHO",
         Operand.TITLE: "TITLE",
-        Operand.SET  : "SET",
-        Operand.SETV : "SET",
+        Operand.SET:   "SET",
+        Operand.SETV:  "SET",
         Operand.COLOR: "COLOR",
-        Operand.GOTO : "GOTO"
+        Operand.GOTO:  "GOTO"
     }
     
     def __init__(self, operand, param=None, offset=0):
@@ -167,38 +169,30 @@ class Command(object):
 
 if __name__ == '__main__':
     offset = 0
-    assember = Assember("mut.cmd")
-    max = max_operands = random.randint(111, 1111)
-    
+    assembler = Assembler(filename="mut.cmd")
+    max = max_operands = random.randint(5, 11)
     num_gotos = random.randint(1, max)
-    
     numIi = 0
     ip = 0
     
-    # for ng in range(num_gotos):
-    #	assember.junk(min=1, max=4)
-    
     for step in range(0, max_operands - 1):
-        if max >= 111:
-            numIi += 1
-            if numIi >= len(ii):
-                numIi = 0
+        if max >= 15:
+            numIi = 0 if numIi >= len(ii) else numIi + 1
             currentSym = ii[numIi]
-            deb(f'\rgenerating code ... {step / max * 100.0:.0f}% {currentSym}',
-                end='')
+            deb(f'\rgenerating code ... {step / max * 100.0:.0f}% {currentSym}', end='')
         
         # deb(f'offset: {offset}')
         
-        assember.junk(min=11, max=34)
+        assembler.junk(min=4, max=4)
         label = Randomer.str_generator()
-        ip = assember.push_command(Command(Operand.GOTO, ":" + label),
-                                   offset=-1)
-        assember.junk(min=11, max=34)
-        ip = assember.push_command(Command(Operand.LABEL, ":" + label))
+        ip = assembler.push_command(Command(Operand.GOTO, ":" + label), offset=-1)
+        assembler.junk(min=1, max=5)
+        ip = assembler.push_command(Command(Operand.LABEL, ":" + label))
         
         if step == max - 2:
-            assember.push_command(Command(Operand.EXIT))
+            assembler.push_command(Command(Operand.ECHO, "END"))
+            assembler.push_command(Command(Operand.EXIT))
     
-    deb(f"{assember.get_code()}")
+    deb(f"{assembler.get_code()}")
     
-    assember.save()
+    assembler.save()

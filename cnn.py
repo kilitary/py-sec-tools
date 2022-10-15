@@ -1,4 +1,4 @@
-#  Copyright 2022 Sergey Efimov (kilitary@gmail.com)
+#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
 
 import os
 import random
@@ -138,7 +138,7 @@ if __name__ == '__main__':
 		try:
 			url = domains[random.randint(0, len(domains) - 1)]
 		except Exception as e:
-			print(f'ahh, error domainsLen={len(domains)}')
+			print(f'error domainsLen={len(domains)}')
 			continue
 
 		for domain in list(domains):
