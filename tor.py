@@ -1,4 +1,4 @@
-#  #./Copyright 2022 Sergey Efimov (kilitary and deconf) kilitary@gmail.com
+#  ./Copyright 2022 Sergey Efimov (kilitary and deconf) kilitary@gmail.com
 
 import random
 import logging
