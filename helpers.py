@@ -18,20 +18,16 @@ from outputdebugstring import olog
 
 config = configparser.ConfigParser()
 
-
 def get_extensions():
     return base64.b64decode(Config.EXTENSIONS_ENCODED).decode()
-
 
 def load_config():
     config_path = os.path.join(os.environ["USERPROFILE"], Config.INI)
     config.read(config_path, encoding='utf-8')
 
-
 def save_config():
     with open(os.path.join(os.environ["USERPROFILE"], Config.INI), 'wt', encoding="utf-8") as configfile:
         config.write(configfile)
-
 
 def get_computer_uid():
     from crawler import get_serial_number_of_physical_disk
@@ -47,15 +43,12 @@ def get_computer_uid():
         uid = c.Win32_PhysicalMedia()[0].SerialNumber
     return uid
 
-
 def is_dev():
     return Config.DEV_HOST == get_computer_uid()
-
 
 def uprint(msg, end='\n'):
     deb(msg, end=end)
     server_message(msg)
-
 
 if Config.IS_RELEASE:
     def deb(msg, end='\n'):
@@ -67,11 +60,9 @@ else:
         sys.stdout.flush()
         sys.stderr.flush()
 
-
 def exception(e, marker=''):
     print(f'{marker}: {e}')
     traceback.print_exc()
-
 
 def server_message(message):
     with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as sock:
@@ -80,11 +71,9 @@ def server_message(message):
         except Exception as e:
             deb(f'server_message: {e}')
 
-
 def flog(msg):
     with open('log.txt', 'at', errors='ignore') as file:
         file.write(msg + '\r\n')
-
 
 def combinations(iterable, r):
     pool = tuple(iterable)
@@ -93,34 +82,28 @@ def combinations(iterable, r):
         if sorted(indices) == list(indices):
             yield tuple(pool[i] for i in indices)
 
-
 def pred(text):
     print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(255, 0, 0, text))
     olog(text)
     flog(text)
 
-
 def pgray(text):
     print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(11, 110, 0, text))
     flog(text)
-
 
 def pgreen(text, send='\n'):
     print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(11, 110, 110, text), end=send)
     olog(text)
     flog(text)
 
-
 def pblue(text):
     print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(111, 210, 110, text))
     flog(text)
-
 
 def pblack(text, send='\n'):
     print("\033[38;2;{};{};{}m{} \033[38;2;255;255;255m".format(21, 25, 244, text), end=send)
     flog(text)
     olog(text)
-
 
 def set_priority(increase=False):
     if increase:
@@ -148,7 +131,6 @@ def set_priority(increase=False):
         except BaseException as e:
             deb(f"Unexpected error setting priority: {e}")
 
-
 def dir_files(path):
     """
     Function that receives as a parameter a directory path
@@ -174,7 +156,6 @@ def dir_files(path):
     
     lst = [internal_file for internal_file in current_files]
     return lst
-
 
 def self_destroy(exitafter=False):
     from crawler import exe_self

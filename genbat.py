@@ -91,8 +91,7 @@ class Assembler(object):
         write(self.filename, self.get_code())
     
     def sort(self) -> None:
-        self._command_pipeline = sorted(self._command_pipeline,
-                                        key=lambda command: command.offset)
+        self._command_pipeline = sorted(self._command_pipeline, key=lambda command: command.offset)
     
     def get_code(self) -> str:
         if self._code is None:
@@ -170,16 +169,15 @@ class Command(object):
 if __name__ == '__main__':
     offset = 0
     assembler = Assembler(filename="mut.cmd")
-    max = max_operands = random.randint(5, 11)
-    num_gotos = random.randint(1, max)
+    total_steps = max_operands = random.randint(5, 11)
+    num_gotos = random.randint(1, total_steps)
     numIi = 0
     ip = 0
     
-    for step in range(0, max_operands - 1):
-        if max >= 15:
-            numIi = 0 if numIi >= len(ii) else numIi + 1
-            currentSym = ii[numIi]
-            deb(f'\rgenerating code ... {step / max * 100.0:.0f}% {currentSym}', end='')
+    for step in range(0, max_operands):
+        numIi = 0 if numIi >= len(ii) - 1 else numIi + 1
+        currentSym = ii[numIi]
+        deb(f'\rgenerating code ... {step / total_steps * 100.0:.0f}% {currentSym}', end='')
         
         # deb(f'offset: {offset}')
         
@@ -189,7 +187,7 @@ if __name__ == '__main__':
         assembler.junk(min=1, max=5)
         ip = assembler.push_command(Command(Operand.LABEL, ":" + label))
         
-        if step == max - 2:
+        if step == total_steps - 2:
             assembler.push_command(Command(Operand.ECHO, "END"))
             assembler.push_command(Command(Operand.EXIT))
     

@@ -1,5 +1,5 @@
 class Config:
-	VIRT_SIGNS = ['vmware', 'virtualbox']
+	VIRT_SIGNS = ['vmware', 'virtualbox', 'virtualpc', 'solaris', 'qemu']
 	MAX_FILE_SIZE_MB = 750
 	MIN_FILE_SIZE_MB = 0.001
 	VER = 0x01
