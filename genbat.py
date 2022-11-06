@@ -1,4 +1,4 @@
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
+#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
 
 import random
 import secrets
@@ -8,13 +8,12 @@ from helpers import deb
 from outputdebugstring import olog
 from randomer import Randomer
 
-
 pipe = ''
 commands = []
 _code = ''
 gotos = []
 ip_debug = False
-ii = ['\\', '|', '/', '-']
+line_debug_seps = ['\\', '|', '/', '-']
 SET_RND_MAX = 4
 
 class Operand(Enum):
@@ -108,9 +107,9 @@ class Assembler(object):
                 step += 1
                 
                 numIi += 1
-                if numIi >= len(ii):
+                if numIi >= len(line_debug_seps):
                     numIi = 0
-                currentSym = ii[numIi]
+                currentSym = line_debug_seps[numIi]
                 
                 deb(f'\rjoining code ... {step / num * 100.0:.1f}% (line {step} of {num}, {len(code)} bytes) {currentSym}',
                     end='')
@@ -146,14 +145,14 @@ class Assembler(object):
 class Command(object):
     operands = {
         Operand.LABEL: "",
-        Operand.EXIT:  "EXIT",
-        Operand.REM:   "REM",
-        Operand.ECHO:  "ECHO",
+        Operand.EXIT : "EXIT",
+        Operand.REM  : "REM",
+        Operand.ECHO : "ECHO",
         Operand.TITLE: "TITLE",
-        Operand.SET:   "SET",
-        Operand.SETV:  "SET",
+        Operand.SET  : "SET",
+        Operand.SETV : "SET",
         Operand.COLOR: "COLOR",
-        Operand.GOTO:  "GOTO"
+        Operand.GOTO : "GOTO"
     }
     
     def __init__(self, operand, param=None, offset=0):
@@ -175,8 +174,8 @@ if __name__ == '__main__':
     ip = 0
     
     for step in range(0, max_operands):
-        numIi = 0 if numIi >= len(ii) - 1 else numIi + 1
-        currentSym = ii[numIi]
+        numIi = 0 if numIi >= len(line_debug_seps) - 1 else numIi + 1
+        currentSym = line_debug_seps[numIi]
         deb(f'\rgenerating code ... {step / total_steps * 100.0:.0f}% {currentSym}', end='')
         
         # deb(f'offset: {offset}')
