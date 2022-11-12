@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FSTOKENCLI Pascal=0
+;---------------------------------------
+1 Name=_ZN18CFSTokenTypeClient4NewLE4TUid
+;------------------EOF------------------

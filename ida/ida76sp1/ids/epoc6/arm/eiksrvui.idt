@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EIKSRVUI Pascal=0
+;---------------------------------------
+1 Name=CreateAppUi__Fv
+2 Name=NewL__14CAlarmNotifier
+;------------------EOF------------------

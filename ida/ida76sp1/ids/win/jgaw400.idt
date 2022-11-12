@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=jgaw400.dll Args=0 Drops=41
+;---------------------------------------
+1 Name=JgAAuxClose Pascal=0
+2 Name=JgAAuxDecode Pascal=0
+3 Name=JgAAuxOpen Pascal=0
+4 Name=JgAClose Pascal=0
+5 Name=JgADeviceClose Pascal=0
+6 Name=JgADeviceGetCaps Pascal=0
+7 Name=JgADeviceGetReport Pascal=0
+8 Name=JgADeviceGetVolume Pascal=0
+9 Name=JgADeviceInputPCM Pascal=0
+10 Name=JgADeviceOpen Pascal=0
+11 Name=JgADevicePausePlay Pascal=0
+12 Name=JgADeviceResumePlay Pascal=0
+13 Name=JgADeviceSetVolume Pascal=0
+14 Name=JgADeviceStartPlay Pascal=0
+15 Name=JgADeviceStopPlay Pascal=0
+16 Name=JgADoTest Pascal=0
+17 Name=JgAGetDevice Pascal=0
+18 Name=JgAGetReport Pascal=0
+19 Name=JgAGetStreamInfo Pascal=0
+20 Name=JgAGetVolume Pascal=0
+21 Name=JgAHeartbeat Pascal=0
+22 Name=JgAInputSegment Pascal=0
+23 Name=JgAInputStream Pascal=0
+24 Name=JgAOpen Pascal=0
+25 Name=JgAPCMClose Pascal=0
+26 Name=JgAPCMDecode Pascal=0
+27 Name=JgAPCMOpen Pascal=0
+28 Name=JgARawDecodeDone Pascal=0
+29 Name=JgARawDecodeGetData Pascal=0
+30 Name=JgARawDecodeInit Pascal=0
+31 Name=JgAReleaseDevice Pascal=0
+32 Name=JgASet Pascal=0
+33 Name=JgASetEOFMark Pascal=0
+34 Name=JgASetPlayParameters Pascal=0
+35 Name=JgASetVolume Pascal=0
+36 Name=JgAShutDown Pascal=0
+37 Name=JgAStartPlay Pascal=0
+38 Name=JgAStartUp Pascal=0
+39 Name=JgAStatus Pascal=0
+40 Name=JgATerminatePlay Pascal=0
+41 Name=jgawDeviceCallback Pascal=20
+;------------------EOF------------------

@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PREV Pascal=0
+;---------------------------------------
+1 Name=_Z12InternalizeLRN18CPrintPreviewImage12TMarginStateER11RReadStream
+2 Name=_ZN18CPrintPreviewImage10SetMarginsENS_12TMarginStateE
+3 Name=_ZN18CPrintPreviewImage11SetNumBandsEi
+4 Name=_ZN18CPrintPreviewImage11SetObserverER21MPrintProcessObserver
+5 Name=_ZN18CPrintPreviewImage4NewLER11CPrintSetupR18MPageRegionPrinterR10RWsSessionR7RWindowRK5TSizeRK19TPrintPreviewFormat
+6 Name=_ZN18CPrintPreviewImage5DrawLERK6TPointRK5TRect
+7 Name=_ZN18CPrintPreviewImage7FormatLEiii
+8 Name=_ZN18CPrintPreviewImageD0Ev
+9 Name=_ZN18CPrintPreviewImageD1Ev
+10 Name=_ZN18CPrintPreviewImageD2Ev
+11 Name=_ZTI18CPrintPreviewImage
+12 Name=_ZTV18CPrintPreviewImage
+13 Name=_ZTI15CPrintPreviewGc
+14 Name=_ZTI19CPrintPreviewDevice
+15 Name=_ZTV15CPrintPreviewGc
+16 Name=_ZTV19CPrintPreviewDevice
+;------------------EOF------------------

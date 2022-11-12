@@ -1,0 +1,47 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=jgpl400.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=JgpAlloc Pascal=0
+2 Name=JgpClose
+3 Name=JgpDoTest
+4 Name=JgpFree Pascal=0
+5 Name=JgpGetARTNote
+6 Name=JgpGetImage
+7 Name=JgpGetMask
+8 Name=JgpGetPalette
+9 Name=JgpGetPosition
+10 Name=JgpGetReport
+11 Name=JgpGetUiHook
+12 Name=JgpGetUiInputHook
+13 Name=JgpGetUiLong
+14 Name=JgpGetUiReportHook
+15 Name=JgpHeartBeat
+16 Name=JgpInputStream
+17 Name=JgpLosslessBlock
+18 Name=JgpLosslessCreate
+19 Name=JgpLosslessDestroy Pascal=0
+20 Name=JgpLosslessPartitionReset
+21 Name=JgpLosslessQuery
+22 Name=JgpLosslessReset
+23 Name=JgpOpen
+24 Name=JgpPausePlay
+25 Name=JgpQueryStream
+26 Name=JgpReAlloc Pascal=0
+27 Name=JgpReleaseSound
+28 Name=JgpResumePlay
+29 Name=JgpResumeSound
+30 Name=JgpSetEOFMark
+31 Name=JgpSetPosition
+32 Name=JgpSetUiHook
+33 Name=JgpSetUiInputHook
+34 Name=JgpSetUiLong
+35 Name=JgpSetUiReportHook
+36 Name=JgpShutDown Pascal=0
+37 Name=JgpStartPlay
+38 Name=JgpStartUp Pascal=0
+39 Name=JgpStopPlay
+40 Name=JgpGetPerformance
+;------------------EOF------------------

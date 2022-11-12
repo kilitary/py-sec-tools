@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QMASTERRESETHANDLER Pascal=0
+;---------------------------------------
+1 Name=_ZN19CMasterResetHandler17SetUpMasterResetLEv
+2 Name=_ZN19CMasterResetHandler18HandleMasterResetLEv
+3 Name=_ZN19CMasterResetHandler24DeleteUserInstalledAppsLEv
+4 Name=_ZN19CMasterResetHandler4NewLER7CCoeEnv
+5 Name=_ZTI19CMasterResetHandler
+6 Name=_ZTV19CMasterResetHandler
+7 Name=_ZN19CMasterResetHandler4NewLEv
+;------------------EOF------------------

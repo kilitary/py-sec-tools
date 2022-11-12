@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TCPIPDLL.dll Pascal=0
+;---------------------------------------
+1 Name=_sock_init
+2 Name=_getservbyname
+3 Name=_inet_addr
+4 Name=_gethostbyname
+5 Name=_socket
+6 Name=_inet_ntoa
+7 Name=_connect
+8 Name=_send
+9 Name=_recv
+10 Name=_soclose
+;------------------EOF------------------

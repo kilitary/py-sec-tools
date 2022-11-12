@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CERTSTORE Pascal=0
+;---------------------------------------
+1 Name=__18TCertManClientInfoRC4TUidRCt4TBuf1i128
+2 Name=AddL__16CCertStoreSimpleRC12CCertificateRCt9CArrayFix1Z4TUid9TCertTypei
+3 Name=AddTrusterL__15CCertStoreEntryG4TUid
+4 Name=Capabilities__C14TCertStoreInfo
+5 Name=ClientsL__C16CCertStoreSimple
+6 Name=CreateLC__9CertStore
+7 Name=CreateL__9CertStore
+8 Name=EntriesL__C16CCertStoreSimple9TCertTypeUl
+9 Name=EntriesL__C16CCertStoreSimpleRCt9CArrayFix1Z4TUid9TCertTypeUl
+10 Name=Fingerprint__C15CCertStoreEntry
+11 Name=Id__C18TCertManClientInfo
+12 Name=LoadL__C16CCertStoreSimpleR12CCertificateRC15CCertStoreEntry
+13 Name=Name__C14TCertStoreInfo
+14 Name=Name__C18TCertManClientInfo
+15 Name=OpenLC__9CertStore
+16 Name=OpenL__9CertStore
+17 Name=RemoveClientL__16CCertStoreSimpleRC4TUid
+18 Name=RemoveL__16CCertStoreSimpleRC15CCertStoreEntry
+19 Name=RemoveTrusterL__15CCertStoreEntryG4TUid
+20 Name=StoreCount__C16CCertStoreSimple
+21 Name=StoreInfo__C16CCertStoreSimplei
+22 Name=Trusted__C15CCertStoreEntryRCt9CArrayFix1Z4TUid
+23 Name=Trusters__C15CCertStoreEntry
+24 Name=UpdateL__16CCertStoreSimpleRC15CCertStoreEntry
+25 Name=_._15CCertStoreEntry
+26 Name=AddClientL__16CCertStoreSimpleRC18TCertManClientInfo
+;------------------EOF------------------

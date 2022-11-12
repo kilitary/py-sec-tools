@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CPANEL Pascal=0
+;---------------------------------------
+1 Name=_ZN14CCPanelControl7CreateLEv
+2 Name=_ZN16CCPanelItemArrayC1Ev
+3 Name=_ZN16CCPanelItemArrayC2Ev
+4 Name=_ZN16CCPanelItemArrayD0Ev
+5 Name=_ZN16CCPanelItemArrayD1Ev
+6 Name=_ZN16CCPanelItemArrayD2Ev
+7 Name=_ZN7CCPanel11SetCategoryE4TUidi
+8 Name=_ZN7CCPanel12InternalizeLER11RReadStream
+9 Name=_ZN7CCPanel16ItemsInCategoryLEi
+10 Name=_ZN7CCPanel22ConstructFromResourceLEv
+11 Name=_ZN7CCPanel5InitLER3RFsi
+12 Name=_ZN7CCPanelD0Ev
+13 Name=_ZN7CCPanelD1Ev
+14 Name=_ZN7CCPanelD2Ev
+15 Name=_ZNK14CCPanelControl14CategoryHandleEv
+16 Name=_ZNK14CCPanelControl4TypeEv
+17 Name=_ZNK14CCPanelControl7CaptionEv
+18 Name=_ZNK16CCPanelItemArray4FindE4TUid
+19 Name=_ZNK7CCPanel10DeleteItemE4TUid
+20 Name=_ZNK7CCPanel12ExternalizeLER12RWriteStream
+21 Name=_ZNK7CCPanel15DeletableItemsLEv
+22 Name=_ZNK7CCPanel8AllItemsEv
+23 Name=_ZNK7CCPanel9AllItemsLEv
+24 Name=_ZTI16CCPanelItemArray
+25 Name=_ZTI7CCPanel
+26 Name=_ZTV16CCPanelItemArray
+27 Name=_ZTV7CCPanel
+28 Name=_ZTI12CCPanelModel
+29 Name=_ZTI14CCPanelControl
+30 Name=_ZTV12CCPanelModel
+31 Name=_ZTV14CCPanelControl
+32 Name=_ZNK14CCPanelControl4IconEi
+;------------------EOF------------------

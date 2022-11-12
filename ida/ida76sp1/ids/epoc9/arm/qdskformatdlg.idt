@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QDSKFORMATDLG Pascal=0
+;---------------------------------------
+1 Name=_ZN14CDiskFormatDlg8RunDlgLDEv
+2 Name=_ZN14CDiskFormatDlg8RunDlgLDEP25MQDskFormatCancelObserver
+;------------------EOF------------------

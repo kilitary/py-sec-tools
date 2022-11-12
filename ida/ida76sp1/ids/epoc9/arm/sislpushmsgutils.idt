@@ -1,0 +1,46 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SISLPUSHMSGUTILS Pascal=0
+;---------------------------------------
+1 Name=_ZN15CSIPushMsgEntry4NewLERK6TPtrC8
+2 Name=_ZN15CSIPushMsgEntry4NewLERi
+3 Name=_ZN15CSIPushMsgEntry4NewLEv
+4 Name=_ZN15CSIPushMsgEntry6SetIdLERK7TDesC16
+5 Name=_ZN15CSIPushMsgEntry7SetUrlLERK7TDesC16
+6 Name=_ZN15CSIPushMsgEntry8SetTextLERK7TDesC16
+7 Name=_ZN15CSIPushMsgEntry9SetActionEi
+8 Name=_ZN15CSIPushMsgEntryD0Ev
+9 Name=_ZN15CSIPushMsgEntryD1Ev
+10 Name=_ZN15CSIPushMsgEntryD2Ev
+11 Name=_ZN15CSLPushMsgEntry4NewLERK6TPtrC8
+12 Name=_ZN15CSLPushMsgEntry4NewLERi
+13 Name=_ZN15CSLPushMsgEntry4NewLEv
+14 Name=_ZN15CSLPushMsgEntry7SetUrlLERK7TDesC16
+15 Name=_ZN15CSLPushMsgEntry9SetActionEi
+16 Name=_ZN15CSLPushMsgEntryD0Ev
+17 Name=_ZN15CSLPushMsgEntryD1Ev
+18 Name=_ZN15CSLPushMsgEntryD2Ev
+19 Name=_ZN17CSISLPushMsgUtils10FindSiIdLCERK7TDesC16
+20 Name=_ZN17CSISLPushMsgUtils10GetActionLEl
+21 Name=_ZN17CSISLPushMsgUtils10GetExpiryLEl
+22 Name=_ZN17CSISLPushMsgUtils12DeleteEntryLEl
+23 Name=_ZN17CSISLPushMsgUtils14GetNextExpiryLEv
+24 Name=_ZN17CSISLPushMsgUtils17GetHighestActionLE4TUid
+25 Name=_ZN17CSISLPushMsgUtils19GetPushMsgFolderIdLERl
+26 Name=_ZN17CSISLPushMsgUtils4NewLEv
+27 Name=_ZN17CSISLPushMsgUtils8FindUrlLERK7TDesC164TUid
+28 Name=_ZN17CSISLPushMsgUtilsD0Ev
+29 Name=_ZN17CSISLPushMsgUtilsD1Ev
+30 Name=_ZN17CSISLPushMsgUtilsD2Ev
+31 Name=_ZNK15CSIPushMsgEntry4TextEv
+32 Name=_ZNK15CSIPushMsgEntry6ActionEv
+33 Name=_ZNK15CSLPushMsgEntry6ActionEv
+34 Name=_ZTI17CSISLPushMsgUtils
+35 Name=_ZTV17CSISLPushMsgUtils
+36 Name=_ZTI15CSIPushMsgEntry
+37 Name=_ZTI15CSLPushMsgEntry
+38 Name=_ZTV15CSIPushMsgEntry
+39 Name=_ZTV15CSLPushMsgEntry
+;------------------EOF------------------

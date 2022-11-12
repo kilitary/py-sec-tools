@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=gpscript.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=GenerateScriptsGroupPolicy Pascal=20
+2 Name=ProcessScriptsGroupPolicy Pascal=32
+3 Name=ProcessScriptsGroupPolicyEx Pascal=40
+4 Name=ScrRegGPOListToWbem Pascal=8
+;------------------EOF------------------

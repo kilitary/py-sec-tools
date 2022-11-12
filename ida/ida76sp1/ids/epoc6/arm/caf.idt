@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CAF Pascal=0
+;---------------------------------------
+1 Name=SetQosL__QContentAccessCDataQContentAccessTQosAttributei
+2 Name=EvaluateIntent__QContentAccessCDataQContentAccessTIntent
+3 Name=ExecuteIntent__QContentAccessCDataQContentAccessTIntent
+4 Name=GetL__QContentAccessCAttribute
+5 Name=NewAttributeL__QContentAccessCContenti
+6 Name=NewLC__QContentAccessCContentRCTDesC16
+7 Name=NewL__QContentAccessCContentRCTDesC16
+8 Name=OpenContentL__QContentAccessCContentQContentAccessTIntent
+9 Name=QuerySet__QContentAccessCAttribute
+10 Name=Read__CQContentAccessCDataRTDes8
+11 Name=Read__CQContentAccessCDataRTDes8RTRequestStatus
+12 Name=Read__CQContentAccessCDataRTDes8i
+13 Name=Read__CQContentAccessCDataRTDes8iRTRequestStatus
+14 Name=Reset__QContentAccessCAttribute
+15 Name=ResponseSet__CQContentAccessCAttribute
+16 Name=Seek__CQContentAccessCDataTSeekRi
+17 Name=DataSizeL__QContentAccessCDataRi
+18 Name=GetMimeTypeL__CQContentAccessCDataRTDes8
+19 Name=WriteData__QContentAccessCImportFileRCTDesC8RTRequestStatus
+20 Name=ConsumerMimeTypes__CQContentAccessCAgentResolver
+21 Name=DeleteFileL__QContentAccessCManagerRCTDesC16
+22 Name=DoRecognize__QContentAccessCAgentResolverRCTDesC16RCTDesC8RTDes8T3
+23 Name=FileName__CQContentAccessCSupplierOutputFile
+24 Name=ImportFileL__QContentAccessCSupplierRQContentAccessCCafMimeHeaderRCTDesC16
+25 Name=IsImportSupported__QContentAccessCSupplierRCTDesC8
+26 Name=MimeTypeL__QContentAccessCSupplierOutputFile
+27 Name=NewLC__QContentAccessCAgentResolveri
+28 Name=NewLC__QContentAccessCSupplier
+29 Name=NewL__QContentAccessCAgentResolveri
+30 Name=NewL__QContentAccessCSupplierOutputFileRCTDesC16QContentAccessTOutputType
+31 Name=NewL__QContentAccessCSupplier
+32 Name=OutputFileCountL__CQContentAccessCImportFile
+33 Name=OutputFileL__CQContentAccessCImportFilei
+34 Name=OutputType__CQContentAccessCSupplierOutputFile
+35 Name=PreferredBufferSize__QContentAccessCAgentResolver
+36 Name=SetOutputDirectoryL__QContentAccessCSupplierRCTDesC16
+37 Name=SupplierMimeTypes__CQContentAccessCAgentResolver
+38 Name=WriteDataComplete__QContentAccessCImportFile
+39 Name=WriteDataComplete__QContentAccessCImportFileRTRequestStatus
+40 Name=WriteData__QContentAccessCImportFileRCTDesC8
+41 Name=AttributesL__QContentAccessCSupplierOutputFilei
+42 Name=NewAttributeL__QContentAccessCContentiQContentAccessTContentShareMode
+43 Name=OpenContentL__QContentAccessCContentQContentAccessTIntentQContentAccessTContentShareMode
+;------------------EOF------------------

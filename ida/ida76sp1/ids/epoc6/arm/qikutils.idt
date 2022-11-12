@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QIKUTILS Pascal=0
+;---------------------------------------
+1 Name=ArrowSize__12QikDrawUtilsQ212QikDrawUtils10TArrowType
+2 Name=DrawArrow__12QikDrawUtilsR16CGraphicsContextR6TPointQ212QikDrawUtils10TArrowTypei
+3 Name=DrawOptionButton__12QikDrawUtilsR16CGraphicsContextR6TPointQ212QikDrawUtils17TOptionButtonType
+4 Name=OptionButtonSize__12QikDrawUtils
+5 Name=LaunchLD__16CQikHelpLauncherPC9CCoeAppUi
+6 Name=LaunchLD__16CQikHelpLauncherRC15TCoeHelpContext
+7 Name=GetRgbDerivedBorderColors__14QikBorderUtilsRQ210TGulBorder7TColors13TLogicalColorP9CEikonEnvRC11CCoeControl
+8 Name=FindCommonlyUsedColors__15QikPaletteUtilsPC9CEikonEnvR8CPalettei
+9 Name=MakeAppDocumentFileNameL__12QikFileUtilsRt4TBuf1i256R11TApaAppInfoRC4TUid
+10 Name=MakeAppDocumentFileNameL__12QikFileUtilsRt4TBuf1i256RC11TApaAppInfo
+11 Name=MakeAppDocumentFileNameL__12QikFileUtilsRt4TBuf1i256RC4TUid
+12 Name=TempFile__12QikFileUtilsRCt4TBuf1i256
+;------------------EOF------------------

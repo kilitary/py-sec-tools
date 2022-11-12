@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MSGWATCHER Pascal=0
+;---------------------------------------
+1 Name=NewL__15CMessageWatcher
+2 Name=NewL__23CMessageExpirationTimer
+3 Name=Reserved_1__15CMessageWatcher
+4 Name=Reserved_2__15CMessageWatcher
+5 Name=Reserved_3__15CMessageWatcher
+;------------------EOF------------------

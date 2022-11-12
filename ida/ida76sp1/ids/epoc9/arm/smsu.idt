@@ -1,0 +1,66 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMSU Pascal=0
+;---------------------------------------
+1 Name=_ZN12TSmsSettings12InternalizeLER11RReadStream
+2 Name=_ZN12TSmsSettingsC1Ev
+3 Name=_ZN12TSmsSettingsC2Ev
+4 Name=_ZN15CSmsEventLogger11ChangeEventER14TRequestStatusRK11CSmsMessageRK14TLogSmsPduDataPi
+5 Name=_ZN15CSmsEventLogger11DeleteEventER14TRequestStatus
+6 Name=_ZN15CSmsEventLogger4NewLER3RFsi
+7 Name=_ZN15CSmsEventLogger8AddEventER14TRequestStatusRK11CSmsMessageRK14TLogSmsPduDataPi
+8 Name=_ZN15CSmsEventLogger8GetEventER14TRequestStatusl
+9 Name=_ZN15CSmsEventLoggerD0Ev
+10 Name=_ZN15CSmsEventLoggerD1Ev
+11 Name=_ZN15CSmsEventLoggerD2Ev
+12 Name=_ZN15CSmsuActiveBase14CompleteMyselfEii
+13 Name=_ZN15CSmsuActiveBase14TimedSetActiveERK27TTimeIntervalMicroSeconds32
+14 Name=_ZN15CSmsuActiveBase17ConstructTimeoutLEv
+15 Name=_ZN15CSmsuActiveBase4RunLEv
+16 Name=_ZN15CSmsuActiveBase5QueueER14TRequestStatus
+17 Name=_ZN15CSmsuActiveBase8CompleteEi
+18 Name=_ZN15CSmsuActiveBase8RunErrorEi
+19 Name=_ZTV15CSmsuActiveBase
+20 Name=_ZN15CSmsuActiveBaseC2Ei
+21 Name=_ZN15CSmsuActiveBaseD0Ev
+22 Name=_ZN15CSmsuActiveBaseD1Ev
+23 Name=_ZN15CSmsuActiveBaseD2Ev
+24 Name=_ZN19CSmsuBackupObserver4NewLEiR24MBackupOperationObserveri
+25 Name=_ZN19CSmsuBackupObserver5StartEv
+26 Name=_ZN19CSmsuBackupObserverD0Ev
+27 Name=_ZN19CSmsuBackupObserverD1Ev
+28 Name=_ZN19CSmsuBackupObserverD2Ev
+29 Name=_ZN20RSmsSocketReadStreamC1ER7RSocket
+30 Name=_ZN20RSmsSocketReadStreamC2ER7RSocket
+31 Name=_ZN21RSmsSocketWriteStreamC1ER7RSocket
+32 Name=_ZN21RSmsSocketWriteStreamC2ER7RSocket
+33 Name=_ZN8TSmsAddr12SetTextMatchERK6TDesC8
+34 Name=_ZN8TSmsAddr16SetSmsAddrFamilyE14TSmsAddrFamily
+35 Name=_ZN8TSmsAddr18SetIdentifierMatchEi
+36 Name=_ZN8TSmsAddrC1Ev
+37 Name=_ZN8TSmsAddrC2Ev
+38 Name=_ZNK12TSmsSettings12ExternalizeLER12RWriteStream
+39 Name=_ZNK19CSmsuBackupObserver24IsBackupOperationRunningEv
+40 Name=_ZNK8TSmsAddr13SmsAddrFamilyEv
+41 Name=_ZNK8TSmsAddr15IdentifierMatchEv
+42 Name=_ZNK8TSmsAddr9TextMatchEv
+43 Name=_ZNK8TSmsAddreqERKS_
+44 Name=_ZTI15CSmsuActiveBase
+45 Name=_ZTI12CSmsuTimeout
+46 Name=_ZTI13RSmsSocketBuf
+47 Name=_ZTI15CSmsEventLogger
+48 Name=_ZTI19CSmsuBackupObserver
+49 Name=_ZTV12CSmsuTimeout
+50 Name=_ZTV13RSmsSocketBuf
+51 Name=_ZTV15CSmsEventLogger
+52 Name=_ZTV19CSmsuBackupObserver
+53 Name=_ZN17CBackupAndRestore27IsBackupOrRestoreInProgressEv
+54 Name=_ZN17CBackupAndRestore4NewLER27MNBBackupAndRestoreObserver
+55 Name=_ZN17CBackupAndRestoreD0Ev
+56 Name=_ZN17CBackupAndRestoreD1Ev
+57 Name=_ZN17CBackupAndRestoreD2Ev
+58 Name=_ZTI17CBackupAndRestore
+59 Name=_ZTV17CBackupAndRestore
+;------------------EOF------------------

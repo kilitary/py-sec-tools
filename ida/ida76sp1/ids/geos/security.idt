@@ -1,0 +1,43 @@
+DECLARATION Nokia 9110 Geos 3.0 library security.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+11 Name=securitydll Args=0 Drops=2
+;---------------------------------------
+1 Name=SecuritySettingsControlClass
+2 Name=PasswordDialogClass
+3 Name=LockedScreenDialogClass
+4 Name=PasswordTextClass
+5 Name=SecurityCheckCellPhoneMediaAvailable
+6 Name=SecurityDoPasswordDialog
+7 Name=SECURITYENTERLOCKMODE \
+	Comment=void pascal SecurityEnterLockMode(void) in security.goh
+8 Name=SECURITYCHECKCELLPHONEMEDIAAVAILABLE \
+	Comment=Boolean pascal SecurityCheckCellPhoneMediaAvailable(void) in security.goh
+9 Name=SECURITYDOPASSWORDDIALOG Pascal=8 \
+	Comment=Boolean pascal SecurityDoPasswordDialog(SecurityCodeType code, optr notifyObj, word notifyMsg) in security.goh
+10 Name=SECURITYTRYTOMAKECELLPHONEMEDIAAVAILABLE \
+	Comment=CellPhoneMediaStatus pascal SecurityTryToMakeCellPhoneMediaAvailable(void) in security.goh
+11 Name=SECURITYGETLOCKTIMEOUTTIME \
+	Comment=word pascal SecurityGetLockTimeOutTime(void) in security.goh
+12 Name=SecurityCopySIMContacts
+13 Name=ProgressDialogClass
+14 Name=QuestionDialogClass
+15 Name=MediaStatusDialogClass
+16 Name=SECURITYCHECKSIMCARDANDPHONE \
+	Comment=word pascal SecurityCheckSIMCardAndPhone(void) in security.goh
+17 Name=SECURITYSUSPENDAUTOLOCK \
+	Comment=void pascal SecuritySuspendAutoLock(void) in security.goh
+18 Name=SECURITYRESUMEAUTOLOCK \
+	Comment=void pascal SecurityResumeAutoLock(void) in security.goh
+19 Name=AutoSaveLoadTextClass
+20 Name=SecurityGetSIMAndPhoneStatus
+21 Name=SECURITYGETSIMANDPHONESTATUS Pascal=4 \
+	Comment=Boolean pascal SecurityGetSIMAndPhoneStatus(SIMCardStatusType *simCardStatus) in security.goh
+22 Name=SecurityGetFDNStatus
+23 Name=SECURITYGETFDNSTATUS \
+	Comment=Boolean pascal SecurityGetFDNStatus(void) in security.goh
+24 Name=SecurityGetLockStatus
+25 Name=SECURITYGETLOCKSTATUS \
+	Comment=Boolean pascal SecurityGetLockStatus(void) in security.goh
+;------------------EOF------------------

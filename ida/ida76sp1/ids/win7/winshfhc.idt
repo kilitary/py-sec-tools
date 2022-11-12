@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=winshfhc.dll Args=0 Drops=2
+;---------------------------------------
+101 Name=EstimateFileRiskLevel Pascal=16
+102 Name=MRTComponent_Generalize Pascal=0
+;------------------EOF------------------

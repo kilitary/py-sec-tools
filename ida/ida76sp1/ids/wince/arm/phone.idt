@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PHONE.dll Pascal=0
+;---------------------------------------
+1 Name=PhoneOpenCallLog
+2 Name=PhoneGetCallLogEntry
+3 Name=PhoneCloseCallLog
+4 Name=PhoneSeekCallLog
+5 Name=PhoneMakeCall
+6 Name=PhoneAddSpeedDial
+7 Name=PhoneShowCallLog
+8 Name=PhoneSendDTMFStart
+9 Name=PhoneSendDTMFStop
+10 Name=PhoneIsEmergencyNumber
+;------------------EOF------------------

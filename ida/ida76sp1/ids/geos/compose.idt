@@ -1,0 +1,12 @@
+DECLARATION Nokia 9110 Geos 3.0 library compose.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=composedll Pascal=0
+;---------------------------------------
+1 Name=ComposeControlClass
+2 Name=ComposeVisClass
+3 Name=ComposeDialogKeyboardClass
+4 Name=ComposeTempoClass
+5 Name=SaveInteractionClass
+;------------------EOF------------------

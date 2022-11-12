@@ -1,0 +1,68 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DATAHND Pascal=0
+;---------------------------------------
+1 Name=__13CDataProviderR3RFsRC8RLibraryi
+2 Name=CDataHandler_Reserved1__C12CDataHandler
+3 Name=CDataProvider_Reserved1__13CDataProvider
+4 Name=CDataProvider_Reserved1__C13CDataProvider
+5 Name=CancelCollection__14CDataCollector
+6 Name=Cancel__12CDataHandler
+7 Name=CollectionStatus__C14CDataCollector
+8 Name=CommitL__12CDataHandler
+9 Name=ContentEncoding__C12CDataHandler
+10 Name=CreateSubDocument__12CDataHandlerP14CDataCollectori
+11 Name=DataCollector__C12CDataHandler
+12 Name=DataCollector__C7CSubDoc
+13 Name=DataHandler__C14CDataCollector
+14 Name=DataProviderObserver__13CDataProvider
+15 Name=DataProvider__C14CDataCollector
+16 Name=DataReceived__C12CDataHandler
+17 Name=Dtd__C12CDataHandler
+18 Name=FetchSubDocFlag__C7CSubDoc
+19 Name=MDataCollectorObserverReserved1__22MDataCollectorObserver
+20 Name=MDataCollectorObserverReserved1__C22MDataCollectorObserver
+21 Name=MDataProviderObserverReserved1__21MDataProviderObserver
+22 Name=MDataProviderObserverReserved1__C21MDataProviderObserver
+23 Name=MDataProviderReserved1__13MDataProvider
+24 Name=MDataProviderReserved1__C13MDataProvider
+25 Name=NewLC__14CDataCollectorR5CNode
+26 Name=NewL__14CDataCollectorR5CNode
+27 Name=NewL__7CSubDocP14CDataCollector
+28 Name=Node__C12CDataHandler
+29 Name=Node__C14CDataCollector
+30 Name=OnChildStatus__12CDataHandlerRC14CDataCollectorR5CNodei
+31 Name=OnChildStatus__14CDataCollectorR5CBaseR5CNodei
+32 Name=PercentProcessed__C12CDataHandler
+33 Name=ResumeCollection__14CDataCollector
+34 Name=ResumeL__13CDataProvider
+35 Name=Resume__12CDataHandler
+36 Name=SetBaseUrlL__12CDataHandlerP7TDesC16
+37 Name=SetBaseUrlL__14CDataCollectorP7TDesC16
+38 Name=SetContentEncodingL__12CDataHandlerR7TDesC16
+39 Name=SetDataCollector__12CDataHandlerRC14CDataCollector
+40 Name=SetDataExpected__12CDataHandleri
+41 Name=SetDataExpected__14CDataCollectori
+42 Name=SetDataHandler__14CDataCollectorP12CPluginOwner
+43 Name=SetDataProviderObserver__13CDataProviderRC21MDataProviderObserver
+44 Name=SetDataProvider__14CDataCollectorP12CPluginOwner
+45 Name=SetDocumentTypeL__12CDataHandlerR7TDesC16
+46 Name=SetDocumentTypeL__12CDataHandlerR7TDesC16T1
+47 Name=SetDocumentTypeL__14CDataCollectorR7TDesC16T1
+48 Name=SetDtd__12CDataHandlerRC4CDTD
+49 Name=SetFetchSubDocumentFlag__7CSubDoc
+50 Name=SetNode__12CDataHandlerRC5CNode
+51 Name=SetStatus__12CDataHandleri
+52 Name=Status__C7CSubDoc
+53 Name=SuspendCollection__14CDataCollector
+54 Name=SuspendL__13CDataProvider
+55 Name=Suspend__12CDataHandler
+56 Name=ValidateL__12CDataHandlerR5CNode
+57 Name=_._12CDataHandler
+58 Name=_._13CDataProvider
+59 Name=_._14CDataCollector
+60 Name=__12CDataHandlerR3RFsRC8RLibraryi
+61 Name=CDataHandler_Reserved1__12CDataHandler
+;------------------EOF------------------

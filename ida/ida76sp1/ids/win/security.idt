@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=security.dll Args=0 Drops=36
+;---------------------------------------
+1 Name=AcceptSecurityContext Pascal=36
+2 Name=AcquireCredentialsHandleA Pascal=36
+3 Name=AcquireCredentialsHandleW Pascal=36
+4 Name=AddSecurityPackageA Pascal=8
+5 Name=AddSecurityPackageW Pascal=8
+6 Name=ApplyControlToken Pascal=8
+7 Name=CompleteAuthToken Pascal=8
+8 Name=DecryptMessage Pascal=16
+9 Name=DeleteSecurityContext Pascal=4
+10 Name=DeleteSecurityPackageA Pascal=4
+11 Name=DeleteSecurityPackageW Pascal=4
+12 Name=EncryptMessage Pascal=16
+13 Name=EnumerateSecurityPackagesA Pascal=8
+14 Name=EnumerateSecurityPackagesW Pascal=8
+15 Name=ExportSecurityContext Pascal=16
+16 Name=FreeContextBuffer Pascal=4
+17 Name=FreeCredentialsHandle Pascal=4
+18 Name=ImpersonateSecurityContext Pascal=4
+19 Name=ImportSecurityContextA Pascal=16
+20 Name=ImportSecurityContextW Pascal=16
+21 Name=InitSecurityInterfaceA Pascal=0
+22 Name=InitSecurityInterfaceW Pascal=0
+23 Name=InitializeSecurityContextA Pascal=48
+24 Name=InitializeSecurityContextW Pascal=48
+25 Name=MakeSignature Pascal=16
+26 Name=QueryContextAttributesA Pascal=12
+27 Name=QueryContextAttributesW Pascal=12
+28 Name=QueryCredentialsAttributesA Pascal=12
+29 Name=QueryCredentialsAttributesW Pascal=12
+30 Name=QuerySecurityContextToken Pascal=8
+31 Name=QuerySecurityPackageInfoA Pascal=8
+32 Name=QuerySecurityPackageInfoW Pascal=8
+33 Name=RevertSecurityContext Pascal=4
+34 Name=SealMessage Pascal=16
+35 Name=UnsealMessage Pascal=16
+36 Name=VerifySignature Pascal=16
+;------------------EOF------------------

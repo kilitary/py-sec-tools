@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dhcpcsvc6.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=Dhcpv6AcquireParameters Pascal=4
+2 Name=Dhcpv6CancelOperation Pascal=0
+3 Name=Dhcpv6EnableTracing Pascal=4
+4 Name=Dhcpv6FreeLeaseInfo Pascal=4
+5 Name=Dhcpv6GetTraceArray Pascal=4
+6 Name=Dhcpv6GetUserClasses Pascal=16
+7 Name=Dhcpv6IsEnabled Pascal=8
+8 Name=Dhcpv6QueryLeaseInfo Pascal=8
+9 Name=Dhcpv6ReleaseParameters Pascal=4
+10 Name=Dhcpv6ReleasePrefix Pascal=12
+11 Name=Dhcpv6ReleasePrefixEx Pascal=16
+12 Name=Dhcpv6RenewPrefix Pascal=20
+13 Name=Dhcpv6RenewPrefixEx Pascal=24
+14 Name=Dhcpv6RequestParams Pascal=32
+15 Name=Dhcpv6RequestPrefix Pascal=16
+16 Name=Dhcpv6RequestPrefixEx Pascal=20
+17 Name=Dhcpv6SetUserClass Pascal=12
+;------------------EOF------------------

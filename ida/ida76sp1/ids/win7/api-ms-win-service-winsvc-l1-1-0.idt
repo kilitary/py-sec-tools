@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-service-winsvc-l1-1-0.dll Args=0 Drops=26
+;---------------------------------------
+1 Name=ChangeServiceConfig2A Pascal=12
+2 Name=ChangeServiceConfigA Pascal=44
+3 Name=ControlService Pascal=12
+4 Name=ControlServiceExA Pascal=16
+5 Name=CreateServiceA Pascal=52
+6 Name=I_QueryTagInformation Pascal=12
+7 Name=I_ScBroadcastServiceControlMessage Pascal=16
+8 Name=I_ScIsSecurityProcess Pascal=0
+9 Name=I_ScPnPGetServiceName Pascal=12
+10 Name=I_ScQueryServiceConfig Pascal=12
+11 Name=I_ScRpcBindA Pascal=4
+12 Name=I_ScRpcBindW Pascal=4
+13 Name=I_ScSendPnPMessage Pascal=24
+14 Name=I_ScSendTSMessage Pascal=16
+15 Name=I_ScValidatePnPService Pascal=12
+16 Name=NotifyServiceStatusChangeA Pascal=12
+17 Name=OpenSCManagerA Pascal=12
+18 Name=OpenServiceA Pascal=12
+19 Name=QueryServiceConfig2A Pascal=20
+20 Name=QueryServiceConfigA Pascal=16
+21 Name=QueryServiceStatus Pascal=8
+22 Name=RegisterServiceCtrlHandlerA Pascal=8
+23 Name=RegisterServiceCtrlHandlerExA Pascal=12
+24 Name=RegisterServiceCtrlHandlerW Pascal=8
+25 Name=StartServiceA Pascal=12
+26 Name=StartServiceCtrlDispatcherA Pascal=4
+;------------------EOF------------------

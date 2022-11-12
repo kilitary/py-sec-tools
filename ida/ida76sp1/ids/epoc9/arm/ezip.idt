@@ -1,0 +1,41 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EZIP Pascal=0
+;---------------------------------------
+1 Name=_ZN14CZipFileMemberD0Ev
+2 Name=_ZN14CZipFileMemberD1Ev
+3 Name=_ZN14CZipFileMemberD2Ev
+4 Name=_ZN22CZipFileMemberIterator5NextLEv
+5 Name=_ZN26RZipFileMemberReaderStream4ReadER6TDes16i
+6 Name=_ZN26RZipFileMemberReaderStreamD0Ev
+7 Name=_ZN26RZipFileMemberReaderStreamD1Ev
+8 Name=_ZN26RZipFileMemberReaderStreamD2Ev
+9 Name=_ZN8CZipFile10ConstructLERK7TDesC16
+10 Name=_ZN8CZipFile11GetMembersLEv
+11 Name=_ZN8CZipFile15GetInputStreamLEPK14CZipFileMemberRP26RZipFileMemberReaderStream
+12 Name=_ZN8CZipFile22CaseInsensitiveMemberLERK7TDesC16
+13 Name=_ZN8CZipFile37CaseSensitiveOrCaseInsensitiveMemberLERK7TDesC16
+14 Name=_ZN8CZipFile4NewLER3RFsRK7TDesC16
+15 Name=_ZN8CZipFile5CloseEv
+16 Name=_ZN8CZipFile5OpenLEv
+17 Name=_ZN8CZipFile7MemberLERK7TDesC16
+18 Name=_ZN8CZipFileC1ER3RFsRK7TDesC16
+19 Name=_ZN8CZipFileC2ER3RFsRK7TDesC16
+20 Name=_ZN8CZipFileD0Ev
+21 Name=_ZN8CZipFileD1Ev
+22 Name=_ZN8CZipFileD2Ev
+23 Name=_ZNK14CZipFileMember14CompressedSizeEv
+24 Name=_ZNK14CZipFileMember16UncompressedSizeEv
+25 Name=_ZNK14CZipFileMember4NameEv
+26 Name=_ZNK14CZipFileMember5CRC32Ev
+27 Name=_ZNK8CZipFile4SizeERi
+28 Name=_ZTI14CZipFileMember
+29 Name=_ZTI8CZipFile
+30 Name=_ZTV14CZipFileMember
+31 Name=_ZTV8CZipFile
+32 Name=_ZTI26RZipFileMemberReaderStream
+33 Name=_ZTV26RZipFileMemberReaderStream
+34 Name=_ZN8CZipFile4NewLER3RFsR5RFile
+;------------------EOF------------------

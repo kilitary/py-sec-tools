@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DRMLICENSECHECKER Pascal=0
+;---------------------------------------
+1 Name=_ZN18CDRMLicenseChecker12CheckLicenseERK7TDesC16RP6HBufC8
+2 Name=_ZN18CDRMLicenseChecker4NewLEv
+3 Name=_ZN18CDRMLicenseCheckerD0Ev
+4 Name=_ZN18CDRMLicenseCheckerD1Ev
+5 Name=_ZN18CDRMLicenseCheckerD2Ev
+6 Name=_ZTI18CDRMLicenseChecker
+7 Name=_ZTV18CDRMLicenseChecker
+;------------------EOF------------------

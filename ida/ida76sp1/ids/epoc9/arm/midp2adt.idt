@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2ADT Pascal=0
+;---------------------------------------
+1 Name=_ZN4MIDP13CPropertyList12ExternalizeLER12RWriteStream
+2 Name=_ZN4MIDP13CPropertyList12InternalizeLER11RReadStream
+3 Name=_ZN4MIDP13CPropertyList4PutLERK7TDesC16S3_
+4 Name=_ZN4MIDP13CPropertyListC1Ev
+5 Name=_ZN4MIDP13CPropertyListC2Ev
+6 Name=_ZN4MIDP13CPropertyListD0Ev
+7 Name=_ZN4MIDP13CPropertyListD1Ev
+8 Name=_ZN4MIDP13CPropertyListD2Ev
+9 Name=_ZNK4MIDP13CPropertyList3GetERK7TDesC16R7TPtrC16
+10 Name=_ZTIN4MIDP13CPropertyListE
+11 Name=_ZTVN4MIDP13CPropertyListE
+12 Name=_ZThn4_N4MIDP13CPropertyListD0Ev
+13 Name=_ZThn4_N4MIDP13CPropertyListD1Ev
+14 Name=_ZThn4_NK4MIDP13CPropertyList3GetERK7TDesC16R7TPtrC16
+15 Name=_ZTIN4MIDP9CPropertyE
+16 Name=_ZTVN4MIDP9CPropertyE
+;------------------EOF------------------

@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QBTAUDIOCONNECTOR Pascal=0
+;---------------------------------------
+1 Name=_ZN18CQBtAudioConnector4NewLER26MQBtAudioConnectorObserver
+;------------------EOF------------------

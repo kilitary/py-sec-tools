@@ -1,0 +1,62 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=XMLFRAMEWORK Pascal=0
+;---------------------------------------
+1 Name=__QXmlRTagInfo
+2 Name=Attribute__CQXmlRAttribute
+3 Name=CharacterSetName__CQXmlRDocumentParameters
+4 Name=Close__QXmlRAttribute
+5 Name=Close__QXmlRDocumentParameters
+6 Name=Close__QXmlRStringDictionaryCollection
+7 Name=Close__QXmlRTagInfo
+8 Name=CodePage__CQXmlCDictionaryCodePage
+9 Name=ConstructIndexMappingL__QXmlCDictionaryCodePagePCiQXmlCDictionaryCodePageTStringType
+10 Name=ConvertCharacterSetIdentifierToStandardNameL__QXmlCCharSetConverterUlRPHBufC8
+11 Name=ConvertFromUnicodeL__QXmlCCharSetConverterRCTDesC16UlRPHBufC8
+12 Name=ConvertToUnicodeL__QXmlCCharSetConverterUlRCTDesC8RPHBufC16
+13 Name=ConvertUcsCharactersToEncodingL__QXmlCCharSetConverterPUliUlRPHBufC8
+14 Name=Copy__QXmlRAttribute
+15 Name=Copy__QXmlRTagInfo
+16 Name=CurrentDictionaryL__CQXmlRStringDictionaryCollection
+17 Name=DisableFeature__QXmlCParseri
+18 Name=EnableFeature__QXmlCParseri
+19 Name=IsFeatureEnabled__CQXmlCParseri
+20 Name=LocalName__CQXmlRTagInfo
+21 Name=NewLC__QXmlCParserRCTDesC8RQXmlMContentHandler
+22 Name=NewL__QXmlCDictionaryCodePagePCTStringTableNUc
+23 Name=NewL__QXmlCParserRCTDesC8RQXmlMContentHandler
+24 Name=OpenDictionaryL__QXmlRStringDictionaryCollectionRCTDesC8
+25 Name=OpenL__QXmlRStringDictionaryCollection
+26 Name=Open__QXmlRAttributeRCRStringNQXmlTAttributeType
+27 Name=Open__QXmlRAttributeRCRStringNQXmlTAttributeType
+28 Name=Open__QXmlRDocumentParametersRCRString
+29 Name=Open__QXmlRTagInfoRCRStringN21
+30 Name=ParseEndL__QXmlCParser
+31 Name=ParseL__XmlRQXmlCParserRCTDesC8
+32 Name=ParseL__QXmlCParserRCTDesC8
+33 Name=ParseL___XmlRQXmlCParserRRFsRCTDesC16
+34 Name=Prefix__CQXmlRTagInfo
+35 Name=PrepareCharConvL__QXmlCCharSetConverterRUiRCTDesC8
+36 Name=PrepareCharConvL__QXmlCCharSetConverterRUii
+37 Name=PrepareToConvertToOrFromL__QXmlCCharSetConverterUl
+38 Name=SetProcessorChainL__QXmlCParserRCtRArrayZTUid
+39 Name=SetValue__QXmlRAttributeRCRString
+40 Name=StringDictionaryCollection__QXmlCParser
+41 Name=StringPoolIndexFromToken__CQXmlCDictionaryCodePageiQXmlCDictionaryCodePageTStringType
+42 Name=StringPool__QXmlRStringDictionaryCollection
+43 Name=StringPool__QXmlCParser
+44 Name=StringTable__CQXmlCDictionaryCodePageQXmlCDictionaryCodePageTStringType
+45 Name=TokenFromStringPoolIndex__CQXmlCDictionaryCodePageiQXmlCDictionaryCodePageTStringType
+46 Name=Type__CQXmlRAttribute
+47 Name=Uri__CQXmlRTagInfo
+48 Name=Value__CQXmlRAttribute
+49 Name=_._QXmlCDictionaryCodePage
+50 Name=__QXmlRAttribute
+51 Name=__QXmlRDocumentParameters
+52 Name=__QXmlRStringDictionaryCollection
+53 Name=AddPreloadedDictionaryL__QXmlCParserRCTDesC8
+54 Name=ParseBeginL__QXmlCParser
+55 Name=ParseBeginL__QXmlCParserRCTDesC8
+;------------------EOF------------------

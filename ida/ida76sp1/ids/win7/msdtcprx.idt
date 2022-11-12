@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msdtcprx.dll Args=0 Drops=36
+;---------------------------------------
+4 Name=DllGetDTCProxy Pascal=12
+5 Name=?Create@CNameService@@SGJPAPAV1@@Z Pascal=4
+6 Name=?CreateInstance@CTmProxyCore@@SGJPAPAV1@PAUIUnknown@@@Z Pascal=8
+7 Name=?DeployDtc@@YGJXZ Pascal=0
+8 Name=?GetDtcLogPath@@YGHKPAG@Z Pascal=8
+9 Name=?InstallContacts@@YGJPAUITmInstance@@@Z Pascal=4
+10 Name=DTC_XaOpen Pascal=0
+11 Name=DTC_XaStart Pascal=0
+12 Name=DTC_XaEnd Pascal=0
+13 Name=DTC_XaPrepare Pascal=0
+14 Name=DTC_XaCommit Pascal=0
+15 Name=DTC_XaRollback Pascal=0
+16 Name=DTC_XaRecover Pascal=0
+17 Name=DTC_XaForget Pascal=0
+18 Name=DTC_XaComplete Pascal=0
+19 Name=DTC_XaClose Pascal=0
+20 Name=?InstallDtc@@YGJPAUITmInstance@@PAG111KK1H@Z Pascal=36
+21 Name=?InstallDtcClient@@YGJPAGKK@Z Pascal=12
+22 Name=?RemoveDtc@@YGJPAG00@Z Pascal=12
+23 Name=UpgradeApplySuccess Pascal=4
+24 Name=ShutDownCM Pascal=0
+25 Name=DllGetDTCConnectionManager Pascal=12
+26 Name=DllGetDTCUtilObject Pascal=12
+27 Name=ContactToNameObject Pascal=4
+28 Name=SysPrepDtcCleanup Pascal=0
+29 Name=SysPrepDtcGeneralize Pascal=0
+30 Name=SysPrepDtcSpecialize Pascal=0
+31 Name=CreateLegacyTmInstance Pascal=8
+32 Name=CreateLocalTmInstance Pascal=4
+33 Name=CreateRemoteProxyTmInstance Pascal=4
+34 Name=CreateTmInstanceForRemoteAdmin Pascal=8
+35 Name=DllGetClassObject Pascal=12
+36 Name=DllGetTransactionManagerCore Pascal=0
+37 Name=DllRegisterServer Pascal=0
+38 Name=DllUnregisterServer Pascal=0
+39 Name=GetTmInstance Pascal=12
+;------------------EOF------------------

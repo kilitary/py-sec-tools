@@ -1,0 +1,59 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=puiapi.dll Args=0 Drops=52
+;---------------------------------------
+1 Name=PUIAPI_CreateInstance Pascal=16
+2 Name=PUIAPI_GetErrorString Pascal=8
+3 Name=PUIAPI_GetPrinter Pascal=12
+4 Name=PUIAPI_IWaitNotify_CreateInstance Pascal=4
+5 Name=PUIAPI_IWaitNotify_RegisterTimer Pascal=20
+6 Name=PUIAPI_IWaitNotify_RegisterWaitObject Pascal=20
+7 Name=PUIAPI_IWaitNotify_UnregisterCookie Pascal=8
+8 Name=PUIAPI_ShowBrowseForPrinterDialog Pascal=12
+9 Name=PUIAPI_ShowDetailsMessageBox Pascal=24
+10 Name=PUIAPI_ShowDriverPackageRemovalUI Pascal=20
+11 Name=STRAPI_ConvertCase Pascal=12
+12 Name=STRAPI_CrackPrintUNCName Pascal=12
+13 Name=STRAPI_FindAndReplace Pascal=16
+14 Name=STRAPI_Format Pascal=0
+15 Name=STRAPI_FormatMsg Pascal=0
+16 Name=STRAPI_FormatMsgV Pascal=12
+17 Name=STRAPI_FormatV Pascal=12
+18 Name=STRAPI_GUID2String Pascal=8
+19 Name=STRAPI_GetJobStatusString Pascal=12
+20 Name=STRAPI_GetPrinterStatusString Pascal=12
+21 Name=STRAPI_LoadString Pascal=12
+22 Name=STRAPI_MultiCat Pascal=0
+23 Name=STRAPI_String2GUID Pascal=8
+24 Name=STRAPI_TrimString Pascal=12
+25 Name=STRAPI_XMLSafeText Pascal=8
+26 Name=STRBUF_AppendString Pascal=8
+27 Name=STRBUF_Create Pascal=8
+28 Name=STRBUF_CreateBSTR Pascal=8
+29 Name=STRBUF_DeleteSubstring Pascal=12
+30 Name=STRBUF_Destroy Pascal=4
+31 Name=STRBUF_FindAndReplace Pascal=12
+32 Name=STRBUF_Format Pascal=0
+33 Name=STRBUF_InsertString Pascal=12
+34 Name=STRBUF_MultiCat Pascal=0
+35 Name=STRBUF_ToLower Pascal=4
+36 Name=STRBUF_ToUpper Pascal=4
+37 Name=STRBUF_TrimLeft Pascal=4
+38 Name=STRBUF_TrimRight Pascal=4
+39 Name=STRBUF_Truncate Pascal=8
+40 Name=STRBUF_Update Pascal=8
+41 Name=XMLAPI_GetAttributeDouble Pascal=12
+42 Name=XMLAPI_GetAttributeLong Pascal=12
+43 Name=XMLAPI_GetAttributeString Pascal=12
+44 Name=XMLAPI_GetAttributeULongLong Pascal=12
+45 Name=XMLAPI_SetAttributeDouble Pascal=16
+46 Name=XMLAPI_SetAttributeLong Pascal=12
+47 Name=XMLAPI_SetAttributeString Pascal=12
+48 Name=XMLAPI_SetAttributeULongLong Pascal=16
+49 Name=DllCanUnloadNow Pascal=0
+50 Name=DllGetClassObject Pascal=12
+51 Name=DllRegisterServer Pascal=0
+52 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

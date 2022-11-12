@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BALMROUTER Pascal=0
+;---------------------------------------
+1 Name=_Z12CreatePluginv
+2 Name=_ZTIN3BAL16CBALConnectionMRE
+3 Name=_ZTVN3BAL16CBALConnectionMRE
+;------------------EOF------------------

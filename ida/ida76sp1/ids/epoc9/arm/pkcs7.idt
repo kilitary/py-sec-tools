@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PKCS7 Pascal=0
+;---------------------------------------
+1 Name=_ZN18CPKCS7SignedObject10ConstructLERK6TDesC8
+2 Name=_ZN18CPKCS7SignedObject12InternalizeLER11RReadStream
+3 Name=_ZN18CPKCS7SignedObject15ValidateSignerLERK16CPKCS7SignerInfoRP6HBufC8
+4 Name=_ZN18CPKCS7SignedObject4NewLERK6TDesC8
+5 Name=_ZN18CPKCS7SignedObject5NewLCERK6TDesC8
+6 Name=_ZN18CPKCS7SignedObjectC1Ev
+7 Name=_ZN18CPKCS7SignedObjectC2Ev
+8 Name=_ZN18CPKCS7SignedObjectD0Ev
+9 Name=_ZN18CPKCS7SignedObjectD1Ev
+10 Name=_ZN18CPKCS7SignedObjectD2Ev
+11 Name=_ZNK16CPKCS7SignerInfo15DigestAlgorithmEv
+12 Name=_ZNK16CPKCS7SignerInfo15EncryptedDigestEv
+13 Name=_ZNK16CPKCS7SignerInfo21IssuerAndSerialNumberEv
+14 Name=_ZNK16CPKCS7SignerInfo25DigestEncryptionAlgorithmEv
+15 Name=_ZNK16CPKCS7SignerInfo7VersionEv
+16 Name=_ZNK17CPKCS7ContentInfo11ContentDataEv
+17 Name=_ZNK17CPKCS7ContentInfo11ContentTypeEv
+18 Name=_ZNK18CPKCS7SignedObject10SignerInfoEv
+19 Name=_ZNK18CPKCS7SignedObject11ContentInfoEv
+20 Name=_ZNK18CPKCS7SignedObject11SignedDataLEv
+21 Name=_ZNK18CPKCS7SignedObject12CertificatesEv
+22 Name=_ZNK18CPKCS7SignedObject16DigestAlgorithmsEv
+23 Name=_ZNK18CPKCS7SignedObject19DataElementEncodingEj
+24 Name=_ZNK18CPKCS7SignedObject7VersionEv
+25 Name=_ZNK27CPKCS7IssuerAndSerialNumber10IssuerNameEv
+26 Name=_ZNK27CPKCS7IssuerAndSerialNumber12SerialNumberEv
+27 Name=_ZNK38CPKCS7ExtendedCertificateOrCertificate11CertificateEv
+28 Name=_ZTI18CPKCS7SignedObject
+29 Name=_ZTV18CPKCS7SignedObject
+30 Name=_ZTI16CPKCS7SignerInfo
+31 Name=_ZTI17CPKCS7ContentInfo
+32 Name=_ZTI27CPKCS7IssuerAndSerialNumber
+33 Name=_ZTI38CPKCS7ExtendedCertificateOrCertificate
+34 Name=_ZTV16CPKCS7SignerInfo
+35 Name=_ZTV17CPKCS7ContentInfo
+36 Name=_ZTV27CPKCS7IssuerAndSerialNumber
+37 Name=_ZTV38CPKCS7ExtendedCertificateOrCertificate
+;------------------EOF------------------

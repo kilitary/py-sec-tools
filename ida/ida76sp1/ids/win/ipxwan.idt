@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ipxwan.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=IpxwanBind Pascal=4
+2 Name=IpxwanUnbind Pascal=0
+;------------------EOF------------------

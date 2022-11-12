@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=slgen.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=ExCPLQuery Pascal=0
+2 Name=SLAddExtra Pascal=16
+3 Name=SLRunServ Pascal=16
+4 Name=SLSetPort Pascal=16
+;------------------EOF------------------

@@ -1,0 +1,35 @@
+DECLARATION Nokia 9110 Geos 3.0 library borlandc.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+13 Name=borlandcdll Args=0 Drops=13
+;---------------------------------------
+1 Name=SIN Pascal=8 \
+	Comment=double pascal sin(double __x) in math.h
+2 Name=COS Pascal=8 \
+	Comment=double pascal cos(double __x) in math.h
+3 Name=TAN Pascal=8 \
+	Comment=double pascal tan(double __x) in math.h
+4 Name=COSH Pascal=8 \
+	Comment=double pascal cosh(double __x) in math.h
+5 Name=SINH Pascal=8 \
+	Comment=double pascal sinh(double __x) in math.h
+6 Name=TANH Pascal=8 \
+	Comment=double pascal tanh(double __x) in math.h
+7 Name=ATAN Pascal=8 \
+	Comment=double pascal atan(double __x) in math.h
+8 Name=ACOS Pascal=8 \
+	Comment=double pascal acos(double __x) in math.h
+9 Name=ASIN Pascal=8 \
+	Comment=double pascal asin(double __x) in math.h
+10 Name=ATANH Pascal=8 \
+	Comment=double pascal atanh(double __x) in math.h
+11 Name=ASINH Pascal=8 \
+	Comment=double pascal asinh(double __x) in math.h
+12 Name=ACOSH Pascal=8 \
+	Comment=double pascal acosh(double __x) in math.h
+13 Name=LOG
+14 Name=LN
+15 Name=SQRT Pascal=8 \
+	Comment=double pascal sqrt(double __x) in math.h
+;------------------EOF------------------

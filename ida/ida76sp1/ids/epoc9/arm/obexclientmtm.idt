@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OBEXCLIENTMTM Pascal=0
+;---------------------------------------
+1 Name=_ZN14CObexClientMtm10ConstructLEv
+2 Name=_ZN14CObexClientMtm11SetSubjectLERK7TDesC16
+3 Name=_ZN14CObexClientMtm12LoadMessageLEv
+4 Name=_ZN14CObexClientMtm12SaveMessageLEv
+6 Name=_ZN14CObexClientMtm13AddAddresseeLERK7TDesC16
+7 Name=_ZN14CObexClientMtm13AddAddresseeLERK7TDesC16S2_
+9 Name=_ZN14CObexClientMtm14CommitChangesLEv
+10 Name=_ZN14CObexClientMtm14CreateMessageLEl
+11 Name=_ZN14CObexClientMtm15QueryCapabilityE4TUidRi
+12 Name=_ZN14CObexClientMtm15RemoveAddresseeEi
+13 Name=_ZN14CObexClientMtm15ValidateMessageEj
+14 Name=_ZN14CObexClientMtm18GetAttachmentSizeLEv
+15 Name=_ZN14CObexClientMtm19InvokeSyncFunctionLEiRK18CMsvEntrySelectionR5TDes8
+16 Name=_ZN14CObexClientMtm20ContextEntrySwitchedEv
+21 Name=_ZN14CObexClientMtm4FindERK7TDesC16j
+22 Name=_ZN14CObexClientMtm6ReplyLEljR14TRequestStatus
+23 Name=_ZN14CObexClientMtm8ForwardLEljR14TRequestStatus
+24 Name=_ZTV14CObexClientMtm
+25 Name=_ZN14CObexClientMtmC2ER17CRegisteredMtmDllR11CMsvSession4TUid
+26 Name=_ZN14CObexClientMtmD0Ev
+27 Name=_ZN14CObexClientMtmD1Ev
+28 Name=_ZN14CObexClientMtmD2Ev
+29 Name=_ZNK14CObexClientMtm8SubjectLEv
+30 Name=_ZTI14CObexClientMtm
+31 Name=_ZN14CObexClientMtm24CreateMessageAttachmentLEl
+;------------------EOF------------------

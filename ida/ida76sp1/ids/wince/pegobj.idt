@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PEGOBJ.dll Pascal=0
+;---------------------------------------
+1 Name=FindObjects
+2 Name=GetObjTypeInfo
+3 Name=InitObjType
+4 Name=ObjectNotify
+5 Name=ReportStatus
+;------------------EOF------------------

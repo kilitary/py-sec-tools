@@ -1,0 +1,21 @@
+DECLARATION Nokia 9110 Geos 3.0 library ruler.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+2 Name=rulerdll Args=0 Drops=2
+;---------------------------------------
+1 Name=VisRulerClass
+2 Name=RulerContentClass
+3 Name=RulerViewClass
+4 Name=RulerTypeControlClass
+5 Name=GuideCreateControlClass
+6 Name=RulerGuideControlClass
+7 Name=RulerGridControlClass
+8 Name=RulerShowControlClass
+9 Name=RulerScaleDocToWinCoords
+10 Name=RulerScaleWinToDocCoords
+11 Name=RULERSCALEDOCTOWINCOORDS Pascal=8 \
+	Comment=void pascal RulerScaleDocToWinCoords(VisRulerInstance* pself, DWFixed* point) in ruler.goh
+12 Name=RULERSCALEWINTODOCCOORDS Pascal=8 \
+	Comment=void pascal RulerScaleWinToDocCoords(VisRulerInstance* pself, DWFixed* point) in ruler.goh
+;------------------EOF------------------

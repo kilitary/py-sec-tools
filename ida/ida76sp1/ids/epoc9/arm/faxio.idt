@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FAXIO Pascal=0
+;---------------------------------------
+1 Name=_ZN15CFaxHeaderLines16ReadRawFontLineLEiR5TBuf8ILi216EE
+2 Name=_ZN15CFaxHeaderLines17WriteRawFontLineLEiR5TBuf8ILi216EE
+3 Name=_ZN15CFaxHeaderLines18ReadFaxHeaderInfoLER14TFaxHeaderInfo
+4 Name=_ZN15CFaxHeaderLines18ReadRawHeaderLineLEiR5TBuf8ILi216EE
+5 Name=_ZN15CFaxHeaderLines19WriteFaxHeaderInfoLER14TFaxHeaderInfo
+6 Name=_ZN15CFaxHeaderLines19WriteRawHeaderLineLEiR5TBuf8ILi216EE
+7 Name=_ZN15CFaxHeaderLines4NewLEv
+8 Name=_ZN15CFaxHeaderLines5NewLCEv
+9 Name=_ZN6CFaxT414DecodeScanLineER5TDes8RK6TDesC8
+10 Name=_ZN6CFaxT414EncodeScanLineERK6TDesC8R5TDes8
+11 Name=_ZN6CFaxT414PageInitializeE14TFaxResolution15TFaxCompressioni
+12 Name=_ZN6CFaxT416DecodeScanLine1DER5TDes8RK6TDesC8
+13 Name=_ZN6CFaxT416DecodeScanLine2DER5TDes8RK6TDesC8
+14 Name=_ZN6CFaxT416EncodeScanLine1DERK6TDesC8R5TDes8
+15 Name=_ZN6CFaxT416EncodeScanLine2DERK6TDesC8R5TDes8
+16 Name=_ZN6CFaxT44NewLEv
+17 Name=_ZN6CFaxT45NewLCEv
+18 Name=_ZTI15CFaxHeaderLines
+19 Name=_ZTV15CFaxHeaderLines
+20 Name=_ZN15CFaxHeaderLines26GeneratePathForHeaderFileLER6TDes16
+21 Name=_ZN15CFaxHeaderLines5NewLCEP5RFile
+;------------------EOF------------------

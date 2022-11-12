@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=UXInit.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=ThemeWatchForStart Pascal=0
+2 Name=ThemeWaitForServiceReady Pascal=4
+3 Name=ThemeUserLogoff Pascal=0
+4 Name=ThemeUserLogon Pascal=8
+5 Name=ThemeUserStartShell Pascal=0
+6 Name=ThemeUserTSReconnect Pascal=0
+7 Name=ThemesOnCreateSession Pascal=0
+8 Name=ThemesOnTerminateSession Pascal=0
+9 Name=ThemesOnLogon Pascal=4
+10 Name=ThemesOnLogoff Pascal=0
+11 Name=ThemesOnReconnect Pascal=0
+12 Name=??1CSecuredObject@@QAE@XZ Pascal=0
+13 Name=ThemesOnCreateSessionWithPID Pascal=4
+14 Name=ThemesOnWinlogonSetup Pascal=0
+;------------------EOF------------------

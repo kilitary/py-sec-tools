@@ -1,0 +1,65 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ANIMATIONSHARED Pascal=0
+;---------------------------------------
+1 Name=_ZN13CAnimationTls4NewLEv
+2 Name=_ZN13CAnimationTls5CloseEv
+3 Name=_ZN13CAnimationTls6TickerEv
+4 Name=_ZN15CAnimationFrame11SetHandlesLERKNS_8THandlesE
+5 Name=_ZN15CAnimationFrame4NewLERKNS_8THandlesE
+6 Name=_ZN15CAnimationFrame4NewLEv
+7 Name=_ZN15CAnimationFrame7CreateLERK10TFrameInfo
+8 Name=_ZN15CAnimationFrameD0Ev
+9 Name=_ZN15CAnimationFrameD1Ev
+10 Name=_ZN15CAnimationFrameD2Ev
+11 Name=_ZN16CAnimationTicker3AddEP16MAnimationTickee
+12 Name=_ZN16CAnimationTicker4NewLE27TTimeIntervalMicroSeconds32
+13 Name=_ZN16CAnimationTicker6FreezeEv
+14 Name=_ZN16CAnimationTicker6RemoveEP16MAnimationTickee
+15 Name=_ZN16CAnimationTicker8UnfreezeEv
+16 Name=_ZN16CAnimationTickerD0Ev
+17 Name=_ZN16CAnimationTickerD1Ev
+18 Name=_ZN16CAnimationTickerD2Ev
+19 Name=_ZN22CAnimationDataProvider10SendEventLEi
+20 Name=_ZN22CAnimationDataProvider10SendEventLEiPvi
+21 Name=_ZN22CAnimationDataProvider10SendEventLEii
+22 Name=_ZN22CAnimationDataProvider11SetObserverEP30MAnimationDataProviderObserver
+23 Name=_ZN9CAnimator4NewLEP16MAnimationDrawer
+24 Name=_ZN9CAnimatorD0Ev
+25 Name=_ZN9CAnimatorD1Ev
+26 Name=_ZN9CAnimatorD2Ev
+27 Name=_ZNK15CAnimationFrame10GetHandlesERNS_8THandlesE
+28 Name=_ZTI15CAnimationFrame
+29 Name=_ZTI9CAnimator
+30 Name=_ZTV15CAnimationFrame
+31 Name=_ZTV9CAnimator
+32 Name=_ZN22CAnimationDataProvider32CAnimationDataProvider_Reserved1Ev
+33 Name=_ZN22CAnimationDataProvider32CAnimationDataProvider_Reserved2Ev
+34 Name=_ZN22CAnimationDataProviderC2Ev
+35 Name=_ZTI22CAnimationDataProvider
+36 Name=_ZTV22CAnimationDataProvider
+37 Name=_ZN13CAnimationTls23CAnimationTls_Reserved1Ev
+38 Name=_ZN13CAnimationTls23CAnimationTls_Reserved2Ev
+39 Name=_ZN15CAnimationFrame25CAnimationFrame_Reserved1Ev
+40 Name=_ZN15CAnimationFrame25CAnimationFrame_Reserved2Ev
+41 Name=_ZN16CAnimationTicker26CAnimationTicker_Reserved1Ev
+42 Name=_ZN16CAnimationTicker26CAnimationTicker_Reserved2Ev
+43 Name=_ZN16MAnimationDrawer26MAnimationDrawer_Reserved1Ev
+44 Name=_ZN16MAnimationDrawer26MAnimationDrawer_Reserved2Ev
+45 Name=_ZN16MAnimationTickee26MAnimationTickee_Reserved1Ev
+46 Name=_ZN16MAnimationTickee26MAnimationTickee_Reserved2Ev
+47 Name=_ZN18MAnimationObserver28MAnimationObserver_Reserved1Ev
+48 Name=_ZN18MAnimationObserver28MAnimationObserver_Reserved2Ev
+49 Name=_ZN30MAnimationDataProviderObserver40MAnimationDataProviderObserver_Reserved1Ev
+50 Name=_ZN30MAnimationDataProviderObserver40MAnimationDataProviderObserver_Reserved2Ev
+51 Name=_ZTI16MAnimationDrawer
+52 Name=_ZTI16MAnimationTickee
+53 Name=_ZTI18MAnimationObserver
+54 Name=_ZTI30MAnimationDataProviderObserver
+55 Name=_ZTV16MAnimationDrawer
+56 Name=_ZTV16MAnimationTickee
+57 Name=_ZTV18MAnimationObserver
+58 Name=_ZTV30MAnimationDataProviderObserver
+;------------------EOF------------------

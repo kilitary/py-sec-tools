@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CPINPUTSESSION Pascal=0
+;---------------------------------------
+1 Name=_ZN12CCpInputData4NewLE14TCpInputOriginNS_13TSecurityModeERK6TDesC8S4_RK7TDesC16
+2 Name=_ZN12CCpInputData4NewLER11RReadStream
+3 Name=_ZN12CCpInputData5NewLCE14TCpInputOriginNS_13TSecurityModeERK6TDesC8S4_RK7TDesC16
+4 Name=_ZN12CCpInputDataD0Ev
+5 Name=_ZN12CCpInputDataD1Ev
+6 Name=_ZN12CCpInputDataD2Ev
+7 Name=_ZN21RCpRawDocInputSession12SubmitCpDocLERK12CCpInputData
+8 Name=_ZN21RCpRawDocInputSession5CloseEv
+9 Name=_ZN21RCpRawDocInputSession8ConnectLEv
+10 Name=_ZN27RCpDeferredProcInputSession14SubmitProvDocLERK13CCpProvDocMsg
+11 Name=_ZN27RCpDeferredProcInputSession5CloseEv
+12 Name=_ZN27RCpDeferredProcInputSession8ConnectLEv
+13 Name=_ZNK12CCpInputData11DocCheckSumEv
+14 Name=_ZNK12CCpInputData12ExternalizeLER12RWriteStream
+15 Name=_ZNK12CCpInputData3MacEv
+16 Name=_ZNK12CCpInputData3SecEv
+17 Name=_ZNK12CCpInputData4TypeEv
+18 Name=_ZNK12CCpInputData7ProvDocEv
+19 Name=_ZNK12CCpInputData9DocSourceEv
+20 Name=_ZNK12CCpInputDataeqERKS_
+21 Name=_ZNK12CCpInputDataneERKS_
+22 Name=_ZTI12CCpInputData
+23 Name=_ZTV12CCpInputData
+;------------------EOF------------------

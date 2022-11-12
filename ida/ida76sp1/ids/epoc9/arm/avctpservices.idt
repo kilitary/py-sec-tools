@@ -1,0 +1,20 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=AVCTPSERVICES Pascal=0
+;---------------------------------------
+1 Name=_ZN6RAvctp10CancelSendEv
+2 Name=_ZN6RAvctp11SendMessageERK10TBTDevAddrhN12SymbianAvctp12TMessageTypeERK6TDesC8
+3 Name=_ZN6RAvctp13CancelConnectERK10TBTDevAddr
+4 Name=_ZN6RAvctp14ConnectRequestERK10TBTDevAddr
+5 Name=_ZN6RAvctp15CloseGracefullyEv
+6 Name=_ZN6RAvctp17DisconnectRequestERK10TBTDevAddr
+7 Name=_ZN6RAvctp23HasExplicitConnectionToERK10TBTDevAddr
+8 Name=_ZN6RAvctp4OpenER17MAvctpEventNotifyt
+9 Name=_ZN6RAvctp5CloseENS_10TCloseTypeE
+10 Name=_ZN6RAvctpC1Ev
+11 Name=_ZN6RAvctpC2Ev
+12 Name=_ZTIN4Meta18RMetaDataContainerINS_13SMetaDataEComEEE
+13 Name=_ZTVN4Meta18RMetaDataContainerINS_13SMetaDataEComEEE
+;------------------EOF------------------

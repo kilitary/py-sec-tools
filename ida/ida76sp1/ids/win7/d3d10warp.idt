@@ -1,0 +1,49 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3d10warp.dll Args=0 Drops=42
+;---------------------------------------
+1 Name=OpenAdapter10 Pascal=4
+2 Name=D3D10RefGetLastCreation Pascal=4
+3 Name=D3DKMTCloseAdapter Pascal=4
+4 Name=D3DKMTCreateAllocation Pascal=4
+5 Name=D3DKMTCreateContext Pascal=4
+6 Name=D3DKMTCreateDevice Pascal=4
+7 Name=D3DKMTCreateSynchronizationObject Pascal=4
+8 Name=D3DKMTDestroyAllocation Pascal=4
+9 Name=D3DKMTDestroyContext Pascal=4
+10 Name=D3DKMTDestroyDevice Pascal=4
+11 Name=D3DKMTDestroySynchronizationObject Pascal=4
+12 Name=D3DKMTEscape Pascal=4
+13 Name=D3DKMTGetContextSchedulingPriority Pascal=4
+14 Name=D3DKMTGetDeviceSchedulingPriority Pascal=4
+15 Name=D3DKMTGetDeviceState Pascal=4
+16 Name=D3DKMTGetDisplayModeList Pascal=4
+17 Name=D3DKMTGetMultisampleMethodList Pascal=4
+18 Name=D3DKMTGetRuntimeData Pascal=4
+19 Name=D3DKMTGetSharedPrimaryHandle Pascal=4
+20 Name=D3DKMTLock Pascal=4
+21 Name=D3DKMTOpenAdapterFromDeviceName Pascal=4
+22 Name=D3DKMTOpenAdapterFromGdiDisplayName Pascal=4
+23 Name=D3DKMTOpenResource Pascal=4
+24 Name=D3DKMTPresent Pascal=4
+25 Name=D3DKMTQueryAdapterInfo Pascal=4
+26 Name=D3DKMTQueryAllocationResidency Pascal=4
+27 Name=D3DKMTQueryResourceInfo Pascal=4
+28 Name=D3DKMTRender Pascal=4
+29 Name=D3DKMTSetAllocationPriority Pascal=4
+30 Name=D3DKMTSetContextSchedulingPriority Pascal=4
+31 Name=D3DKMTSetDeviceSchedulingPriority Pascal=4
+32 Name=D3DKMTSetDisplayMode Pascal=4
+33 Name=D3DKMTSetDisplayPrivateDriverFormat Pascal=4
+34 Name=D3DKMTSetGammaRamp Pascal=4
+35 Name=D3DKMTSetVidPnSourceOwner Pascal=4
+36 Name=D3DKMTSignalSynchronizationObject Pascal=4
+37 Name=D3DKMTUnlock Pascal=4
+38 Name=D3DKMTWaitForSynchronizationObject Pascal=4
+39 Name=D3DKMTWaitForVerticalBlankEvent Pascal=4
+40 Name=OpenAdapter10_2 Pascal=4
+41 Name=SetInfoQueue Pascal=12
+50 Name=WarpPrivateApi Pascal=8
+;------------------EOF------------------

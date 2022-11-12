@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DOWNLOADMGRUILIB Pascal=0
+;---------------------------------------
+1 Name=_._CDownloadMgrUiLibRegistry
+2 Name=CancelDisplayingDownloadsList__CDownloadMgrUiDownloadsList
+3 Name=Count__CCDownloadMgrUiDownloadsList
+4 Name=DisplayDownloadsListL__CDownloadMgrUiDownloadsList
+5 Name=DownloadMenu__CCDownloadMgrUiDownloadsList
+6 Name=GetBoolAttributeL__CDownloadMgrUiDownloadsListUiRi
+7 Name=GetBoolAttributeL__CDownloadMgrUiUserInteractionsUiRi
+8 Name=GetIntAttributeL__CDownloadMgrUiDownloadsListUiRl
+9 Name=GetIntAttributeL__CDownloadMgrUiUserInteractionsUiRl
+10 Name=GetStringAttributeL__CDownloadMgrUiDownloadsListUiRTDes8
+11 Name=GetStringAttributeL__CDownloadMgrUiDownloadsListUiRTDes16
+12 Name=GetStringAttributeL__CDownloadMgrUiUserInteractionsUiRTDes8
+13 Name=GetStringAttributeL__CDownloadMgrUiUserInteractionsUiRTDes16
+14 Name=HandleDownloadL__CDownloadMgrUiUserInteractionsRRHttpDownload
+15 Name=IsVisible__CCDownloadMgrUiDownloadsList
+16 Name=NewL__CDownloadMgrUiLibRegistryRRHttpDownloadMgr
+17 Name=OkToExitL__CDownloadMgrUiUserInteractions
+18 Name=PrepareToExit__CDownloadMgrUiUserInteractionsRCEikAppUiTClientAppExitTypeGTVwsViewIdGTUidRCTDesC8
+19 Name=RegisterDownloadsListL__CDownloadMgrUiLibRegistry
+20 Name=RegisterUserInteractionsL__CDownloadMgrUiLibRegistry
+21 Name=SetBoolAttributeL__CDownloadMgrUiDownloadsListUii
+22 Name=SetBoolAttributeL__CDownloadMgrUiUserInteractionsUii
+23 Name=SetEmbeddedDocObserver__CDownloadMgrUiBasePMApaEmbeddedDocObserver
+24 Name=SetIntAttributeL__CDownloadMgrUiDownloadsListUil
+25 Name=SetIntAttributeL__CDownloadMgrUiUserInteractionsUil
+26 Name=SetStringAttributeL__CDownloadMgrUiDownloadsListUiRCTDesC8
+27 Name=SetStringAttributeL__CDownloadMgrUiDownloadsListUiRCTDesC16
+28 Name=SetStringAttributeL__CDownloadMgrUiUserInteractionsUiRCTDesC8
+29 Name=SetStringAttributeL__CDownloadMgrUiUserInteractionsUiRCTDesC16
+30 Name=AddMenuL__CDownloadMgrUiDownloadMenuiRCEikMenuPanei
+;------------------EOF------------------

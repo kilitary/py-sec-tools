@@ -1,0 +1,41 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WPENG Pascal=0
+;---------------------------------------
+1 Name=__25TWordModelHeaderFactoryV2RCt4TBuf1i256
+2 Name=AppId__C18CWordModelHeaderV2
+3 Name=ConstructL__10CWordModelPC18MFieldFileNameInfoPC18MFieldNumPagesInfo
+4 Name=ConstructMinimalL__10CWordModelPC18MFieldFileNameInfoPC18MFieldNumPagesInfoRC7TDesC16
+5 Name=DetachFromStoreL__16CWordModelHeaderQ28CPicture7TDetach
+6 Name=DetachFromStoreL__18CWordModelHeaderV2Q28CPicture7TDetach
+7 Name=Model__16CWordModelHeader
+8 Name=Model__18CWordModelHeaderV2
+9 Name=NewHeaderL__C23TWordModelHeaderFactoryRC12CStreamStoreRC17CStreamDictionaryRC17TApaAppIdentifier
+10 Name=NewHeaderL__C25TWordModelHeaderFactoryV2RC12CStreamStoreRC17CStreamDictionaryRC17TApaAppIdentifier
+11 Name=NewL__10CWordModelPC18MFieldFileNameInfoPC18MFieldNumPagesInfo
+12 Name=NewL__10CWordModelPC18MFieldFileNameInfoPC18MFieldNumPagesInfoRC7TDesC16
+13 Name=RestoreL__10CWordModelRC12CStreamStoreRC17CStreamDictionaryPC13CSecurityBasePC18MFieldFileNameInfoPC18MFieldNumPagesInfoP15MPictureFactory
+14 Name=RestoreL__16CWordModelHeaderRC12CStreamStoreRC17CStreamDictionary
+15 Name=RestoreL__18CWordModelHeaderV2RC12CStreamStoreRC17CStreamDictionary
+16 Name=StoreL__C10CWordModelR12CStreamStoreR17CStreamDictionaryPC13CSecurityBase
+17 Name=StoreL__C16CWordModelHeaderR12CStreamStoreR17CStreamDictionary
+18 Name=StoreL__C18CWordModelHeaderV2R12CStreamStoreR17CStreamDictionary
+19 Name=_._10CWordModel
+20 Name=_._16CWordModelHeader
+21 Name=_._18CWordModelHeaderV2
+22 Name=__10CWordModel
+23 Name=__16CWordModelHeaderP10CWordModel
+24 Name=__23TWordModelHeaderFactoryRCt4TBuf1i256
+25 Name=AppId__C16CWordModelHeader
+26 Name=__25TWordModelHeaderFactoryV3
+27 Name=AppId__C18CWordModelHeaderV3
+28 Name=DetachFromStoreL__18CWordModelHeaderV3Q28CPicture7TDetach
+29 Name=Model__18CWordModelHeaderV3
+30 Name=NewHeaderL__C25TWordModelHeaderFactoryV3RC12CStreamStoreRC17CStreamDictionaryRC17TApaAppIdentifier
+31 Name=RestoreL__18CWordModelHeaderV3RC12CStreamStoreRC17CStreamDictionary
+32 Name=RestoreMinimalL__10CWordModelRC12CStreamStoreRC17CStreamDictionaryPC13CSecurityBasePC18MFieldFileNameInfoPC18MFieldNumPagesInfoP15MPictureFactory
+33 Name=StoreL__C18CWordModelHeaderV3R12CStreamStoreR17CStreamDictionary
+34 Name=_._18CWordModelHeaderV3
+;------------------EOF------------------

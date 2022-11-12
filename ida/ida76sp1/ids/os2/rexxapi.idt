@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=REXXAPI.dll Pascal=0
+;---------------------------------------
+1 Name=RexxCreateQueue
+2 Name=RexxDeleteQueue
+3 Name=RexxAddQueue
+4 Name=RexxPullQueue
+5 Name=RexxQueryQueue
+6 Name=RexxRegisterSubcomDll
+7 Name=RexxRegisterSubcomExe
+8 Name=RexxQuerySubcom
+9 Name=RexxDeregisterSubcom
+10 Name=RexxLoadSubcom
+11 Name=RexxRegisterExitDll
+12 Name=RexxRegisterExitExe
+13 Name=RexxDeregisterExit
+14 Name=RexxQueryExit
+15 Name=RexxCallExit
+16 Name=RexxCallSubcom
+17 Name=RexxRegisterFunctionDll
+18 Name=RexxRegisterFunctionExe
+19 Name=RexxDeregisterFunction
+20 Name=RexxQueryFunction
+21 Name=RexxCallFunction
+22 Name=RexxAddMacro
+23 Name=RexxDropMacro
+24 Name=RexxClearMacroSpace
+25 Name=RexxLoadMacroSpace
+26 Name=RexxQueryMacro
+27 Name=RexxReorderMacro
+28 Name=RexxSaveMacroSpace
+29 Name=RexxExecuteMacroFunction
+;------------------EOF------------------

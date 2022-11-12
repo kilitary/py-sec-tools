@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=muifontsetup.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=OnMachineUILanguageInit Pascal=8
+2 Name=OnMachineUILanguageSwitch Pascal=12
+;------------------EOF------------------

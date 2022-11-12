@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=nsi.dll Args=0 Drops=26
+;---------------------------------------
+1 Name=NsiAllocateAndGetPersistentDataWithMaskTable Pascal=32
+2 Name=NsiAllocateAndGetTable Pascal=52
+3 Name=NsiCancelChangeNotification Pascal=4
+4 Name=NsiDeregisterChangeNotification Pascal=12
+5 Name=NsiDeregisterChangeNotificationEx Pascal=4
+6 Name=NsiEnumerateObjectsAllParameters Pascal=52
+7 Name=NsiEnumerateObjectsAllParametersEx Pascal=4
+8 Name=NsiEnumerateObjectsAllPersistentParametersWithMask Pascal=36
+9 Name=NsiFreePersistentDataWithMaskTable Pascal=12
+10 Name=NsiFreeTable Pascal=16
+11 Name=NsiGetAllParameters Pascal=44
+12 Name=NsiGetAllParametersEx Pascal=4
+13 Name=NsiGetAllPersistentParametersWithMask Pascal=28
+14 Name=NsiGetObjectSecurity Pascal=4
+15 Name=NsiGetParameter Pascal=36
+16 Name=NsiGetParameterEx Pascal=4
+17 Name=NsiRegisterChangeNotification Pascal=24
+18 Name=NsiRegisterChangeNotificationEx Pascal=4
+19 Name=NsiRequestChangeNotification Pascal=20
+20 Name=NsiRequestChangeNotificationEx Pascal=4
+21 Name=NsiSetAllParameters Pascal=32
+22 Name=NsiSetAllParametersEx Pascal=4
+23 Name=NsiSetAllPersistentParametersWithMask Pascal=32
+24 Name=NsiSetObjectSecurity Pascal=4
+25 Name=NsiSetParameter Pascal=40
+26 Name=NsiSetParameterEx Pascal=4
+;------------------EOF------------------

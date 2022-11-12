@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cryptxml.dll Args=0 Drops=19
+;---------------------------------------
+1 Name=CryptXmlAddObject Pascal=24
+2 Name=CryptXmlClose Pascal=4
+3 Name=CryptXmlCreateReference Pascal=36
+4 Name=CryptXmlDigestReference Pascal=12
+5 Name=CryptXmlEncode Pascal=24
+6 Name=CryptXmlEnumAlgorithmInfo Pascal=16
+7 Name=CryptXmlFindAlgorithmInfo Pascal=16
+8 Name=CryptXmlGetAlgorithmInfo Pascal=12
+9 Name=CryptXmlGetDocContext Pascal=8
+10 Name=CryptXmlGetReference Pascal=8
+11 Name=CryptXmlGetSignature Pascal=8
+12 Name=CryptXmlGetStatus Pascal=8
+13 Name=CryptXmlGetTransforms Pascal=4
+14 Name=CryptXmlImportPublicKey Pascal=12
+15 Name=CryptXmlOpenToDecode Pascal=24
+16 Name=CryptXmlOpenToEncode Pascal=28
+17 Name=CryptXmlSetHMACSecret Pascal=12
+18 Name=CryptXmlSign Pascal=32
+19 Name=CryptXmlVerifySignature Pascal=12
+;------------------EOF------------------

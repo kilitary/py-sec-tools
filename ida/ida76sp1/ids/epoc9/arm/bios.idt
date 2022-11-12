@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BIOS Pascal=0
+;---------------------------------------
+1 Name=_ZN13CBIOServerMtm4NewLER17CRegisteredMtmDllP15CMsvServerEntry
+2 Name=_ZTI13CBIOServerMtm
+3 Name=_ZTV13CBIOServerMtm
+;------------------EOF------------------

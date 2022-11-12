@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=hotplug.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=CPlApplet Pascal=16
+2 Name=CreateLocalServerW Pascal=16
+3 Name=HotPlugDeviceTree Pascal=12
+4 Name=HotPlugDriverBlockedW Pascal=16
+5 Name=HotPlugEjectDevice Pascal=8
+6 Name=HotPlugEjectVetoedW Pascal=16
+7 Name=HotPlugHibernateVetoedW Pascal=16
+8 Name=HotPlugRemovalVetoedW Pascal=16
+9 Name=HotPlugSafeRemovalNotificationW Pascal=16
+10 Name=HotPlugStandbyVetoedW Pascal=16
+11 Name=HotPlugWarmEjectVetoedW Pascal=16
+12 Name=DllCanUnloadNow Pascal=0
+13 Name=DllGetClassObject Pascal=12
+14 Name=DllRegisterServer Pascal=0
+15 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

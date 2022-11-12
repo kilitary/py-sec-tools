@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EIKSRVC Pascal=0
+;---------------------------------------
+1 Name=LaunchTaskList__C16REikAppUiSession
+2 Name=CycleTasks__C16REikAppUiSessionQ217CEikServAppUiBase19TTaskCycleDirection
+3 Name=Connect__16REikAppUiSession
+4 Name=NotifyAlarmServerOfTaskChange__C16REikAppUiSession
+5 Name=Version__C16REikAppUiSession
+6 Name=__16REikAppUiSession
+7 Name=SetStatusPaneFlags__C16REikAppUiSessioni
+8 Name=SetStatusPaneLayout__C16REikAppUiSessioni
+9 Name=Close__16REikAppUiSession
+10 Name=UnblankScreen__C16REikAppUiSession
+11 Name=BlankScreen__C16REikAppUiSession
+;------------------EOF------------------

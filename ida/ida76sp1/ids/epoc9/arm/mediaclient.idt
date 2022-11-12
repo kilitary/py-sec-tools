@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MEDIACLIENT Pascal=0
+;---------------------------------------
+1 Name=_ZN17MMMFClientUtility16ReservedVirtual1Ev
+2 Name=_ZN17MMMFClientUtility16ReservedVirtual2Ev
+3 Name=_ZN17MMMFClientUtility16ReservedVirtual3Ev
+4 Name=_ZN17MMMFClientUtility16ReservedVirtual4Ev
+5 Name=_ZN17MMMFClientUtility16ReservedVirtual5Ev
+6 Name=_ZN17MMMFClientUtility16ReservedVirtual6Ev
+7 Name=_ZTI17MMMFClientUtility
+8 Name=_ZTV17MMMFClientUtility
+9 Name=_ZN10CMdaServer12AddListenerLER23MMdaObjectEventListener
+10 Name=_ZN10CMdaServer14RemoveListenerER23MMdaObjectEventListener
+11 Name=_ZN10CMdaServer4NewLEv
+12 Name=_ZN10CMdaServerD0Ev
+13 Name=_ZN10CMdaServerD1Ev
+14 Name=_ZN10CMdaServerD2Ev
+15 Name=_ZN23TMdaResourceEntryParser3SetERK6TDesC8
+16 Name=_ZNK23TMdaResourceEntryParser5CountENS_5TTypeE
+17 Name=_ZNK23TMdaResourceEntryParser5EntryENS_5TTypeEi
+18 Name=_ZTI10CMdaServer
+19 Name=_ZTV10CMdaServer
+;------------------EOF------------------

@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dxva2.dll Args=0 Drops=37
+;---------------------------------------
+1 Name=CapabilitiesRequestAndCapabilitiesReply Pascal=12
+2 Name=DXVA2CreateDirect3DDeviceManager9 Pascal=8
+3 Name=DXVA2CreateVideoService Pascal=12
+4 Name=DXVAHD_CreateDevice Pascal=20
+5 Name=DegaussMonitor Pascal=4
+6 Name=DestroyPhysicalMonitor Pascal=4
+7 Name=DestroyPhysicalMonitors Pascal=8
+8 Name=GetCapabilitiesStringLength Pascal=8
+9 Name=GetMonitorBrightness Pascal=16
+10 Name=GetMonitorCapabilities Pascal=12
+11 Name=GetMonitorColorTemperature Pascal=8
+12 Name=GetMonitorContrast Pascal=16
+13 Name=GetMonitorDisplayAreaPosition Pascal=20
+14 Name=GetMonitorDisplayAreaSize Pascal=20
+15 Name=GetMonitorRedGreenOrBlueDrive Pascal=20
+16 Name=GetMonitorRedGreenOrBlueGain Pascal=20
+17 Name=GetMonitorTechnologyType Pascal=8
+18 Name=GetNumberOfPhysicalMonitorsFromHMONITOR Pascal=8
+19 Name=GetNumberOfPhysicalMonitorsFromIDirect3DDevice9 Pascal=8
+20 Name=GetPhysicalMonitorsFromHMONITOR Pascal=12
+21 Name=GetPhysicalMonitorsFromIDirect3DDevice9 Pascal=12
+22 Name=GetTimingReport Pascal=8
+23 Name=GetVCPFeatureAndVCPFeatureReply Pascal=20
+24 Name=OPMGetVideoOutputsFromHMONITOR Pascal=16
+25 Name=OPMGetVideoOutputsFromIDirect3DDevice9Object Pascal=16
+26 Name=RestoreMonitorFactoryColorDefaults Pascal=4
+27 Name=RestoreMonitorFactoryDefaults Pascal=4
+28 Name=SaveCurrentMonitorSettings Pascal=4
+29 Name=SaveCurrentSettings Pascal=4
+30 Name=SetMonitorBrightness Pascal=8
+31 Name=SetMonitorColorTemperature Pascal=8
+32 Name=SetMonitorContrast Pascal=8
+33 Name=SetMonitorDisplayAreaPosition Pascal=12
+34 Name=SetMonitorDisplayAreaSize Pascal=12
+35 Name=SetMonitorRedGreenOrBlueDrive Pascal=12
+36 Name=SetMonitorRedGreenOrBlueGain Pascal=12
+37 Name=SetVCPFeature Pascal=12
+;------------------EOF------------------

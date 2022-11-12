@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=IRC Pascal=0
+;---------------------------------------
+1 Name=_ZN12CIrClientMtm4NewLER17CRegisteredMtmDllR11CMsvSession
+2 Name=_ZN9CIrHeader10ConstructLEv
+3 Name=_ZN9CIrHeader12InternalizeLER14RMsvReadStream
+4 Name=_ZN9CIrHeader4NewLEv
+5 Name=_ZN9CIrHeader8SetAddrLERK6TDesC8
+6 Name=_ZN9CIrHeaderD0Ev
+7 Name=_ZN9CIrHeaderD1Ev
+8 Name=_ZN9CIrHeaderD2Ev
+9 Name=_ZNK9CIrHeader12ExternalizeLER15RMsvWriteStream
+10 Name=_ZNK9CIrHeader14IrProtocolInfoEv
+11 Name=_ZNK9CIrHeader4AddrEv
+12 Name=_ZTI9CIrHeader
+13 Name=_ZTV9CIrHeader
+14 Name=_ZTI12CIrClientMtm
+15 Name=_ZTI17CIRCancelObserver
+16 Name=_ZTV12CIrClientMtm
+17 Name=_ZTV17CIRCancelObserver
+;------------------EOF------------------

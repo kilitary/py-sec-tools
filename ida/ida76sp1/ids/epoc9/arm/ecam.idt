@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ECAM Pascal=0
+;---------------------------------------
+1 Name=_ZN7CCamera13NewDuplicateLER15MCameraObserveri
+2 Name=_ZN7CCamera16CamerasAvailableEv
+3 Name=_ZN7CCamera4NewLER15MCameraObserveri
+4 Name=_ZN10TECAMEventC1E4TUidi
+5 Name=_ZN10TECAMEventC1Ev
+6 Name=_ZN10TECAMEventC2E4TUidi
+7 Name=_ZN10TECAMEventC2Ev
+8 Name=_ZN7CCamera13NewDuplicateLER16MCameraObserver2i
+9 Name=_ZN7CCamera4NewLER16MCameraObserver2ii
+;------------------EOF------------------

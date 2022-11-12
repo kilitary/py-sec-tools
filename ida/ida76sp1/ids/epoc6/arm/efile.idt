@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EFILE Pascal=0
+;---------------------------------------
+1 Name=__ne__C8CMountCBRC8CMountCB
+2 Name=AllocBufferL__FRP7HBufC16RC7TDesC16
+3 Name=CheckMount__9CFormatCB
+4 Name=DebugRegister__Fv
+5 Name=Dismount__6TDrive
+6 Name=FileNamesIdentical__FRC7TDesC16T0
+7 Name=FileServerIsHung__Fv
+8 Name=GetNotifyUser__6TDrive
+9 Name=IsFileInRom__8CMountCBRC7TDesC16RPUc
+10 Name=LocalDrive__Fi
+11 Name=MatchEntryAtt__C8CMountCBUiUi
+12 Name=Notify__14CAsyncNotifierRC7TDesC16N31RiP10CSessionFs
+13 Name=QueryVersionSupported__C11CFileSystemRC8TVersion
+14 Name=Remove__11CFileSystem
+15 Name=SetArchiveAttribute__7CFileCB
+16 Name=SetLibrary__11CFileSystemG8RLibrary
+17 Name=SetNotifyUser__6TDrivei
+18 Name=StoreLongEntryNameL__6CDirCBRC7TDesC16
+19 Name=TheNotifier__Fv
+20 Name=WriteToDisk__FRC7TDesC16RC6TDesC8
+21 Name=_._11CFileSystem
+22 Name=_._6CDirCB
+23 Name=_._7CFileCB
+24 Name=_._8CMountCB
+25 Name=_._9CFormatCB
+26 Name=__11CFileSystem
+27 Name=__6CDirCB
+28 Name=__7CFileCB
+29 Name=__8CMountCB
+30 Name=__9CFormatCB
+31 Name=Address__C7CFileCBRi
+32 Name=GetPwAndUnlock__6TDrive13TNotifierType
+33 Name=DebugNotifySessions__Fii
+34 Name=CompareFilenames__FRC7TDesC16T0
+35 Name=SetDiskSpaceChange__8CMountCBG6TInt64
+36 Name=IsDriveHung__FRC6TDrive
+;------------------EOF------------------

@@ -1,0 +1,16 @@
+DECLARATION Nokia 9110 Geos 3.0 library rtcm.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+3 Name=rtcmdll Args=1 Drops=2
+;---------------------------------------
+1 Name=RTCMRegisterEvent
+2 Name=RTCMUnregisterEvent
+3 Name=RTCMREGISTEREVENT Args=28 \
+	Comment=RTCMError cdecl RTCMREGISTEREVENT(TimerCompressedDate date, unsigned int hour, unsigned int minute, word eventMsg, RTCMGeodeLaunchMode mode, GeodeToken geodeToken, char *geodePath, unsigned int *eventToken, unsigned int *eventID) in rtcm.goh
+4 Name=RTCMUNREGISTEREVENT Pascal=4 \
+	Comment=RTCMError pascal RTCMUnregisterEvent(unsigned int eventToken, unsigned int eventID) in rtcm.goh
+5 Name=RTCMCheckEvent
+6 Name=RTCMCHECKEVENT Pascal=4 \
+	Comment=RTCMError pascal RTCMCheckEvent(unsigned int eventToken, unsigned int eventID) in rtcm.goh
+;------------------EOF------------------

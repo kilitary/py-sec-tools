@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QIKINIT Pascal=0
+;---------------------------------------
+1 Name=NewL__18CQikDllInitialiser
+2 Name=PostAppUiInitializeL__18CQikDllInitialiser
+3 Name=HandleViewDeactivation__Q224CQikDeactivationObserver25TNextNotificationObserverRC10TVwsViewIdT1
+4 Name=HandleViewDeactivation__Q224CQikDeactivationObserver25TOwnDeactivationsObserverRC10TVwsViewIdT1
+;------------------EOF------------------

@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=p2pnetsh.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=GetResourceString Pascal=12
+2 Name=InitHelperDll Pascal=8
+3 Name=DllMain Pascal=12
+;------------------EOF------------------

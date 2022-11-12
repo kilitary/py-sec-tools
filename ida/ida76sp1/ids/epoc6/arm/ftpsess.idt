@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FTPSESS Pascal=0
+;---------------------------------------
+1 Name=GetVersion__11CFTPSession
+2 Name=NewL__11CFTPSessionP19MFtpSessionNotifier
+;------------------EOF------------------

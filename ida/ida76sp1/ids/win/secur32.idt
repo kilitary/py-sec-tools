@@ -1,0 +1,84 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=secur32.dll Args=0 Drops=77
+;---------------------------------------
+1 Name=SecDeleteUserModeContext Pascal=4
+2 Name=SecInitUserModeContext Pascal=8
+3 Name=SupportsChannelBinding Pascal=0
+4 Name=AcceptSecurityContext Pascal=36
+5 Name=AcquireCredentialsHandleA Pascal=36
+6 Name=AcquireCredentialsHandleW Pascal=36
+7 Name=AddCredentialsA Pascal=32
+8 Name=AddCredentialsW Pascal=32
+9 Name=AddSecurityPackageA Pascal=8
+10 Name=AddSecurityPackageW Pascal=8
+11 Name=ApplyControlToken Pascal=8
+12 Name=CompleteAuthToken Pascal=8
+13 Name=CredMarshalTargetInfo Pascal=12
+14 Name=CredUnmarshalTargetInfo Pascal=12
+15 Name=DecryptMessage Pascal=16
+16 Name=DeleteSecurityContext Pascal=4
+17 Name=DeleteSecurityPackageA Pascal=4
+18 Name=DeleteSecurityPackageW Pascal=4
+19 Name=EncryptMessage Pascal=16
+20 Name=EnumerateSecurityPackagesA Pascal=8
+21 Name=EnumerateSecurityPackagesW Pascal=8
+22 Name=ExportSecurityContext Pascal=16
+23 Name=FreeContextBuffer Pascal=4
+24 Name=FreeCredentialsHandle Pascal=4
+25 Name=GetComputerObjectNameA Pascal=12
+26 Name=GetComputerObjectNameW Pascal=12
+27 Name=GetSecurityUserInfo Pascal=12
+28 Name=GetUserNameExA Pascal=12
+29 Name=GetUserNameExW Pascal=12
+30 Name=ImpersonateSecurityContext Pascal=4
+31 Name=ImportSecurityContextA Pascal=16
+32 Name=ImportSecurityContextW Pascal=16
+33 Name=InitSecurityInterfaceA Pascal=0
+34 Name=InitSecurityInterfaceW Pascal=0
+35 Name=InitializeSecurityContextA Pascal=48
+36 Name=InitializeSecurityContextW Pascal=48
+37 Name=LsaCallAuthenticationPackage Pascal=28
+38 Name=LsaConnectUntrusted Pascal=4
+39 Name=LsaDeregisterLogonProcess Pascal=4
+40 Name=LsaEnumerateLogonSessions Pascal=8
+41 Name=LsaFreeReturnBuffer Pascal=4
+42 Name=LsaGetLogonSessionData Pascal=8
+43 Name=LsaLogonUser Pascal=56
+44 Name=LsaLookupAuthenticationPackage Pascal=12
+45 Name=LsaRegisterLogonProcess Pascal=12
+46 Name=LsaRegisterPolicyChangeNotification Pascal=8
+47 Name=LsaUnregisterPolicyChangeNotification Pascal=8
+48 Name=MakeSignature Pascal=16
+49 Name=QueryContextAttributesA Pascal=12
+50 Name=QueryContextAttributesW Pascal=12
+51 Name=QueryCredentialsAttributesA Pascal=12
+52 Name=QueryCredentialsAttributesW Pascal=12
+53 Name=QuerySecurityContextToken Pascal=8
+54 Name=QuerySecurityPackageInfoA Pascal=8
+55 Name=QuerySecurityPackageInfoW Pascal=8
+56 Name=RevertSecurityContext Pascal=4
+57 Name=SaslAcceptSecurityContext Pascal=36
+58 Name=SaslEnumerateProfilesA Pascal=8
+59 Name=SaslEnumerateProfilesW Pascal=8
+60 Name=SaslGetProfilePackageA Pascal=8
+61 Name=SaslGetProfilePackageW Pascal=8
+62 Name=SaslIdentifyPackageA Pascal=8
+63 Name=SaslIdentifyPackageW Pascal=8
+64 Name=SaslInitializeSecurityContextA Pascal=48
+65 Name=SaslInitializeSecurityContextW Pascal=48
+66 Name=SealMessage Pascal=16
+67 Name=SecCacheSspiPackages Pascal=0
+68 Name=SecGetLocaleSpecificEncryptionRules Pascal=4
+69 Name=SecpFreeMemory Pascal=4
+70 Name=SecpTranslateName Pascal=24
+71 Name=SecpTranslateNameEx Pascal=24
+72 Name=SetContextAttributesA Pascal=16
+73 Name=SetContextAttributesW Pascal=16
+74 Name=TranslateNameA Pascal=20
+75 Name=TranslateNameW Pascal=20
+76 Name=UnsealMessage Pascal=16
+77 Name=VerifySignature Pascal=16
+;------------------EOF------------------

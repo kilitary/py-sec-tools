@@ -1,0 +1,56 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SPInf.dll Args=0 Drops=49
+;---------------------------------------
+1 Name=SpInfDetermineInfStyle Pascal=8
+2 Name=SpInfDoesInfContainString Pascal=8
+3 Name=SpInfEnumInfSections Pascal=20
+4 Name=SpInfFileFullPathFromLineContext Pascal=16
+5 Name=SpInfFindFirstLine Pascal=16
+6 Name=SpInfFindNextMatchLine Pascal=12
+7 Name=SpInfFindValueInSectionList Pascal=24
+8 Name=SpInfFreeInfFile Pascal=4
+9 Name=SpInfGetBestInstallSection Pascal=28
+10 Name=SpInfGetBestModelsSection Pascal=16
+11 Name=SpInfGetDirIdHandler Pascal=4
+12 Name=SpInfGetDriverVer Pascal=16
+13 Name=SpInfGetField Pascal=20
+14 Name=SpInfGetIndirectString Pascal=20
+15 Name=SpInfGetInfInformation Pascal=16
+16 Name=SpInfGetInfLineNumber Pascal=4
+17 Name=SpInfGetInfSections Pascal=16
+18 Name=SpInfGetInfStyle Pascal=4
+19 Name=SpInfGetLanguageId Pascal=4
+20 Name=SpInfGetLineByIndex Pascal=16
+21 Name=SpInfGetLineCount Pascal=8
+22 Name=SpInfGetLineCountFromSection Pascal=4
+23 Name=SpInfGetLineFieldCount Pascal=4
+24 Name=SpInfGetLineTextWithKey Pascal=20
+25 Name=SpInfGetLogToken Pascal=4
+26 Name=SpInfGetNextInf Pascal=4
+27 Name=SpInfGetOriginalInfName Pascal=4
+28 Name=SpInfGetPathFromDirId Pascal=24
+29 Name=SpInfGetPrevInf Pascal=4
+30 Name=SpInfGetStringField Pascal=20
+31 Name=SpInfGetStringsSection Pascal=4
+32 Name=SpInfGetTargetPath Pascal=24
+33 Name=SpInfGetVersionDatum Pascal=8
+34 Name=SpInfGetVersionNode Pascal=4
+35 Name=SpInfIsIndirectString Pascal=4
+36 Name=SpInfLineFromContext Pascal=4
+37 Name=SpInfLineIsSearchable Pascal=4
+38 Name=SpInfLoadInfFile Pascal=52
+39 Name=SpInfLocateLine Pascal=20
+40 Name=SpInfLocateSection Pascal=12
+41 Name=SpInfLockInf Pascal=4
+42 Name=SpInfQueryInfFileInformation Pascal=20
+43 Name=SpInfQueryInfVersionInformation Pascal=24
+44 Name=SpInfSectionNameFromLineContext Pascal=16
+45 Name=SpInfSetDirIdHandler Pascal=4
+46 Name=SpInfSetDirectoryId Pascal=16
+47 Name=SpInfSourcePathFromHandle Pascal=16
+48 Name=SpInfUnlockInf Pascal=4
+49 Name=SpInfVersionNodeFromInfInformation Pascal=16
+;------------------EOF------------------

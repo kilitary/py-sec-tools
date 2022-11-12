@@ -1,0 +1,49 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OLE2LIB Pascal=0
+;---------------------------------------
+1 Name=__18COle2StreamPackageRC18COle2StreamPackage
+2 Name=CloseStream__9COle2Filei
+3 Name=ConcatenateStreamsL__9COle2FileRC6TDes16T1
+4 Name=CreateL__9COle2FileRC7TDesC16
+5 Name=CreateStreamL__9COle2FileRC6TDes1615TOle2StreamType
+6 Name=CreateStreamL__9COle2FileRC6TDes1615TOle2StreamTypeRi
+7 Name=FindStreamL__9COle2FileRC6TDes16
+8 Name=MoveL__9COle2Fileilll
+9 Name=NewLC__9COle2FileR3RFs
+10 Name=NewL__9COle2FileR3RFs
+11 Name=NextStreamL__9COle2File
+12 Name=OpenL__9COle2FileRC7TDesC16
+13 Name=OpenStreamL__9COle2File
+14 Name=OpenStreamL__9COle2FileRC6TDes16
+15 Name=OpenStreamL__9COle2FileRi
+16 Name=Position__C9COle2Filei
+17 Name=PreviousStreamL__9COle2File
+18 Name=ReadOrdered__9COle2FileiRSc
+19 Name=ReadOrdered__9COle2FileiRl
+20 Name=ReadOrdered__9COle2FileiRs
+21 Name=ReadOrdered__9COle2FileilRSc
+22 Name=ReadOrdered__9COle2FileilRl
+23 Name=ReadOrdered__9COle2FileilRs
+24 Name=Read__9COle2FileiR5TDes8
+25 Name=Read__9COle2FileiR5TDes8l
+26 Name=Read__9COle2FileilR5TDes8
+27 Name=Read__9COle2FileilR5TDes8l
+28 Name=StreamNameL__9COle2FileR6TDes16
+29 Name=StreamSizeL__9COle2File
+30 Name=StreamTypeL__9COle2File
+31 Name=WriteL__9COle2FileiRC6TDesC8
+32 Name=WriteL__9COle2FileiRC6TDesC8l
+33 Name=WriteL__9COle2FileilRC6TDesC8
+34 Name=WriteL__9COle2FileilRC6TDesC8l
+35 Name=WriteOrderedL__9COle2FileiSc
+36 Name=WriteOrderedL__9COle2Fileil
+37 Name=WriteOrderedL__9COle2FileilSc
+38 Name=WriteOrderedL__9COle2Fileill
+39 Name=WriteOrderedL__9COle2Fileils
+40 Name=WriteOrderedL__9COle2Fileis
+41 Name=_._9COle2File
+42 Name=CloseL__9COle2File
+;------------------EOF------------------

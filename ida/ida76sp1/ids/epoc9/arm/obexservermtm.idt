@@ -1,0 +1,51 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OBEXSERVERMTM Pascal=0
+;---------------------------------------
+1 Name=_ZN11CObexSrvMtm10ConstructLEv
+2 Name=_ZN11CObexSrvMtm10DeleteAllLERK18CMsvEntrySelectionR14TRequestStatus
+3 Name=_ZN11CObexSrvMtm10DoCompleteEi
+4 Name=_ZN11CObexSrvMtm12CopyToLocalLERK18CMsvEntrySelectionlR14TRequestStatus
+5 Name=_ZN11CObexSrvMtm12MoveToLocalLERK18CMsvEntrySelectionlR14TRequestStatus
+6 Name=_ZN11CObexSrvMtm14CopyFromLocalLERK18CMsvEntrySelectionlR14TRequestStatus
+7 Name=_ZN11CObexSrvMtm14MoveFromLocalLERK18CMsvEntrySelectionlR14TRequestStatus
+8 Name=_ZN11CObexSrvMtm15CommandExpectedEv
+9 Name=_ZN11CObexSrvMtm15SetInitialEntryEP15CMsvServerEntry
+10 Name=_ZN11CObexSrvMtm18CopyWithinServiceLERK18CMsvEntrySelectionlR14TRequestStatus
+11 Name=_ZN11CObexSrvMtm18MoveWithinServiceLERK18CMsvEntrySelectionlR14TRequestStatus
+12 Name=_ZN11CObexSrvMtm6DoRunLEv
+13 Name=_ZN11CObexSrvMtm7ChangeLE9TMsvEntryR14TRequestStatus
+14 Name=_ZN11CObexSrvMtm7CreateLE9TMsvEntryR14TRequestStatus
+15 Name=_ZN11CObexSrvMtm7DeleteLERK18CMsvEntrySelectionR14TRequestStatus
+16 Name=_ZN11CObexSrvMtm8DoCancelEv
+17 Name=_ZN11CObexSrvMtm8ProgressEv
+18 Name=_ZThn28_N24CObexServerSendOperation16GetUserPasswordLERK7TDesC16
+19 Name=_ZN11CObexSrvMtmC2ER17CRegisteredMtmDllP15CMsvServerEntry
+20 Name=_ZN11CObexSrvMtmD0Ev
+21 Name=_ZN11CObexSrvMtmD1Ev
+22 Name=_ZN11CObexSrvMtmD2Ev
+23 Name=_ZN24CObexServerSendOperation10ConstructLEPK7TDesC16
+24 Name=_ZN24CObexServerSendOperation16GetUserPasswordLERK7TDesC16
+25 Name=_ZN24CObexServerSendOperation18CompletingObserverEi
+26 Name=_ZN24CObexServerSendOperation26SecondPhaseObexClientInitLEv
+27 Name=_ZN24CObexServerSendOperation4RunLEv
+28 Name=_ZN24CObexServerSendOperation8DoCancelEv
+29 Name=_ZN24CObexServerSendOperation9ProgressLEv
+30 Name=_ZTV24CObexServerSendOperation
+31 Name=_ZTV11CObexSrvMtm
+32 Name=_ZN24CObexServerSendOperationC2E4TUidR15CMsvServerEntryiiR14TRequestStatus
+33 Name=_ZN24CObexServerSendOperationC2E4TUidR15CMsvServerEntryiiR14TRequestStatusi
+34 Name=_ZN24CObexServerSendOperationD0Ev
+35 Name=_ZN24CObexServerSendOperationD1Ev
+36 Name=_ZN24CObexServerSendOperationD2Ev
+37 Name=_ZTI11CObexSrvMtm
+38 Name=_ZTI24CObexServerSendOperation
+39 Name=_ZTI18CObexSendOpTimeout
+40 Name=_ZTV18CObexSendOpTimeout
+41 Name=_ZN24CObexServerSendOperation17PreSendOperationsEv
+42 Name=_ZN24CObexServerSendOperation18PostSendOperationsEv
+43 Name=_ZN24CObexServerSendOperation20PreConnectOperationsEv
+44 Name=_ZN24CObexServerSendOperation21PostConnectOperationsEv
+;------------------EOF------------------

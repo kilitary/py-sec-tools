@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMUM Pascal=0
+;---------------------------------------
+1 Name=_ZN13CSmsMtmUiData4NewLER17CRegisteredMtmDll
+2 Name=_ZN9CSmsMtmUi4NewLER8CBaseMtmR17CRegisteredMtmDll
+3 Name=_ZTI13CSmsMtmUiData
+4 Name=_ZTI9CSmsMtmUi
+5 Name=_ZTV13CSmsMtmUiData
+6 Name=_ZTV9CSmsMtmUi
+7 Name=_ZTI19CSmumQContactGetter
+8 Name=_ZTV19CSmumQContactGetter
+;------------------EOF------------------

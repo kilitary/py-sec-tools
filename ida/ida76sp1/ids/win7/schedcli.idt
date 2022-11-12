@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=schedcli.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=NetScheduleJobAdd Pascal=12
+2 Name=NetScheduleJobDel Pascal=12
+3 Name=NetScheduleJobEnum Pascal=24
+4 Name=NetScheduleJobGetInfo Pascal=12
+;------------------EOF------------------

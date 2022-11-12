@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LOOPBACK Pascal=0
+;---------------------------------------
+1 Name=LibEntry
+2 Name=_ZTI11CETelLogger
+3 Name=_ZTI14CHWPortFactory
+4 Name=_ZTI7CHWPort
+5 Name=_ZTV11CETelLogger
+6 Name=_ZTV14CHWPortFactory
+7 Name=_ZTV7CHWPort
+;------------------EOF------------------

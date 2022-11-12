@@ -1,0 +1,14 @@
+DECLARATION Nokia 9110 Geos 3.0 library mled.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mleddll Pascal=0
+;---------------------------------------
+1 Name=MAILEDITORVIEWEROPEN
+2 Name=MAILEDITORVIEWERDETACH
+3 Name=MAILEDITORVIEWERCHANGEDOCUMENT
+4 Name=MAILEDITORVIEWERCLOSE
+5 Name=MailEditorControlClass
+6 Name=MailEditorDialogClass
+7 Name=MailEditorMenuClass
+;------------------EOF------------------

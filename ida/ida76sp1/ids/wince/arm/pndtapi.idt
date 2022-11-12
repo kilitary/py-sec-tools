@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PNDTAPI.dll Pascal=0
+;---------------------------------------
+1 Name=?PndtBus_GetCmd@@YAJEKPAUtagCmdMapping@@@Z
+2 Name=?PndtBus_GetAppInfoFromAppID@@YAJEPAG00@Z
+;------------------EOF------------------

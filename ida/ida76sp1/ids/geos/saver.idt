@@ -1,0 +1,39 @@
+DECLARATION Nokia 9110 Geos 3.0 library saver.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=saverdll Pascal=0
+;---------------------------------------
+1 Name=SaverCryptInit
+2 Name=SaverCryptEncrypt
+3 Name=SaverCryptDecrypt
+4 Name=SaverCryptEnd
+5 Name=SaverSeedRandom
+6 Name=SaverRandom
+7 Name=SaverEndRandom
+8 Name=SaverVectorInit
+9 Name=SaverVectorUpdate
+10 Name=SaverDrawBGBitmap
+11 Name=SaverFadePatternFade
+12 Name=SaverFadeWipe
+13 Name=SaverCreateLaunchBlock
+14 Name=SaverDuplicateALB
+15 Name=SaverApplicationGetOptions
+16 Name=SAVERCREATELAUNCHBLOCK
+17 Name=SAVERDUPLICATEALB
+18 Name=SAVERSEEDRANDOM
+19 Name=SAVERRANDOM
+20 Name=SAVERENDRANDOM
+21 Name=SAVERCRYPTINIT
+22 Name=SAVERCRYPTENCRYPT
+23 Name=SAVERCRYPTDECRYPT
+24 Name=SAVERCRYPTEND
+25 Name=SAVERVECTORINIT
+26 Name=SAVERVECTORUPDATE
+27 Name=SAVERFADEPATTERNFADE
+28 Name=SAVERFADEWIPE
+29 Name=SAVERDRAWBGBITMAP
+30 Name=SAVERAPPLICATIONGETOPTIONS
+31 Name=SaverApplicationClass
+32 Name=SaverContentClass
+;------------------EOF------------------

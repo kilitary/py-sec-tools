@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=F32AGENTUI Pascal=0
+;---------------------------------------
+1 Name=_ZN13ContentAccess18TF32AgentUiFactory17CreateF32AgentUiLEv
+;------------------EOF------------------

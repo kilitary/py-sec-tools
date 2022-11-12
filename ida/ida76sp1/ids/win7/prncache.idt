@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=prncache.dll Args=0 Drops=1
+;---------------------------------------
+1 Name=?GetCacheController@@YGJPAPAUICacheController@PrintCache@@@Z Pascal=4
+;------------------EOF------------------

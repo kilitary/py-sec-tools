@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=qwave.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=QDLHPathDiagnostics Pascal=20
+2 Name=QDLHStartDiagnosingPath Pascal=12
+3 Name=QOSAddSocketToFlow Pascal=24
+4 Name=QOSCancel Pascal=8
+5 Name=QOSCloseHandle Pascal=4
+6 Name=QOSCreateHandle Pascal=8
+7 Name=QOSEnumerateFlows Pascal=12
+8 Name=QOSNotifyFlow Pascal=28
+9 Name=QOSQueryFlow Pascal=28
+10 Name=QOSRemoveSocketFromFlow Pascal=16
+11 Name=QOSSetFlow Pascal=28
+12 Name=QOSStartTrackingClient Pascal=12
+13 Name=QOSStopTrackingClient Pascal=12
+14 Name=ServiceMain Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=C32ROOTSRV Pascal=0
+;---------------------------------------
+1 Name=_Z13RunRootServerv
+;------------------EOF------------------

@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=nlaapi.dll Args=0 Drops=26
+;---------------------------------------
+1 Name=NSPStartup Pascal=8
+2 Name=NlaAddToPluginRequests Pascal=0
+3 Name=NlaAddToTypeSet Pascal=0
+4 Name=NlaAnd Pascal=0
+5 Name=NlaCloseQuery Pascal=4
+6 Name=NlaComposeNetSignature Pascal=0
+7 Name=NlaCreateFilter Pascal=4
+8 Name=NlaCreatePluginRequests Pascal=4
+9 Name=NlaCreateTypeSet Pascal=4
+10 Name=NlaDecomposeNetSignature Pascal=0
+11 Name=NlaDeleteDataSet Pascal=4
+12 Name=NlaDeleteFilter Pascal=4
+13 Name=NlaDeletePluginRequests Pascal=4
+14 Name=NlaDeleteTypeSet Pascal=4
+15 Name=NlaEqual Pascal=8
+16 Name=NlaEqualNetSignatures Pascal=16
+17 Name=NlaGetInternetCapability Pascal=12
+18 Name=NlaGetIntranetCapability Pascal=16
+19 Name=NlaNotEqual Pascal=8
+20 Name=NlaOpenQuery Pascal=20
+21 Name=NlaOr Pascal=0
+22 Name=NlaQueryNetData Pascal=16
+23 Name=NlaQueryNetDataEx Pascal=20
+24 Name=NlaQueryNetSignatures Pascal=8
+25 Name=NlaRefreshQuery Pascal=4
+26 Name=NlaRegisterQuery Pascal=24
+;------------------EOF------------------

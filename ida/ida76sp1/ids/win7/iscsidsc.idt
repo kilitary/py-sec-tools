@@ -1,0 +1,87 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iscsidsc.dll Args=0 Drops=80
+;---------------------------------------
+1 Name=AddISNSServerA Pascal=4
+2 Name=AddISNSServerW Pascal=4
+3 Name=AddIScsiConnectionA Pascal=40
+4 Name=AddIScsiConnectionW Pascal=40
+5 Name=AddIScsiSendTargetPortalA Pascal=24
+6 Name=AddIScsiSendTargetPortalW Pascal=24
+7 Name=AddIScsiStaticTargetA Pascal=28
+8 Name=AddIScsiStaticTargetW Pascal=28
+9 Name=AddPersistentIScsiDeviceA Pascal=4
+10 Name=AddPersistentIScsiDeviceW Pascal=4
+11 Name=AddRadiusServerA Pascal=4
+12 Name=AddRadiusServerW Pascal=4
+13 Name=ClearPersistentIScsiDevices Pascal=0
+14 Name=DllMain Pascal=12
+15 Name=GetDevicesForIScsiSessionA Pascal=12
+16 Name=GetDevicesForIScsiSessionW Pascal=12
+17 Name=GetIScsiIKEInfoA Pascal=16
+18 Name=GetIScsiIKEInfoW Pascal=16
+19 Name=GetIScsiInitiatorNodeNameA Pascal=4
+20 Name=GetIScsiInitiatorNodeNameW Pascal=4
+21 Name=GetIScsiSessionListA Pascal=12
+22 Name=GetIScsiSessionListEx Pascal=12
+23 Name=GetIScsiSessionListW Pascal=12
+24 Name=GetIScsiTargetInformationA Pascal=20
+25 Name=GetIScsiTargetInformationW Pascal=20
+26 Name=GetIScsiVersionInformation Pascal=4
+27 Name=LoginIScsiTargetA Pascal=56
+28 Name=LoginIScsiTargetW Pascal=56
+29 Name=LogoutIScsiTarget Pascal=4
+30 Name=RefreshISNSServerA Pascal=4
+31 Name=RefreshISNSServerW Pascal=4
+32 Name=RefreshIScsiSendTargetPortalA Pascal=12
+33 Name=RefreshIScsiSendTargetPortalW Pascal=12
+34 Name=RemoveISNSServerA Pascal=4
+35 Name=RemoveISNSServerW Pascal=4
+36 Name=RemoveIScsiConnection Pascal=8
+37 Name=RemoveIScsiPersistentTargetA Pascal=16
+38 Name=RemoveIScsiPersistentTargetW Pascal=16
+39 Name=RemoveIScsiSendTargetPortalA Pascal=12
+40 Name=RemoveIScsiSendTargetPortalW Pascal=12
+41 Name=RemoveIScsiStaticTargetA Pascal=4
+42 Name=RemoveIScsiStaticTargetW Pascal=4
+43 Name=RemovePersistentIScsiDeviceA Pascal=4
+44 Name=RemovePersistentIScsiDeviceW Pascal=4
+45 Name=RemoveRadiusServerA Pascal=4
+46 Name=RemoveRadiusServerW Pascal=4
+47 Name=ReportActiveIScsiTargetMappingsA Pascal=12
+48 Name=ReportActiveIScsiTargetMappingsW Pascal=12
+49 Name=ReportISNSServerListA Pascal=8
+50 Name=ReportISNSServerListW Pascal=8
+51 Name=ReportIScsiInitiatorListA Pascal=8
+52 Name=ReportIScsiInitiatorListW Pascal=8
+53 Name=ReportIScsiPersistentLoginsA Pascal=12
+54 Name=ReportIScsiPersistentLoginsW Pascal=12
+55 Name=ReportIScsiSendTargetPortalsA Pascal=8
+56 Name=ReportIScsiSendTargetPortalsExA Pascal=12
+57 Name=ReportIScsiSendTargetPortalsExW Pascal=12
+58 Name=ReportIScsiSendTargetPortalsW Pascal=8
+59 Name=ReportIScsiTargetPortalsA Pascal=20
+60 Name=ReportIScsiTargetPortalsW Pascal=20
+61 Name=ReportIScsiTargetsA Pascal=12
+62 Name=ReportIScsiTargetsW Pascal=12
+63 Name=ReportPersistentIScsiDevicesA Pascal=8
+64 Name=ReportPersistentIScsiDevicesW Pascal=8
+65 Name=ReportRadiusServerListA Pascal=8
+66 Name=ReportRadiusServerListW Pascal=8
+67 Name=SendScsiInquiry Pascal=40
+68 Name=SendScsiReadCapacity Pascal=32
+69 Name=SendScsiReportLuns Pascal=24
+70 Name=SetIScsiGroupPresharedKey Pascal=12
+71 Name=SetIScsiIKEInfoA Pascal=16
+72 Name=SetIScsiIKEInfoW Pascal=16
+73 Name=SetIScsiInitiatorCHAPSharedSecret Pascal=8
+74 Name=SetIScsiInitiatorNodeNameA Pascal=4
+75 Name=SetIScsiInitiatorNodeNameW Pascal=4
+76 Name=SetIScsiInitiatorRADIUSSharedSecret Pascal=8
+77 Name=SetIScsiTunnelModeOuterAddressA Pascal=20
+78 Name=SetIScsiTunnelModeOuterAddressW Pascal=20
+79 Name=SetupPersistentIScsiDevices Pascal=0
+80 Name=SetupPersistentIScsiVolumes Pascal=0
+;------------------EOF------------------

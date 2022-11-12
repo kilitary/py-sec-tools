@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=davclnt.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=DavCancelConnectionsToServer Pascal=8
+2 Name=DavFreeUsedDiskSpace Pascal=4
+3 Name=DavGetDiskSpaceUsage Pascal=16
+4 Name=DavGetTheLockOwnerOfTheFile Pascal=12
+5 Name=DavInvalidateCache Pascal=4
+6 Name=DavRegisterAuthCallback Pascal=8
+7 Name=DavUnregisterAuthCallback Pascal=4
+8 Name=DllCanUnloadNow Pascal=0
+9 Name=DllGetClassObject Pascal=12
+10 Name=DllMain Pascal=12
+11 Name=NPAddConnection3 Pascal=20
+12 Name=NPAddConnection Pascal=12
+13 Name=NPCancelConnection Pascal=8
+14 Name=NPCloseEnum Pascal=4
+15 Name=NPEnumResource Pascal=16
+16 Name=NPFormatNetworkName Pascal=20
+17 Name=NPGetCaps Pascal=4
+18 Name=NPGetConnection Pascal=12
+19 Name=NPGetResourceInformation Pascal=16
+20 Name=NPGetResourceParent Pascal=12
+21 Name=NPGetUniversalName Pascal=16
+22 Name=NPGetUser Pascal=12
+23 Name=NPOpenEnum Pascal=20
+;------------------EOF------------------

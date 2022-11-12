@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=shimeng.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=SE_DllLoaded Pascal=4
+2 Name=SE_DllUnloaded Pascal=4
+3 Name=SE_DynamicShim Pascal=20
+4 Name=SE_GetHookAPIs Pascal=12
+5 Name=SE_GetMaxShimCount Pascal=0
+6 Name=SE_GetProcAddressIgnoreIncExc Pascal=8
+7 Name=SE_GetShimCount Pascal=0
+8 Name=SE_InstallAfterInit Pascal=8
+9 Name=SE_InstallBeforeInit Pascal=8
+10 Name=SE_IsShimDll Pascal=4
+11 Name=SE_ProcessDying Pascal=0
+;------------------EOF------------------

@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mswstr10.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=DBCompareStringW Pascal=24
+2 Name=DBLCMapStringW Pascal=24
+3 Name=DBEnumSortLCIDs Pascal=8
+4 Name=DBLCUnMapStringW Pascal=24
+5 Name=DBMatchStringW Pascal=44
+6 Name=DBCharacterGreater Pascal=24
+7 Name=DBEnumEnglishSortLCIDs Pascal=8
+;------------------EOF------------------

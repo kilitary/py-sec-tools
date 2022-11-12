@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=libgmoduledll Pascal=0
+;---------------------------------------
+1 Name=gmodulebuildpath
+2 Name=gmoduleclose
+3 Name=gmoduleerror
+4 Name=gmodulemakeresident
+5 Name=gmodulename
+6 Name=gmoduleopen
+7 Name=gmodulesupported
+8 Name=gmodulesymbol
+;------------------EOF------------------

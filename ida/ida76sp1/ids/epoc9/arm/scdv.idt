@@ -1,0 +1,20 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SCDV Pascal=0
+;---------------------------------------
+1 Name=_ZN14CFbsDrawDevice14DisplayMode16MEv
+2 Name=_ZN14CFbsDrawDevice16NewBitmapDeviceLE14TScreenInfoV0112TDisplayMode
+3 Name=_ZN14CFbsDrawDevice16NewScreenDeviceLE14TScreenInfoV0112TDisplayMode
+4 Name=_ZN15RHardwareBitmap20SetAsScreenReferenceEi
+5 Name=_ZN15RHardwareBitmap6CreateE12TDisplayMode5TSize4TUid
+6 Name=_ZN15RHardwareBitmap7DestroyEv
+7 Name=_ZN19CDirectScreenBitmap4NewLEv
+8 Name=_ZN28CHardwareGraphicsAccelerator19GenericCapabilitiesEv
+9 Name=_ZN28CHardwareGraphicsAccelerator4NewLE15RHardwareBitmap
+10 Name=_ZNK15RHardwareBitmap7GetInfoER22TAcceleratedBitmapInfo
+41 Name=_ZN14CFbsDrawDevice16NewBitmapDeviceLERK5TSize12TDisplayMode
+42 Name=_ZN14CFbsDrawDevice16NewScreenDeviceLEi12TDisplayMode
+43 Name=_ZN19CDirectScreenBitmap4NewLEi
+;------------------EOF------------------

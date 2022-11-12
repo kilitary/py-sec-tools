@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ir50_qc.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=AllocInstanceData Pascal=0
+2 Name=Compress Pascal=12
+3 Name=CompressBegin Pascal=12
+4 Name=CompressEnd Pascal=12
+5 Name=CompressFramesInfo Pascal=12
+6 Name=CompressQuery Pascal=12
+7 Name=DllMain Pascal=12
+8 Name=FreeInstanceData Pascal=4
+9 Name=SetCPUID Pascal=12
+10 Name=SetScalability Pascal=12
+;------------------EOF------------------

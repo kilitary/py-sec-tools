@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2SIMPROPS Pascal=0
+;---------------------------------------
+1 Name=_Z15MIDPGetSIMPropsmR14TRequestStatusRPN4MIDP9MSimPropsE
+2 Name=_ZTIN4MIDP9CSimPropsE
+3 Name=_ZTVN4MIDP9CSimPropsE
+;------------------EOF------------------

@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QUECALLS.dll Pascal=0
+;---------------------------------------
+1 Name=DosReadQueue
+2 Name=DosPurgeQueue
+3 Name=DosCloseQueue
+4 Name=DosQueryQueue
+5 Name=DosPeekQueue
+6 Name=DosWriteQueue
+7 Name=DosOpenQueue
+8 Name=DosCreateQueue
+9 Name=DosReadQueue
+10 Name=DosPurgeQueue
+11 Name=DosCloseQueue
+12 Name=DosQueryQueue
+13 Name=DosPeekQueue
+14 Name=DosWriteQueue
+15 Name=DosOpenQueue
+16 Name=DosCreateQueue
+;------------------EOF------------------

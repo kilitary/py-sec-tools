@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CPANEL Pascal=0
+;---------------------------------------
+1 Name=__16CCPanelItemArray
+2 Name=AllItems__C7CCPanel
+3 Name=ConstructFromResourceL__7CCPanel
+4 Name=ExternalizeL__C7CCPanelR12RWriteStream
+5 Name=Find__C16CCPanelItemArrayG4TUid
+6 Name=InitL__7CCPanelR3RFsi
+7 Name=InternalizeL__7CCPanelR11RReadStream
+8 Name=ItemsInCategoryL__7CCPaneli
+9 Name=_._16CCPanelItemArray
+10 Name=_._7CCPanel
+11 Name=AllItemsL__C7CCPanel
+12 Name=SetCategory__7CCPanelG4TUidi
+13 Name=DeletableItemsL__C7CCPanel
+14 Name=DeleteItem__C7CCPanelG4TUid
+;------------------EOF------------------

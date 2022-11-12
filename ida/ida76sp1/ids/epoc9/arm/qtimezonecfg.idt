@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QTIMEZONECFG Pascal=0
+;---------------------------------------
+1 Name=_ZN27CControlPanelDialogTimeZone8RunDlgLDEN20CTzLocalizedTimeZone21TTzFrequentlyUsedZoneE
+;------------------EOF------------------

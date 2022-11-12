@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=difxapi.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=DIFXAPISetLogCallbackA Pascal=8
+2 Name=DIFXAPISetLogCallbackW Pascal=8
+3 Name=DriverPackageGetPathA Pascal=12
+4 Name=DriverPackageGetPathW Pascal=12
+5 Name=DriverPackageInstallA Pascal=16
+6 Name=DriverPackageInstallW Pascal=16
+7 Name=DriverPackagePreinstallA Pascal=8
+8 Name=DriverPackagePreinstallW Pascal=8
+9 Name=DriverPackageUninstallA Pascal=16
+10 Name=DriverPackageUninstallW Pascal=16
+11 Name=SetDifxLogCallbackA Pascal=8
+12 Name=SetDifxLogCallbackW Pascal=8
+;------------------EOF------------------

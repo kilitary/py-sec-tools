@@ -1,0 +1,75 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WinSCard.dll Args=0 Drops=65
+;---------------------------------------
+1 Name=ClassInstall32 Pascal=12
+2 Name=SCardAccessNewReaderEvent Pascal=0
+3 Name=SCardReleaseAllEvents Pascal=0
+4 Name=SCardReleaseNewReaderEvent Pascal=0
+5 Name=SCardAccessStartedEvent Pascal=0
+6 Name=SCardAddReaderToGroupA Pascal=12
+7 Name=SCardAddReaderToGroupW Pascal=12
+8 Name=SCardBeginTransaction Pascal=4
+9 Name=SCardCancel Pascal=4
+10 Name=SCardConnectA Pascal=24
+11 Name=SCardConnectW Pascal=24
+12 Name=SCardControl Pascal=28
+13 Name=SCardDisconnect Pascal=8
+14 Name=SCardEndTransaction Pascal=8
+15 Name=SCardEstablishContext Pascal=16
+16 Name=SCardForgetCardTypeA Pascal=8
+17 Name=SCardForgetCardTypeW Pascal=8
+18 Name=SCardForgetReaderA Pascal=8
+19 Name=SCardForgetReaderGroupA Pascal=8
+20 Name=SCardForgetReaderGroupW Pascal=8
+21 Name=SCardForgetReaderW Pascal=8
+22 Name=SCardFreeMemory Pascal=8
+23 Name=SCardGetAttrib Pascal=16
+24 Name=SCardGetCardTypeProviderNameA Pascal=20
+25 Name=SCardGetCardTypeProviderNameW Pascal=20
+26 Name=SCardGetProviderIdA Pascal=12
+27 Name=SCardGetProviderIdW Pascal=12
+28 Name=SCardGetStatusChangeA Pascal=16
+29 Name=SCardGetStatusChangeW Pascal=16
+30 Name=SCardGetTransmitCount Pascal=8
+31 Name=SCardIntroduceCardTypeA Pascal=32
+32 Name=SCardIntroduceCardTypeW Pascal=32
+33 Name=SCardIntroduceReaderA Pascal=12
+34 Name=SCardIntroduceReaderGroupA Pascal=8
+35 Name=SCardIntroduceReaderGroupW Pascal=8
+36 Name=SCardIntroduceReaderW Pascal=12
+37 Name=SCardIsValidContext Pascal=4
+38 Name=SCardListCardsA Pascal=24
+39 Name=SCardListCardsW Pascal=24
+40 Name=SCardListInterfacesA Pascal=16
+41 Name=SCardListInterfacesW Pascal=16
+42 Name=SCardListReaderGroupsA Pascal=12
+43 Name=SCardListReaderGroupsW Pascal=12
+44 Name=SCardListReadersA Pascal=16
+45 Name=SCardListReadersW Pascal=16
+46 Name=SCardLocateCardsA Pascal=16
+47 Name=SCardLocateCardsByATRA Pascal=20
+48 Name=SCardLocateCardsByATRW Pascal=20
+49 Name=SCardLocateCardsW Pascal=16
+50 Name=SCardReadCacheA Pascal=24
+51 Name=SCardReadCacheW Pascal=24
+52 Name=SCardReconnect Pascal=20
+53 Name=SCardReleaseContext Pascal=4
+54 Name=SCardReleaseStartedEvent Pascal=0
+55 Name=SCardRemoveReaderFromGroupA Pascal=12
+56 Name=SCardRemoveReaderFromGroupW Pascal=12
+57 Name=SCardSetAttrib Pascal=16
+58 Name=SCardSetCardTypeProviderNameA Pascal=16
+59 Name=SCardSetCardTypeProviderNameW Pascal=16
+60 Name=SCardState Pascal=20
+61 Name=SCardStatusA Pascal=28
+62 Name=SCardStatusW Pascal=28
+63 Name=SCardTransmit Pascal=28
+64 Name=SCardWriteCacheA Pascal=24
+65 Name=SCardWriteCacheW Pascal=24
+66 Name=g_rgSCardRawPci
+67 Name=g_rgSCardT0Pci
+68 Name=g_rgSCardT1Pci
+;------------------EOF------------------

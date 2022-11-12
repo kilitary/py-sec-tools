@@ -1,0 +1,41 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=catsrvut.dll Args=0 Drops=34
+;---------------------------------------
+1 Name=??0CComPlusComponent@@QAE@ABV0@@Z Pascal=4
+2 Name=??0CComPlusInterface@@QAE@ABV0@@Z Pascal=4
+3 Name=??0CComPlusMethod@@QAE@ABV0@@Z Pascal=4
+4 Name=??0CComPlusObject@@QAE@ABV0@@Z Pascal=4
+5 Name=??1CComPlusComponent@@UAE@XZ Pascal=0
+6 Name=??1CComPlusInterface@@UAE@XZ Pascal=0
+7 Name=??4CComPlusComponent@@QAEAAV0@ABV0@@Z Pascal=4
+8 Name=??4CComPlusInterface@@QAEAAV0@ABV0@@Z Pascal=4
+9 Name=??4CComPlusMethod@@QAEAAV0@ABV0@@Z Pascal=4
+10 Name=??4CComPlusObject@@QAEAAV0@ABV0@@Z Pascal=4
+11 Name=??4CComPlusTypelib@@QAEAAV0@ABV0@@Z Pascal=4
+12 Name=??_7CComPlusComponent@@6B@ Pascal=0
+13 Name=??_7CComPlusInterface@@6B@ Pascal=0
+14 Name=??_7CComPlusMethod@@6B@ Pascal=0
+15 Name=??_7CComPlusObject@@6B@ Pascal=0
+16 Name=?GetITypeLib@CComPlusTypelib@@QAEPAUITypeLib@@XZ Pascal=0
+17 Name=RegDBBackup Pascal=4
+18 Name=RegDBRestore Pascal=4
+19 Name=StartMTSTOCOM Pascal=4
+20 Name=WinlogonHandlePendingInfOperations Pascal=4
+21 Name=CGMIsAdministrator Pascal=4
+22 Name=COMPlusUninstallActionW Pascal=16
+23 Name=CreateComRegDBWriter Pascal=0
+24 Name=DestroyComRegDBWriter Pascal=0
+25 Name=DllCanUnloadNow Pascal=0
+26 Name=DllGetClassObject Pascal=12
+27 Name=DllRegisterServer Pascal=0
+28 Name=DllUnregisterServer Pascal=0
+29 Name=FindAssemblyModulesW Pascal=16
+30 Name=ManagedRequestW Pascal=16
+31 Name=QueryUserDllW Pascal=16
+32 Name=RunMTSToCom Pascal=16
+33 Name=SysprepComplus2 Pascal=0
+34 Name=SysprepComplus Pascal=0
+;------------------EOF------------------

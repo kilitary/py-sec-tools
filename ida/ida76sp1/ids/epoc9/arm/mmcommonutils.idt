@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MMCOMMONUTILS Pascal=0
+;---------------------------------------
+1 Name=_ZN13MmPluginUtils21CreateImplementationLE4TUidlRK6TDesC8S0_
+2 Name=_ZN13MmPluginUtils21CreateImplementationLE4TUidRS0_RK6TDesC8S0_
+;------------------EOF------------------

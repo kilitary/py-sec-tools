@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OS2SM.dll Pascal=0
+;---------------------------------------
+1 Name=WinInitSessionMgr
+2 Name=WinSetFgndWindow
+3 Name=ShlUnloadPublicFonts
+4 Name=WinStpRegister
+5 Name=WinInstStartApp
+6 Name=WinTerminateApp
+7 Name=WinCreateSwitchEntry
+8 Name=WinQuerySessionTitle
+9 Name=WinAddSwitchEntry
+10 Name=WinChangeSwitchEntry
+11 Name=WinQuerySwitchEntry
+12 Name=WinQuerySwitchHandle
+13 Name=WinQueryTaskTitle
+14 Name=WinQueryTaskSizePos
+15 Name=WinQuerySwitchList
+16 Name=WinRemoveSwitchEntry
+17 Name=WinSwitchToProgram
+18 Name=WinSwitchProgramRegister
+21 Name=WinEndProgram
+22 Name=WinStopProgram
+23 Name=WinEndWindowSession
+24 Name=LpfnShellWndProc
+25 Name=LpfnIconWndProc
+26 Name=WinSwitchToTaskManager
+27 Name=FnBadAppDlgProc
+28 Name=WinSwitchToProgram2
+29 Name=WinProcessHotKey
+31 Name=WinInitSession
+32 Name=WinEndSession
+33 Name=WinInitSwEntry
+34 Name=WinSetSwEntry
+35 Name=WinQueryExtIdFocus
+36 Name=WinSetExtIdFocus
+37 Name=SheSystemShutdown
+38 Name=StartSystemExecutables
+39 Name=ShlLoadPublicFonts
+40 Name=WinNoShutdown
+41 Name=SheInitializeIniFile
+42 Name=WinSetTitle
+43 Name=WinCplRegister
+44 Name=WinPmFileRegister
+45 Name=SheStartLongProgram
+46 Name=StartStartUpDotCmd
+47 Name=WinCanTerminate
+103 Name=ShellWindow
+;------------------EOF------------------

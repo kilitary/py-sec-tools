@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iasnap.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer Pascal=0
+4 Name=DllUnregisterServer Pascal=0
+5 Name=IASEvaluateExpression Pascal=12
+6 Name=IASEvaluateTimeOfDay Pascal=8
+7 Name=IASParseExpression Pascal=8
+8 Name=IASParseExpressionEx Pascal=8
+;------------------EOF------------------

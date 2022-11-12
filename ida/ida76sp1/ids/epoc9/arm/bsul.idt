@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BSUL Pascal=0
+;---------------------------------------
+1 Name=_ZN4BSUL16CCachedDriveInfo4NewLER3RFs
+2 Name=_ZN4BSUL16CCachedDriveInfo5NewLCER3RFs
+3 Name=_ZN4BSUL16CCachedDriveInfoD0Ev
+4 Name=_ZN4BSUL16CCachedDriveInfoD1Ev
+5 Name=_ZN4BSUL16CCachedDriveInfoD2Ev
+6 Name=_ZNK4BSUL16CCachedDriveInfo19IsReadOnlyInternalLE10TDriveUnit
+7 Name=_ZNK4BSUL16CCachedDriveInfo19IsReadOnlyInternalLERK7TDesC16
+;------------------EOF------------------

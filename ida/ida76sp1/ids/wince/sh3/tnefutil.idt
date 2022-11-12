@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TNEFUtil Pascal=0
+;---------------------------------------
+1 Name=_SzNextName
+2 Name=_SzNormalizeEmailList
+3 Name=_CharSetToCodePage
+4 Name=_GetCodePageDescription
+5 Name=_ConformToRFC1522
+6 Name=_EncodeFileName
+;------------------EOF------------------

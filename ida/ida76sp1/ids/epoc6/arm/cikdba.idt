@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CIKDBA Pascal=0
+;---------------------------------------
+1 Name=KeyDataConvTable__FR10SConvTableRUiT1R18SScanCodeBlockListR12SKeyCodeList
+2 Name=KeyDataFuncTable__FR11SFuncTables
+3 Name=KeyDataSettings__FR6TRadixR22TCtrlDigitsTerminationRiT2
+;------------------EOF------------------

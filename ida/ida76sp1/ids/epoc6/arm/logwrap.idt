@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LOGWRAP Pascal=0
+;---------------------------------------
+1 Name=__8CLogBasei
+2 Name=ChangeEvent__8CLogBaseRC9CLogEventR14TRequestStatus
+3 Name=Complete__10CLogActivei
+4 Name=CopyL__9CLogEventRC9CLogEvent
+5 Name=DeleteEvent__8CLogBaselR14TRequestStatus
+6 Name=DoCancel__10CLogActive
+7 Name=DoComplete__10CLogActiveRi
+8 Name=GetEvent__8CLogBaseR9CLogEventR14TRequestStatus
+9 Name=GetString__C8CLogBaseR6TDes16i
+10 Name=LoadResourcesL__8CLogBaseR3RFs
+11 Name=NewL__11CLogWrapperR3RFsi
+12 Name=NewL__9CLogEvent
+13 Name=Queue__10CLogActiveR14TRequestStatus
+14 Name=RunL__10CLogActive
+15 Name=SetDataL__9CLogEventR11RReadStreami
+16 Name=SetDataL__9CLogEventRC6TDesC8
+17 Name=_._10CLogActive
+18 Name=_._11CLogWrapper
+19 Name=_._8CLogBase
+20 Name=_._9CLogEvent
+21 Name=__10CLogActivei
+22 Name=AddEvent__8CLogBaseR9CLogEventR14TRequestStatus
+23 Name=ClientAvailable__C11CLogWrapper
+24 Name=CLogBase_Reserved1__8CLogBase
+;------------------EOF------------------

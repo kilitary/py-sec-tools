@@ -1,0 +1,64 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=APSERV Pascal=0
+;---------------------------------------
+1 Name=_Z23NameApaServServerThreadv
+2 Name=_Z25NameApaServStartSemaphorev
+3 Name=_ZN13CApaFsMonitor10SetBlockedEi
+4 Name=_ZN13CApaFsMonitor4NewLER3RFsRK7TDesC169TCallBack
+5 Name=_ZN13CApaFsMonitor5StartE11TNotifyType
+6 Name=_ZN13CApaFsMonitorD0Ev
+7 Name=_ZN13CApaFsMonitorD1Ev
+8 Name=_ZN13CApaFsMonitorD2Ev
+9 Name=_ZN17CApaAppListServer4NewLEP11CApaAppListP18CApaFileRecognizer
+10 Name=_ZN17CApaAppListServer4NewLEP14MApaAppStarter
+11 Name=_ZN17CApaAppListServerD0Ev
+12 Name=_ZN17CApaAppListServerD1Ev
+13 Name=_ZN17CApaAppListServerD2Ev
+14 Name=_ZNK13CApaFsMonitor10NotifyTypeEv
+15 Name=_ZTI13CApaFsMonitor
+16 Name=_ZTI15CApaEComMonitor
+17 Name=_ZTI17CApaAppListServer
+18 Name=_ZTI20TDesCArrayItemWriter
+19 Name=_ZTI20TSizeArrayItemWriter
+20 Name=_ZTI22CApaAppListServSession
+21 Name=_ZTI24TViewDataArrayItemWriter
+22 Name=_ZTV13CApaFsMonitor
+23 Name=_ZTV15CApaEComMonitor
+24 Name=_ZTV17CApaAppListServer
+25 Name=_ZTV20TDesCArrayItemWriter
+26 Name=_ZTV20TSizeArrayItemWriter
+27 Name=_ZTV22CApaAppListServSession
+28 Name=_ZTV24TViewDataArrayItemWriter
+29 Name=_ZN13CApaFsMonitor12AddLocationLERK7TDesC16
+30 Name=_ZTIN13CApaFsMonitor14CApaFsNotifierE
+31 Name=_ZTVN13CApaFsMonitor14CApaFsNotifierE
+32 Name=_ZN17CApaAppListServer4SelfEv
+33 Name=_ZN13CApaFsMonitor6CancelEv
+34 Name=_Z18ApaServThreadStartPv
+35 Name=_ZTI18CRecognitionResult
+36 Name=_ZTI20CApsRecognitionCache
+37 Name=_ZTI20CCacheDirectoryEntry
+38 Name=_ZTI23CFileRecognitionUtility
+39 Name=_ZTI25CRecognitionResultHashMap
+40 Name=_ZTI27CDirectoryRecognitionResult
+41 Name=_ZTI30CRecognitionResultHashMapEntry
+42 Name=_ZTV18CRecognitionResult
+43 Name=_ZTV20CApsRecognitionCache
+44 Name=_ZTV20CCacheDirectoryEntry
+45 Name=_ZTV23CFileRecognitionUtility
+46 Name=_ZTV25CRecognitionResultHashMap
+47 Name=_ZTV27CDirectoryRecognitionResult
+48 Name=_ZTV30CRecognitionResultHashMapEntry
+49 Name=_ZN16CUpdatedAppsList28CloseAndDeletePermanentStoreEv
+50 Name=_ZN16CUpdatedAppsListD0Ev
+51 Name=_ZN16CUpdatedAppsListD1Ev
+52 Name=_ZN16CUpdatedAppsListD2Ev
+53 Name=_ZTI16CUpdatedAppsList
+54 Name=_ZTV16CUpdatedAppsList
+55 Name=_ZNK16CUpdatedAppsList8IsInListERK7TDesC16
+56 Name=_ZTIN16CUpdatedAppsList15CUpdatedAppInfoE
+57 Name=_ZTVN16CUpdatedAppsList15CUpdatedAppInfoE
+;------------------EOF------------------

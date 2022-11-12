@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LABLEDIT.dll Pascal=0
+;---------------------------------------
+1 Name=InitLabelEdit
+2 Name=LEFormatStatic
+;------------------EOF------------------

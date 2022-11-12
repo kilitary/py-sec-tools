@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DBMAN Pascal=0
+;---------------------------------------
+1 Name=__10CDBManagerR3RFsUi
+2 Name=Close__10CDBManager
+3 Name=CreateIndex__10CDBManagerRC7TDesC16T1R6CDbKey
+4 Name=CreateTable__10CDBManagerRC7TDesC16R9CDbColSet
+5 Name=EndTransaction__10CDBManageri
+6 Name=OpenTable__10CDBManagerR8RDbTableRC7TDesC16Q29RDbRowSet7TAccess
+7 Name=PrimaryKeyL__10CDBManager
+8 Name=StartDatabaseL__10CDBManager
+9 Name=StartTransaction__10CDBManager
+10 Name=_._10CDBManager
+11 Name=BaseConstructionL__10CDBManagerRC7TDesC16
+12 Name=Reserved1__10CDBManager
+13 Name=Reserved1__C10CDBManager
+14 Name=CompactL__10CDBManager
+;------------------EOF------------------

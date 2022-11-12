@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PMCTLS.dll Pascal=0
+;---------------------------------------
+1 Name=PMCtlsOrd1
+2 Name=WinFontDlg
+3 Name=WinDefFontDlgProc
+4 Name=WinFileDlg
+5 Name=WinDefFileDlgProc
+6 Name=WinFreeFileDlgList
+7 Name=RegisterBook
+8 Name=RegisterValueset
+9 Name=RegisterSlider
+10 Name=InitContainer
+11 Name=RegisterSpinButton
+12 Name=BookWndProc
+13 Name=CnrGateProc
+14 Name=ValueSetWndProc
+15 Name=SliderWndProc
+16 Name=SpinButtonWndProc
+17 Name=AllocHeapMem
+18 Name=FreeHeapMem
+19 Name=CnrCreateNlsDateString
+20 Name=CnrCreateNlsTimeString
+21 Name=CnrCreateNlsNumberstring
+22 Name=XallocHeapMem
+;------------------EOF------------------

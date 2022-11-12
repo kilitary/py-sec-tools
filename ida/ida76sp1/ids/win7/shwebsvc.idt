@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=shwebsvc.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=AddNetPlaceRunDll Pascal=16
+2 Name=PublishRunDll Pascal=16
+3 Name=DllCanUnloadNow Pascal=0
+4 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

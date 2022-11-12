@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=winusb.dll Args=0 Drops=22
+;---------------------------------------
+1 Name=WinUsb_AbortPipe Pascal=8
+2 Name=WinUsb_ControlTransfer Pascal=28
+3 Name=WinUsb_FlushPipe Pascal=8
+4 Name=WinUsb_Free Pascal=4
+5 Name=WinUsb_GetAssociatedInterface Pascal=12
+6 Name=WinUsb_GetCurrentAlternateSetting Pascal=8
+7 Name=WinUsb_GetDescriptor Pascal=28
+8 Name=WinUsb_GetOverlappedResult Pascal=16
+9 Name=WinUsb_GetPipePolicy Pascal=20
+10 Name=WinUsb_GetPowerPolicy Pascal=16
+11 Name=WinUsb_Initialize Pascal=8
+12 Name=WinUsb_ParseConfigurationDescriptor Pascal=28
+13 Name=WinUsb_ParseDescriptors Pascal=16
+14 Name=WinUsb_QueryDeviceInformation Pascal=16
+15 Name=WinUsb_QueryInterfaceSettings Pascal=12
+16 Name=WinUsb_QueryPipe Pascal=16
+17 Name=WinUsb_ReadPipe Pascal=24
+18 Name=WinUsb_ResetPipe Pascal=8
+19 Name=WinUsb_SetCurrentAlternateSetting Pascal=8
+20 Name=WinUsb_SetPipePolicy Pascal=20
+21 Name=WinUsb_SetPowerPolicy Pascal=16
+22 Name=WinUsb_WritePipe Pascal=24
+;------------------EOF------------------

@@ -1,0 +1,74 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EZLIB Pascal=0
+;---------------------------------------
+1 Name=zlibVersion__Fv
+2 Name=AvailIn__C10CEZZStream
+3 Name=AvailOut__C10CEZZStream
+4 Name=CompressL__13CEZCompressorR5TDes8RC6TDesC8i
+5 Name=DecompressL__15CEZDecompressorR5TDes8RC6TDesC8
+6 Name=DeflateL__13CEZCompressor
+7 Name=DeflateL__13CEZFileToGZip
+8 Name=InflateL__13CEZGZipToFile
+9 Name=InflateL__15CEZDecompressor
+10 Name=IsGzipFile__10EZGZipFileR3RFsRC7TDesC16
+11 Name=LocateAndReadTrailerL__10EZGZipFileR3RFsRC7TDesC16R14TEZGZipTrailer
+12 Name=NewLC__13CEZCompressorR16MEZBufferManagerRC6TDesC8iiiQ213CEZCompressor9TStrategy
+13 Name=NewLC__13CEZCompressorR16MEZBufferManageriiiQ213CEZCompressor9TStrategy
+14 Name=NewLC__13CEZFileToGZipR3RFsRC7TDesC16R5RFilei
+15 Name=NewLC__13CEZGZipToFileR3RFsRC7TDesC16R5RFilei
+16 Name=NewLC__15CEZDecompressorR16MEZBufferManagerRC6TDesC8i
+17 Name=NewLC__15CEZDecompressorR16MEZBufferManageri
+18 Name=NewLC__20CEZFileBufferManagerR5RFileT1i
+19 Name=NewL__13CEZCompressorR16MEZBufferManagerRC6TDesC8iiiQ213CEZCompressor9TStrategy
+20 Name=NewL__13CEZCompressorR16MEZBufferManageriiiQ213CEZCompressor9TStrategy
+21 Name=NewL__13CEZFileToGZipR3RFsRC7TDesC16R5RFilei
+22 Name=NewL__13CEZGZipToFileR3RFsRC7TDesC16R5RFilei
+23 Name=NewL__15CEZDecompressorR16MEZBufferManagerRC6TDesC8i
+24 Name=NewL__15CEZDecompressorR16MEZBufferManageri
+25 Name=NewL__20CEZFileBufferManagerR5RFileT1i
+26 Name=OutputDescriptor__C10CEZZStream
+27 Name=Progress__C10CEZZStreami
+28 Name=ReadHeaderL__10EZGZipFileR5RFileR13TEZGZipHeader
+29 Name=ReadTrailerL__10EZGZipFileR5RFileR14TEZGZipTrailer
+30 Name=ResetL__13CEZCompressorR16MEZBufferManager
+31 Name=ResetL__13CEZFileToGZipR3RFsRC7TDesC16R5RFilei
+32 Name=ResetL__13CEZGZipToFileR3RFsRC7TDesC16R5RFilei
+33 Name=ResetL__15CEZDecompressorR16MEZBufferManager
+34 Name=SetInput__10CEZZStreamRC6TDesC8
+35 Name=SetOutput__10CEZZStreamR5TDes8
+36 Name=TotalIn__C10CEZZStream
+37 Name=TotalOut__C10CEZZStream
+38 Name=WriteHeaderL__10EZGZipFileR5RFileR13TEZGZipHeader
+39 Name=WriteTrailerL__10EZGZipFileR5RFileR14TEZGZipTrailer
+40 Name=_._13TEZGZipHeader
+41 Name=__13TEZGZipHeader
+42 Name=__14TEZGZipTrailer
+43 Name=__14TEZGZipTrailerll
+44 Name=adler32__FUlPCUcUi
+45 Name=compress2__FPUcPUlPCUcUli
+46 Name=compress__FPUcPUlPCUcUl
+47 Name=crc32__FUlPCUcUi
+48 Name=deflateCopy__FP10z_stream_sT0
+49 Name=deflateEnd__FP10z_stream_s
+50 Name=deflateInit2___FP10z_stream_siiiiiPCci
+51 Name=deflateInit___FP10z_stream_siPCci
+52 Name=deflateParams__FP10z_stream_sii
+53 Name=deflateReset__FP10z_stream_s
+54 Name=deflateSetDictionary__FP10z_stream_sPCUcUi
+55 Name=deflate__FP10z_stream_si
+56 Name=get_crc_table__Fv
+57 Name=inflateEnd__FP10z_stream_s
+58 Name=inflateInit2___FP10z_stream_siPCci
+59 Name=inflateInit___FP10z_stream_sPCci
+60 Name=inflateReset__FP10z_stream_s
+61 Name=inflateSetDictionary__FP10z_stream_sPCUcUi
+62 Name=inflateSyncPoint__FP10z_stream_s
+63 Name=inflateSync__FP10z_stream_s
+64 Name=inflate__FP10z_stream_si
+65 Name=uncompress__FPUcPUlPCUcUl
+66 Name=zError__Fi
+67 Name=Adler32__C10CEZZStream
+;------------------EOF------------------

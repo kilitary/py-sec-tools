@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dplayx.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=DirectPlayCreate Pascal=12
+2 Name=DirectPlayEnumerateA Pascal=8
+3 Name=DirectPlayEnumerateW Pascal=8
+4 Name=DirectPlayLobbyCreateA Pascal=20
+5 Name=DirectPlayLobbyCreateW Pascal=20
+6 Name=DllCanUnloadNow Pascal=0
+7 Name=DllGetClassObject Pascal=12
+8 Name=DllRegisterServer Pascal=0
+9 Name=DirectPlayEnumerate Pascal=8
+10 Name=DllUnregisterServer Pascal=0
+11 Name=gdwDPlaySPRefCount
+;------------------EOF------------------

@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RECBLOB.dll Pascal=0
+;---------------------------------------
+1 Name=BlobFromRecurrence
+2 Name=BlobFromTz
+3 Name=RecurrenceFromBlob
+4 Name=pTzFromBlob
+;------------------EOF------------------

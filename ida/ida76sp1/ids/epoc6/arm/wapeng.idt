@@ -1,0 +1,46 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WAPENG Pascal=0
+;---------------------------------------
+1 Name=_._10CWAPEngine
+2 Name=CancelConnectionStartup__10CWAPEngine
+3 Name=CancelDocumentLoad__10CWAPEnginePC13CDocumentNode
+4 Name=DataStorageNode__10CWAPEnginePC13CDocumentNode
+5 Name=Debug__10CWAPEngineiPvT2
+6 Name=DeleteDocument__10CWAPEnginePC13CDocumentNode
+7 Name=Disconnect__10CWAPEnginei
+8 Name=DocumentType__10CWAPEnginePC13CDocumentNode
+9 Name=Document__10CWAPEngineQ210CWAPEngine13TDocumentType
+10 Name=ExecuteTaskL__10CWAPEngineP5CNodeQ210CWAPEngine16TTaskExecuteMode
+11 Name=ExecuteTaskL__10CWAPEngineRC7TDesC16Q210CWAPEngine16TTaskExecuteMode
+12 Name=ExecuteTaskL__10CWAPEngineRC7TDesC16T1Q210CWAPEngine16TTaskExecuteMode
+13 Name=FetchDocumentL__10CWAPEngineRC7TDesC16T1P29MDataProviderTransmissionDatai
+14 Name=FetchObjectL__10CWAPEngineRC7TDesC16R13CDocumentNodeR18MWAPEngineObserverP29MDataProviderTransmissionData
+15 Name=FetchSubDocumentL__10CWAPEngineRC7TDesC16T1P13CDocumentNodePC13CDocumentNodeRiP14CDataCollector
+16 Name=FindDocumentRoot__10CWAPEnginePC13CDocumentNode
+17 Name=GetDocumentAttribute__10CWAPEngineQ210CWAPEngine13TDocumentTypeQ210CWAPEngine22TDocumentAttributeType
+18 Name=GlobalContext__10CWAPEngine
+19 Name=LocalContext__10CWAPEngine
+20 Name=NewL__10CWAPEngineP18MWAPEngineObserver
+21 Name=Observer__10CWAPEngine
+22 Name=OnChildStatus__10CWAPEngineRC14CDataCollectorR5CNodei
+23 Name=PluginServerClient__10CWAPEngine
+24 Name=PrepareDTDL__10CWAPEngineRC7TDesC16T1PC13CDocumentNode
+25 Name=Reserved1__10CWAPEngine
+26 Name=Reserved2__10CWAPEngine
+27 Name=Reserved3__10CWAPEngine
+28 Name=Reserved4__10CWAPEngine
+29 Name=ResetDocumentNodeData__10CWAPEngineP13CDocumentNodePv
+30 Name=ResumeDocumentLoad__10CWAPEnginePC13CDocumentNode
+31 Name=SetDocumentAttributeL__10CWAPEngineQ210CWAPEngine13TDocumentTypeQ210CWAPEngine22TDocumentAttributeTypePCv
+32 Name=SetObserver__10CWAPEngineP18MWAPEngineObserver
+33 Name=SetPendingToDisplayDocument__10CWAPEngine
+34 Name=SuspendDocumentLoad__10CWAPEnginePC13CDocumentNode
+35 Name=TaskCoordinator__10CWAPEngine
+36 Name=UserData__10CWAPEnginePC13CDocumentNode
+37 Name=WAPEngine__10CWAPEngine
+38 Name=WmlLibL__10CWAPEngineP11CXmlElement
+39 Name=AttributeLUT__10CWAPEngine
+;------------------EOF------------------

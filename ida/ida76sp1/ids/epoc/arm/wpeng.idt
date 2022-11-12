@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WPENG Pascal=0
+;---------------------------------------
+1 Name=__16CWordModelHeaderP10CWordModel
+2 Name=ConstructL__10CWordModelPC18MFieldFileNameInfoPC18MFieldNumPagesInfo
+3 Name=ConstructMinimalL__10CWordModelPC18MFieldFileNameInfoPC18MFieldNumPagesInfoRC6TDesC8
+4 Name=NewHeaderL__C23TWordModelHeaderFactoryRC12CStreamStoreRC17CStreamDictionaryRC17TApaAppIdentifier
+5 Name=NewL__10CWordModelPC18MFieldFileNameInfoPC18MFieldNumPagesInfo
+6 Name=NewL__10CWordModelPC18MFieldFileNameInfoPC18MFieldNumPagesInfoRC6TDesC8
+7 Name=RestoreL__10CWordModelRC12CStreamStoreRC17CStreamDictionaryPC13CSecurityBasePC18MFieldFileNameInfoPC18MFieldNumPagesInfoP15MPictureFactory
+8 Name=RestoreL__16CWordModelHeaderRC12CStreamStoreRC17CStreamDictionary
+9 Name=StoreL__C10CWordModelR12CStreamStoreR17CStreamDictionaryPC13CSecurityBase
+10 Name=StoreL__C16CWordModelHeaderR12CStreamStoreR17CStreamDictionary
+11 Name=_._10CWordModel
+12 Name=_._16CWordModelHeader
+13 Name=__10CWordModel
+14 Name=AppId__C16CWordModelHeader
+15 Name=__23TWordModelHeaderFactoryRCt4TBuf1i256
+16 Name=Model__16CWordModelHeader
+17 Name=DetachFromStoreL__16CWordModelHeaderQ28CPicture7TDetach
+18 Name=__25TWordModelHeaderFactoryV2RCt4TBuf1i256
+19 Name=AppId__C18CWordModelHeaderV2
+20 Name=DetachFromStoreL__18CWordModelHeaderV2Q28CPicture7TDetach
+21 Name=Model__18CWordModelHeaderV2
+22 Name=NewHeaderL__C25TWordModelHeaderFactoryV2RC12CStreamStoreRC17CStreamDictionaryRC17TApaAppIdentifier
+23 Name=RestoreL__18CWordModelHeaderV2RC12CStreamStoreRC17CStreamDictionary
+24 Name=StoreL__C18CWordModelHeaderV2R12CStreamStoreR17CStreamDictionary
+25 Name=_._18CWordModelHeaderV2
+;------------------EOF------------------

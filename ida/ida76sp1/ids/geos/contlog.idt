@@ -1,0 +1,57 @@
+DECLARATION Nokia 9110 Geos 3.0 library contlog.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+14 Name=contlogdll Args=0 Drops=9
+;---------------------------------------
+1 Name=LogGenInteractionClass
+2 Name=LogGenDynamicListClass
+3 Name=PersonContactsControlClass
+4 Name=LogGenControlClass
+5 Name=LogControlClass
+6 Name=RecentContactsControlClass
+7 Name=RecentContactsPhoneControlClass
+8 Name=RecentContactsFaxControlClass
+9 Name=RecentContactsSMSControlClass
+10 Name=LogLengthControlClass
+11 Name=LogAddEntry
+12 Name=LogDeleteAllEntries
+13 Name=LogDestroy
+14 Name=RecentContactsGetCount
+15 Name=RecentContactsGetEntry
+16 Name=RecentContactsGetNewCount
+17 Name=RecentContactsResetNewCount
+18 Name=LOGADDENTRY Pascal=4 \
+	Comment=Boolean pascal LogAddEntry(LogEntry *logEntry) in contlog.goh
+19 Name=LOGDELETEALLENTRIES \
+	Comment=void pascal LogDeleteAllEntries() in contlog.goh
+20 Name=LOGDESTROY \
+	Comment=void pascal LogDestroy() in contlog.goh
+21 Name=RECENTCONTACTSGETCOUNT Pascal=2 \
+	Comment=word pascal RecentContactsGetCount(RecentContactsType rcType) in contlog.goh
+22 Name=RECENTCONTACTSGETENTRY Pascal=8 \
+	Comment=word pascal RecentContactsGetEntry(RecentContactsType rcType, int item, LogEntry *buffer) in contlog.goh
+23 Name=RECENTCONTACTSGETNEWCOUNT Pascal=2 \
+	Comment=word pascal RecentContactsGetNewCount(RecentContactsType rcType) in contlog.goh
+24 Name=RECENTCONTACTSRESETNEWCOUNT Pascal=2 \
+	Comment=void pascal RecentContactsResetNewCount(RecentContactsType rcType) in contlog.goh
+25 Name=RecentContactsEraseStack
+26 Name=RECENTCONTACTSERASESTACK Pascal=2 \
+	Comment=Boolean pascal RecentContactsEraseStack(RecentContactsType rcType) in contlog.goh
+27 Name=RECENTCONTACTSRESETMISSEDCALLSTOTALCOUNT \
+	Comment=void pascal RecentContactsResetMissedCallsTotalCount() in contlog.goh
+28 Name=RECENTCONTACTSGETMISSEDCALLSTOTALCOUNT \
+	Comment=int pascal RecentContactsGetMissedCallsTotalCount() in contlog.goh
+29 Name=LogGetCount
+30 Name=LogGetEntry
+31 Name=LOGGETCOUNT \
+	Comment=word pascal LogGetCount() in contlog.goh
+32 Name=LOGGETENTRY Pascal=6 \
+	Comment=Boolean pascal LogGetEntry(int item, LogEntry *buffer) in contlog.goh
+33 Name=LogFindMatchingType
+34 Name=LogDeleteMatchingType
+35 Name=LOGFINDMATCHINGTYPE Pascal=8 \
+	Comment=Boolean pascal LogFindMatchingType(word lft, optr logEntry, VMBlockHandle hugeArray) in contlog.goh
+36 Name=LOGDELETEMATCHINGTYPE Pascal=6 \
+	Comment=Boolean pascal LogDeleteMatchingType(LogFieldType lft, optr logEntry) in contlog.goh
+;------------------EOF------------------

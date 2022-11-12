@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PXL2XLS.dll Pascal=0
+;---------------------------------------
+1 Name=Create_XLS95Write
+2 Name=Create_XLS97Write
+3 Name=DllCanUnloadNow
+4 Name=DllGetClassObject
+5 Name=DllMain
+;------------------EOF------------------

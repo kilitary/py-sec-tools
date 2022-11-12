@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WABSyncProvider.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=RegisterWABSyncConfigUI Pascal=0
+2 Name=UnregisterWABSyncConfigUI Pascal=0
+3 Name=DllCanUnloadNow Pascal=0
+4 Name=DllGetClassObject Pascal=12
+5 Name=DllRegisterServer Pascal=0
+6 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

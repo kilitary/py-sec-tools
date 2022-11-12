@@ -1,0 +1,103 @@
+DECLARATION Nokia 9110 Geos 3.0 library streamc.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+43 Name=streamcdll Args=0 Drops=41
+;---------------------------------------
+1 Name=DRIVERCALLENTRYPOINT Pascal=12 \
+	Comment=void pascal DriverCallEntryPoint (Handle driver, word func, DriverPassParams *passParams, DriverReturnParams *returnParams) in streamc.h
+2 Name=STREAMGETDEVICEMAP Pascal=6 \
+	Comment=StreamError pascal StreamGetDeviceMap (Handle driver, word *retInfo) in streamc.h
+3 Name=STREAMOPEN Pascal=12 \
+	Comment=StreamError pascal StreamOpen (Handle driver, word buffSize, GeodeHandle owner, HeapFlags heapFlags, StreamToken *stream) in streamc.h
+4 Name=STREAMCLOSE Pascal=6 \
+	Comment=StreamError pascal StreamClose (Handle driver, StreamToken stream, StreamLingerMode linger) in streamc.h
+5 Name=STREAMSETNOTIFY Pascal=8 \
+	Comment=StreamError pascal StreamSetNotify (Handle driver, StreamToken stream, word *status) in streamc.h
+6 Name=STREAMGETERROR Pascal=10 \
+	Comment=StreamError pascal StreamGetError (Handle driver, StreamToken stream, StreamRoles roles, word *errorCode) in streamc.h
+7 Name=STREAMSETERROR Pascal=8 \
+	Comment=StreamError pascal StreamSetError (Handle driver, StreamToken stream, StreamRoles roles, word errorCode) in streamc.h
+8 Name=STREAMFLUSH Pascal=4 \
+	Comment=StreamError pascal StreamFlush (Handle driver, StreamToken stream) in streamc.h
+9 Name=STREAMSETTHRESHOLD Pascal=8 \
+	Comment=StreamError pascal StreamSetThreshold (Handle driver, StreamToken stream, StreamRoles roles, word threshold) in streamc.h
+10 Name=STREAMREAD Pascal=16 \
+	Comment=StreamError pascal StreamRead (Handle driver, StreamToken stream, StreamBlocker blocker, word buffSize, byte *buffer, word *numBytesRead) in streamc.h
+11 Name=STREAMREADBYTE Pascal=10 \
+	Comment=StreamError pascal StreamReadByte (Handle driver, StreamToken stream, StreamBlocker blocker, byte *dataByte) in streamc.h
+12 Name=STREAMWRITE Pascal=16 \
+	Comment=StreamError pascal StreamWrite (Handle driver, StreamToken stream, StreamBlocker blocker, word buffSize, byte *buffer, word *numBytesWritten) in streamc.h
+13 Name=STREAMWRITEBYTE Pascal=8 \
+	Comment=StreamError pascal StreamWriteByte (Handle driver, StreamToken stream, StreamBlocker blocker, byte dataByte) in streamc.h
+14 Name=STREAMQUERY Pascal=10 \
+	Comment=StreamError pascal StreamQuery (Handle driver, StreamToken stream, StreamRoles role, word *bytesAvailable) in streamc.h
+15 Name=STREAMESCLOADOPTIONS Pascal=6 \
+	Comment=StreamError pascal StreamEscLoadOptions (Handle driver, const char *category) in streamc.h
+16 Name=SERIALGETDEVICEMAP
+17 Name=SERIALOPEN Pascal=12 \
+	Comment=StreamError pascal SerialOpen (Handle driver, SerialUnit unit, StreamOpenFlags flags, word inBuffSize, word outBuffSize, word timeout) in streamc.h
+18 Name=SERIALCLOSE Pascal=6 \
+	Comment=StreamError pascal SerialClose (Handle driver, SerialUnit unit, StreamLingerMode linger) in streamc.h
+19 Name=SERIALSETNOTIFY Pascal=8 \
+	Comment=StreamError pascal SerialSetNotify (Handle driver, StreamToken stream, SerialModemStatus *status) in streamc.h
+20 Name=SERIALGETERROR
+21 Name=SERIALSETERROR
+22 Name=SERIALFLUSH Pascal=6 \
+	Comment=StreamError pascal SerialFlush (Handle driver, SerialUnit unit, StreamRoles roles) in streamc.h
+23 Name=SERIALSETTHRESHOLD
+24 Name=SERIALREAD
+25 Name=SERIALREADBYTE
+26 Name=SERIALWRITE
+27 Name=SERIALWRITEBYTE
+28 Name=SERIALQUERY
+29 Name=SERIALESCLOADOPTIONS
+30 Name=SERIALSETFORMAT Pascal=10 \
+	Comment=StreamError pascal SerialSetFormat (Handle driver, SerialUnit unit, SerialFormat format, SerialMode mode, SerialBaud baud) in streamc.h
+31 Name=SERIALGETFORMAT Pascal=16 \
+	Comment=StreamError pascal SerialGetFormat (Handle driver, SerialUnit unit, SerialFormat *format, SerialMode *mode, SerialBaud *baud) in streamc.h
+32 Name=SERIALSETMODEM Pascal=6 \
+	Comment=StreamError pascal SerialSetModem (Handle driver, SerialUnit unit, SerialModem modem) in streamc.h
+33 Name=SERIALGETMODEM Pascal=8 \
+	Comment=StreamError pascal SerialGetModem (Handle driver, SerialUnit unit, SerialModem *modem) in streamc.h
+34 Name=SERIALOPENFORDRIVER Pascal=14 \
+	Comment=StreamError pascal SerialOpenForDriver (Handle driver, SerialUnit unit, StreamOpenFlags flags, word inBuffSize, word outBuffSize, word timeout, GeodeHandle owner) in streamc.h
+35 Name=SERIALSETFLOWCONTROL Pascal=10 \
+	Comment=StreamError pascal SerialSetFlowControl (Handle driver, SerialUnit unit, SerialFlowControl flow, SerialModem modem, SerialModemStatus status) in streamc.h
+36 Name=SERIALDEFINEPORT Pascal=10 \
+	Comment=StreamError pascal SerialDefinePort (Handle driver, word basePort, byte interruptLevel, SerialUnit *unit) in streamc.h
+37 Name=SERIALSTATPORT Pascal=12 \
+	Comment=StreamError pascal SerialStatPort (Handle driver, SerialUnit unit, word *interruptLevel, Boolean *portOpen) in streamc.h
+38 Name=SERIALCLOSEWITHOUTRESET Pascal=6 \
+	Comment=StreamError pascal SerialCloseWithoutReset (Handle driver, SerialUnit unit, StreamLingerMode linger) in streamc.h
+39 Name=STREAMSETMESSAGENOTIFY Pascal=12 \
+	Comment=StreamError pascal StreamSetMessageNotify (Handle driver, StreamToken stream, StreamNotifyType type, Message msg, optr destination) in streamc.h
+40 Name=STREAMSETNONOTIFY Pascal=6 \
+	Comment=StreamError pascal StreamSetNoNotify (Handle driver, StreamToken stream, StreamNotifyType type) in streamc.h
+41 Name=SERIALLOADDRIVER \
+	Comment=Handle pascal SerialLoadDriver(void) in streamc.h
+42 Name=STREAMSETROUTINENOTIFY Pascal=12 \
+	Comment=StreamError pascal StreamSetRoutineNotify (Handle driver, StreamToken stream, StreamNotifyType type, word data, StreamGeneralNotifyRoutine *callback) in streamc.h
+43 Name=STREAMSETDATAROUTINENOTIFY Pascal=14 \
+	Comment=StreamError pascal StreamSetDataRoutineNotify (Handle driver, StreamToken stream, StreamNotifyType type, word data, StreamGeneralNotifyRoutine *callback, word threshold) in streamc.h
+44 Name=PARALLELLOADDRIVER \
+	Comment=Handle pascal ParallelLoadDriver(void) in streamc.h
+45 Name=PARALLELOPEN Pascal=10 \
+	Comment=StreamError pascal ParallelOpen (Handle driver, ParallelUnit unit, StreamOpenFlags flags, word outBuffSize, word timeout) in streamc.h
+46 Name=PARALLELMASKERROR Pascal=6 \
+	Comment=StreamError pascal ParallelMaskError (Handle driver, ParallelUnit unit, ParallelError errorMask) in streamc.h
+47 Name=PARALLELQUERY Pascal=8 \
+	Comment=StreamError pascal ParallelQuery (Handle driver, ParallelUnit unit, Boolean *printerBusy) in streamc.h
+48 Name=PARALLELTIMEOUT Pascal=6 \
+	Comment=StreamError pascal ParallelTimeout (Handle driver, ParallelUnit unit, word waitSeconds) in streamc.h
+49 Name=PARALLELRESTART Pascal=6 \
+	Comment=StreamError pascal ParallelRestart (Handle driver, ParallelUnit unit, Boolean resendPending) in streamc.h
+50 Name=PARALLELVERIFY Pascal=8 \
+	Comment=StreamError pascal ParallelVerify (Handle driver, ParallelUnit unit, ParallelError *error) in streamc.h
+51 Name=PARALLELSETINTERRUPT Pascal=6 \
+	Comment=StreamError pascal ParallelSetInterrupt (Handle driver, ParallelUnit unit, ParallelInterrupt pInt) in streamc.h
+52 Name=PARALLELSTATPORT Pascal=12 \
+	Comment=StreamError pascal ParallelStatPort (Handle driver, ParallelUnit unit, byte *interruptLevel, byte *portOpen) in streamc.h
+53 Name=SERIALSETROLE Pascal=6 \
+	Comment=StreamError pascal SerialSetRole (Handle driver, SerialUnit unit, SerialRole role) in streamc.h
+;------------------EOF------------------

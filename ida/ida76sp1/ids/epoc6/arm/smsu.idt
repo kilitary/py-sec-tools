@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMSU Pascal=0
+;---------------------------------------
+1 Name=__eq__C8TSmsAddrRC8TSmsAddr
+2 Name=IdentifierMatch__C8TSmsAddr
+3 Name=InternalizeL__12TSmsSettingsR11RReadStream
+4 Name=SetIdentifierMatch__8TSmsAddri
+5 Name=SetSmsAddrFamily__8TSmsAddr14TSmsAddrFamily
+6 Name=SetTextMatch__8TSmsAddrRC6TDesC8
+7 Name=SmsAddrFamily__C8TSmsAddr
+8 Name=TextMatch__C8TSmsAddr
+9 Name=__12TSmsSettings
+10 Name=__20RSmsSocketReadStreamR7RSocket
+11 Name=__21RSmsSocketWriteStreamR7RSocket
+12 Name=__8TSmsAddr
+13 Name=ExternalizeL__C12TSmsSettingsR12RWriteStream
+14 Name=ChangeEvent__15CSmsEventLoggerR14TRequestStatusRC11CSmsMessageRC14TLogSmsPduDataPi
+15 Name=GetEvent__15CSmsEventLoggerR14TRequestStatusl
+16 Name=NewL__15CSmsEventLoggerR3RFsi
+17 Name=AddEvent__15CSmsEventLoggerR14TRequestStatusRC11CSmsMessageRC14TLogSmsPduDataPi
+18 Name=DeleteEvent__15CSmsEventLoggerR14TRequestStatus
+19 Name=_._15CSmsEventLogger
+;------------------EOF------------------

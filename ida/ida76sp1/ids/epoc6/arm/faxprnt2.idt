@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FAXPRNT2 Pascal=0
+;---------------------------------------
+1 Name=NewL__19CFaxPrinterDriverUI
+;------------------EOF------------------

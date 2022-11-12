@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=winnsi.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=NsiConnectToServer Pascal=4
+2 Name=NsiDisconnectFromServer Pascal=4
+3 Name=NsiRpcDeregisterChangeNotification Pascal=16
+4 Name=NsiRpcDeregisterChangeNotificationEx Pascal=8
+5 Name=NsiRpcEnumerateObjectsAllParameters Pascal=56
+6 Name=NsiRpcGetAllParameters Pascal=48
+7 Name=NsiRpcGetAllParametersEx Pascal=8
+8 Name=NsiRpcGetParameter Pascal=40
+9 Name=NsiRpcGetParameterEx Pascal=8
+10 Name=NsiRpcRegisterChangeNotification Pascal=28
+11 Name=NsiRpcRegisterChangeNotificationEx Pascal=8
+12 Name=NsiRpcSetAllParameters Pascal=36
+13 Name=NsiRpcSetAllParametersEx Pascal=8
+14 Name=NsiRpcSetParameter Pascal=44
+15 Name=NsiRpcSetParameterEx Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wsdchngr.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=WSDCHNGRChallengeDeviceClass Pascal=4
+2 Name=WSDCHNGRInitialize Pascal=0
+3 Name=WSDCHNGRRegisterDeviceToChallenge Pascal=4
+4 Name=WSDCHNGRShutdown Pascal=0
+;------------------EOF------------------

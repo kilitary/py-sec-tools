@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PCLINKSETTINGS Pascal=0
+;---------------------------------------
+1 Name=NewL__15TPCLinkSettings
+2 Name=NewL__15TPCLinkSettings11TPCLinkType10TPCLinkBps
+3 Name=ReadSettingsL__15TPCLinkSettings
+4 Name=RunDlgLD__21CPCLinkSettingsDialogi
+;------------------EOF------------------

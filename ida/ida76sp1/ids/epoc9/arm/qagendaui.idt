@@ -1,0 +1,47 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QAGENDAUI Pascal=0
+;---------------------------------------
+1 Name=_ZN22CAgnSharedUIController11SetObserverEP20MAgnSharedUIObserver
+2 Name=_ZN22CAgnSharedUIController13BackupEntriesE22TBackupApplicationType
+3 Name=_ZN22CAgnSharedUIController14IsBackupExistsE22TBackupApplicationType
+4 Name=_ZN22CAgnSharedUIController14RestoreEntriesE22TBackupApplicationType
+5 Name=_ZN22CAgnSharedUIController19CheckIfCardPresentLEv
+6 Name=_ZN22CAgnSharedUIController4NewLEv
+7 Name=_ZN22CAgnSharedUIControllerD0Ev
+8 Name=_ZN22CAgnSharedUIControllerD1Ev
+9 Name=_ZN22CAgnSharedUIControllerD2Ev
+10 Name=_ZTI19CAgnEntryViewParser
+11 Name=_ZTI19CAgnSharedBackupDlg
+12 Name=_ZTI20CAgnExportImportView
+13 Name=_ZTI20CAgnSharedRestoreDlg
+14 Name=_ZTI22CAgnSharedUIController
+15 Name=_ZTI26CAgnSharedUIControllerImpl
+16 Name=_ZTI27CAgnSharedBackupProgressDlg
+17 Name=_ZTI27CAgnSharedUIBackupPerformer
+18 Name=_ZTI28CAgnSharedRestoreProgressDlg
+19 Name=_ZTI28CAgnSharedUIRestorePerformer
+20 Name=_ZTV19CAgnEntryViewParser
+21 Name=_ZTV19CAgnSharedBackupDlg
+22 Name=_ZTV20CAgnExportImportView
+23 Name=_ZTV20CAgnSharedRestoreDlg
+24 Name=_ZTV22CAgnSharedUIController
+25 Name=_ZTV26CAgnSharedUIControllerImpl
+26 Name=_ZTV27CAgnSharedBackupProgressDlg
+27 Name=_ZTV27CAgnSharedUIBackupPerformer
+28 Name=_ZTV28CAgnSharedRestoreProgressDlg
+29 Name=_ZTV28CAgnSharedUIRestorePerformer
+30 Name=_ZN30CAgnSharedUIDiskChangeNotifier11AddObserverEPK19MDiskChangeObserver
+31 Name=_ZN30CAgnSharedUIDiskChangeNotifier14RemoveObserverEPK19MDiskChangeObserver
+32 Name=_ZN30CAgnSharedUIDiskChangeNotifier4NewLER3RFs
+33 Name=_ZN30CAgnSharedUIDiskChangeNotifier4StopEv
+34 Name=_ZN30CAgnSharedUIDiskChangeNotifier5StartEv
+35 Name=_ZN30CAgnSharedUIDiskChangeNotifierD0Ev
+36 Name=_ZN30CAgnSharedUIDiskChangeNotifierD1Ev
+37 Name=_ZN30CAgnSharedUIDiskChangeNotifierD2Ev
+38 Name=_ZTI30CAgnSharedUIDiskChangeNotifier
+39 Name=_ZTV30CAgnSharedUIDiskChangeNotifier
+40 Name=_ZN22CAgnSharedUIController14RestoreEntriesE22TBackupApplicationTypeP17CQikCategoryModel
+;------------------EOF------------------

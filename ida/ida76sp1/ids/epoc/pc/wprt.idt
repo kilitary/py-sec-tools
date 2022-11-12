@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WPRT Pascal=0
+;---------------------------------------
+1 Name=_WprtServerNewL
+2 Name=?Cancel@RWprtSession@@QAEXXZ
+3 Name=?Open@RWprtSession@@QAEHI@Z
+4 Name=?Reset@RWprtSession@@QAEHXZ
+5 Name=?Version@RWprtSession@@QBE?AVTVersion@@XZ
+6 Name=?Write@RWprtSession@@QAEXAAVTRequestStatus@@ABVTDesC8@@@Z
+;------------------EOF------------------

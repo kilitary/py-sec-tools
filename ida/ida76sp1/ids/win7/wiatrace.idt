@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wiatrace.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=WIATRACE_DecrementIndentLevel Pascal=0
+2 Name=WIATRACE_GetIndentLevel Pascal=0
+3 Name=WIATRACE_GetTraceSettings Pascal=12
+4 Name=WIATRACE_IncrementIndentLevel Pascal=0
+5 Name=WIATRACE_Init Pascal=8
+6 Name=WIATRACE_OutputString Pascal=36
+7 Name=WIATRACE_SetTraceSettings Pascal=12
+8 Name=WIATRACE_Term Pascal=0
+;------------------EOF------------------

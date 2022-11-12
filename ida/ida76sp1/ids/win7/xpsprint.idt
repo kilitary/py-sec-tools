@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=XpsPrint.dll Args=0 Drops=5
+;---------------------------------------
+3 Name=?StartXpsPrintJobInternal@@YGJPB_W00PAX1PAEIPAPAUIXpsPrintJob@@PAPAUIXpsPrintJobStream@@4P6GXPAUIStream@@W4EPrintTicketScope@@HH@Z@Z Pascal=44
+4 Name=DllMain Pascal=12
+5 Name=?StartXpsPrintJobInternal1@@YGJPB_W00PAX1PAPAUIXpsPrintJob@@PAPAUIXpsOMPackageTarget@@_NP6GXPAUIStream@@W4EPrintTicketScope@@HH@Z@Z Pascal=0
+6 Name=StartXpsPrintJob1 Pascal=28
+7 Name=StartXpsPrintJob Pascal=40
+;------------------EOF------------------

@@ -1,0 +1,25 @@
+DECLARATION Nokia 9110 Geos 3.0 library obex.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=obexdll Pascal=0
+;---------------------------------------
+1 Name=ServerProcessClass
+2 Name=OBEXINITSERVER
+3 Name=OBEXEXITSERVER
+4 Name=OBEXACCEPTGET
+5 Name=OBEXREJECTGET
+6 Name=OBEXACCEPTPUT
+7 Name=OBEXREJECTPUT
+8 Name=OBEXINITCLIENT
+9 Name=OBEXEXITCLIENT
+10 Name=OBEXPUT
+11 Name=OBEXGET
+12 Name=OBEXABORT
+13 Name=OBEXSETPATH
+14 Name=OBEXNEXTHEADER
+15 Name=OBEXSETHEADER
+16 Name=OBEXUNICODETOGEOS
+17 Name=OBEXSERVERABORT
+18 Name=OBEXINITSERVERWITHWHO
+;------------------EOF------------------

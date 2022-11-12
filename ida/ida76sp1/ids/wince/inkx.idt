@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=InkX.dll Pascal=0
+;---------------------------------------
+1 Name=ConvertInkFile
+2 Name=InitInkX
+3 Name=InkToString
+4 Name=PrintInk
+;------------------EOF------------------

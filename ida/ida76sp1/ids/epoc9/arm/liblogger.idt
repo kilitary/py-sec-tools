@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=libloggerdll Pascal=0
+;---------------------------------------
+1 Name=LibHexDumpMessagePartTracer
+2 Name=LibLineExecTracer
+3 Name=LibMessageTracer
+4 Name=LibTracer
+5 Name=LibTracerHexDump
+6 Name=LibTracerHexDumpMarkerList
+7 Name=LibTracerMarkerList
+8 Name=LibTracerPartialHexDump
+;------------------EOF------------------

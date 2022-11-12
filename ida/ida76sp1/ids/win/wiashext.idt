@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wiashext.dll Args=0 Drops=20
+;---------------------------------------
+1 Name=AddDeviceWasChosen Pascal=16
+2 Name=AddDeviceWasChosenA Pascal=16
+3 Name=AddDeviceWasChosenW Pascal=16
+4 Name=GetDeviceIdFromDevice Pascal=8
+5 Name=IMCreateCameraItemIDL Pascal=16
+6 Name=IMGetFullPathNameFromIDL Pascal=8
+7 Name=IMGetItemFromIDL Pascal=12
+8 Name=MakeFullPidlForDevice Pascal=8
+9 Name=DllCanUnloadNow Pascal=0
+10 Name=DllGetClassObject Pascal=12
+11 Name=DllRegisterServer Pascal=0
+12 Name=DllUnregisterServer Pascal=0
+13 Name=DoDeleteAllItems Pascal=8
+14 Name=GetDeviceFromDeviceId Pascal=16
+15 Name=GetDeviceUIKey Pascal=8
+16 Name=GetGeneralUIKey Pascal=8
+17 Name=IMGetDeviceIdFromIDL Pascal=8
+18 Name=PropertySheetFromDevice Pascal=12
+19 Name=PropertySheetFromItem Pascal=16
+20 Name=TakeAPicture Pascal=4
+;------------------EOF------------------

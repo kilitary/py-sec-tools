@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTCMTM Pascal=0
+;---------------------------------------
+1 Name=_ZN12CBtClientMtm4NewLER17CRegisteredMtmDllR11CMsvSession
+2 Name=_ZN9CBtHeader4NewLEv
+3 Name=_ZN9CBtHeader8SetAddrLERK6TDesC8
+4 Name=_ZNK9CBtHeader14BtProtocolInfoEv
+5 Name=_ZNK9CBtHeader4AddrEv
+6 Name=_ZTI9CBtHeader
+7 Name=_ZTV9CBtHeader
+8 Name=_ZTI12CBtClientMtm
+9 Name=_ZTV12CBtClientMtm
+;------------------EOF------------------

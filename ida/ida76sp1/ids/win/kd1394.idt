@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=kd1394.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=KdD0Transition Pascal=0
+2 Name=KdD3Transition Pascal=0
+3 Name=KdDebuggerInitialize0 Pascal=4
+4 Name=KdDebuggerInitialize1 Pascal=4
+5 Name=KdReceivePacket Pascal=20
+6 Name=KdRestore Pascal=4
+7 Name=KdSave Pascal=4
+8 Name=KdSendPacket Pascal=16
+;------------------EOF------------------

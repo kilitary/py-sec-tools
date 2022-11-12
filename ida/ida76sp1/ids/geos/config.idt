@@ -1,0 +1,69 @@
+DECLARATION Nokia 9110 Geos 3.0 library config.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+15 Name=configdll Args=0 Drops=11
+;---------------------------------------
+1 Name=PrefBooleanGroupClass
+2 Name=PrefClass
+3 Name=PrefDialogClass
+4 Name=PrefInteractionClass
+5 Name=PrefItemGroupClass
+6 Name=TitledGlyphClass
+7 Name=PrefStringItemClass
+8 Name=PrefValueClass
+10 Name=PrefDynamicListClass
+11 Name=PrefTextClass
+12 Name=PrefTocListClass
+13 Name=PrefContainerClass
+14 Name=PrefTriggerClass
+15 Name=ConfigBuildTitledMoniker
+16 Name=PREFSAVEVIDEO \
+	Comment=void pascal PrefSaveVideo(void) in config.goh
+17 Name=PREFRESTOREVIDEO \
+	Comment=void pascal PrefRestoreVideo(void) in config.goh
+18 Name=PREFDISCARDSAVEDVIDEO \
+	Comment=void pascal PrefDiscardSavedVideo(void) in config.goh
+19 Name=PrefTestVideoDevice
+20 Name=TocFindCategory
+21 Name=TocNameArrayFind
+22 Name=TocNameArrayGetElement
+23 Name=TocNameArrayAdd
+24 Name=TocUpdateCategory
+25 Name=TocDBLock
+26 Name=TocAddDisk
+27 Name=TocCreateNewFile
+28 Name=TocSortedNameArrayAdd
+31 Name=ConfigBuildTitledMonikerUsingToken
+32 Name=CONFIGBUILDTITLEDMONIKER Pascal=4 \
+	Comment=void pascal ConfigBuildTitledMoniker(optr monikerList) in config.goh
+33 Name=TOCFINDCATEGORY Pascal=4 \
+	Comment=Boolean pascal TocFindCategory(TocCategoryStruct *cat) in config.goh
+34 Name=TOCNAMEARRAYFIND Pascal=12 \
+	Comment=word pascal TocNameArrayFind(DBGroupAndItem array, const char *name, void *buffer) in config.goh
+35 Name=TOCNAMEARRAYGETELEMENT Pascal=10 \
+	Comment=word pascal TocNameArrayGetElement(DBGroupAndItem array, word element, void *buffer) in config.goh
+36 Name=TOCNAMEARRAYADD Pascal=12 \
+	Comment=word pascal TocNameArrayAdd(DBGroupAndItem array, const char *nameToFind, const void *data) in config.goh
+37 Name=TOCUPDATECATEGORY Pascal=4 \
+	Comment=void pascal TocUpdateCategory(TocUpdateCategoryParams *params) in config.goh
+38 Name=TOCDBLOCK Pascal=4 \
+	Comment=void * pascal TocDBLock(DBGroupAndItem thing) in config.goh
+39 Name=TOCDBLOCKGETREF Pascal=8 \
+	Comment=void * pascal TocDBLockGetRef(DBGroupAndItem thing, optr *refPtr) in config.goh
+40 Name=TOCADDDISK Pascal=8 \
+	Comment=word pascal TocAddDisk(const char *diskName, const TocDiskStruct *diskDesc) in config.goh
+41 Name=TOCCREATENEWFILE \
+	Comment=Boolean pascal TocCreateNewFile(void) in config.goh
+43 Name=CONFIGBUILDTITLEDMONIKERUSINGTOKEN Pascal=6 \
+	Comment=ChunkHandle pascal ConfigBuildTitledMonikerUsingToken(GeodeToken *token, MemHandle destBlock) in config.goh
+44 Name=TocGetFileHandle
+45 Name=PrefControlClass
+46 Name=PrefTimeDateControlClass
+47 Name=PrefPortItemClass
+48 Name=PrefColorSelectorClass
+49 Name=PrefIniDynamicListClass
+50 Name=TocSortedNameArrayFind
+51 Name=TOCSORTEDNAMEARRAYFIND Pascal=16 \
+	Comment=Boolean pascal TocSortedNameArrayFind(word arr, const char *nameToFind, SortedNameArrayFindFlags flags, void *buffer, word *elementNum) in config.goh
+;------------------EOF------------------

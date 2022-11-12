@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PeerDist.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=PeerDistClientAddContentInformation Pascal=20
+2 Name=PeerDistClientAddData Pascal=20
+3 Name=PeerDistClientBlockRead Pascal=24
+4 Name=PeerDistClientCancelAsyncOperation Pascal=12
+5 Name=PeerDistClientCloseContent Pascal=8
+6 Name=PeerDistClientCompleteContentInformation Pascal=12
+7 Name=PeerDistClientFlushContent Pascal=20
+8 Name=PeerDistClientOpenContent Pascal=20
+9 Name=PeerDistClientStreamRead Pascal=24
+10 Name=PeerDistGetStatus Pascal=8
+11 Name=PeerDistRegisterForStatusChangeNotification Pascal=20
+12 Name=PeerDistServerCancelAsyncOperation Pascal=16
+13 Name=PeerDistServerCloseContentInformation Pascal=8
+14 Name=PeerDistServerCloseStreamHandle Pascal=8
+15 Name=PeerDistServerOpenContentInformation Pascal=40
+16 Name=PeerDistServerPublishAddToStream Pascal=20
+17 Name=PeerDistServerPublishCompleteStream Pascal=12
+18 Name=PeerDistServerPublishStream Pascal=36
+19 Name=PeerDistServerRetrieveContentInformation Pascal=20
+20 Name=PeerDistServerUnpublish Pascal=12
+21 Name=PeerDistShutdown Pascal=4
+22 Name=PeerDistStartup Pascal=12
+23 Name=PeerDistUnregisterForStatusChangeNotification Pascal=4
+;------------------EOF------------------

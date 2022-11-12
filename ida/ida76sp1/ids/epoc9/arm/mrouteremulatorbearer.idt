@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MROUTEREMULATORBEARER Pascal=0
+;---------------------------------------
+1 Name=_Z36CmRouterClientBearerCreatorFunctionLv
+2 Name=_ZTI22CmRouterEmulatorBearer
+3 Name=_ZTV22CmRouterEmulatorBearer
+;------------------EOF------------------

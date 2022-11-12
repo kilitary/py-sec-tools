@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ddraw.dll Args=0 Drops=22
+;---------------------------------------
+1 Name=AcquireDDThreadLock Pascal=0
+2 Name=CompleteCreateSysmemSurface Pascal=4
+3 Name=D3DParseUnknownCommand Pascal=8
+4 Name=DDGetAttachedSurfaceLcl Pascal=12
+5 Name=DDInternalLock Pascal=8
+6 Name=DDInternalUnlock Pascal=4
+7 Name=DSoundHelp Pascal=12
+8 Name=DirectDrawCreate Pascal=12
+9 Name=DirectDrawCreateClipper Pascal=12
+10 Name=DirectDrawCreateEx Pascal=16
+11 Name=DirectDrawEnumerateA Pascal=8
+12 Name=DirectDrawEnumerateExA Pascal=12
+13 Name=DirectDrawEnumerateExW Pascal=12
+14 Name=DirectDrawEnumerateW Pascal=8
+15 Name=DllCanUnloadNow Pascal=0
+16 Name=DllGetClassObject Pascal=12
+17 Name=GetDDSurfaceLocal Pascal=12
+18 Name=GetOLEThunkData Pascal=4
+19 Name=GetSurfaceFromDC Pascal=12
+20 Name=RegisterSpecialCase Pascal=16
+21 Name=ReleaseDDThreadLock Pascal=0
+22 Name=SetAppCompatData Pascal=8
+;------------------EOF------------------

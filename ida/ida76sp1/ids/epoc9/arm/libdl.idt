@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=libdldll Pascal=0
+;---------------------------------------
+1 Name=dlclose
+2 Name=dlerror
+3 Name=dlopen
+4 Name=dlsym
+;------------------EOF------------------

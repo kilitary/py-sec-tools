@@ -1,0 +1,21 @@
+DECLARATION Nokia 9110 Geos 3.0 library vrecui.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+4 Name=vrecuidll Args=4 Drops=0
+;---------------------------------------
+1 Name=VrecuiControlClass
+2 Name=VrecuiVisClass
+3 Name=VrecuiSaveInteractionClass
+4 Name=StartPlayVoiceFile Args=8 \
+	Comment=RetVal cdecl StartPlayVoiceFile( char*, byte, byte) in internal/resp/vrecui.goh
+5 Name=StopPlayVoiceFile Args=2 \
+	Comment=RetVal cdecl StopPlayVoiceFile( byte) in internal/resp/vrecui.goh
+6 Name=StartRecVoiceFile Args=2 \
+	Comment=RetVal cdecl StartRecVoiceFile( byte) in internal/resp/vrecui.goh
+7 Name=VrecuiMenuDialogClass
+8 Name=VrecuiCheckIfRT24 Args=4 \
+	Comment=RetVal cdecl VrecuiCheckIfRT24( TCHAR*) in internal/resp/vrecui.goh
+9 Name=VrecuiFoamProgressDialogClass
+10 Name=VrecuiViewClass
+;------------------EOF------------------

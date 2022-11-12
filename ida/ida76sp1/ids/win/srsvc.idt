@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=srsvc.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=DllMain Pascal=12
+2 Name=ServiceMain Pascal=8
+3 Name=??0CCounter@@QAE@XZ Pascal=0
+4 Name=??1CCounter@@QAE@XZ Pascal=0
+5 Name=??4CCounter@@QAEAAV0@ABV0@@Z Pascal=4
+6 Name=?Down@CCounter@@QAEKXZ Pascal=0
+7 Name=?GetCount@CCounter@@QAEJXZ Pascal=0
+8 Name=?Init@CCounter@@QAEKXZ Pascal=0
+9 Name=?Up@CCounter@@QAEXXZ Pascal=0
+10 Name=?WaitForZero@CCounter@@QAEKXZ Pascal=0
+;------------------EOF------------------

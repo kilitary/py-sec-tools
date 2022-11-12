@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TMRCLI Pascal=0
+;---------------------------------------
+1 Name=_ZN11RTmrSession10DisconnectEv
+2 Name=_ZN11RTmrSession7ConnectEv
+3 Name=_ZN11RTmrSession7SessionEv
+4 Name=_ZNK11RTmrSession10AddProcessERK7TDesC16S2_10TProcessId
+5 Name=_ZNK11RTmrSession14AddApplicationE9TThreadIdRK7TDesC1611TApaCommand
+;------------------EOF------------------

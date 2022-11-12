@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=nshwfp.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=IdpConfigAddPolicy Pascal=4
+2 Name=IdpConfigAllocateAndGetPolicy Pascal=8
+3 Name=IdpConfigFreePolicy Pascal=4
+4 Name=IdpConfigInitDefaultPolicy Pascal=4
+5 Name=IdpConfigRemovePolicy Pascal=8
+6 Name=InitHelperDll Pascal=8
+7 Name=WfpCaptureExportedW Pascal=16
+;------------------EOF------------------

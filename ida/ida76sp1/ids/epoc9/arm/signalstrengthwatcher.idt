@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SIGNALSTRENGTHWATCHER Pascal=0
+;---------------------------------------
+1 Name=_Z24ImplementationGroupProxyRi
+2 Name=_ZTI22CSignalStrengthWatcher
+3 Name=_ZTV22CSignalStrengthWatcher
+;------------------EOF------------------

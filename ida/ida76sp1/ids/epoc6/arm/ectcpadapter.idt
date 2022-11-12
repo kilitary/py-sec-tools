@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ECTCPADAPTER Pascal=0
+;---------------------------------------
+1 Name=CEcTcpAdapterGroupCreatorFunction__FRCt_mStreamFixedStringZUw
+2 Name=__CCustomServerSession
+3 Name=AppendDesToDesL__TCustomServerCharConvRCTDesC8RTDes16
+4 Name=ConstructL__CCustomServerRMCustomServerManager
+5 Name=ConstructL__CCustomServerSessionPMCustomServerWriterRCCustomServer
+6 Name=CopyDesToDesL__TCustomServerCharConvRCTDesC16RTDes8
+7 Name=CopyDesToDesL__TCustomServerCharConvRCTDesC8RTDes16
+8 Name=Delete__CCustomServerPCCustomServer
+9 Name=DoCancel__CCustomServer
+10 Name=Error__CCustomServerii
+11 Name=Error__CCustomServerSessionii
+12 Name=Free__CCustomServerSessionPTDes8
+13 Name=Get__SiboUtilPCUc
+14 Name=Get__SiboUtilPCUc
+15 Name=GetDes__TRemSvPtri
+16 Name=GetDes__TRemSvPtri
+17 Name=GetFloat__SiboUtilPv
+18 Name=Put__SiboUtilPUcUs
+19 Name=Put__SiboUtilPUcUl
+20 Name=PutFloat__SiboUtilPvRCd
+21 Name=RunL__CCustomServer
+22 Name=RunL__CCustomServerSession
+23 Name=VerifyLength__CTRemSvPtr
+24 Name=WSet__TRemSvPtrRTRemSvPtrii
+25 Name=WriteCompleteL__CCustomServerSessionPTDes8
+26 Name=_._CCustomServer
+27 Name=_._CCustomServerSession
+28 Name=__CCustomServer
+29 Name=AppendDesToDesL__TCustomServerCharConvRCTDesC16RTDes8
+;------------------EOF------------------

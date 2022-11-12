@@ -1,0 +1,15 @@
+DECLARATION Nokia 9110 Geos 3.0 library nedit.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=neditdll Pascal=0
+;---------------------------------------
+1 Name=NotesEditViewerOpen
+2 Name=NotesEditViewerDetach
+3 Name=NotesEditViewerChangeDocument
+4 Name=NotesEditViewerClose
+5 Name=NotesEditControlClass
+6 Name=NotesEditLargeTextClass
+7 Name=NotesDialogClass
+8 Name=NotesEditorPrintOptionsClass
+;------------------EOF------------------

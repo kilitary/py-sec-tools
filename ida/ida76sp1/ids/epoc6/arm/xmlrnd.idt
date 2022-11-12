@@ -1,0 +1,69 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=XMLRND Pascal=0
+;---------------------------------------
+1 Name=__26CXmlRenderingPluginCreatorR3RFsRC8RLibraryii
+2 Name=AddHotSpotL__15CXmlHotSpotListP11CXmlHotSpot14TXmlHsSpotType
+3 Name=AddHotSpotL__19CXmlRenderingPluginP19CXmlRenderingPlugin14TXmlHsSpotTypei
+4 Name=AppendL__19CXmlRenderingPluginP11CXmlElement
+5 Name=ClipboardLC__19CXmlRenderingPluginQ219CXmlRenderingPlugin17TClipboardCommandR7TPtrC16
+6 Name=ConstructActiveSubDocumentL__19CXmlRenderingPlugin
+7 Name=ConstructL__15CXmlHotSpotList
+8 Name=ConstructL__20CXmlHotSpotIndexList
+9 Name=Count__C15CXmlHotSpotList
+10 Name=CurrentHotSpot__C19CXmlRenderingPlugin
+11 Name=Delete__19CXmlRenderingPluginP19CXmlRenderingPlugin
+12 Name=Deletor__C19CXmlRenderingPlugin
+13 Name=DeselectL__19CXmlRenderingPlugin
+14 Name=Diet__20CXmlHotSpotIndexList
+15 Name=DoCancel__19CXmlRenderingPlugin
+16 Name=DoCancel__26CXmlRenderingPluginCreator
+17 Name=FindL__19CXmlRenderingPluginRC7TDesC16i
+18 Name=GetUiOption__C19CXmlRenderingPlugin
+19 Name=HandlePointerEventL__19CXmlRenderingPluginRC13TPointerEvent
+20 Name=HeightInTwips__C19CXmlRenderingPluginQ219CXmlRenderingPlugin8TXmlSize
+21 Name=HotSpotCount__C19CXmlRenderingPlugin
+22 Name=HotSpotFirst__C15CXmlHotSpotList
+23 Name=HotSpotType__C11CXmlHotSpot
+24 Name=HotSpot__C15CXmlHotSpotListP19CXmlRenderingPlugin
+25 Name=HotSpot__C15CXmlHotSpotListi
+26 Name=Index__C11CXmlHotSpot
+27 Name=InputCapabilities__C19CXmlRenderingPlugin
+28 Name=IsClipboardFunctionAvailableL__C19CXmlRenderingPluginQ219CXmlRenderingPlugin17TClipboardCommand
+29 Name=IsFocused__C19CXmlRenderingPluginR6TPoint
+30 Name=IsSubdocumentFetchedL__C19CXmlRenderingPlugin
+31 Name=NewL__19CXmlRenderingPluginP11CXmlElementP10CWAPEngineP19CXmlRenderingPluginP27MXmlRenderingPluginObserverP19MWapControlObserver
+32 Name=OfferFetchStatusL__19CXmlRenderingPluginP11CXmlElement24TXmlRenderingFetchStatus
+33 Name=OfferKeyEventL__19CXmlRenderingPluginRC9TKeyEvent10TEventCode
+34 Name=Plugin__C11CXmlHotSpot
+35 Name=PostProcessL__19CXmlRenderingPluginRC7TDesC16
+36 Name=RunL__19CXmlRenderingPlugin
+37 Name=RunL__26CXmlRenderingPluginCreator
+38 Name=SelectL__19CXmlRenderingPlugin
+39 Name=Selected__C19CXmlRenderingPlugin
+40 Name=SetActiveSubDocumentL__19CXmlRenderingPluginRC7TDesC16
+41 Name=SetFocusL__19CXmlRenderingPluginiG6TPoint8TDrawNow
+42 Name=SetHotSpotFocusL__19CXmlRenderingPlugini
+43 Name=SetHotSpotType__11CXmlHotSpot14TXmlHsSpotType
+44 Name=SetHotspotIndex__19CXmlRenderingPluginPi
+45 Name=SetIndex__11CXmlHotSpotPi
+46 Name=SetPlugin__11CXmlHotSpotP19CXmlRenderingPlugin
+47 Name=SetSizeInTwips__19CXmlRenderingPluginG5TSize
+48 Name=SetViewPosInPixels__18CXmlClipperControlG6TPoint
+49 Name=SetViewPosInTwips__19CXmlRenderingPluginG6TPointRC5TRecti
+50 Name=StoreL__C19CXmlRenderingPluginP11CXmlElementRC7TDesC16
+51 Name=WidthInTwips__C19CXmlRenderingPluginQ219CXmlRenderingPlugin8TXmlSize
+52 Name=_._15CXmlHotSpotList
+53 Name=_._18CXmlClipperControl
+54 Name=_._19CXmlRenderingPlugin
+55 Name=_._20CXmlHotSpotIndexList
+56 Name=_._26CXmlRenderingPluginCreator
+57 Name=__11CXmlHotSpotP19CXmlRenderingPlugin
+58 Name=__15CXmlHotSpotList
+59 Name=__18CXmlClipperControlQ210TGulBorder11TBorderType
+60 Name=__19CXmlRenderingPlugin
+61 Name=__20CXmlHotSpotIndexList
+62 Name=AddHotSpotIndexL__20CXmlHotSpotIndexListi
+;------------------EOF------------------

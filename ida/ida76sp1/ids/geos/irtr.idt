@@ -1,0 +1,22 @@
+DECLARATION Nokia 9110 Geos 3.0 library irtr.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+7 Name=irtrdll Args=3 Drops=0
+;---------------------------------------
+1 Name=IRTransmitInit Args=4 \
+	Comment=Boolean cdecl IRTransmitInit(ObexTDMailboxTransAddr *transAddr) in internal/resp/irtrapi.goh
+2 Name=IRTransmitSend Args=8 \
+	Comment=Boolean cdecl IRTransmitSend(ObexTDMailboxTransAddr *transAddr, FileDDAppRef *appRef) in internal/resp/irtrapi.goh
+3 Name=IRTransmitCancel \
+	Comment=void cdecl IRTransmitCancel(void) in internal/resp/irtrapi.goh
+4 Name=IRTransmitExit \
+	Comment=void cdecl IRTransmitExit(void) in internal/resp/irtrapi.goh
+5 Name=IRReceiveInit Args=12 \
+	Comment=Boolean cdecl IRReceiveInit(word token, optr notifyObject, Message recvStartMsg, Message recvMsg, Message stoppedMsg) in internal/resp/irtrapi.goh
+6 Name=IRReceiveCancel \
+	Comment=void cdecl IRReceiveCancel(void) in internal/resp/irtrapi.goh
+7 Name=IRReceiveExit \
+	Comment=void cdecl IRReceiveExit(void) in internal/resp/irtrapi.goh
+8 Name=IrTenuLmpClientCallback
+;------------------EOF------------------

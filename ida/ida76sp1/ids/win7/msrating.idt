@@ -1,0 +1,41 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msrating.dll Args=0 Drops=34
+;---------------------------------------
+1 Name=ChangeSupervisorPassword Pascal=8
+2 Name=ClickedOnPRF Pascal=16
+3 Name=ClickedOnRAT Pascal=16
+4 Name=DllCanUnloadNow Pascal=0
+5 Name=DllGetClassObject Pascal=12
+6 Name=RatingAccessDeniedDialog2 Pascal=12
+7 Name=RatingAccessDeniedDialog2W Pascal=12
+8 Name=RatingAccessDeniedDialog Pascal=16
+9 Name=RatingAccessDeniedDialogW Pascal=16
+10 Name=RatingAddPropertyPages Pascal=12
+11 Name=RatingAddToApprovedSites Pascal=28
+12 Name=RatingCheckUserAccess Pascal=24
+13 Name=RatingCheckUserAccessW Pascal=24
+14 Name=RatingClickedOnPRFInternal Pascal=16
+15 Name=RatingClickedOnRATInternal Pascal=16
+16 Name=RatingCustomAddRatingHelper Pascal=24
+17 Name=RatingCustomAddRatingSystem Pascal=8
+18 Name=RatingCustomCrackData Pascal=12
+19 Name=RatingCustomDeleteCrackedData Pascal=4
+20 Name=RatingCustomInit Pascal=4
+21 Name=RatingCustomRemoveRatingHelper Pascal=16
+22 Name=RatingCustomSetDefaultBureau Pascal=4
+23 Name=RatingCustomSetUserOptions Pascal=8
+24 Name=RatingEnable Pascal=12
+25 Name=RatingEnableW Pascal=12
+26 Name=RatingEnabledQuery Pascal=0
+27 Name=RatingFreeDetails Pascal=4
+28 Name=RatingInit Pascal=0
+29 Name=RatingObtainCancel Pascal=4
+30 Name=RatingObtainQuery Pascal=16
+31 Name=RatingObtainQueryW Pascal=16
+32 Name=RatingSetupUI Pascal=8
+33 Name=RatingSetupUIW Pascal=8
+34 Name=VerifySupervisorPassword Pascal=4
+;------------------EOF------------------

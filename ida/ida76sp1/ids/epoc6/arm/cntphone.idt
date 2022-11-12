@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CNTPHONE Pascal=0
+;---------------------------------------
+1 Name=NewPhoneNumberParser__Fv
+;------------------EOF------------------

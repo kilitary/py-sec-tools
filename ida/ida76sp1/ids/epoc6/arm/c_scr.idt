@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=C_SCR Pascal=0
+;---------------------------------------
+1 Name=_._13CwapscrClient
+2 Name=NewL__13CwapscrClientR25MServerScriptingResponses
+3 Name=NotifyOnChangeCancel__13CwapscrClient
+4 Name=NotifyOnChange__13CwapscrClient
+5 Name=ScriptSvr_Exitreq__13CwapscrClient
+6 Name=ScriptSvr_LoadScriptResp__13CwapscrClientRC7TDesC16i
+7 Name=ScriptSvr_LoadStringRespL__13CwapscrClientRC6TDesC8T1i
+8 Name=ScriptSvr_ResumereqL__13CwapscrClient
+9 Name=ScriptSvr_Start__13CwapscrClientR7TDesC16N21
+10 Name=ScriptSvr_Suspend__13CwapscrClient
+11 Name=Close__13CwapscrClient
+12 Name=MServerScriptingResponses_Reserverd1__25MServerScriptingResponses
+;------------------EOF------------------

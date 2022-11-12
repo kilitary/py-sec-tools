@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FORM_AND_ETEXT_EDITOR Pascal=0
+;---------------------------------------
+1 Name=StyleCount__C19TFormAndEtextEditor
+2 Name=CopyToStoreL__C19TFormAndEtextEditorR12CStreamStoreR17CStreamDictionaryii
+3 Name=CreateStyleL__19TFormAndEtextEditorRC8RTmStyle
+4 Name=DeleteCharFormatL__19TFormAndEtextEditorii
+5 Name=DeleteParFormatL__19TFormAndEtextEditorii
+6 Name=DeleteStyleL__19TFormAndEtextEditorRC7TDesC16
+7 Name=DeleteTextL__19TFormAndEtextEditorii
+8 Name=DocumentLength__C19TFormAndEtextEditor
+9 Name=GetBaseFormatL__C19TFormAndEtextEditorR13TTmCharFormatR12RTmParFormat
+10 Name=GetCharFormat__C19TFormAndEtextEditoriQ214MUnifiedEditor12TFormatLevelR18TTmCharFormatLayerRi
+11 Name=GetParFormatL__C19TFormAndEtextEditoriQ214MUnifiedEditor12TFormatLevelR17RTmParFormatLayerRi
+12 Name=GetStyleByIndexL__C19TFormAndEtextEditoriR8RTmStyle
+13 Name=GetStyleByNameL__C19TFormAndEtextEditorRC7TDesC16R8RTmStyle
+14 Name=GetStyle__C19TFormAndEtextEditoriR7TPtrC16Ri
+15 Name=GetText__C19TFormAndEtextEditoriR7TPtrC16
+16 Name=InsertTextL__19TFormAndEtextEditoriRC7TDesC16PC7TDesC16PC18TTmCharFormatLayerPC17RTmParFormatLayer
+17 Name=Interface__19TFormAndEtextEditorUi
+18 Name=PasteFromStoreL__19TFormAndEtextEditorRC12CStreamStoreRC17CStreamDictionaryi
+19 Name=RenameStyleL__19TFormAndEtextEditorRC7TDesC16T1
+20 Name=SetBaseFormatL__19TFormAndEtextEditorRC13TTmCharFormatRC12RTmParFormat
+21 Name=SetCharFormatL__19TFormAndEtextEditoriiRC18TTmCharFormatLayer
+22 Name=SetParFormatL__19TFormAndEtextEditoriiRC17RTmParFormatLayer
+23 Name=SetStyleL__19TFormAndEtextEditoriiRC7TDesC16
+24 Name=ChangeStyleL__19TFormAndEtextEditorRC8RTmStyle
+25 Name=DropPictureL__19TFormAndEtextEditori
+26 Name=InsertPictureL__19TFormAndEtextEditoriRC14TPictureHeader
+27 Name=Picture__C19TFormAndEtextEditoriR14TPictureHeader
+;------------------EOF------------------

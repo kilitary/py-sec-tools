@@ -1,0 +1,41 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=IRTRANP Pascal=0
+;---------------------------------------
+1 Name=__13TTranpPicture
+2 Name=Config__C13CTranpSession
+3 Name=Connect__13CTranpSession
+4 Name=ConstructL__13CTranpSessionR18MTranpNotification
+5 Name=Disconnect__13CTranpSession
+6 Name=Filename__13TTranpPicture
+7 Name=Get__13CTranpSessionR13TTranpPicture
+8 Name=LoadFromJpeg__13TTranpPictureRCt4TBuf1i256
+9 Name=LoadFromUPF__13TTranpPictureRCt4TBuf1i256
+10 Name=LongFilename__13TTranpPicture
+11 Name=NewL__13CTranpSessionR18MTranpNotification
+12 Name=Picture__13TTranpPicture
+13 Name=PrimaryMachine__12TTranpConfig
+14 Name=Put__13CTranpSessionRC13TTranpPicture
+15 Name=Query__13CTranpSessionQ213CTranpSession6TTranP
+16 Name=SaveAsJpeg__13TTranpPictureRCt4TBuf1i256
+17 Name=SaveAsUPF__13TTranpPictureRCt4TBuf1i256
+18 Name=SecondaryMachine__12TTranpConfig
+19 Name=SetFilename__13TTranpPictureRC6TDesC8
+20 Name=SetLongFilename__13TTranpPictureRC6TDesC8
+21 Name=SetPrimaryMachine__12TTranpConfigRC6TDesC8
+22 Name=SetSecondaryMachine__12TTranpConfigRC6TDesC8
+23 Name=SetTime__13TTranpPictureRC6TDesC8
+24 Name=Time__13TTranpPicture
+25 Name=_._12TTranpConfig
+26 Name=_._13CTranpSession
+27 Name=_._13TTranpPicture
+28 Name=__12TTranpConfig
+29 Name=__13CTranpSession
+30 Name=Config__13CTranpSessionRC12TTranpConfig
+31 Name=Abort__13CTranpSession
+32 Name=GetLatticeSize__13TTranpPicture12TLatticeSizeii
+33 Name=GetThumbNail__13TTranpPicture
+34 Name=SetDesiredLatticeSize__13TTranpPicture12TLatticeSizeii
+;------------------EOF------------------

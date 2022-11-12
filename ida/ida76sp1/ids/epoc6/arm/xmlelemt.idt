@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=XMLELEMT Pascal=0
+;---------------------------------------
+1 Name=InsertChildL__11CXmlElementiP11CXmlElement
+2 Name=DataItem__C11CXmlElement
+3 Name=DeleteDataItem__11CXmlElementR21CAttributeLookupTable
+4 Name=Attribute__C11CXmlElementRC7TDesC16
+5 Name=SetAttributeL__11CXmlElementRC7TDesC16T1R21CAttributeLookupTable
+6 Name=SetDataItemL__11CXmlElementP5CBaseR21CAttributeLookupTable
+7 Name=SetTextL__11CXmlElementRC7TDesC16
+8 Name=WriteIntoFileL__11CXmlElement
+9 Name=ChildIndex__C11CXmlElementP11CXmlElement
+;------------------EOF------------------

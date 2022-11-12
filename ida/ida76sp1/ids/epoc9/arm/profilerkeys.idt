@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PROFILERKEYS Pascal=0
+;---------------------------------------
+1 Name=_ZN5CKeys4NewLEiR15MProfilerEngine
+2 Name=_ZTI5CKeys
+3 Name=_ZTV5CKeys
+;------------------EOF------------------

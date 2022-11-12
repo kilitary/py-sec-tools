@@ -1,0 +1,2580 @@
+DECLARATION Nokia 9110 Geos 3.0 library geos.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+792 Name=geosdll Args=3 Drops=752
+;---------------------------------------
+1 Name=MemAlloc
+2 Name=MemReAlloc
+3 Name=MemFree
+4 Name=MemDiscard
+5 Name=MEMDISCARD Pascal=2 \
+	Comment=void pascal MemDiscard(MemHandle mh) in heap.h
+6 Name=MemLock
+7 Name=MemUnlock
+8 Name=MemLockFixedOrMovable
+9 Name=MemUnlockFixedOrMovable
+10 Name=HandleP
+11 Name=HandleV
+12 Name=MemPLock
+13 Name=MemUnlockV
+14 Name=MemThreadGrab
+15 Name=MemThreadRelease
+16 Name=MemLockShared
+17 Name=MemLockExcl
+18 Name=MemUnlockShared
+19 Name=MemUpgradeSharedLock
+20 Name=MemDowngradeExclLock
+21 Name=ECMEMVERIFYHEAP \
+	Comment=void pascal ECMemVerifyHeap(void) in ec.h
+22 Name=MemDerefDS
+23 Name=MemDerefES
+24 Name=MemThreadGrabNB
+25 Name=MemOwner
+26 Name=MemAllocSetOwner
+27 Name=MemSegmentToHandle
+28 Name=MemModifyFlags
+29 Name=HandleModifyOwner
+30 Name=MemModifyOtherInfo
+31 Name=MemGetInfo
+32 Name=ECCheckBounds
+33 Name=MemInitRefCount
+34 Name=MemIncRefCount
+35 Name=MemDecRefCount
+36 Name=MemAllocLMem
+37 Name=MemExtendHeap
+38 Name=MemAddSwapDriver
+39 Name=MemGrabHeap
+40 Name=MemReleaseHeap
+41 Name=LMemInitHeap
+42 Name=LMemAlloc
+43 Name=LMemFree
+44 Name=LMemReAlloc
+45 Name=ECLMemExists
+46 Name=LMemInsertAt
+47 Name=LMemDeleteAt
+48 Name=LMemContract
+49 Name=ECLMemValidateHeap
+50 Name=ECLMemValidateHandle
+51 Name=ChunkArrayCreate
+52 Name=ChunkArrayElementToPtr
+53 Name=ChunkArrayAppend
+54 Name=ChunkArrayGetCount
+55 Name=ChunkArrayEnum
+56 Name=ChunkArrayDelete
+57 Name=ChunkArrayPtrToElement
+58 Name=ChunkArrayZero
+59 Name=ChunkArrayInsertAt
+60 Name=ChunkArraySort
+61 Name=ArrayQuickSort
+62 Name=ChunkArrayElementResize
+63 Name=ECCheckChunkArray
+64 Name=ElementArrayCreate
+65 Name=ChunkArrayGetElement
+66 Name=ElementArrayAddReference
+67 Name=ElementArrayAddElement
+68 Name=ElementArrayRemoveReference
+69 Name=ElementArrayGetUsedCount
+70 Name=ElementArrayUsedIndexToToken
+71 Name=ElementArrayTokenToUsedIndex
+72 Name=ElementArrayElementChanged
+73 Name=ElementArrayDelete
+74 Name=ChunkArrayEnumRange
+75 Name=ChunkArrayDeleteRange
+76 Name=FileCreateDir
+77 Name=FileDeleteDir
+78 Name=FileSetCurrentPath
+79 Name=FileOpen
+80 Name=FileCreate
+81 Name=FileClose
+82 Name=FileCreateTempFile
+83 Name=FileDelete
+84 Name=FileRename
+85 Name=FileRead
+86 Name=FileWrite
+87 Name=FilePos
+88 Name=FileDuplicateHandle
+89 Name=FileLockRecord
+90 Name=FileUnlockRecord
+91 Name=FileEnum
+92 Name=FileEnumPtr
+93 Name=FileEnumLocateAttr
+94 Name=FileEnumWildcard
+95 Name=FileGetAttributes
+96 Name=FileSetAttributes
+97 Name=FileGetHandleExtAttributes
+98 Name=FileSetHandleExtAttributes
+99 Name=FileGetPathExtAttributes
+100 Name=FileSetPathExtAttributes
+101 Name=FileCopyExtAttributes
+102 Name=FileGetDateAndTime
+103 Name=FileSetDateAndTime
+104 Name=FILEPUSHDIR \
+	Comment=void pascal FilePushDir(void) in file.h
+105 Name=FILEPOPDIR \
+	Comment=void pascal FilePopDir(void) in file.h
+106 Name=FileGetCurrentPath
+107 Name=FileGetCurrentPathIDs
+108 Name=FileSetStandardPath
+109 Name=FileTruncate
+110 Name=FileCommit
+111 Name=SysLocateFileInDosPath Args=8 \
+	Comment=DiskHandle cdecl SysLocateFileInDosPath(const char *fname, char *buffer) in system.h
+112 Name=FileCopy
+113 Name=FileMove
+114 Name=FileSize
+115 Name=FileGetDiskHandle
+116 Name=FileParseStandardPath
+117 Name=FileConstructFullPath
+118 Name=ECCheckFileHandle
+119 Name=FileResolveStandardPath
+120 Name=FileConstructActualPath
+121 Name=FileComparePaths
+122 Name=FileCreateLink
+123 Name=FileGetLinkExtraData
+124 Name=FileReadLink
+125 Name=FileSetLinkExtraData
+126 Name=FileStdPathCheckIfSubDir
+127 Name=FileInt21
+128 Name=FileForEach
+129 Name=FileForEachPath
+130 Name=FileGetDestinationDisk
+131 Name=FSDGenNameless
+132 Name=FSDAllocDisk
+133 Name=FSDAskForDisk
+134 Name=FSDRegister
+135 Name=FSDInitDrive
+136 Name=FSDLockInfoShared
+137 Name=FSDLockInfoExcl
+138 Name=FSDLockInfoExclToES
+139 Name=FSDUnlockInfoShared
+140 Name=FSDUnlockInfoExcl
+141 Name=FSDGetThreadPathDiskHandle
+142 Name=FSDInformOldFSDOfPathNukage
+143 Name=FSDCheckDestWritable
+144 Name=FSDDerefInfo
+145 Name=FSDRecordError
+146 Name=FSDAllocFileHandle
+147 Name=FSDDeleteDrive
+148 Name=FSDDowngradeExclInfoLock
+149 Name=FSDUpgradeSharedInfoLock
+150 Name=DiskFormat
+151 Name=DiskCheckWritable
+152 Name=DiskForEach
+153 Name=DiskGetDrive
+154 Name=DiskGetVolumeName
+155 Name=DiskFind
+156 Name=DiskRegisterDisk
+157 Name=DiskRegisterDiskSilently
+158 Name=DiskCopy
+159 Name=DiskCheckInUse
+160 Name=DiskCheckUnnamed
+161 Name=DiskGetVolumeFreeSpace
+162 Name=DiskGetVolumeInfo
+163 Name=DiskSetVolumeName
+164 Name=DiskLock
+165 Name=DiskLockExcl
+166 Name=DiskUnlock
+167 Name=DiskSave
+168 Name=DiskRestore
+169 Name=DiskAllocAndInit
+170 Name=DriveGetStatus
+171 Name=DriveGetExtStatus
+172 Name=DriveGetDefaultMedia
+173 Name=DriveTestMediaSupport
+174 Name=DriveLockExcl
+175 Name=DriveUnlockExcl
+176 Name=DriveGetName
+177 Name=DriveLocateByNumber
+178 Name=DriveLocateByName
+179 Name=GeodeLoad
+180 Name=GeodeForEach
+181 Name=GeodeFind
+182 Name=GeodeGetInfo
+183 Name=GeodeInfoDriver
+184 Name=GeodeGetDefaultDriver
+185 Name=GeodeUseLibrary
+186 Name=GeodeUseDriver
+187 Name=GeodeFreeLibrary
+188 Name=GeodeFreeDriver
+189 Name=GeodeDuplicateResource
+190 Name=GeodeGetProcessHandle
+191 Name=GeodeGetResourceHandle
+192 Name=GeodeGetGeodeResourceHandle
+193 Name=GeodeGetAppObject
+194 Name=GeodeAllocQueue
+195 Name=GeodeFreeQueue
+196 Name=GeodeInfoQueue
+197 Name=GeodeGetUIData
+198 Name=GeodeSetUIData
+199 Name=GeodeFlushQueue
+200 Name=GeodeSetDefaultDriver
+201 Name=GeodeGetDGroupDS
+202 Name=GeodeGetDGroupES
+203 Name=GeodeAddReference
+204 Name=GeodeRemoveReference
+205 Name=GeodeFindResource
+206 Name=ProcCallModuleRoutine
+207 Name=ProcGetLibraryEntry
+208 Name=ProcCallFixedOrMovable
+209 Name=ProcInfo
+210 Name=ObjProcBroadcastMessage
+211 Name=ObjMessage
+212 Name=ObjFreeMessage
+213 Name=ObjGetMessageInfo
+214 Name=MessageDispatch
+215 Name=ObjDuplicateMessage
+216 Name=MessageProcess
+217 Name=QueueGetMessage
+218 Name=QueuePostMessage
+219 Name=ThreadBlockOnQueue
+220 Name=ThreadWakeUpQueue
+221 Name=ThreadDestroy
+222 Name=ThreadCreate
+223 Name=ThreadGetInfo
+224 Name=ThreadModify
+225 Name=ThreadAttachToQueue
+226 Name=ThreadPrivAlloc
+227 Name=ThreadPrivFree
+228 Name=ThreadGrabThreadLock
+229 Name=ThreadReleaseThreadLock
+230 Name=ThreadHandleException
+231 Name=ThreadAllocSem
+232 Name=ThreadFreeSem
+233 Name=ThreadPSem
+234 Name=ThreadVSem
+235 Name=ThreadPTimedSem
+236 Name=ThreadAllocThreadLock
+237 Name=ThreadFreeThreadLock
+238 Name=ThreadBorrowStackSpace
+239 Name=ThreadReturnStackSpace
+240 Name=TimerStart
+241 Name=TimerStop
+242 Name=TimerSleep
+243 Name=TimerBlockOnTimedQueue
+244 Name=TimerGetCount
+245 Name=TimerGetDateAndTime
+246 Name=TimerSetDateAndTime
+247 Name=TimerStartCount
+248 Name=TimerEndCount
+249 Name=TimerStartSetOwner
+250 Name=GrChunkRegOp
+251 Name=GrPtrRegOp
+252 Name=GrMoveReg
+253 Name=GrGetPtrRegBounds
+254 Name=GrTestPointInReg
+255 Name=GrTestRectInReg
+256 Name=GrTestPointInPath
+257 Name=GrGetPathPoints
+258 Name=GrGetPathRegion
+259 Name=GrGetClipRegion
+260 Name=GrRegionPathInit
+261 Name=GrRegionPathClean
+262 Name=GrRegionPathMovePen
+263 Name=GrRegionPathAddOnOffPoint
+264 Name=GrRegionPathAddLineAtCP
+265 Name=GrRegionPathAddBezierAtCP
+266 Name=GrRegionPathAddPolygon
+267 Name=GrRegionPathAddPolyline
+268 Name=GrCopyDrawMask
+269 Name=GrMapColorToGrey
+270 Name=GrGetDefFontID
+271 Name=GrFontMetrics
+272 Name=GrCharWidth
+273 Name=GrTextWidth
+274 Name=GrGetBitmap
+275 Name=GrSetWinClipRect
+276 Name=GrCopyGString
+277 Name=GrCallFontDriverID
+278 Name=GrSetClipRect
+279 Name=GrCreateState
+280 Name=GrDestroyState
+281 Name=GrGrabExclusive
+282 Name=GrReleaseExclusive
+283 Name=GrTransformWWFixed
+284 Name=GrUntransformWWFixed
+285 Name=GrTransformDWFixed
+286 Name=GrUntransformDWFixed
+287 Name=GrTransformDWord
+288 Name=GrUntransformDWord
+289 Name=GrTransformByMatrix
+290 Name=GrTransformByMatrixDWord
+291 Name=GrUntransformByMatrix
+292 Name=GrUntransformByMatrixDWord
+293 Name=GrCharMetrics
+294 Name=GrTextWidthWBFixed
+295 Name=GrSetTextDrawOffset
+296 Name=GrGetTextDrawOffset
+297 Name=GrMulWWFixedPtr
+298 Name=GrMulWWFixed
+299 Name=GrMulDWFixedPtr
+300 Name=GrMulDWFixed
+301 Name=GrSDivWWFixed
+302 Name=GrUDivWWFixed
+303 Name=GrSqrWWFixed
+304 Name=GrSqrRootWWFixed
+305 Name=GrQuickSine
+306 Name=GrQuickCosine
+307 Name=GrQuickArcSine
+308 Name=GrQuickTangent
+309 Name=GrPolarToCartesian
+310 Name=GrSDivDWFbyWWF
+311 Name=GrSetGStringPos
+312 Name=GrBitBlt
+313 Name=GrDrawRegion
+314 Name=GrDrawRegionAtCP
+315 Name=GrTransform
+316 Name=GrUntransform
+317 Name=GrDrawImage
+318 Name=GrDrawHugeImage
+319 Name=GrMapColorIndex
+320 Name=GrMapColorRGB
+321 Name=GrGetPalette
+322 Name=GrCreateBitmap
+323 Name=GrDestroyBitmap
+324 Name=GrSetPrivateData
+325 Name=GrGetMixMode
+326 Name=GrGetLineColor
+327 Name=GrGetAreaColor
+328 Name=GrGetTextColor
+329 Name=GrGetLineMask
+330 Name=GrGetAreaMask
+331 Name=GrGetTextMask
+332 Name=GrGetLineColorMap
+333 Name=GrGetAreaColorMap
+334 Name=GrGetTextColorMap
+335 Name=GrGetTextSpacePad
+336 Name=GrGetTextStyle
+337 Name=GrGetTextMode
+338 Name=GrGetLineWidth
+339 Name=GrGetLineEnd
+340 Name=GrGetLineJoin
+341 Name=GrGetMiterLimit
+342 Name=GrGetCurPos
+343 Name=GrGetInfo
+344 Name=GrTextObjCalc
+345 Name=GrDestroyGString
+346 Name=GrLoadGString
+347 Name=GrCreateGString
+348 Name=GrGetGStringElement
+349 Name=GrDrawGString
+350 Name=GrDrawGStringAtCP
+351 Name=GrTextPosition
+352 Name=GrGetTransform
+353 Name=GrSetBitmapRes
+354 Name=GrGetBitmapRes
+355 Name=GrClearBitmap
+356 Name=GrGetFont
+357 Name=GrGetLineStyle
+358 Name=GrEnumFonts
+359 Name=GrCheckFontAvail
+360 Name=GrFindNearestPointsize
+361 Name=GrTestPointInPolygon
+362 Name=GrGetBitmapSize
+363 Name=GrBrushPolyline
+364 Name=GrSetBitmapMode
+365 Name=GrGetBitmapMode
+366 Name=GrCalcLuminance
+367 Name=GrSetFontWeight
+368 Name=GrSetFontWidth
+369 Name=GrSetSuperscriptAttr
+370 Name=GrSetSubscriptAttr
+371 Name=GrGetFontWeight
+372 Name=GrGetFontWidth
+373 Name=GrGetSuperscriptAttr
+374 Name=GrGetSubscriptAttr
+375 Name=GrCallFontDriver
+376 Name=GrDeleteGStringElement
+377 Name=GrGetPathBounds
+378 Name=GrEndGString
+379 Name=GrComment
+380 Name=GrNullOp
+381 Name=GrEscape
+382 Name=GrSaveState
+383 Name=GrRestoreState
+384 Name=GrNewPage
+385 Name=GrApplyRotation
+386 Name=GrApplyScale
+387 Name=GrApplyTranslation
+388 Name=GrSetTransform
+389 Name=GrApplyTransform
+390 Name=GrSetNullTransform
+391 Name=GrDrawLine
+392 Name=GrDrawLineTo
+393 Name=GrDrawRect
+394 Name=GrDrawRectTo
+395 Name=GrDrawHLine
+396 Name=GrDrawHLineTo
+397 Name=GrDrawVLine
+398 Name=GrDrawVLineTo
+399 Name=GrDrawRoundRect
+400 Name=GrDrawRoundRectTo
+401 Name=GrDrawPoint
+402 Name=GrDrawPointAtCP
+403 Name=GrDrawBitmap
+404 Name=GrDrawBitmapAtCP
+405 Name=GrFillBitmap
+406 Name=GrFillBitmapAtCP
+407 Name=GrDrawChar
+408 Name=GrDrawCharAtCP
+409 Name=GrDrawText
+410 Name=GrDrawTextAtCP
+411 Name=GrDrawPolyline
+412 Name=GrDrawEllipse
+413 Name=GrDrawArc
+414 Name=GrDrawSpline
+415 Name=GrFillRect
+416 Name=GrFillRectTo
+417 Name=GrFillRoundRect
+418 Name=GrFillRoundRectTo
+419 Name=GrFillArc
+420 Name=GrFillPolygon
+421 Name=GrFillEllipse
+422 Name=GrSetMixMode
+423 Name=GrRelMoveTo
+424 Name=GrMoveTo
+425 Name=GrSetLineColor
+426 Name=GrSetLineMask
+427 Name=GrSetLineColorMap
+428 Name=GrSetLineWidth
+429 Name=GrSetLineJoin
+430 Name=GrSetLineEnd
+431 Name=GrSetLineAttr
+432 Name=GrSetMiterLimit
+433 Name=GrSetLineStyle
+434 Name=GrSetAreaColor
+435 Name=GrSetAreaMask
+436 Name=GrSetAreaColorMap
+437 Name=GrSetAreaAttr
+438 Name=GrSetTextColor
+439 Name=GrSetTextMask
+440 Name=GrSetTextColorMap
+441 Name=GrSetTextStyle
+442 Name=GrSetTextMode
+443 Name=GrSetTextSpacePad
+444 Name=GrSetTextAttr
+445 Name=GrSetFont
+446 Name=GrGetFontName
+447 Name=GrSetGStringBounds
+448 Name=GrDrawTextField
+449 Name=GrCreatePalette
+450 Name=GrDestroyPalette
+451 Name=GrSetPaletteEntry
+452 Name=GrSetPalette
+453 Name=GrDrawPolygon
+454 Name=GrSetTrackKern
+455 Name=GrGetTrackKern
+456 Name=GrInitDefaultTransform
+457 Name=GrSetDefaultTransform
+458 Name=GrApplyTranslationDWord
+459 Name=GrDrawArc3Point
+460 Name=GrDrawArc3PointTo
+461 Name=GrDrawRelArc3PointTo
+462 Name=GrFillArc3Point
+463 Name=GrFillArc3PointTo
+464 Name=GrGetTextBounds
+465 Name=GrSetAreaPattern
+466 Name=GrSetTextPattern
+467 Name=GrGetAreaPattern
+468 Name=GrGetTextPattern
+469 Name=GrBeginPath
+470 Name=GrEndPath
+471 Name=GrCloseSubPath
+472 Name=GrSetClipPath
+473 Name=GrSetWinClipPath
+474 Name=GrFillPath
+475 Name=GrDrawPath
+476 Name=GrSetStrokePath
+477 Name=GrGetWinHandle
+478 Name=GrDrawHugeBitmap
+479 Name=GrDrawHugeBitmapAtCP
+480 Name=GrDrawSplineTo
+481 Name=GrDrawCurve
+482 Name=GrDrawCurveTo
+483 Name=GrSaveTransform
+484 Name=GrRestoreTransform
+485 Name=GrDrawRelLineTo
+486 Name=GrDrawRelCurveTo
+487 Name=GrLabel
+488 Name=GrGetGStringBounds
+489 Name=GrTestRectInMask
+490 Name=GrGetWinBounds
+491 Name=GrGetMaskBounds
+492 Name=GrInvalRect
+493 Name=GrInvalRectDWord
+494 Name=GrGetWinBoundsDWord
+495 Name=GrGetMaskBoundsDWord
+496 Name=GrEditGString
+497 Name=GrBeginUpdate
+498 Name=GrEndUpdate
+499 Name=GrCompactBitmap
+500 Name=GrEditBitmap
+501 Name=GrGetExclusive
+502 Name=GrGetGStringHandle
+503 Name=GrGetPath
+504 Name=GrGetPoint
+505 Name=GrParseGString
+506 Name=GrUncompactBitmap
+507 Name=FontDrDeleteLRUChar
+508 Name=FontDrFindFontInfo
+509 Name=FontDrFindOutlineData
+510 Name=FontDrAddFont
+511 Name=FontDrDeleteFont
+512 Name=FontDrLockFont
+513 Name=FontDrUnlockFont
+514 Name=VMOpen
+515 Name=VMLock
+516 Name=VMUnlock
+517 Name=VMAlloc
+518 Name=VMFind
+519 Name=VMFree
+520 Name=VMDirty
+521 Name=VMGetMapBlock
+522 Name=VMSetMapBlock
+523 Name=VMUpdate
+524 Name=VMClose
+525 Name=VMModifyUserID
+526 Name=VMGetAttributes
+527 Name=VMSetAttributes
+528 Name=VMGrabExclusive
+529 Name=VMReleaseExclusive
+530 Name=VMInfo
+531 Name=VMSetReloc
+532 Name=VMAttach
+533 Name=VMDetach
+534 Name=VMMemBlockToVMBlock
+535 Name=VMSave
+536 Name=VMSaveAs
+537 Name=VMRevert
+538 Name=VMVMBlockToMemBlock
+539 Name=VMGetDirtyState
+540 Name=VMCopyVMChain
+541 Name=VMFreeVMChain
+542 Name=VMCompareVMChains
+543 Name=VMCopyVMBlock
+544 Name=VMCheckForModifications
+545 Name=VMPreserveBlocksHandle
+546 Name=VMSetExecThread
+547 Name=VMAllocLMem
+548 Name=FatalError
+549 Name=SysNotify
+550 Name=SysShutdown Args=2 \
+	Comment=Boolean cdecl SysShutdown(SysShutdownType type, ...) in system.h
+551 Name=SysStatistics
+552 Name=SysGetECLevel
+553 Name=SysSetECLevel
+554 Name=SysEnterInterrupt
+555 Name=SysEnterCritical
+556 Name=SysExitInterrupt
+557 Name=SysCatchInterrupt
+558 Name=SysResetInterrupt
+559 Name=SysCatchDeviceInterrupt
+560 Name=SysResetDeviceInterrupt
+561 Name=SYSGETCONFIG \
+	Comment=dword pascal SysGetConfig(void) in system.h
+562 Name=UtilHex32ToAscii
+563 Name=UtilAsciiToHex32
+564 Name=SysRegisterScreen
+565 Name=SysSetExitFlags
+566 Name=SysCountInterrupt
+567 Name=SysGetInfo
+568 Name=SysGetDosEnvironment
+569 Name=SysLockBIOS
+570 Name=SysUnlockBIOS
+571 Name=SysAddIdleIntercept
+572 Name=SysRemoveIdleIntercept
+573 Name=WarningNotice
+574 Name=CWARNINGNOTICE Pascal=2 \
+	Comment=void pascal CWarningNotice(word code) in ec.h
+575 Name=LocalSetDateTimeFormat
+576 Name=LocalGetDateTimeFormat
+577 Name=LocalFormatDateTime
+578 Name=LocalParseDateTime
+579 Name=LocalUpcaseChar
+580 Name=LocalDowncaseChar
+581 Name=LocalUpcaseString
+582 Name=LocalDowncaseString
+583 Name=LocalCmpStrings
+584 Name=LocalCmpStringsNoCase
+585 Name=LocalIsUpper
+586 Name=LocalIsLower
+587 Name=LocalIsAlpha
+588 Name=LocalIsPunctuation
+589 Name=LocalIsSpace
+590 Name=LocalIsSymbol
+591 Name=LocalIsDateChar
+592 Name=LocalIsTimeChar
+593 Name=LocalIsNumChar
+594 Name=LocalDosToGeos
+595 Name=LocalGeosToDos
+596 Name=LocalGetQuotes
+597 Name=LocalSetQuotes
+598 Name=LocalIsDosChar
+599 Name=LocalCustomFormatDateTime
+600 Name=LocalGetNumericFormat
+601 Name=LocalSetNumericFormat
+602 Name=LocalGetCurrencyFormat
+603 Name=LocalSetCurrencyFormat
+604 Name=LocalCmpStringsDosToGeos
+605 Name=LocalCodePageToGeos
+606 Name=LocalGeosToCodePage
+607 Name=LocalCodePageToGeosChar
+608 Name=LocalGeosToCodePageChar
+609 Name=LocalDosToGeosChar
+610 Name=LocalGeosToDosChar
+611 Name=LocalGetCodePage
+612 Name=LOCALGETMEASUREMENTTYPE \
+	Comment=MeasurementType pascal LocalGetMeasurementType(void) in localize.h
+613 Name=LocalSetMeasurementType
+614 Name=LocalLexicalValue
+615 Name=LocalLexicalValueNoCase
+616 Name=LocalCmpChars
+617 Name=LocalCmpCharsNoCase
+618 Name=LocalStringSize
+619 Name=LocalStringLength
+620 Name=LocalDistanceToAscii
+621 Name=LocalDistanceFromAscii
+622 Name=LocalFixedToAscii
+623 Name=LocalAsciiToFixed
+624 Name=LocalIsControl
+625 Name=LocalIsDigit
+626 Name=LocalIsHexDigit
+627 Name=LocalIsAlphaNumeric
+628 Name=LocalIsPrintable
+629 Name=LocalIsGraphic
+630 Name=LocalSetCodePage
+631 Name=LocalCmpStringsNoSpace
+632 Name=LocalCmpStringsNoSpaceCase
+633 Name=LocalCustomParseDateTime
+634 Name=WinOpen
+635 Name=WinClose
+636 Name=WinChangePriority
+637 Name=WinScroll
+638 Name=WinAckUpdate
+639 Name=WinInvalReg
+640 Name=WinValClipLine
+641 Name=WinLocatePoint
+642 Name=WinGenLineMask
+643 Name=WinInvalTree
+644 Name=WinMaskOutSaveUnder
+645 Name=WinApplyRotation
+646 Name=WinApplyScale
+647 Name=WinTransform
+648 Name=WinUntransform
+649 Name=WinTransformDWord
+650 Name=WinUntransformDWord
+651 Name=WinSetTransform
+652 Name=WinApplyTransform
+653 Name=WinSetNullTransform
+654 Name=WinGetInfo
+655 Name=WinSetInfo
+656 Name=WinGrabChange
+657 Name=WinReleaseChange
+658 Name=WinChangeAck
+659 Name=WinMove
+660 Name=WinResize
+661 Name=WinDecRefCount
+662 Name=WinGetWinScreenBounds
+663 Name=WinApplyTranslation
+664 Name=WinApplyTranslationDWord
+665 Name=WinSetPtrImage
+666 Name=WinEnsureChangeNotification
+667 Name=WinGetTransform
+668 Name=WinForEach
+669 Name=WinSuspendUpdate
+670 Name=WinUnSuspendUpdate
+671 Name=WinGeodeSetPtrImage
+672 Name=WinGeodeGetInputObj
+673 Name=WinGeodeSetInputObj
+674 Name=WinGeodeGetParentObj
+675 Name=WinGeodeSetParentObj
+676 Name=WinGeodeSetActiveWin
+677 Name=WinSysSetActiveGeode
+678 Name=WinGeodeGetFlags
+679 Name=WinGeodeSetFlags
+680 Name=ObjCallInstanceNoLock
+681 Name=ObjCallInstanceNoLockES
+682 Name=ObjCallClassNoLock
+683 Name=ObjCallSuperNoLock
+684 Name=ObjInstantiate
+685 Name=ObjLockObjBlock
+686 Name=ObjDuplicateResource
+687 Name=ObjFreeDuplicate
+688 Name=ObjDoRelocation
+689 Name=ObjResizeMaster
+690 Name=ObjInitializeMaster
+691 Name=ObjInitializePart
+692 Name=ObjGetFlags
+693 Name=ObjSetFlags
+694 Name=ObjMarkDirty
+695 Name=ObjDoUnRelocation
+696 Name=ObjAssocVMFile
+697 Name=ObjSaveExtraStateBlock
+698 Name=ObjDisassocVMFile
+699 Name=ObjCloseVMFile
+700 Name=ObjLinkCallParent
+701 Name=ObjLinkFindParent
+702 Name=ObjLinkCallNextSibling
+703 Name=ObjCompFindChild
+704 Name=ObjCompAddChild
+705 Name=ObjCompRemoveChild
+706 Name=ObjCompMoveChild
+707 Name=ObjCompProcessChildren
+708 Name=ObjInitDetach
+709 Name=ObjIncDetach
+710 Name=ObjEnableDetach
+711 Name=MetaClass
+712 Name=ProcessClass
+713 Name=ObjIncInUseCount
+714 Name=ObjDecInUseCount
+715 Name=ObjSwapLock
+716 Name=ObjSwapUnlock
+717 Name=ObjSwapLockParent
+718 Name=ObjTestIfObjBlockRunByCurThread
+719 Name=ObjSaveBlock
+720 Name=ObjMapSavedToState
+721 Name=ObjMapStateToSaved
+722 Name=ObjIsObjectInClass
+723 Name=ObjFreeChunk
+724 Name=MessageSetDestination
+725 Name=ObjFreeObjBlock
+726 Name=ObjBlockSetOutput
+727 Name=ObjBlockGetOutput
+728 Name=ObjDecInteractibleCount
+729 Name=ObjGotoInstanceTailRecurse
+730 Name=ObjGotoSuperTailRecurse
+731 Name=ObjIncInteractibleCount
+732 Name=ObjIsClassADescendant
+733 Name=ObjRelocOrUnRelocSuper
+734 Name=ECCheckMemHandle
+735 Name=ECCheckMemHandleNS
+736 Name=ECCheckThreadHandle
+737 Name=ECCheckProcessHandle
+738 Name=ECCheckResourceHandle
+739 Name=ECCheckGeodeHandle
+740 Name=ECCheckDriverHandle
+741 Name=ECCheckLibraryHandle
+742 Name=ECCheckGStateHandle
+743 Name=ECCheckWindowHandle
+744 Name=ECCheckQueueHandle
+745 Name=ECCheckClass
+746 Name=ECCheckLMemHandle
+747 Name=ECCheckLMemHandleNS
+748 Name=ECCheckLMemChunk
+749 Name=ECCheckObject
+750 Name=ECCheckLMemObject
+751 Name=ECCheckOD
+752 Name=ECCheckLMemOD
+753 Name=ECCheckSegment
+754 Name=ECCheckSegments
+755 Name=ECCHECKSTACK \
+	Comment=void pascal ECCheckStack(void) in ec.h
+756 Name=InitFileWriteData
+757 Name=InitFileWriteString
+758 Name=InitFileWriteBoolean
+759 Name=InitFileReadData
+760 Name=InitFileReadString
+761 Name=InitFileReadInteger
+762 Name=InitFileReadBoolean
+763 Name=InitFileWriteInteger
+764 Name=InitFileGetTimeLastModified
+765 Name=InitFileSave
+766 Name=InitFileRevert
+767 Name=INITFILECOMMIT \
+	Comment=void pascal InitFileCommit(void) in initfile.h
+768 Name=InitFileDeleteEntry
+769 Name=InitFileDeleteCategory
+770 Name=InitFileReadStringSection
+771 Name=InitFileWriteStringSection
+772 Name=InitFileDeleteStringSection
+773 Name=InitFileEnumStringSection
+775 Name=ImAddMonitor
+776 Name=ImRemoveMonitor
+777 Name=ImInfoInputProcess
+778 Name=ImGrabInput
+779 Name=ImReleaseInput
+780 Name=ImSetDoubleClick
+781 Name=ImInfoDoubleClick
+782 Name=ImForcePtrMethod
+783 Name=ImSetPtrWin
+784 Name=ImPtrJump
+785 Name=ImStartMoveResize
+786 Name=ImStopMoveResize
+787 Name=ImConstrainMouse
+788 Name=ImUnconstrainMouse
+789 Name=ImBumpMouse
+790 Name=ImGetMousePos
+791 Name=ImGetPtrWin
+792 Name=ImGetButtonState
+793 Name=ImSetPtrImage
+794 Name=ImInkReply
+795 Name=ImStartPenMode
+796 Name=ImEndPenMode
+797 Name=DBLock
+798 Name=DBUnlock
+799 Name=DBDirty
+800 Name=DBAlloc
+801 Name=DBReAlloc
+802 Name=DBFree
+803 Name=DBGroupAlloc
+804 Name=DBGroupFree
+805 Name=DBSetMap
+806 Name=DBGetMap
+807 Name=DBLockMap
+808 Name=DBInsertAt
+809 Name=DBDeleteAt
+810 Name=DBCopyDBItem
+811 Name=GCNListAdd
+812 Name=GCNListRemove
+813 Name=GCNListSend
+814 Name=GCNListAddToList
+815 Name=GCNListRemoveFromList
+816 Name=GCNListFindItemInList
+817 Name=GCNListSendToList
+818 Name=GCNListCreateList
+819 Name=GCNListAddToBlock
+820 Name=GCNListRemoveFromBlock
+821 Name=GCNListSendToBlock
+822 Name=GCNListCreateBlock
+823 Name=GCNListFindListInBlock
+824 Name=GCNListDestroyBlock
+825 Name=GCNListDestroyList
+826 Name=GCNListRecordAndSend
+827 Name=GCNListRelocateBlock
+828 Name=GCNListRelocateList
+829 Name=GCNListUnRelocateBlock
+830 Name=GCNListUnRelocateList
+831 Name=LogWriteInitEntry
+832 Name=LogWriteEntry
+833 Name=DosExec Args=18 \
+	Comment=word cdecl DosExec(const char *prog, DiskHandle progDisk, const char *arguments, const char *execDir, DiskHandle execDisk, DosExecFlags flags) in system.h
+834 Name=DosExecLocateLoader
+835 Name=DosExecSuspend
+836 Name=DosExecUnsuspend
+837 Name=THREADGETERROR \
+	Comment=word pascal ThreadGetError(void) in geos.h
+838 Name=MEMALLOCSETOWNER Pascal=8 \
+	Comment=MemHandle pascal MemAllocSetOwner(GeodeHandle owner, word byteSize, HeapFlags hfFlags, HeapAllocFlags haFlags) in heap.h
+839 Name=MEMREALLOC Pascal=6 \
+	Comment=MemHandle pascal MemReAlloc(MemHandle mh, word byteSize, HeapAllocFlags heapAllocFlags) in heap.h
+840 Name=MEMGETINFO Pascal=4 \
+	Comment=word pascal MemGetInfo(MemHandle mh, MemGetInfoType info) in heap.h
+841 Name=MEMMODIFYFLAGS Pascal=6 \
+	Comment=void pascal MemModifyFlags(MemHandle mh, HeapFlags bitsToSet, HeapFlags bitsToClear) in heap.h
+842 Name=HANDLEMODIFYOWNER Pascal=4 \
+	Comment=void pascal HandleModifyOwner(Handle mh, GeodeHandle owner) in heap.h
+843 Name=MEMMODIFYOTHERINFO Pascal=4 \
+	Comment=void pascal MemModifyOtherInfo(MemHandle mh, word otherInfo) in heap.h
+844 Name=MEMPTRTOHANDLE Pascal=4 \
+	Comment=MemHandle pascal MemPtrToHandle(void *ptr) in heap.h
+845 Name=MEMALLOC Pascal=6 \
+	Comment=MemHandle pascal MemAlloc(word byteSize, HeapFlags hfFlags, HeapAllocFlags haFlags) in heap.h
+846 Name=MEMFREE Pascal=2 \
+	Comment=void pascal MemFree(MemHandle mh) in heap.h
+847 Name=MEMDEREF Pascal=2 \
+	Comment=void * pascal MemDeref(MemHandle mh) in heap.h
+848 Name=MEMPLOCK Pascal=2 \
+	Comment=void * pascal MemPLock(MemHandle mh) in heap.h
+849 Name=MEMLOCK Pascal=2 \
+	Comment=void * pascal MemLock(MemHandle mh) in heap.h
+850 Name=MEMUNLOCK Pascal=2 \
+	Comment=void pascal MemUnlock(MemHandle mh) in heap.h
+851 Name=MEMOWNER Pascal=2 \
+	Comment=GeodeHandle pascal MemOwner(MemHandle mh) in heap.h
+852 Name=MEMUNLOCKV Pascal=2 \
+	Comment=void pascal MemUnlockV(MemHandle mh) in heap.h
+853 Name=MEMTHREADGRAB Pascal=2 \
+	Comment=void * pascal MemThreadGrab(MemHandle mh) in heap.h
+854 Name=MEMTHREADGRABNB Pascal=2 \
+	Comment=void * pascal MemThreadGrabNB(MemHandle mh) in heap.h
+855 Name=MEMTHREADRELEASE Pascal=2 \
+	Comment=void pascal MemThreadRelease(MemHandle mh) in heap.h
+856 Name=HANDLEP Pascal=2 \
+	Comment=void pascal HandleP(MemHandle mh) in heap.h
+857 Name=HANDLEV Pascal=2 \
+	Comment=void pascal HandleV(MemHandle mh) in heap.h
+858 Name=MEMINITREFCOUNT Pascal=4 \
+	Comment=void pascal MemInitRefCount(MemHandle mh, word count) in heap.h
+859 Name=MEMINCREFCOUNT Pascal=2 \
+	Comment=void pascal MemIncRefCount(MemHandle mh) in heap.h
+860 Name=MEMDECREFCOUNT Pascal=2 \
+	Comment=void pascal MemDecRefCount(MemHandle mh) in heap.h
+861 Name=MEMALLOCLMEM Pascal=4 \
+	Comment=MemHandle pascal MemAllocLMem(LMemType type, word headerSize) in lmem.h
+862 Name=MEMLOCKFIXEDORMOVABLE Pascal=4 \
+	Comment=void * pascal MemLockFixedOrMovable(void *ptr) in heap.h
+863 Name=MEMUNLOCKFIXEDORMOVABLE Pascal=4 \
+	Comment=void pascal MemUnlockFixedOrMovable(void *ptr) in heap.h
+864 Name=MEMLOCKSHARED Pascal=2 \
+	Comment=void * pascal MemLockShared(MemHandle mh) in heap.h
+865 Name=MEMUNLOCKSHARED Pascal=2 \
+	Comment=void pascal MemUnlockShared(MemHandle mh) in heap.h
+866 Name=MEMLOCKEXCL Pascal=2 \
+	Comment=void * pascal MemLockExcl(MemHandle mh) in heap.h
+867 Name=MEMUPGRADESHAREDLOCK Pascal=2 \
+	Comment=void * pascal MemUpgradeSharedLock(MemHandle mh) in heap.h
+868 Name=MEMDOWNGRADEEXCLLOCK Pascal=2 \
+	Comment=void pascal MemDowngradeExclLock(MemHandle mh) in heap.h
+869 Name=FILECREATEDIR Pascal=4 \
+	Comment=word pascal FileCreateDir(const char *name) in file.h
+870 Name=FILEDELETEDIR Pascal=4 \
+	Comment=word pascal FileDeleteDir(const char *name) in file.h
+871 Name=FILEGETCURRENTPATH Pascal=6 \
+	Comment=DiskHandle pascal FileGetCurrentPath(char *buffer, word bufferSize) in file.h
+872 Name=FILESETCURRENTPATH Pascal=6 \
+	Comment=DiskHandle pascal FileSetCurrentPath(DiskHandle disk, const char *path) in file.h
+873 Name=FILEOPEN Pascal=6 \
+	Comment=FileHandle pascal FileOpen(const char *name, FileAccessFlags flags) in file.h
+874 Name=FILECREATE Pascal=8 \
+	Comment=FileHandle pascal FileCreate(const char *name, FileCreateFlags flags, FileAttrs attributes) in file.h
+875 Name=FILECLOSE Pascal=4 \
+	Comment=word pascal FileClose(FileHandle fh, Boolean noErrorFlag) in file.h
+876 Name=FILECOMMIT Pascal=4 \
+	Comment=word pascal FileCommit(FileHandle fh, Boolean noErrorFlag) in file.h
+877 Name=FILECREATETEMPFILE Pascal=8 \
+	Comment=FileHandle pascal FileCreateTempFile(const char *dir, FileCreateFlags flags, FileAttrs attributes) in file.h
+878 Name=FILEDELETE Pascal=4 \
+	Comment=word pascal FileDelete(const char *name) in file.h
+879 Name=FILERENAME Pascal=8 \
+	Comment=word pascal FileRename(const char *oldName, const char *newame) in file.h
+880 Name=FILEREAD Pascal=10 \
+	Comment=word pascal FileRead(FileHandle fh, void *buf, word count, Boolean noErrorFlag) in file.h
+881 Name=FILEWRITE Pascal=10 \
+	Comment=word pascal FileWrite(FileHandle fh, const void *buf, word count, Boolean noErrorFlag) in file.h
+882 Name=FILEPOS Pascal=8 \
+	Comment=dword pascal FilePos(FileHandle fh, dword posOrOffset, FilePosMode mode) in file.h
+883 Name=FILETRUNCATE Pascal=8 \
+	Comment=word pascal FileTruncate(FileHandle fh, dword offset, Boolean noErrorFlag) in file.h
+884 Name=FILESIZE Pascal=2 \
+	Comment=dword pascal FileSize(FileHandle fh) in file.h
+885 Name=FILEGETDATEANDTIME Pascal=2 \
+	Comment=FileDateAndTime pascal FileGetDateAndTime(FileHandle fh) in file.h
+886 Name=FILESETDATEANDTIME Pascal=6 \
+	Comment=word pascal FileSetDateAndTime(FileHandle fh, FileDateAndTime dateAndTime) in file.h
+887 Name=FILEDUPLICATEHANDLE Pascal=2 \
+	Comment=FileHandle pascal FileDuplicateHandle(FileHandle fh) in file.h
+888 Name=FILELOCKRECORD Pascal=10 \
+	Comment=word pascal FileLockRecord(FileHandle fh, dword filePos, dword regLength) in file.h
+889 Name=FILEUNLOCKRECORD Pascal=10 \
+	Comment=word pascal FileUnlockRecord(FileHandle fh, dword filePos, dword regLength) in file.h
+890 Name=FILEGETDISKHANDLE Pascal=2 \
+	Comment=DiskHandle pascal FileGetDiskHandle(FileHandle fh) in file.h
+891 Name=FILEGETATTRIBUTES Pascal=4 \
+	Comment=FileAttrs pascal FileGetAttributes(const char *path) in file.h
+892 Name=FILESETATTRIBUTES Pascal=6 \
+	Comment=word pascal FileSetAttributes(const char *path, FileAttrs attr) in file.h
+893 Name=FILESETSTANDARDPATH Pascal=2 \
+	Comment=void pascal FileSetStandardPath(StandardPath sp) in file.h
+894 Name=FILECOPY Pascal=12 \
+	Comment=word pascal FileCopy(const char *source, const char *dest, DiskHandle sourceDisk, DiskHandle destDisk) in file.h
+895 Name=FILEMOVE Pascal=12 \
+	Comment=word pascal FileMove(const char *source, const char *dest, DiskHandle sourceDisk, DiskHandle destDisk) in file.h
+896 Name=FILECONSTRUCTFULLPATH Pascal=14 \
+	Comment=DiskHandle pascal FileConstructFullPath(char **buffer, word bufSize, DiskHandle disk, const char *tail, Boolean addDriveLetter) in file.h
+897 Name=FILEPARSESTANDARDPATH Pascal=6 \
+	Comment=StandardPath pascal FileParseStandardPath(DiskHandle disk, const char **path) in file.h
+898 Name=FILEGETPATHEXTATTRIBUTES Pascal=12 \
+	Comment=word pascal FileGetPathExtAttributes(const char *path, FileExtendedAttribute attr, void *buffer, word bufSize) in file.h
+899 Name=FILESETPATHEXTATTRIBUTES Pascal=12 \
+	Comment=word pascal FileSetPathExtAttributes(const char *path, FileExtendedAttribute attr, const void *buffer, word bufSize) in file.h
+900 Name=FILEGETHANDLEEXTATTRIBUTES Pascal=10 \
+	Comment=word pascal FileGetHandleExtAttributes(FileHandle fh, FileExtendedAttribute attr, void *buffer, word bufSize) in file.h
+901 Name=FILESETHANDLEEXTATTRIBUTES Pascal=10 \
+	Comment=word pascal FileSetHandleExtAttributes(FileHandle fh, FileExtendedAttribute attr, const void *buffer, word bufSize) in file.h
+902 Name=FILEENUMLOCATEATTR Pascal=10 \
+	Comment=void * pascal FileEnumLocateAttr(FileEnumCallbackData *fecd, FileExtendedAttribute attr, const char *name) in fileenum.h
+903 Name=FILEENUMWILDCARD Pascal=6 \
+	Comment=Boolean pascal FileEnumWildcard(FileEnumCallbackData *fecd, word frame) in fileenum.h
+904 Name=FILERESOLVESTANDARDPATH Pascal=16 \
+	Comment=DiskHandle pascal FileResolveStandardPath(char **buffer, word bufSize, const char *tail, FileResolveStandardPathFlags flags, FileAttrs *attrsPtr) in file.h
+905 Name=FILECONSTRUCTACTUALPATH Pascal=14 \
+	Comment=DiskHandle pascal FileConstructActualPath(char **buffer, word bufSize, DiskHandle disk, const char *tail, Boolean addDriveLetter) in file.h
+906 Name=FILECOMPAREPATHS Pascal=12 \
+	Comment=PathCompareType pascal FileComparePaths(const char *path1, DiskHandle disk1, const char *path2, DiskHandle disk2) in file.h
+907 Name=FILECREATELINK Pascal=12 \
+	Comment=word pascal FileCreateLink(const char *path, word targetDiskHandle, const char *targetPath, word targetAttrsFlag) in file.h
+908 Name=FILEGETLINKEXTRADATA Pascal=10 \
+	Comment=DiskHandle pascal FileGetLinkExtraData(const char *path, char *buffer, word bufSize) in file.h
+909 Name=FILEREADLINK Pascal=8 \
+	Comment=DiskHandle pascal FileReadLink(const char *path, const char *targetPath) in file.h
+910 Name=FILESETLINKEXTRADATA Pascal=10 \
+	Comment=DiskHandle pascal FileSetLinkExtraData(const char *path, char *buffer, word bufSize) in file.h
+911 Name=UPGRADE_FILEENUM
+912 Name=GEODELOADDGROUP Pascal=2 \
+	Comment=void pascal GeodeLoadDGroup(MemHandle mh) in resource.h
+913 Name=_ProcCallFixedOrMovable_cdecl
+914 Name=PROCCALLFIXEDORMOVABLE_PASCAL \
+	Comment=dword pascal ProcCallFixedOrMovable_pascal() in resource.h
+915 Name=GEODEDUPLICATERESOURCE Pascal=2 \
+	Comment=MemHandle pascal GeodeDuplicateResource(MemHandle mh) in resource.h
+916 Name=GEODEGETOPTRNS Pascal=4 \
+	Comment=optr pascal GeodeGetOptrNS(optr obj) in resource.h
+917 Name=ThreadGetDGroupDS
+918 Name=PROCGETLIBRARYENTRY Pascal=4 \
+	Comment=void * pascal ProcGetLibraryEntry(GeodeHandle library, word entryNumber) in resource.h
+919 Name=GEODEGETPROCESSHANDLE \
+	Comment=GeodeHandle pascal GeodeGetProcessHandle(void) in geode.h
+920 Name=GEODELOAD Pascal=18 \
+	Comment=GeodeHandle pascal GeodeLoad(const char *name, GeodeAttrs attrMatch, GeodeAttrs attrNoMatch, word priority, dword appInfo, GeodeLoadError *err) in geode.h
+921 Name=GEODEFIND Pascal=10 \
+	Comment=GeodeHandle pascal GeodeFind(const char *name, word numChars, GeodeAttrs attrMatch, GeodeAttrs attrNoMatch) in geode.h
+922 Name=GEODEGETINFO Pascal=8 \
+	Comment=word pascal GeodeGetInfo(GeodeHandle gh, GeodeGetInfoType info, void *buf) in geode.h
+923 Name=GEODEGETAPPOBJECT Pascal=2 \
+	Comment=optr pascal GeodeGetAppObject(GeodeHandle gh) in geode.h
+924 Name=GEODEGETUIDATA Pascal=2 \
+	Comment=word pascal GeodeGetUIData(GeodeHandle gh) in geode.h
+925 Name=GEODESETUIDATA Pascal=4 \
+	Comment=void pascal GeodeSetUIData(GeodeHandle gh, word data) in geode.h
+926 Name=PROCINFO Pascal=2 \
+	Comment=ThreadHandle pascal ProcInfo(GeodeHandle gh) in geode.h
+927 Name=GEODEALLOCQUEUE \
+	Comment=QueueHandle pascal GeodeAllocQueue(void) in geode.h
+928 Name=GEODEFREEQUEUE Pascal=2 \
+	Comment=void pascal GeodeFreeQueue(QueueHandle qh) in geode.h
+929 Name=GEODEINFOQUEUE Pascal=2 \
+	Comment=word pascal GeodeInfoQueue(QueueHandle qh) in geode.h
+930 Name=GEODEFLUSHQUEUE Pascal=10 \
+	Comment=void pascal GeodeFlushQueue(QueueHandle source, QueueHandle dest, optr obj, word messageFlags) in geode.h
+931 Name=GEODEFINDRESOURCE Pascal=10 \
+	Comment=word pascal GeodeFindResource(FileHandle file, word resNum, word resOffset, dword *base) in geode.h
+932 Name=GEODEADDREFERENCE Pascal=2 \
+	Comment=void pascal GeodeAddReference(GeodeHandle gh) in geode.h
+933 Name=GEODEREMOVEREFERENCE Pascal=2 \
+	Comment=Boolean pascal GeodeRemoveReference(GeodeHandle gh) in geode.h
+934 Name=GEODEUSEDRIVER_OLD
+935 Name=GEODEFREEDRIVER Pascal=2 \
+	Comment=void pascal GeodeFreeDriver(GeodeHandle gh) in driver.h
+936 Name=GEODEINFODRIVER Pascal=2 \
+	Comment=DriverInfoStruct * pascal GeodeInfoDriver(GeodeHandle gh) in driver.h
+937 Name=GEODEGETDEFAULTDRIVER Pascal=2 \
+	Comment=GeodeHandle pascal GeodeGetDefaultDriver(GeodeDefaultDriverType type) in driver.h
+938 Name=GEODESETDEFAULTDRIVER Pascal=4 \
+	Comment=void pascal GeodeSetDefaultDriver(GeodeDefaultDriverType type, GeodeHandle gh) in driver.h
+939 Name=GEODEUSELIBRARY_OLD
+940 Name=GEODEFREELIBRARY Pascal=2 \
+	Comment=void pascal GeodeFreeLibrary(GeodeHandle gh) in library.h
+941 Name=THREADALLOCSEM Pascal=2 \
+	Comment=SemaphoreHandle pascal ThreadAllocSem(word value) in sem.h
+942 Name=THREADFREESEM Pascal=2 \
+	Comment=void pascal ThreadFreeSem(SemaphoreHandle sem) in sem.h
+943 Name=THREADPSEM Pascal=2 \
+	Comment=SemaphoreError pascal ThreadPSem(SemaphoreHandle sem) in sem.h
+944 Name=THREADVSEM Pascal=2 \
+	Comment=void pascal ThreadVSem(SemaphoreHandle sem) in sem.h
+945 Name=THREADPTIMEDSEM Pascal=4 \
+	Comment=SemaphoreError pascal ThreadPTimedSem(SemaphoreHandle sem, word timeout) in sem.h
+946 Name=THREADALLOCTHREADLOCK \
+	Comment=ThreadLockHandle pascal ThreadAllocThreadLock(void) in sem.h
+947 Name=THREADFREETHREADLOCK Pascal=2 \
+	Comment=void pascal ThreadFreeThreadLock(ThreadLockHandle sem) in sem.h
+948 Name=THREADGRABTHREADLOCK Pascal=2 \
+	Comment=void pascal ThreadGrabThreadLock(ThreadLockHandle sem) in sem.h
+949 Name=THREADRELEASETHREADLOCK Pascal=2 \
+	Comment=void pascal ThreadReleaseThreadLock(ThreadLockHandle sem) in sem.h
+950 Name=THREADDESTROY Pascal=8 \
+	Comment=void pascal ThreadDestroy(word errorCode, optr ackObject, word ackData) in thread.h
+951 Name=THREADCREATE_OLD
+952 Name=THREADGETINFO Pascal=4 \
+	Comment=word pascal ThreadGetInfo(ThreadHandle th, ThreadGetInfoType info) in thread.h
+953 Name=THREADMODIFY Pascal=6 \
+	Comment=void pascal ThreadModify(ThreadHandle th, word newBasePriority, ThreadModifyFlags flags) in thread.h
+954 Name=THREADATTACHTOQUEUE Pascal=6 \
+	Comment=void pascal ThreadAttachToQueue(QueueHandle qh, ClassStruct *class) in thread.h
+955 Name=THREADPRIVALLOC Pascal=4 \
+	Comment=word pascal ThreadPrivAlloc(word wordsRequested, GeodeHandle owner) in thread.h
+956 Name=THREADPRIVFREE Pascal=4 \
+	Comment=void pascal ThreadPrivFree(word range, word wordsRequested) in thread.h
+957 Name=THREADHANDLEEXCEPTION Pascal=4 \
+	Comment=void pascal ThreadHandleException(ThreadHandle th, ThreadException exception, void (* handler) (void)) in thread.h
+958 Name=TIMERSTART Pascal=16 \
+	Comment=TimerHandle pascal TimerStart(TimerType timerType, optr destObject,word ticks, Message msg, word interval, word *id) in timer.h
+959 Name=TIMERSTOP Pascal=4 \
+	Comment=Boolean pascal TimerStop(TimerHandle th, word id) in timer.h
+960 Name=TIMERSLEEP Pascal=2 \
+	Comment=void pascal TimerSleep(word ticks) in timer.h
+961 Name=TIMERGETCOUNT \
+	Comment=dword pascal TimerGetCount(void) in timer.h
+962 Name=TIMERGETDATEANDTIME Pascal=4 \
+	Comment=void pascal TimerGetDateAndTime(TimerDateAndTime *dateAndTime) in timedate.h
+963 Name=TIMERSETDATEANDTIME Pascal=6 \
+	Comment=void pascal TimerSetDateAndTime(word flags, const TimerDateAndTime *dateAndTime) in timedate.h
+964 Name=_DosExec
+965 Name=SYSLOCATEFILEINDOSPATH
+966 Name=SYSGETDOSENVIRONMENT Pascal=10 \
+	Comment=Boolean pascal SysGetDosEnvironment(const char *variable, char *buffer, word bufSize) in system.h
+967 Name=SYSNOTIFY Pascal=10 \
+	Comment=word pascal SysNotify(SysNotifyFlags flags, const char *string1, const char *string2) in system.h
+968 Name=SYSREGISTERSCREEN Pascal=4 \
+	Comment=void pascal SysRegisterScreen(GeodeHandle driver, WindowHandle root) in system.h
+969 Name=_SysShutdown
+970 Name=SYSSETEXITFLAGS Pascal=4 \
+	Comment=word pascal SysSetExitFlags(ExitFlags bitsToSet, ExitFlags bitsToClear) in system.h
+971 Name=SYSGETECLEVEL Pascal=4 \
+	Comment=ErrorCheckingFlags pascal SysGetECLevel(MemHandle *checksumBlock) in ec.h
+972 Name=SYSSETECLEVEL Pascal=4 \
+	Comment=void pascal SysSetECLevel(ErrorCheckingFlags flags, MemHandle checksumBlock) in ec.h
+973 Name=UTILHEX32TOASCII Pascal=10 \
+	Comment=word pascal UtilHex32ToAscii(char *buffer, dword value, UtilHexToAsciiFlags flags) in system.h
+974 Name=UTILASCIITOHEX32 Pascal=8 \
+	Comment=Boolean pascal UtilAsciiToHex32(const char *string, sdword *value) in system.h
+975 Name=SYSGETPENMODE \
+	Comment=Boolean pascal SysGetPenMode(void) in system.h
+976 Name=SYSLOCKBIOS \
+	Comment=void pascal SysLockBIOS(void) in system.h
+977 Name=SYSUNLOCKBIOS \
+	Comment=void pascal SysUnlockBIOS(void) in system.h
+978 Name=SYSSTATISTICS Pascal=4 \
+	Comment=void pascal SysStatistics(SysStats *stats) in sysstats.h
+979 Name=SYSGETINFO Pascal=2 \
+	Comment=dword pascal SysGetInfo(SysGetInfoType info) in sysstats.h
+980 Name=DRIVEGETSTATUS Pascal=2 \
+	Comment=word pascal DriveGetStatus(word driveNumber) in drive.h
+981 Name=DRIVEGETDEFAULTMEDIA Pascal=2 \
+	Comment=MediaType pascal DriveGetDefaultMedia(word driveNumber) in drive.h
+982 Name=DRIVETESTMEDIASUPPORT Pascal=4 \
+	Comment=Boolean pascal DriveTestMediaSupport(word driveNumber, MediaType media) in drive.h
+983 Name=DRIVEGETEXTSTATUS Pascal=2 \
+	Comment=word pascal DriveGetExtStatus(word driveNumber) in drive.h
+984 Name=DRIVEGETNAME Pascal=8 \
+	Comment=char * pascal DriveGetName(word driveNumber, char *buffer, word bufferSize) in drive.h
+985 Name=DISKGETVOLUMEINFO Pascal=6 \
+	Comment=word pascal DiskGetVolumeInfo(DiskHandle dh, DiskInfoStruct *info) in disk.h
+986 Name=DISKSETVOLUMENAME Pascal=6 \
+	Comment=word pascal DiskSetVolumeName(DiskHandle dh, const char *name) in disk.h
+987 Name=DISKGETVOLUMEFREESPACE Pascal=2 \
+	Comment=dword pascal DiskGetVolumeFreeSpace(DiskHandle dh) in disk.h
+988 Name=DISKCOPY Pascal=4 \
+	Comment=DiskCopyError pascal DiskCopy(word source, word dest, Boolean (* callback) (DiskCopyCallback code, DiskHandle disk, word param)) in disk.h
+989 Name=DISKFORMAT Pascal=20 \
+	Comment=FormatError pascal DiskFormat(word driveNumber, MediaType media, DiskFormatFlags flags, dword *goodClusters, dword *badClusters, DiskHandle disk, char *volumeName, Boolean (* callback) (word percentDone) ) in disk.h
+990 Name=DISKREGISTERDISK Pascal=2 \
+	Comment=DiskHandle pascal DiskRegisterDisk(word driveNumber) in disk.h
+991 Name=DISKREGISTERDISKSILENTLY Pascal=2 \
+	Comment=DiskHandle pascal DiskRegisterDiskSilently(word driveNumber) in disk.h
+992 Name=DISKFOREACH \
+	Comment=DiskHandle pascal DiskForEach(Boolean (* callback) (DiskHandle disk) ) in disk.h
+993 Name=DISKGETDRIVE Pascal=2 \
+	Comment=word pascal DiskGetDrive(DiskHandle disk) in disk.h
+994 Name=DISKGETVOLUMENAME Pascal=6 \
+	Comment=void pascal DiskGetVolumeName(DiskHandle disk, char *buffer) in disk.h
+995 Name=DISKFIND Pascal=8 \
+	Comment=DiskHandle pascal DiskFind(const char *fname, DiskFindResult *code) in disk.h
+996 Name=DISKCHECKWRITABLE Pascal=2 \
+	Comment=Boolean pascal DiskCheckWritable(DiskHandle disk) in disk.h
+997 Name=DISKCHECKINUSE Pascal=2 \
+	Comment=Boolean pascal DiskCheckInUse(DiskHandle disk) in disk.h
+998 Name=DISKCHECKUNNAMED Pascal=2 \
+	Comment=Boolean pascal DiskCheckUnnamed(DiskHandle disk) in disk.h
+999 Name=DISKSAVE Pascal=10 \
+	Comment=Boolean pascal DiskSave(DiskHandle disk, void *buffer, word *bufSizePtr) in disk.h
+1000 Name=DISKRESTORE Pascal=4 \
+	Comment=DiskHandle pascal DiskRestore(void *buffer, DiskRestoreError (* callback) (const char *driveName, const char *diskName, void **bufferPtr, DiskRestoreError errorPtr)) in disk.h
+1001 Name=INITFILEWRITEDATA Pascal=14 \
+	Comment=void pascal InitFileWriteData(const char *category, const char *key, const void *buffer, word bufSize) in initfile.h
+1002 Name=INITFILEWRITESTRING Pascal=12 \
+	Comment=void pascal InitFileWriteString(const char *category, const char *key, const char *str) in initfile.h
+1003 Name=INITFILEWRITEINTEGER Pascal=10 \
+	Comment=void pascal InitFileWriteInteger(const char *category, const char *key, word value) in initfile.h
+1004 Name=INITFILEWRITEBOOLEAN Pascal=10 \
+	Comment=void pascal InitFileWriteBoolean(const char *category, const char *key, Boolean bool) in initfile.h
+1005 Name=INITFILEREADDATABUFFER Pascal=18 \
+	Comment=Boolean pascal InitFileReadDataBuffer(const char *category, const char *key, void *buffer, word bufSize, word *dataSize) in initfile.h
+1006 Name=INITFILEREADDATABLOCK Pascal=16 \
+	Comment=Boolean pascal InitFileReadDataBlock(const char *category, const char *key, MemHandle *block, word *dataSize) in initfile.h
+1007 Name=INITFILEREADSTRINGBUFFER Pascal=18 \
+	Comment=Boolean pascal InitFileReadStringBuffer(const char *category, const char *key, char *buffer, InitFileReadFlags flags, word *dataSize) in initfile.h
+1008 Name=INITFILEREADSTRINGBLOCK Pascal=18 \
+	Comment=Boolean pascal InitFileReadStringBlock(const char *category, const char *key, MemHandle *block, InitFileReadFlags flags, word *dataSize) in initfile.h
+1009 Name=INITFILEREADSTRINGSECTIONBUFFER Pascal=20 \
+	Comment=Boolean pascal InitFileReadStringSectionBuffer(const char *category, const char *key, word section, char *buffer, InitFileReadFlags flags, word *dataSize) in initfile.h
+1010 Name=INITFILEREADSTRINGSECTIONBLOCK Pascal=20 \
+	Comment=Boolean pascal InitFileReadStringSectionBlock(const char *category, const char *key, word section, MemHandle *block, InitFileReadFlags flags, word *dataSize) in initfile.h
+1011 Name=INITFILEREADINTEGER Pascal=12 \
+	Comment=Boolean pascal InitFileReadInteger(const char *category, const char *key, word *i) in initfile.h
+1012 Name=INITFILEREADBOOLEAN Pascal=12 \
+	Comment=Boolean pascal InitFileReadBoolean(const char *category, const char *key, Boolean *bool) in initfile.h
+1013 Name=INITFILEGETTIMELASTMODIFIED \
+	Comment=dword pascal InitFileGetTimeLastModified(void) in initfile.h
+1014 Name=INITFILESAVE \
+	Comment=Boolean pascal InitFileSave(void) in initfile.h
+1015 Name=INITFILEREVERT \
+	Comment=Boolean pascal InitFileRevert(void) in initfile.h
+1016 Name=INITFILEDELETEENTRY Pascal=8 \
+	Comment=void pascal InitFileDeleteEntry(const char *category, const char *key) in initfile.h
+1017 Name=INITFILEDELETECATEGORY Pascal=4 \
+	Comment=void pascal InitFileDeleteCategory(const char *category) in initfile.h
+1018 Name=INITFILEWRITESTRINGSECTION Pascal=12 \
+	Comment=void pascal InitFileWriteStringSection(const char *category, const char *key, const char *string) in initfile.h
+1019 Name=INITFILEDELETESTRINGSECTION Pascal=10 \
+	Comment=void pascal InitFileDeleteStringSection(const char *category, const char *key, word stringNum) in initfile.h
+1020 Name=INITFILEENUMSTRINGSECTION Pascal=14 \
+	Comment=Boolean pascal InitFileEnumStringSection(const char *category, const char *key, InitFileReadFlags flags, Boolean (* callback) (const char *stringSection, word sectionNum, void *enumData), void *enumData) in initfile.h
+1022 Name=LOCALGETDATETIMEFORMAT Pascal=6 \
+	Comment=void pascal LocalGetDateTimeFormat(char *str, DateTimeFormat format) in localize.h
+1023 Name=LOCALFORMATDATETIME Pascal=10 \
+	Comment=word pascal LocalFormatDateTime(char *str, DateTimeFormat format, const TimerDateAndTime *dateTime) in localize.h
+1024 Name=LOCALPARSEDATETIME Pascal=10 \
+	Comment=Boolean pascal LocalParseDateTime(const char *str, DateTimeFormat format, TimerDateAndTime *dateTime) in localize.h
+1025 Name=TOUPPER Pascal=2 \
+	Comment=word pascal ToUpper(wchar ch) in localize.h
+1026 Name=TOLOWER Pascal=2 \
+	Comment=word pascal ToLower(wchar ch) in localize.h
+1027 Name=LOCALUPCASESTRING Pascal=6 \
+	Comment=void pascal LocalUpcaseString(char *str, word size) in localize.h
+1028 Name=LOCALDOWNCASESTRING Pascal=6 \
+	Comment=void pascal LocalDowncaseString(char *str, word size) in localize.h
+1029 Name=LOCALCMPSTRINGS Pascal=10 \
+	Comment=sword pascal LocalCmpStrings(const char *str1, const char *str2, word strSize) in localize.h
+1030 Name=LOCALCMPSTRINGSNOCASE Pascal=10 \
+	Comment=sword pascal LocalCmpStringsNoCase(const char *str1, const char *str2, word strSize) in localize.h
+1031 Name=ISUPPER Pascal=2 \
+	Comment=int pascal isupper(unsigned int __c) in ansi/ctype.h
+1032 Name=ISLOWER Pascal=2 \
+	Comment=int pascal islower(unsigned int __c) in ansi/ctype.h
+1033 Name=ISALPHA Pascal=2 \
+	Comment=int pascal isalpha(unsigned int __c) in ansi/ctype.h
+1034 Name=ISPUNCT Pascal=2 \
+	Comment=int pascal ispunct(unsigned int __c) in ansi/ctype.h
+1035 Name=ISSPACE Pascal=2 \
+	Comment=int pascal isspace(unsigned int __c) in ansi/ctype.h
+1036 Name=LOCALISSYMBOL Pascal=2 \
+	Comment=Boolean pascal LocalIsSymbol(wchar ch) in localize.h
+1037 Name=LOCALISDATECHAR Pascal=2 \
+	Comment=Boolean pascal LocalIsDateChar(wchar ch) in localize.h
+1038 Name=LOCALISTIMECHAR Pascal=2 \
+	Comment=Boolean pascal LocalIsTimeChar(wchar ch) in localize.h
+1039 Name=LOCALISNUMCHAR Pascal=2 \
+	Comment=Boolean pascal LocalIsNumChar(wchar ch) in localize.h
+1040 Name=LOCALISDOSCHAR Pascal=2 \
+	Comment=Boolean pascal LocalIsDosChar(wchar ch) in localize.h
+1041 Name=LOCALDOSTOGEOSCHAR Pascal=4 \
+	Comment=wchar pascal LocalDosToGeosChar(wchar ch, wchar defaultChar) in localize.h
+1042 Name=LOCALGEOSTODOSCHAR Pascal=4 \
+	Comment=wchar pascal LocalGeosToDosChar(wchar ch, wchar defaultChar) in localize.h
+1043 Name=LOCALGETCODEPAGE \
+	Comment=DosCodePage pascal LocalGetCodePage(void) in localize.h
+1044 Name=LOCALDOSTOGEOS Pascal=8 \
+	Comment=Boolean pascal LocalDosToGeos(char *str, word strSize, wchar defaultChar) in localize.h
+1045 Name=LOCALGEOSTODOS Pascal=8 \
+	Comment=Boolean pascal LocalGeosToDos(char *str, word strSize, wchar defaultChar) in localize.h
+1046 Name=LOCALGETQUOTES Pascal=4 \
+	Comment=void pascal LocalGetQuotes(LocalQuotes *quotes) in localize.h
+1047 Name=LOCALCUSTOMFORMATDATETIME Pascal=12 \
+	Comment=word pascal LocalCustomFormatDateTime(char *str, const char *format, const TimerDateAndTime *dateTime) in localize.h
+1048 Name=LOCALGETNUMERICFORMAT Pascal=4 \
+	Comment=void pascal LocalGetNumericFormat(LocalNumericFormat *buf) in localize.h
+1049 Name=LOCALGETCURRENCYFORMAT Pascal=8 \
+	Comment=void pascal LocalGetCurrencyFormat(LocalCurrencyFormat *buf, char *symbol) in localize.h
+1050 Name=LOCALCMPSTRINGSDOSTOGEOS Pascal=14 \
+	Comment=sword pascal LocalCmpStringsDosToGeos(const char *str1, const char *str2, word strSize, wchar defaultChar, LocalCmpStringsDosToGeosFlags flags) in localize.h
+1051 Name=LOCALCODEPAGETOGEOS Pascal=10 \
+	Comment=Boolean pascal LocalCodePageToGeos(char *str, word strSize, DosCodePage codePage, wchar defaultChar) in localize.h
+1052 Name=LOCALGEOSTOCODEPAGE Pascal=10 \
+	Comment=Boolean pascal LocalGeosToCodePage(char *str, word strSize, DosCodePage codePage, wchar defaultChar) in localize.h
+1053 Name=LOCALCODEPAGETOGEOSCHAR Pascal=6 \
+	Comment=wchar pascal LocalCodePageToGeosChar(wchar ch, DosCodePage codePage, wchar defaultChar) in localize.h
+1054 Name=LOCALGEOSTOCODEPAGECHAR Pascal=6 \
+	Comment=wchar pascal LocalGeosToCodePageChar(wchar ch, DosCodePage codePage, wchar defaultChar) in localize.h
+1055 Name=LOCALLEXICALVALUE Pascal=2 \
+	Comment=word pascal LocalLexicalValue(wchar ch) in localize.h
+1056 Name=LOCALLEXICALVALUENOCASE Pascal=2 \
+	Comment=word pascal LocalLexicalValueNoCase(wchar ch) in localize.h
+1057 Name=LOCALSETDATETIMEFORMAT Pascal=6 \
+	Comment=void pascal LocalSetDateTimeFormat(const char *str, DateTimeFormat format) in localize.h
+1058 Name=LOCALSETQUOTES Pascal=4 \
+	Comment=void pascal LocalSetQuotes(const LocalQuotes *quotes) in localize.h
+1059 Name=LOCALSETNUMERICFORMAT Pascal=4 \
+	Comment=void pascal LocalSetNumericFormat(const LocalNumericFormat *buf) in localize.h
+1060 Name=LOCALSETCURRENCYFORMAT Pascal=8 \
+	Comment=void pascal LocalSetCurrencyFormat(const LocalCurrencyFormat *buf, const char *symbol) in localize.h
+1061 Name=LOCALSETMEASUREMENTTYPE Pascal=2 \
+	Comment=void pascal LocalSetMeasurementType(MeasurementType meas) in localize.h
+1062 Name=LOCALSTRINGSIZE Pascal=4 \
+	Comment=word pascal LocalStringSize(const char *str) in localize.h
+1063 Name=LOCALSTRINGLENGTH Pascal=4 \
+	Comment=word pascal LocalStringLength(const char *str) in localize.h
+1064 Name=LOCALDISTANCETOASCII Pascal=14 \
+	Comment=word pascal LocalDistanceToAscii(char *buffer, WWFixedAsDWord value, DistanceUnit distanceUnits, word measurementType, LocalDistanceFlags flags) in localize.h
+1065 Name=LOCALDISTANCEFROMASCII Pascal=8 \
+	Comment=WWFixedAsDWord pascal LocalDistanceFromAscii(const char *buffer, DistanceUnit distanceUnits, MeasurementType measurementType) in localize.h
+1066 Name=LOCALFIXEDTOASCII Pascal=10 \
+	Comment=void pascal LocalFixedToAscii(char *buffer, WWFixedAsDWord value, word fracDigits) in localize.h
+1067 Name=LOCALASCIITOFIXED Pascal=8 \
+	Comment=WWFixedAsDWord pascal LocalAsciiToFixed(const char *buffer, char **parseEnd) in localize.h
+1068 Name=ISCNTRL Pascal=2 \
+	Comment=int pascal iscntrl(unsigned int __c) in ansi/ctype.h
+1069 Name=ISDIGIT Pascal=2 \
+	Comment=int pascal isdigit(unsigned int __c) in ansi/ctype.h
+1070 Name=ISXDIGIT Pascal=2 \
+	Comment=int pascal isxdigit(unsigned int __c) in ansi/ctype.h
+1071 Name=ISALNUM Pascal=2 \
+	Comment=int pascal isalnum(unsigned int __c) in ansi/ctype.h
+1072 Name=ISPRINT Pascal=2 \
+	Comment=int pascal isprint(unsigned int __c) in ansi/ctype.h
+1073 Name=ISGRAPH Pascal=2 \
+	Comment=int pascal isgraph(unsigned int __c) in ansi/ctype.h
+1074 Name=LOCALCMPSTRINGSNOSPACE Pascal=10 \
+	Comment=sword pascal LocalCmpStringsNoSpace(const char *str1, const char *str2, word strSize) in localize.h
+1075 Name=LOCALCMPSTRINGSNOSPACECASE Pascal=10 \
+	Comment=sword pascal LocalCmpStringsNoSpaceCase(const char *str1, const char *str2, word strSize) in localize.h
+1076 Name=LOCALCUSTOMPARSEDATETIME Pascal=12 \
+	Comment=word pascal LocalCustomParseDateTime(const char *str, const char *format, TimerDateAndTime *dateTime) in localize.h
+1077 Name=LOCALGETLANGUAGE \
+	Comment=word pascal LocalGetLanguage(void) in localize.h
+1078 Name=LMEMINITHEAP Pascal=12 \
+	Comment=void pascal LMemInitHeap(MemHandle mh, LMemType type, LocalMemoryFlags flags, word lmemOffset, word numHandles, word freeSpace) in lmem.h
+1079 Name=LMEMREALLOC Pascal=6 \
+	Comment=Boolean pascal LMemReAlloc(optr o, word chunkSize) in lmem.h
+1080 Name=LMEMINSERTAT Pascal=8 \
+	Comment=Boolean pascal LMemInsertAt(optr o, word insertOffset, word insertCount) in lmem.h
+1081 Name=LMEMDELETEAT Pascal=8 \
+	Comment=void pascal LMemDeleteAt(optr o, word deleteOffset, word deleteCount) in lmem.h
+1082 Name=LMEMCONTRACT Pascal=2 \
+	Comment=void pascal LMemContract(MemHandle mh) in lmem.h
+1083 Name=LMEMGETCHUNKSIZE Pascal=4 \
+	Comment=word pascal LMemGetChunkSize(optr o) in lmem.h
+1084 Name=LMEMALLOC Pascal=4 \
+	Comment=ChunkHandle pascal LMemAlloc(MemHandle mh, word chunkSize) in lmem.h
+1085 Name=LMEMFREE Pascal=4 \
+	Comment=void pascal LMemFree(optr o) in lmem.h
+1086 Name=LMEMDEREF Pascal=4 \
+	Comment=void * pascal LMemDeref(optr o) in lmem.h
+1087 Name=VMLOCK Pascal=8 \
+	Comment=void * pascal VMLock(VMFileHandle file, VMBlockHandle block, MemHandle *mh) in vm.h
+1088 Name=VMUNLOCK Pascal=2 \
+	Comment=void pascal VMUnlock(MemHandle mh) in vm.h
+1089 Name=VMDIRTY Pascal=2 \
+	Comment=void pascal VMDirty(MemHandle mh) in vm.h
+1090 Name=VMALLOC Pascal=6 \
+	Comment=VMBlockHandle pascal VMAlloc(VMFileHandle file, word size, word userId) in vm.h
+1091 Name=VMFIND Pascal=6 \
+	Comment=VMBlockHandle pascal VMFind(VMFileHandle file, VMBlockHandle startBlock, word userId) in vm.h
+1092 Name=VMFREE Pascal=4 \
+	Comment=void pascal VMFree(VMFileHandle file, VMBlockHandle block) in vm.h
+1093 Name=VMMODIFYUSERID Pascal=6 \
+	Comment=void pascal VMModifyUserID(VMFileHandle file, VMBlockHandle block, word userId) in vm.h
+1094 Name=VMINFO Pascal=8 \
+	Comment=Boolean pascal VMInfo(VMFileHandle file, VMBlockHandle block, VMInfoStruct *info) in vm.h
+1095 Name=VMGETDIRTYSTATE Pascal=2 \
+	Comment=word pascal VMGetDirtyState(VMFileHandle file) in vm.h
+1096 Name=VMGETMAPBLOCK Pascal=2 \
+	Comment=VMBlockHandle pascal VMGetMapBlock(VMFileHandle file) in vm.h
+1097 Name=VMSETMAPBLOCK Pascal=4 \
+	Comment=void pascal VMSetMapBlock(VMFileHandle file, VMBlockHandle block) in vm.h
+1098 Name=VMOPEN Pascal=10 \
+	Comment=VMFileHandle pascal VMOpen(char *name, VMAccessFlags flags, VMOpenType mode, word compression) in vm.h
+1099 Name=VMUPDATE Pascal=2 \
+	Comment=word pascal VMUpdate(VMFileHandle file) in vm.h
+1100 Name=UPGRADE_VMCLOSE
+1101 Name=VMGETATTRIBUTES Pascal=2 \
+	Comment=word pascal VMGetAttributes(VMFileHandle file) in vm.h
+1102 Name=VMSETATTRIBUTES Pascal=6 \
+	Comment=VMAttributes pascal VMSetAttributes(VMFileHandle file, VMAttributes attrToSet, VMAttributes AttrToClear) in vm.h
+1103 Name=VMGRABEXCLUSIVE Pascal=10 \
+	Comment=VMStartExclusiveReturnValue pascal VMGrabExclusive(VMFileHandle file, word timeout, VMOperation operation, VMOperation *currentOperation) in vm.h
+1104 Name=VMRELEASEEXCLUSIVE Pascal=2 \
+	Comment=void pascal VMReleaseExclusive(VMFileHandle file) in vm.h
+1105 Name=VMSETRELOC Pascal=2 \
+	Comment=void pascal VMSetReloc(VMFileHandle file, void (* reloc) (VMFileHandle file, VMBlockHandle block, MemHandle mh, void *data, VMRelocType type)) in vm.h
+1106 Name=VMATTACH Pascal=6 \
+	Comment=VMBlockHandle pascal VMAttach(VMFileHandle file, VMBlockHandle block, MemHandle mh) in vm.h
+1107 Name=VMDETACH Pascal=6 \
+	Comment=MemHandle pascal VMDetach(VMFileHandle file, VMBlockHandle block, GeodeHandle owner) in vm.h
+1108 Name=VMMEMBLOCKTOVMBLOCK Pascal=6 \
+	Comment=VMBlockHandle pascal VMMemBlockToVMBlock(MemHandle mh, VMFileHandle *file) in vm.h
+1109 Name=VMVMBLOCKTOMEMBLOCK Pascal=4 \
+	Comment=MemHandle pascal VMVMBlockToMemBlock(VMFileHandle file, VMBlockHandle block) in vm.h
+1110 Name=VMSAVE Pascal=2 \
+	Comment=Boolean pascal VMSave(VMFileHandle file) in vm.h
+1111 Name=VMSAVEAS Pascal=12 \
+	Comment=VMFileHandle pascal VMSaveAs(VMFileHandle file, const char *name, VMAccessFlags flags, VMOpenType mode, word compression) in vm.h
+1112 Name=VMREVERT Pascal=2 \
+	Comment=void pascal VMRevert(VMFileHandle file) in vm.h
+1113 Name=VMCOPYVMCHAIN_OLD
+1114 Name=VMFREEVMCHAIN_OLD
+1115 Name=VMCOMPAREVMCHAINS_OLD
+1116 Name=VMCOPYVMBLOCK Pascal=6 \
+	Comment=VMBlockHandle pascal VMCopyVMBlock(VMFileHandle sourceFile, VMBlockHandle sourceBlock, VMFileHandle destFile) in vm.h
+1117 Name=VMCHECKFORMODIFICATIONS Pascal=2 \
+	Comment=Boolean pascal VMCheckForModifications(VMFileHandle file) in vm.h
+1118 Name=VMPRESERVEBLOCKSHANDLE Pascal=4 \
+	Comment=void pascal VMPreserveBlocksHandle(VMFileHandle file, VMBlockHandle block) in vm.h
+1119 Name=VMSETEXECTHREAD Pascal=4 \
+	Comment=void pascal VMSetExecThread(VMFileHandle file, ThreadHandle thread) in vm.h
+1120 Name=VMALLOCLMEM Pascal=6 \
+	Comment=VMBlockHandle pascal VMAllocLMem(VMFileHandle file, LMemType ltype, word headerSize) in vm.h
+1121 Name=DBLOCKUNGROUPED Pascal=6 \
+	Comment=void * pascal DBLockUngrouped(VMFileHandle file, DBGroupAndItem id) in dbase.h
+1122 Name=DBUNLOCK Pascal=4 \
+	Comment=void pascal DBUnlock(void *ptr) in dbase.h
+1123 Name=DBDIRTY Pascal=4 \
+	Comment=void pascal DBDirty(const void *ptr) in dbase.h
+1124 Name=DBGETMAP Pascal=2 \
+	Comment=DBGroupAndItem pascal DBGetMap(VMFileHandle file) in dbase.h
+1125 Name=DBLOCKGETREFUNGROUPED Pascal=10 \
+	Comment=void * pascal DBLockGetRefUngrouped(VMFileHandle file, DBGroupAndItem id, optr *refPtr) in dbase.h
+1126 Name=DBRAWALLOC Pascal=6 \
+	Comment=DBGroupAndItem pascal DBRawAlloc(VMFileHandle file, DBGroup group, word size) in dbase.h
+1127 Name=DBREALLOCUNGROUPED Pascal=8 \
+	Comment=void pascal DBReAllocUngrouped(VMFileHandle file, DBGroupAndItem id, word size) in dbase.h
+1128 Name=DBFREEUNGROUPED Pascal=6 \
+	Comment=void pascal DBFreeUngrouped(VMFileHandle file, DBGroupAndItem id) in dbase.h
+1129 Name=DBGROUPALLOC Pascal=2 \
+	Comment=DBGroup pascal DBGroupAlloc(VMFileHandle file) in dbase.h
+1130 Name=DBGROUPFREE Pascal=4 \
+	Comment=void pascal DBGroupFree(VMFileHandle file, DBGroup group) in dbase.h
+1131 Name=DBINSERTATUNGROUPED Pascal=10 \
+	Comment=void pascal DBInsertAtUngrouped(VMFileHandle file, DBGroupAndItem id, word insertOffset, word insertCount) in dbase.h
+1132 Name=DBDELETEATUNGROUPED Pascal=10 \
+	Comment=void pascal DBDeleteAtUngrouped(VMFileHandle file, DBGroupAndItem id, word deleteOffset, word deleteCount) in dbase.h
+1133 Name=DBSETMAPUNGROUPED Pascal=6 \
+	Comment=void pascal DBSetMapUngrouped(VMFileHandle file, DBGroupAndItem id) in dbase.h
+1134 Name=DBRAWCOPYDBITEM Pascal=10 \
+	Comment=DBGroupAndItem pascal DBRawCopyDBItem(VMFileHandle srcFile, DBGroupAndItem srcID, VMFileHandle destFile, DBGroup destGroup) in dbase.h
+1135 Name=CFATALERROR Pascal=2 \
+	Comment=void pascal CFatalError(word code) in ec.h
+1136 Name=ECCHECKMEMHANDLE Pascal=2 \
+	Comment=void pascal ECCheckMemHandle(MemHandle mh) in ec.h
+1137 Name=ECCHECKMEMHANDLENS Pascal=2 \
+	Comment=void pascal ECCheckMemHandleNS(MemHandle mh) in ec.h
+1138 Name=ECCHECKTHREADHANDLE Pascal=2 \
+	Comment=void pascal ECCheckThreadHandle(ThreadHandle th) in ec.h
+1139 Name=ECCHECKPROCESSHANDLE Pascal=2 \
+	Comment=void pascal ECCheckProcessHandle(GeodeHandle gh) in ec.h
+1140 Name=ECCHECKRESOURCEHANDLE Pascal=2 \
+	Comment=void pascal ECCheckResourceHandle(MemHandle mh) in ec.h
+1141 Name=ECCHECKGEODEHANDLE Pascal=2 \
+	Comment=void pascal ECCheckGeodeHandle(GeodeHandle gh) in ec.h
+1142 Name=ECCHECKDRIVERHANDLE Pascal=2 \
+	Comment=void pascal ECCheckDriverHandle(GeodeHandle gh) in ec.h
+1143 Name=ECCHECKLIBRARYHANDLE Pascal=2 \
+	Comment=void pascal ECCheckLibraryHandle(GeodeHandle gh) in ec.h
+1144 Name=ECCHECKGSTATEHANDLE Pascal=2 \
+	Comment=void pascal ECCheckGStateHandle(GStateHandle gsh) in ec.h
+1145 Name=ECCHECKWINDOWHANDLE Pascal=2 \
+	Comment=void pascal ECCheckWindowHandle(WindowHandle wh) in ec.h
+1146 Name=ECCHECKQUEUEHANDLE Pascal=2 \
+	Comment=void pascal ECCheckQueueHandle(QueueHandle qh) in ec.h
+1147 Name=ECCHECKLMEMHANDLE Pascal=2 \
+	Comment=void pascal ECCheckLMemHandle(MemHandle mh) in ec.h
+1148 Name=ECCHECKLMEMHANDLENS Pascal=2 \
+	Comment=void pascal ECCheckLMemHandleNS(MemHandle mh) in ec.h
+1149 Name=ECLMEMVALIDATEHEAP Pascal=2 \
+	Comment=void pascal ECLMemValidateHeap(MemHandle mh) in ec.h
+1150 Name=ECLMEMVALIDATEHANDLE Pascal=4 \
+	Comment=void pascal ECLMemValidateHandle(optr o) in ec.h
+1151 Name=ECCHECKLMEMCHUNK Pascal=4 \
+	Comment=void pascal ECCheckLMemChunk(void *chunkPtr) in ec.h
+1152 Name=ECLMEMEXISTS Pascal=4 \
+	Comment=void pascal ECLMemExists(optr o) in ec.h
+1153 Name=ECCHECKCLASS Pascal=4 \
+	Comment=void pascal ECCheckClass(ClassStruct *class) in ec.h
+1154 Name=ECCHECKOBJECT Pascal=4 \
+	Comment=void pascal ECCheckObject(optr obj) in ec.h
+1155 Name=ECCHECKLMEMOBJECT Pascal=4 \
+	Comment=void pascal ECCheckLMemObject(optr obj) in ec.h
+1156 Name=ECCHECKOD Pascal=4 \
+	Comment=void pascal ECCheckOD(optr obj) in ec.h
+1157 Name=ECCHECKLMEMOD Pascal=4 \
+	Comment=void pascal ECCheckLMemOD(optr o) in ec.h
+1158 Name=ECCHECKFILEHANDLE Pascal=2 \
+	Comment=void pascal ECCheckFileHandle(FileHandle fh) in ec.h
+1159 Name=ECVMCheckVMFile
+1160 Name=ECVMCHECKVMFILE Pascal=2 \
+	Comment=void pascal ECVMCheckVMFile(VMFileHandle file) in ec.h
+1161 Name=ECVMCheckVMBlockHandle
+1162 Name=ECVMCHECKVMBLOCKHANDLE Pascal=4 \
+	Comment=void pascal ECVMCheckVMBlockHandle(VMFileHandle file, VMBlockHandle block) in ec.h
+1163 Name=ECVMCheckMemHandle
+1164 Name=ECVMCHECKMEMHANDLE Pascal=2 \
+	Comment=void pascal ECVMCheckMemHandle(MemHandle han) in ec.h
+1165 Name=ECCHECKBOUNDS Pascal=4 \
+	Comment=void pascal ECCheckBounds(void *address) in ec.h
+1166 Name=OBJLOCKOBJBLOCK Pascal=2 \
+	Comment=void * pascal ObjLockObjBlock(MemHandle mh) in object.h
+1167 Name=OBJDUPLICATERESOURCE Pascal=6 \
+	Comment=MemHandle pascal ObjDuplicateResource(MemHandle blockToDup, GeodeHandle owner, ThreadHandle burdenThread) in object.h
+1168 Name=OBJFREEDUPLICATE Pascal=2 \
+	Comment=void pascal ObjFreeDuplicate(MemHandle mh) in object.h
+1169 Name=OBJFREECHUNK Pascal=4 \
+	Comment=void pascal ObjFreeChunk(optr o) in object.h
+1170 Name=OBJGETFLAGS Pascal=4 \
+	Comment=ObjChunkFlags pascal ObjGetFlags(optr o) in object.h
+1171 Name=OBJSETFLAGS Pascal=8 \
+	Comment=void pascal ObjSetFlags(optr o, ObjChunkFlags bitsToSet, ObjChunkFlags bitsToClear) in object.h
+1172 Name=OBJMARKDIRTY Pascal=4 \
+	Comment=void pascal ObjMarkDirty(optr o) in object.h
+1173 Name=OBJISOBJECTINCLASS Pascal=8 \
+	Comment=Boolean pascal ObjIsObjectInClass(optr obj, ClassStruct *class) in object.h
+1174 Name=OBJINCINUSECOUNT Pascal=2 \
+	Comment=void pascal ObjIncInUseCount(MemHandle mh) in object.h
+1175 Name=OBJDECINUSECOUNT Pascal=2 \
+	Comment=void pascal ObjDecInUseCount(MemHandle mh) in object.h
+1176 Name=OBJDORELOCATION Pascal=12 \
+	Comment=Boolean pascal ObjDoRelocation(ObjRelocationType type, MemHandle block, void *sourceData, void *destData) in object.h
+1177 Name=OBJDOUNRELOCATION Pascal=12 \
+	Comment=Boolean pascal ObjDoUnRelocation(ObjRelocationType type, MemHandle block, void *sourceData, void *destData) in object.h
+1178 Name=OBJRESIZEMASTER Pascal=8 \
+	Comment=void pascal ObjResizeMaster(optr obj, word masterOffset, word newSize) in object.h
+1179 Name=OBJINITIALIZEMASTER Pascal=8 \
+	Comment=void pascal ObjInitializeMaster(optr obj, ClassStruct *class) in object.h
+1180 Name=OBJINITIALIZEPART Pascal=6 \
+	Comment=void pascal ObjInitializePart(optr obj, word masterOffset) in object.h
+1181 Name=OBJTESTIFOBJBLOCKRUNBYCURTHREAD Pascal=2 \
+	Comment=Boolean pascal ObjTestIfObjBlockRunByCurThread(MemHandle mh) in object.h
+1182 Name=OBJSAVEBLOCK Pascal=2 \
+	Comment=void pascal ObjSaveBlock(MemHandle mh) in object.h
+1183 Name=OBJMAPSAVEDTOSTATE Pascal=2 \
+	Comment=VMBlockHandle pascal ObjMapSavedToState(MemHandle mh) in object.h
+1184 Name=OBJMAPSTATETOSAVED Pascal=4 \
+	Comment=MemHandle pascal ObjMapStateToSaved(VMBlockHandle vmbh, GeodeHandle gh) in object.h
+1185 Name=OBJINITDETACH Pascal=12 \
+	Comment=void pascal ObjInitDetach(MetaMessages msg, optr obj, word callerID, optr ackOD) in objects/metac.goh
+1186 Name=OBJINCDETACH Pascal=4 \
+	Comment=void pascal ObjIncDetach(optr obj) in objects/metac.goh
+1187 Name=OBJENABLEDETACH Pascal=4 \
+	Comment=void pascal ObjEnableDetach(optr obj) in objects/metac.goh
+1188 Name=OBJLINKFINDPARENT Pascal=8 \
+	Comment=optr pascal ObjLinkFindParent(optr obj, word masterOffset, word linkOffset) in objects/metac.goh
+1189 Name=OBJCOMPFINDCHILDBYOPTR Pascal=14 \
+	Comment=word pascal ObjCompFindChildByOptr(optr obj, optr childToFind, word masterOffset, word compOffset, word linkOffset) in objects/metac.goh
+1190 Name=OBJCOMPFINDCHILDBYNUMBER Pascal=12 \
+	Comment=optr pascal ObjCompFindChildByNumber(optr obj, word childToFind, word masterOffset, word compOffset, word linkOffset) in objects/metac.goh
+1191 Name=OBJCOMPADDCHILD Pascal=16 \
+	Comment=void pascal ObjCompAddChild(optr obj, optr objToAdd, word flags, word masterOffset, word compOffset, word linkOffset) in objects/metac.goh
+1192 Name=OBJCOMPREMOVECHILD Pascal=16 \
+	Comment=void pascal ObjCompRemoveChild(optr obj, optr objToRemove, word flags, word masterOffset, word compOffset, word linkOffset) in objects/metac.goh
+1193 Name=OBJCOMPMOVECHILD Pascal=16 \
+	Comment=void pascal ObjCompMoveChild(optr obj, optr objToMove, word flags, word masterOffset, word compOffset, word linkOffset) in objects/metac.goh
+1194 Name=OBJCOMPPROCESSCHILDREN Pascal=20 \
+	Comment=Boolean pascal ObjCompProcessChildren(optr obj, optr firstChild, ObjCompCallType stdCallback, void *cbData, word masterOffset, word compOffset, word linkOffset, Boolean (* callback) (optr parent, optr child, void *cbData)) in objects/metac.goh
+1195 Name=COBJMESSAGE \
+	Comment=dword pascal CObjMessage() in object.h
+1196 Name=COBJCALLSUPER \
+	Comment=dword pascal CObjCallSuper() in object.h
+1197 Name=OBJFREEMESSAGE Pascal=2 \
+	Comment=void pascal ObjFreeMessage(EventHandle event) in object.h
+1198 Name=OBJDUPLICATEMESSAGE Pascal=2 \
+	Comment=EventHandle pascal ObjDuplicateMessage(EventHandle msg) in object.h
+1199 Name=OBJGETMESSAGEINFO Pascal=6 \
+	Comment=Message pascal ObjGetMessageInfo(EventHandle event, optr *dest) in object.h
+1200 Name=CMESSAGEDISPATCH Pascal=6 \
+	Comment=dword pascal CMessageDispatch(EventHandle, MessageFlags, word) in object.h
+1201 Name=COBJSENDTOCHILDREN Pascal=12 \
+	Comment=void pascal CObjSendToChildren(optr o, EventHandle message, word masterOffset, word compOffset, word linkOffset) in object.h
+1202 Name=OBJDEREF Pascal=6 \
+	Comment=void * pascal ObjDeref(optr obj, word masterLevel) in object.h
+1203 Name=OBJDEREF1 Pascal=4 \
+	Comment=void * pascal ObjDeref1(optr obj) in object.h
+1204 Name=OBJDEREF2 Pascal=4 \
+	Comment=void * pascal ObjDeref2(optr obj) in object.h
+1205 Name=GEODEGETCODEPROCESSHANDLE \
+	Comment=GeodeHandle pascal GeodeGetCodeProcessHandle(void) in geode.h
+1206 Name=OBJINSTANTIATE Pascal=6 \
+	Comment=optr pascal ObjInstantiate(MemHandle block, ClassStruct *class) in object.h
+1207 Name=OBJPROCBROADCASTMESSAGE Pascal=2 \
+	Comment=void pascal ObjProcBroadcastMessage(EventHandle event) in object.h
+1208 Name=MESSAGESETDESTINATION Pascal=6 \
+	Comment=dword pascal MessageSetDestination(EventHandle, optr) in object.h
+1209 Name=OBJFREEOBJBLOCK Pascal=2 \
+	Comment=void pascal ObjFreeObjBlock(MemHandle block) in object.h
+1210 Name=OBJBLOCKSETOUTPUT Pascal=6 \
+	Comment=void pascal ObjBlockSetOutput(MemHandle mh, optr o) in object.h
+1211 Name=OBJBLOCKGETOUTPUT Pascal=2 \
+	Comment=optr pascal ObjBlockGetOutput(MemHandle mh) in object.h
+1212 Name=OBJDECINTERACTIBLECOUNT Pascal=2 \
+	Comment=void pascal ObjDecInteractibleCount(MemHandle mh) in object.h
+1213 Name=OBJINCINTERACTIBLECOUNT Pascal=2 \
+	Comment=void pascal ObjIncInteractibleCount(MemHandle mh) in object.h
+1214 Name=OBJISCLASSADESCENDANT Pascal=8 \
+	Comment=Boolean pascal ObjIsClassADescendant(ClassStruct *class1, ClassStruct *class2) in object.h
+1215 Name=OBJRELOCATEENTRYPOINT Pascal=4 \
+	Comment=void * pascal ObjRelocateEntryPoint(EntryPointRelocation *relocData) in object.h
+1216 Name=OBJRELOCORUNRELOCSUPER Pascal=10 \
+	Comment=Boolean pascal ObjRelocOrUnRelocSuper(optr oself, ClassStruct *class, word frame) in object.h
+1217 Name=OBJUNRELOCATEENTRYPOINT Pascal=8 \
+	Comment=void pascal ObjUnRelocateEntryPoint(EntryPointRelocation *relocData, void *entryPoint) in object.h
+1218 Name=QUEUEGETMESSAGE Pascal=2 \
+	Comment=EventHandle pascal QueueGetMessage(QueueHandle qh) in geode.h
+1219 Name=QUEUEPOSTMESSAGE Pascal=6 \
+	Comment=void pascal QueuePostMessage(QueueHandle qh, EventHandle event, word flags) in geode.h
+1220 Name=CHUNKARRAYCREATEAT_OLD
+1221 Name=CHUNKARRAYELEMENTTOPTR Pascal=10 \
+	Comment=void * pascal ChunkArrayElementToPtr(optr arr, word elementNumber, word *elementSize) in chunkarr.h
+1222 Name=CHUNKARRAYPTRTOELEMENT Pascal=8 \
+	Comment=word pascal ChunkArrayPtrToElement(optr arr, void *element) in chunkarr.h
+1223 Name=CHUNKARRAYAPPEND Pascal=6 \
+	Comment=void * pascal ChunkArrayAppend(optr arr, word elementSize) in chunkarr.h
+1224 Name=CHUNKARRAYINSERTAT_OLD
+1225 Name=CHUNKARRAYDELETE Pascal=8 \
+	Comment=void pascal ChunkArrayDelete(optr arr, void *element) in chunkarr.h
+1226 Name=CHUNKARRAYGETCOUNT Pascal=4 \
+	Comment=word pascal ChunkArrayGetCount(optr arr) in chunkarr.h
+1227 Name=CHUNKARRAYENUM Pascal=8 \
+	Comment=Boolean pascal ChunkArrayEnum(optr arr, void *enumData, Boolean (* callback) (void *element, void *enumData)) in chunkarr.h
+1228 Name=CHUNKARRAYZERO Pascal=4 \
+	Comment=void pascal ChunkArrayZero(optr arr) in chunkarr.h
+1229 Name=CHUNKARRAYSORT Pascal=6 \
+	Comment=void pascal ChunkArraySort(optr arr, word valueForCallback, sword (* callback) (void *el1, void *el2, word valueForCallback)) in chunkarr.h
+1230 Name=ARRAYQUICKSORT Pascal=14 \
+	Comment=void pascal ArrayQuickSort(void *array, word count, word elementSize, word valueForCallback, QuickSortParameters *parameters) in chunkarr.h
+1231 Name=CHUNKARRAYELEMENTRESIZE Pascal=8 \
+	Comment=void pascal ChunkArrayElementResize(optr arr, word element, word newSize) in chunkarr.h
+1232 Name=ECCHECKCHUNKARRAY Pascal=4 \
+	Comment=void pascal ECCheckChunkArray(optr o) in ec.h
+1233 Name=ELEMENTARRAYCREATEAT_OLD
+1234 Name=CHUNKARRAYGETELEMENT Pascal=10 \
+	Comment=void pascal ChunkArrayGetElement(optr arr, word elementNumber, void *buffer) in chunkarr.h
+1235 Name=ELEMENTARRAYADDREFERENCE Pascal=6 \
+	Comment=void pascal ElementArrayAddReference(optr arr, word token) in chunkarr.h
+1236 Name=ELEMENTARRAYADDELEMENT Pascal=12 \
+	Comment=word pascal ElementArrayAddElement(optr arr, void *element, dword callbackData, Boolean (* callback) (void *elementToAdd, void *elementFromArray, dword valueForCallback)) in chunkarr.h
+1237 Name=ELEMENTARRAYREMOVEREFERENCE Pascal=10 \
+	Comment=void pascal ElementArrayRemoveReference(optr arr, word token, dword callbackData, void (* callback) (void *element, dword valueForCallback)) in chunkarr.h
+1238 Name=ELEMENTARRAYGETUSEDCOUNT Pascal=8 \
+	Comment=word pascal ElementArrayGetUsedCount(optr arr, dword callbackData, Boolean (* callback) (void *element, dword cbData)) in chunkarr.h
+1239 Name=ELEMENTARRAYUSEDINDEXTOTOKEN Pascal=10 \
+	Comment=word pascal ElementArrayUsedIndexToToken(optr arr, word index, dword callbackData, Boolean (* callback) (void *element, dword cbData)) in chunkarr.h
+1240 Name=ELEMENTARRAYTOKENTOUSEDINDEX Pascal=10 \
+	Comment=word pascal ElementArrayTokenToUsedIndex(optr arr, word token, dword callbackData, Boolean (* callback) (void *element, dword cbData)) in chunkarr.h
+1241 Name=ELEMENTARRAYELEMENTCHANGED Pascal=10 \
+	Comment=word pascal ElementArrayElementChanged(optr arr, word token, dword callbackData, Boolean (* callback) (void *elementChanged, void *elementToCompare, dword valueForCallback)) in chunkarr.h
+1242 Name=ELEMENTARRAYDELETE Pascal=6 \
+	Comment=void pascal ElementArrayDelete(optr arr, word token) in chunkarr.h
+1243 Name=CHUNKARRAYENUMRANGE Pascal=12 \
+	Comment=Boolean pascal ChunkArrayEnumRange(optr array, word startElement, word count, void *enumData, Boolean (* callback) (void *element, void *enumData)) in chunkarr.h
+1244 Name=CHUNKARRAYDELETERANGE Pascal=8 \
+	Comment=void pascal ChunkArrayDeleteRange(optr arr, word firstElement, word count) in chunkarr.h
+1245 Name=GRDRAWTEXT Pascal=12 \
+	Comment=void pascal GrDrawText(GStateHandle gstate, sword x, sword y, const char *str, word size) in graphics.h
+1246 Name=GRDRAWTEXTATCP Pascal=8 \
+	Comment=void pascal GrDrawTextAtCP(GStateHandle gstate, const char *str, word size) in graphics.h
+1247 Name=GRFILLRECT Pascal=10 \
+	Comment=void pascal GrFillRect(GStateHandle gstate, sword left, sword top, sword right, sword bottom) in graphics.h
+1248 Name=UPGRADE_GRFILLRECTTO
+1249 Name=UPGRADE_GRDRAWRECTTO
+1250 Name=GRENUMFONTS Pascal=10 \
+	Comment=word pascal GrEnumFonts(FontEnumStruct *buffer, word size, FontEnumFlags flags, word family) in font.h
+1251 Name=GRCHECKFONTAVAILID Pascal=6 \
+	Comment=FontID pascal GrCheckFontAvailID(FontEnumFlags flags, word family, FontID id) in font.h
+1252 Name=GRCHECKFONTAVAILNAME Pascal=8 \
+	Comment=FontID pascal GrCheckFontAvailName(FontEnumFlags flags, word family, const char *name) in font.h
+1253 Name=GRFINTNEARESTPOINTSIZE
+1254 Name=GRGETDEFFONTID Pascal=4 \
+	Comment=FontID pascal GrGetDefFontID(dword *sizeSHL16) in font.h
+1255 Name=GRGETBITMAP Pascal=14 \
+	Comment=MemHandle pascal GrGetBitmap(GStateHandle gstate, sword x, sword y, word width, word height, XYSize *sizeCopied) in graphics.h
+1256 Name=GRCREATEBITMAP
+1257 Name=GRDESTROYBITMAP Pascal=4 \
+	Comment=void pascal GrDestroyBitmap(GStateHandle gstate, BMDestroy flags) in graphics.h
+1258 Name=GRSETBITMAPRES Pascal=6 \
+	Comment=void pascal GrSetBitmapRes(GStateHandle gstate, word xRes, word yRes) in graphics.h
+1259 Name=GRGETBITMAPRES Pascal=2 \
+	Comment=XYValueAsDWord pascal GrGetBitmapRes(GStateHandle gstate) in graphics.h
+1260 Name=GRCLEARBITMAP Pascal=2 \
+	Comment=void pascal GrClearBitmap(GStateHandle gstate) in graphics.h
+1261 Name=GRGETBITMAPSIZE Pascal=4 \
+	Comment=XYValueAsDWord pascal GrGetBitmapSize(const Bitmap *bm) in graphics.h
+1262 Name=GRBRUSHPOLYLINE Pascal=12 \
+	Comment=void pascal GrBrushPolyline(GStateHandle gstate, const Point *points, word numPoints, word brushH, word brushW) in graphics.h
+1263 Name=GRMOVEREG Pascal=8 \
+	Comment=void pascal GrMoveReg(Region *reg, sword xOffset, sword yOffset) in graphics.h
+1264 Name=GRGETPTRREGBOUNDS Pascal=8 \
+	Comment=word pascal GrGetPtrRegBounds(const Region *reg, Rectangle *bounds) in graphics.h
+1265 Name=GRTESTPOINTINREG Pascal=12 \
+	Comment=Boolean pascal GrTestPointInReg(const Region *reg, word xPos, word yPos, Rectangle *boundingRect) in graphics.h
+1266 Name=GRTESTRECTINREG Pascal=12 \
+	Comment=TestRectReturnType pascal GrTestRectInReg(const Region *reg, sword left, sword top, sword right, sword bottom) in graphics.h
+1267 Name=GRSQRROOTWWFIXED Pascal=4 \
+	Comment=WWFixedAsDWord pascal GrSqrRootWWFixed(WWFixedAsDWord i) in graphics.h
+1268 Name=GRQUICKSINE Pascal=4 \
+	Comment=WWFixedAsDWord pascal GrQuickSine(WWFixedAsDWord angle) in graphics.h
+1269 Name=GRQUICKCOSINE Pascal=4 \
+	Comment=WWFixedAsDWord pascal GrQuickCosine(WWFixedAsDWord angle) in graphics.h
+1270 Name=GRQUICKARCSINE Pascal=6 \
+	Comment=WWFixedAsDWord pascal GrQuickArcSine(WWFixedAsDWord deltaYDivDistance, word origDeltaX) in graphics.h
+1271 Name=GRQUICKTANGENT Pascal=4 \
+	Comment=WWFixedAsDWord pascal GrQuickTangent(WWFixedAsDWord angle) in graphics.h
+1272 Name=GRGRABEXCLUSIVE Pascal=4 \
+	Comment=void pascal GrGrabExclusive(GeodeHandle videoDriver, GStateHandle gstate) in graphics.h
+1273 Name=GRRELEASEEXCLUSIVE Pascal=8 \
+	Comment=void pascal GrReleaseExclusive(GeodeHandle videoDriver, GStateHandle gstate, Rectangle *bounds) in graphics.h
+1274 Name=GRTRANSFORMWWFIXED Pascal=14 \
+	Comment=void pascal GrTransformWWFixed(GStateHandle gstate, WWFixedAsDWord xPos, WWFixedAsDWord yPos, PointWWFixed *deviceCoordinates) in graphics.h
+1275 Name=GRTRANSFORMDWFIXED Pascal=6 \
+	Comment=void pascal GrTransformDWFixed(GStateHandle gstate, PointDWFixed *coord) in graphics.h
+1276 Name=GRUNTRANSFORMWWFIXED Pascal=14 \
+	Comment=void pascal GrUntransformWWFixed(GStateHandle gstate, WWFixedAsDWord xPos, WWFixedAsDWord yPos, PointWWFixed *documentCoordinates) in graphics.h
+1277 Name=GRUNTRANSFORMDWFIXED Pascal=6 \
+	Comment=void pascal GrUntransformDWFixed(GStateHandle gstate, PointDWFixed *coord) in graphics.h
+1278 Name=GRBITBLT Pascal=16 \
+	Comment=void pascal GrBitBlt(GStateHandle gstate, sword sourceX, sword sourceY, sword destX, sword destY, word width, word height, BLTMode mode) in graphics.h
+1279 Name=GRTRANSFORM Pascal=6 \
+	Comment=XYValueAsDWord pascal GrTransform(GStateHandle gstate, sword xCoord, sword yCoord) in graphics.h
+1280 Name=GRTRANSFORMDWORD Pascal=14 \
+	Comment=void pascal GrTransformDWord(GStateHandle gstate, sdword xCoord, sdword yCoord, PointDWord *deviceCoordinates) in graphics.h
+1281 Name=GRUNTRANSFORM Pascal=6 \
+	Comment=XYValueAsDWord pascal GrUntransform(GStateHandle gstate, sword xCoord, sword yCoord) in graphics.h
+1282 Name=GRUNTRANSFORMDWORD Pascal=14 \
+	Comment=void pascal GrUntransformDWord(GStateHandle gstate, sdword xCoord, sdword yCoord, PointDWord *documentCoordinates) in graphics.h
+1283 Name=GRMAPCOLORINDEX Pascal=4 \
+	Comment=RGBColorAsDWord pascal GrMapColorIndex(GStateHandle gstate, Color c) in graphics.h
+1284 Name=GRMAPCOLORRGB Pascal=12 \
+	Comment=RGBColorAsDWord pascal GrMapColorRGB(GStateHandle gstate, word red, word green, word blue, Color *index) in graphics.h
+1285 Name=GRGETPALETTE Pascal=4 \
+	Comment=MemHandle pascal GrGetPalette(GStateHandle gstate, GetPalType flag) in graphics.h
+1286 Name=GRSETPRIVATEDATA Pascal=10 \
+	Comment=void pascal GrSetPrivateData(GStateHandle gstate, word dataAX, word dataBX, word dataCX, word dataDX) in graphics.h
+1287 Name=GRGETMIXMODE Pascal=2 \
+	Comment=MixMode pascal GrGetMixMode(GStateHandle gstate) in graphics.h
+1288 Name=GRGETLINECOLOR Pascal=2 \
+	Comment=RGBColorAsDWord pascal GrGetLineColor(GStateHandle gstate) in graphics.h
+1289 Name=GRGETAREACOLOR Pascal=2 \
+	Comment=RGBColorAsDWord pascal GrGetAreaColor(GStateHandle gstate) in graphics.h
+1290 Name=GRGETTEXTCOLOR Pascal=2 \
+	Comment=RGBColorAsDWord pascal GrGetTextColor(GStateHandle gstate) in graphics.h
+1291 Name=GRGETLINEMASK Pascal=6 \
+	Comment=word pascal GrGetLineMask(GStateHandle gstate, DrawMask *dm) in graphics.h
+1292 Name=GRGETAREAMASK Pascal=6 \
+	Comment=word pascal GrGetAreaMask(GStateHandle gstate, DrawMask *dm) in graphics.h
+1293 Name=GRGETTEXTMASK Pascal=6 \
+	Comment=word pascal GrGetTextMask(GStateHandle gstate, DrawMask *dm) in graphics.h
+1294 Name=GRGETLINECOLORMAP Pascal=2 \
+	Comment=word pascal GrGetLineColorMap(GStateHandle gstate) in graphics.h
+1295 Name=GRGETAREACOLORMAP Pascal=2 \
+	Comment=word pascal GrGetAreaColorMap(GStateHandle gstate) in graphics.h
+1296 Name=GRGETTEXTCOLORMAP Pascal=2 \
+	Comment=word pascal GrGetTextColorMap(GStateHandle gstate) in graphics.h
+1297 Name=GRGETTEXTSPACEPAD Pascal=2 \
+	Comment=WWFixedAsDWord pascal GrGetTextSpacePad(GStateHandle gstate) in graphics.h
+1298 Name=GRGETTEXTSTYLE Pascal=2 \
+	Comment=word pascal GrGetTextStyle(GStateHandle gstate) in graphics.h
+1299 Name=GRGETTEXTMODE Pascal=2 \
+	Comment=word pascal GrGetTextMode(GStateHandle gstate) in graphics.h
+1300 Name=GRGETLINEWIDTH Pascal=2 \
+	Comment=WWFixedAsDWord pascal GrGetLineWidth(GStateHandle gstate) in graphics.h
+1301 Name=GRGETLINEEND Pascal=2 \
+	Comment=LineEnd pascal GrGetLineEnd(GStateHandle gstate) in graphics.h
+1302 Name=GRGETLINEJOIN Pascal=2 \
+	Comment=LineJoin pascal GrGetLineJoin(GStateHandle gstate) in graphics.h
+1303 Name=GRGETLINESTYLE Pascal=2 \
+	Comment=LineStyle pascal GrGetLineStyle(GStateHandle gstate) in graphics.h
+1304 Name=GRGETMITERLIMIT Pascal=2 \
+	Comment=WWFixedAsDWord pascal GrGetMiterLimit(GStateHandle gstate) in graphics.h
+1305 Name=GRGETCURPOS Pascal=2 \
+	Comment=XYValueAsDWord pascal GrGetCurPos(GStateHandle gstate) in graphics.h
+1306 Name=GRGETINFO Pascal=8 \
+	Comment=void pascal GrGetInfo(GStateHandle gstate, GrInfoType type, void *data) in graphics.h
+1307 Name=GRGETTRANSFORM Pascal=6 \
+	Comment=void pascal GrGetTransform(GStateHandle gstate, TransMatrix *tm) in graphics.h
+1308 Name=GRGETFONT Pascal=6 \
+	Comment=FontID pascal GrGetFont(GStateHandle gstate, WWFixedAsDWord *pointSize) in graphics.h
+1309 Name=GRTESTPOINTINPOLYGON Pascal=14 \
+	Comment=Boolean pascal GrTestPointInPolygon(GStateHandle gstate, RegionFillRule rule, Point *list, word numPoints, sword xCoord, sword yCoord) in graphics.h
+1310 Name=GRENDGSTRING Pascal=2 \
+	Comment=GStringErrorType pascal GrEndGString(GStateHandle gstate) in graphics.h
+1311 Name=GRCOMMENT Pascal=8 \
+	Comment=void pascal GrComment(GStateHandle gstate, const void *data, word size) in graphics.h
+1312 Name=GRNULLOP Pascal=2 \
+	Comment=void pascal GrNullOp(GStateHandle gstate) in graphics.h
+1313 Name=GRESCAPE Pascal=10 \
+	Comment=void pascal GrEscape(GStateHandle gstate, word code, const void *data, word size) in graphics.h
+1314 Name=GRNEWPAGE Pascal=4 \
+	Comment=void pascal GrNewPage(GStateHandle gstate, PageEndCommand pageEndCommand) in graphics.h
+1315 Name=GRAPPLYROTATION Pascal=6 \
+	Comment=void pascal GrApplyRotation(GStateHandle gstate, WWFixedAsDWord angle) in graphics.h
+1316 Name=GRAPPLYSCALE Pascal=10 \
+	Comment=void pascal GrApplyScale(GStateHandle gstate, WWFixedAsDWord xScale, WWFixedAsDWord yScale) in graphics.h
+1317 Name=GRAPPLYTRANSLATION Pascal=10 \
+	Comment=void pascal GrApplyTranslation(GStateHandle gstate, WWFixedAsDWord xTrans, WWFixedAsDWord yTrans) in graphics.h
+1318 Name=GRAPPLYTRANSLATIONDWORD Pascal=10 \
+	Comment=void pascal GrApplyTranslationDWord(GStateHandle gstate, sdword xTrans, sdword yTrans) in graphics.h
+1319 Name=GRSETTRANSFORM Pascal=6 \
+	Comment=void pascal GrSetTransform(GStateHandle gstate, const TransMatrix *tm) in graphics.h
+1320 Name=GRAPPLYTRANSFORM Pascal=6 \
+	Comment=void pascal GrApplyTransform(GStateHandle gstate, const TransMatrix *tm) in graphics.h
+1321 Name=GRSETNULLTRANSFORM Pascal=2 \
+	Comment=void pascal GrSetNullTransform(GStateHandle gstate) in graphics.h
+1322 Name=GRDRAWROUNDRECT Pascal=12 \
+	Comment=void pascal GrDrawRoundRect(GStateHandle gstate, sword left, sword top, sword right, sword bottom, word radius) in graphics.h
+1323 Name=GRDRAWROUNDRECTTO Pascal=8 \
+	Comment=void pascal GrDrawRoundRectTo(GStateHandle gstate, sword bottom, sword right, word radius) in graphics.h
+1324 Name=GRDRAWPOINT Pascal=6 \
+	Comment=void pascal GrDrawPoint(GStateHandle gstate, sword x, sword y) in graphics.h
+1325 Name=GRDRAWPOINTATCP Pascal=2 \
+	Comment=void pascal GrDrawPointAtCP(GStateHandle gstate) in graphics.h
+1326 Name=GRDRAWCHAR Pascal=8 \
+	Comment=void pascal GrDrawChar(GStateHandle gstate, sword x, sword y, word ch) in graphics.h
+1327 Name=GRDRAWCHARATCP Pascal=4 \
+	Comment=void pascal GrDrawCharAtCP(GStateHandle gstate, word ch) in graphics.h
+1328 Name=GRDRAWPOLYLINE Pascal=8 \
+	Comment=void pascal GrDrawPolyline(GStateHandle gstate, const Point *points, word numPoints) in graphics.h
+1329 Name=GRDRAWELLIPSE Pascal=10 \
+	Comment=void pascal GrDrawEllipse(GStateHandle gstate, sword left, sword top, sword right, sword bottom) in graphics.h
+1330 Name=GRDRAWARC_OLD
+1331 Name=GRDRAWSPLINE Pascal=8 \
+	Comment=void pascal GrDrawSpline(GStateHandle gstate, const Point *points, word numPoints) in graphics.h
+1332 Name=GRDRAWPOLYGON Pascal=8 \
+	Comment=void pascal GrDrawPolygon(GStateHandle gstate, const Point *points, word numPoints) in graphics.h
+1333 Name=GRFILLROUNDRECT Pascal=12 \
+	Comment=void pascal GrFillRoundRect(GStateHandle gstate, sword left, sword top, sword right, sword bottom, word radius) in graphics.h
+1334 Name=GRFILLROUNDRECTTO Pascal=8 \
+	Comment=void pascal GrFillRoundRectTo(GStateHandle gstate, sword right, sword bottom, word radius) in graphics.h
+1335 Name=GRFILLARC_OLD
+1336 Name=GRFILLPOLYGON Pascal=10 \
+	Comment=void pascal GrFillPolygon(GStateHandle gstate, RegionFillRule windingRule, const Point *points, word numPoints) in graphics.h
+1337 Name=GRFILLELLIPSE Pascal=10 \
+	Comment=void pascal GrFillEllipse(GStateHandle gstate, sword left, sword top, sword right, sword bottom) in graphics.h
+1338 Name=GRSETLINEATTR Pascal=6 \
+	Comment=void pascal GrSetLineAttr(GStateHandle gstate, const LineAttr *la) in graphics.h
+1339 Name=GRSETAREAATTR Pascal=6 \
+	Comment=void pascal GrSetAreaAttr(GStateHandle gstate, const AreaAttr *aa) in graphics.h
+1340 Name=GRSETGSTRINGBOUNDS Pascal=10 \
+	Comment=void pascal GrSetGStringBounds(GStateHandle gstate, sword left, sword top, sword right, sword bottom) in graphics.h
+1341 Name=GRCREATEPALETTE Pascal=2 \
+	Comment=word pascal GrCreatePalette(GStateHandle gstate) in graphics.h
+1342 Name=GRDESTROYPALETTE Pascal=2 \
+	Comment=void pascal GrDestroyPalette(GStateHandle gstate) in graphics.h
+1343 Name=GRSETPALETTEENTRY Pascal=10 \
+	Comment=void pascal GrSetPaletteEntry(GStateHandle gstate, word index, word red, word green, word blue) in graphics.h
+1344 Name=GRSETPALETTE Pascal=10 \
+	Comment=void pascal GrSetPalette(GStateHandle gstate, const RGBValue *buffer, word index, word numEntries) in graphics.h
+1345 Name=GRSETTRACKKERN Pascal=4 \
+	Comment=void pascal GrSetTrackKern(GStateHandle gstate, word tk) in graphics.h
+1346 Name=GRINITDEFAULTTRANSFORM Pascal=2 \
+	Comment=void pascal GrInitDefaultTransform(GStateHandle gstate) in graphics.h
+1347 Name=GRSETDEFAULTTRANSFORM Pascal=2 \
+	Comment=void pascal GrSetDefaultTransform(GStateHandle gstate) in graphics.h
+1348 Name=GRCHARMETRICS Pascal=6 \
+	Comment=dword pascal GrCharMetrics(GStateHandle gstate, GCM_info info, word ch) in font.h
+1349 Name=GRFONTMETRICS Pascal=4 \
+	Comment=dword pascal GrFontMetrics(GStateHandle gstate, GFM_info info) in font.h
+1350 Name=GRCHARWIDTH Pascal=4 \
+	Comment=dword pascal GrCharWidth(GStateHandle gstate, word ch) in graphics.h
+1351 Name=GRTEXTWIDTH Pascal=8 \
+	Comment=word pascal GrTextWidth(GStateHandle gstate, const char *str, word size) in graphics.h
+1352 Name=GRTEXTWIDTHWWFIXED Pascal=8 \
+	Comment=dword pascal GrTextWidthWWFixed(GStateHandle gstate, const char *str, word size) in graphics.h
+1353 Name=GRDRAWREGION Pascal=14 \
+	Comment=void pascal GrDrawRegion(GStateHandle gstate, sword xPos, sword yPos, const Region *reg, word cxParam, word dxParam) in graphics.h
+1354 Name=GRDRAWREGIONATCP Pascal=14 \
+	Comment=void pascal GrDrawRegionAtCP(GStateHandle gstate, const Region *reg, word axParam, word bxParam, word cxParam, word dxParam) in graphics.h
+1355 Name=GRMULWWFIXED Pascal=8 \
+	Comment=WWFixedAsDWord pascal GrMulWWFixed(WWFixedAsDWord i, WWFixedAsDWord j) in graphics.h
+1356 Name=GRMULDWFIXED Pascal=12 \
+	Comment=void pascal GrMulDWFixed(const DWFixed *i, const DWFixed *j, DWFixed *result) in graphics.h
+1357 Name=GRSDIVWWFIXED Pascal=8 \
+	Comment=WWFixedAsDWord pascal GrSDivWWFixed(WWFixedAsDWord dividend, WWFixedAsDWord divisor) in graphics.h
+1358 Name=GRUDIVWWFIXED Pascal=8 \
+	Comment=WWFixedAsDWord pascal GrUDivWWFixed(WWFixedAsDWord dividend, WWFixedAsDWord divisor) in graphics.h
+1359 Name=GRSDIVDWFBYWWF Pascal=12 \
+	Comment=void pascal GrSDivDWFbyWWF(const DWFixed *dividend, const WWFixed *divisor, DWFixed *quotient) in graphics.h
+1360 Name=GRCREATESTATE Pascal=2 \
+	Comment=GStateHandle pascal GrCreateState(WindowHandle win) in graphics.h
+1361 Name=GRDESTROYSTATE Pascal=2 \
+	Comment=void pascal GrDestroyState(GStateHandle gstate) in graphics.h
+1362 Name=GRSAVESTATE Pascal=2 \
+	Comment=void pascal GrSaveState(GStateHandle gstate) in graphics.h
+1363 Name=GRRESTORESTATE Pascal=2 \
+	Comment=void pascal GrRestoreState(GStateHandle gstate) in graphics.h
+1364 Name=GRDRAWLINE Pascal=10 \
+	Comment=void pascal GrDrawLine(GStateHandle gstate, sword x1, sword y1, sword x2, sword y2) in graphics.h
+1365 Name=GRDRAWLINETO Pascal=6 \
+	Comment=void pascal GrDrawLineTo(GStateHandle gstate, sword x, sword y) in graphics.h
+1366 Name=GRDRAWHLINE Pascal=8 \
+	Comment=void pascal GrDrawHLine(GStateHandle gstate, sword x1, sword y, sword x2) in graphics.h
+1367 Name=GRDRAWHLINETO Pascal=4 \
+	Comment=void pascal GrDrawHLineTo(GStateHandle gstate, sword x) in graphics.h
+1368 Name=GRDRAWVLINE Pascal=8 \
+	Comment=void pascal GrDrawVLine(GStateHandle gstate, sword x, sword y1, sword y2) in graphics.h
+1369 Name=GRDRAWVLINETO Pascal=4 \
+	Comment=void pascal GrDrawVLineTo(GStateHandle gstate, sword y) in graphics.h
+1370 Name=GRDRAWBITMAP Pascal=10 \
+	Comment=void pascal GrDrawBitmap(GStateHandle gstate, sword x, sword y, const Bitmap *bm, Bitmap * (* callback) (Bitmap *bm)) in graphics.h
+1371 Name=GRDRAWBITMAPATCP Pascal=6 \
+	Comment=void pascal GrDrawBitmapAtCP(GStateHandle gstate, const Bitmap *bm, Bitmap * (* callback) (Bitmap *bm)) in graphics.h
+1372 Name=GRFILLBITMAP Pascal=10 \
+	Comment=void pascal GrFillBitmap(GStateHandle gstate, sword x, sword y, const Bitmap *bm, Bitmap * (* callback) (Bitmap *bm)) in graphics.h
+1373 Name=GRFILLBITMAPATCP Pascal=6 \
+	Comment=void pascal GrFillBitmapAtCP(GStateHandle gstate, const Bitmap *bm, Bitmap * (* callback) (Bitmap *bm)) in graphics.h
+1374 Name=GRSETMIXMODE Pascal=4 \
+	Comment=void pascal GrSetMixMode(GStateHandle gstate, MixMode mode) in graphics.h
+1375 Name=GRRELMOVETO Pascal=10 \
+	Comment=void pascal GrRelMoveTo(GStateHandle gstate, WWFixedAsDWord x, WWFixedAsDWord y) in graphics.h
+1376 Name=GRMOVETO Pascal=6 \
+	Comment=void pascal GrMoveTo(GStateHandle gstate, sword x, sword y) in graphics.h
+1377 Name=GRSETLINECOLOR Pascal=10 \
+	Comment=void pascal GrSetLineColor(GStateHandle gstate, ColorFlag flag, word redOrIndex, word green, word blue) in graphics.h
+1378 Name=GRSETLINEMASKSYS Pascal=4 \
+	Comment=void pascal GrSetLineMaskSys(GStateHandle gstate, word sysDM) in graphics.h
+1379 Name=GRSETLINEMASKCUSTOM Pascal=6 \
+	Comment=void pascal GrSetLineMaskCustom(GStateHandle gstate, const DrawMask *dm) in graphics.h
+1380 Name=GRSETLINECOLORMAP Pascal=4 \
+	Comment=void pascal GrSetLineColorMap(GStateHandle gstate, word colorMap) in graphics.h
+1381 Name=GRSETLINEWIDTH Pascal=6 \
+	Comment=void pascal GrSetLineWidth(GStateHandle gstate, WWFixedAsDWord width) in graphics.h
+1382 Name=GRSETLINEJOIN Pascal=4 \
+	Comment=void pascal GrSetLineJoin(GStateHandle gstate, LineJoin join) in graphics.h
+1383 Name=GRSETLINEEND Pascal=4 \
+	Comment=void pascal GrSetLineEnd(GStateHandle gstate, LineEnd end) in graphics.h
+1384 Name=GRSETMITERLIMIT Pascal=6 \
+	Comment=void pascal GrSetMiterLimit(GStateHandle gstate, WWFixedAsDWord limit) in graphics.h
+1385 Name=GRSETLINESTYLE Pascal=12 \
+	Comment=void pascal GrSetLineStyle(GStateHandle gstate, LineStyle style, word skipDistance, const DashPairArray *dpa, word numPairs) in graphics.h
+1386 Name=GRSETAREACOLOR Pascal=10 \
+	Comment=void pascal GrSetAreaColor(GStateHandle gstate, ColorFlag flag, word redOrIndex, word green, word blue) in graphics.h
+1387 Name=GRSETAREAMASKSYS Pascal=4 \
+	Comment=void pascal GrSetAreaMaskSys(GStateHandle gstate, word sysDM) in graphics.h
+1388 Name=GRSETAREAMASKCUSTOM Pascal=6 \
+	Comment=void pascal GrSetAreaMaskCustom(GStateHandle gstate, const DrawMask *dm) in graphics.h
+1389 Name=GRSETAREACOLORMAP Pascal=4 \
+	Comment=void pascal GrSetAreaColorMap(GStateHandle gstate, word colorMap) in graphics.h
+1390 Name=GRSETTEXTCOLOR Pascal=10 \
+	Comment=void pascal GrSetTextColor(GStateHandle gstate, ColorFlag flag, word redOrIndex, word green, word blue) in graphics.h
+1391 Name=GRSETTEXTMASKSYS Pascal=4 \
+	Comment=void pascal GrSetTextMaskSys(GStateHandle gstate, SysDrawMask sysDM) in graphics.h
+1392 Name=GRSETTEXTMASKCUSTOM Pascal=6 \
+	Comment=void pascal GrSetTextMaskCustom(GStateHandle gstate, const DrawMask *dm) in graphics.h
+1393 Name=GRSETTEXTCOLORMAP Pascal=4 \
+	Comment=void pascal GrSetTextColorMap(GStateHandle gstate, word colorMap) in graphics.h
+1394 Name=GRSETTEXTSTYLE Pascal=6 \
+	Comment=void pascal GrSetTextStyle(GStateHandle gstate, TextStyle bitsToSet, TextStyle bitsToClear) in graphics.h
+1395 Name=GRSETTEXTMODE Pascal=6 \
+	Comment=void pascal GrSetTextMode(GStateHandle gstate, TextMode bitsToSet, TextMode bitsToClear) in graphics.h
+1396 Name=GRSETTEXTSPACEPAD Pascal=6 \
+	Comment=void pascal GrSetTextSpacePad(GStateHandle gstate, WWFixedAsDWord padding) in graphics.h
+1397 Name=GRSETTEXTATTR Pascal=6 \
+	Comment=void pascal GrSetTextAttr(GStateHandle gstate, const TextAttr *ta) in graphics.h
+1398 Name=GRSETFONT Pascal=8 \
+	Comment=void pascal GrSetFont(GStateHandle gstate, FontID id, WWFixedAsDWord pointSize) in graphics.h
+1399 Name=GRSETCLIPRECT Pascal=12 \
+	Comment=void pascal GrSetClipRect(GStateHandle gstate, PathCombineType flags, sword left, sword top, sword right, sword bottom) in graphics.h
+1400 Name=GRSETWINCLIPRECT Pascal=12 \
+	Comment=void pascal GrSetWinClipRect(GStateHandle gstate, PathCombineType flags, sword left, sword top, sword right, sword bottom) in graphics.h
+1401 Name=GRDRAWRECT Pascal=10 \
+	Comment=void pascal GrDrawRect(GStateHandle gstate, sword left, sword top, sword right, sword bottom) in graphics.h
+1402 Name=GRBEGINPATH Pascal=4 \
+	Comment=void pascal GrBeginPath(GStateHandle gstate, PathCombineType params) in graphics.h
+1403 Name=GRENDPATH Pascal=2 \
+	Comment=void pascal GrEndPath(GStateHandle gstate) in graphics.h
+1404 Name=GRCLOSESUBPATH Pascal=2 \
+	Comment=void pascal GrCloseSubPath(GStateHandle gstate) in graphics.h
+1405 Name=GRSETCLIPPATH Pascal=6 \
+	Comment=void pascal GrSetClipPath(GStateHandle gstate, PathCombineType params, RegionFillRule rule) in graphics.h
+1406 Name=GRSETWINCLIPPATH Pascal=6 \
+	Comment=void pascal GrSetWinClipPath(GStateHandle gstate,PathCombineType params, RegionFillRule rule) in graphics.h
+1407 Name=GRFILLPATH Pascal=4 \
+	Comment=void pascal GrFillPath(GStateHandle gstate, RegionFillRule rule) in graphics.h
+1408 Name=GRDRAWPATH Pascal=2 \
+	Comment=void pascal GrDrawPath(GStateHandle gstate) in graphics.h
+1409 Name=GRSETSTROKEPATH Pascal=2 \
+	Comment=void pascal GrSetStrokePath(GStateHandle gstate) in graphics.h
+1410 Name=GRGETPATHBOUNDS Pascal=8 \
+	Comment=Boolean pascal GrGetPathBounds(GStateHandle gstate,GetPathType ptype,Rectangle *bounds) in graphics.h
+1411 Name=GRTESTPOINTINPATH Pascal=8 \
+	Comment=Boolean pascal GrTestPointInPath(GStateHandle gstate, word xPos, word yPos, RegionFillRule rule) in graphics.h
+1412 Name=GRGETPATHPOINTS Pascal=4 \
+	Comment=MemHandle pascal GrGetPathPoints(GStateHandle gstate, word resolution) in graphics.h
+1413 Name=GRGETPATHREGION Pascal=4 \
+	Comment=MemHandle pascal GrGetPathRegion(GStateHandle gstate, RegionFillRule rule) in graphics.h
+1414 Name=GRGETCLIPREGION Pascal=4 \
+	Comment=MemHandle pascal GrGetClipRegion(GStateHandle gstate, RegionFillRule rule) in graphics.h
+1415 Name=GRGETMASKBOUNDSDWORD Pascal=6 \
+	Comment=void pascal GrGetMaskBoundsDWord(GStateHandle gstate, RectDWord *bounds) in graphics.h
+1416 Name=GRGETWINHANDLE Pascal=2 \
+	Comment=WindowHandle pascal GrGetWinHandle(GStateHandle gstate) in graphics.h
+1417 Name=GRDRAWARC3POINT Pascal=6 \
+	Comment=void pascal GrDrawArc3Point (GStateHandle gstate, const ThreePointArcParams *params) in graphics.h
+1418 Name=GRDRAWARC3POINTTO Pascal=6 \
+	Comment=void pascal GrDrawArc3PointTo (GStateHandle gstate, const ThreePointArcToParams *params) in graphics.h
+1419 Name=GRDRAWRELARC3POINTTO Pascal=6 \
+	Comment=void pascal GrDrawRelArc3PointTo (GStateHandle gstate, const ThreePointRelArcToParams *params) in graphics.h
+1420 Name=GRFILLARC3POINT Pascal=6 \
+	Comment=void pascal GrFillArc3Point (GStateHandle gstate, const ThreePointArcParams *params) in graphics.h
+1421 Name=GRFILLARC3POINTTO Pascal=6 \
+	Comment=void pascal GrFillArc3PointTo (GStateHandle gstate, const ThreePointArcToParams *params) in graphics.h
+1422 Name=GRDRAWRELLINETO Pascal=10 \
+	Comment=void pascal GrDrawRelLineTo(GStateHandle gstate, WWFixedAsDWord x, WWFixedAsDWord y) in graphics.h
+1423 Name=GRDRAWHUGEBITMAP Pascal=10 \
+	Comment=void pascal GrDrawHugeBitmap(GStateHandle gstate, sword x, sword y, VMFileHandle vmFile, VMBlockHandle vmBlk) in graphics.h
+1424 Name=GRDRAWHUGEBITMAPATCP Pascal=6 \
+	Comment=void pascal GrDrawHugeBitmapAtCP(GStateHandle gstate, VMFileHandle vmFile, VMBlockHandle vmBlk) in graphics.h
+1425 Name=GRDRAWSPLINETO Pascal=8 \
+	Comment=void pascal GrDrawSplineTo(GStateHandle gstate, const Point *points, word numPoints) in graphics.h
+1426 Name=GRDRAWCURVE Pascal=6 \
+	Comment=void pascal GrDrawCurve(GStateHandle gstate, const Point *points) in graphics.h
+1427 Name=GRDRAWCURVETO Pascal=6 \
+	Comment=void pascal GrDrawCurveTo(GStateHandle gstate, const Point *points) in graphics.h
+1428 Name=GRSETBITMAPMODE Pascal=6 \
+	Comment=void pascal GrSetBitmapMode(GStateHandle gstate, word flags, MemHandle colorCorr) in graphics.h
+1429 Name=GRGETBITMAPMODE Pascal=2 \
+	Comment=word pascal GrGetBitmapMode(GStateHandle gstate) in graphics.h
+1430 Name=GRGETTRACKKERN Pascal=2 \
+	Comment=word pascal GrGetTrackKern(GStateHandle gstate) in graphics.h
+1431 Name=GRGETFONTNAME Pascal=6 \
+	Comment=word pascal GrGetFontName(FontID id, char *name) in font.h
+1432 Name=GRSETFONTWEIGHT Pascal=4 \
+	Comment=void pascal GrSetFontWeight(GStateHandle gstate, FontWeight weight) in font.h
+1433 Name=GRSETFONTWIDTH Pascal=4 \
+	Comment=void pascal GrSetFontWidth(GStateHandle gstate, FontWidth width) in font.h
+1434 Name=GRSETSUPERSCRIPTATTR Pascal=4 \
+	Comment=void pascal GrSetSuperscriptAttr(GStateHandle gstate, SuperscriptAttr attrs) in font.h
+1435 Name=GRSETSUBSCRIPTATTR Pascal=4 \
+	Comment=void pascal GrSetSubscriptAttr(GStateHandle gstate, SubscriptAttr attrs) in font.h
+1436 Name=GRGETFONTWEIGHT Pascal=2 \
+	Comment=FontWeight pascal GrGetFontWeight(GStateHandle gstate) in font.h
+1437 Name=GRGETFONTWIDTH Pascal=2 \
+	Comment=FontWidth pascal GrGetFontWidth(GStateHandle gstate) in font.h
+1438 Name=GRGETSUPERSCRIPTATTR Pascal=2 \
+	Comment=SuperscriptAttr pascal GrGetSuperscriptAttr(GStateHandle gstate) in font.h
+1439 Name=GRGETSUBSCRIPTATTR Pascal=2 \
+	Comment=SubscriptAttr pascal GrGetSubscriptAttr(GStateHandle gstate) in font.h
+1440 Name=GRSETAREAPATTERN Pascal=4 \
+	Comment=void pascal GrSetAreaPattern (GStateHandle gstate, GraphicPattern pattern) in graphics.h
+1441 Name=GRSETCUSTOMAREAPATTERN Pascal=10 \
+	Comment=void pascal GrSetCustomAreaPattern (GStateHandle gstate, GraphicPattern pattern, const void *patternData, word patternSize) in graphics.h
+1442 Name=GRSETTEXTPATTERN Pascal=4 \
+	Comment=void pascal GrSetTextPattern (GStateHandle gstate, GraphicPattern pattern) in graphics.h
+1443 Name=GRSETCUSTOMTEXTPATTERN Pascal=8 \
+	Comment=void pascal GrSetCustomTextPattern (GStateHandle gstate, GraphicPattern pattern, const void *patternData) in graphics.h
+1444 Name=GRGETAREAPATTERN Pascal=10 \
+	Comment=GraphicPattern pascal GrGetAreaPattern (GStateHandle gstate, const MemHandle *customPattern, word *customSize) in graphics.h
+1445 Name=GRGETTEXTPATTERN Pascal=10 \
+	Comment=GraphicPattern pascal GrGetTextPattern (GStateHandle gstate, const MemHandle *customPattern, word *customSize) in graphics.h
+1446 Name=GRINVALRECTDWORD Pascal=6 \
+	Comment=void pascal GrInvalRectDWord(GStateHandle gstate, const RectDWord *bounds) in graphics.h
+1447 Name=GRGETWINBOUNDS Pascal=6 \
+	Comment=void pascal GrGetWinBounds(GStateHandle gstate, Rectangle *bounds) in graphics.h
+1448 Name=GRGETWINBOUNDSDWORD Pascal=6 \
+	Comment=void pascal GrGetWinBoundsDWord(GStateHandle gstate, RectDWord *bounds) in graphics.h
+1449 Name=GRGETMASKBOUNDS Pascal=6 \
+	Comment=void pascal GrGetMaskBounds(GStateHandle gstate, Rectangle *bounds) in graphics.h
+1450 Name=GRBEGINUPDATE Pascal=2 \
+	Comment=void pascal GrBeginUpdate(GStateHandle gstate) in win.h
+1451 Name=GRENDUPDATE Pascal=2 \
+	Comment=void pascal GrEndUpdate(GStateHandle gstate) in win.h
+1452 Name=GRINVALRECT Pascal=10 \
+	Comment=void pascal GrInvalRect(GStateHandle gstate, sword left, sword top, sword right, sword bottom) in graphics.h
+1453 Name=GRGETTEXTBOUNDS Pascal=16 \
+	Comment=Boolean pascal GrGetTextBounds(GStateHandle gstate, const char *str, word xpos, word ypos, word count, Rectangle *bounds) in graphics.h
+1454 Name=GRGETGSTRINGBOUNDS Pascal=10 \
+	Comment=Boolean pascal GrGetGStringBounds(Handle gstring, GStateHandle gstate, GSControl flags, Rectangle *bounds) in gstring.h
+1455 Name=GRLABEL Pascal=4 \
+	Comment=void pascal GrLabel(GStateHandle gstate, word label) in gstring.h
+1456 Name=GRCOMPACTBITMAP Pascal=6 \
+	Comment=VMBlockHandle pascal GrCompactBitmap(VMFileHandle srcFile, VMBlockHandle srcBlock, VMFileHandle destFile) in graphics.h
+1457 Name=GRDRAWHUGEIMAGE Pascal=12 \
+	Comment=void pascal GrDrawHugeImage(GStateHandle gstate, sword x, sword y, ImageFlags flags, VMFileHandle vmFile, VMBlockHandle vmBlk) in graphics.h
+1458 Name=GRDRAWIMAGE Pascal=12 \
+	Comment=void pascal GrDrawImage(GStateHandle gstate, sword x, sword y, ImageFlags flags, const Bitmap *bm) in graphics.h
+1459 Name=GREDITBITMAP Pascal=8 \
+	Comment=GStateHandle pascal GrEditBitmap(VMFileHandle vmFile, VMBlockHandle vmBlock, optr exposureOD) in graphics.h
+1460 Name=GRGETEXCLUSIVE Pascal=2 \
+	Comment=GStateHandle pascal GrGetExclusive(GeodeHandle videoDriver) in graphics.h
+1461 Name=GRGETGSTRINGHANDLE Pascal=2 \
+	Comment=Handle pascal GrGetGStringHandle(GStateHandle gstate) in graphics.h
+1462 Name=GRGETPATH Pascal=4 \
+	Comment=MemHandle pascal GrGetPath(GStateHandle gstate, GetPathType ptype) in graphics.h
+1463 Name=GRGETPOINT Pascal=6 \
+	Comment=RGBColorAsDWord pascal GrGetPoint(GStateHandle gstate, sword x, sword y) in graphics.h
+1464 Name=GRPARSEGSTRING Pascal=8 \
+	Comment=void pascal GrParseGString(GStateHandle gstate, GStateHandle gstringToDraw, GSControl flags, Boolean pascal(*callback) (void *element, GStateHandle gstate)) in gstring.h
+1465 Name=GRTESTRECTINMASK Pascal=10 \
+	Comment=TestRectReturnType pascal GrTestRectInMask(GStateHandle gstate, sword left, sword top, sword right, sword bottom) in graphics.h
+1466 Name=GRUNCOMPACTBITMAP Pascal=6 \
+	Comment=VMBlockHandle pascal GrUncompactBitmap(VMFileHandle srcFile, VMBlockHandle srcBlock, VMFileHandle destFile) in graphics.h
+1467 Name=GRDRAWGSTRING Pascal=14 \
+	Comment=GSRetType pascal GrDrawGString(GStateHandle gstate, GStateHandle gstringToDraw, sword x, sword y, GSControl flags, word *lastElement) in gstring.h
+1468 Name=GRDRAWGSTRINGATCP Pascal=10 \
+	Comment=GSRetType pascal GrDrawGStringAtCP(GStateHandle gstate, GStateHandle gstringToDraw, GSControl flags, word *lastElement) in gstring.h
+1469 Name=GRSETGSTRINGPOS Pascal=6 \
+	Comment=void pascal GrSetGStringPos(GStateHandle gstate, GStringSetPosType type, word skip) in gstring.h
+1470 Name=GRCOPYGSTRING Pascal=6 \
+	Comment=GSRetType pascal GrCopyGString(GStateHandle source, GStateHandle dest, GSControl flags) in gstring.h
+1471 Name=GRDESTROYGSTRING Pascal=6 \
+	Comment=void pascal GrDestroyGString(GStateHandle gstring, GStateHandle gstate, GStringKillType type) in gstring.h
+1472 Name=GRLOADGSTRING Pascal=6 \
+	Comment=GStateHandle pascal GrLoadGString(Handle han, GStringType hanType, word vmBlock) in gstring.h
+1473 Name=GRCREATEGSTRING Pascal=8 \
+	Comment=GStateHandle pascal GrCreateGString(Handle han, GStringType hanType, word *vmBlock) in gstring.h
+1474 Name=GRGETGSTRINGELEMENT Pascal=14 \
+	Comment=GStringElement pascal GrGetGStringElement(GStateHandle gstate, GStateHandle gstring, word bufSize, void *buffer, word *elSize) in gstring.h
+1475 Name=GREDITGSTRING Pascal=4 \
+	Comment=GStateHandle pascal GrEditGString(Handle vmFile, word vmBlock) in gstring.h
+1476 Name=GRDELETEGSTRINGELEMENT_OLD
+1477 Name=WINOPEN Pascal=36 \
+	Comment=WindowHandle pascal WinOpen(Handle parentWinOrVidDr, optr inputRecipient, optr exposureRecipient, word colorFlags, word redOrIndex, word green, word blue, word flags, word layerID, GeodeHandle owner, const Region *winReg, word axParam, word bxParam, word cxParam, word dxParam) in win.h
+1478 Name=WINCLOSE Pascal=2 \
+	Comment=void pascal WinClose(WindowHandle win) in win.h
+1479 Name=WINMOVE Pascal=8 \
+	Comment=void pascal WinMove(WindowHandle win, sword xMove, sword yMove, WinPassFlags flags) in win.h
+1480 Name=WINRESIZE Pascal=16 \
+	Comment=void pascal WinResize(WindowHandle win, const Region *reg, word axParam, word bxParam, word cxParam, word dxParam, WinPassFlags flags) in win.h
+1481 Name=WINDECREFCOUNT Pascal=2 \
+	Comment=void pascal WinDecRefCount(WindowHandle win) in win.h
+1482 Name=WINCHANGEPRIORITY Pascal=6 \
+	Comment=void pascal WinChangePriority(WindowHandle win, WinPassFlags flags, word layerID) in win.h
+1483 Name=WINSCROLL Pascal=14 \
+	Comment=void pascal WinScroll(WindowHandle win, WWFixedAsDWord xMove, WWFixedAsDWord yMove, PointWWFixed *scrollAmt) in win.h
+1484 Name=WINSUSPENDUPDATE Pascal=2 \
+	Comment=void pascal WinSuspendUpdate(WindowHandle win) in win.h
+1485 Name=WINUNSUSPENDUPDATE Pascal=2 \
+	Comment=void pascal WinUnSuspendUpdate(WindowHandle win) in win.h
+1486 Name=WINGETINFO Pascal=8 \
+	Comment=void pascal WinGetInfo(WindowHandle win, WinInfoType type, void *data) in win.h
+1487 Name=WINSETINFO Pascal=8 \
+	Comment=void pascal WinSetInfo(WindowHandle win, WinInfoType type, dword data) in win.h
+1488 Name=WINAPPLYROTATION Pascal=8 \
+	Comment=void pascal WinApplyRotation(WindowHandle win, WWFixedAsDWord angle, WinInvalFlag flag) in win.h
+1489 Name=WINAPPLYSCALE Pascal=12 \
+	Comment=void pascal WinApplyScale(WindowHandle win, WWFixedAsDWord xScale, WWFixedAsDWord yScale, WinInvalFlag flag) in win.h
+1490 Name=WINAPPLYTRANSLATION Pascal=12 \
+	Comment=void pascal WinApplyTranslation(WindowHandle win, WWFixedAsDWord xTrans, WWFixedAsDWord yTrans, WinInvalFlag flag) in win.h
+1491 Name=WINAPPLYTRANSLATIONDWORD Pascal=12 \
+	Comment=void pascal WinApplyTranslationDWord(WindowHandle win, sdword xTrans, sdword yTrans, WinInvalFlag flag) in win.h
+1492 Name=WINTRANSFORM Pascal=6 \
+	Comment=XYValueAsDWord pascal WinTransform(WindowHandle win, sword x, sword y) in win.h
+1493 Name=WINTRANSFORMDWORD Pascal=14 \
+	Comment=void pascal WinTransformDWord(WindowHandle win, sdword xCoord, sdword yCoord, PointDWord *screenCoordinates) in win.h
+1494 Name=WINUNTRANSFORM Pascal=6 \
+	Comment=XYValueAsDWord pascal WinUntransform(WindowHandle win, sword x, sword y) in win.h
+1495 Name=WINUNTRANSFORMDWORD Pascal=14 \
+	Comment=void pascal WinUntransformDWord(WindowHandle win, sdword xCoord, sdword yCoord, PointDWord *documentCoordinates) in win.h
+1496 Name=WINSETTRANSFORM Pascal=8 \
+	Comment=void pascal WinSetTransform(WindowHandle win, const TransMatrix *tm, WinInvalFlag flag) in win.h
+1497 Name=WINAPPLYTRANSFORM Pascal=8 \
+	Comment=void pascal WinApplyTransform(WindowHandle win, const TransMatrix *tm, WinInvalFlag flag) in win.h
+1498 Name=WINSETNULLTRANSFORM Pascal=4 \
+	Comment=void pascal WinSetNullTransform(WindowHandle win, WinInvalFlag flag) in win.h
+1499 Name=WINGETTRANSFORM Pascal=6 \
+	Comment=void pascal WinGetTransform(WindowHandle win, TransMatrix *tm) in win.h
+1500 Name=WINGETWINSCREENBOUNDS Pascal=6 \
+	Comment=void pascal WinGetWinScreenBounds(WindowHandle win, Rectangle *bounds) in win.h
+1501 Name=WINACKUPDATE Pascal=2 \
+	Comment=void pascal WinAckUpdate(WindowHandle win) in win.h
+1502 Name=WININVALREG Pascal=14 \
+	Comment=void pascal WinInvalReg(WindowHandle win, const Region *reg, word axParam, word bxParam, word cxParam, word dxParam) in win.h
+1503 Name=WINSETPTRIMAGE Pascal=8 \
+	Comment=void pascal WinSetPtrImage(WindowHandle win, PtrImageLevel ptrLevel, optr ptrCh) in win.h
+1504 Name=WINGEODESETPTRIMAGE Pascal=6 \
+	Comment=void pascal WinGeodeSetPtrImage(GeodeHandle gh, optr ptrCh) in win.h
+1505 Name=WINGEODEGETINPUTOBJ Pascal=2 \
+	Comment=optr pascal WinGeodeGetInputObj(GeodeHandle gh) in win.h
+1506 Name=WINGEODESETINPUTOBJ Pascal=6 \
+	Comment=void pascal WinGeodeSetInputObj(GeodeHandle gh, optr iobj) in win.h
+1507 Name=WINGEODEGETPARENTOBJ Pascal=2 \
+	Comment=optr pascal WinGeodeGetParentObj(GeodeHandle gh) in win.h
+1508 Name=WINGEODESETPARENTOBJ Pascal=6 \
+	Comment=void pascal WinGeodeSetParentObj(GeodeHandle gh, optr pObj) in win.h
+1509 Name=WINGEODESETACTIVEWIN Pascal=4 \
+	Comment=void pascal WinGeodeSetActiveWin(GeodeHandle gh, WindowHandle win) in win.h
+1510 Name=GCNLISTADD Pascal=8 \
+	Comment=Boolean pascal GCNListAdd(optr OD, ManufacturerID manufID, word listType) in gcnlist.goh
+1511 Name=GCNLISTREMOVE Pascal=8 \
+	Comment=Boolean pascal GCNListRemove(optr OD, ManufacturerID manufID, word listType) in gcnlist.goh
+1512 Name=GCNLISTSEND Pascal=10 \
+	Comment=word pascal GCNListSend(ManufacturerID manufID, word listType, EventHandle event, MemHandle dataBlock, GCNListSendFlags gcnListSendFlags) in gcnlist.goh
+1513 Name=GCNLISTADDTOBLOCK Pascal=12 \
+	Comment=Boolean pascal GCNListAddToBlock(optr OD, ManufacturerID manufID, word listType, MemHandle mh, ChunkHandle listOfLists) in gcnlist.goh
+1514 Name=GCNLISTREMOVEFROMBLOCK Pascal=12 \
+	Comment=Boolean pascal GCNListRemoveFromBlock(optr OD, ManufacturerID manufID, word listType, MemHandle mh, ChunkHandle listOfLists) in gcnlist.goh
+1515 Name=GCNLISTSENDTOBLOCK Pascal=14 \
+	Comment=word pascal GCNListSendToBlock(ManufacturerID manufID, word listType, EventHandle event, MemHandle dataBlock, MemHandle mh, ChunkHandle listOfLists, GCNListSendFlags flags) in gcnlist.goh
+1516 Name=GCNLISTCREATEBLOCK Pascal=2 \
+	Comment=ChunkHandle pascal GCNListCreateBlock(MemHandle mh) in gcnlist.goh
+1517 Name=GCNLISTADDTOLIST Pascal=8 \
+	Comment=Boolean pascal GCNListAddToList(optr OD, optr list) in gcnlist.goh
+1518 Name=GCNLISTREMOVEFROMLIST Pascal=8 \
+	Comment=Boolean pascal GCNListRemoveFromList(optr OD, optr list) in gcnlist.goh
+1519 Name=GCNLISTFINDITEMINLIST Pascal=8 \
+	Comment=Boolean pascal GCNListFindItemInList(optr OD, optr list) in gcnlist.goh
+1520 Name=GCNLISTSENDTOLIST Pascal=10 \
+	Comment=void pascal GCNListSendToList(optr list, EventHandle event, MemHandle dataBlock, GCNListSendFlags flags) in gcnlist.goh
+1521 Name=GCNLISTCREATELIST Pascal=2 \
+	Comment=ChunkHandle pascal GCNListCreateList(MemHandle mh) in gcnlist.goh
+1522 Name=GCNLISTFINDLISTINBLOCK Pascal=10 \
+	Comment=ChunkHandle pascal GCNListFindListInBlock(ManufacturerID manufID, word changeType, MemHandle mh, ChunkHandle listOfLists, Boolean createIfNotFound) in gcnlist.goh
+1523 Name=GCNLISTDESTROYBLOCK Pascal=4 \
+	Comment=void pascal GCNListDestroyBlock(MemHandle mh, ChunkHandle listOfLists) in gcnlist.goh
+1524 Name=GCNLISTDESTROYLIST Pascal=4 \
+	Comment=void pascal GCNListDestroyList(optr list) in gcnlist.goh
+1525 Name=GCNLISTRELOCATEBLOCK Pascal=6 \
+	Comment=void pascal GCNListRelocateBlock(MemHandle mh, ChunkHandle listOfLists, MemHandle relocBlock) in gcnlist.goh
+1526 Name=GCNLISTRELOCATELIST Pascal=6 \
+	Comment=void pascal GCNListRelocateList(optr list, MemHandle relocBlock) in gcnlist.goh
+1527 Name=GCNLISTUNRELOCATEBLOCK Pascal=6 \
+	Comment=Boolean pascal GCNListUnRelocateBlock(MemHandle mh, ChunkHandle listOfLists, MemHandle relocBlock) in gcnlist.goh
+1528 Name=GCNLISTUNRELOCATELIST Pascal=6 \
+	Comment=void pascal GCNListUnRelocateList(optr list, MemHandle relocBlock) in gcnlist.goh
+1529 Name=GeodePrivAlloc
+1530 Name=GeodePrivFree
+1531 Name=GeodePrivRead
+1532 Name=GeodePrivWrite
+1533 Name=GEODEPRIVALLOC Pascal=4 \
+	Comment=word pascal GeodePrivAlloc(GeodeHandle gh, word numWords) in geode.h
+1534 Name=GEODEPRIVFREE Pascal=4 \
+	Comment=void pascal GeodePrivFree(word offset, word numWords) in geode.h
+1535 Name=GEODEPRIVREAD_OLD
+1536 Name=GEODEPRIVWRITE_OLD
+1537 Name=NameArrayCreate
+1538 Name=NAMEARRAYCREATEAT_OLD
+1539 Name=NameArrayAdd
+1540 Name=NAMEARRAYADD Pascal=16 \
+	Comment=word pascal NameArrayAdd(optr arr, const TCHAR *nameToAdd, word nameLength, NameArrayAddFlags flags, const void *data) in chunkarr.h
+1541 Name=NameArrayFind
+1542 Name=NAMEARRAYFIND Pascal=14 \
+	Comment=word pascal NameArrayFind(optr arr, const TCHAR *nameToAdd, word nameLength, void *returnData) in chunkarr.h
+1543 Name=NameArrayChangeName
+1544 Name=NAMEARRAYCHANGENAME Pascal=12 \
+	Comment=void pascal NameArrayChangeName(optr arr, word nameToken, const TCHAR *newName, word nameLength) in chunkarr.h
+1545 Name=ObjVarAddData
+1546 Name=ObjVarDeleteData
+1547 Name=ObjVarDeleteDataAt
+1548 Name=ObjVarScanData
+1549 Name=ObjVarFindData
+1550 Name=ObjVarDerefData
+1551 Name=ObjVarDeleteDataRange
+1552 Name=ObjVarCopyDataRange
+1553 Name=OBJVARADDDATA Pascal=8 \
+	Comment=void * pascal ObjVarAddData(optr obj, VardataKey dataType, word dataSize) in object.h
+1554 Name=OBJVARDELETEDATA Pascal=6 \
+	Comment=Boolean pascal ObjVarDeleteData(optr obj, VardataKey dataType) in object.h
+1555 Name=OBJVARDELETEDATAAT Pascal=6 \
+	Comment=void pascal ObjVarDeleteDataAt(optr obj, word extraDataOffset) in object.h
+1556 Name=OBJVARSCANDATA Pascal=14 \
+	Comment=void pascal ObjVarScanData(optr obj, word numHandlers, VarDataCHandler *handlerTable, void *handlerData) in object.h
+1557 Name=OBJVARFINDDATA Pascal=6 \
+	Comment=void * pascal ObjVarFindData(optr obj, VardataKey dataType) in object.h
+1558 Name=OBJVARDEREFDATA Pascal=6 \
+	Comment=void * pascal ObjVarDerefData(optr obj, VardataKey dataType) in object.h
+1559 Name=OBJVARDELETEDATARANGE Pascal=10 \
+	Comment=void pascal ObjVarDeleteDataRange(optr obj, word rangeStart, word rangeEnd, Boolean useStateFlag) in object.h
+1560 Name=OBJVARCOPYDATARANGE Pascal=12 \
+	Comment=void pascal ObjVarCopyDataRange(optr source, optr dest, word rangeStart, word rangeEnd) in object.h
+1561 Name=HugeArrayCreate
+1562 Name=HugeArrayDestroy
+1563 Name=HugeArrayLock
+1564 Name=HugeArrayUnlock
+1565 Name=HugeArrayAppend
+1566 Name=HugeArrayInsert
+1567 Name=HugeArrayReplace
+1568 Name=HugeArrayDelete
+1569 Name=HugeArrayGetCount
+1570 Name=HugeArrayDirty
+1571 Name=HugeArrayNext
+1572 Name=HugeArrayPrev
+1573 Name=HugeArrayExpand
+1574 Name=HugeArrayContract
+1575 Name=HugeArrayEnum
+1576 Name=HUGEARRAYCREATE_OLD
+1577 Name=HUGEARRAYDESTROY Pascal=4 \
+	Comment=void pascal HugeArrayDestroy(VMFileHandle vmFile, VMBlockHandle vmBlock) in hugearr.h
+1578 Name=HUGEARRAYLOCK_OLD
+1579 Name=HUGEARRAYUNLOCK Pascal=4 \
+	Comment=void pascal HugeArrayUnlock(void *elemPtr) in hugearr.h
+1580 Name=HUGEARRAYAPPEND Pascal=10 \
+	Comment=dword pascal HugeArrayAppend(VMFileHandle vmFile, VMBlockHandle vmBlock, word numElem, const void *initData) in hugearr.h
+1581 Name=HUGEARRAYINSERT Pascal=14 \
+	Comment=void pascal HugeArrayInsert(VMFileHandle vmFile, VMBlockHandle vmBlock, word numElem, dword elemNum, const void *initData) in hugearr.h
+1582 Name=HUGEARRAYREPLACE Pascal=14 \
+	Comment=void pascal HugeArrayReplace(VMFileHandle vmFile, VMBlockHandle vmBlock, word numElem, dword elemNum, const void *initData) in hugearr.h
+1583 Name=HUGEARRAYDELETE Pascal=10 \
+	Comment=void pascal HugeArrayDelete(VMFileHandle vmFile, VMBlockHandle vmBlock, word numElem, dword elemNum) in hugearr.h
+1584 Name=HUGEARRAYGETCOUNT_OLD
+1585 Name=HUGEARRAYDIRTY Pascal=4 \
+	Comment=void pascal HugeArrayDirty(const void *elemPtr) in hugearr.h
+1586 Name=HUGEARRAYNEXT_OLD
+1587 Name=HUGEARRAYPREV Pascal=12 \
+	Comment=word pascal HugeArrayPrev(void **elemPtr1, void **elemPtr2, word *size) in hugearr.h
+1588 Name=HUGEARRAYEXPAND Pascal=10 \
+	Comment=word pascal HugeArrayExpand(void **elemPtr, word numElem, const void *initData) in hugearr.h
+1589 Name=HUGEARRAYCONTRACT Pascal=6 \
+	Comment=word pascal HugeArrayContract(void **elemPtr, word numElem) in hugearr.h
+1590 Name=ECCheckHugeArray
+1591 Name=ECCHECKHUGEARRAY Pascal=4 \
+	Comment=void pascal ECCheckHugeArray(VMFileHandle vmFile, VMBlockHandle vmBlock) in hugearr.h
+1592 Name=HugeArrayResize
+1593 Name=HUGEARRAYRESIZE Pascal=10 \
+	Comment=void pascal HugeArrayResize(VMFileHandle vmFile, VMBlockHandle vmBlock, dword elemNum, word newSize) in hugearr.h
+1594 Name=HugeArrayLockDir
+1595 Name=HUGEARRAYLOCKDIR Pascal=8 \
+	Comment=void pascal HugeArrayLockDir(VMFileHandle vmFile, VMBlockHandle vmBlock, void **elemPtr) in hugearr.h
+1596 Name=HugeArrayUnlockDir
+1597 Name=HUGEARRAYUNLOCKDIR Pascal=4 \
+	Comment=void pascal HugeArrayUnlockDir(void *elemPtr) in hugearr.h
+1598 Name=HUGEARRAYENUM Pascal=16 \
+	Comment=Boolean pascal HugeArrayEnum(VMFileHandle vmFile, VMBlockHandle vmBlock, Boolean (* callback) (void *element, void *enumData), dword startElement, dword count, void *enumData ) in hugearr.h
+1599 Name=FileCopyPathExtAttributes
+1600 Name=FILECOPYPATHEXTATTRIBUTES Pascal=12 \
+	Comment=word pascal FileCopyPathExtAttributes(const char *sourcePath, DiskHandle sourceDisk, const char *destPath, DiskHandle destDisk) in file.h
+1601 Name=LocalFormatFileDateTime
+1602 Name=LOCALFORMATFILEDATETIME Pascal=10 \
+	Comment=word pascal LocalFormatFileDateTime(char *str, DateTimeFormat format, const FileDateAndTime *dateTime) in localize.h
+1603 Name=FSDLockDriveExcl
+1604 Name=FSDUnlockDriveExcl
+1605 Name=FSDCheckOpenCloseNotifyEnabled
+1606 Name=FILEENABLEOPENCLOSENOTIFICATION \
+	Comment=void pascal FileEnableOpenCloseNotification(void) in file.h
+1607 Name=FILEDISABLEOPENCLOSENOTIFICATION \
+	Comment=void pascal FileDisableOpenCloseNotification(void) in file.h
+1608 Name=FILEBATCHCHANGENOTIFICATIONS \
+	Comment=void pascal FileBatchChangeNotifications(void) in file.h
+1609 Name=FILEFLUSHCHANGENOTIFICATIONS \
+	Comment=void pascal FileFlushChangeNotifications(void) in file.h
+1610 Name=FSDGenerateNotify
+1611 Name=FILEGETCURRENTPATHIDS Pascal=2 \
+	Comment=ChunkHandle pascal FileGetCurrentPathIDs(MemHandle block) in file.h
+1612 Name=GrFillHugeBitmapAtCP
+1613 Name=GrFillHugeBitmap
+1614 Name=GRFILLHUGEBITMAPATCP Pascal=6 \
+	Comment=void pascal GrFillHugeBitmapAtCP(GStateHandle gstate, VMFileHandle vmFile, VMBlockHandle vmBlk) in graphics.h
+1615 Name=GRFILLHUGEBITMAP Pascal=10 \
+	Comment=void pascal GrFillHugeBitmap(GStateHandle gstate, sword x, sword y, VMFileHandle vmFile, VMBlockHandle vmBlk) in graphics.h
+1616 Name=WinRealizePalette
+1617 Name=GRSAVETRANSFORM Pascal=2 \
+	Comment=void pascal GrSaveTransform(GStateHandle gstate) in graphics.h
+1618 Name=GRRESTORETRANSFORM Pascal=2 \
+	Comment=void pascal GrRestoreTransform(GStateHandle gstate) in graphics.h
+1619 Name=GrGetGStringBoundsDWord
+1620 Name=GRGETGSTRINGBOUNDSDWORD Pascal=10 \
+	Comment=void pascal GrGetGStringBoundsDWord(Handle gstring, GStateHandle gstate, GSControl flags, RectDWord *bounds) in gstring.h
+1621 Name=WINREALIZEPALETTE Pascal=2 \
+	Comment=void pascal WinRealizePalette(WindowHandle win) in win.h
+1622 Name=LocalCalcDaysInMonth
+1623 Name=LOCALCALCDAYSINMONTH Pascal=4 \
+	Comment=word pascal LocalCalcDaysInMonth(word year, word month) in localize.h
+1624 Name=GrGetCurPosWWFixed
+1625 Name=GRGETCURPOSWWFIXED Pascal=6 \
+	Comment=void pascal GrGetCurPosWWFixed(GStateHandle gstate, PointWWFixed *cp) in graphics.h
+1626 Name=GrGetPathBoundsDWord
+1627 Name=GRGETPATHBOUNDSDWORD Pascal=8 \
+	Comment=Boolean pascal GrGetPathBoundsDWord(GStateHandle gstate,GetPathType ptype,RectDWord *bounds) in graphics.h
+1628 Name=LocalIsCodePageSupported
+1629 Name=LOCALISCODEPAGESUPPORTED Pascal=2 \
+	Comment=Boolean pascal LocalIsCodePageSupported(DosCodePage codePage) in localize.h
+1630 Name=HugeArrayCompressBlocks
+1631 Name=HUGEARRAYCOMPRESSBLOCKS Pascal=4 \
+	Comment=void pascal HugeArrayCompressBlocks(VMFileHandle vmFile,VMBlockHandle vmBlock) in hugearr.h
+1632 Name=FixupHugeArrayChain
+1633 Name=ImSetPtrFlags
+1634 Name=GrGetHugeBitmapSize
+1635 Name=GRGETHUGEBITMAPSIZE Pascal=4 \
+	Comment=XYValueAsDWord pascal GrGetHugeBitmapSize(VMFileHandle vmFile, VMBlockHandle vmBlk) in graphics.h
+1636 Name=FontDrEnsureFontFileOpen
+1637 Name=ECCheckEventHandle
+1638 Name=ECCHECKEVENTHANDLE Pascal=2 \
+	Comment=void pascal ECCheckEventHandle(EventHandle eh) in ec.h
+1639 Name=GrSetVMFile
+1640 Name=GrTestPath
+1641 Name=ImGetPtrFlags
+1642 Name=GrSetUpdateGState
+1643 Name=InitFilePushPrimaryFile
+1644 Name=InitFilePopPrimaryFile
+1645 Name=FilePushTopLevelPath
+1646 Name=FilePopTopLevelPath
+1647 Name=FileAddStandardPathDirectory
+1648 Name=FileDeleteStandardPathDirectory
+1649 Name=LocalInit
+1650 Name=FSDUnregister
+1651 Name=GRSETTEXTDRAWOFFSET Pascal=4 \
+	Comment=void pascal GrSetTextDrawOffset(GStateHandle gstate, word numToDraw) in graphics.h
+1652 Name=GRGETTEXTDRAWOFFSET Pascal=2 \
+	Comment=word pascal GrGetTextDrawOffset(GStateHandle gstate) in graphics.h
+1653 Name=CHUNKARRAYINSERTAT Pascal=10 \
+	Comment=void * pascal ChunkArrayInsertAt(optr arr, void *insertPointer, word elementSize) in chunkarr.h
+1654 Name=GEODEPRIVREAD Pascal=10 \
+	Comment=void pascal GeodePrivRead(GeodeHandle gh, word offset, word numWords, word *dest) in geode.h
+1655 Name=GEODEPRIVWRITE Pascal=10 \
+	Comment=Boolean pascal GeodePrivWrite(GeodeHandle gh, word offset, word numWords, word *src) in geode.h
+1656 Name=GEODEUSEDRIVER Pascal=12 \
+	Comment=GeodeHandle pascal GeodeUseDriver(const char *name, word protoMajor, word protoMinor, GeodeLoadError *err) in driver.h
+1657 Name=FileOpenAndRead
+1658 Name=FILEOPENANDREAD Pascal=10 \
+	Comment=MemHandle pascal FileOpenAndRead(FileOpenAndReadFlags flags, const char *filename, FileHandle *fh) in file.h
+1659 Name=InitFileGrab
+1660 Name=INITFILEGRAB Pascal=6 \
+	Comment=word pascal InitFileGrab(MemHandle mem, FileHandle fh, word size) in initfile.h
+1661 Name=INITFILERELEASE \
+	Comment=void pascal InitFileRelease(void) in initfile.h
+1662 Name=FontDrLockInfoBlock
+1663 Name=FontDrUnlockInfoBlock
+1664 Name=FileCopyLocal
+1665 Name=THREADCREATE Pascal=8 \
+	Comment=ThreadHandle pascal ThreadCreate(word priority, word valueToPass, word (*startRoutine)(word valuePassed), word stackSize, GeodeHandle owner) in thread.h
+1666 Name=FILEENUM Pascal=12 \
+	Comment=word pascal FileEnum(FileEnumParams *params, MemHandle *bufCreated, word *numNoFit) in fileenum.h
+1667 Name=VMCLOSE Pascal=4 \
+	Comment=word pascal VMClose(VMFileHandle file, Boolean noErrorFlag) in vm.h
+1668 Name=GRFILLRECTTO Pascal=6 \
+	Comment=void pascal GrFillRectTo(GStateHandle gstate, sword x, sword y) in graphics.h
+1669 Name=GRDRAWRECTTO Pascal=6 \
+	Comment=void pascal GrDrawRectTo(GStateHandle gstate, sword x, sword y) in graphics.h
+1670 Name=MemGetSwapDriverInfo
+1671 Name=MemMigrateSwapData
+1672 Name=GEODEUSELIBRARY Pascal=12 \
+	Comment=GeodeHandle pascal GeodeUseLibrary(const char *name, word protoMajor, word protoMinor, GeodeLoadError *err) in library.h
+1673 Name=GRDRAWARC Pascal=16 \
+	Comment=void pascal GrDrawArc(GStateHandle gstate, sword left, sword top, sword right, sword bottom, word startAngle, word endAngle, ArcCloseType closeType) in graphics.h
+1674 Name=GRFILLARC Pascal=16 \
+	Comment=void pascal GrFillArc(GStateHandle gstate, sword left, sword top, sword right, sword bottom, word startAngle, word endAngle, ArcCloseType closeType) in graphics.h
+1675 Name=DosExecInsertMovableVector
+1676 Name=DosExecRestoreMovableVector
+1677 Name=CHUNKARRAYCREATEAT Pascal=10 \
+	Comment=ChunkHandle pascal ChunkArrayCreateAt(optr arr, word elementSize, word headerSize, ObjChunkFlags ocf) in chunkarr.h
+1678 Name=ELEMENTARRAYCREATEAT Pascal=10 \
+	Comment=ChunkHandle pascal ElementArrayCreateAt(optr arr, word elementSize, word headerSize, ObjChunkFlags ocf) in chunkarr.h
+1679 Name=NAMEARRAYCREATEAT Pascal=10 \
+	Comment=ChunkHandle pascal NameArrayCreateAt(optr arr, word dataSize, word headerSize, ObjChunkFlags ocf) in chunkarr.h
+1680 Name=GrGetCharInfo
+1681 Name=GRGETCHARINFO Pascal=4 \
+	Comment=CharInfo pascal GrGetCharInfo(GStateHandle gstate, word ch) in graphics.h
+1682 Name=SysCopyToStackDSSI
+1683 Name=SysCopyToStackDSBX
+1684 Name=SysCopyToStackDSDX
+1685 Name=SysCopyToStackBXSI
+1686 Name=SysCopyToStackESDI
+1687 Name=SysRemoveFromStack
+1688 Name=SysCopyToBlock
+1689 Name=ECAssertValidFarPointerXIP
+1690 Name=FontDrAddFonts
+1691 Name=FontDrDeleteFonts
+1692 Name=FontDrFindFileName
+1693 Name=FontDrGetFontIDFromFile
+1694 Name=HUGEARRAYCREATE Pascal=6 \
+	Comment=VMBlockHandle pascal HugeArrayCreate(VMFileHandle vmFile, word elemSize, word headerSpace) in hugearr.h
+1695 Name=HUGEARRAYGETCOUNT Pascal=4 \
+	Comment=dword pascal HugeArrayGetCount(VMFileHandle vmFile, VMBlockHandle vmBlock) in hugearr.h
+1696 Name=HUGEARRAYLOCK Pascal=16 \
+	Comment=dword pascal HugeArrayLock(VMFileHandle vmFile, VMBlockHandle vmBlock, dword elemNum, void **elemPtr, word *elemSize) in hugearr.h
+1697 Name=GRDELETEGSTRINGELEMENT Pascal=4 \
+	Comment=void pascal GrDeleteGStringElement(GStateHandle gstate, word count) in gstring.h
+1698 Name=SYSGETINKWIDTHANDHEIGHT \
+	Comment=word pascal SysGetInkWidthAndHeight(void) in system.h
+1699 Name=SYSSETINKWIDTHANDHEIGHT Pascal=2 \
+	Comment=void pascal SysSetInkWidthAndHeight(word WidthAndHeight) in system.h
+1700 Name=SysSetInkWidthAndHeight
+1701 Name=SYSENABLEAPO \
+	Comment=void pascal SysEnableAPO(void) in system.h
+1702 Name=SYSDISABLEAPO \
+	Comment=void pascal SysDisableAPO(void) in system.h
+1703 Name=VMGetHeaderInfo
+1704 Name=SysSendNotification
+1705 Name=SysHookNotification
+1706 Name=SysUnhookNotification
+1707 Name=SysIgnoreNotification
+1708 Name=SYSSENDNOTIFICATION Pascal=12 \
+	Comment=void pascal SysSendNotification(SysSubsystemType subsys, SysNotificationType notif, word word1, word word2, word word3, word word4) in system.h
+1709 Name=SYSHOOKNOTIFICATION Pascal=2 \
+	Comment=Boolean pascal SysHookNotification(SysSubsystemType subsys, void (* routine) (SysSubsystemType subsys, SysNotificationType notif, word word1, word word2, word word3, word word4)) in system.h
+1710 Name=SYSUNHOOKNOTIFICATION Pascal=2 \
+	Comment=void pascal SysUnhookNotification(SysSubsystemType subsys, void (* routine) (SysSubsystemType subsys, SysNotificationType notif, word word1, word word2, word word3, word word4)) in system.h
+1711 Name=SYSIGNORENOTIFICATION Pascal=2 \
+	Comment=Boolean pascal SysIgnoreNotification(SysSubsystemType subsys) in system.h
+1712 Name=TIMERGETFILEDATETIME \
+	Comment=TimerFileDateTime pascal TimerGetFileDateTime(void) in timedate.h
+1713 Name=ThreadCreateVirtual
+1714 Name=VMCOPYVMCHAIN_ALMOST_FIXED
+1715 Name=VMFREEVMCHAIN Pascal=6 \
+	Comment=void pascal VMFreeVMChain(VMFileHandle file, VMChain chain) in vm.h
+1716 Name=VMCOMPAREVMCHAINS Pascal=12 \
+	Comment=Boolean pascal VMCompareVMChains(VMFileHandle sourceFile, VMChain sourceChain, VMFileHandle destFile, VMChain destChain) in vm.h
+1717 Name=GeodeInstallPatch
+1718 Name=GrMoveToWWFixed
+1719 Name=GRMOVETOWWFIXED Pascal=10 \
+	Comment=void pascal GrMoveToWWFixed(GStateHandle gstate, WWFixedAsDWord x, WWFixedAsDWord y) in graphics.h
+1720 Name=VMGetDirtySize
+1721 Name=VMGetUsedSize
+1722 Name=VMGETHEADERINFO Pascal=6 \
+	Comment=void pascal VMGetHeaderInfo(VMFileHandle file, VMHeaderInfoStruct *vmInfo) in vm.h
+1723 Name=HUGEARRAYNEXT Pascal=8 \
+	Comment=word pascal HugeArrayNext(void **elemPtr, word *size) in hugearr.h
+1724 Name=GRSETVMFILE Pascal=4 \
+	Comment=void pascal GrSetVMFile(GStateHandle gstate, VMFileHandle vmFile) in graphics.h
+1725 Name=VMCOPYVMCHAIN Pascal=8 \
+	Comment=VMChain pascal VMCopyVMChain(VMFileHandle sourceFile, VMChain sourceChain, VMFileHandle destFile) in vm.h
+1726 Name=GRTESTPATH Pascal=4 \
+	Comment=Boolean pascal GrTestPath(GStateHandle gstate, GetPathType ptype) in graphics.h
+1727 Name=GeodeRequestSpace
+1728 Name=GEODEREQUESTSPACE Pascal=4 \
+	Comment=ReservationHandle pascal GeodeRequestSpace(int amount, GeodeHandle gh) in geode.h
+1729 Name=GeodeReturnSpace
+1730 Name=GEODERETURNSPACE Pascal=2 \
+	Comment=void pascal GeodeReturnSpace(ReservationHandle resv) in geode.h
+1731 Name=ObjGetMessageData
+1732 Name=OBJGETMESSAGEDATA Pascal=6 \
+	Comment=Boolean pascal ObjGetMessageData(EventHandle event, MessageDataStruct *data) in object.h
+1733 Name=VMDiscardDirtyBlocks
+1734 Name=VMDISCARDDIRTYBLOCKS Pascal=2 \
+	Comment=word pascal VMDiscardDirtyBlocks(VMFileHandle file) in vm.h
+1735 Name=FileGetHandleAllExtAttributes
+1736 Name=FILEGETHANDLEALLEXTATTRIBUTES Pascal=6 \
+	Comment=MemHandle pascal FileGetHandleAllExtAttributes(FileHandle fh, word *numExtAttrs) in file.h
+1737 Name=MemDerefStackDS
+1738 Name=MemDerefStackES
+1739 Name=FileMoveLocal
+1740 Name=ThreadSetError
+1741 Name=THREADSETERROR Pascal=2 \
+	Comment=void pascal ThreadSetError(word errno) in geos.h
+1742 Name=ProfileWriteLogEntry
+1743 Name=ProfileInit
+1744 Name=ProfileExit
+1745 Name=ProfileReset
+1746 Name=ProfileWriteGenericEntry
+1747 Name=ProfileWriteMessageEntry
+1748 Name=DBInfo
+1749 Name=VMInfoVMChain
+1750 Name=VMINFOVMCHAIN Pascal=18 \
+	Comment=Boolean pascal VMInfoVMChain(VMFileHandle sourceFile, VMChain sourceChain, dword *chainSize, word *vmBlockCount, word *dbItemCount ) in vm.h
+1751 Name=DBINFOUNGROUPED Pascal=10 \
+	Comment=Boolean pascal DBInfoUngrouped(VMFileHandle file, DBGroupAndItem grpAndItem, word *sizePtr) in dbase.h
+1752 Name=VMSetDirtyLimit
+1753 Name=VMSETDIRTYLIMIT Pascal=4 \
+	Comment=void pascal VMSetDirtyLimit(VMFileHandle file, word dirtyLimit) in vm.h
+1754 Name=GeodeSetGeneralPatchPath
+1755 Name=GeodeSetLanguagePatchPath
+1756 Name=IsMultiLanguageModeOn
+1757 Name=InitFileBackupLanguage
+1758 Name=InitFileSwitchLanguages
+1759 Name=GeodeSnatchResource
+1760 Name=GEODESETGENERALPATCHPATH \
+	Comment=Boolean pascal GeodeSetGeneralPatchPath() in geode.h
+1761 Name=GEODESETLANGUAGEPATCHPATH \
+	Comment=Boolean pascal GeodeSetLanguagePatchPath() in geode.h
+1762 Name=ISMULTILANGUAGEMODEON \
+	Comment=Boolean pascal IsMultiLanguageModeOn() in geode.h
+1763 Name=GEODESNATCHRESOURCE Pascal=6 \
+	Comment=MemHandle pascal GeodeSnatchResource(FileHandle file, word resNum, word resOffset) in geode.h
+1764 Name=GeodeSetLanguageStandardPath
+1765 Name=GEODESETLANGUAGESTANDARDPATH Pascal=2 \
+	Comment=Boolean pascal GeodeSetLanguageStandardPath(word stdPath) in geode.h
+1766 Name=FILECOPYLOCAL Pascal=12 \
+	Comment=word pascal FileCopyLocal(const char *source, const char *dest, DiskHandle sourceDisk, DiskHandle destDisk) in file.h
+1767 Name=FILEMOVELOCAL Pascal=12 \
+	Comment=word pascal FileMoveLocal(const char *source, const char *dest, DiskHandle sourceDisk, DiskHandle destDisk) in file.h
+1768 Name=FileSetRootPath
+1769 Name=FILESETROOTPATH Pascal=2 \
+	Comment=void pascal FileSetRootPath(DiskHandle disk) in file.h
+1770 Name=LOCALSETCODEPAGE Pascal=2 \
+	Comment=Handle pascal LocalSetCodePage(DosCodePage dcp) in localize.h
+1771 Name=GEODEGETGEODERESOURCEHANDLE Pascal=4 \
+	Comment=MemHandle pascal GeodeGetGeodeResourceHandle(GeodeHandle geode, word resourceID) in resource.h
+1772 Name=InitFileMakeCanonicKeyCategory
+1773 Name=INITFILEMAKECANONICKEYCATEGORY Pascal=8 \
+	Comment=void pascal InitFileMakeCanonicKeyCategory(char *keyCat, const TCHAR *src) in initfile.h
+1782 Name=LZGCompress
+1783 Name=LZGCOMPRESS Pascal=12 \
+	Comment=int pascal LZGCompress(byte *compressBuffer, byte *data, int dataSize, MemHandle compressStack) in heap.h
+1784 Name=LZGUncompress
+1785 Name=LZGUNCOMPRESS Pascal=8 \
+	Comment=int pascal LZGUncompress(byte *dataBuffer, byte *compressedData) in heap.h
+1786 Name=LZGGetUncompressedSize
+1787 Name=LZGGETUNCOMPRESSEDSIZE Pascal=4 \
+	Comment=int pascal LZGGetUncompressedSize(byte *compressedData) in heap.h
+1788 Name=LZGAllocCompressStack
+1789 Name=LZGALLOCCOMPRESSSTACK Pascal=2 \
+	Comment=MemHandle pascal LZGAllocCompressStack(GeodeHandle stackOwner) in heap.h
+1790 Name=LZGFreeCompressStack
+1791 Name=LZGFREECOMPRESSSTACK Pascal=2 \
+	Comment=void pascal LZGFreeCompressStack(MemHandle compressStack) in heap.h
+;------------------EOF------------------

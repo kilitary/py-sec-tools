@@ -1,0 +1,66 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=usrsdpia.dll Args=0 Drops=59
+;---------------------------------------
+1 Name=DllMain Pascal=12
+2 Name=_dpsiCloseVoice@8 Pascal=8
+3 Name=_dpsiGetCommand@24 Pascal=24
+4 Name=_dpsiInitialize@8 Pascal=8
+5 Name=_dpsiIoStatus@12 Pascal=12
+6 Name=_dpsiIsRxBufferAvail@4 Pascal=4
+7 Name=_dpsiIssueRxData@16 Pascal=16
+8 Name=_dpsiIssueRxVoice@16 Pascal=16
+9 Name=_dpsiIssueTxData@16 Pascal=16
+10 Name=_dpsiIssueTxVoice@16 Pascal=16
+11 Name=_dpsiOpenVoice@12 Pascal=12
+12 Name=_dpsiReclaimRxData@20 Pascal=20
+13 Name=_dpsiReclaimRxVoice@20 Pascal=20
+14 Name=_dpsiReclaimTxData@20 Pascal=20
+15 Name=_dpsiReclaimTxVoice@20 Pascal=20
+16 Name=_dpsiReturnDataBuffers@8 Pascal=8
+17 Name=_dpsiReturnVoiceBuffers@8 Pascal=8
+18 Name=_dpsiSendResponse@24 Pascal=24
+19 Name=_dpsiShutdown@4 Pascal=4
+20 Name=_dpsiVarsPtr@0 Pascal=0
+21 Name=_sdpiCloseVoice@8 Pascal=8
+22 Name=_sdpiDataStreams@4 Pascal=4
+23 Name=_sdpiGetCommandHandle@4 Pascal=4
+24 Name=_sdpiGetResponse@24 Pascal=24
+25 Name=_sdpiGetResponseHandle@4 Pascal=4
+26 Name=_sdpiGetVariable@12 Pascal=12
+27 Name=_sdpiInitialize@24 Pascal=24
+28 Name=_sdpiIoStatus@12 Pascal=12
+29 Name=_sdpiIsDataPumpShutdown@4 Pascal=4
+30 Name=_sdpiIssue@16 Pascal=16
+31 Name=_sdpiIssueRxData@16 Pascal=16
+32 Name=_sdpiIssueRxVoice@16 Pascal=16
+33 Name=_sdpiIssueTxData@16 Pascal=16
+34 Name=_sdpiIssueTxVoice@16 Pascal=16
+35 Name=_sdpiOpenVoice@12 Pascal=12
+36 Name=_sdpiReclaim@20 Pascal=20
+37 Name=_sdpiReclaimRxData@20 Pascal=20
+38 Name=_sdpiReclaimRxVoice@20 Pascal=20
+39 Name=_sdpiReclaimTxData@20 Pascal=20
+40 Name=_sdpiReclaimTxVoice@20 Pascal=20
+41 Name=_sdpiSendCommand@24 Pascal=24
+42 Name=_sdpiSetVariable@12 Pascal=12
+43 Name=_sdpiShutdown@4 Pascal=4
+44 Name=_sdpiTraceDeRegister@4 Pascal=4
+45 Name=sdpiTracePrintfError Pascal=0
+46 Name=_sdpiTraceRegister@8 Pascal=8
+47 Name=_sdpiVoiceStreams@4 Pascal=4
+48 Name=traceCmndPrintf Pascal=0
+49 Name=_traceCmndSeq@8 Pascal=8
+50 Name=_traceDataDump@12 Pascal=12
+51 Name=_traceDataWrite@12 Pascal=12
+52 Name=traceDeInit Pascal=0
+53 Name=_traceEvent@16 Pascal=16
+54 Name=traceExec Pascal=16
+55 Name=traceInit Pascal=4
+56 Name=_traceSdpiCmnd@12 Pascal=12
+57 Name=_traceSdpiData@12 Pascal=12
+58 Name=_traceSdpiError@12 Pascal=12
+59 Name=_traceSdpiResp@12 Pascal=12
+;------------------EOF------------------

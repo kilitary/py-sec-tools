@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PPP Pascal=0
+;---------------------------------------
+1 Name=Install
+2 Name=_ZN8TPppAddrC1Ev
+3 Name=_ZN8TPppAddraSERK9TSockAddr
+4 Name=_ZN8TPppAddrC2Ev
+5 Name=_ZTI7MPppFsm
+6 Name=_ZTI9MPppRecvr
+7 Name=_ZTV7MPppFsm
+8 Name=_ZTV9MPppRecvr
+;------------------EOF------------------

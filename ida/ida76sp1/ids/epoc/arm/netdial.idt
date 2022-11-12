@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NETDIAL Pascal=0
+;---------------------------------------
+1 Name=NewAgentFactoryL
+2 Name=StartDialOut__8RNetDial
+3 Name=ResolveError__8RNetDialRi
+4 Name=StartDialIn__8RNetDial22TNetDialConnectionMode
+5 Name=StartDialOut__8RNetDialR26CStoreableOverrideSettings
+6 Name=_._8RNetDial
+7 Name=__8RNetDial
+8 Name=GetActiveDesSetting__8RNetDialRC6TDesC8T1R5TDes8
+9 Name=GetActiveDesSetting__8RNetDialRC6TDesC8T1R6TDes16
+10 Name=GetActiveIntSetting__8RNetDialRC6TDesC8T1Ri
+11 Name=GetActiveLongDesSetting__8RNetDialRC6TDesC8T1R5TDes8
+12 Name=StartDialIn__8RNetDialR26CStoreableOverrideSettings22TNetDialConnectionMode
+13 Name=GetActiveBoolSetting__8RNetDialRC6TDesC8T1Ri
+14 Name=RequestConnectionType__8RNetDialR22TNetDialConnectionMode
+;------------------EOF------------------

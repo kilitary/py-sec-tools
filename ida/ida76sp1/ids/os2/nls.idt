@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NLS.dll Pascal=0
+;---------------------------------------
+1 Name=DosCaseMap
+2 Name=DosGetCollate
+3 Name=DosGetCtryInfo
+4 Name=DosGetDBCSEv
+5 Name=DosQueryCtryInfo
+6 Name=DosQueryDBCSEnv
+7 Name=DosMapCase
+8 Name=DosQueryCollate
+;------------------EOF------------------

@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CNTHND Pascal=0
+;---------------------------------------
+1 Name=CreatePluginManagerL__FR3RFsR8RLibrary
+2 Name=CreatePluginL__FR3RFsRC8RLibraryi
+3 Name=CreateActivePluginL__FR3RFsRC8RLibraryi
+4 Name=_._25CContentHandlerPluginBase
+5 Name=__25CContentHandlerPluginBaseR3RFsRC8RLibraryi
+;------------------EOF------------------

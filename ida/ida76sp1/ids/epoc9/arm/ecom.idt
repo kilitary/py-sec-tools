@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ECOM Pascal=0
+;---------------------------------------
+1 Name=_ZN12REComSession10FinalCloseEv
+2 Name=_ZN12REComSession14NotifyOnChangeER14TRequestStatus
+3 Name=_ZN12REComSession20CancelNotifyOnChangeER14TRequestStatus
+4 Name=_ZN12REComSession20ListImplementationsLE4TUidR13RPointerArrayI26CImplementationInformationE
+5 Name=_ZN12REComSession20ListImplementationsLE4TUidRK19TEComResolverParamsR13RPointerArrayI26CImplementationInformationE
+6 Name=_ZN12REComSession20ListImplementationsLE4TUidRK19TEComResolverParamsS0_R13RPointerArrayI26CImplementationInformationE
+7 Name=_ZN12REComSession21CreateImplementationLE4TUidRS0_
+8 Name=_ZN12REComSession21CreateImplementationLE4TUidRS0_Pv
+9 Name=_ZN12REComSession21CreateImplementationLE4TUidRS0_PvRK19TEComResolverParams
+10 Name=_ZN12REComSession21CreateImplementationLE4TUidRS0_PvRK19TEComResolverParamsS0_
+11 Name=_ZN12REComSession21CreateImplementationLE4TUidRS0_RK19TEComResolverParams
+12 Name=_ZN12REComSession21CreateImplementationLE4TUidRS0_RK19TEComResolverParamsS0_
+13 Name=_ZN12REComSession21CreateImplementationLE4TUidl
+14 Name=_ZN12REComSession21CreateImplementationLE4TUidlPv
+15 Name=_ZN12REComSession21CreateImplementationLE4TUidlPvRK19TEComResolverParams
+16 Name=_ZN12REComSession21CreateImplementationLE4TUidlPvRK19TEComResolverParamsS0_
+17 Name=_ZN12REComSession21CreateImplementationLE4TUidlRK19TEComResolverParams
+18 Name=_ZN12REComSession21CreateImplementationLE4TUidlRK19TEComResolverParamsS0_
+19 Name=_ZN12REComSession23DestroyedImplementationE4TUid
+20 Name=_ZN12REComSession5CloseEv
+21 Name=_ZN12REComSession5OpenLEv
+22 Name=_ZN12REComSessionC1Ev
+23 Name=_ZN12REComSessionC2Ev
+24 Name=_ZN12REComSession17SetGetParametersLERK8TIpcArgs
+;------------------EOF------------------

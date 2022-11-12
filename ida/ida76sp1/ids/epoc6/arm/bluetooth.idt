@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BLUETOOTH Pascal=0
+;---------------------------------------
+1 Name=__16TInquirySockAddrRC9TSockAddr
+2 Name=SetBTAddr__11TBTSockAddrRC10TBTDevAddr
+3 Name=UpdateFlowCtrlBit__23TRfcommRemotePortParamsUc16TRPNFlowCtrlMask
+4 Name=UpdateFromRPNTransaction__23TRfcommRemotePortParamsRC21TRfcommRPNTransaction
+5 Name=UpdateWholeFlowCtrl__23TRfcommRemotePortParamsUsUc
+6 Name=__10TBTDevAddr
+7 Name=__10TBTDevAddrRC6TDesC8
+8 Name=__10TBTDevAddrRC6TInt64
+9 Name=__11TBTSockAddr
+10 Name=__11TBTSockAddrRC9TSockAddr
+11 Name=__14TL2CAPSockAddr
+12 Name=__14TL2CAPSockAddrRC9TSockAddr
+13 Name=__15TRfcommSockAddr
+14 Name=__15TRfcommSockAddrRC9TSockAddr
+15 Name=__16TInquirySockAddr
+16 Name=BTAddr__C11TBTSockAddr
+17 Name=__5TUUIDUlUlUlUl
+18 Name=Des__C5TUUID
+19 Name=LongForm__C5TUUID
+20 Name=SetL__5TUUIDRC6TDesC8
+21 Name=ShortestForm__C5TUUID
+22 Name=__5TUUID
+23 Name=__5TUUIDUl
+;------------------EOF------------------

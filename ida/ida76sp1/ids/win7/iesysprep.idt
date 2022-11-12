@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iesysprep.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=Sysprep_Cleanup_IE Pascal=0
+2 Name=Sysprep_Generalize_IE Pascal=0
+3 Name=Sysprep_Specialize_IE Pascal=0
+;------------------EOF------------------

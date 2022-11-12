@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CITYDB.dll Pascal=0
+;---------------------------------------
+1 Name=ClockGetNumCities
+2 Name=ClockGetNumTimezones
+3 Name=ClockGetCityData
+4 Name=ClockGetTimeZoneData
+5 Name=ClockGetDefaultHomeIndex
+6 Name=ClockGetDefaultVisitingIndex
+7 Name=GetFormattedTimeZoneString
+8 Name=PimLoadStringClock
+9 Name=PimLoadNonLocalStringClock
+10 Name=PimDisplayMessageClock
+11 Name=PimLoadAcceleratorsClock
+12 Name=PimLoadBitmapClock
+13 Name=PimDialogBoxParamClock
+14 Name=PimCreateDialogParamClock
+;------------------EOF------------------

@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mqqm.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=??0CPerf@@QAE@PAU_PerfObjectDef@@K@Z Pascal=8
+2 Name=??0CPerfUnLockMem@@QAE@PAXK@Z Pascal=8
+3 Name=??1CPerf@@QAE@XZ Pascal=0
+4 Name=??1CPerfUnLockMem@@QAE@XZ Pascal=0
+5 Name=??4CPerf@@QAEAAV0@ABV0@@Z Pascal=4
+6 Name=??4CPerfUnLockMem@@QAEAAV0@ABV0@@Z Pascal=4
+7 Name=?AddInstance@CPerf@@QAEPAXPBG0@Z Pascal=8
+8 Name=?EnableUpdate@CPerf@@QAEXPAXKH@Z Pascal=12
+9 Name=?FindObject@CPerf@@AAEHPBG@Z Pascal=4
+10 Name=?GetCounters@CPerf@@QAEPAXPAG@Z Pascal=4
+11 Name=?InValidateObject@CPerf@@QAEHPAG@Z Pascal=4
+12 Name=?InitPerf@CPerf@@QAEHXZ Pascal=0
+13 Name=?IsDummyInstance@CPerf@@QAEHPAX@Z Pascal=4
+14 Name=?PerfApp@@3VCPerf@@A
+15 Name=?QMMain@@YGHHQAPBG@Z Pascal=8
+16 Name=?RemoveInstance@CPerf@@QAEHPAGPAX@Z Pascal=8
+17 Name=?SetInstanceName@CPerf@@QAEHPBXPBG@Z Pascal=8
+18 Name=?ValidateObject@CPerf@@QAEHPAG@Z Pascal=4
+;------------------EOF------------------

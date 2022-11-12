@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=connect.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=AddConnectionOptionListEntries Pascal=12
+2 Name=CreateVPNConnection Pascal=24
+3 Name=DllCanUnloadNow Pascal=0
+4 Name=DllGetClassObject Pascal=12
+5 Name=GetInternetConnected Pascal=24
+6 Name=GetNetworkConnected Pascal=24
+7 Name=GetVPNConnected Pascal=24
+8 Name=HrIsInternetConnected Pascal=0
+9 Name=HrIsInternetConnectedGUID Pascal=8
+10 Name=IsInternetConnected Pascal=0
+11 Name=IsInternetConnectedGUID Pascal=8
+12 Name=IsUniqueConnectionName Pascal=4
+13 Name=RegisterPageWithPage Pascal=28
+14 Name=UnregisterPage Pascal=8
+15 Name=UnregisterPagesLink Pascal=8
+;------------------EOF------------------

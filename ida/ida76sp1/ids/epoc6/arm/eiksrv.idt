@@ -1,0 +1,46 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EIKSRV Pascal=0
+;---------------------------------------
+1 Name=_._24CEikPasswordModeCategory
+2 Name=GetPasswordModeL__C24CEikPasswordModeCategoryR13TPasswordMode
+3 Name=NewLC__24CEikPasswordModeCategoryR3RFs
+4 Name=SetPasswordModeL__24CEikPasswordModeCategory13TPasswordMode
+5 Name=__24CEikAlmControlSupervisor
+6 Name=CmdAcknowledgeAlarm__24CEikAlmControlSupervisor
+7 Name=CmdPauseAlarmSound__24CEikAlmControlSupervisori
+8 Name=CmdSilenceAlarmSound__24CEikAlmControlSupervisor
+9 Name=CmdTaskAwayFromAlarm__24CEikAlmControlSupervisor
+10 Name=ConstructL__17CEikServAppUiBase
+11 Name=ConstructL__24CEikAlmControlSupervisorP20MEikServAlarmFactory
+12 Name=CycleTasks__C17CEikServAppUiBaseQ217CEikServAppUiBase19TTaskCycleDirection
+13 Name=DisplayInfoPrint__20CEikServNotifyServerRC7TDesC16
+14 Name=DisplayNotifier__20CEikServNotifyServerRC7TDesC16N31
+15 Name=HandleApplicationSpecificEventL__17CEikServAppUiBaseiRC8TWsEvent
+16 Name=HandleKeyEventL__17CEikServAppUiBaseRC9TKeyEvent10TEventCode
+17 Name=HandleSwitchOnEventL__17CEikServAppUiBaseP11CCoeControl
+18 Name=HandleSwitchOnEvent__24CEikServAlarmAlertServer
+19 Name=HandleSystemEventL__17CEikServAppUiBaseRC8TWsEvent
+20 Name=HandleThreadExitL__17CEikServAppUiBaseR7RThread
+21 Name=InitializeL__17CEikServAppUiBaseR21TEikServCtrlFactories
+22 Name=LaunchTaskListL__C17CEikServAppUiBase
+23 Name=NewLC__17CEikServAppUiBase
+24 Name=NewL__14CEikUndertakerR22MEikUndertakerObserver
+25 Name=NotifyAlarmServerOfTaskChange__C17CEikServAppUiBase
+26 Name=_._11CEikServEnv
+27 Name=_._14CEikUndertaker
+28 Name=_._17CEikServAppUiBase
+29 Name=__11CEikServEnv
+30 Name=__17CEikServAppUiBase
+31 Name=BringAlertGroupWinForwards__17CEikServAppUiBasei
+32 Name=SetStatusPaneFlags__C17CEikServAppUiBasei
+33 Name=SetStatusPaneLayoutL__C17CEikServAppUiBasei
+34 Name=_._20CEikServNotifyServer
+35 Name=__20CEikServNotifyServeri
+36 Name=UnblankScreen__17CEikServAppUiBase
+37 Name=BlankScreenL__17CEikServAppUiBase
+38 Name=MEikSrvNotifierBase_Reserved_1__19MEikSrvNotifierBase
+39 Name=NewL__19CEikServAppUiServer
+;------------------EOF------------------

@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SISXFILE Pascal=0
+;---------------------------------------
+1 Name=_ZN3Swi3Sis6Parser9ContentsLERNS_16MSisDataProviderE
+2 Name=_ZN3Swi3Sis9CContents9ReadDataLER5RFileii
+3 Name=_ZNK3Swi3Sis6CField6LengthEv
+4 Name=_ZNK3Swi3Sis9CContents15ReadControllerLEv
+5 Name=_ZTIN3Swi23CCompressedDataProviderE
+6 Name=_ZTIN3Swi3Sis11CCompressedE
+7 Name=_ZTIN3Swi3Sis4CCrcE
+8 Name=_ZTIN3Swi3Sis5CDataE
+9 Name=_ZTIN3Swi3Sis6CFieldE
+10 Name=_ZTIN3Swi3Sis9CContentsE
+11 Name=_ZTIN3Swi3Sis9CDataUnitE
+12 Name=_ZTIN3Swi3Sis9CFileDataE
+13 Name=_ZTVN3Swi23CCompressedDataProviderE
+14 Name=_ZTVN3Swi3Sis11CCompressedE
+15 Name=_ZTVN3Swi3Sis4CCrcE
+16 Name=_ZTVN3Swi3Sis5CDataE
+17 Name=_ZTVN3Swi3Sis6CFieldE
+18 Name=_ZTVN3Swi3Sis9CContentsE
+19 Name=_ZTVN3Swi3Sis9CDataUnitE
+20 Name=_ZTVN3Swi3Sis9CFileDataE
+21 Name=_ZN3Swi3Sis9CContents9ReadDataLER5RFileiix
+22 Name=_ZN3Swi3Sis5CBlob4NewLERNS_16MSisDataProviderERxNS0_18TReadTypeBehaviourE
+23 Name=_ZN3Swi3Sis5CBlob5NewLCERNS_16MSisDataProviderERxNS0_18TReadTypeBehaviourE
+24 Name=_ZN3Swi3Sis5CBlobD0Ev
+25 Name=_ZN3Swi3Sis5CBlobD1Ev
+26 Name=_ZN3Swi3Sis5CBlobD2Ev
+27 Name=_ZN3Swi3Sis6Parser14CreateSisStubLER5RFileRNS_16MSisDataProviderE
+28 Name=_ZTIN3Swi3Sis5CBlobE
+29 Name=_ZTVN3Swi3Sis5CBlobE
+30 Name=_ZN3Swi3Sis9CContents9CheckCrcLEv
+;------------------EOF------------------

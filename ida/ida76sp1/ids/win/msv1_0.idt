@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msv1_0.dll Args=0 Drops=18
+;---------------------------------------
+1 Name=SpInitialize Pascal=12
+2 Name=MsvIsLocalhostAliases Pascal=4
+3 Name=SpLsaModeInitialize Pascal=16
+4 Name=SpUserModeInitialize Pascal=16
+5 Name=SupportsChannelBinding Pascal=0
+6 Name=LsaApCallPackage Pascal=28
+7 Name=LsaApCallPackagePassthrough Pascal=28
+8 Name=LsaApCallPackageUntrusted Pascal=28
+9 Name=LsaApInitializePackage Pascal=20
+10 Name=LsaApLogonTerminated Pascal=4
+11 Name=LsaApLogonUserEx2 Pascal=64
+12 Name=Msv1_0ExportSubAuthenticationRoutine Pascal=40
+13 Name=Msv1_0SubAuthenticationPresent Pascal=4
+14 Name=MsvGetLogonAttemptCount Pascal=0
+15 Name=MsvSamLogoff Pascal=12
+16 Name=MsvSamValidate Pascal=52
+17 Name=MsvValidateTarget Pascal=12
+32 Name=SpInstanceInit Pascal=12
+;------------------EOF------------------

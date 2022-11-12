@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMSS_GSM Pascal=0
+;---------------------------------------
+1 Name=_ZN13CSmsServerMtm4NewLER17CRegisteredMtmDllP15CMsvServerEntry
+2 Name=_ZTI11CSmssActive
+3 Name=_ZTI12CSmsSimUtils
+4 Name=_ZTI13CSmsServerMtm
+5 Name=_ZTI14CSmsOutboxSend
+6 Name=_ZTI15CSmsSendSession
+7 Name=_ZTI16CSmsScheduleSend
+8 Name=_ZTI17CSmsRecipientSend
+9 Name=_ZTI17CWapRecipientSend
+10 Name=_ZTI18CSmsScheduledEntry
+11 Name=_ZTI18CTextRecipientSend
+12 Name=_ZTI8CSmsSend
+13 Name=_ZTIN15CSmsSendSession12CSmsSendTypeE
+14 Name=_ZTV11CSmssActive
+15 Name=_ZTV12CSmsSimUtils
+16 Name=_ZTV13CSmsServerMtm
+17 Name=_ZTV14CSmsOutboxSend
+18 Name=_ZTV15CSmsSendSession
+19 Name=_ZTV16CSmsScheduleSend
+20 Name=_ZTV17CSmsRecipientSend
+21 Name=_ZTV17CWapRecipientSend
+22 Name=_ZTV18CSmsScheduledEntry
+23 Name=_ZTV18CTextRecipientSend
+24 Name=_ZTV8CSmsSend
+25 Name=_ZTVN15CSmsSendSession12CSmsSendTypeE
+;------------------EOF------------------

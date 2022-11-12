@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PUSHSECURITY Pascal=0
+;---------------------------------------
+1 Name=CreatePluginManagerL__FR3RFsR8RLibrary
+2 Name=CreatePluginL__FR3RFsRC8RLibraryi
+3 Name=CreateActivePluginL__FR3RFsRC8RLibraryi
+4 Name=GetSharedSecretLC__16CWapPushSecurityRP6HBufC8
+5 Name=Extend_CWapPushSecurity__16CWapPushSecurityPv
+6 Name=Extend_CWapPushSecurity__C16CWapPushSecurityPv
+7 Name=Extend_MSecurityPolicy__15MSecurityPolicyPv
+8 Name=Extend_MSecurityPolicy__C15MSecurityPolicyPv
+9 Name=GetCipherSuitesL__16CWapPushSecurityRt13CArrayFixFlat1ZQ25RWTLS12TCipherSuite
+10 Name=GetKeyExchangeSuiteAnon__16CWapPushSecurityRQ25RWTLS17TKeyExchangeSuiteRQ25RWTLS7TIdTypeR5TDes8
+11 Name=GetKeyExchangeSuiteNormal__16CWapPushSecurityRQ25RWTLS17TKeyExchangeSuiteRQ25RWTLS7TIdTypeR5TDes8
+12 Name=GetKeyRefreshRate__16CWapPushSecurityRUc
+13 Name=GetNegotiatedCipherAction__16CWapPushSecurityPQ25RWTLS12TCipherSuitePQ25RWTLS19TSequenceNumberMode
+14 Name=GetNumCipherSuites__16CWapPushSecurityRi
+15 Name=GetRecordLengthUsage__16CWapPushSecurityRi
+16 Name=GetSequenceNumberMode__16CWapPushSecurityRQ25RWTLS19TSequenceNumberMode
+17 Name=AnonymousAuthenticationAllowed__16CWapPushSecurity
+;------------------EOF------------------

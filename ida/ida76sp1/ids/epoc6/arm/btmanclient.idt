@@ -1,0 +1,77 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTMANCLIENT Pascal=0
+;---------------------------------------
+1 Name=__eq__C21TBTAccessRequirementsRC21TBTAccessRequirements
+2 Name=Action__21TBTSecurityHCIRequest
+3 Name=Authenticated__C20TBTBasebandLinkState
+4 Name=AuthenticationFailed__C20TBTBasebandLinkState
+5 Name=AuthenticationRequired__C18TBTServiceSecurity
+6 Name=AuthenticationRequired__C21TBTAccessRequirements
+7 Name=AuthorisationFailed__C21TBTAccessRequestState
+8 Name=AuthorisationRequired__C18TBTServiceSecurity
+9 Name=AuthorisationRequired__C21TBTAccessRequirements
+10 Name=Authorised__C21TBTAccessRequestState
+11 Name=BDAddr__21TBTSecurityHCIRequest
+12 Name=CancelRequest__16RBTManSubSessionR14TRequestStatus
+13 Name=ChannelID__C18TBTServiceSecurity
+14 Name=Close__19RBTBasebandSecurity
+15 Name=Close__19RBTSecuritySettings
+16 Name=Close__9RBTSecMan
+17 Name=Connect__6RBTMan
+18 Name=Denied__C18TBTServiceSecurity
+19 Name=Denied__C21TBTAccessRequirements
+20 Name=DeviceNameRequestResponse__19RBTBasebandSecurityRC10TBTDevAddrRC7TDesC16iR14TRequestStatus
+21 Name=Encrypted__C20TBTBasebandLinkState
+22 Name=EncryptionFailed__C20TBTBasebandLinkState
+23 Name=EncryptionRequired__C18TBTServiceSecurity
+24 Name=EncryptionRequired__C21TBTAccessRequirements
+25 Name=HCIRequestHandler__19RBTBasebandSecurityRt8TPckgBuf1Z21TBTSecurityHCIRequestR14TRequestStatus
+26 Name=Int__C20TBTBasebandLinkState
+27 Name=LinkDown__C20TBTBasebandLinkState
+28 Name=LinkKeyRequest__19RBTBasebandSecurityRC10TBTDevAddrRt8TPckgBuf1Z11TLinkKeyV10R14TRequestStatus
+29 Name=LinkUp__C20TBTBasebandLinkState
+30 Name=NewLinkKey__19RBTBasebandSecurityRC10TBTDevAddrRCt8TPckgBuf1Z11TLinkKeyV10R14TRequestStatus
+31 Name=NewLinkState__19RBTBasebandSecurityRC10TBTDevAddrG20TBTBasebandLinkStateR14TRequestStatus
+32 Name=Open__19RBTBasebandSecurityR6RBTMan
+33 Name=Open__19RBTSecuritySettingsR6RBTMan
+34 Name=Open__9RBTSecManR6RBTMan
+35 Name=PinRequest__19RBTBasebandSecurityRC10TBTDevAddrRt8TPckgBuf1Z11TPINCodeV10R14TRequestStatus
+36 Name=ProtocolID__C18TBTServiceSecurity
+37 Name=RegisterService__19RBTSecuritySettingsRC18TBTServiceSecurityR14TRequestStatus
+38 Name=SetAuthenticated__20TBTBasebandLinkStatei
+39 Name=SetAuthenticationFailed__20TBTBasebandLinkStatei
+40 Name=SetAuthentication__18TBTServiceSecurityi
+41 Name=SetAuthentication__21TBTAccessRequirementsi
+42 Name=SetAuthorisationFailed__21TBTAccessRequestStatei
+43 Name=SetAuthorisation__18TBTServiceSecurityi
+44 Name=SetAuthorisation__21TBTAccessRequirementsi
+45 Name=SetAuthorised__21TBTAccessRequestStatei
+46 Name=SetChannelID__18TBTServiceSecurityi
+47 Name=SetDenied__18TBTServiceSecurityi
+48 Name=SetDenied__21TBTAccessRequirementsi
+49 Name=SetEncrypted__20TBTBasebandLinkStatei
+50 Name=SetEncryptionFailed__20TBTBasebandLinkStatei
+51 Name=SetEncryption__18TBTServiceSecurityi
+52 Name=SetEncryption__21TBTAccessRequirementsi
+53 Name=SetLinkDown__20TBTBasebandLinkStatei
+54 Name=SetLinkUp__20TBTBasebandLinkStatei
+55 Name=SetProtocolID__18TBTServiceSecurityi
+56 Name=SetUid__18TBTServiceSecurityG4TUid
+57 Name=Uid__C18TBTServiceSecurity
+58 Name=UnregisterService__19RBTSecuritySettingsRC18TBTServiceSecurityR14TRequestStatus
+59 Name=Update__21TBTAccessRequestStateG20TBTBasebandLinkState
+60 Name=Version__C6RBTMan
+61 Name=__18TBTServiceSecurity
+62 Name=__18TBTServiceSecurityG4TUidii
+63 Name=__18TBTServiceSecurityRC18TBTServiceSecurity
+64 Name=__20TBTBasebandLinkState
+65 Name=__20TBTBasebandLinkStatei
+66 Name=__21TBTAccessRequirements
+67 Name=__21TBTSecurityHCIRequest
+68 Name=__21TBTSecurityHCIRequestRC10TBTDevAddrQ221TBTSecurityHCIRequest11THCIRequest
+69 Name=__6RBTMan
+70 Name=AccessRequest__9RBTSecManiiRC10TBTDevAddrR14TRequestStatus
+;------------------EOF------------------

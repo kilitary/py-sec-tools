@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SPI Pascal=0
+;---------------------------------------
+1 Name=DataChanged__14CSPluginServeri
+2 Name=MPluginCacheManagerObserverReserved1__27MPluginCacheManagerObserver
+3 Name=MPluginCacheManagerObserverReserved1__C27MPluginCacheManagerObserver
+;------------------EOF------------------

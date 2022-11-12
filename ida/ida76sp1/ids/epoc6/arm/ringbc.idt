@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RINGBC Pascal=0
+;---------------------------------------
+1 Name=NewL__CRingingToneBioControlRMMsgBioControlObserverPCMsvSessionlTMsgBioModeRCtTBuf1i256
+;------------------EOF------------------

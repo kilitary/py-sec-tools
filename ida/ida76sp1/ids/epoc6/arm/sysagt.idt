@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SYSAGT Pascal=0
+;---------------------------------------
+1 Name=__18RSAVarChangeNotify
+2 Name=GetState__12RSystemAgentG4TUid
+3 Name=GetStates__12RSystemAgentRCt13CArrayFixFlat1Z4TUidRt13CArrayFixFlat1Zi
+4 Name=NotifyEventCancel__12RSystemAgent
+5 Name=NotifyIREvent__10RISANotify11TSAIrStatus
+6 Name=NotifyOnAnyEvent__12RSystemAgentR14TSysAgentEvent
+7 Name=NotifyOnCondition__12RSystemAgentRt13CArrayFixFlat1Z18TSysAgentConditionR14TRequestStatus
+8 Name=NotifyOnEvent__12RSystemAgentR14TSysAgentEvent
+9 Name=NotifySaVarChangeL__18RSAVarChangeNotifyG4TUidi
+10 Name=SetEventBufferEnabled__12RSystemAgenti
+11 Name=SetEventBufferEnabled__12RSystemAgentiG20TTimeIntervalSeconds
+12 Name=SetRequestStatus__14TSysAgentEventR14TRequestStatus
+13 Name=SetUid__14TSysAgentEventG4TUid
+14 Name=State__14TSysAgentEvent
+15 Name=Uid__14TSysAgentEvent
+16 Name=Version__C16RSystemAgentBase
+17 Name=__10RISANotify
+18 Name=__12RSystemAgent
+19 Name=__14TSysAgentEventR14TRequestStatus
+20 Name=Connect__16RSystemAgentBase
+21 Name=__14TSysAgentEvent
+22 Name=ReleaseVariable__18RSAVarChangeNotifyG4TUid
+23 Name=__DbgShutDownServer__12RSystemAgent
+24 Name=__DbgFailAlloc__12RSystemAgenti
+25 Name=__DbgMarkEnd__12RSystemAgent
+26 Name=__DbgMarkHeap__12RSystemAgent
+27 Name=__DbgEventGenerator__12RSystemAgenti
+28 Name=NotifyIREventSynchronously__10RISANotify11TSAIrStatus
+;------------------EOF------------------

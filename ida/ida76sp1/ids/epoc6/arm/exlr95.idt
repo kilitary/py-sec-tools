@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EXLR95 Pascal=0
+;---------------------------------------
+1 Name=GetLastRow__16CBiffDIMENSIONS7Ri
+2 Name=GetCellText__12CBiffSTRING7R6TDes16
+3 Name=GetFormatString__12CBiffFORMAT7R6TDes16
+4 Name=DoConvertL__20CExcel95StreamReader
+5 Name=MaxStepsL__20CExcel95StreamReader
+6 Name=NewL__20CExcel95StreamReaderP18COle2StreamPackageRCt4TBuf1i256R3RFsP20MConverterUiObserver
+7 Name=_._20CExcel95StreamReader
+;------------------EOF------------------

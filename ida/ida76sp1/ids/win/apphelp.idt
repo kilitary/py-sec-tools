@@ -1,0 +1,87 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=apphelp.dll Args=0 Drops=80
+;---------------------------------------
+1 Name=AllowPermLayer Pascal=4
+2 Name=ApphelpCheckExe Pascal=16
+3 Name=ApphelpCheckIME Pascal=4
+4 Name=ApphelpCheckInstallShieldPackage Pascal=8
+5 Name=ApphelpCheckMsiPackage Pascal=16
+6 Name=ApphelpCheckRunApp Pascal=32
+7 Name=ApphelpCheckShellObject Pascal=12
+8 Name=ApphelpFixMsiPackage Pascal=20
+9 Name=ApphelpFixMsiPackageExe Pascal=20
+10 Name=ApphelpFreeFileAttributes Pascal=4
+11 Name=ApphelpGetFileAttributes Pascal=12
+12 Name=ApphelpGetNTVDMInfo Pascal=24
+13 Name=ApphelpQueryModuleData Pascal=20
+14 Name=ApphelpShowDialog Pascal=8
+15 Name=ApphelpShowUI Pascal=24
+16 Name=ApphelpUpdateCacheEntry Pascal=16
+17 Name=GetPermLayers Pascal=16
+18 Name=SdbCloseApphelpInformation Pascal=4
+19 Name=SdbCloseDatabase Pascal=4
+20 Name=SdbCreateMsiTransformFile Pascal=12
+21 Name=SdbDeletePermLayerKeys Pascal=8
+22 Name=SdbEnumMsiTransforms Pascal=16
+23 Name=SdbFindFirstMsiPackage Pascal=16
+24 Name=SdbFindFirstMsiPackage_Str Pascal=16
+25 Name=SdbFindFirstNamedTag Pascal=20
+26 Name=SdbFindFirstTag Pascal=12
+27 Name=SdbFindFirstTagRef Pascal=12
+28 Name=SdbFindNextMsiPackage Pascal=8
+29 Name=SdbFindNextTag Pascal=12
+30 Name=SdbFindNextTagRef Pascal=12
+31 Name=SdbFreeFlagInfo Pascal=4
+32 Name=SdbGetBinaryTagData Pascal=8
+33 Name=SdbGetDatabaseID Pascal=8
+34 Name=SdbGetDatabaseMatch Pascal=20
+35 Name=SdbGetDatabaseVersion Pascal=12
+36 Name=SdbGetEntryFlags Pascal=8
+37 Name=SdbGetFirstChild Pascal=8
+38 Name=SdbGetMsiPackageInformation Pascal=12
+39 Name=SdbGetNextChild Pascal=12
+40 Name=SdbGetPermLayerKeys Pascal=16
+41 Name=SdbGetStandardDatabaseGUID Pascal=8
+42 Name=SdbGetStringTagPtr Pascal=8
+43 Name=SdbGetTagDataSize Pascal=8
+44 Name=SdbGetTagFromTagID Pascal=8
+45 Name=SdbGrabMatchingInfo Pascal=12
+46 Name=SdbGrabMatchingInfoEx Pascal=20
+47 Name=SdbInitDatabase Pascal=8
+48 Name=SdbOpenApphelpDetailsDatabase Pascal=4
+49 Name=SdbOpenApphelpDetailsDatabaseSP Pascal=0
+50 Name=SdbOpenApphelpInformation Pascal=8
+51 Name=SdbOpenDatabase Pascal=8
+52 Name=SdbQueryApphelpInformation Pascal=16
+53 Name=SdbQueryData Pascal=24
+54 Name=SdbQueryDataEx Pascal=28
+55 Name=SdbQueryFlagInfo Pascal=20
+56 Name=SdbReadBYTETag Pascal=12
+57 Name=SdbReadBYTETagRef Pascal=12
+58 Name=SdbReadBinaryTag Pascal=16
+59 Name=SdbReadDWORDTag Pascal=12
+60 Name=SdbReadDWORDTagRef Pascal=12
+61 Name=SdbReadEntryInformation Pascal=12
+62 Name=SdbReadMsiTransformInfo Pascal=12
+63 Name=SdbReadQWORDTag Pascal=16
+64 Name=SdbReadQWORDTagRef Pascal=16
+65 Name=SdbReadStringTag Pascal=16
+66 Name=SdbReadStringTagRef Pascal=16
+67 Name=SdbReadWORDTag Pascal=12
+68 Name=SdbReadWORDTagRef Pascal=12
+69 Name=SdbRegisterDatabase Pascal=8
+70 Name=SdbRegisterDatabaseEx Pascal=12
+71 Name=SdbReleaseDatabase Pascal=4
+72 Name=SdbResolveDatabase Pascal=16
+73 Name=SdbSetPermLayerKeys Pascal=12
+74 Name=SdbTagIDToTagRef Pascal=16
+75 Name=SdbTagRefToTagID Pascal=16
+76 Name=SdbTagToString Pascal=4
+77 Name=SdbUnregisterDatabase Pascal=4
+78 Name=SetPermLayers Pascal=12
+79 Name=ShimDumpCache Pascal=16
+80 Name=ShimFlushCache Pascal=16
+;------------------EOF------------------

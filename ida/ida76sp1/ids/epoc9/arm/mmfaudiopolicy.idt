@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MMFAUDIOPOLICY Pascal=0
+;---------------------------------------
+1 Name=_ZN12CAudioPolicy4NewLEP21CMMFAudioPolicyServer
+2 Name=_ZN21CMMFAudioPolicyServer11StartThreadEPv
+3 Name=_ZTI10CMdaHwInfo
+4 Name=_ZTI22CMMFAudioPolicySession
+5 Name=_ZTI28CMMFAudioPolicyEventReceiver
+6 Name=_ZTV10CMdaHwInfo
+7 Name=_ZTV22CMMFAudioPolicySession
+8 Name=_ZTV28CMMFAudioPolicyEventReceiver
+9 Name=_ZTIN21CMMFAudioPolicyServer18CNotificationTimerE
+10 Name=_ZTVN21CMMFAudioPolicyServer18CNotificationTimerE
+;------------------EOF------------------

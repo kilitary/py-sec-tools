@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rsvpperf.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=CloseRsvpPerformanceData Pascal=0
+2 Name=CollectRsvpPerformanceData Pascal=16
+3 Name=OpenRsvpPerformanceData Pascal=4
+;------------------EOF------------------

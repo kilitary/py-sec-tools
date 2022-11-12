@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EIKBACKUPSRV Pascal=0
+;---------------------------------------
+1 Name=_ZN20CEikServBackupServer4NewLEv
+2 Name=_ZTI11CAppShutter
+3 Name=_ZTI11CAppStarter
+4 Name=_ZTI11CAppWatcher
+5 Name=_ZTI18CEikServAppShutter
+6 Name=_ZTI20CEikServBackupServer
+7 Name=_ZTI21CEikServBackupSession
+8 Name=_ZTIN11CAppShutter13CShutterTimerE
+9 Name=_ZTV11CAppShutter
+10 Name=_ZTV11CAppStarter
+11 Name=_ZTV11CAppWatcher
+12 Name=_ZTV18CEikServAppShutter
+13 Name=_ZTV20CEikServBackupServer
+14 Name=_ZTV21CEikServBackupSession
+15 Name=_ZTVN11CAppShutter13CShutterTimerE
+;------------------EOF------------------

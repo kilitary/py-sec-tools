@@ -1,0 +1,9 @@
+DECLARATION Nokia 9110 Geos 3.0 library aixtract.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=aixtractdll Pascal=0
+;---------------------------------------
+1 Name=AI_Extract
+2 Name=AI_Read_Product_Info
+;------------------EOF------------------

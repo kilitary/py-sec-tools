@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PLPVARIANT Pascal=0
+;---------------------------------------
+1 Name=_ZN10PlpVariant11GetDriveIdLE12TDriveNumberR4TBufILi128EE
+2 Name=_ZN10PlpVariant12DriveLockedLE12TDriveNumber
+3 Name=_ZN10PlpVariant12DriveStatusLE12TDriveNumber
+4 Name=_ZN10PlpVariant12SetPropertyLEmR7TDesC16
+5 Name=_ZN10PlpVariant13GetMachineIdLER4TBufILi128EE
+6 Name=_ZN10PlpVariant13GetPropertyLCEm
+7 Name=_ZN10PlpVariant14GetDriveAliasLE12TDriveNumberR4TBufILi128EE
+8 Name=_ZN10PlpVariant17EnableLoadFromRamEv
+9 Name=_ZN10PlpVariant24MinimumDiskFreeThresholdEv
+10 Name=_ZN10PlpVariant7VersionER8TVersion
+;------------------EOF------------------

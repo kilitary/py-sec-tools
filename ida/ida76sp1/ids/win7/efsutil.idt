@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=efsutil.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=EfsUtilApplyGroupPolicy Pascal=32
+2 Name=EfsUtilCheckCurrentKeyCapabilities Pascal=12
+3 Name=EfsUtilCreateSelfSignedCertificate Pascal=44
+4 Name=EfsUtilGetCertContextFromCertHash Pascal=16
+5 Name=EfsUtilGetCurrentKey Pascal=16
+6 Name=EfsUtilGetCurrentKey_Deprecated Pascal=16
+7 Name=EfsUtilGetCurrentUserInformation Pascal=12
+8 Name=EfsUtilGetProvider Pascal=12
+9 Name=EfsUtilGetSmartcardProviderName Pascal=8
+10 Name=EfsUtilGetUserKey Pascal=12
+11 Name=EfsUtilIsSmartcardKey Pascal=8
+12 Name=EfsUtilIsSmartcardProvider Pascal=8
+13 Name=EfsUtilReleaseProvider Pascal=4
+14 Name=EfsUtilReleaseUserKey Pascal=4
+15 Name=EfsUtilSetCurrentKey Pascal=16
+16 Name=EfsUtilSetSmartcardPin Pascal=8
+17 Name=EfsUtilSmartcardCredsNeededError Pascal=4
+;------------------EOF------------------

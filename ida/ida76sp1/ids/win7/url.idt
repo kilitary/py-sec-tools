@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=url.dll Args=0 Drops=18
+;---------------------------------------
+101 Name=SetInetOffline Pascal=4
+102 Name=AddMIMEFileTypesPS Pascal=8
+103 Name=AutodialHookCallback Pascal=8
+104 Name=FileProtocolHandler Pascal=16
+105 Name=FileProtocolHandlerA Pascal=16
+106 Name=InetIsOffline Pascal=4
+107 Name=MIMEAssociationDialogA Pascal=24
+108 Name=MIMEAssociationDialogW Pascal=24
+109 Name=MailToProtocolHandler Pascal=16
+110 Name=MailToProtocolHandlerA Pascal=16
+111 Name=OpenURL Pascal=16
+112 Name=OpenURLA Pascal=16
+113 Name=TelnetProtocolHandler Pascal=16
+114 Name=TelnetProtocolHandlerA Pascal=16
+115 Name=TranslateURLA Pascal=12
+116 Name=TranslateURLW Pascal=12
+117 Name=URLAssociationDialogA Pascal=24
+118 Name=URLAssociationDialogW Pascal=24
+;------------------EOF------------------

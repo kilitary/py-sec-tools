@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ati3d1ag.dll Args=0 Drops=19
+;---------------------------------------
+1 Name=VPEAccessCallback Pascal=20
+2 Name=bD3dHslSetDriverCallsEx Pascal=8
+3 Name=bDD4DISPEnableDD Pascal=4
+4 Name=bDD4DISPInitDD Pascal=28
+5 Name=bDdHslQueryCIInfo Pascal=0
+6 Name=bDdHslQueryRegistryValue Pascal=16
+7 Name=bDdHslSharedMemFree Pascal=4
+8 Name=bDdHslVideoMemoryFree Pascal=16
+9 Name=dDdHslEscape Pascal=24
+10 Name=pDD4DISPDeriveSurface Pascal=12
+11 Name=pDdHslQueryDeviceObject Pascal=8
+12 Name=pDdHslSharedMemCalloc Pascal=4
+13 Name=vD3dHslSetDriverCalls Pascal=4
+14 Name=vDD4DISPDisableDD Pascal=4
+15 Name=vDD4DISPExitDD Pascal=4
+16 Name=vDD4DISPHandlePanCallback Pascal=16
+17 Name=vDD4DISPSetDDCallBacks Pascal=12
+18 Name=vDVDHSLUpdatePDEV Pascal=0
+19 Name=vDdHslVideoMemoryAlloc Pascal=20
+;------------------EOF------------------

@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QIKKEYB Pascal=0
+;---------------------------------------
+1 Name=_ZN19CQikKeyboardControl10SetLayoutLEi
+2 Name=_ZN19CQikKeyboardControl11SetObserverEP20MQikKeyboardObserver
+3 Name=_ZN19CQikKeyboardControl17ResetCapsAndShiftEv
+4 Name=_ZN19CQikKeyboardControl21SetCurrentKeytopTypeLENS_11TKeytopTypeE
+5 Name=_ZN19CQikKeyboardControl4NewLERK11CCoeControlNS_11TKeytopTypeEi
+6 Name=_ZNK19CQikKeyboardControl17CurrentKeytopTypeEv
+7 Name=_ZNK19CQikKeyboardControl18SupportedLayoutsLCEv
+;------------------EOF------------------

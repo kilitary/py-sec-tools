@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=werdiagcontroller.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=StartAppRecorder Pascal=0
+2 Name=StartFDR Pascal=0
+;------------------EOF------------------

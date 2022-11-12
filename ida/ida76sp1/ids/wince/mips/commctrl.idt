@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=commctrl Pascal=0
+;---------------------------------------
+1 Name=InitCommonControls
+2 Name=InitCommonControlsEx
+3 Name=CommandBar_Create
+4 Name=CommandBar_Show
+5 Name=CommandBar_AddBitmap
+6 Name=CommandBar_InsertComboBox
+7 Name=CommandBar_InsertControl
+8 Name=CommandBar_InsertMenubar
+9 Name=CommandBar_GetMenu
+10 Name=CommandBar_AddAdornments
+11 Name=CommandBar_GetItemWindow
+12 Name=CommandBar_Height
+13 Name=IsCommandBarMessage
+14 Name=CreateUpDownControl
+15 Name=CreateToolbar
+16 Name=CreateToolbarEx
+17 Name=CreateStatusWindowW
+18 Name=PropertySheetW
+19 Name=CreatePropertySheetPageW
+20 Name=DestroyPropertySheetPage
+21 Name=DrawStatusTextW
+22 Name=InvertRect
+23 Name=DSA_Create
+24 Name=DSA_Destroy
+25 Name=DSA_GetItem
+26 Name=DSA_GetItemPtr
+27 Name=DSA_InsertItem
+28 Name=DSA_SetItem
+29 Name=DSA_DeleteItem
+30 Name=DSA_DeleteAllItems
+31 Name=DPA_Destroy
+32 Name=DPA_GetPtr
+33 Name=Str_SetPtrW
+34 Name=StrToIntW
+35 Name=CenterWindow
+36 Name=CommandBands_Create
+37 Name=CommandBands_AddBands
+38 Name=CommandBands_GetCommandBar
+39 Name=CommandBands_AddAdornments
+40 Name=CommandBands_Show
+41 Name=CommandBands_GetRestoreInformation
+42 Name=CommandBar_InsertMenubarEx
+43 Name=CommandBar_DrawMenuBar
+;------------------EOF------------------

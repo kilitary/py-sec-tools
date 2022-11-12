@@ -1,0 +1,68 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ETELRDPARTY Pascal=0
+;---------------------------------------
+1 Name=TerminateDataCall__CTelephony
+2 Name=CancelReceiveDataCall__CTelephony
+3 Name=EstablishDataCall__CTelephonyRTRequestStatusRRCommRCTDesC16
+4 Name=EstablishDataCall__CTelephonyRRCommRCTDesC16
+5 Name=FindDeviceStatus__CTelephonyRQRCallTStatus
+6 Name=NewLC__CTelephony
+7 Name=NewL__CTelephony
+8 Name=ReceiveDataCall__CTelephonyRTRequestStatusRRComm
+9 Name=ReceiveDataCall__CTelephonyRRComm
+10 Name=CancelEstablishDataCall__CTelephony
+11 Name=__QCTelephonyTOperatorNameV1
+12 Name=GetBatteryInfo__CCTelephonyRTRequestStatusRTDes8
+13 Name=GetCallInfo__CCTelephonyRTDes8N21
+14 Name=GetCurrentNetworkInfo__CCTelephonyRTRequestStatusRTDes8
+15 Name=GetCurrentNetworkName__CCTelephonyRTRequestStatusRTDes8
+16 Name=GetFlightMode__CCTelephonyRTRequestStatusRTDes8
+17 Name=GetIndicator__CCTelephonyRTRequestStatusRTDes8
+18 Name=GetLineStatus__CCTelephonyRCQCTelephonyTPhoneLineRTDes8
+19 Name=GetLockInfo__CCTelephonyRTRequestStatusRCQCTelephonyTIccLockRTDes8
+20 Name=GetNetworkRegistrationStatus__CCTelephonyRTRequestStatusRTDes8
+21 Name=GetPhoneId__CCTelephonyRTRequestStatusRTDes8
+22 Name=GetOperatorName__CCTelephonyRTRequestStatusRTDes8
+23 Name=GetSignalStrength__CCTelephonyRTRequestStatusRTDes8
+24 Name=GetSubscriberId__CCTelephonyRTRequestStatusRTDes8
+25 Name=SendDTMFTones__CCTelephonyRTRequestStatusRCTDesC16
+26 Name=VersionId__CQCTelephonyTEtelISVType
+27 Name=__QCTelephonyTPhoneIdV1
+28 Name=__QCTelephonyTCallInfoV1
+29 Name=__QCTelephonyTTelAddress
+30 Name=__QCTelephonyTIndicatorV1
+31 Name=__QCTelephonyTCallParamsV1
+32 Name=__QCTelephonyTCallStatusV1
+33 Name=__QCTelephonyTFlightModeV1
+34 Name=__QCTelephonyTBatteryInfoV1
+35 Name=__QCTelephonyTIccLockInfoV1
+36 Name=__QCTelephonyTNetworkInfoV1
+37 Name=__QCTelephonyTNetworkNameV1
+38 Name=__QCTelephonyTSubscriberIdV1
+39 Name=__QCTelephonyTSignalStrengthV1
+40 Name=__QCTelephonyTNetworkRegistrationV1
+41 Name=DialNewCall__CCTelephonyRTRequestStatusRTDes8RCtTBuf1iRQCTelephonyTCallIdQCTelephonyTPhoneLine
+42 Name=Hangup__CCTelephonyRTRequestStatusRCQCTelephonyTCallId
+43 Name=Hold__CCTelephonyRTRequestStatusRCQCTelephonyTCallId
+44 Name=Resume__CCTelephonyRTRequestStatusRCQCTelephonyTCallId
+45 Name=Swap__CCTelephonyRTRequestStatusRCQCTelephonyTCallIdT2
+46 Name=AnswerIncomingCall__CCTelephonyRTRequestStatusRQCTelephonyTCallIdQCTelephonyTPhoneLine
+47 Name=GetCallDynamicCaps__CCTelephonyRCQCTelephonyTCallIdRTDes8
+48 Name=GetCallStatus__CCTelephonyRCQCTelephonyTCallIdRTDes8
+49 Name=GetIdentityServiceStatus__CCTelephonyRTRequestStatusRCQCTelephonyTIdentityServiceRTDes8
+50 Name=__QCTelephonyTCallCapsV1
+51 Name=__QCTelephonyTIdentityServiceV1
+52 Name=CancelAsync__CCTelephonyQCTelephonyTCancellationRequest
+53 Name=__QCTelephonyTRemotePartyInfoV1
+54 Name=__QCTelephonyTCallSelectionV1
+55 Name=NotifyChange__CCTelephonyRTRequestStatusRCQCTelephonyTNotificationEventRTDes8
+56 Name=__QCTelephonyTCallWaitingSupplServicesV1
+57 Name=GetCallWaitingStatus__CCTelephonyRTRequestStatusRTDes8QCTelephonyTServiceGroup
+58 Name=__QCTelephonyTCallForwardingSupplServicesV1
+59 Name=GetCallForwardingStatus__CCTelephonyRTRequestStatusQCTelephonyTCallForwardingConditionRTDes8QCTelephonyTServiceGroup
+60 Name=__QCTelephonyTCallBarringSupplServicesV1
+61 Name=GetCallBarringStatus__CCTelephonyRTRequestStatusQCTelephonyTCallBarringConditionRTDes8QCTelephonyTServiceGroup
+;------------------EOF------------------

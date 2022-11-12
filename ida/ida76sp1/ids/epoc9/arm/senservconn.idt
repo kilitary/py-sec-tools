@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SENSERVCONN Pascal=0
+;---------------------------------------
+1 Name=_ZN21CSenServiceConnection4NewLER19MSenServiceConsumerR18CSenServicePattern
+2 Name=_ZN21CSenServiceConnection4NewLER19MSenServiceConsumerR22MSenServiceDescription
+3 Name=_ZN21CSenServiceConnection4NewLER19MSenServiceConsumerRK6TDesC8
+4 Name=_ZN21CSenServiceConnection5NewLCER19MSenServiceConsumerR18CSenServicePattern
+5 Name=_ZN21CSenServiceConnection5NewLCER19MSenServiceConsumerR22MSenServiceDescription
+6 Name=_ZN21CSenServiceConnection5NewLCER19MSenServiceConsumerRK6TDesC8
+7 Name=_ZTI25CSenServiceConnectionImpl
+8 Name=_ZTV25CSenServiceConnectionImpl
+;------------------EOF------------------

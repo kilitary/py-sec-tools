@@ -1,0 +1,45 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PUSHMSGENTRY Pascal=0
+;---------------------------------------
+1 Name=_Z11DummyExportv
+2 Name=_ZN16CWapPushMsgUtils10ConstructLEv
+3 Name=_ZN16CWapPushMsgUtils13GetServiceIdLE4TUidRl
+4 Name=_ZN16CWapPushMsgUtils4NewLEv
+5 Name=_ZN16CWapPushMsgUtilsC1Ev
+6 Name=_ZN16CWapPushMsgUtilsC2Ev
+7 Name=_ZN16CWapPushMsgUtilsD0Ev
+8 Name=_ZN16CWapPushMsgUtilsD1Ev
+9 Name=_ZN16CWapPushMsgUtilsD2Ev
+10 Name=_ZN17CPushMsgEntryBase10ConstructLERK6TPtrC8
+11 Name=_ZN17CPushMsgEntryBase10ConstructLERKi
+12 Name=_ZN17CPushMsgEntryBase10ConstructLEv
+13 Name=_ZN17CPushMsgEntryBase10SetHeaderLERK6TDesC8
+14 Name=_ZN17CPushMsgEntryBase12ExternalizeLER15RMsvWriteStream
+15 Name=_ZN17CPushMsgEntryBase12InternalizeLER14RMsvReadStream
+16 Name=_ZN17CPushMsgEntryBase14SetMsgDetailsLERK7TDesC16
+17 Name=_ZN17CPushMsgEntryBase18SetMsgDescriptionLERK7TDesC16
+18 Name=_ZN17CPushMsgEntryBase5SaveLER11CMsvSessionl
+19 Name=_ZN17CPushMsgEntryBase7UpdateLER11CMsvSession
+20 Name=_ZN17CPushMsgEntryBase8RestoreLER9CMsvStore
+21 Name=_ZN17CPushMsgEntryBase8SetEntryERK9TMsvEntry
+22 Name=_ZN17CPushMsgEntryBase8SetFromLERK6TDesC8
+23 Name=_ZN17CPushMsgEntryBase9RetrieveLER11CMsvSessionl
+24 Name=_ZN17CPushMsgEntryBase9SetStatusEi
+25 Name=_ZTV17CPushMsgEntryBase
+26 Name=_ZN17CPushMsgEntryBaseC2Ev
+27 Name=_ZN17CPushMsgEntryBaseD0Ev
+28 Name=_ZN17CPushMsgEntryBaseD1Ev
+29 Name=_ZN17CPushMsgEntryBaseD2Ev
+30 Name=_ZNK17CPushMsgEntryBase10MsgDetailsEv
+31 Name=_ZNK17CPushMsgEntryBase12ReceivedDateEv
+32 Name=_ZNK17CPushMsgEntryBase14MsgDescriptionEv
+33 Name=_ZNK17CPushMsgEntryBase4FromEv
+34 Name=_ZNK17CPushMsgEntryBase5AppIDER6TPtrC8RiS2_
+35 Name=_ZNK17CPushMsgEntryBase6HeaderEv
+36 Name=_ZTI16CWapPushMsgUtils
+37 Name=_ZTI17CPushMsgEntryBase
+38 Name=_ZTV16CWapPushMsgUtils
+;------------------EOF------------------

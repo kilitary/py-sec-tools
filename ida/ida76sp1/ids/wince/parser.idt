@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PARSER.dll Pascal=0
+;---------------------------------------
+1 Name=GetNewAddressParser
+2 Name=DestroyAddressParser
+3 Name=GetPostalCode
+4 Name=GetCountryName
+5 Name=GetCity
+6 Name=GetState
+7 Name=GetStreet
+8 Name=GetFullAddress
+9 Name=SetStreet
+10 Name=SetCity
+11 Name=SetState
+12 Name=SetPostalCode
+13 Name=SetCountryName
+14 Name=SetFullAddress
+15 Name=ParseAddress
+16 Name=RebuildAddress
+17 Name=GetAddressConfirmation
+18 Name=SetDefaultCountry
+19 Name=FillInComboBoxWithCountries
+20 Name=GetCountryStringFromIndex
+21 Name=SetDefaultAreaCode
+22 Name=ParsePhoneNumber
+23 Name=GetTimeString
+24 Name=ParseTime
+25 Name=ParseTimeWithReference
+26 Name=GetNewRegistrySettings
+27 Name=GetNewNameParser
+28 Name=DestroyNameParser
+29 Name=GetGivenName
+30 Name=GetSurname
+31 Name=GetTitle
+32 Name=GetMiddle
+33 Name=GetSuffix
+34 Name=GetFullName
+35 Name=SetFullName
+36 Name=SetGiven
+41 Name=SetSurname
+42 Name=SetTitle
+43 Name=SetMiddle
+44 Name=SetSuffix
+45 Name=ParseName
+46 Name=RebuildName
+47 Name=GetNameConfirmation
+48 Name=InitializeParser
+49 Name=ReleaseParser
+;------------------EOF------------------

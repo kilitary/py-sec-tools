@@ -1,0 +1,79 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rhttpaa.dll Args=0 Drops=72
+;---------------------------------------
+1 Name=I_RpcAllocate Pascal=4
+2 Name=I_RpcAsyncSetHandle Pascal=8
+3 Name=I_RpcExceptionFilter Pascal=4
+4 Name=I_RpcFreeBuffer Pascal=4
+5 Name=I_RpcFreePipeBuffer Pascal=4
+6 Name=I_RpcGetBuffer Pascal=4
+7 Name=I_RpcGetBufferWithObject Pascal=8
+8 Name=I_RpcNDRCGetWireRepresentation Pascal=8
+9 Name=I_RpcReceive Pascal=8
+10 Name=I_RpcSend Pascal=4
+11 Name=I_RpcSendReceive Pascal=4
+12 Name=NDRCContextBinding Pascal=4
+13 Name=NDRCContextMarshall Pascal=8
+14 Name=NDRCContextUnmarshall Pascal=16
+15 Name=NdrAllocate Pascal=8
+16 Name=NdrAsyncClientCall Pascal=0
+17 Name=NdrClientCall2 Pascal=0
+18 Name=NdrClientContextMarshall Pascal=12
+19 Name=NdrClientContextUnmarshall Pascal=12
+20 Name=NdrClientInitialize Pascal=16
+21 Name=NdrClientInitializeNew Pascal=16
+22 Name=RpcAsyncCancelCall Pascal=8
+23 Name=RpcAsyncCompleteCall Pascal=8
+24 Name=RpcAsyncGetCallStatus Pascal=4
+25 Name=RpcAsyncInitializeHandle Pascal=8
+26 Name=RpcBindingCopy Pascal=8
+27 Name=RpcBindingFree Pascal=4
+28 Name=RpcBindingFromStringBindingA Pascal=8
+29 Name=RpcBindingFromStringBindingW Pascal=8
+30 Name=RpcBindingInqAuthClientA Pascal=24
+31 Name=RpcBindingInqAuthClientExA Pascal=28
+32 Name=RpcBindingInqAuthClientExW Pascal=28
+33 Name=RpcBindingInqAuthClientW Pascal=24
+34 Name=RpcBindingInqAuthInfoA Pascal=24
+35 Name=RpcBindingInqAuthInfoExA Pascal=32
+36 Name=RpcBindingInqAuthInfoExW Pascal=32
+37 Name=RpcBindingInqAuthInfoW Pascal=24
+38 Name=RpcBindingInqObject Pascal=8
+39 Name=RpcBindingInqOption Pascal=12
+40 Name=RpcBindingReset Pascal=4
+41 Name=RpcBindingSetAuthInfoA Pascal=24
+42 Name=RpcBindingSetAuthInfoExA Pascal=28
+43 Name=RpcBindingSetAuthInfoExW Pascal=28
+44 Name=RpcBindingSetAuthInfoW Pascal=24
+45 Name=RpcBindingSetObject Pascal=8
+46 Name=RpcBindingSetOption Pascal=12
+47 Name=RpcBindingToStringBindingA Pascal=8
+48 Name=RpcBindingToStringBindingW Pascal=8
+49 Name=RpcEpResolveBinding Pascal=8
+50 Name=RpcErrorAddRecord Pascal=4
+51 Name=RpcErrorClearInformation Pascal=0
+52 Name=RpcErrorEndEnumeration Pascal=4
+53 Name=RpcErrorGetNextRecord Pascal=12
+54 Name=RpcErrorGetNumberOfRecords Pascal=8
+55 Name=RpcErrorLoadErrorInfo Pascal=12
+56 Name=RpcErrorResetEnumeration Pascal=4
+57 Name=RpcErrorSaveErrorInfo Pascal=12
+58 Name=RpcErrorStartEnumeration Pascal=4
+59 Name=RpcExceptionFilter Pascal=4
+60 Name=RpcIfIdVectorFree Pascal=4
+61 Name=RpcIfInqId Pascal=8
+62 Name=RpcMgmtInqServerPrincNameW Pascal=12
+63 Name=RpcMgmtSetComTimeout Pascal=8
+64 Name=RpcProtseqVectorFreeW Pascal=4
+65 Name=RpcRaiseException Pascal=4
+66 Name=RpcSsDestroyClientContext Pascal=4
+67 Name=RpcStringBindingComposeA Pascal=24
+68 Name=RpcStringBindingComposeW Pascal=24
+69 Name=RpcStringBindingParseA Pascal=24
+70 Name=RpcStringBindingParseW Pascal=24
+71 Name=RpcStringFreeA Pascal=4
+72 Name=RpcStringFreeW Pascal=4
+;------------------EOF------------------

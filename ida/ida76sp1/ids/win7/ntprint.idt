@@ -1,0 +1,67 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ntprint.dll Args=0 Drops=60
+;---------------------------------------
+101 Name=PSetupIsInfDriverIsolationEnabledW Pascal=12
+102 Name=?PSetupCalculatePnPId2@@YGKPBGPAGK1K@Z Pascal=20
+103 Name=?PSetupInstallDriverFromTheWeb@@YGJPBU_DRIVER_INFO_6W@@PAUIDriverInstallStatusNotify@@@Z Pascal=8
+104 Name=?PSetupFindDriverFromDriverStore@@YGJPBU_DRIVER_INFO_6W@@KPAG@Z Pascal=12
+105 Name=ClassInstall32 Pascal=12
+106 Name=PSetupCalculatePnPId Pascal=12
+107 Name=PSetupCheckForDriversInDriverStore Pascal=28
+108 Name=PSetupDownloadAndInstallLegacyDriverW Pascal=12
+109 Name=PSetupDriverStoreFindDriverPackageW Pascal=16
+110 Name=PSetupElevateAndCallDriverStoreAddDriverPackage Pascal=24
+111 Name=PSetupElevatedDriverStoreAddDriverPackageW Pascal=16
+112 Name=PSetupElevatedInstallDownloadedLegacyDriverW Pascal=16
+113 Name=PSetupElevatedInstallPrinterDriverFromTheWebW Pascal=16
+114 Name=PSetupElevatedLegacyPrintDriverInstallW Pascal=16
+115 Name=PSetupGetActualInstallSection Pascal=24
+116 Name=PSetupGetCatalogNameFromInfW Pascal=16
+117 Name=PSetupWebPnpGenerateDownLevelInfForInboxDriver Pascal=28
+118 Name=ServerInstallW Pascal=16
+119 Name=PSetupAssociateICMProfiles Pascal=8
+120 Name=PSetupBuildDriverList Pascal=4
+121 Name=PSetupBuildDriversFromPath Pascal=12
+122 Name=PSetupCopyDriverPackageFiles Pascal=20
+123 Name=PSetupCreateDrvSetupPage Pascal=8
+124 Name=PSetupCreateMonitorInfo Pascal=8
+125 Name=PSetupCreatePrinterDeviceInfoList Pascal=4
+126 Name=PSetupDestroyDriverInfo3 Pascal=4
+127 Name=PSetupDestroyMonitorInfo Pascal=4
+128 Name=PSetupDestroyPrinterDeviceInfoList Pascal=4
+129 Name=PSetupDestroySelectedDriverInfo Pascal=4
+130 Name=PSetupDisassociateICMProfiles Pascal=4
+131 Name=PSetupDriverInfoFromDeviceID Pascal=20
+132 Name=PSetupDriverInfoFromName Pascal=12
+133 Name=PSetupDriverStoreAddDriverPackage Pascal=16
+134 Name=PSetupEnumMonitor Pascal=16
+135 Name=PSetupFindCompatibleDriverFromName Pascal=28
+136 Name=PSetupFreeDrvField Pascal=4
+137 Name=PSetupFreeMem Pascal=4
+138 Name=PSetupGetDriverInfo3 Pascal=4
+139 Name=PSetupGetInfDriverStoreLocation Pascal=16
+140 Name=PSetupGetLocalDataField Pascal=12
+141 Name=PSetupGetPathToSearch Pascal=24
+142 Name=PSetupGetSelectedDriverInfo Pascal=8
+143 Name=PSetupInstallICMProfiles Pascal=8
+144 Name=PSetupInstallInboxDriverSilently Pascal=4
+145 Name=PSetupInstallMonitor Pascal=4
+146 Name=PSetupInstallPrinterDriver Pascal=44
+147 Name=PSetupIsCompatibleDriver Pascal=28
+148 Name=PSetupIsDriverInstalled Pascal=20
+149 Name=PSetupIsTheDriverFoundInInfInstalled Pascal=16
+150 Name=PSetupParseInfAndCommitFileQueue Pascal=24
+151 Name=PSetupPreSelectDriver Pascal=12
+152 Name=PSetupProcessPrinterAdded Pascal=24
+153 Name=PSetupSelectDeviceButtons Pascal=12
+154 Name=PSetupSelectDriver Pascal=4
+155 Name=PSetupSetCoreInboxDriverPath Pascal=8
+156 Name=PSetupSetDriverPlatform Pascal=24
+157 Name=PSetupSetNonInteractiveMode Pascal=4
+158 Name=PSetupSetSelectDevTitleAndInstructions Pascal=16
+159 Name=PSetupShowBlockedDriverUI Pascal=16
+160 Name=PSetupThisPlatform Pascal=0
+;------------------EOF------------------

@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=AKNICON Pascal=0
+;---------------------------------------
+1 Name=_Z18__SERVER_HEAP_MARKv
+2 Name=_Z18__SERVER_HEAP_USEDv
+3 Name=_Z19__SERVER_HEAP_RESETv
+4 Name=_Z21__SERVER_HEAP_MARKENDv
+5 Name=_Z22__SERVER_HEAP_FAILNEXTi
+6 Name=_Z33__SERVER_HEAP_FAILNEXT_INCREASINGi
+7 Name=_Z47__SERVER_RESET_DYNAMICALLY_CHANGING_ALLOCATIONSv
+8 Name=_ZN12AknIconUtils11CreateIconLEP10CFbsBitmap
+9 Name=_ZN12AknIconUtils11CreateIconLEP8CAknIcon
+10 Name=_ZN12AknIconUtils11CreateIconLERK7TDesC16i
+11 Name=_ZN12AknIconUtils11CreateIconLERP10CFbsBitmapS2_RK7TDesC16ii
+12 Name=_ZN12AknIconUtils11SetObserverEP10CFbsBitmapP16MAknIconObserver
+13 Name=_ZN12AknIconUtils12CreateIconLCERP10CFbsBitmapS2_RK7TDesC16ii
+14 Name=_ZN12AknIconUtils12SetIconColorEP10CFbsBitmap4TRgb
+15 Name=_ZN12AknIconUtils15DestroyIconDataEP10CFbsBitmap
+16 Name=_ZN12AknIconUtils16PreserveIconDataEP10CFbsBitmap
+17 Name=_ZN12AknIconUtils17AvkonIconFileNameEv
+18 Name=_ZN12AknIconUtils18SetSizeAndRotationEP10CFbsBitmapRK5TSize10TScaleModei
+19 Name=_ZN12AknIconUtils20GetContentDimensionsEP10CFbsBitmapR5TSize
+20 Name=_ZN12AknIconUtils24ValidateLogicalAppIconIdERK7TDesC16RiS3_
+21 Name=_ZN12AknIconUtils7SetSizeEP10CFbsBitmapRK5TSize10TScaleMode
+22 Name=_ZN12AknIconUtils9IsMifFileERK7TDesC16
+23 Name=_ZN12AknIconUtils9IsMifIconEPK10CFbsBitmap
+24 Name=_ZN14CAknIconServer11ThreadStartEv
+25 Name=_ZN17RAknIconSrvClient10DisconnectEv
+26 Name=_ZN17RAknIconSrvClient7ConnectEv
+27 Name=_ZN8CAknIcon4NewLEv
+28 Name=_ZN8CAknIcon7SetMaskEP10CFbsBitmap
+29 Name=_ZN8CAknIcon9SetBitmapEP10CFbsBitmap
+30 Name=_ZNK8CAknIcon4MaskEv
+31 Name=_ZNK8CAknIcon6BitmapEv
+32 Name=_Z40__SERVER_SET_PREFERRED_ICON_DISPLAY_MODE12TDisplayMode
+36 Name=_ZN12AknIconUtils11CreateIconLER20MAknIconFileProvideri
+37 Name=_ZN12AknIconUtils11CreateIconLERP10CFbsBitmapS2_R20MAknIconFileProviderii
+38 Name=_ZN12AknIconUtils12CreateIconLCERP10CFbsBitmapS2_R20MAknIconFileProviderii
+39 Name=_ZN12AknIconUtils20GetContentDimensionsEP10CFbsBitmapR21TAknContentDimensions
+;------------------EOF------------------

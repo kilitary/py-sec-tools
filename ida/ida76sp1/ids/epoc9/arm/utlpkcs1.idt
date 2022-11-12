@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=UTLPKCS1 Pascal=0
+;---------------------------------------
+1 Name=_ZN15CPkcs1Transform17TransformToPkcs1LERK6TDesC8S2_
+2 Name=_ZN15CPkcs1Transform17TransformToPkcs1LERK6TDesC8S2_S2_
+3 Name=_ZN15CPkcs1TransformC1Ev
+4 Name=_ZN15CPkcs1TransformC2Ev
+5 Name=_ZN15CPkcs1TransformD0Ev
+6 Name=_ZN15CPkcs1TransformD1Ev
+7 Name=_ZN15CPkcs1TransformD2Ev
+8 Name=_ZTI15CPkcs1Transform
+9 Name=_ZTV15CPkcs1Transform
+;------------------EOF------------------

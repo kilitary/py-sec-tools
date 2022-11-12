@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=JCALENDARFILTER Pascal=0
+;---------------------------------------
+1 Name=NewInterface__Fv
+2 Name=ConnectivityIsValid__C19TEpocCalendarFilterRC18TAgnSmartLiteEntry
+3 Name=SetDateRange__19TEpocCalendarFilterRC5TTimeT1
+4 Name=SetFilterDate__19TEpocCalendarFilterRC5TTime
+5 Name=SetFilterType__19TEpocCalendarFilterQ219TEpocCalendarFilter14TPreFilterType
+6 Name=SetPriority__19TEpocCalendarFilteri
+;------------------EOF------------------

@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wimgapi.dll Args=0 Drops=37
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllMain Pascal=12
+3 Name=WIMApplyImage Pascal=12
+4 Name=WIMCaptureImage Pascal=12
+5 Name=WIMCloseHandle Pascal=4
+6 Name=WIMCommitImageHandle Pascal=12
+7 Name=WIMCopyFile Pascal=24
+8 Name=WIMCreateFile Pascal=24
+9 Name=WIMDeleteImage Pascal=8
+10 Name=WIMDeleteImageMounts Pascal=4
+11 Name=WIMExportImage Pascal=12
+12 Name=WIMExtractImagePath Pascal=16
+13 Name=WIMGetAttributes Pascal=12
+14 Name=WIMGetImageCount Pascal=4
+15 Name=WIMGetImageInformation Pascal=12
+16 Name=WIMGetMessageCallbackCount Pascal=4
+17 Name=WIMGetMountedImageHandle Pascal=16
+18 Name=WIMGetMountedImageInfo Pascal=20
+19 Name=WIMGetMountedImageInfoFromHandle Pascal=20
+20 Name=WIMGetMountedImages Pascal=8
+21 Name=WIMInitFileIOCallbacks Pascal=4
+22 Name=WIMLoadImage Pascal=8
+23 Name=WIMMountImage Pascal=16
+24 Name=WIMMountImageHandle Pascal=12
+25 Name=WIMRegisterLogFile Pascal=8
+26 Name=WIMRegisterMessageCallback Pascal=12
+27 Name=WIMRemountImage Pascal=8
+28 Name=WIMSetBootImage Pascal=8
+29 Name=WIMSetFileIOCallbackTemporaryPath Pascal=4
+30 Name=WIMSetImageInformation Pascal=12
+31 Name=WIMSetReferenceFile Pascal=12
+32 Name=WIMSetTemporaryPath Pascal=8
+33 Name=WIMSplitFile Pascal=16
+34 Name=WIMUnmountImage Pascal=16
+35 Name=WIMUnmountImageHandle Pascal=8
+36 Name=WIMUnregisterLogFile Pascal=4
+37 Name=WIMUnregisterMessageCallback Pascal=8
+;------------------EOF------------------

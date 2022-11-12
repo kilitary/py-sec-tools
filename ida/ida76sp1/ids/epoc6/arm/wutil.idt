@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WUTIL Pascal=0
+;---------------------------------------
+1 Name=__eq__C4CUrlR4CUrl
+2 Name=Compare__C4CUrlR4CUrli
+3 Name=Component__C4CUrlQ24CUrl10TComponent
+4 Name=Debug__21CAttributeLookupTableQ221CAttributeLookupTable18TDebugSelectorTypePvT2
+5 Name=Des2IDL__21CAttributeLookupTableRC7TDesC16
+6 Name=KeyExists__21CAttributeLookupTableRC7TDesC16
+7 Name=NewL__21CAttributeLookupTable
+8 Name=NewL__4CUrlRC10TParseBase
+9 Name=NewL__4CUrlRC7TDesC16
+10 Name=Reset__21CAttributeLookupTable
+11 Name=ResolveL__4CUrlR4CUrlT1
+12 Name=SetL__4CUrlR4CUrl
+13 Name=_._21CAttributeLookupTable
+14 Name=AllocL__C4CUrl
+15 Name=UrlEscapedL__C4CUrl
+16 Name=UrlUnescapedL__C4CUrl
+17 Name=EscapeDecodeL__4CUrlRC7TDesC16
+18 Name=EscapeEncodeL__4CUrlRC7TDesC16
+19 Name=_._4CUrl
+20 Name=AllocL__C4CUrlQ24CUrl10TComponent
+21 Name=SetComponentL__4CUrlQ24CUrl10TComponentRC7TDesC16
+22 Name=EscapeEncodeL__4CUrlRC7TDesC16i
+23 Name=ConvertFromUnicodeToUtf8L__4CUrlRC7TDesC16
+24 Name=ConvertToUnicodeFromUtf8L__4CUrlRC6TDesC8
+;------------------EOF------------------

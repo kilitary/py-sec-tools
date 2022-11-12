@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BIG5_SHARED Pascal=0
+;---------------------------------------
+1 Name=ConversionData__7CnvBig5
+2 Name=ReplacementForUnconvertibleUnicodeCharacters__7CnvBig5
+;------------------EOF------------------

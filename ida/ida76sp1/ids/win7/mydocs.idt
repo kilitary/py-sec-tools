@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mydocs.dll Args=0 Drops=3
+;---------------------------------------
+7 Name=PerUserInit Pascal=0
+8 Name=DllCanUnloadNow Pascal=0
+9 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

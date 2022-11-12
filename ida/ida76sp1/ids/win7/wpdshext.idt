@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wpdshext.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=_CDefFolderMenu_MergeMenu@16 Pascal=16
+2 Name=DllCanUnloadNow Pascal=0
+3 Name=DllGetClassObject Pascal=12
+4 Name=DllRegisterServer Pascal=0
+5 Name=DllUnregisterServer Pascal=0
+6 Name=_SHBindToFolderIDListParent@20 Pascal=20
+7 Name=_SHBindToFolderIDListParentEx@24 Pascal=24
+;------------------EOF------------------

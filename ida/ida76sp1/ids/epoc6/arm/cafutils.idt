@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CAFUTILS Pascal=0
+;---------------------------------------
+1 Name=__eq__CQContentAccessCBitsetRCQContentAccessCBitset
+2 Name=InternalizeL__QContentAccessCBitsetRRReadStream
+3 Name=Invert__QContentAccessCBitset
+4 Name=IsSetList__CQContentAccessCBitsetie
+5 Name=IsSet__CQContentAccessCBitseti
+6 Name=MaxBits__CQContentAccessCBitset
+7 Name=NewLC__QContentAccessCBitsetRCQContentAccessCBitset
+8 Name=NewLC__QContentAccessCBitseti
+9 Name=NewL__QContentAccessCBitsetRCQContentAccessCBitset
+10 Name=NewL__QContentAccessCBitseti
+11 Name=Reset__QContentAccessCBitset
+12 Name=SetAll__QContentAccessCBitset
+13 Name=SetListL__QContentAccessCBitsetie
+14 Name=Set__QContentAccessCBitseti
+15 Name=Unset__QContentAccessCBitseti
+16 Name=__as__QContentAccessCBitsetRCQContentAccessCBitset
+17 Name=ExternalizeL__CQContentAccessCBitsetRRWriteStream
+18 Name=ExternalizeL__CQContentAccessCCafMimeHeaderRRWriteStream
+19 Name=InternalizeL__QContentAccessCCafMimeHeaderRRReadStream
+20 Name=NewL__QContentAccessCCafMimeHeaderRCTDesC8
+21 Name=NonStandardMimeCount__CQContentAccessCCafMimeHeader
+22 Name=NonStandardMimeData__CQContentAccessCCafMimeHeaderi
+23 Name=NonStandardMimeField__CQContentAccessCCafMimeHeaderi
+24 Name=SetStandardMimeDataL__QContentAccessCCafMimeHeaderRCQContentAccessTMimeFieldsRCTDesC8
+25 Name=StandardMimeData__CQContentAccessCCafMimeHeaderRCQContentAccessTMimeFields
+26 Name=_._QContentAccessCCafMimeHeader
+27 Name=AddNonStandardMimeL__QContentAccessCCafMimeHeaderRCTDesC8T1
+;------------------EOF------------------

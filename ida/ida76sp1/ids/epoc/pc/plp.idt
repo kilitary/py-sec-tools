@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PLP Pascal=0
+;---------------------------------------
+1 Name=_InstallPlpProto
+2 Name=??0TPlpAddr@@QAE@IABVTDesC8@@I@Z
+3 Name=??0TPlpAddr@@QAE@XZ
+4 Name=??0TPlpSerialCategory@@QAE@XZ
+5 Name=?Interface@TPlpAddr@@QBEIXZ
+6 Name=?LinkConfig@TPlpSerialCategory@@QBEXIAAVTPlpSerialConfig@@@Z
+7 Name=?PortConfig@TPlpSerialCategory@@QBEHABVTDesC8@@AAVTPlpSerialConfig@@@Z
+8 Name=?ServiceName@TPlpAddr@@QBE?AVTPtrC8@@XZ
+9 Name=?SetInterface@TPlpAddr@@QAEXI@Z
+10 Name=?SetLinkConfigL@TPlpSerialCategory@@QAEXIABVTPlpSerialConfig@@@Z
+11 Name=?SetPortConfigL@TPlpSerialCategory@@QAEHABVTPlpSerialConfig@@@Z
+12 Name=?SetServiceName@TPlpAddr@@QAEXABVTDesC8@@@Z
+;------------------EOF------------------

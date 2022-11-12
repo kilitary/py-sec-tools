@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TELSESS Pascal=0
+;---------------------------------------
+1 Name=_ZN14CTelnetSession5WriteERK6TDesC8
+2 Name=_ZN14CTelnetSession7ConnectERK7TDesC16j
+3 Name=_ZN14CTelnetSession7ConnectERK9TInetAddr
+4 Name=_ZN14CTelnetSession7ConnectERK9TInetAddrj
+5 Name=_ZN14CTelnetSession10ConstructLERK13TTelnetConfigPK19MTelnetNotification
+6 Name=_ZN14CTelnetSession10DisconnectEv
+7 Name=_ZN14CTelnetSession13DoForceLogoutEv
+8 Name=_ZN14CTelnetSession14DoModifyConfigER13TTelnetConfig
+9 Name=_Z18ClientStubOrdinal1v
+10 Name=_ZN14CTelnetSession4NewLERK13TTelnetConfigPK19MTelnetNotification
+11 Name=_ZN14CTelnetSession12OptionStatusER13TOptionStatus
+12 Name=_ZN14CTelnetSession4ReadEv
+13 Name=_ZN14CTelnetSession5WriteER18TTelnetUserControl
+14 Name=_ZN14CTelnetSession7ConnectERK7TDesC16
+15 Name=_ZTI14CTelnetSession
+16 Name=_ZTV14CTelnetSession
+;------------------EOF------------------

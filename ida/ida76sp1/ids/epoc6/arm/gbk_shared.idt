@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=GBK_SHARED Pascal=0
+;---------------------------------------
+1 Name=ReplacementForUnconvertibleUnicodeCharacters__6CnvGbk
+2 Name=ConvertFromUnicode__6CnvGbkQ225CCnvCharacterSetConverter11TEndiannessRC6TDesC8R5TDes8RC7TDesC16RQ225CCnvCharacterSetConverter24TArrayOfAscendingIndices
+3 Name=ConvertFromUnicode__6CnvGbkQ225CCnvCharacterSetConverter11TEndiannessRC6TDesC8R5TDes8RC7TDesC16RQ225CCnvCharacterSetConverter24TArrayOfAscendingIndicesRUiUi
+4 Name=ConvertToUnicode__6CnvGbkQ225CCnvCharacterSetConverter11TEndiannessR6TDes16RC6TDesC8RiT4
+5 Name=ConvertToUnicode__6CnvGbkQ225CCnvCharacterSetConverter11TEndiannessR6TDes16RC6TDesC8RiT4RUiUi
+6 Name=IsCharGBBased__6CnvGbkRiRC6TDesC8
+;------------------EOF------------------

@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EVENTMEDAPI Pascal=0
+;---------------------------------------
+1 Name=_ZN14REventMediator11ReportEventE10TEventType
+2 Name=_ZN14REventMediator11ReportEventE10TEventTypeR6TDesC8
+3 Name=_ZN14REventMediator11ReportEventE10TEventTypeR6TDesC8S2_
+4 Name=_ZN14REventMediator13ListenToEventE10TEventTypeR14MEventObserver
+5 Name=_ZN14REventMediator13ListenToEventE10TEventTypeR6TDesC8R14MEventObserver
+6 Name=_ZN14REventMediator14NewEventSpecIdEv
+7 Name=_ZN14REventMediator14ReportLogEventER4TUid12TLogCategoryjiz
+8 Name=_ZN14REventMediator15CancelListeningE10TEventType
+9 Name=_ZN14REventMediator15CancelListeningE10TEventTypeR6TDesC8
+10 Name=_ZN14REventMediator18CancelAllListeningEv
+11 Name=_ZN14REventMediator5CloseEv
+12 Name=_ZN14REventMediator7ConnectEv
+13 Name=_ZN14REventMediatorC1Ev
+14 Name=_ZN14REventMediatorC2Ev
+15 Name=_ZN14REventMediator13ClearEventLogEv
+16 Name=_ZN14REventMediator15GetEventLogDataER5TDes8
+17 Name=_ZN14REventMediator15GetEventLogSizeERi
+18 Name=_ZN14REventMediator17GetEventLogHeaderER5TDes8
+19 Name=_ZN14REventMediator18DeletePrivateFilesEv
+;------------------EOF------------------

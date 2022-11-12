@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=REFHTTPPROXY Pascal=0
+;---------------------------------------
+1 Name=_ZN12CProxyFilter16CreateHttpProxyLEv
+2 Name=_ZTI12CProxyFilter
+3 Name=_ZTV12CProxyFilter
+;------------------EOF------------------

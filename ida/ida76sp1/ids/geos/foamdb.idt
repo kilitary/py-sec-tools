@@ -1,0 +1,115 @@
+DECLARATION Nokia 9110 Geos 3.0 library foamdb.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+35 Name=foamdbdll Args=0 Drops=35
+;---------------------------------------
+1 Name=FoamDBOpen
+2 Name=FoamDBClose
+3 Name=FoamDBCreateEmptyRecord
+4 Name=FoamDBAddFieldToRecord
+5 Name=FoamDBDeleteFieldFromRecord
+6 Name=FoamDBSetFieldName
+7 Name=FoamDBSetFieldData
+8 Name=FoamDBGetFieldName
+9 Name=FoamDBGetFieldData
+10 Name=FoamDBFieldEnum
+11 Name=FoamDBSaveRecord
+12 Name=FoamDBDiscardRecord
+13 Name=FoamDBDeleteRecord
+14 Name=FoamDBGetRecordFromID
+15 Name=FoamDBGetNumVisibleRecords
+16 Name=FoamDBGetVisibleRecord
+17 Name=FoamDBDuplicateRecord
+18 Name=FoamDBVisibleRecordEnum
+19 Name=FOAMDBOPEN Pascal=10 \
+	Comment=VMFileHandle pascal FoamDBOpen(char *filename, word mapBlockSize, word majorProtocol, word minorProtocol) in foamdb.h
+20 Name=FOAMDBCLOSE Pascal=2 \
+	Comment=word pascal FoamDBClose(VMFileHandle file) in foamdb.h
+21 Name=FOAMDBCREATEEMPTYRECORD Pascal=2 \
+	Comment=MemHandle pascal FoamDBCreateEmptyRecord(VMFileHandle file) in foamdb.h
+22 Name=FOAMDBADDFIELDTORECORD Pascal=10 \
+	Comment=FieldID pascal FoamDBAddFieldToRecord(VMFileHandle file, MemHandle record, char *fieldName, word fieldType) in foamdb.h
+23 Name=FOAMDBDELETEFIELDFROMRECORD Pascal=6 \
+	Comment=void pascal FoamDBDeleteFieldFromRecord(VMFileHandle file, MemHandle record, FieldID id) in foamdb.h
+24 Name=FOAMDBSETFIELDNAME Pascal=10 \
+	Comment=void pascal FoamDBSetFieldName(VMFileHandle file, MemHandle record, FieldID id, char *name) in foamdb.h
+25 Name=FOAMDBSETFIELDDATA Pascal=12 \
+	Comment=void pascal FoamDBSetFieldData(VMFileHandle file, MemHandle record, FieldID id, char *data, word dataSize) in foamdb.h
+26 Name=FOAMDBGETFIELDNAME Pascal=12 \
+	Comment=Boolean pascal FoamDBGetFieldName(VMFileHandle file, MemHandle record, FieldID id, TCHAR *dest, word maxBytesToGet) in foamdb.h
+27 Name=FOAMDBGETFIELDDATA Pascal=12 \
+	Comment=word pascal FoamDBGetFieldData(VMFileHandle file, MemHandle record, FieldID id, char *dest, word maxBytesToGet) in foamdb.h
+28 Name=FOAMDBFIELDENUM Pascal=6 \
+	Comment=Boolean pascal FoamDBFieldEnum(MemHandle record, void *enumData, Boolean (* callback) (FieldHeader *field, void *enumData)) in foamdb.h
+29 Name=FOAMDBSAVERECORD Pascal=4 \
+	Comment=dword pascal FoamDBSaveRecord(VMFileHandle file, MemHandle record, sword (* callback) (RecordHeader *record1, RecordHeader *record2)) in foamdb.h
+30 Name=FOAMDBDISCARDRECORD Pascal=4 \
+	Comment=void pascal FoamDBDiscardRecord(VMFileHandle file, MemHandle record) in foamdb.h
+31 Name=FOAMDBDELETERECORD Pascal=4 \
+	Comment=Boolean pascal FoamDBDeleteRecord(VMFileHandle file, MemHandle record) in foamdb.h
+32 Name=FOAMDBGETRECORDFROMID Pascal=6 \
+	Comment=MemHandle pascal FoamDBGetRecordFromID(VMFileHandle file, RecordID id) in foamdb.h
+33 Name=FOAMDBGETNUMVISIBLERECORDS Pascal=2 \
+	Comment=dword pascal FoamDBGetNumVisibleRecords(VMFileHandle file) in foamdb.h
+34 Name=FOAMDBGETVISIBLERECORD Pascal=6 \
+	Comment=MemHandle pascal FoamDBGetVisibleRecord(VMFileHandle file, dword index) in foamdb.h
+35 Name=FOAMDBDUPLICATERECORD Pascal=4 \
+	Comment=MemHandle pascal FoamDBDuplicateRecord(VMFileHandle file, MemHandle record) in foamdb.h
+36 Name=FOAMDBVISIBLERECORDENUM Pascal=6 \
+	Comment=Boolean pascal FoamDBVisibleRecordEnum(VMFileHandle file, void *enumData, Boolean (* callback) (RecordHeader *record, void *enumData)) in foamdb.h
+37 Name=FoamDBGetFieldType
+38 Name=FOAMDBGETFIELDTYPE Pascal=10 \
+	Comment=Boolean pascal FoamDBGetFieldType(VMFileHandle file, MemHandle record, FieldID id, byte *type) in foamdb.h
+39 Name=HugeArrayBinarySearch
+40 Name=FoamDBMapNameToToken
+41 Name=FOAMDBMAPNAMETOTOKEN Pascal=10 \
+	Comment=Boolean pascal FoamDBMapNameToToken(VMFileHandle file, TCHAR *nameToLookFor, word *token) in foamdb.h
+42 Name=FoamDBMapTokenToName
+43 Name=FOAMDBMAPTOKENTONAME Pascal=10 \
+	Comment=Boolean pascal FoamDBMapTokenToName(VMFileHandle file, word nameToken, word maxBytesToCopy, TCHAR *dest) in foamdb.h
+44 Name=FoamDBLockedRecordEnum
+45 Name=FOAMDBLOCKEDRECORDENUM Pascal=8 \
+	Comment=Boolean pascal FoamDBLockedRecordEnum(RecordHeader *record, void *enumData, Boolean (* callback) (FieldHeader *field, void *enumData)) in foamdb.h
+46 Name=FoamDBGetRecordID
+47 Name=FOAMDBGETRECORDID Pascal=2 \
+	Comment=RecordID pascal FoamDBGetRecordID(MemHandle record) in foamdb.h
+48 Name=FoamDBGetNextPrevRecord
+49 Name=FOAMDBGETNEXTPREVRECORD_OLD
+50 Name=FoamDBSuspendNotifications
+51 Name=FOAMDBSUSPENDNOTIFICATIONS Pascal=2 \
+	Comment=void pascal FoamDBSuspendNotifications(VMFileHandle file) in foamdb.h
+52 Name=FoamDBResumeNotifications
+53 Name=FOAMDBRESUMENOTIFICATIONS Pascal=2 \
+	Comment=void pascal FoamDBResumeNotifications(VMFileHandle file) in foamdb.h
+54 Name=FoamDBGetCurrentRecordID
+55 Name=FOAMDBGETCURRENTRECORDID Pascal=2 \
+	Comment=RecordID pascal FoamDBGetCurrentRecordID(VMFileHandle file) in foamdb.h
+56 Name=FoamDBSetCurrentRecordID
+57 Name=FOAMDBSETCURRENTRECORDID Pascal=6 \
+	Comment=void pascal FoamDBSetCurrentRecordID(VMFileHandle file, RecordID id) in foamdb.h
+58 Name=FoamDBBinarySearch
+59 Name=FOAMDBBINARYSEARCH Pascal=4 \
+	Comment=RecordID pascal FoamDBBinarySearch(VMFileHandle file, MemHandle record, int (* callback) (void * passedRecord, void * curRecord )) in foamdb.h
+60 Name=FoamDBSuspendUpdates
+61 Name=FOAMDBSUSPENDUPDATES Pascal=2 \
+	Comment=void pascal FoamDBSuspendUpdates(VMFileHandle file) in foamdb.h
+62 Name=FoamDBResumeUpdates
+63 Name=FOAMDBRESUMEUPDATES Pascal=2 \
+	Comment=void pascal FoamDBResumeUpdates(VMFileHandle file) in foamdb.h
+64 Name=FoamDBSetNameForToken
+65 Name=FOAMDBSETNAMEFORTOKEN Pascal=8 \
+	Comment=void pascal FoamDBSetNameForToken(VMFileHandle file, word nameToken, TCHAR *name) in foamdb.h
+66 Name=FoamDBResortDatabase
+67 Name=FOAMDBRESORTDATABASE Pascal=2 \
+	Comment=void pascal FoamDBResortDatabase(VMFileHandle file, sword (* callback) (RecordHeader *record1, RecordHeader *record2)) in foamdb.h
+68 Name=FoamDBVisibleRecordEnumWithRange
+69 Name=FOAMDBVISIBLERECORDENUMWITHRANGE Pascal=14 \
+	Comment=Boolean pascal FoamDBVisibleRecordEnumWithRange(VMFileHandle file, void *enumData, dword startElement, dword numOfRecords, Boolean (* callback) (RecordHeader *record, void *enumData)) in foamdb.h
+70 Name=FOAMDBGETNEXTPREVRECORD Pascal=8 \
+	Comment=dword pascal FoamDBGetNextPrevRecord(VMFileHandle file, RecordID record, word count) in foamdb.h
+71 Name=SendDBNotification
+72 Name=FoamDBGetVisibleIndexFromID
+73 Name=FOAMDBGETVISIBLEINDEXFROMID Pascal=6 \
+	Comment=dword pascal FoamDBGetVisibleIndexFromID(VMFileHandle file, RecordID id) in foamdb.h
+;------------------EOF------------------

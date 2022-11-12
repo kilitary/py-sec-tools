@@ -1,0 +1,77 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CONARC Pascal=0
+;---------------------------------------
+1 Name=??0CCnaConverter@@QAE@XZ
+2 Name=??0CExportBufferBase@@QAE@H@Z
+3 Name=??0CFileImportBuffer@@QAE@VRFile@@H@Z
+4 Name=??0CImportBufferBase@@QAE@H@Z
+5 Name=??1CCnaConvInfoFileWriter@@UAE@XZ
+6 Name=??1CCnaConverter@@UAE@XZ
+7 Name=??1CCnaConverterList@@UAE@XZ
+8 Name=??1CCnaScanningConverterFinder@@UAE@XZ
+9 Name=??1CExportBufferBase@@UAE@XZ
+10 Name=??1CImportBufferBase@@UAE@XZ
+11 Name=?AddConverterL@CCnaConvInfoFileWriter@@QAEXABVCCnaConverter@@@Z
+12 Name=?AddMimeFromL@CCnaConverter@@QAEXABVTDataType@@@Z
+13 Name=?AddMimeToL@CCnaConverter@@QAEXABVTDataType@@@Z
+14 Name=?AtL@CCnaConvInfoFileReader@@QAEPAVCCnaConverter@@H@Z
+15 Name=?CancelConvert@CConverterBase@@UAEXXZ
+16 Name=?Capabilities@CConverterBase@@UAEHXZ
+17 Name=?CommitExportBufferL@CExportDynamicBuffer@@UAEXXZ
+18 Name=?ConstructL@CExportBufferBase@@QAEXXZ
+19 Name=?ConstructL@CExportDynamicBuffer@@QAEXXZ
+20 Name=?ConstructL@CImportBufferBase@@QAEXXZ
+21 Name=?ConvFromL@CCnaConverterList@@QAE?AVTUid@@ABVTDataType@@@Z
+22 Name=?ConvToL@CCnaConverterList@@QAE?AVTUid@@ABVTDataType@@@Z
+23 Name=?ConvertAL@CConverterBase@@UAEXABV?$TBuf@$0BAA@@@0PBVMConverterObserver@@@Z
+24 Name=?ConvertL@CConverterBase@@UAEXABV?$TBuf@$0BAA@@@0PBVMConverterObserver@@@Z
+25 Name=?ConvertObjectAL@CConverterBase@@UAEXAAVRReadStream@@AAVRWriteStream@@PBVMConverterObserver@@@Z
+26 Name=?ConvertObjectL@CConverterBase@@UAEXAAVRReadStream@@AAVRWriteStream@@PBVMConverterObserver@@@Z
+27 Name=?Converter@CCnaConverterList@@QAEPAVCConverterBase@@VTUid@@@Z
+28 Name=?Count@CCnaConvInfoFileReader@@QAEHXZ
+29 Name=?Count@CCnaConverterList@@QAEHXZ
+30 Name=?CountFrom@CCnaConverter@@QBEHXZ
+31 Name=?CountTo@CCnaConverter@@QBEHXZ
+32 Name=?DoConvertL@CConverterBase@@UAEHXZ
+33 Name=?ExternalizeL@CCnaConverter@@QBEXAAVRWriteStream@@@Z
+34 Name=?FillImportBuf@CFileImportBuffer@@MAEHXZ
+35 Name=?FinalizeExport@CExportBufferBase@@QAEXXZ
+36 Name=?FindAllConvL@CCnaScanningConverterFinder@@UAEXXZ
+37 Name=?InsertL@CExportBufferBase@@QAEXE@Z
+38 Name=?InternalizeL@CCnaConverter@@QAEXAAVRReadStream@@@Z
+39 Name=?MaxSize@CImportBufferBase@@IAEHXZ
+40 Name=?MimeFrom@CCnaConverter@@QBE?AVTDataType@@H@Z
+41 Name=?MimeFrom@CCnaConverter@@QBEHABVTDataType@@@Z
+42 Name=?MimeTo@CCnaConverter@@QBE?AVTDataType@@H@Z
+43 Name=?MimeTo@CCnaConverter@@QBEHABVTDataType@@@Z
+44 Name=?NewL@CCnaConvInfoFileReader@@SAPAV1@ABVTDesC8@@VTUid@@@Z
+45 Name=?NewL@CCnaConvInfoFileWriter@@SAPAV1@ABVTDesC8@@VTUid@@@Z
+46 Name=?NewL@CCnaConverter@@SAPAV1@ABV1@@Z
+47 Name=?NewL@CCnaConverter@@SAPAV1@VTUid@@VTDataType@@1@Z
+48 Name=?NewL@CCnaConverterList@@SAPAV1@XZ
+49 Name=?NewL@CCnaScanningConverterFinder@@SAPAV1@AAVRFs@@@Z
+50 Name=?NewL@CExportDynamicBuffer@@SAPAV1@HAAVCBufBase@@@Z
+51 Name=?NewLC@CCnaConvInfoFileReader@@SAPAV1@ABVTDesC8@@VTUid@@@Z
+52 Name=?NewLC@CCnaConvInfoFileWriter@@SAPAV1@ABVTDesC8@@VTUid@@@Z
+53 Name=?NewLC@CCnaConverter@@SAPAV1@ABV1@@Z
+54 Name=?NewLC@CCnaConverter@@SAPAV1@VTUid@@VTDataType@@1@Z
+55 Name=?NewLC@CCnaConverterList@@SAPAV1@XZ
+56 Name=?NewLC@CCnaScanningConverterFinder@@SAPAV1@AAVRFs@@@Z
+57 Name=?NextL@CCnaScanningConverterFinder@@UAEHAAVCCnaFoundConverter@@@Z
+58 Name=?ReadL@CImportBufferBase@@QAEHAAE@Z
+59 Name=?Release@CCnaConverterList@@QAEXXZ
+60 Name=?ResetExportBuffer@CExportBufferBase@@QAEXXZ
+61 Name=?ResetImportBuffer@CImportBufferBase@@QAEXXZ
+62 Name=?ResetReadPtr@CImportBufferBase@@QAEXXZ
+63 Name=?ResetWritePtr@CExportBufferBase@@QAEXXZ
+64 Name=?RestoreL@CCnaConvInfoFileReader@@QAEXXZ
+65 Name=?SeekL@CFileImportBuffer@@UAEHW4TSeek@@H@Z
+66 Name=?SeekL@CImportBufferBase@@UAEHW4TSeek@@H@Z
+67 Name=?SetLength@CImportBufferBase@@IAEXH@Z
+68 Name=?SetUid@CCnaConverter@@QAEXVTUid@@@Z
+69 Name=?StoreL@CCnaConvInfoFileWriter@@QBEXXZ
+70 Name=?UpdateL@CCnaConverterList@@QAEXXZ
+;------------------EOF------------------

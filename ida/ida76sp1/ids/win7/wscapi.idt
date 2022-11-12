@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wscapi.dll Args=0 Drops=21
+;---------------------------------------
+1 Name=WscGetSecurityProviderHealth Pascal=8
+2 Name=WscRegisterForChanges Pascal=16
+3 Name=WscUnRegisterChanges Pascal=4
+4 Name=wscAntiSpywareGetStatus Pascal=8
+5 Name=wscAntiVirusGetStatus Pascal=8
+6 Name=wscAutoUpdatesEnableScheduledMode Pascal=0
+7 Name=wscAutoUpdatesGetStatus Pascal=4
+8 Name=wscFirewallGetStatus Pascal=8
+9 Name=wscGeneralSecurityGetStatus Pascal=8
+10 Name=wscGetAlertStatus Pascal=8
+11 Name=wscIcfEnable Pascal=0
+12 Name=wscIeSettingsFix Pascal=0
+13 Name=wscLuaSettingsFix Pascal=4
+14 Name=wscOverrideComponentStatus Pascal=8
+15 Name=wscPing Pascal=0
+16 Name=wscProductInfoFree Pascal=8
+17 Name=wscRegisterChangeNotification Pascal=8
+18 Name=wscRegisterSecurityProduct Pascal=20
+19 Name=wscUnRegisterChangeNotification Pascal=4
+20 Name=wscUnregisterSecurityProduct Pascal=4
+21 Name=wscUpdateProductStatus Pascal=12
+;------------------EOF------------------

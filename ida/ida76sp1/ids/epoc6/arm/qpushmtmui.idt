@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QPUSHMTMUI Pascal=0
+;---------------------------------------
+1 Name=NewPushMtmUiDataLayerL__FR17CRegisteredMtmDll
+2 Name=NewPushMtmUiL__FR8CBaseMtmR17CRegisteredMtmDll
+;------------------EOF------------------

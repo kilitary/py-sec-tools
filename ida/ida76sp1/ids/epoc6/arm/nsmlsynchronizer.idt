@@ -1,0 +1,20 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NSMLSYNCHRONIZER Pascal=0
+;---------------------------------------
+1 Name=__RNSmlSynchronizer
+2 Name=Close__RNSmlSynchronizer
+3 Name=ConnectL__RNSmlDMSynchronizer
+4 Name=ConnectL__RNSmlDSSynchronizer
+5 Name=NewL__CNSmlSynchronizerServerRCTDesC16PMNSmlSynchronizerHandler
+6 Name=SynchronizeL__RNSmlSynchronizeriRTRequestStatus
+7 Name=SynchronizeL__RNSmlSynchronizeriRCTDesC8
+8 Name=_._RNSmlSynchronizer
+9 Name=_._CNSmlSynchronizerServer
+10 Name=CancelSynchronize__RNSmlSynchronizer
+11 Name=DoConnectL__RNSmlSynchronizerRCTDesC16RCTUid
+12 Name=SynchronizeL__RNSmlSynchronizeriRTRequestStatusTNSmlProfileMediumTypei
+13 Name=SynchronizeCtL__RNSmlDSSynchronizeriPtCArrayFixZTNSmlContentSpecificSyncType
+;------------------EOF------------------

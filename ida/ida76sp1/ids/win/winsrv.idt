@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=winsrv.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=ConServerDllInitialization Pascal=4
+2 Name=UserServerDllInitialization Pascal=4
+3 Name=_UserSoundSentry Pascal=4
+4 Name=_UserTestTokenForInteractive Pascal=8
+;------------------EOF------------------

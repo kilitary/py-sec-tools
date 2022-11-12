@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=avmeter.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=_CustomControlInfoA@4 Pascal=4
+2 Name=_TrackMeter_SizeToText@16 Pascal=16
+3 Name=_TrackMeter_Style@8 Pascal=8
+4 Name=_TrackMeter_WndProc@16 Pascal=16
+;------------------EOF------------------

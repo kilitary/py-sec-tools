@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wlanhlp.dll Args=0 Drops=29
+;---------------------------------------
+1 Name=QueryNetconStatus Pascal=8
+2 Name=QueryNetconVirtualCharacteristic Pascal=8
+3 Name=WlanCancelPlap Pascal=4
+4 Name=WlanConnectWithInput Pascal=12
+5 Name=WlanDeinitPlapParams Pascal=0
+6 Name=WlanDoPlap Pascal=44
+7 Name=WlanEnumAllInterfaces Pascal=4
+8 Name=WlanGenerateProfileXmlBasicSettings Pascal=40
+9 Name=WlanGetProfileEapUserDataInfo Pascal=16
+10 Name=WlanGetProfileKeyInfo Pascal=24
+11 Name=WlanHostedNetworkFreeWCNSettings Pascal=4
+12 Name=WlanHostedNetworkHlpQueryEverUsed Pascal=0
+13 Name=WlanHostedNetworkQueryWCNSettings Pascal=4
+14 Name=WlanHostedNetworkSetWCNSettings Pascal=4
+15 Name=WlanInitPlapParams Pascal=4
+16 Name=WlanInternalScan Pascal=8
+17 Name=WlanIsNetworkSuppressed Pascal=8
+18 Name=WlanIsUIRequestPending Pascal=12
+19 Name=WlanParseProfileXmlBasicSettings Pascal=40
+20 Name=WlanPrivateGetAvailableNetworkList Pascal=16
+21 Name=WlanQueryCreateAllUserProfileRestricted Pascal=8
+22 Name=WlanQueryPlapCredentials Pascal=32
+23 Name=WlanQueryPreConnectInput Pascal=12
+24 Name=WlanQueryVirtualInterfaceType Pascal=8
+25 Name=WlanRefreshConnections Pascal=4
+26 Name=WlanRemoveUIForwardingNetworkList Pascal=4
+27 Name=WlanSendUIResponse Pascal=8
+28 Name=WlanSetAllUserProfileRestricted Pascal=4
+29 Name=WlanSetUIForwardingNetworkList Pascal=12
+;------------------EOF------------------

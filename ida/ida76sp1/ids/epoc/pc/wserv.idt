@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WSERV Pascal=0
+;---------------------------------------
+1 Name=?RegisterWsExe@@YAXABVTDesC8@@@Z
+2 Name=?WindowServerThread@@YAHPAX@Z
+3 Name=?__DbgTestInvariant@CWsBackedUpWindow@@QBEXXZ
+;------------------EOF------------------

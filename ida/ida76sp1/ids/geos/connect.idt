@@ -1,0 +1,74 @@
+DECLARATION Nokia 9110 Geos 3.0 library connect.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+28 Name=connectdll Args=21 Drops=6
+;---------------------------------------
+1 Name=ConnectClass
+2 Name=ConnectSettingsControlClass
+3 Name=ConnectSettingsDisplayControlClass
+4 Name=ConnectProgressDialogClass
+5 Name=ConnectMultiFileClass
+6 Name=ConnectMultiFileActionClass
+7 Name=ConnectSubApplicationClass
+8 Name=ConnectCreateProgressDialog Args=6 \
+	Comment=optr cdecl ConnectCreateProgressDialog(optr cancellationOptr, Message cancellationMsg) in connect.goh
+9 Name=ConnectCreateProgressDialogFromTemplate Args=10 \
+	Comment=optr cdecl ConnectCreateProgressDialogFromTemplate(optr progressDialogTemplate, optr cancellationOptr, Message cancellationMsg) in connect.goh
+10 Name=ConnectDoStandardDialog Args=10 \
+	Comment=InteractionCommand cdecl ConnectDoStandardDialog( ConnectStandardDialogBoxType dialogType, TCHAR *arg1, TCHAR *arg2) in connect.goh
+11 Name=ConnectSetServerPath Args=4 \
+	Comment=ConnectError cdecl ConnectSetServerPath(TCHAR *path) in connect.goh
+12 Name=ConnectGetServerPath Args=4 \
+	Comment=ConnectError cdecl ConnectGetServerPath(TCHAR *buffer) in connect.goh
+13 Name=ConnectGetPackageDescriptorData Args=14 \
+	Comment=ConnectError cdecl ConnectGetPackageDescriptorData(optr pkgDescArray, word n, PackageDescriptorDataType pddt, TCHAR *retBuf, word bufLength ) in connect.goh
+14 Name=ConnectAbridgePath Args=16 \
+	Comment=void cdecl ConnectAbridgePath(char *thePath, word maxWidth, char *includedInWidth, FontID fontID, WWFixedAsDWord pointSize) in connect.goh
+15 Name=ConnectCheckLegalDosDriveName Args=4 \
+	Comment=ConnectCheckLegalError cdecl ConnectCheckLegalDosDriveName (const TCHAR *driveName) in connect.goh
+16 Name=ConnectCheckLegalDosDirPath Args=4 \
+	Comment=ConnectCheckLegalError cdecl ConnectCheckLegalDosDirPath (const TCHAR *dirPath) in connect.goh
+17 Name=ConnectCheckLegalDosFilePath Args=4 \
+	Comment=ConnectCheckLegalError cdecl ConnectCheckLegalDosFilePath (TCHAR *filePath) in connect.goh
+18 Name=ConnectCheckLegalDosFileName Args=4 \
+	Comment=ConnectCheckLegalError cdecl ConnectCheckLegalDosFileName (const TCHAR *fileName) in connect.goh
+19 Name=ConnectCreatePathOnServer
+20 Name=ConnectWarnIfOutOfSpace
+21 Name=CONNECTGEODEFINDFROMLONGNAME Pascal=12 \
+	Comment=ConnectError pascal ConnectGeodeFindFromLongName( const char *name, GeodeAttrs attrMatch, GeodeAttrs attrNoMatch, GeodeHandle *geodeHan) in connect.goh
+22 Name=ConnectMapPCCFRTToConnectError Args=4 \
+	Comment=ConnectError cdecl ConnectMapPCCFRTToConnectError( ConnectError defaultErr, PCComFullReturnType pccomErr ) in connect.goh
+23 Name=ConnectDoStandardDialogWithReason Args=8 \
+	Comment=InteractionCommand cdecl ConnectDoStandardDialogWithReason( ConnectError error, ConnectStandardDialogBoxType dbType, TCHAR *arg ) in connect.goh
+24 Name=ConnectDoStandardErrorDialog Args=10 \
+	Comment=Boolean cdecl ConnectDoStandardErrorDialog( ConnectError error, TCHAR *arg1, TCHAR *arg2 ) in connect.goh
+25 Name=CONNECTPLAYSOUND Pascal=2 \
+	Comment=void pascal ConnectPlaySound( ConnectSoundType soundToPlay ) in connect.goh
+26 Name=ConnectDisplayServerPath \
+	Comment=ConnectError cdecl ConnectDisplayServerPath(void) in connect.goh
+27 Name=CONNECTDISABLEAPPLAUNCHKEYS Pascal=4 \
+	Comment=void pascal ConnectDisableAppLaunchKeys(ConnectDisableAppLaunchKeysMonitor *monitor) in connect.goh
+28 Name=CONNECTENABLEAPPLAUNCHKEYS Pascal=4 \
+	Comment=void pascal ConnectEnableAppLaunchKeys(ConnectDisableAppLaunchKeysMonitor *monitor) in connect.goh
+29 Name=CONNECTCOMPRESSFILE Pascal=4 \
+	Comment=word pascal ConnectCompressFile (FileHandle srcFileHan, FileHandle destFileHan) in connect.goh
+30 Name=CONNECTDECOMPRESSFILE Pascal=4 \
+	Comment=word pascal ConnectDecompressFile (FileHandle srcFileHan, FileHandle destFileHan) in connect.goh
+31 Name=ConnectGetFreeSpace Args=10 \
+	Comment=ConnectError cdecl ConnectGetFreeSpace (dword *driveSpace, word driveLetter, dword localSize) in connect.goh
+32 Name=ConnectFileEnum Args=12 \
+	Comment=word cdecl ConnectFileEnum (FileEnumParams *params, MemHandle *bufCreated, word *numNoFit) in connect.goh
+33 Name=ConnectGetFileSize Args=8 \
+	Comment=ConnectError cdecl ConnectGetFileSize (dword *fileSize, char *fileName) in connect.goh
+34 Name=ConnectRemark Args=6 \
+	Comment=ConnectError cdecl ConnectRemark (ConnectError error, TCHAR *actionString) in connect.goh
+35 Name=ConnectMaybeDoStandardErrorDialog Args=14 \
+	Comment=Boolean cdecl ConnectMaybeDoStandardErrorDialog( ConnectError error, TCHAR *arg1, TCHAR *arg2, optr connectObj) in connect.goh
+36 Name=ConnectMaybeDoStandardDialog Args=14 \
+	Comment=InteractionCommand cdecl ConnectMaybeDoStandardDialog( ConnectStandardDialogBoxType dialogType, TCHAR *arg1, TCHAR *arg2, optr connectObj) in connect.goh
+37 Name=ConnectMaybeWarnIfOutOfSpace
+38 Name=ConnectWarnIfOutOfSpaceOnDisk
+39 Name=ConnectValidateIniPathSettings Args=4 \
+	Comment=void cdecl ConnectValidateIniPathSettings(TCHAR *fname) in connect.goh
+;------------------EOF------------------

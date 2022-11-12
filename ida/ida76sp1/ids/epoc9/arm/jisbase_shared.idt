@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=JISBASE_SHARED Pascal=0
+;---------------------------------------
+1 Name=_ZN10CnvJisBase16ConvertToUnicodeEN25CCnvCharacterSetConverter11TEndiannessER6TDes16RK6TDesC8RiS7_S7_
+2 Name=_ZN10CnvJisBase32HalfWidthKatakana7ConversionDataEv
+3 Name=_ZN10CnvJisBase19IsCharacterJISBasedERiRK6TDesC8
+;------------------EOF------------------

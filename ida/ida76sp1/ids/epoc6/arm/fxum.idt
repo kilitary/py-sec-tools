@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FXUM Pascal=0
+;---------------------------------------
+1 Name=NewMtmUiL__FP8CBaseMtmR17CRegisteredMtmDll
+2 Name=NewMtmUiDataLayerL__FR17CRegisteredMtmDll
+;------------------EOF------------------

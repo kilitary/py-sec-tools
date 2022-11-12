@@ -1,0 +1,56 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BMPANIM Pascal=0
+;---------------------------------------
+1 Name=_ZN11RBitmapAnim10ConstructLERK11RWindowBase
+2 Name=_ZN11RBitmapAnim12SetPlayModeLEN21CBitmapAnimClientData9TPlayModeE
+3 Name=_ZN11RBitmapAnim12SetPositionLE6TPoint
+4 Name=_ZN11RBitmapAnim13DisplayFrameLEi
+5 Name=_ZN11RBitmapAnim17SetFrameIntervalLEi
+6 Name=_ZN11RBitmapAnim18SetBitmapAnimDataLERK21CBitmapAnimClientData
+7 Name=_ZN11RBitmapAnim18SetNumberOfCyclesLEi
+8 Name=_ZN11RBitmapAnim5StopLEv
+9 Name=_ZN11RBitmapAnim6StartLEv
+10 Name=_ZN11RBitmapAnim9SetFlashLEi
+11 Name=_ZN11RBitmapAnimC1ER8RAnimDll
+12 Name=_ZN11RBitmapAnimC2ER8RAnimDll
+13 Name=_ZN16CBitmapFrameData11SetIntervalEi
+14 Name=_ZN16CBitmapFrameData11SetPositionE6TPoint
+15 Name=_ZN16CBitmapFrameData25SetBitmapsOwnedExternallyEi
+16 Name=_ZN16CBitmapFrameData4NewLEP10CFbsBitmapS1_
+17 Name=_ZN16CBitmapFrameData4NewLEP10CFbsBitmapS1_i6TPoint
+18 Name=_ZN16CBitmapFrameData4NewLEv
+19 Name=_ZN16CBitmapFrameData7SetMaskEP10CFbsBitmap
+20 Name=_ZN16CBitmapFrameData9SetBitmapEP10CFbsBitmap
+21 Name=_ZN16CBitmapFrameDataD0Ev
+22 Name=_ZN16CBitmapFrameDataD1Ev
+23 Name=_ZN16CBitmapFrameDataD2Ev
+24 Name=_ZN21CBitmapAnimClientData11SetPlayModeENS_9TPlayModeE
+25 Name=_ZN21CBitmapAnimClientData12AppendFrameLEP16CBitmapFrameData
+26 Name=_ZN21CBitmapAnimClientData15ResetFrameArrayEv
+27 Name=_ZN21CBitmapAnimClientData16SetFrameIntervalEi
+28 Name=_ZN21CBitmapAnimClientData18SetBackgroundFrameEP16CBitmapFrameData
+29 Name=_ZN21CBitmapAnimClientData4NewLEv
+30 Name=_ZN21CBitmapAnimClientData8SetFlashEi
+31 Name=_ZN21CBitmapAnimClientDataD0Ev
+32 Name=_ZN21CBitmapAnimClientDataD1Ev
+33 Name=_ZN21CBitmapAnimClientDataD2Ev
+34 Name=_ZNK16CBitmapFrameData22BitmapsOwnedExternallyEv
+35 Name=_ZNK16CBitmapFrameData22IntervalInMilliSecondsEv
+36 Name=_ZNK16CBitmapFrameData4MaskEv
+37 Name=_ZNK16CBitmapFrameData6BitmapEv
+38 Name=_ZNK16CBitmapFrameData8PositionEv
+39 Name=_ZNK21CBitmapAnimClientData10FrameArrayEv
+40 Name=_ZNK21CBitmapAnimClientData15BackgroundFrameEv
+41 Name=_ZNK21CBitmapAnimClientData22DurationInMilliSecondsEv
+42 Name=_ZNK21CBitmapAnimClientData27FrameIntervalInMilliSecondsEv
+43 Name=_ZNK21CBitmapAnimClientData4SizeEv
+44 Name=_ZNK21CBitmapAnimClientData5FlashEv
+45 Name=_ZNK21CBitmapAnimClientData8PlayModeEv
+46 Name=_ZTV21CBitmapAnimClientData
+47 Name=_ZTI16CBitmapFrameData
+48 Name=_ZTI21CBitmapAnimClientData
+49 Name=_ZTV16CBitmapFrameData
+;------------------EOF------------------

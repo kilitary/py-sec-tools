@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EKTRAN Pascal=0
+;---------------------------------------
+1 Name=??0CCaptureKeys@@QAE@XZ
+2 Name=??1CCaptureKeys@@UAE@XZ
+3 Name=?AddCaptureKeyL@CCaptureKeys@@QAEXABVTCaptureKey@@@Z
+4 Name=?CancelAllCaptureKeys@CCaptureKeys@@QAEXK@Z
+5 Name=?CancelCaptureKey@CCaptureKeys@@QAEXK@Z
+6 Name=?Construct@CCaptureKeys@@QAEXXZ
+7 Name=?New@CKeyTranslator@@SAPAV1@XZ
+8 Name=?ProcessCaptureKeys@CCaptureKeys@@QBEXAAVTKeyData@@@Z
+9 Name=?SetCaptureKey@CCaptureKeys@@QAEXKABVTCaptureKey@@@Z
+;------------------EOF------------------

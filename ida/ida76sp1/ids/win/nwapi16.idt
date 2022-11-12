@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=nwapi16.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=Nw16Handler Pascal=0
+2 Name=Nw16Register Pascal=0
+;------------------EOF------------------

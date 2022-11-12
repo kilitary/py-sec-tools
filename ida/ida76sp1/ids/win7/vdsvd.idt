@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=vdsvd.dll Args=0 Drops=35
+;---------------------------------------
+1 Name=??0CPrvEnumObject@@QAE@XZ Pascal=0
+2 Name=??0CRtlSharedLock@@QAE@XZ Pascal=0
+3 Name=??0CVdsCriticalSection@@QAE@PAU_RTL_CRITICAL_SECTION@@@Z Pascal=4
+4 Name=??0CVdsPnPNotificationBase@@QAE@XZ Pascal=0
+5 Name=??0CVdsUnlockIt@@QAE@AAJ@Z Pascal=4
+6 Name=??1CPrvEnumObject@@QAE@XZ Pascal=0
+7 Name=??1CRtlSharedLock@@QAE@XZ Pascal=0
+8 Name=??1CVdsCriticalSection@@QAE@XZ Pascal=0
+9 Name=??1CVdsDebugLog@@QAE@XZ Pascal=0
+10 Name=??1CVdsPnPNotificationBase@@QAE@XZ Pascal=0
+11 Name=??1CVdsUnlockIt@@QAE@XZ Pascal=0
+12 Name=??_FCRtlList@@QAEXXZ Pascal=0
+13 Name=??_FCRtlMap@@QAEXXZ Pascal=0
+14 Name=?AcquireRead@CRtlSharedLock@@AAEXXZ Pascal=0
+15 Name=?AcquireWrite@CRtlSharedLock@@AAEXXZ Pascal=0
+16 Name=?AllowCancel@CVdsAsyncObjectBase@@QAEXXZ Pascal=0
+17 Name=?CurrentThreadIsWriter@CRtlSharedLock@@QAEHXZ Pascal=0
+18 Name=?DisallowCancel@CVdsAsyncObjectBase@@QAEXXZ Pascal=0
+19 Name=?Downgrade@CRtlSharedLock@@AAEXXZ Pascal=0
+20 Name=?GetOutputType@CVdsAsyncObjectBase@@QAE?AW4_VDS_ASYNC_OUTPUT_TYPE@@XZ Pascal=0
+21 Name=?IsCancelRequested@CVdsAsyncObjectBase@@QAEHXZ Pascal=0
+22 Name=?Release@CRtlSharedLock@@AAEXXZ Pascal=0
+23 Name=?SetOutput@CVdsAsyncObjectBase@@QAEXU_VDS_ASYNC_OUTPUT@@@Z Pascal=32
+24 Name=?SetOutputType@CVdsAsyncObjectBase@@QAEXW4_VDS_ASYNC_OUTPUT_TYPE@@@Z Pascal=4
+25 Name=?SetPositionToLast@CPrvEnumObject@@QAEXXZ Pascal=0
+26 Name=?StartReferenceHistory@@YGKXZ Pascal=0
+27 Name=?StopReferenceHistory@@YGXXZ Pascal=0
+28 Name=?Upgrade@CRtlSharedLock@@AAEXXZ Pascal=0
+29 Name=?ZeroAsyncOut@CVdsAsyncObjectBase@@QAEXXZ Pascal=0
+30 Name=?m_NoDebuggerLogging@CVdsDebugLog@@QAEHXZ Pascal=0
+31 Name=?m_TracingLogEnabled@CVdsDebugLog@@QAEHXZ Pascal=0
+32 Name=DllCanUnloadNow Pascal=0
+33 Name=DllGetClassObject Pascal=12
+34 Name=DllRegisterServer Pascal=0
+35 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

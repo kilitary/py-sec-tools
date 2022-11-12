@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ASForm.dll Pascal=0
+;---------------------------------------
+1 Name=DllGetClassObject
+2 Name=Host_CreateStorage
+3 Name=DllCanUnloadNow
+4 Name=Host_DeviceToHiMetric
+5 Name=Host_FreeUnusedLibraries
+6 Name=Host_GetLibraryInstance
+7 Name=Host_GetScriptCLSID
+8 Name=Host_GetTypeInfo
+9 Name=Host_HiMetricToDevice
+10 Name=Host_OleStrCat
+11 Name=Host_OleStrCmp
+12 Name=Host_OleStrCpy
+13 Name=Host_OleStrDup
+14 Name=Host_OleStrLen
+15 Name=Host_OleToText
+16 Name=Host_OpenOrCreateStream
+17 Name=Host_OpenStorage
+18 Name=Host_TextToOle
+;------------------EOF------------------

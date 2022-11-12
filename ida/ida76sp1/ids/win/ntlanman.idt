@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ntlanman.dll Args=0 Drops=31
+;---------------------------------------
+12 Name=NPGetConnection Pascal=12
+13 Name=NPGetCaps Pascal=4
+14 Name=DllMain Pascal=12
+15 Name=I_SystemFocusDialog Pascal=28
+16 Name=NPGetUser Pascal=12
+17 Name=NPAddConnection Pascal=12
+18 Name=NPCancelConnection Pascal=8
+19 Name=IsDfsPathEx Pascal=16
+20 Name=NPAddConnection3ForCSCAgent Pascal=24
+21 Name=NPCancelConnectionForCSCAgent Pascal=8
+22 Name=ServerBrowseDialogA0 Pascal=12
+23 Name=ShareAsDialogA0 Pascal=12
+24 Name=ShareCreate Pascal=4
+25 Name=ShareManage Pascal=8
+26 Name=ShareStop Pascal=4
+27 Name=StopShareDialogA0 Pascal=12
+29 Name=NPPropertyDialog Pascal=20
+30 Name=NPGetDirectoryType Pascal=12
+31 Name=NPDirectoryNotify Pascal=12
+32 Name=NPGetPropertyText Pascal=24
+33 Name=NPOpenEnum Pascal=20
+34 Name=NPEnumResource Pascal=16
+35 Name=NPCloseEnum Pascal=4
+36 Name=NPFormatNetworkName Pascal=20
+38 Name=NPAddConnection3 Pascal=20
+40 Name=NPGetUniversalName Pascal=16
+41 Name=NPGetResourceParent Pascal=12
+49 Name=NPGetConnectionPerformance Pascal=8
+52 Name=NPGetResourceInformation Pascal=16
+53 Name=NPGetReconnectFlags Pascal=8
+54 Name=NPGetConnection3 Pascal=16
+;------------------EOF------------------

@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rtutils.dll Args=0 Drops=41
+;---------------------------------------
+1 Name=LogErrorA Pascal=16
+2 Name=LogErrorW Pascal=16
+3 Name=LogEventA Pascal=16
+4 Name=LogEventW Pascal=16
+5 Name=MprSetupProtocolEnum Pascal=12
+6 Name=MprSetupProtocolFree Pascal=4
+7 Name=RouterAssert Pascal=16
+8 Name=RouterGetErrorStringA Pascal=8
+9 Name=RouterGetErrorStringW Pascal=8
+10 Name=RouterLogDeregisterA Pascal=4
+11 Name=RouterLogDeregisterW Pascal=4
+12 Name=RouterLogEventA Pascal=24
+13 Name=RouterLogEventDataA Pascal=28
+14 Name=RouterLogEventDataW Pascal=28
+15 Name=RouterLogEventExA Pascal=0
+16 Name=RouterLogEventExW Pascal=0
+17 Name=RouterLogEventStringA Pascal=28
+18 Name=RouterLogEventStringW Pascal=28
+19 Name=RouterLogEventValistExA Pascal=24
+20 Name=RouterLogEventValistExW Pascal=24
+21 Name=RouterLogEventW Pascal=24
+22 Name=RouterLogRegisterA Pascal=4
+23 Name=RouterLogRegisterW Pascal=4
+24 Name=TraceDeregisterA Pascal=4
+25 Name=TraceDeregisterExA Pascal=8
+26 Name=TraceDeregisterExW Pascal=8
+27 Name=TraceDeregisterW Pascal=4
+28 Name=TraceDumpExA Pascal=28
+29 Name=TraceDumpExW Pascal=28
+30 Name=TraceGetConsoleA Pascal=8
+31 Name=TraceGetConsoleW Pascal=8
+32 Name=TracePrintfA Pascal=0
+33 Name=TracePrintfExA Pascal=0
+34 Name=TracePrintfExW Pascal=0
+35 Name=TracePrintfW Pascal=0
+36 Name=TracePutsExA Pascal=12
+37 Name=TracePutsExW Pascal=12
+38 Name=TraceRegisterExA Pascal=8
+39 Name=TraceRegisterExW Pascal=8
+40 Name=TraceVprintfExA Pascal=16
+41 Name=TraceVprintfExW Pascal=16
+;------------------EOF------------------

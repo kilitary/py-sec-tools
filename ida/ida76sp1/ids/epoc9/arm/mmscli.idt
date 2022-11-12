@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MMSCLI Pascal=0
+;---------------------------------------
+1 Name=_ZN13CMmsClientMtm4NewLER17CRegisteredMtmDllR11CMsvSession
+2 Name=_ZN25CMmsNotificationClientMtm4NewLER17CRegisteredMtmDllR11CMsvSession
+3 Name=_ZTI13CMmsClientMtm
+4 Name=_ZTI25CMmsNotificationClientMtm
+5 Name=_ZTV13CMmsClientMtm
+6 Name=_ZTV25CMmsNotificationClientMtm
+7 Name=_ZTI20CMmsAttachmentWaiter
+8 Name=_ZTI24CMmsSendMessageOperation
+9 Name=_ZTV20CMmsAttachmentWaiter
+10 Name=_ZTV24CMmsSendMessageOperation
+;------------------EOF------------------

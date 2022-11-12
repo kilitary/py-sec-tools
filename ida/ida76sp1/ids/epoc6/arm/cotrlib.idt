@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=COTRLIB Pascal=0
+;---------------------------------------
+1 Name=_._16CInfomatrixTrace
+2 Name=Exit__16CInfomatrixTraceG6TPtrC8T1i
+3 Name=NewLC__16CInfomatrixTraceR3RFsR7TDesC16
+4 Name=NewL__16CInfomatrixTraceR3RFsR7TDesC16
+5 Name=Point__16CInfomatrixTraceG6TPtrC8N21i
+6 Name=Value__16CInfomatrixTraceG6TPtrC8RC6TDesC8T1T1i
+7 Name=Value__16CInfomatrixTraceG6TPtrC8RC7TDesC16T1T1i
+8 Name=Value__16CInfomatrixTraceG6TPtrC8iT1T1i
+9 Name=Entry__16CInfomatrixTraceG6TPtrC8T1i
+10 Name=TranslateCnvErrToEpocErr__Fi
+;------------------EOF------------------

@@ -1,0 +1,9 @@
+DECLARATION Nokia 9110 Geos 3.0 library idct.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+1 Name=idctdll Args=1 Drops=0
+;---------------------------------------
+1 Name=ImsgMainEngine Args=8 \
+	Comment=void cdecl ImsgMainEngine ( IMSG_INPUT_ptr imsgInput, IMSG_OUTPUT_ptr imsgOutput) in internal/resp/mng.h
+;------------------EOF------------------

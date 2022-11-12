@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wmp.dll Args=0 Drops=10
+;---------------------------------------
+3000 Name=?StartThePlayer@@YGHPAUHINSTANCE__@@PBGH@Z Pascal=12
+3001 Name=?CheckThePlayer@@YGHPAPADPAK111@Z Pascal=20
+3002 Name=?ReleaseDataObj@@YGXPBG@Z Pascal=4
+3003 Name=?UpdateSharedFolders@@YGJXZ Pascal=0
+3004 Name=?CallFunctionElevated@@YGJPBG@Z Pascal=4
+3005 Name=?ShouldActiveSetupBeRun@@YG_NXZ Pascal=0
+3006 Name=DllCanUnloadNow Pascal=0
+3007 Name=DllGetClassObject Pascal=12
+3008 Name=DllRegisterServer Pascal=0
+3009 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

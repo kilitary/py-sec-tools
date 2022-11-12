@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ssdpapi.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=CleanupCache Pascal=0
+2 Name=DHSetICSInterfaces Pascal=8
+3 Name=DHSetICSOff Pascal=0
+4 Name=DeregisterNotification Pascal=4
+5 Name=DeregisterService Pascal=8
+6 Name=FindServices Pascal=12
+7 Name=FindServicesCallback Pascal=20
+8 Name=FindServicesCallbackEx Pascal=24
+9 Name=FindServicesCancel Pascal=4
+10 Name=FindServicesClose Pascal=4
+11 Name=FindServicesEx Pascal=16
+12 Name=FreeSsdpMessage Pascal=4
+13 Name=FreeSsdpMessageEx Pascal=4
+14 Name=GetFirstService Pascal=8
+15 Name=GetFirstServiceEx Pascal=8
+16 Name=GetNextService Pascal=8
+17 Name=GetNextServiceEx Pascal=8
+18 Name=RegisterNotification Pascal=20
+19 Name=RegisterNotificationEx Pascal=24
+20 Name=RegisterService Pascal=8
+21 Name=RegisterServiceEx Pascal=8
+22 Name=SsdpCleanup Pascal=0
+23 Name=SsdpStartup Pascal=0
+;------------------EOF------------------

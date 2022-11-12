@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FLOGGER Pascal=0
+;---------------------------------------
+1 Name=__11RFileLogger
+2 Name=Connect__11RFileLogger
+3 Name=CreateLog__11RFileLoggerRC7TDesC16T116TFileLoggingMode
+4 Name=LastError__C11RFileLogger
+5 Name=LogValid__C11RFileLogger
+6 Name=Run__7FLoggerRQ27FLogger7TSignal
+7 Name=SetDateAndTime__11RFileLoggerii
+8 Name=Version__C11RFileLogger
+9 Name=WriteFormat__11RFileLoggerGt11TRefByValue1ZC7TDesC16e
+10 Name=WriteFormat__11RFileLoggerRC7TDesC16T116TFileLoggingModeGt11TRefByValue1ZC7TDesC16e
+11 Name=Write__11RFileLoggerRC7TDesC16
+12 Name=Write__11RFileLoggerRC7TDesC16T116TFileLoggingModeT1
+13 Name=_._11RFileLogger
+14 Name=CloseLog__11RFileLogger
+15 Name=WriteFormat__11RFileLoggerGt11TRefByValue1ZC6TDesC8RA0_PSc
+16 Name=WriteFormat__11RFileLoggerRC7TDesC16T116TFileLoggingModeGt11TRefByValue1ZC6TDesC8RA0_PSc
+17 Name=HexDump__11RFileLoggerPCUsT1PCUci
+18 Name=HexDump__11RFileLoggerRC7TDesC16T116TFileLoggingModePCUsT4PCUci
+19 Name=WriteFormat__11RFileLoggerGt11TRefByValue1ZC7TDesC16RA0_PSc
+20 Name=WriteFormat__11RFileLoggerGt11TRefByValue1ZC6TDesC8e
+21 Name=WriteFormat__11RFileLoggerRC7TDesC16T116TFileLoggingModeGt11TRefByValue1ZC7TDesC16RA0_PSc
+22 Name=WriteFormat__11RFileLoggerRC7TDesC16T116TFileLoggingModeGt11TRefByValue1ZC6TDesC8e
+23 Name=Write__11RFileLoggerRC6TDesC8
+24 Name=Write__11RFileLoggerRC7TDesC16T116TFileLoggingModeRC6TDesC8
+;------------------EOF------------------

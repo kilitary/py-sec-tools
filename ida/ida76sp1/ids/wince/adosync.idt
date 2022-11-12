@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ADOSYNC.dll Pascal=0
+;---------------------------------------
+1 Name=DeleteAllObjects
+2 Name=DllMain
+3 Name=DllRegisterServer
+4 Name=DllUnregisterServer
+5 Name=GetObjTypeInfo
+6 Name=InitObjType
+7 Name=ObjectNotify
+8 Name=ReportStatus
+;------------------EOF------------------

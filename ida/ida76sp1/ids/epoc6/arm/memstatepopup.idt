@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MEMSTATEPOPUP Pascal=0
+;---------------------------------------
+1 Name=GetUtilL__CMemStatePopupRPCMSPUtil
+2 Name=RunLD__CMemStatePopupTDriveNumberRTDesC16
+3 Name=SolveUnitAndSize__CMSPUtilRTInt64
+;------------------EOF------------------

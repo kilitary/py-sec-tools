@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DTDMDL Pascal=0
+;---------------------------------------
+1 Name=__9CDTDModelR21CAttributeLookupTable
+2 Name=GeneratedTree__9CDTDModel
+3 Name=MDataProviderObserverReserved1__21MDataProviderObserver
+4 Name=MDataProviderObserverReserved1__C21MDataProviderObserver
+5 Name=NewL__9CDTDModelR21CAttributeLookupTable
+6 Name=ResetL__9CDTDModel
+7 Name=StartConditional__9CDTDModel16TParserNodeTypes
+8 Name=TreeL__9CDTDModel
+9 Name=_._9CDTDModel
+10 Name=EndConditional__9CDTDModel16TParserNodeTypesi
+11 Name=BuildWml11DTDL__9CDTDModelR8CBNFNode
+;------------------EOF------------------

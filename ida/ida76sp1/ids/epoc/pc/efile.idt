@@ -1,0 +1,41 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EFILE Pascal=0
+;---------------------------------------
+1 Name=_LoadFileServer
+2 Name=??0CDirCB@@QAE@XZ
+3 Name=??0CFileCB@@QAE@XZ
+4 Name=??0CFileSystem@@QAE@XZ
+5 Name=??0CFormatCB@@QAE@XZ
+6 Name=??0CMountCB@@QAE@XZ
+7 Name=??1CDirCB@@UAE@XZ
+8 Name=??1CFileCB@@UAE@XZ
+9 Name=??1CFileSystem@@UAE@XZ
+10 Name=??1CFormatCB@@UAE@XZ
+11 Name=??1CMountCB@@UAE@XZ
+12 Name=??9CMountCB@@QBEHABV0@@Z
+13 Name=?Address@CFileCB@@UBEHAAH@Z
+14 Name=?AllocBufferL@@YAXAAPAVHBufC8@@ABVTDesC8@@@Z
+15 Name=?CheckMount@CFormatCB@@QAEHXZ
+16 Name=?FileNamesIdentical@@YAHABVTDesC8@@0@Z
+17 Name=?GetNotifyUser@TDrive@@QAEHXZ
+18 Name=?IsFileInRom@CMountCB@@UAEXABVTDesC8@@AAPAE@Z
+19 Name=?LocalDrive@@YAAAVTBusLocalDrive@@H@Z
+20 Name=?MatchEntryAtt@CMountCB@@QBEHII@Z
+21 Name=?QueryVersionSupported@CFileSystem@@UBEHABVTVersion@@@Z
+22 Name=?Remove@CFileSystem@@UAEHXZ
+23 Name=?SetArchiveAttribute@CFileCB@@QAEXXZ
+24 Name=?SetLibrary@CFileSystem@@QAEXVRLibrary@@@Z
+25 Name=?StoreLongEntryNameL@CDirCB@@UAEXABVTDesC8@@@Z
+26 Name=?Dismount@TDrive@@QAEXXZ
+27 Name=?ButtonVal@CAsyncNotifier@@QBEHXZ
+28 Name=?FileServerIsHung@@YAHXZ
+29 Name=?Notify@CAsyncNotifier@@QAEHABVTDesC8@@000@Z
+30 Name=?RestartActiveScheduler@@YAXXZ
+31 Name=?TheNotifier@@YAAAVCAsyncNotifier@@XZ
+32 Name=?SetNotifyUser@TDrive@@QAEXH@Z
+33 Name=?DebugRegister@@YAKXZ
+34 Name=?RestartActiveScheduler@@YAXPAVCSessionFs@@@Z
+;------------------EOF------------------

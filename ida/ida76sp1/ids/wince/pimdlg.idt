@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PIMDLG.dll Pascal=0
+;---------------------------------------
+1 Name=CurrentCardDeleted
+2 Name=CreateAppointmentCard
+3 Name=EditAddressCard
+4 Name=InitEditData
+5 Name=FreeEditData
+6 Name=GetAddrPropertyText
+7 Name=GetDefaultAreaCode
+8 Name=TransportViewEx
+9 Name=InitPimDlg
+10 Name=UninitPimDlg
+11 Name=MailCreateCard
+;------------------EOF------------------

@@ -1,0 +1,40 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CNTVIEW Pascal=0
+;---------------------------------------
+1 Name=_ZN15CContactSubView4NewLER20MContactViewObserverRK16CContactDatabaseR16CContactViewBaseRK7TDesC16
+2 Name=_ZN15CContactSubView4NewLER20MContactViewObserverRK16CContactDatabaseR16CContactViewBaseRK7TDesC16S9_
+3 Name=_ZN16CContactFindView15RefineFindViewLEP12MDesC16Array
+4 Name=_ZN16CContactFindView15UpdateFindViewLEv
+5 Name=_ZN16CContactFindView4NewLERK16CContactDatabaseR16CContactViewBaseR20MContactViewObserverP12MDesC16Array
+6 Name=_ZN16CContactFindView4NewLERK16CContactDatabaseR16CContactViewBaseR20MContactViewObserverP12MDesC16ArrayNS3_11TSearchTypeE
+7 Name=_ZN17CContactGroupView16UpdateGroupViewLEv
+8 Name=_ZN17CContactGroupView4NewLERK16CContactDatabaseR16CContactViewBaseR20MContactViewObserverRK7TDesC16NS_10TGroupTypeE
+9 Name=_ZN17CContactGroupView4NewLERK16CContactDatabaseR16CContactViewBaseR20MContactViewObserverlNS_10TGroupTypeE
+10 Name=_ZN17CContactViewRange4NewLERK16CContactViewBaseRK7TDesC16N21CContactViewRangeBase9TCriteriaES5_S7_
+11 Name=_ZN20CContactFilteredView4NewLER20MContactViewObserverRK16CContactDatabaseR16CContactViewBasei
+12 Name=_ZN20CContactViewLowRange4NewLERK16CContactViewBaseRK7TDesC16N21CContactViewRangeBase9TCriteriaE
+13 Name=_ZN21CContactViewHighRange4NewLERK16CContactViewBaseRK7TDesC16N21CContactViewRangeBase9TCriteriaE
+14 Name=_ZN24CContactConcatenatedView4NewLER20MContactViewObserverRK16CContactDatabaseR13RPointerArrayI16CContactViewBaseE
+15 Name=_ZNK21CContactViewRangeBase12IndicesValidEv
+16 Name=_ZTI16CContactFindView
+17 Name=_ZTI17CContactGroupView
+18 Name=_ZTV16CContactFindView
+19 Name=_ZTV17CContactGroupView
+20 Name=_ZTI15CContactSubView
+21 Name=_ZTI17CContactViewRange
+22 Name=_ZTI20CContactFilteredView
+23 Name=_ZTI20CContactViewLowRange
+24 Name=_ZTI21CContactViewHighRange
+25 Name=_ZTI21CContactViewRangeBase
+26 Name=_ZTI24CContactConcatenatedView
+27 Name=_ZTV15CContactSubView
+28 Name=_ZTV17CContactViewRange
+29 Name=_ZTV20CContactFilteredView
+30 Name=_ZTV20CContactViewLowRange
+31 Name=_ZTV21CContactViewHighRange
+32 Name=_ZTV21CContactViewRangeBase
+33 Name=_ZTV24CContactConcatenatedView
+;------------------EOF------------------

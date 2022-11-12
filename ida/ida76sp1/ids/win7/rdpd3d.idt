@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rdpd3d.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=CreateDXGIFactory1 Pascal=8
+2 Name=D3D10CreateDevice1 Pascal=28
+;------------------EOF------------------

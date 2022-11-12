@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QNOTIFIERUTILITYCLIENT Pascal=0
+;---------------------------------------
+1 Name=_Z23QNotifierUtilityStartupv
+2 Name=_ZN29RNotifierUtilityClientSession12GetBTDeviceLERK10TBTDevAddrP9CBTDeviceR14TRequestStatus
+3 Name=_ZN29RNotifierUtilityClientSession22UpdateChangedBTDeviceLEP9CBTDeviceR14TRequestStatus
+4 Name=_ZN29RNotifierUtilityClientSession5CloseEv
+5 Name=_ZN29RNotifierUtilityClientSession7ConnectEv
+6 Name=_ZN29RNotifierUtilityClientSessionC1Ev
+7 Name=_ZN29RNotifierUtilityClientSessionC2Ev
+8 Name=_ZNK29RNotifierUtilityClientSession17CancelBTOperationEv
+9 Name=_ZNK29RNotifierUtilityClientSession18SetSyncMLSettingsLE17TSmlGlobalSettingi
+10 Name=_ZNK29RNotifierUtilityClientSession22StoreCPMessageInInboxLERK6TDesC8RK7TDesC16S5_
+11 Name=_ZNK29RNotifierUtilityClientSession19SyncMLProfileNameLCEi
+12 Name=_ZNK29RNotifierUtilityClientSession22CachedSyncMLProfileIdLEv
+13 Name=_ZNK29RNotifierUtilityClientSession23CacheSyncMLProfileInfoLEv
+14 Name=_ZNK29RNotifierUtilityClientSession25CachedSyncMLProfileNameLCEi
+15 Name=_ZN29RNotifierUtilityClientSession18StartBTDeviceScanLER25MBTSelectNotifierObserver
+16 Name=_ZN29RNotifierUtilityClientSession24PerformBTRegistryActionLER25MBTSelectNotifierObserver18TQBTRegistryActionP9CBTDevice
+17 Name=_ZN29RNotifierUtilityClientSession18CancelBTDeviceScanEv
+18 Name=_ZN29RNotifierUtilityClientSession23GetNextScannedBTDeviceLEv
+19 Name=_ZN29RNotifierUtilityClientSession22CancelBTRegistryActionEv
+20 Name=_ZNK29RNotifierUtilityClientSession13StopPlaySoundEv
+21 Name=_ZNK29RNotifierUtilityClientSession14StartPlaySoundERK7TDesC16i
+22 Name=_ZNK29RNotifierUtilityClientSession29CachedSyncMLProfileCreatorIdLEv
+23 Name=_ZNK29RNotifierUtilityClientSession14SubmitProvDocLERK13CCpProvDocMsg
+24 Name=_ZNK29RNotifierUtilityClientSession13StopPlayErrorEv
+25 Name=_ZNK29RNotifierUtilityClientSession14StartPlayErrorERK18TBaSystemSoundInfo
+;------------------EOF------------------

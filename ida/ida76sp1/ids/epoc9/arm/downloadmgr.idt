@@ -1,0 +1,54 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DOWNLOADMGR Pascal=0
+;---------------------------------------
+1 Name=_Z22StartDownloadMgrServerPv
+2 Name=_ZN13RHttpDownload15GetIntAttributeEjRl
+3 Name=_ZN13RHttpDownload15SetIntAttributeEjl
+4 Name=_ZN13RHttpDownload16GetBoolAttributeEjRi
+5 Name=_ZN13RHttpDownload16SetBoolAttributeEji
+6 Name=_ZN13RHttpDownload18GetStringAttributeEjR5TDes8
+7 Name=_ZN13RHttpDownload18GetStringAttributeEjR6TDes16
+8 Name=_ZN13RHttpDownload18SetStringAttributeEjRK6TDesC8
+9 Name=_ZN13RHttpDownload18SetStringAttributeEjRK7TDesC16
+10 Name=_ZN13RHttpDownload4MoveEv
+11 Name=_ZN13RHttpDownload5PauseEv
+12 Name=_ZN13RHttpDownload5ResetEv
+13 Name=_ZN13RHttpDownload5StartEv
+14 Name=_ZN13RHttpDownload6DeleteEv
+15 Name=_ZN16RHttpDownloadMgr10DisconnectEv
+16 Name=_ZN16RHttpDownloadMgr12AddObserverLER24MHttpDownloadMgrObserver
+17 Name=_ZN16RHttpDownloadMgr14RemoveObserverER24MHttpDownloadMgrObserver
+18 Name=_ZN16RHttpDownloadMgr15CreateDownloadLERK6TDesC8Ri
+19 Name=_ZN16RHttpDownloadMgr15GetIntAttributeEjRl
+20 Name=_ZN16RHttpDownloadMgr15SetIntAttributeEjl
+21 Name=_ZN16RHttpDownloadMgr16GetBoolAttributeEjRi
+22 Name=_ZN16RHttpDownloadMgr16SetBoolAttributeEji
+23 Name=_ZN16RHttpDownloadMgr18GetStringAttributeEjR5TDes8
+24 Name=_ZN16RHttpDownloadMgr18GetStringAttributeEjR6TDes16
+25 Name=_ZN16RHttpDownloadMgr18SetStringAttributeEjRK6TDesC8
+26 Name=_ZN16RHttpDownloadMgr18SetStringAttributeEjRK7TDesC16
+27 Name=_ZN16RHttpDownloadMgr22SetDefaultIntAttributeEjl
+28 Name=_ZN16RHttpDownloadMgr23SetDefaultBoolAttributeEji
+29 Name=_ZN16RHttpDownloadMgr25SetDefaultStringAttributeEjRK6TDesC8
+30 Name=_ZN16RHttpDownloadMgr25SetDefaultStringAttributeEjRK7TDesC16
+31 Name=_ZN16RHttpDownloadMgr5CloseEv
+32 Name=_ZN16RHttpDownloadMgr8ConnectLE4TUidR24MHttpDownloadMgrObserveri
+33 Name=_ZN16RHttpDownloadMgr8PauseAllEv
+34 Name=_ZN16RHttpDownloadMgr8ResetAllEv
+35 Name=_ZN16RHttpDownloadMgr8StartAllEv
+36 Name=_ZN16RHttpDownloadMgr9DeleteAllEv
+37 Name=_ZN16RHttpDownloadMgrC1Ev
+38 Name=_ZN16RHttpDownloadMgrC2Ev
+39 Name=_ZNK16RHttpDownloadMgr16CurrentDownloadsEv
+40 Name=_ZNK16RHttpDownloadMgr7VersionEv
+41 Name=_ZN13RHttpDownload22GetFileHandleAttributeER5RFile
+42 Name=_ZN13RHttpDownload22SetFileHandleAttributeER5RFile
+43 Name=_ZN16RHttpDownloadMgr18CreateCodDownloadLERK6TDesC8S2_S2_P9CEikonEnvRi
+44 Name=_ZN16RHttpDownloadMgr12FindDownloadERK6TDesC8S2_
+45 Name=_ZN16RHttpDownloadMgr15CreateDownloadLERK6TDesC8
+46 Name=_ZN16RHttpDownloadMgr25CreateClientSideDownloadLEiRi
+47 Name=_ZN16RHttpDownloadMgr18SetNextUriObserverEP31MHttpDownloadMgrNextUriObserver
+;------------------EOF------------------

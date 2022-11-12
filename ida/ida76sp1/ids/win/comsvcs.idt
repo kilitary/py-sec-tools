@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=comsvcs.dll Args=0 Drops=24
+;---------------------------------------
+5 Name=CosGetCallContext Pascal=8
+6 Name=DllUnregisterServerWeReallyMeanIt Pascal=0
+7 Name=CreateActivityInMTA Pascal=8
+8 Name=GetMTAThreadPoolMetrics Pascal=4
+9 Name=CoCreateActivity Pascal=12
+10 Name=CoCreateStdTrustable Pascal=12
+11 Name=CoEnterServiceDomain Pascal=4
+12 Name=CoLeaveServiceDomain Pascal=4
+13 Name=CoLoadServices Pascal=16
+14 Name=CoVerifyTrust Pascal=12
+15 Name=ComSvcsExceptionFilter Pascal=12
+16 Name=ComSvcsLogError Pascal=16
+17 Name=DispManGetContext Pascal=8
+18 Name=DllCanUnloadNow Pascal=0
+19 Name=DllGetClassObject Pascal=12
+20 Name=DllRegisterServer Pascal=0
+21 Name=DllUnregisterServer Pascal=0
+22 Name=GetObjectContext Pascal=0
+23 Name=GetTrkSvrObject Pascal=8
+24 Name=MTSCreateActivity Pascal=8
+25 Name=MiniDumpW Pascal=16
+26 Name=RecycleSurrogate Pascal=0
+27 Name=RegisterComEvents Pascal=0
+28 Name=SafeRef Pascal=0
+;------------------EOF------------------

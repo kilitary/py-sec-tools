@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PIMAPI.dll Pascal=0
+;---------------------------------------
+1 Name=HtmlStrcat
+2 Name=HtmlStrcpy
+3 Name=HtmlStrlen
+4 Name=PimGetCalendarData
+5 Name=PimGetTaskData
+6 Name=VbGetCalendarData
+7 Name=VbGetTaskData
+8 Name=VbSecondsUntilNextAppt
+;------------------EOF------------------

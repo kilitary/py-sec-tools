@@ -1,0 +1,67 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sechost.dll Args=0 Drops=60
+;---------------------------------------
+1 Name=ChangeServiceConfig2A Pascal=12
+2 Name=ChangeServiceConfig2W Pascal=12
+3 Name=ChangeServiceConfigA Pascal=44
+4 Name=ChangeServiceConfigW Pascal=44
+5 Name=CloseServiceHandle Pascal=4
+6 Name=ControlService Pascal=12
+7 Name=ControlServiceExA Pascal=16
+8 Name=ControlServiceExW Pascal=16
+9 Name=ConvertSecurityDescriptorToStringSecurityDescriptorW Pascal=20
+10 Name=ConvertSidToStringSidW Pascal=8
+11 Name=ConvertStringSecurityDescriptorToSecurityDescriptorW Pascal=16
+12 Name=ConvertStringSidToSidW Pascal=8
+13 Name=CreateServiceA Pascal=52
+14 Name=CreateServiceW Pascal=52
+15 Name=DeleteService Pascal=4
+16 Name=I_QueryTagInformation Pascal=12
+17 Name=I_ScBroadcastServiceControlMessage Pascal=16
+18 Name=I_ScIsSecurityProcess Pascal=0
+19 Name=I_ScPnPGetServiceName Pascal=12
+20 Name=I_ScQueryServiceConfig Pascal=12
+21 Name=I_ScRpcBindA Pascal=4
+22 Name=I_ScRpcBindW Pascal=4
+23 Name=I_ScSendPnPMessage Pascal=24
+24 Name=I_ScSendTSMessage Pascal=16
+25 Name=I_ScValidatePnPService Pascal=12
+26 Name=LookupAccountNameLocalA Pascal=24
+27 Name=LookupAccountNameLocalW Pascal=24
+28 Name=LookupAccountSidLocalA Pascal=24
+29 Name=LookupAccountSidLocalW Pascal=24
+30 Name=LsaLookupClose Pascal=4
+31 Name=LsaLookupFreeMemory Pascal=4
+32 Name=LsaLookupGetDomainInfo Pascal=12
+33 Name=LsaLookupManageSidNameMapping Pascal=12
+34 Name=LsaLookupOpenLocalPolicy Pascal=12
+35 Name=LsaLookupTranslateNames Pascal=24
+36 Name=LsaLookupTranslateSids Pascal=20
+37 Name=NotifyServiceStatusChange Pascal=12
+38 Name=NotifyServiceStatusChangeA Pascal=12
+39 Name=NotifyServiceStatusChangeW Pascal=12
+40 Name=OpenSCManagerA Pascal=12
+41 Name=OpenSCManagerW Pascal=12
+42 Name=OpenServiceA Pascal=12
+43 Name=OpenServiceW Pascal=12
+44 Name=QueryServiceConfig2A Pascal=20
+45 Name=QueryServiceConfig2W Pascal=20
+46 Name=QueryServiceConfigA Pascal=16
+47 Name=QueryServiceConfigW Pascal=16
+48 Name=QueryServiceObjectSecurity Pascal=20
+49 Name=QueryServiceStatus Pascal=8
+50 Name=QueryServiceStatusEx Pascal=20
+51 Name=RegisterServiceCtrlHandlerA Pascal=8
+52 Name=RegisterServiceCtrlHandlerExA Pascal=12
+53 Name=RegisterServiceCtrlHandlerExW Pascal=12
+54 Name=RegisterServiceCtrlHandlerW Pascal=8
+55 Name=SetServiceObjectSecurity Pascal=12
+56 Name=SetServiceStatus Pascal=8
+57 Name=StartServiceA Pascal=12
+58 Name=StartServiceCtrlDispatcherA Pascal=4
+59 Name=StartServiceCtrlDispatcherW Pascal=4
+60 Name=StartServiceW Pascal=12
+;------------------EOF------------------

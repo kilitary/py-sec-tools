@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=packager.dll Args=0 Drops=2
+;---------------------------------------
+102 Name=DllCanUnloadNow Pascal=0
+103 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RFILELOGGERCLIENT Pascal=0
+;---------------------------------------
+1 Name=_ZN12RFileFlogger11SetLogLevelENS_12TLogSeverityE
+2 Name=_ZN12RFileFlogger3LogEPKhiNS_12TLogSeverityE11TRefByValueIK7TDesC16ESt9__va_list
+3 Name=_ZN12RFileFlogger3LogEPKhiNS_12TLogSeverityE11TRefByValueIK7TDesC16Ez
+4 Name=_ZN12RFileFlogger3LogEPKhiNS_12TLogSeverityEiP14TExtraLogField11TRefByValueIK7TDesC16ESt9__va_list
+5 Name=_ZN12RFileFlogger3LogEPKhiNS_12TLogSeverityEiP14TExtraLogField11TRefByValueIK7TDesC16Ez
+6 Name=_ZN12RFileFlogger5CloseEv
+7 Name=_ZN12RFileFlogger7ConnectEv
+8 Name=_ZN12RFileFlogger9CreateLogERK7TDesC16NS_8TLogModeE
+9 Name=_ZN12RFileFloggerC1Ev
+10 Name=_ZN12RFileFloggerC2Ev
+11 Name=_ZN12RFileFloggerD1Ev
+12 Name=_ZN12RFileFloggerD2Ev
+;------------------EOF------------------

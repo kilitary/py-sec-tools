@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WEBFORM Pascal=0
+;---------------------------------------
+1 Name=?NewPlugInL@@YAPAVMWebPlugInDllInterface@@XZ
+2 Name=?ButtonType@CHtmlFormDataButton@@QBE?AW4TButtonType@1@XZ
+3 Name=?GetDataL@CHtmlFormDataBool@@QBEHXZ
+4 Name=?GetNameL@CHtmlFormDataButton@@QBE?AVTPtrC8@@XZ
+5 Name=?GetOptionNameL@CHtmlFormDataMenu@@QBE?AVTPtrC8@@H@Z
+6 Name=?GetTextL@CHtmlFormDataFile@@UBE?AVTPtrC8@@XZ
+7 Name=?GetTextL@CHtmlFormDataTextArea@@UBE?AVTPtrC8@@XZ
+8 Name=?GetTextL@CHtmlFormDataTextBox@@UBE?AVTPtrC8@@XZ
+9 Name=?Lines@CHtmlFormDataFile@@UBEHXZ
+10 Name=?Lines@CHtmlFormDataMenu@@QBEHXZ
+11 Name=?Lines@CHtmlFormDataTextArea@@UBEHXZ
+12 Name=?Lines@CHtmlFormDataTextBox@@UBEHXZ
+13 Name=?MaxLength@CHtmlFormDataFile@@UBEHXZ
+14 Name=?MaxLength@CHtmlFormDataTextArea@@UBEHXZ
+15 Name=?MaxLength@CHtmlFormDataTextBox@@UBEHXZ
+16 Name=?NamesNeedUpdating@CHtmlFormDataMenu@@QBEHXZ
+17 Name=?NumberOptionsL@CHtmlFormDataMenu@@QBEHXZ
+18 Name=?OptionSetL@CHtmlFormDataMenu@@QBEHH@Z
+19 Name=?SelectedL@CHtmlFormDataMenu@@QBEHXZ
+20 Name=?SetOptionL@CHtmlFormDataMenu@@QAEXHH@Z
+21 Name=?SubmitDataL@CHtmlFormDataBool@@QAEXH@Z
+22 Name=?SubmitTextL@CHtmlFormDataFile@@UAEXABVTDesC8@@@Z
+23 Name=?SubmitTextL@CHtmlFormDataTextArea@@UAEXABVTDesC8@@@Z
+24 Name=?SubmitTextL@CHtmlFormDataTextBox@@UAEXABVTDesC8@@@Z
+25 Name=?Width@CHtmlFormDataFile@@UBEHXZ
+26 Name=?Width@CHtmlFormDataTextArea@@UBEHXZ
+27 Name=?Width@CHtmlFormDataTextBox@@UBEHXZ
+28 Name=?ZoomFactor@CHtmlFormDataText@@QBEPAVTZoomFactor@@XZ
+29 Name=?CHtmlFormControl_Reserved1@CHtmlFormControl@@UAEXXZ
+30 Name=?CHtmlFormControl_Reserved2@CHtmlFormControl@@UAEXXZ
+31 Name=?CHtmlFormControl_Reserved3@CHtmlFormControl@@UAEXXZ
+;------------------EOF------------------

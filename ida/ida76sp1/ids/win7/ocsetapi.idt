@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ocsetapi.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=CopyMspFilesToSystemMsiCache Pascal=8
+2 Name=RemoveMspFilesFromSystemMsiCache Pascal=4
+;------------------EOF------------------

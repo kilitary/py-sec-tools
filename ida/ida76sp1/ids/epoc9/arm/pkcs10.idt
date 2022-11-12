@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PKCS10 Pascal=0
+;---------------------------------------
+1 Name=_ZN14CPKCS10Request12SetDigestAlgE12TAlgorithmId
+2 Name=_ZN14CPKCS10Request13SetAttributesEP17CPKCS10Attributes
+3 Name=_ZN14CPKCS10Request14CreateEncodingERP6HBufC8R14TRequestStatus
+4 Name=_ZN14CPKCS10Request4NewLERK22CX500DistinguishedNameRK10CCTKeyInfo
+5 Name=_ZN14CPKCS10Request5NewLCERK22CX500DistinguishedNameRK10CCTKeyInfo
+6 Name=_ZN14CPKCS10RequestD0Ev
+7 Name=_ZN14CPKCS10RequestD1Ev
+8 Name=_ZN14CPKCS10RequestD2Ev
+9 Name=_ZN16CPKCS10Attribute5NewLCERK7TDesC16
+10 Name=_ZN16CPKCS10Attribute5NewLCERK7TDesC16P12CASN1EncBase
+11 Name=_ZN16CPKCS10Attribute9AddValueLEP12CASN1EncBase
+12 Name=_ZN17CPKCS10Attributes13AddAttributeLEP16CPKCS10Attribute
+13 Name=_ZN17CPKCS10Attributes4NewLEv
+14 Name=_ZN17CPKCS10Attributes5NewLCEv
+15 Name=_ZN17CPKCS10AttributesD0Ev
+16 Name=_ZN17CPKCS10AttributesD1Ev
+17 Name=_ZN17CPKCS10AttributesD2Ev
+18 Name=_ZTI14CPKCS10Request
+19 Name=_ZTV14CPKCS10Request
+20 Name=_ZTI16CPKCS10Attribute
+21 Name=_ZTI16CPKCS10KeyHelper
+22 Name=_ZTI17CPKCS10Attributes
+23 Name=_ZTI19CPKCS10DSAKeyHelper
+24 Name=_ZTI19CPKCS10RSAKeyHelper
+25 Name=_ZTV16CPKCS10Attribute
+26 Name=_ZTV16CPKCS10KeyHelper
+27 Name=_ZTV17CPKCS10Attributes
+28 Name=_ZTV19CPKCS10DSAKeyHelper
+29 Name=_ZTV19CPKCS10RSAKeyHelper
+;------------------EOF------------------

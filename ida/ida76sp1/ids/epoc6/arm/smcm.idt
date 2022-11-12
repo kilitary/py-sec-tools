@@ -1,0 +1,54 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMCM Pascal=0
+;---------------------------------------
+1 Name=NewL__13CSmsClientMtmR17CRegisteredMtmDllR11CMsvSession
+2 Name=__13TSmsUtilities
+3 Name=BioTypeChangedL__13CSmsClientMtmG4TUid
+4 Name=CopyL__10CSmsNumberRC10CSmsNumber
+5 Name=CopyL__12CSmsSettingsRC12CSmsSettings
+6 Name=CopyL__19CSmsMessageSettingsRC19CSmsMessageSettings
+7 Name=ExternalizeL__C10CSmsHeaderR15RMsvWriteStream
+8 Name=ExternalizeL__C10CSmsNumberR12RWriteStream
+9 Name=ExternalizeL__C12CSmsSettingsR15RMsvWriteStream
+10 Name=ExternalizeL__C19CSmsMessageSettingsR15RMsvWriteStream
+11 Name=GetDescription__13TSmsUtilitiesRC11CSmsMessageR6TDes16i
+12 Name=GetDetails__13TSmsUtilitiesR3RFsRC11CSmsMessageR6TDes16i
+13 Name=GetDetails__13TSmsUtilitiesR3RFsRC7TDesC16R6TDes16i
+14 Name=GetSmsSettingsL__C10CSmsHeaderR19CSmsMessageSettings
+15 Name=InternalizeL__10CSmsHeaderR14RMsvReadStream
+16 Name=InternalizeL__10CSmsNumberR11RReadStream
+17 Name=InternalizeL__12CSmsSettingsR14RMsvReadStream
+18 Name=InternalizeL__19CSmsMessageSettingsR14RMsvReadStream
+19 Name=NewL__10CSmsHeaderP11CSmsMessage
+20 Name=NewL__10CSmsHeaderQ27CSmsPDU11TSmsPDUTypeR13CEditableText
+21 Name=NewL__10CSmsNumber
+22 Name=NewL__10CSmsNumberRC10CSmsNumber
+23 Name=NewL__12CSmsSettings
+24 Name=PopulateMsgEntry__13TSmsUtilitiesR9TMsvEntryRC11CSmsMessagelG4TUid
+25 Name=RemoveSCAddress__12CSmsSettingsi
+26 Name=RestoreL__10CSmsHeaderR9CMsvStore
+27 Name=RestoreL__12CSmsSettingsR9CMsvStore
+28 Name=RestoreServiceAndSettingsL__13CSmsClientMtm
+29 Name=ServiceIdL__13TSmsUtilitiesR15CMsvServerEntryRlG4TUidP18CMsvEntrySelection
+30 Name=ServiceIdL__13TSmsUtilitiesR9CMsvEntryRlG4TUidP18CMsvEntrySelection
+31 Name=SetSmsSettingsL__10CSmsHeaderRC19CSmsMessageSettings
+32 Name=StoreL__C10CSmsHeaderR9CMsvStore
+33 Name=StoreL__C12CSmsSettingsR9CMsvStore
+34 Name=_._10CSmsHeader
+35 Name=_._10CSmsNumber
+36 Name=_._12CSmsSettings
+37 Name=_._13TSmsUtilities
+38 Name=AddSCAddressL__12CSmsSettingsRC7TDesC16T1
+39 Name=ProgressL__21CSmsSimParamOperation
+40 Name=ReadSimParamsL__13CSmsClientMtmR14TRequestStatus
+41 Name=ServiceCentersLC__C21CSmsSimParamOperation
+42 Name=Address__C10CSmsNumber
+43 Name=Name__C10CSmsNumber
+44 Name=SetAddressL__10CSmsNumberRC7TDesC16
+45 Name=SetNameL__10CSmsNumberRC7TDesC16
+46 Name=CreateMessageL__13CSmsClientMtml
+47 Name=ServiceIdL__13TSmsUtilitiesR11CMsvSessionRlG4TUidP18CMsvEntrySelection
+;------------------EOF------------------

@@ -1,0 +1,16 @@
+DECLARATION Nokia 9110 Geos 3.0 library telnet.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=telnetdll Pascal=0
+;---------------------------------------
+1 Name=TelnetCreate
+2 Name=TelnetConnect
+3 Name=TelnetClose
+4 Name=TelnetSend
+5 Name=TelnetRecv
+6 Name=TelnetSendCommand
+7 Name=TelnetSetStatus
+8 Name=TelnetInterrupt
+9 Name=ECCheckTelnetError
+;------------------EOF------------------

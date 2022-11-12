@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PKIXCERTBASE Pascal=0
+;---------------------------------------
+1 Name=_ZN18CPKIXCertChainBase10ConstructLER10MCertStoreRK6TPtrC84TUid
+2 Name=_ZN18CPKIXCertChainBase10ConstructLER10MCertStoreRK6TPtrC8RK13RPointerArrayI16CX509CertificateE
+3 Name=_ZN18CPKIXCertChainBase14CancelValidateEv
+4 Name=_ZN18CPKIXCertChainBase4NewLER10MCertStoreRK6TPtrC84TUid
+5 Name=_ZN18CPKIXCertChainBase4NewLER10MCertStoreRK6TPtrC8RK13RPointerArrayI16CX509CertificateE
+6 Name=_ZN18CPKIXCertChainBase5NewLCER10MCertStoreRK6TPtrC84TUid
+7 Name=_ZN18CPKIXCertChainBase5NewLCER10MCertStoreRK6TPtrC8RK13RPointerArrayI16CX509CertificateE
+8 Name=_ZN18CPKIXCertChainBase8AddCertLERK6TPtrC8
+9 Name=_ZN18CPKIXCertChainBase9ValidateLER25CPKIXValidationResultBaseRK5TTimeR14TRequestStatus
+10 Name=_ZN18CPKIXCertChainBase9ValidateLER25CPKIXValidationResultBaseRK5TTimeRK9CArrayPtrI7HBufC16ER14TRequestStatus
+11 Name=_ZN18CPKIXCertChainBaseC1Ev
+12 Name=_ZN18CPKIXCertChainBaseC2Ev
+13 Name=_ZN18CPKIXCertChainBaseD0Ev
+14 Name=_ZN18CPKIXCertChainBaseD1Ev
+15 Name=_ZN18CPKIXCertChainBaseD2Ev
+16 Name=_ZN25CPKIXValidationResultBase10ConstructLEv
+17 Name=_ZN25CPKIXValidationResultBase4NewLEv
+18 Name=_ZN25CPKIXValidationResultBase5NewLCEv
+19 Name=_ZN25CPKIXValidationResultBaseC1Ev
+20 Name=_ZN25CPKIXValidationResultBaseC2Ev
+21 Name=_ZN25CPKIXValidationResultBaseD0Ev
+22 Name=_ZN25CPKIXValidationResultBaseD1Ev
+23 Name=_ZN25CPKIXValidationResultBaseD2Ev
+24 Name=_ZNK18CPKIXCertChainBase12ChainHasRootEv
+25 Name=_ZNK25CPKIXValidationResultBase5ErrorEv
+26 Name=_ZNK25CPKIXValidationResultBase8PoliciesEv
+27 Name=_ZNK25CPKIXValidationResultBase8WarningsEv
+28 Name=_ZTI18CPKIXCertChainBase
+29 Name=_ZTI25CPKIXValidationResultBase
+30 Name=_ZTV18CPKIXCertChainBase
+31 Name=_ZTV25CPKIXValidationResultBase
+32 Name=_ZTI15MPKIXCertSource
+33 Name=_ZTI16CPKIXCertChainAO
+34 Name=_ZTI17CPKIXChainBuilder
+35 Name=_ZTI19CPKIXCertsFromStore
+36 Name=_ZTI20CPKIXCertsFromClient
+37 Name=_ZTI20CPKIXValidationState
+38 Name=_ZTV15MPKIXCertSource
+39 Name=_ZTV16CPKIXCertChainAO
+40 Name=_ZTV17CPKIXChainBuilder
+41 Name=_ZTV19CPKIXCertsFromStore
+42 Name=_ZTV20CPKIXCertsFromClient
+43 Name=_ZTV20CPKIXValidationState
+44 Name=_ZN25CPKIXValidationResultBase12InternalizeLER11RReadStream
+45 Name=_ZNK25CPKIXValidationResultBase12ExternalizeLER12RWriteStream
+;------------------EOF------------------

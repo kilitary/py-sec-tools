@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=xolehlp.dll Args=0 Drops=6
+;---------------------------------------
+4 Name=GetDtcLocaleResourceHandle Pascal=0
+5 Name=DtcGetTransactionManager Pascal=0
+6 Name=DtcGetTransactionManagerEx Pascal=0
+7 Name=DtcGetTransactionManagerC Pascal=0
+8 Name=DtcGetTransactionManagerExA Pascal=0
+9 Name=DtcGetTransactionManagerExW Pascal=0
+;------------------EOF------------------

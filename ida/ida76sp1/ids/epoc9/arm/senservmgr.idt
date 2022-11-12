@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SENSERVMGR Pascal=0
+;---------------------------------------
+1 Name=_ZN18CSenServiceManager4NewLEv
+2 Name=_ZN18CSenServiceManager5NewLCEv
+3 Name=_ZTI22CSenServiceManagerImpl
+4 Name=_ZTV22CSenServiceManagerImpl
+;------------------EOF------------------

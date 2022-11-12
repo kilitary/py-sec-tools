@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=blackbox.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=DllMain Pascal=12
+2 Name=DllRegisterServer Pascal=0
+3 Name=DllUnregisterServer Pascal=0
+4 Name=IBlackBox_CreateInstance2
+5 Name=IBlackBox_CreateInstance Pascal=4
+6 Name=IBlackBox_CreateInstanceEx2
+7 Name=IBlackBox_CreateInstanceEx
+8 Name=IBlackBox_DestroyInstance Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LOCATIONBASE Pascal=0
+;---------------------------------------
+1 Name=_ZN9CLocation12DoEffectDataEv
+2 Name=_ZN9CLocation13SetEffectDataERK6TDesC8
+3 Name=_ZN9CLocation17LocationCartesianERlS0_S0_
+4 Name=_ZN9CLocation17LocationSphericalERlS0_S0_
+5 Name=_ZN9CLocation21SetLocationCartesianLERlS0_S0_
+6 Name=_ZN9CLocation21SetLocationSphericalLERlS0_S0_
+7 Name=_ZN9CLocationC2Ev
+8 Name=_ZN9CLocationD0Ev
+9 Name=_ZN9CLocationD1Ev
+10 Name=_ZN9CLocationD2Ev
+11 Name=_ZTI9CLocation
+12 Name=_ZTV9CLocation
+;------------------EOF------------------

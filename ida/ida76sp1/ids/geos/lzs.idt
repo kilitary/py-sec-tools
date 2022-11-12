@@ -1,0 +1,19 @@
+DECLARATION Nokia 9110 Geos 3.0 library lzs.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=lzsdll Pascal=0
+;---------------------------------------
+1 Name=LZS_SizeOfCompressionHistory
+2 Name=LZS_InitCompressionHistory
+3 Name=LZS_Compress
+4 Name=LZS_SizeOfDecompressionHistory
+5 Name=LZS_InitDecompressionHistory
+6 Name=LZS_Decompress
+7 Name=LZSSizeOfCompressionHistory
+8 Name=LZSInitCompressionHistory
+9 Name=LZSCompress
+10 Name=LZSSizeOfDecompressionHistory
+11 Name=LZSInitDecompressionHistory
+12 Name=LZSDecompress
+;------------------EOF------------------

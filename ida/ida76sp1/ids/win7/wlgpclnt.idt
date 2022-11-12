@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wlgpclnt.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=GenerateWLANPolicy Pascal=20
+2 Name=ProcessWLANPolicyEx Pascal=40
+3 Name=WLGPADeInit Pascal=0
+4 Name=WLGPAInit Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,32 @@
+DECLARATION Nokia 9110 Geos 3.0 library mlms.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mlmsdll Pascal=0
+;---------------------------------------
+1 Name=cpystr
+2 Name=MailNotifyIndicator
+3 Name=min
+4 Name=max
+5 Name=strtol
+6 Name=mail_newenvelope
+7 Name=mail_newbody
+8 Name=mail_newaddr
+9 Name=mail_getaddr
+10 Name=mail_unlockaddr
+11 Name=mail_newbody_parameter
+12 Name=mail_newbody_part
+13 Name=mail_newmessage
+14 Name=strcmpOptr
+15 Name=strncmpOptr
+16 Name=strcatOptr
+17 Name=strcpyOptr
+18 Name=strncpyOptr
+19 Name=strpbrkOptr
+20 Name=strlenOptr
+21 Name=sprintfOptr
+22 Name=strcmpOptrNoCase
+23 Name=PrintOptr
+24 Name=strncmpOptrNoCase
+25 Name=LockAndDeref
+;------------------EOF------------------

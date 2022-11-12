@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CINIDATA Pascal=0
+;---------------------------------------
+1 Name=__CIniData
+2 Name=FindVar__CIniDataRCTDesC16RTPtrC16
+3 Name=FindVar__CIniDataRCTDesC16Ri
+4 Name=FindVar__CIniDataRCTDesC16TRTPtrC16
+5 Name=FindVar__CIniDataRCTDesC16TRi
+6 Name=NewL__CIniDataRCTDesC16
+7 Name=_._CIniData
+8 Name=ConstructL__CIniDataRCTDesC16
+;------------------EOF------------------

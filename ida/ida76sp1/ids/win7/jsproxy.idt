@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=jsproxy.dll Args=0 Drops=6
+;---------------------------------------
+101 Name=InternetInitializeAutoProxyDll Pascal=20
+102 Name=InternetDeInitializeAutoProxyDll Pascal=8
+103 Name=InternetGetProxyInfo Pascal=24
+104 Name=InternetInitializeAutoProxyDllEx Pascal=24
+105 Name=InternetDeInitializeAutoProxyDllEx Pascal=4
+106 Name=InternetGetProxyInfoEx Pascal=28
+;------------------EOF------------------

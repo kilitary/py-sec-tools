@@ -1,0 +1,24 @@
+DECLARATION Nokia 9110 Geos 3.0 library eps.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=epsdll Pascal=0
+;---------------------------------------
+1 Name=TransGetImportUI
+2 Name=TransGetExportUI
+3 Name=TransInitImportUI
+4 Name=TransInitExportUI
+5 Name=TransGetImportOptions
+6 Name=TransGetExportOptions
+7 Name=TransImport
+8 Name=TransExport
+9 Name=TransGetFormat
+10 Name=EPSExportLow
+11 Name=EPSExportRaw
+12 Name=EPSExportHeader
+13 Name=EPSExportTrailer
+14 Name=EPSExportBeginPage
+15 Name=EPSExportEndPage
+16 Name=EPSNormalizeFilename
+17 Name=EPSExportBitmap
+;------------------EOF------------------

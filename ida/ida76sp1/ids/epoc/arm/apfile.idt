@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=APFILE Pascal=0
+;---------------------------------------
+1 Name=__26CApaScanningFileRecognizerR3RFsP14MApaAppStarter
+2 Name=DefaultAppInfoFileName__C21CApaScanningAppFinder
+3 Name=FindAllAppsL__21CApaScanningAppFinder
+4 Name=FindAppL__21CApaScanningAppFinderRC6TDesC8G4TUid
+5 Name=GetAppCapabilityByUid__19CApaAppLocatorProxyR5TDes8G4TUid
+6 Name=GetAppEntryByUid__19CApaAppLocatorProxyR12TApaAppEntryG4TUid
+7 Name=NewLC__21CApaScanningAppFinderRC3RFs
+8 Name=NewL__19CApaAppLocatorProxyR3RFs
+9 Name=NewL__21CApaScanningAppFinderRC3RFs
+10 Name=NewL__26CApaScanningFileRecognizerR3RFsP14MApaAppStarter
+11 Name=NextL__21CApaScanningAppFinderR12TApaAppEntry
+12 Name=RecognizerCount__26CApaScanningFileRecognizer
+13 Name=RecognizerListLC__C26CApaScanningFileRecognizer
+14 Name=ScanForRecognizersL__26CApaScanningFileRecognizer
+15 Name=SetRecognizersFromList__26CApaScanningFileRecognizerRCt13CArrayFixFlat1ZQ226CApaScanningFileRecognizer11TRecognizer
+16 Name=TempPath__C21CApaScanningAppFinder
+17 Name=_._19CApaAppLocatorProxy
+18 Name=_._21CApaScanningAppFinder
+19 Name=_._26CApaScanningFileRecognizer
+20 Name=ConstructL__26CApaScanningFileRecognizer
+21 Name=TempPath__6Apfile
+22 Name=__vc__C26CApaScanningFileRecognizeri
+23 Name=SetRecognizerL__26CApaScanningFileRecognizerRCQ226CApaScanningFileRecognizer11TRecognizer
+24 Name=UpdateCounter__C26CApaScanningFileRecognizer
+25 Name=DefaultAppInfoFileName__C25CApaScanningControlFinder
+26 Name=FindAllAppsL__25CApaScanningControlFinder
+27 Name=FindAppL__25CApaScanningControlFinderRC6TDesC8G4TUid
+28 Name=NewLC__25CApaScanningControlFinderRC3RFs
+29 Name=NewL__25CApaScanningControlFinderRC3RFs
+30 Name=NextL__25CApaScanningControlFinderR12TApaAppEntry
+31 Name=TempPath__C25CApaScanningControlFinder
+32 Name=_._25CApaScanningControlFinder
+;------------------EOF------------------

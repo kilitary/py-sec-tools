@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTUIUTILITY Pascal=0
+;---------------------------------------
+1 Name=_ZN13CBtActiveScan4NewLER17MBTUiUtilObserveri
+2 Name=_ZN13CBtConnection4NewLER17MBTUiUtilObserver
+3 Name=_ZN13CBtConnection7ConnectERK10TBTDevAddr
+4 Name=_ZN18CBTRegistryManager10AddActionLE18TQBTRegistryAction
+5 Name=_ZN18CBTRegistryManager10NewActionLE18TQBTRegistryActionP9CBTDeviceh
+6 Name=_ZN18CBTRegistryManager9Reserved1Ev
+7 Name=_ZN18CBTRegistryManager15ExecuteActionsLEv
+8 Name=_ZN18CBTRegistryManager4NewLER10RBTRegServR19MBTRegistryObserver
+9 Name=_ZN19CBtActiveNameLookup13ScanFirstItemER9CBTDevice
+10 Name=_ZN19CBtActiveNameLookup4NewLER17MBTUiUtilObserver
+11 Name=_ZN21CBtActiveDeviceLookup4NewLER17MBTUiUtilObserverRK10TBTDevAddr
+12 Name=_ZN21CBTExtRegistryManager14ExecuteActionLE21TQBTExtRegistryActionPvS1_m
+13 Name=_ZN18CQBTDeviceTypeUtil22GetDefaultNameFromMapLEii
+14 Name=_ZN15CQServiceFinder4NewLERK10TBTDevAddrR15MQServiceSeekerR6RArrayI5TUUIDE
+15 Name=_ZNK15CQBTServiceInfo11ServiceUIDSEv
+16 Name=_ZN15CQBTServiceInfo12ServiceNameLERK5TUUID
+17 Name=_ZN15CQBTServiceInfo4NewLEv
+18 Name=_ZN15CQBTServiceInfoD0Ev
+19 Name=_ZN15CQBTServiceInfoD1Ev
+20 Name=_ZN15CQBTServiceInfoD2Ev
+21 Name=_ZN19CBtActiveNameLookup22ScanFirstItemFromCacheER9CBTDevice
+22 Name=_ZN18CQBTDeviceTypeUtil16GetIconIdFromMapEii
+23 Name=_ZN18CQBTDeviceTypeUtil20GetCategoryIdFromMapEii
+24 Name=_ZN18CQBTDeviceTypeUtil4NewLER7CCoeEnvi
+25 Name=_ZN18CQBTDeviceTypeUtilD1Ev
+26 Name=_ZN18CQBTDeviceTypeUtilD2Ev
+27 Name=_ZN10QBTUiUtils14GetDeviceNameLERK9CBTDeviceR6TDes16
+28 Name=_ZN10QBTUiUtils16GetUiDeviceNameLERK9CBTDeviceR6TDes16
+29 Name=_ZN10QBTUiUtils19SetEdwinDeviceNameLERK9CBTDeviceR9CEikEdwin
+30 Name=_ZNK15CQBTServiceInfo10AudioUIDSLER6RArrayI5TUUIDE
+31 Name=_ZN18CBTRegistryManagerD0Ev
+32 Name=_ZN18CBTRegistryManagerD1Ev
+33 Name=_ZN18CBTRegistryManagerD2Ev
+34 Name=_ZN21CBTExtRegistryManager4NewLER22MBTExtRegistryObserver
+35 Name=_ZN21CBTExtRegistryManagerD0Ev
+36 Name=_ZN21CBTExtRegistryManagerD1Ev
+37 Name=_ZN21CBTExtRegistryManagerD2Ev
+;------------------EOF------------------

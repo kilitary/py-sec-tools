@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MMSCLI Pascal=0
+;---------------------------------------
+1 Name=NewL__CMmsClientMtmRCRegisteredMtmDllRCMsvSession
+2 Name=NewL__CMmsNotificationClientMtmRCRegisteredMtmDllRCMsvSession
+;------------------EOF------------------

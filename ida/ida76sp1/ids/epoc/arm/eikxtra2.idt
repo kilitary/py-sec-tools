@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EIKXTRA2 Pascal=0
+;---------------------------------------
+1 Name=__24CEikSecretEditorSettable
+2 Name=CreateEikXtraControlL__14CEikXtraDialogiR15SEikControlInfo
+3 Name=ExecuteL__14CEikHelpVieweri
+4 Name=FocusChanged__24CEikSecretEditorSettable8TDrawNow
+5 Name=GetIpAddress__C19CEikIpAddressEditorR5TDes8
+6 Name=SetIpAddress__19CEikIpAddressEditorRC6TDesC8
+7 Name=SetText__24CEikSecretEditorSettableiRC6TDesC8R8CEikForm
+8 Name=CreateCustomControlL__14CEikXtraDialogi
+;------------------EOF------------------

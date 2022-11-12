@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WudfPlatform.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=GetPlatformObject Pascal=4
+2 Name=ClearPlatformTestingCallbacks Pascal=0
+3 Name=DllGetClassObject Pascal=12
+4 Name=DllMain Pascal=12
+5 Name=GetAndInitializePlatformObject Pascal=24
+6 Name=InitializePlatformLibrary Pascal=4
+7 Name=PlatformUnhandledExceptionFilter Pascal=4
+8 Name=SetPlatformTestingCallbacks Pascal=4
+9 Name=ShutdownPlatformLibrary Pascal=0
+10 Name=WdfGetLpcInterface Pascal=4
+11 Name=WudfDebugBreakPoint Pascal=4
+12 Name=WudfIsAnyDebuggerPresent Pascal=0
+13 Name=WudfIsKernelDebuggerPresent Pascal=0
+14 Name=WudfIsUserDebuggerPresent Pascal=0
+15 Name=WudfWaitForDebugger Pascal=8
+;------------------EOF------------------

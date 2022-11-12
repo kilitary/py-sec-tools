@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=REDIRENG Pascal=0
+;---------------------------------------
+1 Name=_ZN11CFileStream4ReadERK9RMessage2
+2 Name=_ZN11CFileStream5WriteER5TDes8
+3 Name=_ZN12CRedirEngine10ConstructLEP11MConsoleOutP13MStreamConfig
+4 Name=_ZN12CRedirEngine12ConfigStreamEv
+5 Name=_ZN12CRedirEngine5InputERK5TChar
+6 Name=_ZN12CRedirEngine8RestoreLERK12CStreamStore9TStreamId
+7 Name=_ZN12CRedirEngine9GetStreamEv
+8 Name=_ZN12CRedirEngine9SetStreamE12TRedirSelect
+9 Name=_ZN12CRedirEngineC1Ev
+10 Name=_ZN12CRedirEngineC2Ev
+11 Name=_ZN12CRedirEngineD0Ev
+12 Name=_ZN12CRedirEngineD1Ev
+13 Name=_ZN12CRedirEngineD2Ev
+14 Name=_ZN13CSerialStream4ReadERK9RMessage2
+15 Name=_ZN13CSerialStream5WriteER5TDes8
+16 Name=_ZN14CConsoleStream4ReadERK9RMessage2
+17 Name=_ZN14CConsoleStream5WriteER5TDes8
+18 Name=_ZN18CFileStreamFactory11GetFileNameEv
+19 Name=_ZN18CFileStreamFactory11SetFileNameE4TBufILi256EE
+20 Name=_ZN20CSerialStreamFactory11GetPortNameEv
+21 Name=_ZN20CSerialStreamFactory11SetPortNameE4TBufILi256EE
+22 Name=_ZNK12CRedirEngine6StoreLER12CStreamStore
+23 Name=_ZNK12CRedirEngine9GetStatusEv
+25 Name=_ZTI11CFileStream
+26 Name=_ZTI12CRedirEngine
+27 Name=_ZTI13CSerialStream
+28 Name=_ZTI14CConsoleStream
+29 Name=_ZTI18CFileStreamFactory
+30 Name=_ZTI20CSerialStreamFactory
+31 Name=_ZTI21CConsoleStreamFactory
+32 Name=_ZTV11CFileStream
+33 Name=_ZTV12CRedirEngine
+34 Name=_ZTV13CSerialStream
+35 Name=_ZTV14CConsoleStream
+36 Name=_ZTV18CFileStreamFactory
+37 Name=_ZTV20CSerialStreamFactory
+38 Name=_ZTV21CConsoleStreamFactory
+;------------------EOF------------------

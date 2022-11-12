@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=comemu Pascal=0
+;---------------------------------------
+1 Name=??0CEmulatorManager@@QAE@XZ
+2 Name=??1CEmulatorManager@@UAE@XZ
+3 Name=?CreateEmulatorByName@CEmulatorManager@@QBEPAVCEmulator@@ABVTDesC8@@AAVCEikConsoleScreen@@PAVCCommsExecutor@@@Z
+4 Name=?CreateEmulatorL@TEmulatorGroupManager@@QAE?AV?$TLibAssoc@VCEmulator@@@@ABVTDesC8@@AAVRFs@@AAVCEikConsoleScreen@@PAVCCommsExecutor@@@Z
+5 Name=?FindEmulatorF@CEmulatorManager@@QBEHAAHABVTDesC8@@@Z
+6 Name=?PopulateEmulatorNameListL@TEmulatorGroupManager@@QAEXAAVRFs@@AAVCDesC8Array@@@Z
+;------------------EOF------------------

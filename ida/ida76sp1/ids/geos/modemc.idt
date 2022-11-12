@@ -1,0 +1,35 @@
+DECLARATION Nokia 9110 Geos 3.0 library modemc.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+14 Name=modemcdll Args=0 Drops=14
+;---------------------------------------
+1 Name=MODEMOPEN Pascal=12 \
+	Comment=Boolean pascal ModemOpen(GeodeHandle driver, SerialPortNum port, StreamOpenFlags flags, word inBuffSize, word outBuffSize, word timeout) in modemc.goh
+2 Name=MODEMCLOSE Pascal=4 \
+	Comment=void pascal ModemClose(SerialPortNum port, StreamLingerMode linger) in modemc.goh
+3 Name=MODEMSETROUTINEDATANOTIFY Pascal=4 \
+	Comment=void pascal ModemSetRoutineDataNotify(SerialPortNum port, word data, ModemDataNotifyRoutinePtr callback) in modemc.goh
+4 Name=MODEMSETMESSAGEDATANOTIFY Pascal=8 \
+	Comment=void pascal ModemSetMessageDataNotify(SerialPortNum port, Message msg, optr destination) in modemc.goh
+5 Name=MODEMSETROUTINERESPONSENOTIFY Pascal=4 \
+	Comment=void pascal ModemSetRoutineResponseNotify(SerialPortNum port, word data, ModemResponseNotifyRoutinePtr callback) in modemc.goh
+6 Name=MODEMSETMESSAGERESPONSENOTIFY Pascal=8 \
+	Comment=void pascal ModemSetMessageResponseNotify(SerialPortNum port, Message msg, optr destination) in modemc.goh
+7 Name=MODEMDIAL Pascal=12 \
+	Comment=Boolean pascal ModemDial(SerialPortNum port, word strLen, const char *dialStr, ModemResultCode *result) in modemc.goh
+8 Name=MODEMANSWERCALL Pascal=6 \
+	Comment=Boolean pascal ModemAnswerCall(SerialPortNum port, ModemResultCode *result) in modemc.goh
+9 Name=MODEMHANGUP Pascal=6 \
+	Comment=Boolean pascal ModemHangup(SerialPortNum port, ModemResultCode *result) in modemc.goh
+10 Name=MODEMRESET Pascal=6 \
+	Comment=Boolean pascal ModemReset(SerialPortNum port, ModemResultCode *result) in modemc.goh
+11 Name=MODEMFACTORYRESET Pascal=6 \
+	Comment=Boolean pascal ModemFactoryReset(SerialPortNum port, ModemResultCode *result) in modemc.goh
+12 Name=MODEMINITMODEM Pascal=12 \
+	Comment=Boolean pascal ModemInitModem(SerialPortNum port, word strLen, const char *initStr, ModemResultCode *result) in modemc.goh
+13 Name=MODEMAUTOANSWER Pascal=8 \
+	Comment=Boolean pascal ModemAutoAnswer(SerialPortNum port, word numRings, ModemResultCode *result) in modemc.goh
+14 Name=MODEMSETMESSAGEENDCALLNOTIFY Pascal=8 \
+	Comment=Boolean pascal ModemSetMessageEndCallNotify(SerialPortNum port, Message msg, optr destination) in modemc.goh
+;------------------EOF------------------

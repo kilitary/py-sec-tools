@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ADOCEDB.dll Pascal=0
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DbOpen
+3 Name=DbClose
+4 Name=DllDumpDataTo
+;------------------EOF------------------

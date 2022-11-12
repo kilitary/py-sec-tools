@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=olece211.dll Pascal=0
+;---------------------------------------
+1660 Name=?_afxAmbientCache@@3V?$CThreadLocal@V_AFXCTL_AMBIENT_CACHE@@@@A
+1661 Name=?classCOleControl@COleControl@@2UCRuntimeClass@@B
+1662 Name=?classCOleControlModule@COleControlModule@@2UCRuntimeClass@@B
+1663 Name=?classCOleDispatchException@COleDispatchException@@2UCRuntimeClass@@B
+1664 Name=?classCOleException@COleException@@2UCRuntimeClass@@B
+1665 Name=?classCOleObjectFactory@COleObjectFactory@@2UCRuntimeClass@@B
+1666 Name=?classCOlePropertyPage@COlePropertyPage@@2UCRuntimeClass@@B
+1667 Name=?classCOleStreamFile@COleStreamFile@@2UCRuntimeClass@@B
+1668 Name=?connectionMap@COleControl@@1UAFX_CONNECTIONMAP@@B
+1669 Name=?eventMap@COleControl@@1UAFX_EVENTMAP@@B
+1670 Name=?interfaceMap@COleControl@@1UAFX_INTERFACEMAP@@B
+1671 Name=?interfaceMap@COleDataSource@@1UAFX_INTERFACEMAP@@B
+1672 Name=?interfaceMap@COleObjectFactory@@1UAFX_INTERFACEMAP@@B
+1673 Name=?interfaceMap@COlePropertyPage@@1UAFX_INTERFACEMAP@@B
+1674 Name=?messageMap@CControlFrameWnd@@1UAFX_MSGMAP@@B
+1675 Name=?messageMap@COleControl@@1UAFX_MSGMAP@@B
+1676 Name=?messageMap@COlePropertyPage@@1UAFX_MSGMAP@@B
+;------------------EOF------------------

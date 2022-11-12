@@ -1,0 +1,44 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=httpapi.dll Args=0 Drops=37
+;---------------------------------------
+1 Name=HttpAddFragmentToCache Pascal=20
+2 Name=HttpAddUrl Pascal=12
+3 Name=HttpAddUrlToUrlGroup Pascal=24
+4 Name=HttpCancelHttpRequest Pascal=16
+5 Name=HttpCloseRequestQueue Pascal=4
+6 Name=HttpCloseServerSession Pascal=8
+7 Name=HttpCloseUrlGroup Pascal=8
+8 Name=HttpControlService Pascal=20
+9 Name=HttpCreateHttpHandle Pascal=8
+10 Name=HttpCreateRequestQueue Pascal=20
+11 Name=HttpCreateServerSession Pascal=12
+12 Name=HttpCreateUrlGroup Pascal=16
+13 Name=HttpDeleteServiceConfiguration Pascal=20
+14 Name=HttpFlushResponseCache Pascal=16
+15 Name=HttpGetCounters Pascal=24
+16 Name=HttpInitialize Pascal=12
+17 Name=HttpQueryRequestQueueProperty Pascal=28
+18 Name=HttpQueryServerSessionProperty Pascal=24
+19 Name=HttpQueryServiceConfiguration Pascal=32
+20 Name=HttpQueryUrlGroupProperty Pascal=24
+21 Name=HttpReadFragmentFromCache Pascal=28
+22 Name=HttpReceiveClientCertificate Pascal=32
+23 Name=HttpReceiveHttpRequest Pascal=32
+24 Name=HttpReceiveRequestEntityBody Pascal=32
+25 Name=HttpRemoveUrl Pascal=8
+26 Name=HttpRemoveUrlFromUrlGroup Pascal=16
+27 Name=HttpSendHttpResponse Pascal=44
+28 Name=HttpSendResponseEntityBody Pascal=44
+29 Name=HttpSetRequestQueueProperty Pascal=24
+30 Name=HttpSetServerSessionProperty Pascal=20
+31 Name=HttpSetServiceConfiguration Pascal=20
+32 Name=HttpSetUrlGroupProperty Pascal=20
+33 Name=HttpShutdownRequestQueue Pascal=4
+34 Name=HttpTerminate Pascal=8
+35 Name=HttpWaitForDemandStart Pascal=8
+36 Name=HttpWaitForDisconnect Pascal=16
+37 Name=HttpWaitForDisconnectEx Pascal=20
+;------------------EOF------------------

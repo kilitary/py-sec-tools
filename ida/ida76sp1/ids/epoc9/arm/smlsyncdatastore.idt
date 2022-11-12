@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMLSYNCDATASTORE Pascal=0
+;---------------------------------------
+2 Name=_ZTI11CSmlSdsBase
+3 Name=_ZTI14CSmlDevInfBase
+4 Name=_ZTI15CSmlDmDataStore
+5 Name=_ZTI15CSmlSdsSettings
+6 Name=_ZTI17CSmlSyncDataStore
+7 Name=_ZTI20CSmlDevManSubscriber
+8 Name=_ZTI21CSmlDmProfileProvider
+9 Name=_ZTI23CSmlProfileProviderBase
+10 Name=_ZTV11CSmlSdsBase
+11 Name=_ZTV14CSmlDevInfBase
+12 Name=_ZTV15CSmlDmDataStore
+13 Name=_ZTV15CSmlSdsSettings
+14 Name=_ZTV17CSmlSyncDataStore
+15 Name=_ZTV20CSmlDevManSubscriber
+16 Name=_ZTV21CSmlDmProfileProvider
+17 Name=_ZTV23CSmlProfileProviderBase
+18 Name=_ZN17CSmlSyncDataStore5OpenLER10TSDSParams
+19 Name=_ZN17CSmlSyncDataStore7ReleaseEv
+;------------------EOF------------------

@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EIKSRVC Pascal=0
+;---------------------------------------
+1 Name=_ZN16REikAppUiSession5CloseEv
+2 Name=_ZN16REikAppUiSession7ConnectEv
+3 Name=_ZN16REikAppUiSessionC1Ev
+4 Name=_ZN16REikAppUiSessionC2Ev
+5 Name=_ZNK16REikAppUiSession10CycleTasksE19TTaskCycleDirection
+6 Name=_ZNK16REikAppUiSession11BlankScreenEv
+7 Name=_ZNK16REikAppUiSession12ResolveErrorER6TDes16i4TUid
+8 Name=_ZNK16REikAppUiSession13UnblankScreenEv
+9 Name=_ZNK16REikAppUiSession14LaunchTaskListEv
+10 Name=_ZNK16REikAppUiSession18SetStatusPaneFlagsEi
+11 Name=_ZNK16REikAppUiSession19SetStatusPaneLayoutEi
+12 Name=_ZNK16REikAppUiSession7VersionEv
+13 Name=_ZNK16REikAppUiSession9ExtensionE4TUidRK6TDesC8R14TRequestStatus
+14 Name=_ZNK16REikAppUiSession16GetSystemColorsLEv
+15 Name=_ZNK16REikAppUiSession16SetSystemColorsLERK10CColorList
+16 Name=_ZNK16REikAppUiSession19GetInstalledFepNameER6TDes16
+17 Name=_ZNK16REikAppUiSession19SetInstalledFepNameERK7TDesC16i
+18 Name=_ZNK16REikAppUiSession15GetFepAttributeE4TUidR5TDes8
+19 Name=_ZNK16REikAppUiSession15SetFepAttributeE4TUidRK6TDesC8
+20 Name=_ZNK16REikAppUiSession17OpenFepAttributesEv
+21 Name=_ZNK16REikAppUiSession18CloseFepAttributesEv
+22 Name=_ZNK16REikAppUiSession19CommitFepAttributesEv
+23 Name=_ZNK16REikAppUiSession14EnableTaskListEv
+24 Name=_ZN16REikAppUiSession26REikAppUiSession_Reserved1Ev
+25 Name=_ZN16REikAppUiSession26REikAppUiSession_Reserved2Ev
+26 Name=_ZTI16REikAppUiSession
+27 Name=_ZTV16REikAppUiSession
+;------------------EOF------------------

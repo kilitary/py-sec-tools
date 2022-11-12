@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BAKSRV Pascal=0
+;---------------------------------------
+1 Name=_ZN15CBaBackupServer10ConstructLEv
+2 Name=_ZN15CBaBackupServer10RestartAllEv
+3 Name=_ZN15CBaBackupServer14CloseAllFilesLEN15MBackupObserver14TFileLockFlagsE
+4 Name=_ZN15CBaBackupServer20CompleteClosingFilesEP9CArrayFixIN20CBaServBackupSession11TClosedFileEE
+5 Name=_ZN15CBaBackupServer21SignalBackupOperationERK26TBackupOperationAttributes
+6 Name=_ZN15CBaBackupServer4NewLEv
+7 Name=_ZN15CBaBackupServer7SetBusyEm
+8 Name=_ZN15CBaBackupServer8RunErrorEi
+9 Name=_ZN15CBaBackupServerC1Ei
+10 Name=_ZN15CBaBackupServerC2Ei
+11 Name=_ZN15CBaBackupServerD0Ev
+12 Name=_ZN15CBaBackupServerD1Ev
+13 Name=_ZN15CBaBackupServerD2Ev
+14 Name=_ZN20CBaServBackupSession10ConstructLEv
+15 Name=_ZN20CBaServBackupSession10RestartAllEv
+16 Name=_ZN20CBaServBackupSession11HandleErrorEi
+17 Name=_ZN20CBaServBackupSession14CloseAllFilesLERK9RMessage2
+18 Name=_ZN20CBaServBackupSession7CreateLEv
+19 Name=_ZN20CBaServBackupSession8ServiceLERK9RMessage2
+20 Name=_ZN20CBaServBackupSessionC1Ev
+21 Name=_ZN20CBaServBackupSessionC2Ev
+22 Name=_ZN20CBaServBackupSessionD0Ev
+23 Name=_ZN20CBaServBackupSessionD1Ev
+24 Name=_ZN20CBaServBackupSessionD2Ev
+25 Name=_ZN22CBaServBackupScheduler15SetErrorHandlerEP20CBaServBackupSession
+26 Name=_ZNK15CBaBackupServer11NewSessionLERK8TVersionRK9RMessage2
+27 Name=_ZNK15CBaBackupServer12IsClientBusyEm
+28 Name=_ZNK15CBaBackupServer17IsOtherClientBusyEm
+29 Name=_ZNK22CBaServBackupScheduler5ErrorEi
+30 Name=_ZTI15CBaBackupServer
+31 Name=_ZTI20CBaServBackupSession
+32 Name=_ZTI22CBaServBackupScheduler
+33 Name=_ZTV15CBaBackupServer
+34 Name=_ZTV20CBaServBackupSession
+35 Name=_ZTV22CBaServBackupScheduler
+;------------------EOF------------------

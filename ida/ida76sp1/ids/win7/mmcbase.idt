@@ -1,0 +1,139 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mmcbase.dll Args=0 Drops=125
+;---------------------------------------
+1 Name=??0?$CEventLock@UAppEvents@@@@QAE@XZ Pascal=0
+2 Name=??0CEventBuffer@@QAE@ABV0@@Z Pascal=4
+3 Name=??0CEventBuffer@@QAE@XZ Pascal=0
+4 Name=??0CMMCStrongReferences@@AAE@XZ Pascal=0
+5 Name=??0SC@mmcerror@@QAE@ABV01@@Z Pascal=4
+6 Name=??0SC@mmcerror@@QAE@J@Z Pascal=4
+7 Name=??1?$CEventLock@UAppEvents@@@@QAE@XZ
+8 Name=??1CEventBuffer@@QAE@XZ Pascal=0
+9 Name=??1SC@mmcerror@@QAE@XZ Pascal=0
+10 Name=??4?$CEventLock@UAppEvents@@@@QAEAAV0@ABV0@@Z Pascal=4
+11 Name=??4CEventBuffer@@QAEAAV0@ABV0@@Z Pascal=4
+12 Name=??4CMMCStrongReferences@@QAEAAV0@ABV0@@Z Pascal=4
+13 Name=??4SC@mmcerror@@QAEAAV01@ABV01@@Z Pascal=4
+14 Name=??4SC@mmcerror@@QAEAAV01@J@Z Pascal=4
+15 Name=??7SC@mmcerror@@QBEHXZ Pascal=0
+16 Name=??8SC@mmcerror@@QBE_NABV01@@Z Pascal=4
+17 Name=??8SC@mmcerror@@QBE_NJ@Z Pascal=4
+18 Name=??9SC@mmcerror@@QBE_NABV01@@Z Pascal=4
+19 Name=??9SC@mmcerror@@QBE_NJ@Z Pascal=4
+20 Name=??BSC@mmcerror@@QBE_NXZ Pascal=0
+21 Name=??_FSC@mmcerror@@QAEXXZ Pascal=0
+22 Name=?AddItem@BookKeeping@@SGJAAVItemHandle@@@Z Pascal=4
+23 Name=?AddRef@CMMCStrongReferences@@SGKXZ Pascal=0
+24 Name=?AddSnapin@BookKeeping@@SGJPBGAAH@Z Pascal=8
+25 Name=?AddSnapinInterface@BookKeeping@@SG_NPAUIUnknown@@PBGAAH@Z Pascal=12
+26 Name=?CheckCallingThreadID@SC@mmcerror@@QAEXXZ Pascal=0
+27 Name=?Clear@SC@mmcerror@@QAEXXZ Pascal=0
+28 Name=?DumpWatsonTables@BookKeeping@@SGJPAXPBGH@Z Pascal=12
+29 Name=?EnableDiagnosticMessageBox@BookKeeping@@SG_N_N@Z Pascal=4
+30 Name=?ExceptionFilter@CMMCWatsonAPI@@SGJPAU_EXCEPTION_POINTERS@@H@Z Pascal=8
+31 Name=?FatalError@SC@mmcerror@@QBEXXZ Pascal=0
+32 Name=?FindAllSnapinUIThreads@BookKeeping@@SGJHPAPAKPAK@Z Pascal=12
+33 Name=?FindAllSnapinUIThreads@BookKeeping@@SGJPAPAKPAK@Z Pascal=8
+34 Name=?FindItem@BookKeeping@@SGPAVItemHandle@@PAX@Z Pascal=4
+35 Name=?FindSnapin@BookKeeping@@SGABVSnapinBookkeepingInfo@@H@Z Pascal=4
+36 Name=?FindSnapin@BookKeeping@@SGABVSnapinBookkeepingInfo@@PAUIUnknown@@@Z Pascal=4
+37 Name=?FindSnapin@BookKeeping@@SGABVSnapinBookkeepingInfo@@PBG@Z Pascal=4
+38 Name=?ForceException@CMMCWatsonAPI@@SGXH@Z Pascal=4
+39 Name=?FormatErrorIds@@YGXIVSC@mmcerror@@IPAG@Z Pascal=28
+40 Name=?FormatErrorShort@@YGXVSC@mmcerror@@IPAG@Z Pascal=24
+41 Name=?FormatErrorString@@YGXPBGVSC@mmcerror@@IPAGH@Z Pascal=32
+42 Name=?FromLastError@SC@mmcerror@@QAEAAV12@XZ Pascal=0
+43 Name=?FromMMC@SC@mmcerror@@QAEAAV12@J@Z Pascal=4
+44 Name=?FromWin32@SC@mmcerror@@QAEAAV12@J@Z Pascal=4
+45 Name=?FxSnapinException@BookKeeping@@SG_NHPBG000HPAUHWND__@@@Z Pascal=28
+46 Name=?GetCode@SC@mmcerror@@QBEJXZ Pascal=0
+47 Name=?GetComObjectEventSource@@YGAAV?$CEventSource@VCComObjectObserver@@VCVoid@@V2@V2@V2@@@XZ Pascal=0
+48 Name=?GetErrorMessage@SC@mmcerror@@QBEXIPAG@Z Pascal=8
+49 Name=?GetEventBuffer@@YGAAVCEventBuffer@@XZ Pascal=0
+50 Name=?GetFacility@SC@mmcerror@@ABE?AW4facility_type@12@XZ Pascal=0
+51 Name=?GetFunctionName@SC@mmcerror@@QBEPBGXZ Pascal=0
+52 Name=?GetHWnd@SC@mmcerror@@SGPAUHWND__@@XZ Pascal=0
+53 Name=?GetHelpFile@SC@mmcerror@@SGPBGXZ Pascal=0
+54 Name=?GetHelpID@SC@mmcerror@@QAEKXZ Pascal=0
+55 Name=?GetHinst@SC@mmcerror@@SGPAUHINSTANCE__@@XZ Pascal=0
+56 Name=?GetMainThreadID@SC@mmcerror@@SGKXZ Pascal=0
+57 Name=?GetModalHWND@SC@mmcerror@@SGPAUHWND__@@XZ Pascal=0
+58 Name=?GetNewSnapinInstanceId@BookKeeping@@SGHXZ Pascal=0
+59 Name=?GetSingletonObject@CMMCStrongReferences@@CGAAV1@XZ Pascal=0
+60 Name=?GetSnapinModuleName@BookKeeping@@SGPBGH@Z Pascal=4
+61 Name=?GetSnapinName@BookKeeping@@SGPBGH@Z Pascal=4
+62 Name=?GetSnapinName@SC@mmcerror@@QBEPBGXZ Pascal=0
+63 Name=?GetStringModule@@YGPAUHINSTANCE__@@XZ Pascal=0
+64 Name=?HrFromSc@@YGJABVSC@mmcerror@@@Z Pascal=4
+65 Name=?InitInstance@BookKeeping@@SGJXZ Pascal=0
+66 Name=?InterfaceFailure@BookKeeping@@SGXHPBG0@Z Pascal=12
+67 Name=?InterfaceMethodActivationContextException@BookKeeping@@SGXHPBG0KPAU_EXCEPTION_POINTERS@@@Z Pascal=20
+68 Name=?InterfaceMethodException@BookKeeping@@SGXHPBG0KPAU_EXCEPTION_POINTERS@@@Z Pascal=20
+69 Name=?InterfaceNotFound@BookKeeping@@SGXHPBG@Z Pascal=8
+70 Name=?InternalAddRef@CMMCStrongReferences@@AAEKXZ Pascal=0
+71 Name=?InternalLastRefReleased@CMMCStrongReferences@@AAE_NXZ Pascal=0
+72 Name=?InternalRelease@CMMCStrongReferences@@AAEKXZ Pascal=0
+73 Name=?InvalidInterface@BookKeeping@@SGXHPBG0@Z Pascal=12
+74 Name=?InvalidMMCInterface@BookKeeping@@SGXHPBG0@Z Pascal=12
+75 Name=?InvalidMMCInterfaceRelease@BookKeeping@@SGXHPBG0@Z Pascal=12
+76 Name=?IsError@SC@mmcerror@@QBE_NXZ Pascal=0
+77 Name=?IsLocked@CEventBuffer@@QAE_NXZ Pascal=0
+78 Name=?IsValid@ItemHandle@@SG_NPBV1@@Z Pascal=4
+79 Name=?LKResult2HRESULT@BookKeeping@@SGJJ@Z Pascal=4
+80 Name=?LastRefReleased@CMMCStrongReferences@@SG_NXZ Pascal=0
+81 Name=?LoadStandardOverlays@@YGJPAU_IMAGELIST@@HPAH1@Z Pascal=16
+82 Name=?Lock@CEventBuffer@@QAEXXZ Pascal=0
+83 Name=?MMCErrorBox@@YGHII@Z Pascal=8
+84 Name=?MMCErrorBox@@YGHIVSC@mmcerror@@I@Z Pascal=24
+85 Name=?MMCErrorBox@@YGHPBGI@Z Pascal=8
+86 Name=?MMCErrorBox@@YGHPBGVSC@mmcerror@@I@Z Pascal=24
+87 Name=?MMCErrorBox@@YGHVSC@mmcerror@@I@Z Pascal=20
+88 Name=?MMCInterfaceError@BookKeeping@@SGXHPBG0@Z Pascal=12
+89 Name=?MMCInterfaceLeak@BookKeeping@@SGXHPBG@Z Pascal=8
+90 Name=?MMCInterfaceMethodException@BookKeeping@@SGXHPBG0KPAU_EXCEPTION_POINTERS@@W4_SnapinError@1@@Z Pascal=24
+91 Name=?MMCNullInterface@BookKeeping@@SGXHPBG0@Z Pascal=12
+92 Name=?MMCUpdateRegistry@@YGJHPBVCObjectRegParams@@PBVCControlRegParams@@@Z Pascal=12
+93 Name=?MMC_PickIconDlg@@YGHPAUHWND__@@PAGIPAH@Z Pascal=16
+94 Name=?MakeSc@SC@mmcerror@@AAEXW4facility_type@12@J@Z Pascal=8
+95 Name=?RegisterSnapinInterfaceErrorHandler@BookKeeping@@SGP6G_NAAVSnapinBookkeepingInfo@@W4_SnapinError@1@PBG222KPAU_EXCEPTION_POINTERS@@@ZP6G_N012222K3@Z@Z Pascal=4
+96 Name=?RegisterThread@BookKeeping@@SGJHHKW4SnapinThreadFlags@1@@Z Pascal=16
+97 Name=?Release@CMMCStrongReferences@@SGKXZ Pascal=0
+98 Name=?ReleaseSnapinInterface@BookKeeping@@SGJPAUIUnknown@@H@Z Pascal=8
+99 Name=?RemoveItem@BookKeeping@@SGJPAX@Z Pascal=4
+100 Name=?SCODEFromSc@@YGJABVSC@mmcerror@@@Z Pascal=4
+101 Name=?ScEmitOrPostpone@CEventBuffer@@QAE?AVSC@mmcerror@@PAUIDispatch@@JPAVCComVariant@ATL@@H@Z Pascal=20
+102 Name=?ScFlushPostponed@CEventBuffer@@AAE?AVSC@mmcerror@@XZ Pascal=4
+103 Name=?ScFromMMC@@YG?AVSC@mmcerror@@J@Z Pascal=8
+104 Name=?ScGetConsoleEventDispatcher@CConsoleEventDispatcherProvider@@SG?AVSC@mmcerror@@AAPAVCConsoleEventDispatcher@@@Z Pascal=8
+105 Name=?ScSetConsoleEventDispatcher@CConsoleEventDispatcherProvider@@SG?AVSC@mmcerror@@PAVCConsoleEventDispatcher@@@Z Pascal=8
+106 Name=?SetFunctionName@SC@mmcerror@@QAEXPBG@Z Pascal=4
+107 Name=?SetHWnd@SC@mmcerror@@SGXPAUHWND__@@@Z Pascal=4
+108 Name=?SetHinst@SC@mmcerror@@SGXPAUHINSTANCE__@@@Z Pascal=4
+109 Name=?SetMainThreadID@SC@mmcerror@@SGXK@Z Pascal=4
+110 Name=?SetModalHWND@SC@mmcerror@@SGPAUHWND__@@PAU3@@Z Pascal=4
+111 Name=?SetSnapinName@SC@mmcerror@@QAEXPBG@Z Pascal=4
+112 Name=?Throw@SC@mmcerror@@QAEXJ@Z Pascal=4
+113 Name=?Throw@SC@mmcerror@@QAEXXZ Pascal=0
+114 Name=?ToHr@SC@mmcerror@@QBEJXZ Pascal=0
+115 Name=?TraceAndClear@SC@mmcerror@@QAEXXZ Pascal=0
+116 Name=?TraceError@@YGXPBGABVSC@mmcerror@@@Z Pascal=8
+117 Name=?TraceSnapinError@@YGXPBGABVSC@mmcerror@@@Z Pascal=8
+118 Name=?Trace_@SC@mmcerror@@QBEXXZ Pascal=0
+119 Name=?Unlock@CEventBuffer@@QAEXXZ Pascal=0
+120 Name=?UnregisterAllSnapinInstanceThreads@BookKeeping@@SGJH@Z Pascal=4
+121 Name=?UnregisterThread@BookKeeping@@SGJHK@Z Pascal=8
+122 Name=?s_CallDepth@SC@mmcerror@@0IA
+123 Name=?s_dwMainThreadID@SC@mmcerror@@0KA
+124 Name=?s_hInst@SC@mmcerror@@0PAUHINSTANCE__@@A
+125 Name=?s_hWnd@SC@mmcerror@@0PAUHWND__@@A
+126 Name=?s_hWndModal@SC@mmcerror@@0PAUHWND__@@A
+127 Name=?s_pDispatcher@CConsoleEventDispatcherProvider@@0PAVCConsoleEventDispatcher@@A
+128 Name=EnterModalLoop Pascal=0
+129 Name=_GetAllocCounters@0 Pascal=0
+130 Name=InsideModalLoop Pascal=4
+131 Name=LeaveModalLoop Pascal=0
+132 Name=ReportFxSnapinException Pascal=28
+;------------------EOF------------------

@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=perfnw.dll Args=0 Drops=3
+;---------------------------------------
+2 Name=OpenNetWarePerformanceData Pascal=4
+3 Name=CollectNetWarePerformanceData Pascal=16
+4 Name=CloseNetWarePerformanceData Pascal=0
+;------------------EOF------------------

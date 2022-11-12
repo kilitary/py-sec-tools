@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=eappcfg.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=EapHostPeerConfigBlob2Xml Pascal=36
+2 Name=EapHostPeerConfigXml2Blob Pascal=24
+3 Name=EapHostPeerCredentialsXml2Blob Pascal=32
+4 Name=EapHostPeerFreeErrorMemory Pascal=4
+5 Name=EapHostPeerFreeMemory Pascal=4
+6 Name=EapHostPeerGetMethods Pascal=8
+7 Name=EapHostPeerInvokeConfigUI Pascal=44
+8 Name=EapHostPeerInvokeInteractiveUI Pascal=24
+9 Name=EapHostPeerQueryCredentialInputFields Pascal=40
+10 Name=EapHostPeerQueryInteractiveUIInputFields Pascal=28
+11 Name=EapHostPeerQueryUIBlobFromInteractiveUIInputFields Pascal=36
+12 Name=EapHostPeerQueryUserBlobFromCredentialInputFields Pascal=48
+;------------------EOF------------------

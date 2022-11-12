@@ -1,0 +1,61 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TLSPROVIDER Pascal=0
+;---------------------------------------
+1 Name=_ZN12CTLSProviderD1Ev
+2 Name=_ZN12CTLSProvider10AttributesEv
+3 Name=_ZN11CTLSSession13CancelRequestEv
+4 Name=_ZN12CTLSProvider13CancelRequestEv
+5 Name=_ZN11CTLSSession27CertificateVerifySignatureLEP14CMessageDigestS1_RP6HBufC8R14TRequestStatus
+6 Name=_ZN12CTLSProvider13CipherSuitesLER6RArrayI15TTLSCipherSuiteER14TRequestStatus
+7 Name=_ZN12CTLSProvider18ClearSessionCacheLER20TTLSSessionNameAndIDR14TRequestStatus
+8 Name=_ZN11CTLSSession17ClientCertificateERP16CX509CertificateR14TRequestStatus
+9 Name=_ZN11CTLSSession17ClientCertificateERP6HBufC8R14TRequestStatus
+10 Name=_ZN11CTLSSession18ClientFinishedMsgLEP14CMessageDigestS1_RP6HBufC8R14TRequestStatus
+11 Name=_ZN11CTLSSession17ClientKeyExchangeERP6HBufC8R14TRequestStatus
+12 Name=_ZN12CTLSProvider8ConnectLEv
+13 Name=_ZN12CTLSProvider7CreateLERP11CTLSSessionR14TRequestStatus
+14 Name=_ZN11CTLSSession17DecryptAndVerifyLERK6TDesC8RP6HBufC8RxR15TRecordProtocol
+15 Name=_ZN11CTLSSession8EncryptLERK6TDesC8RP6HBufC8RxR15TRecordProtocol
+16 Name=_ZN12CTLSProvider14GenerateRandomER5TDes8
+17 Name=_ZN12CTLSProvider11GetSessionLER14TTLSServerAddrR5TBuf8ILi32EER14TRequestStatus
+18 Name=_ZN11CTLSSession4NewLEP15CTlsSessionImpl
+19 Name=_ZN12CTLSProvider10ReConnectLEv
+20 Name=_ZN11CTLSSession17ServerCertificateERP16CX509CertificateR14TRequestStatus
+21 Name=_ZN11CTlsEncrypt19TLSPRFComputationsLERK6TDesC8S2_RK16TTLSMACAlgorithmiR5TDes8
+22 Name=_ZN11CTlsEncrypt7TLSPRFLERK6TDesC8S2_iR5TDes8
+23 Name=_ZN12CTLSProvider13TlsSessionPtrEv
+24 Name=_ZN12CTLSProvider23VerifyServerCertificateERK6TDesC8RP16CX509CertificateR14TRequestStatus
+25 Name=_ZN11CTLSSession24VerifyServerFinishedMsgLEP14CMessageDigestS1_RK6TDesC8R14TRequestStatus
+26 Name=_ZN12CTLSProvider16VerifySignatureLERK21CSubjectPublicKeyInfoRK6TDesC8S5_
+27 Name=_ZN11CTLSSessionD1Ev
+28 Name=_ZN11CTLSSession10AttributesEv
+29 Name=_ZN11CTLSSessionD2Ev
+30 Name=_ZN12CTLSProviderD0Ev
+31 Name=_ZN11CTLSSessionD0Ev
+32 Name=_ZN12CTLSProviderD2Ev
+33 Name=_ZTI10CTokenInfo
+34 Name=_ZTI11CTLSSession
+35 Name=_ZTI11CTlsEncrypt
+36 Name=_ZTI12CTLSProvider
+37 Name=_ZTI15CTlsBrowseToken
+38 Name=_ZTI15CTlsSessionImpl
+39 Name=_ZTI16CTlsProviderImpl
+40 Name=_ZTI19CTLSPublicKeyParams
+41 Name=_ZTI20CTlsClntAuthenticate
+42 Name=_ZTI20CTlsCryptoAttributes
+43 Name=_ZTI20CTokenTypesAndTokens
+44 Name=_ZTV10CTokenInfo
+45 Name=_ZTV11CTLSSession
+46 Name=_ZTV11CTlsEncrypt
+47 Name=_ZTV12CTLSProvider
+48 Name=_ZTV15CTlsBrowseToken
+49 Name=_ZTV15CTlsSessionImpl
+50 Name=_ZTV16CTlsProviderImpl
+51 Name=_ZTV19CTLSPublicKeyParams
+52 Name=_ZTV20CTlsClntAuthenticate
+53 Name=_ZTV20CTlsCryptoAttributes
+54 Name=_ZTV20CTokenTypesAndTokens
+;------------------EOF------------------

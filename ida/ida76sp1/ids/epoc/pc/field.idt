@@ -1,0 +1,75 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FIELD Pascal=0
+;---------------------------------------
+1 Name=??0CDateTimeField@@QAE@XZ
+2 Name=?RestoreL@CFileNameField@@UAEXABVCStreamStore@@VTStreamId@@@Z
+3 Name=??1CTextFieldSet@@UAE@XZ
+4 Name=??8TFindFieldInfo@@QBEHABV0@@Z
+5 Name=??9TFindFieldInfo@@QBEHABV0@@Z
+6 Name=?CharCount@CTextFieldSet@@QBEHXZ
+7 Name=?CopyComponentsL@CTextFieldSet@@QBEXAAVCStreamStore@@AAVCStoreMap@@HH@Z
+8 Name=?CopyToStoreL@CTextFieldSet@@QBE?AVTStreamId@@AAVCStreamStore@@HH@Z
+9 Name=?CopyToStreamL@CTextFieldSet@@QBEXAAVRWriteStream@@HH@Z
+10 Name=?DeneryToChar@TDeneryToCharBase@@QBEHAAVTPtr8@@H@Z
+11 Name=?DoDeneryToChar@TAlphabeticNumeral@@MBEXAAVTPtr8@@H@Z
+12 Name=?DoDeneryToChar@TArabicNumeral@@MBEXAAVTPtr8@@H@Z
+13 Name=?DoDeneryToChar@TRomanNumeral@@MBEXAAVTPtr8@@H@Z
+14 Name=?ExternalizeL@CDateTimeField@@UBEXAAVRWriteStream@@@Z
+15 Name=?ExternalizeL@CPageFieldBase@@UBEXAAVRWriteStream@@@Z
+16 Name=?ExternalizeL@CTextField@@UBEXAAVRWriteStream@@@Z
+17 Name=?ExternalizeL@CTextFieldSet@@QBEXAAVRWriteStream@@@Z
+18 Name=?ExternalizeL@TTextFieldEntry@@QBEXAAVRWriteStream@@@Z
+19 Name=?ExternalizeL@TTextFieldHeader@@QBEXAAVRWriteStream@@@Z
+20 Name=?FieldCount@CTextFieldSet@@QBEHXZ
+21 Name=?FieldFactory@CTextFieldSet@@QBEPAVMTextFieldFactory@@XZ
+22 Name=?FindFields@CTextFieldSet@@QBEHAAVTFindFieldInfo@@HH@Z
+23 Name=?FindFields@CTextFieldSet@@QBEHH@Z
+24 Name=?FormatString@CDateTimeField@@QBEABVTDesC8@@XZ
+25 Name=?InsertFieldL@CTextFieldSet@@QAEHHPAVCTextField@@VTUid@@@Z
+26 Name=?InternalizeL@CDateTimeField@@UAEXAAVRReadStream@@@Z
+27 Name=?InternalizeL@CPageFieldBase@@UAEXAAVRReadStream@@@Z
+28 Name=?InternalizeL@CTextFieldSet@@QAEXAAVRReadStream@@@Z
+29 Name=?InternalizeL@TTextFieldEntry@@QAEXAAVRReadStream@@@Z
+30 Name=?InternalizeL@TTextFieldHeader@@QAEXAAVRReadStream@@@Z
+31 Name=?NewFieldL@CTextFieldSet@@QAEPAVCTextField@@VTUid@@@Z
+32 Name=?NewFieldValueL@CTextFieldSet@@QAEHAAPAVHBufC8@@H@Z
+33 Name=?NewL@CTextFieldSet@@SAPAV1@H@Z
+34 Name=?NewL@CTextFieldSet@@SAPAV1@PBVMTextFieldFactory@@ABVCStreamStore@@VTStreamId@@@Z
+35 Name=?NotifyDeletion@CTextFieldSet@@QAEXHH@Z
+36 Name=?NotifyFieldUpdate@CTextFieldSet@@QAEXHH@Z
+37 Name=?NotifyInsertion@CTextFieldSet@@QAEXHH@Z
+38 Name=?NumChars@TAlphabeticNumeral@@MBEHH@Z
+39 Name=?NumChars@TArabicNumeral@@MBEHH@Z
+40 Name=?NumChars@TRomanNumeral@@MBEHH@Z
+41 Name=?NumberStyle@CPageFieldBase@@QBE?AW4TNumberStyle@1@XZ
+42 Name=?PasteComponentsL@CTextFieldSet@@QAEXABVCStreamStore@@H@Z
+43 Name=?PasteFromStoreL@CTextFieldSet@@QAEXABVCStreamStore@@VTStreamId@@HH@Z
+44 Name=?PasteFromStreamL@CTextFieldSet@@QAEXAAVRReadStream@@HH@Z
+45 Name=?RemoveField@CTextFieldSet@@QAEHH@Z
+46 Name=?Reset@CTextFieldSet@@QAEXXZ
+47 Name=?RestoreFieldsL@CTextFieldSet@@QAEXABVCStreamStore@@@Z
+48 Name=?RestoreL@CTextField@@UAEXABVCStreamStore@@VTStreamId@@@Z
+49 Name=?RestoreL@CTextFieldSet@@QAEXABVCStreamStore@@VTStreamId@@@Z
+50 Name=?RollbackPaste@CTextFieldSet@@QAEXXZ
+51 Name=?SetFieldFactory@CTextFieldSet@@QAEXPAVMTextFieldFactory@@@Z
+52 Name=?SetFormat@CDateTimeField@@QAEXABVTDesC8@@@Z
+53 Name=?StoreFieldsL@CTextFieldSet@@QBEXAAVCStreamStore@@AAVCStoreMap@@@Z
+54 Name=?StoreL@CFileNameField@@UBE?AVTStreamId@@AAVCStreamStore@@@Z
+55 Name=?StoreL@CTextField@@UBE?AVTStreamId@@AAVCStreamStore@@@Z
+56 Name=?StoreL@CTextFieldSet@@QBE?AVTStreamId@@AAVCStreamStore@@@Z
+57 Name=?TextField@CTextFieldSet@@QBEPBVCTextField@@H@Z
+58 Name=?Type@CDateTimeField@@UBE?AVTUid@@XZ
+59 Name=?Type@CFileNameField@@UBE?AVTUid@@XZ
+60 Name=?Type@CNumPagesField@@UBE?AVTUid@@XZ
+61 Name=?Type@CPageNumField@@UBE?AVTUid@@XZ
+62 Name=?Value@CDateTimeField@@UAEHAAVTPtr8@@@Z
+63 Name=?Value@CFileNameField@@UAEHAAVTPtr8@@@Z
+64 Name=?Value@CNumPagesField@@UAEHAAVTPtr8@@@Z
+65 Name=?Value@CPageNumField@@UAEHAAVTPtr8@@@Z
+66 Name=??0TFieldMapExternalizer@@AAE@ABVCStoreMap@@@Z
+67 Name=?ExternalizeL@TFieldMapExternalizer@@EBEXABVTStreamRef@@AAVRWriteStream@@@Z
+68 Name=?__DbgTestInvariant@CTextFieldSet@@QBEXXZ
+;------------------EOF------------------

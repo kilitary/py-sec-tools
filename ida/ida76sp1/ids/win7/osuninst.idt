@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=osuninst.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=ExecuteUninstall Pascal=0
+2 Name=GetUninstallImageSize Pascal=0
+3 Name=IsUninstallImageValid Pascal=8
+4 Name=ProvideUiAlerts Pascal=4
+5 Name=RemoveUninstallImage Pascal=0
+;------------------EOF------------------

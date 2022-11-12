@@ -1,0 +1,17 @@
+DECLARATION Nokia 9110 Geos 3.0 library eci.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+5 Name=ecidll Args=4 Drops=0
+;---------------------------------------
+1 Name=EciGetImei Args=4 \
+	Comment=word cdecl EciGetImei( byte *imei) in internal/resp/eci.goh
+2 Name=EciStartVoiceCall Args=4 \
+	Comment=word cdecl EciStartVoiceCall( TCHAR *number) in internal/resp/eci.goh
+3 Name=EciGetCellId Args=4 \
+	Comment=word cdecl EciGetCellId( word *cellId ) in internal/resp/eci.goh
+4 Name=EciShowTextStart Args=12 \
+	Comment=byte cdecl EciShowTextStart( byte type, byte time, byte format, byte font, TCHAR *message ) in internal/resp/eci.goh
+5 Name=EciShowTextStop \
+	Comment=byte cdecl EciShowTextStop() in internal/resp/eci.goh
+;------------------EOF------------------

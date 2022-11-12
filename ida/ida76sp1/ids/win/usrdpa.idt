@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=usrdpa.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=CloseR0Driver Pascal=0
+2 Name=DPGetVariable Pascal=8
+3 Name=DPSetVariable Pascal=8
+4 Name=DeInitialize Pascal=0
+5 Name=Initialize Pascal=0
+;------------------EOF------------------

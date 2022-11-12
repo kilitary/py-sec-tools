@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MEMORYMANAGER Pascal=0
+;---------------------------------------
+1 Name=_ZN21RMemoryManagerSession12SetBusyStateEi
+2 Name=_ZN21RMemoryManagerSession13StopSchedulerEv
+3 Name=_ZN21RMemoryManagerSession18ReleaseRamForAllocEi
+4 Name=_ZN21RMemoryManagerSession22HandleLosingForegroundEv
+5 Name=_ZN21RMemoryManagerSession7ConnectEv
+6 Name=_ZN22CMemoryManagerNotifier11HandleErrorEi
+7 Name=_ZN22CMemoryManagerNotifier12DelayRequeueEv
+8 Name=_ZN22CMemoryManagerNotifier4NewLER22MMemoryManagerObserver
+9 Name=_ZN22CMemoryManagerNotifier5QueueEv
+10 Name=_ZN22CMemoryManagerNotifierD0Ev
+11 Name=_ZN22CMemoryManagerNotifierD1Ev
+12 Name=_ZN22CMemoryManagerNotifierD2Ev
+13 Name=_ZN26RMemoryManagerDebugSession14ActivateServerEv
+14 Name=_ZN26RMemoryManagerDebugSession16DeActivateServerEv
+15 Name=_ZN26RMemoryManagerDebugSession7ConnectEv
+16 Name=_ZN33MemoryManagerServerStartFunctions23MemoryManagerThreadNameEv
+17 Name=_ZN33MemoryManagerServerStartFunctions24StartMemoryManagerServerEv
+18 Name=_ZN21RMemoryManagerSession18CleanupOrphanFilesEv
+;------------------EOF------------------

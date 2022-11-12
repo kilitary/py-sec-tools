@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CAMERASERVER Pascal=0
+;---------------------------------------
+1 Name=__RCameraServ
+2 Name=GetImage__RCameraServRTRequestStatusRCFbsBitmap
+3 Name=ReservedFunction__RCameraServ
+4 Name=ReservedFunction__RCameraServ
+5 Name=ReservedFunction__RCameraServ
+6 Name=ReservedFunction__RCameraServ
+7 Name=SetImageQuality__RCameraServQRCameraServTImageQuality
+8 Name=SetLightingConditions__RCameraServQRCameraServTLighting
+9 Name=ThreadFunction__CCameraServServerGTSignal
+10 Name=TurnCameraOff__RCameraServ
+11 Name=TurnCameraOn__RCameraServRTRequestStatus
+12 Name=Version__CRCameraServ
+13 Name=_._RCameraServ
+14 Name=Connect__RCameraServ
+;------------------EOF------------------

@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ENOTIFBC Pascal=0
+;---------------------------------------
+1 Name=NewL__CEmailNotifBioControlRMMsgBioControlObserverPCMsvSessionlTMsgBioModeRCtTBuf1i256
+;------------------EOF------------------

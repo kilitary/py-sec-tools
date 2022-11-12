@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iashlpr.dll Args=0 Drops=16
+;---------------------------------------
+1 Name=AllocateAttributes Pascal=8
+2 Name=ConfigureIas Pascal=0
+3 Name=DllCanUnloadNow Pascal=0
+4 Name=DllGetClassObject Pascal=12
+5 Name=DllRegisterServer Pascal=0
+6 Name=DllUnregisterServer Pascal=0
+7 Name=DoRequest Pascal=36
+8 Name=DoRequestAsync Pascal=28
+9 Name=FreeAttributes Pascal=8
+10 Name=GetOptionIas Pascal=8
+11 Name=InitializeIas Pascal=4
+12 Name=MemAllocIas Pascal=4
+13 Name=MemFreeIas Pascal=4
+14 Name=MemReallocIas Pascal=8
+15 Name=SetOptionIas Pascal=20
+16 Name=ShutdownIas Pascal=0
+;------------------EOF------------------

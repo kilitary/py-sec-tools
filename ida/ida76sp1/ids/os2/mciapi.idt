@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MCIAPI.dll Pascal=0
+;---------------------------------------
+2 Name=mciRxSendString
+3 Name=mciRxGetErrorString
+4 Name=mciRxGetDeviceID
+5 Name=mciRxInit
+6 Name=mciRxExit
+10 Name=mciPlayFile
+11 Name=mciPlayResource
+12 Name=mciRecordAudioFile
+13 Name=MCI16PLAYFILE
+14 Name=MCI16PLAYRESOURCE
+15 Name=MCI16RECORDAUDIOFILE
+16 Name=mmioRemoveElement
+17 Name=MMIO16REMOVEELEMENT
+18 Name=mmioFindElement
+19 Name=MMIO16FINDELEMENT
+20 Name=MCI32PLAYFILE
+21 Name=MCI32PLAYRESOURCE
+22 Name=MCI32RECORDAUDIOFILE
+23 Name=MMIO32REMOVEELEMENT
+24 Name=MMIO32FINDELEMENT
+;------------------EOF------------------

@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MSG.dll Pascal=0
+;---------------------------------------
+1 Name=DosPutMessage
+2 Name=DosTrueGetMessage
+3 Name=DosInsMessage
+4 Name=DosInsertMessage
+5 Name=DosPutMessage
+6 Name=DosTrueGetMessage
+7 Name=DosIQueryMessageCP
+8 Name=DosIQueryMessageCP
+9 Name=DosCloseMessageFile
+;------------------EOF------------------

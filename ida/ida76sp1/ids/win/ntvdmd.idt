@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ntvdmd.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=xxxDbgBPInt Pascal=0
+2 Name=xxxDbgDispatch Pascal=0
+3 Name=xxxDbgDosAppStart Pascal=8
+4 Name=xxxDbgFault Pascal=4
+5 Name=xxxDbgInit Pascal=12
+6 Name=xxxDbgIsDebuggee Pascal=0
+7 Name=xxxDbgNotifyDebugged Pascal=4
+8 Name=xxxDbgNotifyNewTask Pascal=8
+9 Name=xxxDbgNotifyRemoteThreadAddress Pascal=8
+10 Name=xxxDbgSegmentNotice Pascal=28
+11 Name=xxxDbgTraceEvent Pascal=16
+12 Name=xxxDbgTraceInt Pascal=0
+;------------------EOF------------------

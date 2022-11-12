@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mouse.drv Args=0 Drops=5
+;---------------------------------------
+1 Name=INQUIRE Pascal=4
+2 Name=ENABLE Pascal=4
+3 Name=DISABLE Pascal=0
+4 Name=MOUSEGETINTVECT Pascal=0
+5 Name=WEP Pascal=2
+;------------------EOF------------------

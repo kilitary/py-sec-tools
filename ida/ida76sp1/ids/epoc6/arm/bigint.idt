@@ -1,0 +1,69 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BIGINT Pascal=0
+;---------------------------------------
+1 Name=__lt__C8CIntegeri
+2 Name=BufferLC__C8CInteger
+3 Name=Bytes__C8CInteger
+4 Name=ExpL__8CIntegerRC8CInteger
+5 Name=GCDL__C8CIntegerRC8CIntegerR8CInteger
+6 Name=IntL__C8CInteger
+7 Name=IsBitSet__C8CIntegerUi
+8 Name=IsPrimeL__C8CIntegerUi
+9 Name=MaskBits__8CIntegerUi
+10 Name=ModExp2MontL__C20CMontgomeryStructureR8CIntegerRC8CIntegerN32
+11 Name=ModExp2MontL__C20CMontgomeryStructureRC8CIntegerN31
+12 Name=ModExpL__C8CIntegerRC8CIntegerT1
+13 Name=ModExpMontL__C20CMontgomeryStructureRC8CIntegerN21
+14 Name=ModExpMontL__C20CMontgomeryStructureRC8CIntegerT1
+15 Name=ModInvL__8CIntegerRC8CInteger
+16 Name=ModMulL__C8CIntegerRC8CIntegerT1
+17 Name=ModMulMontgomeryL__C20CMontgomeryStructureRC8CIntegerN21
+18 Name=ModMulMontgomeryL__C20CMontgomeryStructureRC8CIntegerT1
+19 Name=NewLC__20CMontgomeryStructureRC8CInteger
+20 Name=NewLC__8CIntegerRC6TPtrC8
+21 Name=NewLC__8CIntegerRC8CInteger
+22 Name=NewLC__8CIntegeri
+23 Name=NewL__20CMontgomeryStructureRC8CInteger
+24 Name=NewL__8CIntegerRC6TPtrC8
+25 Name=NewL__8CIntegerRC8CInteger
+26 Name=NewL__8CIntegeri
+27 Name=NewPrimeLC__8CIntegeriiR8CIntegerT3Ui
+28 Name=NewPrimeLC__8CIntegeriiUi
+29 Name=NewPrimeL__8CIntegeriiR8CIntegerT3Ui
+30 Name=NewPrimeL__8CIntegeriiUi
+31 Name=NewRandomLC__8CIntegeriii
+32 Name=NewRandomL__8CIntegeriii
+33 Name=ReciprocalL__8CIntegerRC8CInteger
+34 Name=SetBit__8CIntegerUi
+35 Name=SquareL__8CInteger
+36 Name=Ucmp__C8CIntegerRC8CInteger
+37 Name=_._20CMontgomeryStructure
+38 Name=_._8CInteger
+39 Name=__adv__8CIntegerRC8CInteger
+40 Name=__adv__8CIntegeri
+41 Name=__als__8CIntegerUi
+42 Name=__amd__8CIntegerRC8CInteger
+43 Name=__amd__8CIntegeri
+44 Name=__ami__8CIntegerRC8CInteger
+45 Name=__ami__8CIntegeri
+46 Name=__aml__8CIntegerRC8CInteger
+47 Name=__aml__8CIntegeri
+48 Name=__apl__8CIntegerRC8CInteger
+49 Name=__apl__8CIntegeri
+50 Name=__ars__8CIntegerUi
+51 Name=__as__8CIntegerRC8CInteger
+52 Name=__as__8CIntegeri
+53 Name=__eq__C8CIntegerRC8CInteger
+54 Name=__eq__C8CIntegeri
+55 Name=__ge__C8CIntegerRC8CInteger
+56 Name=__gt__C8CIntegerRC8CInteger
+57 Name=__le__C8CIntegerRC8CInteger
+58 Name=__lt__C8CIntegerRC8CInteger
+59 Name=Bits__C8CInteger
+60 Name=__ge__C8CIntegeri
+61 Name=__gt__C8CIntegeri
+62 Name=__le__C8CIntegeri
+;------------------EOF------------------

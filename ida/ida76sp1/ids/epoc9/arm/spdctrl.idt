@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SPDCTRL Pascal=0
+;---------------------------------------
+1 Name=_ZN13CSpdiaControl10DrawShadowER9CWindowGcRK5TSize
+2 Name=_ZN13CSpdiaControl10VoiceMailLER6TDes16
+3 Name=_ZN13CSpdiaControl11DialNumberLEiR6TDes16P14CEikStatusPane
+4 Name=_ZN13CSpdiaControl13AssignNumberLEiP14CEikStatusPaneP11CCoeControli
+5 Name=_ZN13CSpdiaControl13ContactTitleLEli
+6 Name=_ZN13CSpdiaControl15CreateGridDataLEP8CAknGridi
+7 Name=_ZN13CSpdiaControl15DeleteIconArrayEv
+8 Name=_ZN13CSpdiaControl15ReloadIconArrayEv
+9 Name=_ZN13CSpdiaControl16AssignDialIndexLEi
+10 Name=_ZN13CSpdiaControl16RemoveDialIndexLEii
+11 Name=_ZN13CSpdiaControl17AssignDialNumberLEiP14CEikStatusPane
+12 Name=_ZN13CSpdiaControl24ApplyCellSpdiaPaneStyleLER8CAknGridR5TSize
+13 Name=_ZN13CSpdiaControl4NewLER17CPbkContactEngine
+14 Name=_ZN13CSpdiaControl4NewLEv
+15 Name=_ZN13CSpdiaControl6CancelEv
+16 Name=_ZN13CSpdiaControl9ExecuteLDEli
+17 Name=_ZN13CSpdiaControl9SetLayoutERK5TRect
+18 Name=_ZN13CSpdiaControlD0Ev
+19 Name=_ZN13CSpdiaControlD1Ev
+20 Name=_ZN13CSpdiaControlD2Ev
+21 Name=_ZNK13CSpdiaControl10NumberTypeEi
+22 Name=_ZNK13CSpdiaControl10ThumbIndexEi
+23 Name=_ZNK13CSpdiaControl11PhoneNumberEi
+24 Name=_ZNK13CSpdiaControl12SpdIconIndexEi
+25 Name=_ZNK13CSpdiaControl13VMBoxPositionEv
+26 Name=_ZNK13CSpdiaControl15PhoneDialNumberEi
+27 Name=_ZNK13CSpdiaControl4SizeEv
+28 Name=_ZNK13CSpdiaControl5IndexEi
+29 Name=_ZNK13CSpdiaControl6NumberEi
+30 Name=_ZNK13CSpdiaControl9ContactIdEi
+31 Name=_ZNK13CSpdiaControl9IconArrayEv
+32 Name=_ZNK13CSpdiaControl9IconIndexEi
+33 Name=_ZNK13CSpdiaControl9PbkEngineEv
+34 Name=_ZTI10CSpdiaGrid
+35 Name=_ZTI13CSpdiaControl
+36 Name=_ZTI13CSpdiaGridDlg
+37 Name=_ZTV10CSpdiaGrid
+38 Name=_ZTV13CSpdiaControl
+39 Name=_ZTV13CSpdiaGridDlg
+40 Name=_ZThn52_N13CSpdiaControlD0Ev
+41 Name=_ZThn52_N13CSpdiaControlD1Ev
+42 Name=_ZN13CSpdiaControl13VoiceMailTypeEv
+43 Name=_ZN13CSpdiaControl19GetSpdCtrlLastErrorEv
+;------------------EOF------------------

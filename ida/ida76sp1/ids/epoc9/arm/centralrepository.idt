@@ -1,0 +1,57 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CENTRALREPOSITORY Pascal=0
+;---------------------------------------
+1 Name=_ZN11CRepository12NotifyCancelEm
+2 Name=_ZN11CRepository12NotifyCancelEmm
+3 Name=_ZN11CRepository13NotifyRequestEmR14TRequestStatus
+4 Name=_ZN11CRepository13NotifyRequestEmmR14TRequestStatus
+5 Name=_ZN11CRepository15NotifyCancelAllEv
+6 Name=_ZN11CRepository3GetEmR5TDes8
+7 Name=_ZN11CRepository3GetEmR6TDes16
+8 Name=_ZN11CRepository3GetEmRd
+9 Name=_ZN11CRepository3GetEmRi
+10 Name=_ZN11CRepository3SetEmRK6TDesC8
+11 Name=_ZN11CRepository3SetEmRK7TDesC16
+12 Name=_ZN11CRepository3SetEmRKd
+13 Name=_ZN11CRepository3SetEmi
+14 Name=_ZN11CRepository4NewLE4TUid
+15 Name=_ZN11CRepository5FindLEmmR6RArrayImE
+16 Name=_ZN11CRepository5NewLCE4TUid
+17 Name=_ZN11CRepository5ResetEm
+18 Name=_ZN11CRepository5ResetEv
+19 Name=_ZN11CRepository6CreateEmRK6TDesC8
+20 Name=_ZN11CRepository6CreateEmRK7TDesC16
+21 Name=_ZN11CRepository6CreateEmRKd
+22 Name=_ZN11CRepository6CreateEmi
+23 Name=_ZN11CRepository6DeleteEm
+24 Name=_ZN11CRepository7FindEqLEmmRK6TDesC8R6RArrayImE
+25 Name=_ZN11CRepository7FindEqLEmmRK7TDesC16R6RArrayImE
+26 Name=_ZN11CRepository7FindEqLEmmRKdR6RArrayImE
+27 Name=_ZN11CRepository7FindEqLEmmiR6RArrayImE
+28 Name=_ZN11CRepository8FindNeqLEmmRK6TDesC8R6RArrayImE
+29 Name=_ZN11CRepository8FindNeqLEmmRK7TDesC16R6RArrayImE
+30 Name=_ZN11CRepository8FindNeqLEmmRKdR6RArrayImE
+31 Name=_ZN11CRepository8FindNeqLEmmiR6RArrayImE
+32 Name=_ZN11CRepositoryD0Ev
+33 Name=_ZN11CRepositoryD1Ev
+34 Name=_ZN11CRepositoryD2Ev
+35 Name=_ZTI11CRepository
+36 Name=_ZTV11CRepository
+39 Name=_ZN11CRepository17CommitTransactionERm
+40 Name=_ZN11CRepository16StartTransactionENS_16TTransactionModeE
+73 Name=_ZN11CRepository17CancelTransactionEv
+75 Name=_ZN11CRepository4MoveEmmmRm
+76 Name=_ZN11CRepository15FailTransactionEv
+77 Name=_ZN11CRepository16TransactionStateEv
+78 Name=_ZN11CRepository27CleanupFailTransactionPushLEv
+79 Name=_ZN11CRepository29CleanupCancelTransactionPushLEv
+80 Name=_ZN11CRepository16StartTransactionENS_16TTransactionModeER14TRequestStatus
+81 Name=_ZN11CRepository17CommitTransactionER5TDes8R14TRequestStatus
+82 Name=_ZN11CRepository6DeleteEmmRm
+83 Name=_ZN11CRepository3GetEmR5TDes8Ri
+84 Name=_ZN11CRepository3GetEmR6TDes16Ri
+85 Name=_ZN11CRepository16SetGetParametersERK8TIpcArgs
+;------------------EOF------------------

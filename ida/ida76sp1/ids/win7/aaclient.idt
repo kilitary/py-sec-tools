@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=aaclient.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=LoadClientAdapter Pascal=4
+4 Name=g_fnStartTransport
+5 Name=OpenKeyReader Pascal=8
+6 Name=OpenKeyReaderWriter Pascal=8
+;------------------EOF------------------

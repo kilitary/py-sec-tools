@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FTPSESS Pascal=0
+;---------------------------------------
+1 Name=_ZN11CFTPSession10GetVersionEv
+2 Name=_ZN11CFTPSession4NewLEP19MFtpSessionNotifier
+3 Name=_ZTI11CFTPSession
+4 Name=_ZTV11CFTPSession
+;------------------EOF------------------

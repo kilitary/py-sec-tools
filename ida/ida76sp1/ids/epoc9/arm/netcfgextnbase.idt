@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NETCFGEXTNBASE Pascal=0
+;---------------------------------------
+1 Name=_ZN27CNetworkConfigExtensionBase10ConstructLEv
+2 Name=_ZN27CNetworkConfigExtensionBase10DeregisterEi
+3 Name=_ZN27CNetworkConfigExtensionBase11AsyncDeleteEv
+4 Name=_ZN27CNetworkConfigExtensionBase11LinkLayerUpEv
+5 Name=_ZN27CNetworkConfigExtensionBase13CancelControlEv
+6 Name=_ZN27CNetworkConfigExtensionBase13LinkLayerDownEv
+7 Name=_ZN27CNetworkConfigExtensionBase17ConfigureNetworkLEv
+8 Name=_ZN27CNetworkConfigExtensionBase17SendIoctlMessageLERK9RMessage2
+9 Name=_ZN27CNetworkConfigExtensionBase4RunLEv
+10 Name=_ZN27CNetworkConfigExtensionBase8DoCancelEv
+11 Name=_ZN27CNetworkConfigExtensionBase8RunErrorEi
+12 Name=_ZN27CNetworkConfigExtensionBaseD0Ev
+13 Name=_ZN27CNetworkConfigExtensionBaseD1Ev
+14 Name=_ZN27CNetworkConfigExtensionBaseD2Ev
+15 Name=_ZTI27CNetworkConfigExtensionBase
+16 Name=_ZTV27CNetworkConfigExtensionBase
+17 Name=_ZN27CNetworkConfigExtensionBase17EventNotificationE24TNetworkAdaptorEventTypejRK6TDesC8Pv
+;------------------EOF------------------

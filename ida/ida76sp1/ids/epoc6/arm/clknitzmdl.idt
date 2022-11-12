@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CLKNITZMDL Pascal=0
+;---------------------------------------
+1 Name=GetNitzSetting__CRClkNitzMdlServerRi
+2 Name=Connect__RClkNitzMdlServer
+3 Name=GetCurrentNITZInfo__RClkNitzMdlServerRQRMobilePhoneTMobilePhoneNITZ
+4 Name=ChangeNitzSetting__RClkNitzMdlServeri
+5 Name=NotifyOnChangeCancel__RClkNitzMdlServer
+6 Name=NotifyOnChange__RClkNitzMdlServerRTRequestStatus
+7 Name=Version__CRClkNitzMdlServer
+;------------------EOF------------------

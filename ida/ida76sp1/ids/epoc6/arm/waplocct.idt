@@ -1,0 +1,61 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WAPLOCCT Pascal=0
+;---------------------------------------
+1 Name=_._25CLocalContextVariableList
+2 Name=BeginTransactionL__13CLocalContext
+3 Name=Clear__20CContextHistoryStack
+4 Name=Clear__20CContextVariableList
+5 Name=CombineL__20CContextVariableListP20CContextVariableList
+6 Name=ConfigVariableList__13CLocalContext
+7 Name=CopyL__20CContextHistoryStack
+8 Name=CopyL__20CContextVariableList
+9 Name=CopyL__25CLocalContextVariableList
+10 Name=CurrentEntry__20CContextHistoryStack
+11 Name=DeleteItem__13CLocalContextRC7TDesC16
+12 Name=DeleteItem__13CLocalContexti
+13 Name=E32Dll__F10TDllReason
+14 Name=EndTransaction__13CLocalContexti
+15 Name=ExternalizeL__C16CContextVariableR12RWriteStream
+16 Name=ExternalizeL__C20CContextVariableListR12RWriteStream
+17 Name=GetVariableLength__20CContextVariableListRC7TDesC16
+18 Name=GetVariable__20CContextVariableListRC7TDesC16
+19 Name=HistoryStack__13CLocalContext
+20 Name=InternalizeL__20CContextVariableListR11RReadStream
+21 Name=Item__13CLocalContextRC7TDesC16
+22 Name=Item__13CLocalContexti
+23 Name=Name__16CContextVariable
+24 Name=NewContext__13CLocalContext
+25 Name=NewL__13CLocalContext
+26 Name=NewL__16CContextVariableR11RReadStream
+27 Name=NewL__16CContextVariableRC7TDesC16T1
+28 Name=NewL__20CContextHistoryStack
+29 Name=NewL__20CContextVariableList
+30 Name=NewL__20CContextVariableListR11RReadStream
+31 Name=NewL__25CLocalContextVariableList
+32 Name=ParseAttributeLC__13CLocalContextRC7TDesC1610TUrlEscape
+33 Name=PeekPreviousEntry__20CContextHistoryStack
+34 Name=Pop__20CContextHistoryStack
+35 Name=PushL__20CContextHistoryStackP4CUrl
+36 Name=PushL__20CContextHistoryStackRC7TDesC16
+37 Name=PutItemL__13CLocalContextP5CBase
+38 Name=PutItemL__13CLocalContextP5CBaseRC7TDesC16
+39 Name=SetVarElementL__25CLocalContextVariableListRC7TDesC16T1
+40 Name=SetVariableL__20CContextVariableListRC7TDesC16T1
+41 Name=ValueLength__16CContextVariable
+42 Name=Value__16CContextVariable
+43 Name=VariableList__13CLocalContext
+44 Name=_._13CLocalContext
+45 Name=_._16CContextVariable
+46 Name=_._20CContextHistoryStack
+47 Name=_._20CContextVariableList
+48 Name=ApplyVarElementsL__25CLocalContextVariableList
+49 Name=CContextHistoryStack_Reserved1__20CContextHistoryStack
+50 Name=CContextVariableList_Reserved1__20CContextVariableList
+51 Name=CContextVariable_Reserved1__16CContextVariable
+52 Name=CLocalContextItemList_Reserved1__21CLocalContextItemList
+53 Name=CLocalContextVariableList_Reserved1__25CLocalContextVariableList
+54 Name=CLocalContext_Reserved1__13CLocalContext
+;------------------EOF------------------

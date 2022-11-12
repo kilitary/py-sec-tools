@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LISTENERDOPPLEREFFECT Pascal=0
+;---------------------------------------
+1 Name=_ZN16CListenerDoppler4NewLEP21CCustomCommandUtility
+2 Name=_ZN16CListenerDoppler4NewLER12CMMFDevSound
+3 Name=_ZN16CListenerDoppler4NewLER16MCustomInterface
+4 Name=_ZN16CListenerDoppler4NewLER20CMdaAudioInputStream
+5 Name=_ZN16CListenerDoppler4NewLER20CMdaAudioToneUtility
+6 Name=_ZN16CListenerDoppler4NewLER21CMdaAudioOutputStream
+7 Name=_ZN16CListenerDoppler4NewLER22CMdaAudioPlayerUtility
+8 Name=_ZN16CListenerDoppler4NewLER23CMdaAudioConvertUtility
+9 Name=_ZN16CListenerDoppler4NewLER24CMdaAudioRecorderUtilityi
+10 Name=_ZN16CListenerDopplerC2Ev
+11 Name=_ZN16CListenerDopplerD0Ev
+12 Name=_ZN16CListenerDopplerD1Ev
+13 Name=_ZN16CListenerDopplerD2Ev
+14 Name=_ZNK16CListenerDoppler3UidEv
+15 Name=_ZTI16CListenerDoppler
+16 Name=_ZTV16CListenerDoppler
+;------------------EOF------------------

@@ -1,0 +1,46 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PRINT Pascal=0
+;---------------------------------------
+1 Name=__16TPrintParameters
+2 Name=CharFormat__C13CHeaderFooter
+3 Name=CreatePrinterDeviceL__11CPrintSetupG4TUidR3RFs
+4 Name=CreatePrinterDeviceL__11CPrintSetupi
+5 Name=CreatePrinterDriverUIL__11CPrintSetup
+6 Name=CreateTextL__13CHeaderFooter
+7 Name=EndPrint__11CPrintSetup
+8 Name=ExternalizeL__C11CPrintSetupR12RWriteStream
+9 Name=ExternalizeL__C12TPageMarginsR12RWriteStream
+10 Name=ExternalizeL__C13CHeaderFooterR12RWriteStream
+11 Name=FreeModelList__11CPrintSetup
+12 Name=InternalizeL__11CPrintSetupR11RReadStream
+13 Name=InternalizeL__12TPageMarginsR11RReadStream
+14 Name=InternalizeL__13CHeaderFooterR11RReadStream
+15 Name=ModelNameListL__11CPrintSetupR3RFs
+16 Name=NewL__11CPrintSetup
+17 Name=NewL__13CHeaderFooter
+18 Name=ParaFormat__C13CHeaderFooter
+19 Name=PrinterDevice__C11CPrintSetup
+20 Name=RestoreComponentsL__11CPrintSetupRC12CStreamStorePC18MFieldFileNameInfoPC18MFieldNumPagesInfoP15MPictureFactory
+21 Name=RestoreComponentsL__13CHeaderFooterRC12CStreamStoreP15MPictureFactory
+22 Name=RestoreL__11CPrintSetupRC12CStreamStoreG9TStreamIdPC18MFieldFileNameInfoPC18MFieldNumPagesInfoP15MPictureFactory
+23 Name=RestoreL__13CHeaderFooterRC12CStreamStoreG9TStreamIdP15MPictureFactory
+24 Name=SetCharFormat__13CHeaderFooterP16CCharFormatLayer
+25 Name=SetFileNameInfo__13CHeaderFooterRC18MFieldFileNameInfo
+26 Name=SetFirstPageToPrintTo__13CHeaderFooteri
+27 Name=SetNumPagesInfo__13CHeaderFooterRC18MFieldNumPagesInfo
+28 Name=SetParaFormat__13CHeaderFooterP16CParaFormatLayer
+29 Name=SetText__13CHeaderFooterP9CRichText
+30 Name=StartPreviewPrintL__11CPrintSetupRC16TPrintParametersR18MPageRegionPrinterP21MPrintProcessObserverR15CGraphicsDeviceRC5TRectT5i
+31 Name=StartPrintL__11CPrintSetupRC16TPrintParametersR18MPageRegionPrinterP12CPrinterPortP21MPrintProcessObserver
+32 Name=StoreComponentsL__C11CPrintSetupR12CStreamStoreR9CStoreMap
+33 Name=StoreComponentsL__C13CHeaderFooterR12CStreamStoreR9CStoreMap
+34 Name=StoreL__C11CPrintSetupR12CStreamStore
+35 Name=StoreL__C13CHeaderFooterR12CStreamStore
+36 Name=Text__C13CHeaderFooter
+37 Name=_._11CPrintSetup
+38 Name=_._13CHeaderFooter
+39 Name=AddPrinterDriverDirL__11CPrintSetupRC6TDesC8
+;------------------EOF------------------

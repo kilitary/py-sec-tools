@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PALETTE Pascal=0
+;---------------------------------------
+1 Name=_ZN14DynamicPalette12Color16arrayEv
+2 Name=_ZN14DynamicPalette14Color16inverseEv
+3 Name=_ZN14DynamicPalette15SetColor256UtilENS_6TIndexE
+4 Name=_ZN14DynamicPalette19DefaultColor256UtilEv
+;------------------EOF------------------

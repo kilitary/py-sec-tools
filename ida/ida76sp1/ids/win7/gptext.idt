@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=gptext.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=ProcessConnectivityPlatformPolicy Pascal=32
+2 Name=ProcessEQoSPolicy Pascal=32
+3 Name=ProcessPSCHEDPolicy Pascal=32
+4 Name=ProcessTCPIPPolicy Pascal=32
+5 Name=DllRegisterServer Pascal=0
+6 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

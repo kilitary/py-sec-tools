@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=APFILE Pascal=0
+;---------------------------------------
+1 Name=??0CApaScanningFileRecognizer@@IAE@AAVRFs@@PAVMApaAppStarter@@@Z
+2 Name=??1CApaAppLocatorProxy@@UAE@XZ
+3 Name=??1CApaScanningAppFinder@@UAE@XZ
+4 Name=??1CApaScanningFileRecognizer@@UAE@XZ
+5 Name=?ConstructL@CApaScanningFileRecognizer@@IAEXXZ
+6 Name=?DefaultAppInfoFileName@CApaScanningAppFinder@@UBE?AV?$TBuf@$0BAA@@@XZ
+7 Name=?FindAllAppsL@CApaScanningAppFinder@@UAEXXZ
+8 Name=?FindAppL@CApaScanningAppFinder@@UAE?AV?$TBuf@$0BAA@@@ABVTDesC8@@VTUid@@@Z
+9 Name=?GetAppCapabilityByUid@CApaAppLocatorProxy@@UAEHAAVTDes8@@VTUid@@@Z
+10 Name=?GetAppEntryByUid@CApaAppLocatorProxy@@UAEHAAVTApaAppEntry@@VTUid@@@Z
+11 Name=?NewL@CApaAppLocatorProxy@@SAPAV1@AAVRFs@@@Z
+12 Name=?NewL@CApaScanningAppFinder@@SAPAV1@ABVRFs@@@Z
+13 Name=?NewL@CApaScanningFileRecognizer@@SAPAV1@AAVRFs@@PAVMApaAppStarter@@@Z
+14 Name=?NewLC@CApaScanningAppFinder@@SAPAV1@ABVRFs@@@Z
+15 Name=?NextL@CApaScanningAppFinder@@UAEHAAVTApaAppEntry@@@Z
+16 Name=?RecognizerCount@CApaScanningFileRecognizer@@QAEHXZ
+17 Name=?RecognizerListLC@CApaScanningFileRecognizer@@QBEPAV?$CArrayFixFlat@VTRecognizer@CApaScanningFileRecognizer@@@@XZ
+18 Name=?ScanForRecognizersL@CApaScanningFileRecognizer@@QAEXXZ
+19 Name=?SetRecognizersFromList@CApaScanningFileRecognizer@@QAEXABV?$CArrayFixFlat@VTRecognizer@CApaScanningFileRecognizer@@@@@Z
+20 Name=?TempPath@CApaScanningAppFinder@@UBE?AV?$TBuf@$0BAA@@@XZ
+21 Name=?TempPath@Apfile@@SA?AVTPtrC8@@XZ
+22 Name=??ACApaScanningFileRecognizer@@QBE?AVTRecognizer@0@H@Z
+23 Name=?SetRecognizerL@CApaScanningFileRecognizer@@QAEXABVTRecognizer@1@@Z
+24 Name=?UpdateCounter@CApaScanningFileRecognizer@@QBEHXZ
+25 Name=??1CApaScanningControlFinder@@UAE@XZ
+26 Name=?DefaultAppInfoFileName@CApaScanningControlFinder@@UBE?AV?$TBuf@$0BAA@@@XZ
+27 Name=?FindAllAppsL@CApaScanningControlFinder@@UAEXXZ
+28 Name=?FindAppL@CApaScanningControlFinder@@UAE?AV?$TBuf@$0BAA@@@ABVTDesC8@@VTUid@@@Z
+29 Name=?NewL@CApaScanningControlFinder@@SAPAV1@ABVRFs@@@Z
+30 Name=?NewLC@CApaScanningControlFinder@@SAPAV1@ABVRFs@@@Z
+31 Name=?NextL@CApaScanningControlFinder@@UAEHAAVTApaAppEntry@@@Z
+32 Name=?TempPath@CApaScanningControlFinder@@UBE?AV?$TBuf@$0BAA@@@XZ
+;------------------EOF------------------

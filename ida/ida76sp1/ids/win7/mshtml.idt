@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mshtml.dll Args=0 Drops=20
+;---------------------------------------
+100 Name=CreatePrivacIEDatabase Pascal=4
+101 Name=CreateUserFilter Pascal=4
+102 Name=CreateWebFilterCollection Pascal=4
+103 Name=GetPrivacIEUrlExpression Pascal=8
+104 Name=CreatePrivacIEAdvisor Pascal=4
+105 Name=ClearPhishingFilterData Pascal=0
+106 Name=ConvertAndEscapePostData Pascal=12
+107 Name=CreateHTMLPropertyPage Pascal=8
+108 Name=DllCanUnloadNow Pascal=0
+109 Name=DllEnumClassObjects Pascal=12
+110 Name=DllGetClassObject Pascal=12
+111 Name=IEIsXMLNSRegistered Pascal=8
+112 Name=IERegisterXMLNS Pascal=24
+113 Name=MatchExactGetIDsOfNames Pascal=28
+114 Name=PrintHTML Pascal=16
+115 Name=RunHTMLApplication Pascal=16
+116 Name=ShowHTMLDialog Pascal=20
+117 Name=ShowHTMLDialogEx Pascal=24
+118 Name=ShowModalDialog Pascal=20
+119 Name=ShowModelessHTMLDialog Pascal=20
+;------------------EOF------------------

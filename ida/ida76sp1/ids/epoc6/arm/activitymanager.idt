@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ACTIVITYMANAGER Pascal=0
+;---------------------------------------
+1 Name=NewL__CUserActivityManageri
+2 Name=RunL__CUserActivityManager
+3 Name=SetInactivityTimeout__CUserActivityManagerGTTimeIntervalSeconds
+4 Name=Start__CUserActivityManagerGTTimeIntervalSecondsGTCallBackT2
+5 Name=_._CUserActivityManager
+6 Name=__CUserActivityManageri
+;------------------EOF------------------

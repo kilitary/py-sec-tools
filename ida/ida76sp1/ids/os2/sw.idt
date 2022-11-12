@@ -1,0 +1,68 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SW.dll Pascal=0
+;---------------------------------------
+1 Name=WinSecondaryWindow
+2 Name=WinLoadSecondaryWindow
+3 Name=WinProcessSecondaryWindow
+4 Name=WinCreateSecondaryWindow
+5 Name=WinSecondaryMessageBox
+6 Name=WinDismissSecondaryWindow
+7 Name=WinDestroySecondaryWindow
+8 Name=WinDefSecondaryWindowProc
+9 Name=WinQuerySecondaryFrame
+10 Name=WinQuerySecondaryDialog
+11 Name=WinDefaultSize
+12 Name=WinInsertDefaultSize
+13 Name=WinRegisterCircularSlider
+14 Name=WinRegisterGraphicButton
+15 Name=GraphicBtnProc
+16 Name=HhpCreateHeap
+17 Name=HhpIAllocMem
+18 Name=HhpFreeMem
+19 Name=HhpDestroyHeap
+20 Name=HhpAccessHeap
+21 Name=HhpReleaseHeap
+22 Name=HhpGetPID
+23 Name=HhpAllocBuffer
+24 Name=HhpFreeBuffer
+25 Name=HhpAccessBuffer
+26 Name=HptrFromICO
+27 Name=stripblanks
+28 Name=SWstrlen
+29 Name=SWstrchr
+30 Name=SWstrrchr
+31 Name=SWstrcpy
+32 Name=SWmemcpy
+33 Name=SWmemset
+34 Name=SWstrcat
+35 Name=SWstrcmp
+36 Name=isdbcs
+37 Name=nextpch
+38 Name=prevpch
+39 Name=SWstrcmpi
+40 Name=SWstrnicmp
+41 Name=SWstrncat_trunc
+42 Name=SWstrncat
+43 Name=SWstrncpy_trunc
+44 Name=SWstrncpy
+45 Name=SWstrstr
+46 Name=SWstrupr
+47 Name=xlatblank
+48 Name=SWstrncmp
+49 Name=SWstrpbrk
+50 Name=FsInitDriveData
+51 Name=FsQueryDriveData
+52 Name=WinQuerySecondaryHWND
+53 Name=WinQueryDefaultSize
+54 Name=SWstrstri
+55 Name=DBCS_splitpath
+56 Name=DBCSGenerateUniqueFile
+57 Name=WinSWAssocResModule
+58 Name=HhpTAllocMem
+59 Name=SWstrspn
+60 Name=WinReportMessage
+61 Name=WinRegisterSelectionSlider
+;------------------EOF------------------

@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WINSOCKM.dll Pascal=0
+;---------------------------------------
+1 Name=EnumProtocolsW
+2 Name=WSAIoctl
+3 Name=WsControl
+4 Name=__WSAFDIsSet
+5 Name=accept
+6 Name=bind
+7 Name=closesocket
+8 Name=connect
+9 Name=gethostbyaddr
+10 Name=gethostbyname
+11 Name=gethostname
+12 Name=getpeername
+13 Name=getsockname
+14 Name=getsockopt
+15 Name=htonl
+16 Name=htons
+17 Name=inet_addr
+18 Name=inet_ntoa
+19 Name=ioctlsocket
+20 Name=listen
+21 Name=ntohl
+22 Name=ntohs
+23 Name=recv
+24 Name=recvfrom
+25 Name=select
+26 Name=send
+27 Name=sendto
+28 Name=setsockopt
+29 Name=shutdown
+30 Name=socket
+;------------------EOF------------------

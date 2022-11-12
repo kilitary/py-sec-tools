@@ -1,0 +1,62 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WAPMSGCLI Pascal=0
+;---------------------------------------
+1 Name=_ZN16CWapMessageUtils18GetLocalAddressesLER6RArrayIN3Wap12TAddressInfoEE
+2 Name=_ZN21CWapBoundCLWSPService10ConstructLEv
+3 Name=_ZN21CWapBoundCLWSPService4NewLERK4TUid
+4 Name=_ZN21CWapBoundCLWSPService4NewLEv
+5 Name=_ZTV28CWapFullySpecDatagramService
+6 Name=_ZN21CWapBoundCLWSPServiceC2Ev
+7 Name=_ZN21CWapBoundCLWSPServiceD0Ev
+8 Name=_ZN21CWapBoundCLWSPServiceD1Ev
+9 Name=_ZN21CWapBoundCLWSPServiceD2Ev
+10 Name=_ZN22CWapBoundCLPushService10ConstructLEv
+11 Name=_ZN22CWapBoundCLPushService4NewLERK4TUid
+12 Name=_ZN22CWapBoundCLPushService4NewLEv
+13 Name=_ZTV26CWapFullySpecCLPushService
+14 Name=_ZN22CWapBoundCLPushServiceC2Ev
+15 Name=_ZN22CWapBoundCLPushServiceD0Ev
+16 Name=_ZN22CWapBoundCLPushServiceD1Ev
+17 Name=_ZN22CWapBoundCLPushServiceD2Ev
+18 Name=_ZN24CWapBoundDatagramService10ConstructLEv
+19 Name=_ZN24CWapBoundDatagramService4NewLERK4TUid
+20 Name=_ZN24CWapBoundDatagramService4NewLEv
+21 Name=_ZTV25CWapFullySpecCLWSPService
+22 Name=_ZN24CWapBoundDatagramServiceC2Ev
+23 Name=_ZN24CWapBoundDatagramServiceD0Ev
+24 Name=_ZN24CWapBoundDatagramServiceD1Ev
+25 Name=_ZN24CWapBoundDatagramServiceD2Ev
+26 Name=_ZN25CWapFullySpecCLWSPService10ConstructLEv
+27 Name=_ZN25CWapFullySpecCLWSPService4NewLERK4TUid
+28 Name=_ZN25CWapFullySpecCLWSPService4NewLEv
+29 Name=_ZTV24CWapBoundDatagramService
+30 Name=_ZN25CWapFullySpecCLWSPServiceC2Ev
+31 Name=_ZN25CWapFullySpecCLWSPServiceD0Ev
+32 Name=_ZN25CWapFullySpecCLWSPServiceD1Ev
+33 Name=_ZN25CWapFullySpecCLWSPServiceD2Ev
+34 Name=_ZN26CWapFullySpecCLPushService10ConstructLEv
+35 Name=_ZN26CWapFullySpecCLPushService4NewLERK4TUid
+36 Name=_ZN26CWapFullySpecCLPushService4NewLEv
+37 Name=_ZTV22CWapBoundCLPushService
+38 Name=_ZN26CWapFullySpecCLPushServiceC2Ev
+39 Name=_ZN26CWapFullySpecCLPushServiceD0Ev
+40 Name=_ZN26CWapFullySpecCLPushServiceD1Ev
+41 Name=_ZN26CWapFullySpecCLPushServiceD2Ev
+42 Name=_ZN28CWapFullySpecDatagramService10ConstructLEv
+43 Name=_ZN28CWapFullySpecDatagramService4NewLERK4TUid
+44 Name=_ZN28CWapFullySpecDatagramService4NewLEv
+45 Name=_ZTV21CWapBoundCLWSPService
+46 Name=_ZN28CWapFullySpecDatagramServiceC2Ev
+47 Name=_ZN28CWapFullySpecDatagramServiceD0Ev
+48 Name=_ZN28CWapFullySpecDatagramServiceD1Ev
+49 Name=_ZN28CWapFullySpecDatagramServiceD2Ev
+50 Name=_ZTI21CWapBoundCLWSPService
+51 Name=_ZTI22CWapBoundCLPushService
+52 Name=_ZTI24CWapBoundDatagramService
+53 Name=_ZTI25CWapFullySpecCLWSPService
+54 Name=_ZTI26CWapFullySpecCLPushService
+55 Name=_ZTI28CWapFullySpecDatagramService
+;------------------EOF------------------

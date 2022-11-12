@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DEVSOUNDAUDIOOUTPUT Pascal=0
+;---------------------------------------
+1 Name=_._CDevSoundAudioOutput
+2 Name=CapabilitiesChannelsL__CDevSoundAudioOutputRtRArrayZUi
+3 Name=CapabilitiesDataTypesL__CDevSoundAudioOutputRtRArrayZTFourCC
+4 Name=CapabilitiesRatesL__CDevSoundAudioOutputRtRArrayZUi
+5 Name=ConfigChannelsL__CDevSoundAudioOutputRtRArrayZUi
+6 Name=ConfigDataTypesL__CDevSoundAudioOutputRtRArrayZTFourCC
+7 Name=ConfigRatesL__CDevSoundAudioOutputRtRArrayZUi
+8 Name=ConfigureL__CDevSoundAudioOutputGTUidRCTDesC8
+9 Name=ConfigureL__CDevSoundAudioOutputUiUiGTFourCCGTUidRCTDesC8
+10 Name=GetPlayBalanceL__CDevSoundAudioOutputRiT1
+11 Name=MaxVolumeL__CDevSoundAudioOutput
+12 Name=NewL__CDevSoundAudioOutputRCTMMFPrioritySettingsRMDevSoundAudioOutputObserver
+13 Name=NewL__CDevSoundAudioOutputUiUiGTFourCCGTUidRTDesC8RCTMMFPrioritySettingsRMDevSoundAudioOutputObserver
+14 Name=PauseL__CDevSoundAudioOutput
+15 Name=PlayL__CDevSoundAudioOutputPv
+16 Name=PrimeL__CDevSoundAudioOutput
+17 Name=SetPlayBalanceL__CDevSoundAudioOutputii
+18 Name=SetPrioritySettingsL__CDevSoundAudioOutputRCTMMFPrioritySettings
+19 Name=SetVolumeL__CDevSoundAudioOutputi
+20 Name=SetVolumeRampL__CDevSoundAudioOutputRCTTimeIntervalMicroSeconds
+21 Name=StopL__CDevSoundAudioOutput
+22 Name=VolumeL__CDevSoundAudioOutput
+23 Name=CalculateAudioOutputPositionL__CCDevSoundAudioOutput
+;------------------EOF------------------

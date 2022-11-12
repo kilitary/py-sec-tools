@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=APSERV Pascal=0
+;---------------------------------------
+1 Name=NewL__17CApaAppListServerP11CApaAppListP18CApaFileRecognizer
+2 Name=_._17CApaAppListServer
+3 Name=NameApaServStartSemaphore__Fv
+4 Name=NewL__13CApaFsMonitorR3RFsRC6TDesC8G9TCallBack
+5 Name=NewL__17CApaAppListServerR14MApaAppStarter
+6 Name=NotifyType__C13CApaFsMonitor
+7 Name=SetBlocked__13CApaFsMonitori
+8 Name=Start__13CApaFsMonitor11TNotifyType
+9 Name=_._13CApaFsMonitor
+10 Name=NameApaServServerThread__Fv
+;------------------EOF------------------

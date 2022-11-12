@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QCONNLISTENERS Pascal=0
+;---------------------------------------
+1 Name=_Z8WinsMainv
+2 Name=_ZTI15CQConnListeners
+3 Name=_ZTV15CQConnListeners
+;------------------EOF------------------

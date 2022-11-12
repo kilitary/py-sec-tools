@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LINKRECOG Pascal=0
+;---------------------------------------
+1 Name=CreateRecognizer__Fv
+2 Name=_._CCalypsoLinkFile
+3 Name=DeleteL__CCalypsoLinkFile
+4 Name=FileName__CCCalypsoLinkFile
+5 Name=LinkFileName__CCCalypsoLinkFile
+6 Name=NewLC__CCalypsoLinkFilePCTDesC16
+7 Name=SetFileL__CCalypsoLinkFileRCTDesC16
+8 Name=Size__CCCalypsoLinkFile
+;------------------EOF------------------

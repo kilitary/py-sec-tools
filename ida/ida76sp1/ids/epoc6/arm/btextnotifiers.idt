@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTEXTNOTIFIERS Pascal=0
+;---------------------------------------
+1 Name=__24TBTDeviceSelectionParams
+2 Name=DeviceClass__23TBTDeviceResponseParams
+3 Name=DeviceClass__24TBTDeviceSelectionParams
+4 Name=DeviceName__C23TBTDeviceResponseParams
+5 Name=IsValidBDAddr__C23TBTDeviceResponseParams
+6 Name=IsValidDeviceClass__23TBTDeviceResponseParams
+7 Name=IsValidDeviceClass__24TBTDeviceSelectionParams
+8 Name=IsValidDeviceName__C23TBTDeviceResponseParams
+9 Name=IsValidUUID__24TBTDeviceSelectionParams
+10 Name=SetDeviceAddress__23TBTDeviceResponseParamsRC10TBTDevAddr
+11 Name=SetDeviceClass__23TBTDeviceResponseParamsG14TBTDeviceClass
+12 Name=SetDeviceClass__24TBTDeviceSelectionParamsG14TBTDeviceClass
+13 Name=SetDeviceName__23TBTDeviceResponseParamsRC7TDesC16
+14 Name=SetUUID__24TBTDeviceSelectionParamsRC5TUUID
+15 Name=UUID__24TBTDeviceSelectionParams
+16 Name=__23TBTDeviceResponseParams
+17 Name=BDAddr__C23TBTDeviceResponseParams
+18 Name=__29TBTBasebandNotificationParamsQ229TBTBasebandNotificationParams14TBasebandEventi
+19 Name=BasebandEvent__C29TBTBasebandNotificationParams
+20 Name=CurrentConnections__C29TBTBasebandNotificationParams
+21 Name=__29TBTBasebandNotificationParams
+22 Name=SetBasebandEvent__29TBTBasebandNotificationParamsQ229TBTBasebandNotificationParams14TBasebandEvent
+23 Name=SetCurrentConnections__29TBTBasebandNotificationParamsi
+;------------------EOF------------------

@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ipmontr.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=InitHelperDll Pascal=8
+2 Name=IpmontrCreateInterface Pascal=20
+3 Name=IpmontrDeleteInfoBlockFromInterfaceInfo Pascal=8
+4 Name=IpmontrDeleteInterface Pascal=8
+5 Name=IpmontrDeleteProtocol Pascal=4
+6 Name=IpmontrGetFriendlyNameFromIfIndex Pascal=16
+7 Name=IpmontrGetFriendlyNameFromIfName Pascal=12
+8 Name=IpmontrGetIfIndexFromFriendlyName Pascal=12
+9 Name=IpmontrGetIfNameFromFriendlyName Pascal=12
+10 Name=IpmontrGetInfoBlockFromGlobalInfo Pascal=16
+11 Name=IpmontrGetInfoBlockFromInterfaceInfo Pascal=24
+12 Name=IpmontrGetInterfaceType Pascal=8
+13 Name=IpmontrInterfaceEnum Pascal=12
+14 Name=IpmontrSetInfoBlockInGlobalInfo Pascal=16
+15 Name=IpmontrSetInfoBlockInInterfaceInfo Pascal=20
+;------------------EOF------------------

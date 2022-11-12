@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=xpssvcs.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=CreateContainerConsumer Pascal=8
+2 Name=CreateContainerProducer Pascal=12
+3 Name=CreateReachPackageReceiver Pascal=12
+4 Name=CreateReachPackageSender Pascal=8
+5 Name=CreateSeekableBuffer Pascal=8
+6 Name=CreateStreamReceiverOnFileHandle Pascal=12
+7 Name=CreateStreamSenderOnFileHandle Pascal=16
+8 Name=CreateStreamSenderOnIStream Pascal=16
+9 Name=DDLogHelper Pascal=24
+;------------------EOF------------------

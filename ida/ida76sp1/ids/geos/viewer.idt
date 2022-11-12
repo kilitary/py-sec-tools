@@ -1,0 +1,64 @@
+DECLARATION Nokia 9110 Geos 3.0 library viewer.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+15 Name=viewerdll Args=0 Drops=15
+;---------------------------------------
+1 Name=FileOpenControlClass
+2 Name=FileOpenFFileSelectorClass
+3 Name=ViewerControlClass
+4 Name=ViewerDialogClass
+5 Name=TriggerGroupClass
+6 Name=ViewerGetLibrary
+7 Name=ViewerGetLibraryNameFromToken
+8 Name=ViewerAddLibrary
+9 Name=ViewerGetFileToken
+10 Name=ViewerUnloadLibrary
+11 Name=ViewerLibraryOpen
+12 Name=ViewerLibraryDetach
+13 Name=ViewerLibraryChangeDocument
+14 Name=ViewerLibraryClose
+15 Name=VIEWERGETLIBRARY Pascal=8 \
+	Comment=ViewerInterfaceError pascal ViewerGetLibrary(DocumentInfo *docInfo, FileLongName *fname) in viewer.goh
+16 Name=VIEWERGETLIBRARYNAMEFROMTOKEN Pascal=8 \
+	Comment=Boolean pascal ViewerGetLibraryNameFromToken(TokenChars *token, FileLongName *libName) in viewer.goh
+17 Name=VIEWERADDLIBRARY Pascal=8 \
+	Comment=Boolean pascal ViewerAddLibrary(FileLongName *libName, GeodeToken *token) in viewer.goh
+18 Name=VIEWERUNLOADLIBRARY Pascal=2 \
+	Comment=Boolean pascal ViewerUnloadLibrary(hptr libHandle) in viewer.goh
+19 Name=VIEWERGETFILETOKEN Pascal=8 \
+	Comment=ViewerInterfaceError pascal ViewerGetFileToken(DocumentInfo *docInfo, GeodeToken *token) in viewer.goh
+20 Name=VIEWERLIBRARYOPEN Pascal=96 \
+	Comment=hptr pascal ViewerLibraryOpen(ViewerParams viewerParams, optr *uiOptr) in viewer.goh
+21 Name=VIEWERLIBRARYDETACH Pascal=6 \
+	Comment=hptr pascal ViewerLibraryDetach(hptr libHandle, optr uiOptr) in viewer.goh
+22 Name=VIEWERLIBRARYCHANGEDOCUMENT Pascal=6 \
+	Comment=ViewerCloseStatus pascal ViewerLibraryChangeDocument(hptr libHandle, ViewerChangeDocumentStruct *vcds) in viewer.goh
+23 Name=VIEWERLIBRARYCLOSE Pascal=6 \
+	Comment=pascal ViewerLibraryClose(hptr libHandle, optr uiOptr) in viewer.goh
+24 Name=ViewerSendControlClass
+25 Name=ViewerMarkFileRead
+26 Name=ViewerMarkFileUnread
+27 Name=VIEWERMARKFILEREAD Pascal=2 \
+	Comment=pascal ViewerMarkFileRead(FileHandle fileH) in viewer.goh
+28 Name=VIEWERMARKFILEUNREAD Pascal=2 \
+	Comment=pascal ViewerMarkFileUnread(FileHandle fileH) in viewer.goh
+29 Name=ViewerAddSendControl
+30 Name=ViewerRemoveSendControl
+31 Name=VIEWERADDSENDCONTROL Pascal=6 \
+	Comment=void pascal ViewerAddSendControl(optr newOutput, word newParentOffset) in viewer.goh
+32 Name=VIEWERREMOVESENDCONTROL Pascal=6 \
+	Comment=void pascal ViewerRemoveSendControl(optr output, ViewerCloseStatus vcs) in viewer.goh
+33 Name=ViewerSendDocumentNotification
+34 Name=VIEWERSENDDOCUMENTNOTIFICATION Pascal=2 \
+	Comment=void pascal ViewerSendDocumentNotification(MemHandle memH) in viewer.goh
+35 Name=ViewerPrintControlClass
+36 Name=ViewerLoadingMeterClass
+37 Name=FileChangeDialogClass
+38 Name=RenameDocumentDialogClass
+39 Name=FolderSelectorDialogClass
+40 Name=ViewerMenuInteractionClass
+41 Name=ViewerSetSendControlOptions
+42 Name=VIEWERSETSENDCONTROLOPTIONS Pascal=4 \
+	Comment=void pascal ViewerSetSendControlOptions(optr optionsTree) in viewer.goh
+;------------------EOF------------------

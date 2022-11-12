@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BACKUPRESTORENOTIFICATION Pascal=0
+;---------------------------------------
+1 Name=_ZN26CBackupRestoreNotification4NewLERK7TDesC16R34MBackupRestoreNotificationObserver
+2 Name=_ZN26CBackupRestoreNotificationD0Ev
+3 Name=_ZN26CBackupRestoreNotificationD1Ev
+4 Name=_ZN26CBackupRestoreNotificationD2Ev
+5 Name=_ZNK26CBackupRestoreNotification16BackupInProgressEv
+6 Name=_ZNK26CBackupRestoreNotification17RestoreInProgressEv
+7 Name=_ZTI26CBackupRestoreNotification
+8 Name=_ZTV26CBackupRestoreNotification
+;------------------EOF------------------

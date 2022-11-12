@@ -1,0 +1,63 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d3d8thk.dll Args=0 Drops=56
+;---------------------------------------
+1 Name=OsThunkD3dContextCreate Pascal=16
+2 Name=OsThunkD3dContextDestroy Pascal=4
+3 Name=OsThunkD3dContextDestroyAll Pascal=4
+4 Name=OsThunkD3dDrawPrimitives2 Pascal=28
+5 Name=OsThunkD3dValidateTextureStageState Pascal=4
+6 Name=OsThunkDdAddAttachedSurface Pascal=12
+7 Name=OsThunkDdAlphaBlt Pascal=12
+8 Name=OsThunkDdAttachSurface Pascal=8
+9 Name=OsThunkDdBeginMoCompFrame Pascal=8
+10 Name=OsThunkDdBlt Pascal=12
+11 Name=OsThunkDdCanCreateD3DBuffer Pascal=8
+12 Name=OsThunkDdCanCreateSurface Pascal=8
+13 Name=OsThunkDdColorControl Pascal=8
+14 Name=OsThunkDdCreateD3DBuffer Pascal=32
+15 Name=OsThunkDdCreateDirectDrawObject Pascal=4
+16 Name=OsThunkDdCreateMoComp Pascal=8
+17 Name=OsThunkDdCreateSurface Pascal=32
+18 Name=OsThunkDdCreateSurfaceEx Pascal=12
+19 Name=OsThunkDdCreateSurfaceObject Pascal=24
+20 Name=OsThunkDdDeleteDirectDrawObject Pascal=4
+21 Name=OsThunkDdDeleteSurfaceObject Pascal=4
+22 Name=OsThunkDdDestroyD3DBuffer Pascal=4
+23 Name=OsThunkDdDestroyMoComp Pascal=8
+24 Name=OsThunkDdDestroySurface Pascal=8
+25 Name=OsThunkDdEndMoCompFrame Pascal=8
+26 Name=OsThunkDdFlip Pascal=20
+27 Name=OsThunkDdFlipToGDISurface Pascal=8
+28 Name=OsThunkDdGetAvailDriverMemory Pascal=8
+29 Name=OsThunkDdGetBltStatus Pascal=8
+30 Name=OsThunkDdGetDC Pascal=8
+31 Name=OsThunkDdGetDriverInfo Pascal=8
+32 Name=OsThunkDdGetDriverState Pascal=4
+33 Name=OsThunkDdGetDxHandle Pascal=12
+34 Name=OsThunkDdGetFlipStatus Pascal=8
+35 Name=OsThunkDdGetInternalMoCompInfo Pascal=8
+36 Name=OsThunkDdGetMoCompBuffInfo Pascal=8
+37 Name=OsThunkDdGetMoCompFormats Pascal=8
+38 Name=OsThunkDdGetMoCompGuids Pascal=8
+39 Name=OsThunkDdGetScanLine Pascal=8
+40 Name=OsThunkDdLock Pascal=12
+41 Name=OsThunkDdLockD3D Pascal=8
+42 Name=OsThunkDdQueryDirectDrawObject Pascal=44
+43 Name=OsThunkDdQueryMoCompStatus Pascal=8
+44 Name=OsThunkDdReenableDirectDrawObject Pascal=8
+45 Name=OsThunkDdReleaseDC Pascal=4
+46 Name=OsThunkDdRenderMoComp Pascal=8
+47 Name=OsThunkDdResetVisrgn Pascal=8
+48 Name=OsThunkDdSetColorKey Pascal=8
+49 Name=OsThunkDdSetExclusiveMode Pascal=8
+50 Name=OsThunkDdSetGammaRamp Pascal=12
+51 Name=OsThunkDdSetOverlayPosition Pascal=12
+52 Name=OsThunkDdUnattachSurface Pascal=8
+53 Name=OsThunkDdUnlock Pascal=8
+54 Name=OsThunkDdUnlockD3D Pascal=8
+55 Name=OsThunkDdUpdateOverlay Pascal=12
+56 Name=OsThunkDdWaitForVerticalBlank Pascal=8
+;------------------EOF------------------

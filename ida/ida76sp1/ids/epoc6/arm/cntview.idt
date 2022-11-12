@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CNTVIEW Pascal=0
+;---------------------------------------
+1 Name=UpdateGroupViewL__CContactGroupView
+2 Name=NewL__CContactSubViewRMContactViewObserverRCCContactDatabaseRCContactViewBaseRCTDesC16
+3 Name=NewL__CContactSubViewRMContactViewObserverRCCContactDatabaseRCContactViewBaseRCTDesC16T4
+4 Name=NewL__CContactFindViewRCCContactDatabaseRCContactViewBaseRMContactViewObserverPMDesCArray
+5 Name=NewL__CContactGroupViewRCCContactDatabaseRCContactViewBaseRMContactViewObserverRCTDesC16QCContactGroupViewTGroupType
+6 Name=NewL__CContactGroupViewRCCContactDatabaseRCContactViewBaseRMContactViewObserverlQCContactGroupViewTGroupType
+7 Name=NewL__CContactViewRangeRCCContactViewBaseRCTDesC16QCContactViewRangeBaseTCriteriaTT3
+8 Name=NewL__CContactFilteredViewRMContactViewObserverRCCContactDatabaseRCContactViewBasei
+9 Name=NewL__CContactViewLowRangeRCCContactViewBaseRCTDesC16QCContactViewRangeBaseTCriteria
+10 Name=NewL__CContactViewHighRangeRCCContactViewBaseRCTDesC16QCContactViewRangeBaseTCriteria
+11 Name=NewL__CContactConcatenatedViewRMContactViewObserverRCCContactDatabaseRtRPointerArrayZCContactViewBase
+12 Name=RefineFindViewL__CContactFindViewPMDesCArray
+13 Name=UpdateFindViewL__CContactFindView
+14 Name=IndicesValid__CCContactViewRangeBase
+15 Name=NewL__CContactFindViewRCCContactDatabaseRCContactViewBaseRMContactViewObserverPMDesCArrayQCContactViewBaseTSearchType
+;------------------EOF------------------

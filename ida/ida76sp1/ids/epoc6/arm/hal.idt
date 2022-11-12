@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HAL Pascal=0
+;---------------------------------------
+1 Name=Get__3HALQ27HALData10TAttributeRi
+2 Name=Set__3HALQ27HALData10TAttributei
+3 Name=GetAll__3HALRiRPQ23HAL6SEntry
+;------------------EOF------------------

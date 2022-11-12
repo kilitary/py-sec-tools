@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PIMPRINT.dll Pascal=0
+;---------------------------------------
+1 Name=PimDisplayChoosePrinter
+2 Name=PimFormFeed
+3 Name=PimFreePrintResources
+4 Name=PimLineOut
+5 Name=PimPrintInk
+6 Name=PimSetPrintColor
+;------------------EOF------------------

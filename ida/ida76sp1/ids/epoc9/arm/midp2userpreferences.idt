@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2USERPREFERENCES Pascal=0
+;---------------------------------------
+1 Name=_Z19GetUserPreferencesLmRKN4MIDP17MSecurityPolicyV2E
+2 Name=_ZTIN4MIDP16CUserPreferencesE
+3 Name=_ZTIN4MIDP20CSecurityPreferencesE
+4 Name=_ZTIN4MIDP27CMIDletSuiteUserPreferencesE
+5 Name=_ZTIN4MIDP35CMIDletSuiteUserPreferencesIteratorE
+6 Name=_ZTVN4MIDP16CUserPreferencesE
+7 Name=_ZTVN4MIDP20CSecurityPreferencesE
+8 Name=_ZTVN4MIDP27CMIDletSuiteUserPreferencesE
+9 Name=_ZTVN4MIDP35CMIDletSuiteUserPreferencesIteratorE
+;------------------EOF------------------

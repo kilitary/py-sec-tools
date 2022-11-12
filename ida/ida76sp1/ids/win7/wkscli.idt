@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wkscli.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=NetAddAlternateComputerName Pascal=20
+2 Name=NetEnumerateComputerNames Pascal=20
+3 Name=NetGetJoinInformation Pascal=12
+4 Name=NetGetJoinableOUs Pascal=24
+5 Name=NetJoinDomain Pascal=24
+6 Name=NetRemoveAlternateComputerName Pascal=20
+7 Name=NetRenameMachineInDomain Pascal=20
+8 Name=NetSetPrimaryComputerName Pascal=20
+9 Name=NetUnjoinDomain Pascal=16
+10 Name=NetUseAdd Pascal=16
+11 Name=NetUseDel Pascal=12
+12 Name=NetUseEnum Pascal=28
+13 Name=NetUseGetInfo Pascal=16
+14 Name=NetValidateName Pascal=20
+15 Name=NetWkstaGetInfo Pascal=12
+16 Name=NetWkstaSetInfo Pascal=16
+17 Name=NetWkstaStatisticsGet Pascal=16
+18 Name=NetWkstaTransportAdd Pascal=16
+19 Name=NetWkstaTransportDel Pascal=12
+20 Name=NetWkstaTransportEnum Pascal=28
+21 Name=NetWkstaUserEnum Pascal=28
+22 Name=NetWkstaUserGetInfo Pascal=12
+23 Name=NetWkstaUserSetInfo Pascal=16
+;------------------EOF------------------

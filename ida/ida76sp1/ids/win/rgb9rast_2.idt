@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=rgb9rast_2.dll Args=0 Drops=29
+;---------------------------------------
+1 Name=??0PrimProcessor@@QAE@XZ Pascal=0
+2 Name=??1PrimProcessor@@QAE@XZ Pascal=0
+3 Name=??4PrimProcessor@@QAEAAV0@ABV0@@Z Pascal=4
+4 Name=?AllocSpans@PrimProcessor@@QAEJPAIPAPAUtagD3DI_RASTSPAN@@@Z Pascal=8
+5 Name=?AppendPrim@PrimProcessor@@AAEJXZ Pascal=0
+6 Name=?Begin@PrimProcessor@@QAEXXZ Pascal=0
+7 Name=?BeginPrimSet@PrimProcessor@@QAEXW4_D3DPRIMITIVETYPE@@W4_RAST_VERTEX_TYPE@@@Z Pascal=8
+8 Name=?ClrFlags@PrimProcessor@@QAEXI@Z Pascal=4
+9 Name=?End@PrimProcessor@@QAEJXZ Pascal=0
+10 Name=?FillPointSpan@PrimProcessor@@AAEXPAU_D3DTLVERTEX@@PAUtagD3DI_RASTSPAN@@@Z Pascal=8
+11 Name=?Flush@PrimProcessor@@AAEJXZ Pascal=0
+12 Name=?FlushPartial@PrimProcessor@@AAEJXZ Pascal=0
+13 Name=?FreeSpans@PrimProcessor@@QAEXI@Z Pascal=4
+14 Name=?GetFlags@PrimProcessor@@QAEIXZ Pascal=0
+15 Name=?Initialize@PrimProcessor@@QAEJXZ Pascal=0
+16 Name=?Line@PrimProcessor@@QAEJPAU_D3DTLVERTEX@@00@Z Pascal=12
+17 Name=?LineSetup@PrimProcessor@@AAEHPAU_D3DTLVERTEX@@0@Z Pascal=8
+18 Name=?NormalizeLineRHW@PrimProcessor@@AAEXPAU_D3DTLVERTEX@@0@Z Pascal=8
+19 Name=?NormalizePointRHW@PrimProcessor@@AAEXPAU_D3DTLVERTEX@@@Z Pascal=4
+20 Name=?NormalizeTriRHW@PrimProcessor@@AAEXPAU_D3DTLVERTEX@@00@Z Pascal=12
+21 Name=?Point@PrimProcessor@@QAEJPAU_D3DTLVERTEX@@0@Z Pascal=8
+22 Name=?PointDiamondCheck@PrimProcessor@@AAEHHHHH@Z Pascal=16
+23 Name=?ResetBuffer@PrimProcessor@@AAEXXZ Pascal=0
+24 Name=?SetCtx@PrimProcessor@@QAEXPAUtagD3DI_RASTCTX@@@Z Pascal=4
+25 Name=?SetFlags@PrimProcessor@@QAEXI@Z Pascal=4
+26 Name=?SetTriFunctions@PrimProcessor@@AAEXXZ Pascal=0
+27 Name=?StateChanged@PrimProcessor@@QAEXXZ Pascal=0
+28 Name=?Tri@PrimProcessor@@QAEJPAU_D3DTLVERTEX@@00@Z Pascal=12
+29 Name=?TriSetup@PrimProcessor@@AAEHPAU_D3DTLVERTEX@@00@Z Pascal=12
+30 Name=D3D9GetSWInfo
+;------------------EOF------------------

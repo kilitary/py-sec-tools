@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-handle-l1-1-0.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=CloseHandle Pascal=4
+2 Name=DuplicateHandle Pascal=28
+3 Name=GetHandleInformation Pascal=8
+4 Name=SetHandleInformation Pascal=12
+;------------------EOF------------------

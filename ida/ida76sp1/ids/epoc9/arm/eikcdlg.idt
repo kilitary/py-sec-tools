@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EIKCDLG Pascal=0
+;---------------------------------------
+1 Name=_ZN12CEikDebugWin19HandlePointerEventLERK13TPointerEvent
+2 Name=_ZN13CEikDebugKeys19HandlePointerEventLERK13TPointerEvent
+3 Name=_ZN14CEikInfoDialog18ExtensionInterfaceE4TUid
+4 Name=_ZN14CEikInfoDialog19HandlePointerEventLERK13TPointerEvent
+5 Name=_ZN14CEikInfoDialog21CEikDialog_Reserved_1Ev
+6 Name=_ZN14CEikInfoDialog21CEikDialog_Reserved_2Ev
+7 Name=_ZN14CEikInfoDialog8RunDlgLDERK7TDesC16S2_NS_9TExitKeysE
+8 Name=_ZN14CEikInfoDialogC1ERK7TDesC16S2_NS_9TExitKeysE
+9 Name=_ZN14CEikInfoDialogC2ERK7TDesC16S2_NS_9TExitKeysE
+10 Name=_ZN15CEikCDlgLibrary11InitializeLEv
+11 Name=_ZN15CEikCDlgLibrary12ResourceFileEv
+12 Name=_ZN15CEikCDlgLibrary14ControlFactoryEv
+13 Name=_ZN15CEikCDlgLibrary18RequestInfoDialogLEv
+14 Name=_ZN15CEikCDlgLibrary19RequestQueryDialogLEv
+15 Name=_ZN21CEikCDlgDialogFactory4NewLEv
+16 Name=_ZN9CEikAlert18ExtensionInterfaceE4TUid
+17 Name=_ZN9CEikAlert19HandlePointerEventLERK13TPointerEvent
+18 Name=_ZTI12CEikDebugWin
+19 Name=_ZTI13CEikDebugKeys
+20 Name=_ZTI14CEikInfoDialog
+21 Name=_ZTI9CEikAlert
+22 Name=_ZTV12CEikDebugWin
+23 Name=_ZTV13CEikDebugKeys
+24 Name=_ZTV14CEikInfoDialog
+25 Name=_ZTV9CEikAlert
+;------------------EOF------------------

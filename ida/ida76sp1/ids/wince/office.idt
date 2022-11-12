@@ -1,0 +1,46 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OFFICE.dll Pascal=0
+;---------------------------------------
+1 Name=CreateFontPropSheetPage
+2 Name=NewFromTemplateA
+3 Name=OpenDocumentA
+4 Name=OpenThisDocumentA
+5 Name=SaveDocumentA
+6 Name=SaveDocumentAsA
+7 Name=CreateBestMappedFont
+8 Name=CreateColorControl
+9 Name=CreateIStorageOnFlatFile
+10 Name=CreateIStorageOnILockBytes
+11 Name=CreateIStreamOnILockBytes
+12 Name=CreateMemoryLockBytes
+13 Name=DetermineIMECompositionString
+14 Name=DisplayFontDialog
+15 Name=FlushIMECompositionString
+16 Name=GenerateValidUnusedName
+17 Name=GetDocPassword
+18 Name=GetStringPtrLengthOfResource
+19 Name=GetStringPtrOfResource
+20 Name=MyMultiByteToWideChar
+21 Name=MyWideCharToMultiByte
+22 Name=NewFromTemplateW
+23 Name=Office_GetDllVersion
+24 Name=Office_InsertSymbol
+25 Name=OpenDocumentW
+26 Name=OpenThisDocumentW
+27 Name=SaveDocumentAsW
+28 Name=SaveDocumentW
+29 Name=SetCharacterConversionCodePage
+30 Name=SetDocPassword
+31 Name=StrOfTStr
+32 Name=TStrAllocByteLen
+33 Name=TStrAllocLen
+34 Name=TStrCopy
+35 Name=TStrOfStr
+36 Name=crypto
+37 Name=getkey
+38 Name=ta2u
+39 Name=tu2a
+;------------------EOF------------------

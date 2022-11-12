@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MSTREAMTYPECORE Pascal=0
+;---------------------------------------
+1 Name=DoCompareElements__FPCUcTiUi
+2 Name=DoCompareElements__FPCUwTiUi
+3 Name=DoCompareElements__FPCcTiUi
+4 Name=DoCopyElements__FPUcPCUci
+5 Name=DoCopyElements__FPUwPCUwi
+6 Name=DoCopyElements__FPcPCci
+;------------------EOF------------------

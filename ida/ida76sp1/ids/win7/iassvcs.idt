@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iassvcs.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer Pascal=0
+4 Name=DllUnregisterServer Pascal=0
+5 Name=IASAdler32 Pascal=8
+6 Name=IASAllocateUniqueID Pascal=0
+7 Name=IASGetDictionary Pascal=20
+8 Name=IASGetHostByName Pascal=8
+9 Name=IASGetLocalDictionary Pascal=0
+10 Name=IASGetProductLimits Pascal=8
+11 Name=IASGlobalLock Pascal=0
+12 Name=IASGlobalUnlock Pascal=0
+13 Name=IASInitialize Pascal=0
+14 Name=IASRadiusCrypt Pascal=28
+15 Name=IASRegisterComponent Pascal=36
+16 Name=IASReportEvent Pascal=20
+17 Name=IASReportLicenseViolation Pascal=0
+18 Name=IASReportSecurityEvent Pascal=16
+19 Name=IASRequestThread Pascal=4
+20 Name=IASSetMaxNumberOfThreads Pascal=4
+21 Name=IASSetMaxThreadIdle Pascal=4
+22 Name=IASUninitialize Pascal=0
+23 Name=IASVariantChangeType Pascal=16
+;------------------EOF------------------

@@ -1,0 +1,27 @@
+DECLARATION Nokia 9110 Geos 3.0 library imagev.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+4 Name=imagevdll Args=3 Drops=0
+;---------------------------------------
+1 Name=IMAGEVIEWERDIALOGOPEN
+2 Name=IMAGEVIEWERDIALOGDETACH
+3 Name=IMAGEVIEWERDIALOGCHANGEDOCUMENT
+4 Name=IMAGEVIEWERCLOSE
+5 Name=ImageViewerConvertToBitmap Args=12 \
+	Comment=ImageViewerDrawStatus cdecl ImageViewerConvertToBitmap( DocumentInfo *info, VMFileHandle *bitMapFile, VMBlockHandle *bitMapBlock) in internal/resp/imgctrl.goh
+6 Name=ImageViewerConvertToBitmapAndGiveSize Args=28 \
+	Comment=ImageViewerDrawStatus cdecl ImageViewerConvertToBitmapAndGiveSize( DocumentInfo *info, VMFileHandle *bitMapFile, TCHAR *ptcVMFileName, VMBlockHandle *bitMapBlock, word *pwHeight, word *pwWidth, word *pwZoomValue) in internal/resp/imgctrl.goh
+7 Name=ImageViewerDrawBitmapToGState Args=18 \
+	Comment=ImageViewerDrawStatus cdecl ImageViewerDrawBitmapToGState(DocumentInfo *info, GStateHandle gstate, word *pwHeight, word *pwWidth, word *pwZoomValue) in internal/resp/imgctrl.goh
+8 Name=ImageViewerCleanUp \
+	Comment=void cdecl ImageViewerCleanUp(void) in internal/resp/imgctrl.goh
+9 Name=ImageDialogClass
+10 Name=ImageInteractionClass
+11 Name=ImageViewerControlClass
+12 Name=ImageViewClass
+13 Name=ImageContentClass
+14 Name=ImageClass
+15 Name=FirstLevelTriggerClass
+16 Name=SecondLevelTriggerClass
+;------------------EOF------------------

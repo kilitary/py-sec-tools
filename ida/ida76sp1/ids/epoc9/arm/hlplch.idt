@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HLPLCH Pascal=0
+;---------------------------------------
+1 Name=_ZN11HlpLauncher22LaunchHelpApplicationLER10RWsSession
+2 Name=_ZN11HlpLauncher22LaunchHelpApplicationLER10RWsSession4TUid
+3 Name=_ZN11HlpLauncher22LaunchHelpApplicationLER10RWsSessionP9CArrayFixI15TCoeHelpContextE
+4 Name=_ZTI11CHlpCmdLine
+5 Name=_ZTV11CHlpCmdLine
+;------------------EOF------------------

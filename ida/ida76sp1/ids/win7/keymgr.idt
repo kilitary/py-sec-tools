@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=keymgr.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=CPlApplet Pascal=16
+2 Name=DllCanUnloadNow Pascal=0
+3 Name=DllGetClassObject Pascal=12
+4 Name=DllMain Pascal=12
+5 Name=KRShowKeyMgr Pascal=16
+6 Name=PRShowRestoreFromMsginaW Pascal=16
+7 Name=PRShowRestoreWizardExW Pascal=16
+8 Name=PRShowRestoreWizardW Pascal=16
+9 Name=PRShowSaveFromMsginaW Pascal=16
+10 Name=PRShowSaveWizardExW Pascal=16
+;------------------EOF------------------

@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=AKNINPUTLANGUAGE Pascal=0
+;---------------------------------------
+1 Name=__TAknInputLanguageCapabilities
+2 Name=AssignCapability__TAknInputLanguageCapabilitiesii
+3 Name=Capabilities__CCAknInputLanguageItem
+4 Name=CreateInputLanguageInfoL__AknInputLanguageInfoFactory
+5 Name=HasCapability__CTAknInputLanguageCapabilitiesi
+6 Name=LanguageCapabilitiesFromLanguage__CTInputLanguageInfoTLanguage
+7 Name=LanguageCode__CCAknInputLanguageItem
+8 Name=LanguageName__CCAknInputLanguageItem
+9 Name=MdcaCount__CCAknInputLanguageList
+10 Name=MdcaPoint__CCAknInputLanguageListi
+11 Name=_._CTInputLanguageInfo
+12 Name=_._CAknInputLanguageItem
+13 Name=_._CAknInputLanguageList
+14 Name=__CAknInputLanguageListi
+15 Name=AppendLanguagesL__CTInputLanguageInfoPCAknInputLanguageListPtCArrayFixZiRTAknInputLanguageCapabilities
+16 Name=FilteredCapabilities__CTAknInputLanguageCapabilitiesRTAknInputLanguageCapabilities
+17 Name=HasAnySupport__CTAknInputLanguageCapabilities
+18 Name=LanguageName__CCTInputLanguageInfoTLanguage
+19 Name=SetAllCapabilities__TAknInputLanguageCapabilities
+20 Name=UrlLanguage__CCTInputLanguageInfo
+21 Name=AppendAvailableLanguagesL__CTInputLanguageInfoPCAknInputLanguageList
+;------------------EOF------------------

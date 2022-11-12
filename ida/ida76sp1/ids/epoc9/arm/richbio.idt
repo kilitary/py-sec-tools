@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RICHBIO Pascal=0
+;---------------------------------------
+1 Name=_ZN8CRichBio10ConstructLEPK11CCoeControl
+2 Name=_ZN8CRichBio13VirtualHeightEv
+3 Name=_ZN8CRichBio14SetAndGetSizeLER5TSize
+4 Name=_ZN8CRichBio15CurrentLineRectEv
+5 Name=_ZN8CRichBio17VirtualVisibleTopEv
+6 Name=_ZN8CRichBio4NewLEPK11CCoeControl12TRichBioMode
+7 Name=_ZN8CRichBio5ResetEv
+8 Name=_ZN8CRichBio6EditorEv
+9 Name=_ZN8CRichBio8AddItemLERK7TDesC16S2_
+10 Name=_ZN8CRichBioC1E12TRichBioMode
+11 Name=_ZN8CRichBioC2E12TRichBioMode
+12 Name=_ZNK8CRichBio16IsCursorLocationE18TMsgCursorLocation
+13 Name=_ZNK8CRichBio16IsEditorBaseModeEv
+14 Name=_ZTI8CRichBio
+15 Name=_ZTIN8CRichBio18CEdwinSizeObserverE
+16 Name=_ZTV8CRichBio
+17 Name=_ZTVN8CRichBio18CEdwinSizeObserverE
+;------------------EOF------------------

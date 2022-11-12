@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PARSEMAIL Pascal=0
+;---------------------------------------
+1 Name=_ZN10CParseMail10NewParserLEv
+;------------------EOF------------------

@@ -1,0 +1,15 @@
+DECLARATION Nokia 9110 Geos 3.0 library resolver.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=resolverdll Pascal=0
+;---------------------------------------
+1 Name=ResolverResolveAddress
+2 Name=ResolverGetHostByName
+3 Name=ResolverGetHostInfo
+4 Name=ResolverDeleteCache
+5 Name=RESOLVERRESOLVEADDRESS
+6 Name=RESOLVERDELETECACHE
+7 Name=ResolverStopResolve
+8 Name=RESOLVERSTOPRESOLVE
+;------------------EOF------------------

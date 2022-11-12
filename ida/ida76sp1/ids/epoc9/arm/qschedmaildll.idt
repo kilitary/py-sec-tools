@@ -1,0 +1,62 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QSCHEDMAILDLL Pascal=0
+;---------------------------------------
+1 Name=_ZN21CQEmailScheduledFetch11DeleteTaskLEl
+2 Name=_ZN21CQEmailScheduledFetch13AddFetchTaskLEl
+3 Name=_ZN21CQEmailScheduledFetch15RescheduleTaskLEl
+4 Name=_ZN21CQEmailScheduledFetch4NewLER9CMsvEntry
+5 Name=_ZN21CQEmailScheduledFetchC1ER9CMsvEntry
+6 Name=_ZN21CQEmailScheduledFetchC2ER9CMsvEntry
+7 Name=_ZN21CQEmailScheduledFetchD0Ev
+8 Name=_ZN21CQEmailScheduledFetchD1Ev
+9 Name=_ZN21CQEmailScheduledFetchD2Ev
+10 Name=_ZN24TQEmailSchedFetchPackageC1Ev
+11 Name=_ZN24TQEmailSchedFetchPackageC2Ev
+12 Name=_ZN25CEmailScheduledFetchTasks10SetTaskIdLEll
+13 Name=_ZN25CEmailScheduledFetchTasks11SetHandleIdEll
+14 Name=_ZN25CEmailScheduledFetchTasks6StoreLEv
+15 Name=_ZN25CEmailScheduledFetchTasks8RestoreLEv
+16 Name=_ZN25CEmailScheduledFetchTasksC1ER11CMsvSession
+17 Name=_ZN25CEmailScheduledFetchTasksC2ER11CMsvSession
+18 Name=_ZN25CEmailScheduledFetchTasksD0Ev
+19 Name=_ZN25CEmailScheduledFetchTasksD1Ev
+20 Name=_ZN25CEmailScheduledFetchTasksD2Ev
+21 Name=_ZN28CEmailScheduledFetchSettings10AppendTimeERK13TDownloadTime
+22 Name=_ZN28CEmailScheduledFetchSettings10InsertTimeERK13TDownloadTimei
+23 Name=_ZN28CEmailScheduledFetchSettings10RemoveTimeEi
+24 Name=_ZN28CEmailScheduledFetchSettings10ResetTimesEv
+25 Name=_ZN28CEmailScheduledFetchSettings11SetIntervalEi
+26 Name=_ZN28CEmailScheduledFetchSettings12SetCommandIdEl
+27 Name=_ZN28CEmailScheduledFetchSettings12SetErrorCodeEl
+28 Name=_ZN28CEmailScheduledFetchSettings21SetScheduledFetchTypeENS_24TEmailScheduledFetchTypeE
+29 Name=_ZN28CEmailScheduledFetchSettings24SetScheduledFetchEnabledEi
+30 Name=_ZN28CEmailScheduledFetchSettings4TimeEi
+31 Name=_ZN28CEmailScheduledFetchSettings6StoreLER9CMsvEntry
+32 Name=_ZN28CEmailScheduledFetchSettings8RestoreLER9CMsvEntry
+33 Name=_ZN28CEmailScheduledFetchSettingsC1Ev
+34 Name=_ZN28CEmailScheduledFetchSettingsC2Ev
+35 Name=_ZN28CEmailScheduledFetchSettingsD0Ev
+36 Name=_ZN28CEmailScheduledFetchSettingsD1Ev
+37 Name=_ZN28CEmailScheduledFetchSettingsD2Ev
+38 Name=_ZNK25CEmailScheduledFetchTasks6TaskIdEl
+39 Name=_ZNK25CEmailScheduledFetchTasks8HandleIdEl
+40 Name=_ZNK28CEmailScheduledFetchSettings11TimeOfErrorEv
+41 Name=_ZNK28CEmailScheduledFetchSettings14HasEnabledTimeEv
+42 Name=_ZNK28CEmailScheduledFetchSettings18ScheduledFetchTypeEv
+43 Name=_ZNK28CEmailScheduledFetchSettings21ScheduledFetchEnabledEv
+44 Name=_ZNK28CEmailScheduledFetchSettings8IntervalEv
+45 Name=_ZNK28CEmailScheduledFetchSettings9CommandIdEv
+46 Name=_ZNK28CEmailScheduledFetchSettings9ErrorCodeEv
+47 Name=_ZNK28CEmailScheduledFetchSettings9TimeCountEv
+48 Name=_ZTI21CQEmailScheduledFetch
+49 Name=_ZTI25CEmailScheduledFetchTasks
+50 Name=_ZTI28CEmailScheduledFetchSettings
+51 Name=_ZTV21CQEmailScheduledFetch
+52 Name=_ZTV25CEmailScheduledFetchTasks
+53 Name=_ZTV28CEmailScheduledFetchSettings
+54 Name=_ZNK28CEmailScheduledFetchSettings4FindERK13TDownloadTime
+55 Name=_ZN21CQEmailScheduledFetch24InitilizeScheduledFetchLER28CEmailScheduledFetchSettings
+;------------------EOF------------------

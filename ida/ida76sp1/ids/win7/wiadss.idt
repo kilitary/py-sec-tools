@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wiadss.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=FindFirstImportDS Pascal=8
+2 Name=FindNextImportDS Pascal=8
+3 Name=CloseFindContext Pascal=4
+4 Name=LoadImportDS Pascal=16
+5 Name=UnloadImportDS Pascal=4
+6 Name=GetLoaderStatus Pascal=4
+7 Name=FindImportDSByDeviceName Pascal=8
+;------------------EOF------------------

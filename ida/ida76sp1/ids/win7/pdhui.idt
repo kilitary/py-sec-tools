@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=pdhui.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=PdhUiBrowseCountersA Pascal=4
+2 Name=PdhUiBrowseCountersExA Pascal=4
+3 Name=PdhUiBrowseCountersExHA Pascal=4
+4 Name=PdhUiBrowseCountersExHW Pascal=4
+5 Name=PdhUiBrowseCountersExW Pascal=4
+6 Name=PdhUiBrowseCountersHA Pascal=4
+7 Name=PdhUiBrowseCountersHW Pascal=4
+8 Name=PdhUiBrowseCountersW Pascal=4
+9 Name=PdhUiSelectDataSourceA Pascal=16
+10 Name=PdhUiSelectDataSourceW Pascal=16
+;------------------EOF------------------

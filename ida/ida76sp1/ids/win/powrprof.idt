@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=powrprof.dll Args=0 Drops=24
+;---------------------------------------
+1 Name=CallNtPowerInformation Pascal=20
+2 Name=CanUserWritePwrScheme Pascal=0
+3 Name=DebugPrintA Pascal=0
+4 Name=DeletePwrScheme Pascal=4
+5 Name=EnumPwrSchemes Pascal=8
+6 Name=GetActivePwrScheme Pascal=4
+7 Name=GetCurrentPowerPolicies Pascal=8
+8 Name=GetPwrCapabilities Pascal=4
+9 Name=GetPwrDiskSpindownRange Pascal=8
+10 Name=IsAdminOverrideActive Pascal=4
+11 Name=IsPwrHibernateAllowed Pascal=0
+12 Name=IsPwrShutdownAllowed Pascal=0
+13 Name=IsPwrSuspendAllowed Pascal=0
+14 Name=LoadCurrentPwrScheme Pascal=16
+15 Name=MergeLegacyPwrScheme Pascal=16
+16 Name=ReadGlobalPwrPolicy Pascal=4
+17 Name=ReadProcessorPwrScheme Pascal=8
+18 Name=ReadPwrScheme Pascal=8
+19 Name=SetActivePwrScheme Pascal=12
+20 Name=SetSuspendState Pascal=12
+21 Name=ValidatePowerPolicies Pascal=8
+22 Name=WriteGlobalPwrPolicy Pascal=4
+23 Name=WriteProcessorPwrScheme Pascal=8
+24 Name=WritePwrScheme Pascal=16
+;------------------EOF------------------

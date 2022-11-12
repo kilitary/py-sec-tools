@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=storprop.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=CdromDisableDigitalPlayback Pascal=8
+2 Name=CdromEnableDigitalPlayback Pascal=12
+3 Name=CdromIsDigitalPlaybackEnabled Pascal=12
+4 Name=CdromKnownGoodDigitalPlayback Pascal=8
+5 Name=DiskClassInstaller Pascal=12
+7 Name=DvdClassInstaller Pascal=12
+8 Name=DvdLauncher Pascal=8
+9 Name=DvdPropPageProvider Pascal=12
+10 Name=IdePropPageProvider Pascal=12
+11 Name=VolumePropPageProvider Pascal=12
+;------------------EOF------------------

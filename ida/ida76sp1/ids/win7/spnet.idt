@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=spnet.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=Sysprep_Clean_Net Pascal=0
+2 Name=Sysprep_Generalize_Net Pascal=0
+;------------------EOF------------------

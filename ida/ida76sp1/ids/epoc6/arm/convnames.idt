@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CONVNAMES Pascal=0
+;---------------------------------------
+1 Name=IdentifierAtIndex__C21CCnvCharacterSetNamesi
+2 Name=IndexOfIdentifier__C21CCnvCharacterSetNamesUi
+3 Name=NewLC__21CCnvCharacterSetNamesR3RFsRCt6TArray1ZQ225CCnvCharacterSetConverter13SCharacterSet
+4 Name=NewL__21CCnvCharacterSetNamesR3RFsRCt6TArray1ZQ225CCnvCharacterSetConverter13SCharacterSet
+5 Name=_._21CCnvCharacterSetNames
+;------------------EOF------------------

@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QUTIL.DLL Args=0 Drops=20
+;---------------------------------------
+1 Name=AllocConnections Pascal=8
+2 Name=AllocCountedString Pascal=8
+3 Name=AllocFixupInfo Pascal=8
+4 Name=DllCanUnloadNow Pascal=0
+5 Name=DllGetClassObject Pascal=12
+6 Name=DllRegisterServer Pascal=0
+7 Name=DllUnregisterServer Pascal=0
+8 Name=FreeConnections Pascal=4
+9 Name=FreeCountedString Pascal=4
+10 Name=FreeFixupInfo Pascal=4
+11 Name=FreeIsolationInfo Pascal=4
+12 Name=FreeIsolationInfoEx Pascal=4
+13 Name=FreeNapComponentRegistrationInfoArray Pascal=8
+14 Name=FreeNetworkSoH Pascal=4
+15 Name=FreePrivateData Pascal=4
+16 Name=FreeSoH Pascal=4
+17 Name=FreeSoHAttributeValue Pascal=8
+18 Name=FreeSystemHealthAgentState Pascal=4
+19 Name=InitializeNapAgentNotifier Pascal=8
+20 Name=UninitializeNapAgentNotifier Pascal=4
+;------------------EOF------------------

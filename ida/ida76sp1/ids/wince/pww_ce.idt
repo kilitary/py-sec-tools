@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PWW_CE.dll Pascal=0
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject
+3 Name=DllMain
+4 Name=ForeignToRtf32
+5 Name=GetReadNames
+6 Name=GetWriteNames
+7 Name=InitConverter32
+8 Name=RegisterApp
+;------------------EOF------------------

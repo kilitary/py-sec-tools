@@ -1,0 +1,67 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMCM Pascal=0
+;---------------------------------------
+1 Name=NewL__13CSmsClientMtmR17CRegisteredMtmDllR11CMsvSession
+2 Name=__19TSmsMessageSettings
+3 Name=Crc__C13TSmsPDUHeader
+4 Name=DecodeMessagePDUsL__10CSmsHeaderRCt9CArrayFix1Z4TSmsi
+5 Name=EncodeMessagePDUL__C11CSmsMessageR4TSmsi
+6 Name=EncodeMessagePDUsL__10CSmsHeaderiRt9CArrayFix1Z4TSmsii
+7 Name=ExternalizeL__C10CSmsHeaderR15RMsvWriteStream
+8 Name=ExternalizeL__C11CSmsMessageR15RMsvWriteStream
+9 Name=ExternalizeL__C12TSmsSettingsR15RMsvWriteStream
+10 Name=ExternalizeL__C13CSmsRecipientR15RMsvWriteStream
+11 Name=ExternalizeL__C13TSmsPDUHeaderR15RMsvWriteStream
+12 Name=ExternalizeL__C19TSmsMessageSettingsR15RMsvWriteStream
+13 Name=InternalizeL__10CSmsHeaderR14RMsvReadStream
+14 Name=InternalizeL__12TSmsSettingsR14RMsvReadStream
+15 Name=InternalizeL__13CSmsRecipientR14RMsvReadStream
+16 Name=InternalizeL__13TSmsPDUHeaderR14RMsvReadStream
+17 Name=InternalizeL__19TSmsMessageSettingsR14RMsvReadStream
+18 Name=MaxTextLength__C10CSmsHeader
+19 Name=MessageIndex__C11CSmsMessage
+20 Name=MessageReference__C10CSmsHeader
+21 Name=MessageReference__C11CSmsMessage
+22 Name=MessageSettings__C10CSmsHeaderR19TSmsMessageSettings
+23 Name=NewL__10CSmsHeaderQ211CSmsMessage11TSmsMsgTypeR10CPlainText
+24 Name=NewL__10CSmsHeaderRC4TSmsR10CPlainTexti
+25 Name=NewL__11CSmsMessageQ211CSmsMessage11TSmsMsgTypeR25CCnvCharacterSetConverter
+26 Name=NewL__11CSmsMessageR14RMsvReadStreamR25CCnvCharacterSetConverter
+27 Name=NewL__11CSmsMessageRC4TSmsR25CCnvCharacterSetConverteri
+28 Name=NewL__13CSmsRecipient
+29 Name=NumMessagePDUs__C13CSmsRecipient
+30 Name=NumMessagesL__10CSmsHeader
+31 Name=NumMessages__C11CSmsMessage
+32 Name=NumSentMessagePDUs__C13CSmsRecipient
+33 Name=ParsedServiceCenterAddress__C10CSmsHeaderR13TGsmTelNumber
+34 Name=PopulateMsgEntryL__10CSmsHeaderR9TMsvEntry
+35 Name=PopulateMsgEntry__13TSmsPDUHeaderR9TMsvEntry
+36 Name=RestoreL__10CSmsHeaderR9CMsvStore
+37 Name=RestoreL__12TSmsSettingsR9CMsvStore
+38 Name=RestoreL__13TSmsPDUHeaderR9CMsvStore
+39 Name=SentMessagePDUReference__C13CSmsRecipienti
+40 Name=ServiceCenterAddress__C10CSmsHeader
+41 Name=SetAddressL__13CSmsRecipientRC6TDesC8
+42 Name=SetMessageIndex__11CSmsMessagei
+43 Name=SetMessageReference__11CSmsMessagei
+44 Name=SetMessageSettingsL__10CSmsHeaderRC19TSmsMessageSettings
+45 Name=SetNameL__13CSmsRecipientRC6TDesC8
+46 Name=SetNumMessagePDUsL__13CSmsRecipienti
+47 Name=SetNumMessages__11CSmsMessagei
+48 Name=SetParsedServiceCenterAddressL__10CSmsHeaderRC13TGsmTelNumber
+49 Name=SetServiceCenterAddressL__10CSmsHeaderRC6TDesC8
+50 Name=SetTextConcatenatedL__11CSmsMessagei
+51 Name=StoreL__C10CSmsHeaderR9CMsvStore
+52 Name=StoreL__C12TSmsSettingsR9CMsvStore
+53 Name=StoreL__C13TSmsPDUHeaderR9CMsvStore
+54 Name=TextConcatenated__C11CSmsMessage
+55 Name=_._10CSmsHeader
+56 Name=_._13CSmsRecipient
+57 Name=__12TSmsSettings
+58 Name=__13TSmsPDUHeader
+59 Name=AddSentMessagePDUReference__13CSmsRecipientUi
+60 Name=CompressionSupported__10CSmsHeaderR3RFs
+;------------------EOF------------------

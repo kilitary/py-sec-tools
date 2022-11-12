@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SECDLGSV Pascal=0
+;---------------------------------------
+1 Name=__21RSecurityDialogServer
+2 Name=Connect__21RSecurityDialogServer
+3 Name=DisplayAlertDialog__21RSecurityDialogServer18TSecurityAlertEnumR14TRequestStatus
+4 Name=DisplayCertNotTrustedDlg__21RSecurityDialogServerRiRC16CX509CertificateR14TRequestStatus
+5 Name=StartDialogThread__Fv
+6 Name=Version__C21RSecurityDialogServer
+7 Name=_._21RSecurityDialogServer
+8 Name=Cancel__21RSecurityDialogServer
+;------------------EOF------------------

@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=elsTrans.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=DoAction Pascal=32
+2 Name=EnumServices Pascal=16
+3 Name=FreePropertyBag Pascal=8
+4 Name=FreeService Pascal=4
+5 Name=InitService Pascal=16
+6 Name=RecognizeText Pascal=24
+;------------------EOF------------------

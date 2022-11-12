@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HTTPMESSAGE Pascal=0
+;---------------------------------------
+1 Name=_ZN18RHttpMessageParser18CompletedBodyDataLEv
+2 Name=_ZN18RHttpMessageParser19ReceivedMessageDataEv
+3 Name=_ZN18RHttpMessageParser27Reserved_RHttpMessageParserEv
+4 Name=_ZN18RHttpMessageParser5CloseEv
+5 Name=_ZN18RHttpMessageParser5OpenLER26MHttpMessageParserObserver
+6 Name=_ZN18RHttpMessageParser5ResetEv
+7 Name=_ZN20RHttpMessageComposer14GetMessageDataER6TPtrC8
+8 Name=_ZN20RHttpMessageComposer18ReleaseMessageDataEv
+9 Name=_ZN20RHttpMessageComposer20MessageInfoAvailableEv
+10 Name=_ZN20RHttpMessageComposer27CheckMessagePendingCompleteEv
+11 Name=_ZN20RHttpMessageComposer29Reserved_RHttpMessageComposerEv
+12 Name=_ZN20RHttpMessageComposer5CloseEv
+13 Name=_ZN20RHttpMessageComposer5OpenLER28MHttpMessageComposerObserver
+14 Name=_ZN20RHttpMessageComposer5ResetEv
+15 Name=_ZTI18CHttpMessageParser
+16 Name=_ZTI20CHttpMessageComposer
+17 Name=_ZTV18CHttpMessageParser
+18 Name=_ZTV20CHttpMessageComposer
+19 Name=_ZN18RHttpMessageParser5FlushEv
+;------------------EOF------------------

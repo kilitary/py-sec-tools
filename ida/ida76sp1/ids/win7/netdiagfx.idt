@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=netdiagfx.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=WdiDiagnosticModuleMain Pascal=8
+2 Name=WdiGetDiagnosticModuleInterfaceVersion Pascal=0
+3 Name=WdiHandleInstance Pascal=8
+4 Name=HelperTraceEvent Pascal=16
+;------------------EOF------------------

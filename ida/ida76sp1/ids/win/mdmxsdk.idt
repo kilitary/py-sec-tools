@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mdmxsdk.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=EnumCnxtModem Pascal=8
+2 Name=GetAPIVersion Pascal=0
+3 Name=ModemClearAllConfigurations Pascal=4
+4 Name=ModemClose Pascal=4
+5 Name=ModemConfigure Pascal=28
+6 Name=ModemControl Pascal=28
+7 Name=ModemDeleteConfiguration Pascal=28
+8 Name=ModemEnum Pascal=0
+9 Name=ModemGetLastError Pascal=4
+10 Name=ModemMonitor Pascal=28
+11 Name=ModemOpen Pascal=8
+12 Name=ModemOpenByName Pascal=12
+13 Name=ModemPrivilegeOpen Pascal=12
+14 Name=ModemSetTrap Pascal=16
+;------------------EOF------------------

@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=tspkg.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=SpLsaModeInitialize Pascal=16
+2 Name=SpUserModeInitialize Pascal=16
+;------------------EOF------------------

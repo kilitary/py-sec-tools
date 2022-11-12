@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SCACHE Pascal=0
+;---------------------------------------
+1 Name=MCacheManagerObserverReserved1__21MCacheManagerObserver
+2 Name=MCacheManagerObserverReserved1__C21MCacheManagerObserver
+;------------------EOF------------------

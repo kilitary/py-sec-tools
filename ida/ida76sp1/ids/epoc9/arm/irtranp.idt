@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=IRTRANP Pascal=0
+;---------------------------------------
+1 Name=_ZN12TTranpConfig14PrimaryMachineEv
+2 Name=_ZN12TTranpConfig16SecondaryMachineEv
+3 Name=_ZN12TTranpConfig17SetPrimaryMachineERK6TDesC8
+4 Name=_ZN12TTranpConfig19SetSecondaryMachineERK6TDesC8
+5 Name=_ZN12TTranpConfigC1Ev
+6 Name=_ZN12TTranpConfigC2Ev
+7 Name=_ZN12TTranpConfigD1Ev
+8 Name=_ZN12TTranpConfigD2Ev
+9 Name=_ZN13CTranpSession10DisconnectEv
+10 Name=_ZN13CTranpSession3GetER13TTranpPicture
+11 Name=_ZN13CTranpSession3PutERK13TTranpPicture
+12 Name=_ZN13CTranpSession4NewLER18MTranpNotification
+13 Name=_ZN13CTranpSession5AbortEv
+14 Name=_ZN13CTranpSession5QueryENS_6TTranPE
+15 Name=_ZN13CTranpSession6ConfigERK12TTranpConfig
+16 Name=_ZN13CTranpSession7ConnectEv
+17 Name=_ZN13CTranpSessionD0Ev
+18 Name=_ZN13CTranpSessionD1Ev
+19 Name=_ZN13CTranpSessionD2Ev
+20 Name=_ZN13TTranpPicture10SaveAsJpegERK4TBufILi256EE
+21 Name=_ZN13TTranpPicture11LoadFromUPFERK4TBufILi256EE
+22 Name=_ZN13TTranpPicture11SetFilenameERK6TDesC8
+23 Name=_ZN13TTranpPicture12GetThumbNailEv
+24 Name=_ZN13TTranpPicture12LoadFromJpegERK4TBufILi256EE
+25 Name=_ZN13TTranpPicture12LongFilenameEv
+26 Name=_ZN13TTranpPicture14GetLatticeSizeER12TLatticeSizeRiS2_
+27 Name=_ZN13TTranpPicture15SetLongFilenameERK6TDesC8
+28 Name=_ZN13TTranpPicture21SetDesiredLatticeSizeE12TLatticeSizeii
+29 Name=_ZN13TTranpPicture4TimeEv
+30 Name=_ZN13TTranpPicture7PictureEv
+31 Name=_ZN13TTranpPicture7SetTimeERK6TDesC8
+32 Name=_ZN13TTranpPicture8FilenameEv
+33 Name=_ZN13TTranpPicture9SaveAsUPFERK4TBufILi256EE
+34 Name=_ZN13TTranpPictureC1Ev
+35 Name=_ZN13TTranpPictureC2Ev
+36 Name=_ZN13TTranpPictureD1Ev
+37 Name=_ZN13TTranpPictureD2Ev
+38 Name=_ZN18MTranpNotification23MTN_ExtensionInterfaceLE4TUidRPv
+39 Name=_ZNK13CTranpSession6ConfigEv
+40 Name=_ZTI18MTranpNotification
+41 Name=_ZTV18MTranpNotification
+;------------------EOF------------------

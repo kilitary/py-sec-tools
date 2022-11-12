@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MCP32.dll Pascal=0
+;---------------------------------------
+1 Name=McpOpenPipe
+2 Name=McpClosePipe
+3 Name=McpSendMsg
+4 Name=McpGetMsg
+5 Name=McpDispatchMsg
+6 Name=McpPeekMsg
+;------------------EOF------------------

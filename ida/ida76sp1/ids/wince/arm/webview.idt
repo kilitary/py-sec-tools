@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WEBVIEW.DLL Pascal=0
+;---------------------------------------
+10 Name=ReadFromURLFile
+11 Name=ReadFromURLFileEx
+12 Name=WriteURLFile
+13 Name=?PieLoadRegistrySettings@@YAXXZ
+14 Name=?IsOnline@@YAHXZ
+15 Name=?IsNetcardInstalled@@YAHXZ
+16 Name=?StartUp@@YAJXZ
+17 Name=?ShutDown@@YAJXZ
+19 Name=?PieLoadCSSSettings@@YAHXZ
+20 Name=WriteURLFileEx
+;------------------EOF------------------

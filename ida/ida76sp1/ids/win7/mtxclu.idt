@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mtxclu.dll Args=0 Drops=31
+;---------------------------------------
+1 Name=MtxCluGetComputerNameW Pascal=8
+2 Name=MtxCluGetDTCStatusW Pascal=8
+3 Name=MtxCluGetSecurityRegValue Pascal=20
+4 Name=MtxCluIsClusterPresent Pascal=4
+5 Name=MtxCluIsNetworkNameInLocalClusterW Pascal=8
+6 Name=MtxCluIsSameClusterW Pascal=12
+7 Name=MtxCluIsSameNodeW Pascal=12
+8 Name=MtxCluSetSecurityRegValue Pascal=20
+9 Name=Startup Pascal=24
+10 Name=MtxCluBringOnlineDTCW Pascal=8
+11 Name=MtxCluCreateClusterProxyTmInstance Pascal=24
+12 Name=MtxCluCreateClusterTmInstance Pascal=12
+13 Name=MtxCluCreateTmInstanceForVirtualServer Pascal=8
+14 Name=MtxCluEnumerateDtcResources Pascal=12
+15 Name=MtxCluGetActiveClusterNode Pascal=8
+16 Name=MtxCluGetClusterResourceIdFromName Pascal=12
+17 Name=MtxCluGetDTCResourceForResource Pascal=12
+18 Name=MtxCluGetDTCVirtualServerNameW Pascal=16
+19 Name=MtxCluGetDefaultClusterResource Pascal=12
+20 Name=MtxCluGetDefaultClusterResourceNonAdmin Pascal=12
+21 Name=MtxCluGetDtcDiskResourceDrive Pascal=8
+22 Name=MtxCluGetNameFromResourceIdString Pascal=8
+23 Name=MtxCluGetNameFromResourceIdStringNonAdmin Pascal=12
+24 Name=MtxCluGetResourceId Pascal=12
+25 Name=MtxCluGetResourceIdStringFromName Pascal=12
+26 Name=MtxCluGetTmResource Pascal=52
+27 Name=MtxCluGetVirtualServerToken Pascal=12
+28 Name=MtxCluIsClusterPresentExW Pascal=4
+29 Name=MtxCluSetDefaultClusterResource Pascal=12
+30 Name=MtxCluTakeOfflineDTCW Pascal=8
+31 Name=MtxCluVerifyLogPathInDependantDiskResource Pascal=8
+;------------------EOF------------------

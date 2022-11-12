@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2SMARTCARDFACTORY Pascal=0
+;---------------------------------------
+1 Name=_Z20GetSmartcardFactoryLm
+2 Name=_ZTI17CSmartcardFactory
+3 Name=_ZTV17CSmartcardFactory
+;------------------EOF------------------

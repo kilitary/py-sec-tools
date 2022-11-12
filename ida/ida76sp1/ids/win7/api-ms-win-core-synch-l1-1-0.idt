@@ -1,0 +1,49 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-synch-l1-1-0.dll Args=0 Drops=42
+;---------------------------------------
+1 Name=AcquireSRWLockExclusive Pascal=4
+2 Name=AcquireSRWLockShared Pascal=4
+3 Name=CancelWaitableTimer Pascal=4
+4 Name=CreateEventA Pascal=16
+5 Name=CreateEventExA Pascal=16
+6 Name=CreateEventExW Pascal=16
+7 Name=CreateEventW Pascal=16
+8 Name=CreateMutexA Pascal=12
+9 Name=CreateMutexExA Pascal=16
+10 Name=CreateMutexExW Pascal=16
+11 Name=CreateMutexW Pascal=12
+12 Name=CreateSemaphoreExW Pascal=24
+13 Name=CreateWaitableTimerExW Pascal=16
+14 Name=DeleteCriticalSection Pascal=4
+15 Name=EnterCriticalSection Pascal=4
+16 Name=InitializeCriticalSection Pascal=4
+17 Name=InitializeCriticalSectionAndSpinCount Pascal=8
+18 Name=InitializeCriticalSectionEx Pascal=12
+19 Name=InitializeSRWLock Pascal=4
+20 Name=LeaveCriticalSection Pascal=4
+21 Name=OpenEventA Pascal=12
+22 Name=OpenEventW Pascal=12
+23 Name=OpenMutexW Pascal=12
+24 Name=OpenProcess Pascal=12
+25 Name=OpenSemaphoreW Pascal=12
+26 Name=OpenWaitableTimerW Pascal=12
+27 Name=ReleaseMutex Pascal=4
+28 Name=ReleaseSRWLockExclusive Pascal=4
+29 Name=ReleaseSRWLockShared Pascal=4
+30 Name=ReleaseSemaphore Pascal=12
+31 Name=ResetEvent Pascal=4
+32 Name=SetCriticalSectionSpinCount Pascal=8
+33 Name=SetEvent Pascal=4
+34 Name=SetWaitableTimer Pascal=24
+35 Name=SetWaitableTimerEx Pascal=28
+36 Name=SleepEx Pascal=8
+37 Name=TryAcquireSRWLockExclusive Pascal=4
+38 Name=TryAcquireSRWLockShared Pascal=4
+39 Name=TryEnterCriticalSection Pascal=4
+40 Name=WaitForMultipleObjectsEx Pascal=20
+41 Name=WaitForSingleObject Pascal=8
+42 Name=WaitForSingleObjectEx Pascal=12
+;------------------EOF------------------

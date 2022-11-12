@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=USBCLASSCONTROLLER Pascal=0
+;---------------------------------------
+1 Name=_ZN23CUsbClassControllerBase7CompareERKS_S1_
+2 Name=_ZN23CUsbClassControllerBaseC2ER25MUsbClassControllerNotifyi
+3 Name=_ZN23CUsbClassControllerBaseD0Ev
+4 Name=_ZN23CUsbClassControllerBaseD1Ev
+5 Name=_ZN23CUsbClassControllerBaseD2Ev
+6 Name=_ZN25CUsbClassControllerPlugIn4NewLE4TUidR25MUsbClassControllerNotify
+7 Name=_ZN25CUsbClassControllerPlugInC2ER25MUsbClassControllerNotifyi
+8 Name=_ZN25CUsbClassControllerPlugInD0Ev
+9 Name=_ZN25CUsbClassControllerPlugInD1Ev
+10 Name=_ZN25CUsbClassControllerPlugInD2Ev
+11 Name=_ZN27CUsbClassControllerIterator4NextEv
+12 Name=_ZN27CUsbClassControllerIterator4SeekEP23CUsbClassControllerBase
+13 Name=_ZN27CUsbClassControllerIterator5FirstEv
+14 Name=_ZN27CUsbClassControllerIterator7CurrentEv
+15 Name=_ZN27CUsbClassControllerIterator8PreviousEv
+16 Name=_ZN27CUsbClassControllerIteratorC1ER13RPointerArrayI23CUsbClassControllerBaseE
+17 Name=_ZN27CUsbClassControllerIteratorC2ER13RPointerArrayI23CUsbClassControllerBaseE
+18 Name=_ZN27CUsbClassControllerIteratorD0Ev
+19 Name=_ZN27CUsbClassControllerIteratorD1Ev
+20 Name=_ZN27CUsbClassControllerIteratorD2Ev
+21 Name=_ZNK23CUsbClassControllerBase15StartupPriorityEv
+22 Name=_ZNK23CUsbClassControllerBase5OwnerEv
+23 Name=_ZNK23CUsbClassControllerBase5StateEv
+24 Name=_ZTI23CUsbClassControllerBase
+25 Name=_ZTI25CUsbClassControllerPlugIn
+26 Name=_ZTV23CUsbClassControllerBase
+27 Name=_ZTV25CUsbClassControllerPlugIn
+;------------------EOF------------------

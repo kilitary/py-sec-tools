@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=seclogon.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=DllRegisterServer Pascal=0
+2 Name=DllUnregisterServer Pascal=0
+3 Name=SvcEntry_Seclogon Pascal=8
+4 Name=SvchostPushServiceGlobals Pascal=4
+;------------------EOF------------------

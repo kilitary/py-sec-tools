@@ -1,0 +1,15 @@
+DECLARATION Nokia 9110 Geos 3.0 library ssset.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sssetdll Pascal=0
+;---------------------------------------
+1 Name=CDivertingClass
+2 Name=CBarringClass
+3 Name=CWaitingClass
+4 Name=DvrtNoReplyTimeOutClass
+5 Name=DvrtNoReplyNumberClass
+6 Name=DvrtBusyNumberClass
+7 Name=DvrtReachableNumberClass
+8 Name=DvrtAllNumberClass
+;------------------EOF------------------

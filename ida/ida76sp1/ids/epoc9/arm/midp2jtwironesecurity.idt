@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2JTWIRONESECURITY Pascal=0
+;---------------------------------------
+1 Name=_ZN4MIDP7Runtime17GetTrustedPolicyLERK7TDesC16S3_RKNS_16MMIDletSuiteInfoE
+2 Name=_ZN4MIDP7Runtime19GetUntrustedPolicyLERK7TDesC16RKNS_16MMIDletSuiteInfoE
+3 Name=_ZTIN4MIDP22CFunctionGroupSettingsE
+4 Name=_ZTIN4MIDP23CJTWIrOneSecurityPolicyE
+5 Name=_ZTIN4MIDP23CMIDletSuitePermissionsE
+6 Name=_ZTIN4MIDP30CMutableMIDletSuitePermissionsE
+7 Name=_ZTIN4MIDP32CImmutableMIDletSuitePermissionsE
+8 Name=_ZTVN4MIDP22CFunctionGroupSettingsE
+9 Name=_ZTVN4MIDP23CJTWIrOneSecurityPolicyE
+10 Name=_ZTVN4MIDP23CMIDletSuitePermissionsE
+11 Name=_ZTVN4MIDP30CMutableMIDletSuitePermissionsE
+12 Name=_ZTVN4MIDP32CImmutableMIDletSuitePermissionsE
+;------------------EOF------------------

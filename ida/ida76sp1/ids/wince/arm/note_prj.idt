@@ -1,0 +1,51 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=Note_prj.dll Pascal=0
+;---------------------------------------
+1 Name=Proj_Enum
+2 Name=Proj_Free
+3 Name=Proj_FillCB
+4 Name=Proj_CenterWindow
+5 Name=EnumProjects
+6 Name=EnumProjectsFiles
+7 Name=FindFirstFlashCard
+8 Name=FindNextFlashCard
+9 Name=FindFirstProjectFile
+10 Name=FindNextProjectFile
+11 Name=Options_ColumnsDlgDialogProc
+12 Name=Options_ColumnsPSDialogProc
+13 Name=Proj_GetDllData
+14 Name=FileOpen_Run
+15 Name=File_IsValid
+16 Name=File_FormatTime
+17 Name=File_FormatSize
+18 Name=Format_AddCommas
+19 Name=GetMyDocumentFolder
+20 Name=Proj_PositionSip
+21 Name=EnumProjectsEx
+22 Name=EnumProjectsFilesEx
+23 Name=PA_SetDataPathname
+24 Name=PA_SetDataFD
+25 Name=PA_SetDataRaw
+26 Name=PA_GetPath
+27 Name=PA_GetProj
+28 Name=PA_GetFile
+29 Name=PA_GetLocation
+30 Name=PA_GetFileSize
+31 Name=PA_GetFileWriteTime
+32 Name=PA_DeleteFile
+33 Name=PathToProjectName
+34 Name=Proj_CompactFlashPresent
+35 Name=Proj_CompactFlashReady
+36 Name=GetRootPath
+37 Name=GetOutlookSyncFolder
+38 Name=GetSpecialFolder
+39 Name=PathContainsMyDocuments
+40 Name=AddStoragesToCombo
+41 Name=PathToProjectNameEx
+42 Name=PA_GetPathType
+43 Name=File_GetHeader
+44 Name=File_FormatSeconds
+;------------------EOF------------------

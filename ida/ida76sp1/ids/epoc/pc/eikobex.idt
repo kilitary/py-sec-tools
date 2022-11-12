@@ -1,0 +1,60 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EikObex Pascal=0
+;---------------------------------------
+1 Name=??1CEikIrMain@@UAE@XZ
+2 Name=??1CEikIrOBEXDataReceiver@@UAE@XZ
+3 Name=??1CEikIrOBEXDataSender@@UAE@XZ
+4 Name=??1CEikIrOBEXFileSender@@UAE@XZ
+5 Name=??1CEikIrOBEXMultipleFileReceiver@@UAE@XZ
+6 Name=??1CEikIrOBEXReceiver@@UAE@XZ
+7 Name=??1CEikIrOBEXSender@@UAE@XZ
+8 Name=??1CEikIrReceiver@@UAE@XZ
+9 Name=??1CEikIrSender@@UAE@XZ
+10 Name=?CancelTransmissionL@CEikIrOBEXReceiver@@QAEXXZ
+11 Name=?CancelTransmissionL@CEikIrOBEXSender@@QAEXXZ
+12 Name=?Description@CEikIrOBEXReceiver@@QAE?AVTPtr8@@XZ
+13 Name=?Description@CEikIrOBEXSender@@QAE?AVTPtr8@@XZ
+14 Name=?FileName@CEikIrOBEXMultipleFileReceiver@@QBEXAAVTDes8@@@Z
+15 Name=?ReservedExport@@YAXXZ
+16 Name=?HeaderMask@CEikIrOBEXReceiver@@QAEGXZ
+17 Name=?HeaderMask@CEikIrOBEXSender@@QAEGXZ
+18 Name=?LastError@CEikIrOBEXDataSender@@QAEHXZ
+19 Name=?Length@CEikIrOBEXReceiver@@QAEKXZ
+20 Name=?Length@CEikIrOBEXSender@@QAEKXZ
+21 Name=?Name@CEikIrOBEXReceiver@@QAE?AVTPtr8@@XZ
+22 Name=?Name@CEikIrOBEXSender@@QAE?AVTPtr8@@XZ
+23 Name=?NewL@CEikIrOBEXDataReceiver@@SAPAV1@XZ
+24 Name=?NewL@CEikIrOBEXDataSender@@SAPAV1@XZ
+25 Name=?NewL@CEikIrOBEXFileSender@@SAPAV1@XZ
+26 Name=?NewL@CEikIrOBEXMultipleFileReceiver@@SAPAV1@XZ
+27 Name=?ReceiveLD@CEikIrOBEXDataReceiver@@QAEXPAVCBufBase@@PAVMEikIrOBEXObserver@@@Z
+28 Name=?ReceiveLD@CEikIrOBEXMultipleFileReceiver@@QAEXABVTDesC8@@PAVMEikIrOBEXObserver@@@Z
+29 Name=?RemoteOBEXAppID@CEikIrOBEXDataSender@@QAE?AVTPtrC8@@XZ
+30 Name=?ReplyReceived@CEikIrOBEXDataSender@@QAE?AVTPtrC8@@XZ
+31 Name=?RequestRemoteInfo@CEikIrOBEXDataSender@@QAEXABVTDesC8@@@Z
+32 Name=?SendLD@CEikIrOBEXDataSender@@QAEXPAVCBufBase@@0ABVTDesC8@@1011PAVMEikIrOBEXObserver@@@Z
+33 Name=?SendLD@CEikIrOBEXDataSender@@QAEXPAVCBufBase@@PAVMEikIrOBEXObserver@@@Z
+34 Name=?SendLD@CEikIrOBEXFileSender@@QAEXABV?$TBuf@$0BAA@@@PBVTDesC8@@PAVMEikIrOBEXObserver@@@Z
+35 Name=?SendReply@CEikIrOBEXDataReceiver@@QAEXVTPtrC8@@@Z
+36 Name=?SetDescriptionL@CEikIrOBEXSender@@QAEXABVTDesC8@@@Z
+37 Name=?SetHeaderMask@CEikIrOBEXSender@@QAEXG@Z
+38 Name=?SetLengthL@CEikIrOBEXSender@@QAEXABK@Z
+39 Name=?SetNameL@CEikIrOBEXSender@@QAEXABVTDesC8@@@Z
+40 Name=?SetRejectSize@CEikIrOBEXDataReceiver@@QAEXH@Z
+41 Name=?SetTargetL@CEikIrOBEXSender@@QAEXABVTDesC8@@@Z
+42 Name=?SetTimeL@CEikIrOBEXSender@@QAEXABVTTime@@@Z
+43 Name=?SetTypeL@CEikIrOBEXSender@@QAEXABVTDesC8@@@Z
+44 Name=?SetWhoIAm@CEikIrOBEXDataReceiver@@QAEXABVTDesC8@@@Z
+45 Name=?SetWhoIAm@CEikIrOBEXDataSender@@QAEXABVTDesC8@@@Z
+46 Name=?Target@CEikIrOBEXReceiver@@QAE?AVTPtr8@@XZ
+47 Name=?Target@CEikIrOBEXSender@@QAE?AVTPtr8@@XZ
+48 Name=?Time@CEikIrOBEXReceiver@@QAE?AVTTime@@XZ
+49 Name=?Time@CEikIrOBEXSender@@QAE?AVTTime@@XZ
+50 Name=?Type@CEikIrOBEXReceiver@@QAE?AVTPtr8@@XZ
+51 Name=?Type@CEikIrOBEXSender@@QAE?AVTPtr8@@XZ
+52 Name=?irDASendObject@CEikIrOBEXDataSender@@QAEXXZ
+53 Name=?irOBEXSendObject@CEikIrOBEXDataSender@@QAEXABVTDesC8@@0@Z
+;------------------EOF------------------

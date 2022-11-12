@@ -1,0 +1,185 @@
+DECLARATION Nokia 9110 Geos 3.0 library mailbox.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+44 Name=mailboxdll Args=0 Drops=39
+;---------------------------------------
+1 Name=MediaNewTransport
+2 Name=InboxMessageAdded
+3 Name=MUCleanupDelayBodyDeleteCallback
+4 Name=MUCleanupDelayedTransportNotify
+5 Name=MessageCleanup
+6 Name=OutboxMessageAdded
+7 Name=UtilNewDataDriver
+8 Name=MessageControlPanelClass
+9 Name=MessageListClass
+10 Name=MessageGlyphClass
+11 Name=MessageDetailsClass
+12 Name=OutboxProgressClass
+13 Name=OutboxMessageListClass
+14 Name=OutboxSendableConfirmationClass
+15 Name=OutboxTransportListClass
+16 Name=OutboxControlPanelClass
+17 Name=OutboxDetailsClass
+18 Name=OutboxTransportMonikerSourceClass
+19 Name=OutboxTransportMenuClass
+20 Name=MailboxSendControlClass
+21 Name=MailboxSendDialogClass
+22 Name=MailboxAddressControlClass
+23 Name=MailboxApplicationClass
+24 Name=InboxMessageListClass
+25 Name=InboxControlPanelClass
+26 Name=InboxApplicationListClass
+27 Name=InboxDetailsClass
+28 Name=MailboxEMOMClass
+29 Name=MailboxPanelTriggerClass
+30 Name=OutboxPoofMenuClass
+31 Name=PoofQuickMessageSendDialogClass
+32 Name=PoofFileSendDialogClass
+33 Name=PoofClipboardSendDialogClass
+34 Name=MailboxSpoolAddressControlClass
+35 Name=MailboxProgressGaugeClass
+36 Name=MailboxProgressBoxClass
+37 Name=MailboxPagesClass
+38 Name=InboxTransWinCloseClass
+39 Name=OutboxConfirmationClass
+41 Name=MailboxGetAdminFile
+42 Name=MailboxRegisterReceiptThread
+43 Name=MailboxUnregisterReceiptThread
+44 Name=MailboxRetrieveMessages
+45 Name=MailboxGetCancelFlag
+46 Name=MailboxSetCancelAction
+47 Name=MailboxReportProgress
+48 Name=MailboxGetFirstMediumUnit
+49 Name=MailboxCheckMediumAvailable
+50 Name=MailboxCheckMediumConnected
+51 Name=MailboxRegisterMessage
+52 Name=MailboxGetStorageType
+53 Name=MailboxGetSubjectLMem
+54 Name=MailboxGetSubjectBlock
+55 Name=MailboxGetMessageFlags
+56 Name=MailboxGetBodyFormat
+57 Name=MailboxGetBodyRef
+58 Name=MailboxChangeBodyFormat
+59 Name=MailboxStealBody
+60 Name=MailboxDoneWithBody
+61 Name=MailboxAcknowledgeMessageReceipt
+62 Name=MailboxDeleteMessage
+63 Name=MailboxGetBodyMboxRefBlock
+64 Name=MailboxGetDestApp
+65 Name=MailboxGetStartBound
+66 Name=MailboxGetEndBound
+67 Name=MailboxGetTransData
+68 Name=MailboxSetTransData
+69 Name=MailboxGetTransOption
+70 Name=MailboxGetTransport
+71 Name=MailboxReplyToMessage
+72 Name=MailboxGetTransAddr
+73 Name=MailboxSetTransAddr
+74 Name=MailboxGetNumTransAddrs
+75 Name=MailboxGetRemainingMessages
+76 Name=MailboxGetRemainingDestinations
+77 Name=MailboxConvertToMailboxTransferItem
+78 Name=MailboxConvertToClipboardTransferItem
+79 Name=MAILBOXPUSHTOMAILBOXDIR \
+	Comment=void pascal MailboxPushToMailboxDir(void) in mailbox.goh
+80 Name=MAILBOXCHANGETOMAILBOXDIR \
+	Comment=void pascal MailboxChangeToMailboxDir(void) in mailbox.goh
+81 Name=MailboxFreeDriver
+82 Name=MailboxLoadDataDriver
+83 Name=MailboxLoadDataDriverWithError
+84 Name=MailboxLoadTransportDriver
+85 Name=MailboxGetVMFile
+86 Name=MailboxGetVMFileName
+87 Name=MailboxOpenVMFile
+88 Name=MailboxDoneWithVMFile
+89 Name=MAILBOXGETVMFILE Pascal=6 \
+	Comment=VMFileHandle pascal MailboxGetVMFile(word expectedNumBlocks, word *vmStatusp) in mailbox.goh
+90 Name=MAILBOXOPENVMFILE Pascal=8 \
+	Comment=VMFileHandle pascal MailboxOpenVMFile(FileLongName *namep, word *vmStatusp) in mailbox.goh
+91 Name=MAILBOXGETVMFILENAME Pascal=6 \
+	Comment=void pascal MailboxGetVMFileName(VMFileHandle file, FileLongName *namep) in mailbox.goh
+92 Name=MAILBOXDONEWITHVMFILE Pascal=2 \
+	Comment=void pascal MailboxDoneWithVMFile(VMFileHandle file) in mailbox.goh
+93 Name=MAILBOXREGISTERMESSAGE Pascal=8 \
+	Comment=MailboxError pascal MailboxRegisterMessage(MailboxRegisterMessageArgs *mrmArgs, MailboxMessage *msg) in mailbox.goh
+94 Name=MAILBOXCHANGEBODYFORMAT Pascal=8 \
+	Comment=MailboxError pascal MailboxChangeBodyFormat(MailboxMessage msg, const MailboxChangeBodyFormatArgs *mcbfArgs) in mailbox.goh
+95 Name=MAILBOXGETBODYFORMAT Pascal=8 \
+	Comment=MailboxError pascal MailboxGetBodyFormat(MailboxMessage msg, MailboxDataFormat *dataFormat) in mailbox.goh
+96 Name=MAILBOXGETBODYREF Pascal=12 \
+	Comment=MailboxError pascal MailboxGetBodyRef(MailboxMessage msg, void *appRefBuf, word *appRefBufSize) in mailbox.goh
+97 Name=MAILBOXDONEWITHBODY Pascal=10 \
+	Comment=void pascal MailboxDoneWithBody(MailboxMessage msg, const void *appRef, word appRefSize) in mailbox.goh
+98 Name=MAILBOXSTEALBODY Pascal=12 \
+	Comment=MailboxError pascal MailboxStealBody(MailboxMessage msg, void *appRefBuf, word *appRefBufSize) in mailbox.goh
+99 Name=MAILBOXGETMESSAGEFLAGS Pascal=8 \
+	Comment=MailboxError pascal MailboxGetMessageFlags(MailboxMessage msg, MailboxMessageFlags *flags) in mailbox.goh
+100 Name=MAILBOXGETSUBJECTLMEM Pascal=10 \
+	Comment=MailboxError pascal MailboxGetSubjectLMem(MailboxMessage msg, MemHandle lmemBlock, ChunkHandle *subjectChunk) in mailbox.goh
+101 Name=MAILBOXGETSUBJECTBLOCK Pascal=8 \
+	Comment=MailboxError pascal MailboxGetSubjectBlock(MailboxMessage msg, MemHandle *subjHandle) in mailbox.goh
+102 Name=MAILBOXACKNOWLEDGEMESSAGERECEIPT Pascal=4 \
+	Comment=void pascal MailboxAcknowledgeMessageReceipt(MailboxMessage msg) in mailbox.goh
+103 Name=MAILBOXGETDESTAPP Pascal=8 \
+	Comment=MailboxError pascal MailboxGetDestApp(MailboxMessage msg, GeodeToken *tokenBuf) in mailbox.goh
+104 Name=MAILBOXGETSTORAGETYPE Pascal=8 \
+	Comment=MailboxError pascal MailboxGetStorageType(MailboxMessage msg, MailboxStorage *storage) in mailbox.goh
+105 Name=MAILBOXSETTRANSADDR Pascal=12 \
+	Comment=MailboxError pascal MailboxSetTransAddr(MailboxMessage msg, word addrNumber, const void *newAddress, word addrSize) in mailbox.goh
+106 Name=MAILBOXGETTRANSADDR Pascal=14 \
+	Comment=Boolean pascal MailboxGetTransAddr(MailboxMessage msg, word addrNumber, void *addressBuffer, word *bufSizePtr) in mailbox.goh
+107 Name=MAILBOXGETNUMTRANSADDRS Pascal=8 \
+	Comment=MailboxError pascal MailboxGetNumTransAddrs(MailboxMessage msg, word *numAddresses) in mailbox.goh
+108 Name=MAILBOXREPORTPROGRESS Pascal=8 \
+	Comment=void pascal MailboxReportProgress(MailboxProgressType type, dword data, MailboxProgressAction action) in internal/mboxint.goh
+109 Name=MAILBOXGETCANCELFLAG \
+	Comment=word * pascal MailboxGetCancelFlag(void) in internal/mboxint.goh
+110 Name=MAILBOXGETTRANSDATA Pascal=8 \
+	Comment=MailboxError pascal MailboxGetTransData(MailboxMessage msg, dword *transData) in mailbox.goh
+111 Name=MAILBOXSETTRANSDATA Pascal=8 \
+	Comment=MailboxError pascal MailboxSetTransData(MailboxMessage msg, dword transData) in mailbox.goh
+112 Name=MAILBOXGETBODYMBOXREFBLOCK Pascal=8 \
+	Comment=MailboxError pascal MailboxGetBodyMboxRefBlock(MailboxMessage msg, MemHandle *mboxRefHandle) in mailbox.goh
+113 Name=MAILBOXGETSTARTBOUND Pascal=8 \
+	Comment=MailboxError pascal MailboxGetStartBound(MailboxMessage msg, FileDateAndTime *dateTime) in mailbox.goh
+114 Name=MAILBOXGETENDBOUND Pascal=8 \
+	Comment=MailboxError pascal MailboxGetEndBound(MailboxMessage msg, FileDateAndTime *dateTime) in mailbox.goh
+115 Name=MAILBOXDELETEMESSAGE Pascal=4 \
+	Comment=void pascal MailboxDeleteMessage(MailboxMessage msg) in mailbox.goh
+116 Name=MAILBOXCHECKMEDIUMAVAILABLE Pascal=8 \
+	Comment=Boolean pascal MailboxCheckMediumAvailable(MediumType mediumType, word unitNum, MediumUnitType unitType) in mailbox.goh
+117 Name=MAILBOXCHECKMEDIUMCONNECTED Pascal=8 \
+	Comment=Boolean pascal MailboxCheckMediumConnected(MediumType mediumType, word unitNum, MediumUnitType unitType) in mailbox.goh
+118 Name=MAILBOXGETFIRSTMEDIUMUNIT Pascal=8 \
+	Comment=word pascal MailboxGetFirstMediumUnit(MediumType mediumType, MediumUnitType *unitType) in mailbox.goh
+119 Name=MAILBOXSETCANCELACTION Pascal=6 \
+	Comment=void pascal MailboxSetCancelAction(optr destination, Message messageToSend) in internal/mboxint.goh
+120 Name=MAILBOXLOADTRANSPORTDRIVER Pascal=8 \
+	Comment=GeodeHandle pascal MailboxLoadTransportDriver(MailboxTransport transport, GeodeLoadError *error) in mailbox.goh
+121 Name=MAILBOXLOADDATADRIVER Pascal=8 \
+	Comment=GeodeHandle pascal MailboxLoadDataDriver(MailboxStorage storage, GeodeLoadError *error) in mailbox.goh
+122 Name=MAILBOXLOADDATADRIVERWITHERROR Pascal=8 \
+	Comment=GeodeHandle pascal MailboxLoadDataDriverWithError(MailboxStorage storage, GeodeLoadError *error) in mailbox.goh
+123 Name=MAILBOXFREEDRIVER Pascal=2 \
+	Comment=void pascal MailboxFreeDriver(GeodeHandle driverHandle) in mailbox.goh
+124 Name=MAILBOXCONVERTTOMAILBOXTRANSFERITEM Pascal=16 \
+	Comment=void pascal MailboxConvertToMailboxTransferItem(VMFileHandle clipboardFile, VMBlockHandle clipboardBlock, VMFileHandle vmFile, word userID, MemHandle nameLMemBlock, ChunkHandle nameChunk, VMFileHandle *transferItemBlock) in mailbox.goh
+125 Name=MAILBOXCONVERTTOCLIPBOARDTRANSFERITEM Pascal=12 \
+	Comment=void pascal MailboxConvertToClipboardTransferItem(VMFileHandle mailboxFile, VMBlockHandle mailboxBlock, VMFileHandle clipboardFile, word userID, VMBlockHandle *clipboardBlock) in mailbox.goh
+126 Name=MAILBOXGETADMINFILE \
+	Comment=VMFileHandle pascal MailboxGetAdminFile(void) in mailbox.goh
+127 Name=MailboxOutboxControlClass
+128 Name=OutboxControlMessageListClass
+129 Name=MailboxGetUserTransAddrLMem
+131 Name=MAILBOXGETUSERTRANSADDRLMEM Pascal=12 \
+	Comment=MailboxError pascal MailboxGetUserTransAddrLMem(MailboxMessage msg, word addrNumber, MemHandle lmemBlock, ChunkHandle *addrChunk) in mailbox.goh
+133 Name=MailboxBodyReformatted
+134 Name=MAILBOXBODYREFORMATTED Pascal=10 \
+	Comment=MailboxError pascal MailboxBodyReformatted(MailboxMessage msg, MailboxDataFormat newFormat, MailboxMessageFlags newBodyFlags) in mailbox.goh
+135 Name=MAILBOXGETREMAININGMESSAGES \
+	Comment=word pascal MailboxGetRemainingMessages(void) in internal/mboxint.goh
+136 Name=MAILBOXGETREMAININGDESTINATIONS Pascal=4 \
+	Comment=dword pascal MailboxGetRemainingDestinations(MailboxMessage msg) in internal/mboxint.goh
+139 Name=MTNotifyFirstLoad
+;------------------EOF------------------

@@ -1,0 +1,69 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DEVMANCMDMGR Pascal=0
+;---------------------------------------
+1 Name=_Z12GetParentUriRK6TDesC8
+2 Name=_ZN11DmFilePaths15CreateDataPathLER3RFs
+3 Name=_ZN11DmFilePaths18ParseWithDataPathLER3RFsR6TParseRK7TDesC16
+4 Name=_ZN11DmFilePaths21CreateDataImportPathLER3RFs
+5 Name=_ZN11DmFilePaths21ParseWithInstallPathLER3RFsR6TParseRK7TDesC16
+6 Name=_ZN11DmFilePaths24ParseWithDataImportPathLER3RFsR6TParseRK7TDesC16
+7 Name=_ZN11DmFilePaths27ParseWithInstallImportPathLER3RFsR6TParseRK7TDesC16
+8 Name=_ZN11DmFilePaths27ParseWithPrivateImportPathLER3RFsR6TParseRK7TDesC16
+9 Name=_ZN12CDmPluginMgr4NewLER18MDmAdapterResolver
+10 Name=_ZN9CDmCmdMgr10NewClientLERK6TDesC8
+11 Name=_ZN9CDmCmdMgr11TimeOutCmdsE20TTimeIntervalSeconds
+12 Name=_ZN9CDmCmdMgr12SetSuspendedEi
+13 Name=_ZN9CDmCmdMgr16SetBootStrapModeEi
+14 Name=_ZN9CDmCmdMgr4NewLER17MDmCmdMgrObserverR12MDmPluginMgrR12MDmTreeStoreR11MDmDdfStore
+15 Name=_ZN9CDmCmdMgr7NewCmdLEv
+16 Name=_ZN9CDmPluginD0Ev
+17 Name=_ZN9CDmPluginD1Ev
+18 Name=_ZN9CDmPluginD2Ev
+19 Name=_ZN9DmStrings8DmStringENS_13TDmStringTypeE
+20 Name=_ZNK9CDmCmdMgr11IsSuspendedEv
+21 Name=_ZNK9CDmPlugin22CDMP_ExtendedInterfaceE4TUid
+22 Name=_ZTI12CDmPluginMgr
+23 Name=_ZTI13CDmCmdMgrImpl
+24 Name=_ZTI13CDmCmdMgrTask
+25 Name=_ZTI15CDmCmdMgrClient
+26 Name=_ZTI16CDmServerIdTable
+27 Name=_ZTI6CDmAcl
+28 Name=_ZTI6CDmCmd
+29 Name=_ZTI9CDmPlugin
+30 Name=_ZTI9CDmPolicy
+31 Name=_ZTV12CDmPluginMgr
+32 Name=_ZTV13CDmCmdMgrImpl
+33 Name=_ZTV13CDmCmdMgrTask
+34 Name=_ZTV15CDmCmdMgrClient
+35 Name=_ZTV16CDmServerIdTable
+36 Name=_ZTV6CDmAcl
+37 Name=_ZTV6CDmCmd
+38 Name=_ZTV9CDmPlugin
+39 Name=_ZTV9CDmPolicy
+40 Name=_ZN13CSmlDmAdapter18ExtendedInterfaceLE4TUid
+41 Name=_ZN13CSmlDmAdapter4NewLERK4TUidR14MSmlDmCallback
+42 Name=_ZN13CSmlDmAdapter8CallbackEv
+43 Name=_ZN13CSmlDmAdapterC2EPv
+44 Name=_ZN13CSmlDmAdapterD0Ev
+45 Name=_ZN13CSmlDmAdapterD1Ev
+46 Name=_ZN13CSmlDmAdapterD2Ev
+47 Name=_ZTI13CSmlDmAdapter
+48 Name=_ZTV13CSmlDmAdapter
+49 Name=_ZN9DmStrings9DmString8ENS_14TDmStringType8E
+50 Name=_ZN9CDmCmdMgr17ResetRootNodeAclLEv
+51 Name=_ZN13RDmCmdReqData10NextChunkLER5TDes8
+52 Name=_ZN13RDmCmdReqData5CloseEv
+53 Name=_ZN13RDmCmdReqData5ResetEv
+54 Name=_ZNK13RDmCmdReqData8DataSizeEv
+55 Name=_ZNK13RDmCmdReqData13UnspooledDataEv
+56 Name=_ZN11DmFilePaths25ParseWithPrivateTempPathLER3RFsR6TParseRK7TDesC16
+57 Name=_ZN14MSmlDmCallback18ExtendedInterfaceLE4TUid
+58 Name=_ZN15MSmlDmDDFObject18ExtendedInterfaceLE4TUid
+59 Name=_ZTI14MSmlDmCallback
+60 Name=_ZTI15MSmlDmDDFObject
+61 Name=_ZTV14MSmlDmCallback
+62 Name=_ZTV15MSmlDmDDFObject
+;------------------EOF------------------

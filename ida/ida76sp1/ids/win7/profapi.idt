@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=profapi.dll Args=0 Drops=6
+;---------------------------------------
+101 Name=CreateEnvBlock Pascal=12
+102 Name=DestroyEnvBlock Pascal=4
+103 Name=ExpandEnvStringForUser Pascal=16
+104 Name=GetBasicProfileFolderPath Pascal=16
+105 Name=LoadProfileBasic Pascal=8
+106 Name=UnloadProfileBasic Pascal=8
+;------------------EOF------------------

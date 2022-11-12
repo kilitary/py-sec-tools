@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=winhttp.dll Args=0 Drops=31
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=DllRegisterServer Pascal=0
+4 Name=DllUnregisterServer Pascal=0
+5 Name=WinHttpAddRequestHeaders Pascal=16
+6 Name=WinHttpCheckPlatform Pascal=0
+7 Name=WinHttpCloseHandle Pascal=4
+8 Name=WinHttpConnect Pascal=16
+9 Name=WinHttpCrackUrl Pascal=16
+10 Name=WinHttpCreateUrl Pascal=16
+11 Name=WinHttpDetectAutoProxyConfigUrl Pascal=8
+12 Name=WinHttpGetDefaultProxyConfiguration Pascal=4
+13 Name=WinHttpGetIEProxyConfigForCurrentUser Pascal=4
+14 Name=WinHttpGetProxyForUrl Pascal=16
+15 Name=WinHttpOpen Pascal=20
+16 Name=WinHttpOpenRequest Pascal=28
+17 Name=WinHttpQueryAuthSchemes Pascal=16
+18 Name=WinHttpQueryDataAvailable Pascal=8
+19 Name=WinHttpQueryHeaders Pascal=24
+20 Name=WinHttpQueryOption Pascal=16
+21 Name=WinHttpReadData Pascal=16
+22 Name=WinHttpReceiveResponse Pascal=8
+23 Name=WinHttpSendRequest Pascal=28
+24 Name=WinHttpSetCredentials Pascal=24
+25 Name=WinHttpSetDefaultProxyConfiguration Pascal=4
+26 Name=WinHttpSetOption Pascal=16
+27 Name=WinHttpSetStatusCallback Pascal=16
+28 Name=WinHttpSetTimeouts Pascal=20
+29 Name=WinHttpTimeFromSystemTime Pascal=8
+30 Name=WinHttpTimeToSystemTime Pascal=8
+31 Name=WinHttpWriteData Pascal=16
+;------------------EOF------------------

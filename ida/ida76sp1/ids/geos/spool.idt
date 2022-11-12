@@ -1,0 +1,90 @@
+DECLARATION Nokia 9110 Geos 3.0 library spool.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+24 Name=spooldll Args=0 Drops=23
+;---------------------------------------
+1 Name=PrintControlClass
+2 Name=SpoolSummonsClass
+3 Name=SpoolChangeClass
+4 Name=SpoolApplicationClass
+5 Name=PageSizeControlClass
+6 Name=SpoolGetNumPaperSizes
+7 Name=SpoolGetPaperString
+8 Name=SpoolGetPaperSize
+9 Name=SpoolConvertPaperSize
+10 Name=SpoolGetPaperSizeOrder
+11 Name=SpoolSetPaperSizeOrder
+12 Name=SpoolCreatePaperSize
+13 Name=SpoolDeletePaperSize
+14 Name=SpoolGetNumPrinters
+15 Name=SpoolGetPrinterString
+16 Name=SpoolGetPrinterInfo
+17 Name=SpoolCreatePrinter
+18 Name=SpoolDeletePrinter
+19 Name=SPOOLGETDEFAULTPRINTER \
+	Comment=int pascal SpoolGetDefaultPrinter(void) in spool.goh
+20 Name=SpoolSetDefaultPrinter
+21 Name=SpoolCreateSpoolFile
+22 Name=SpoolSetDocSize
+23 Name=SpoolAddJob
+24 Name=SpoolDelJob
+25 Name=SpoolInfo
+26 Name=SpoolHurryJob
+27 Name=SpoolDelayJob
+28 Name=SpoolModifyPriority
+29 Name=SpoolVerifyPrinterPort
+30 Name=SpoolMapToPrinterFont
+31 Name=SpoolUpdateTranslationTable
+32 Name=SPOOLSETDOCSIZE Pascal=6 \
+	Comment=void pascal SpoolSetDocSize(Boolean openFlag, PageSizeReport *psr) in spool.goh
+33 Name=SpoolGetDefaultPageSizeInfo
+34 Name=SpoolSetDefaultPageSizeInfo
+35 Name=SPOOLGETDEFAULTPAGESIZEINFO Pascal=4 \
+	Comment=void pascal SpoolGetDefaultPageSizeInfo(PageSizeReport *psr) in spool.goh
+36 Name=SPOOLSETDEFAULTPAGESIZEINFO Pascal=4 \
+	Comment=void pascal SpoolSetDefaultPageSizeInfo(PageSizeReport *psr) in spool.goh
+37 Name=SPOOLGETNUMPAPERSIZES Pascal=6 \
+	Comment=void pascal SpoolGetNumPaperSizes(NumPaperSizesInfo *sizesInfo, PageType pageType) in spool.goh
+38 Name=SPOOLGETPAPERSTRING Pascal=8 \
+	Comment=word pascal SpoolGetPaperString(char *stringBuf, word paperSizeNum, PageType pageType) in spool.goh
+39 Name=SPOOLGETPAPERSIZE Pascal=8 \
+	Comment=void pascal SpoolGetPaperSize(PaperSizeInfo *sizeInfo, word paperSizeNum, PageType pageType) in spool.goh
+40 Name=SPOOLCONVERTPAPERSIZE Pascal=6 \
+	Comment=word pascal SpoolConvertPaperSize(word width, word height, PageType pageType) in spool.goh
+41 Name=SPOOLGETPAPERSIZEORDER Pascal=14 \
+	Comment=void pascal SpoolGetPaperSizeOrder(byte *orderBuf, byte *userDefBuf, PaperSizeOrderInfo *numBuf, PageType pageType) in spool.goh
+42 Name=SPOOLSETPAPERSIZEORDER Pascal=8 \
+	Comment=void pascal SpoolSetPaperSizeOrder(byte *orderArray, word numEntries, PageType pageType) in spool.goh
+43 Name=SPOOLCREATEPAPERSIZE Pascal=12 \
+	Comment=word pascal SpoolCreatePaperSize(char *paperSizeString, word width, word height, PageLayout layout, PageType pageType) in spool.goh
+44 Name=SPOOLDELETEPAPERSIZE Pascal=4 \
+	Comment=Boolean pascal SpoolDeletePaperSize(word paperSizeNum, PageType pageType) in spool.goh
+45 Name=SPOOLGETNUMPRINTERS Pascal=4 \
+	Comment=word pascal SpoolGetNumPrinters(PrinterDriverType driverType, byte localOnlyFlag) in spool.goh
+46 Name=SPOOLGETPRINTERSTRING Pascal=6 \
+	Comment=Boolean pascal SpoolGetPrinterString(PrinterStringInfo *retInfo, word printerNum) in spool.goh
+47 Name=SPOOLCREATEPRINTER Pascal=6 \
+	Comment=word pascal SpoolCreatePrinter(char *printerName, PrinterDriverType driverType) in spool.goh
+48 Name=SPOOLDELETEPRINTER Pascal=2 \
+	Comment=void pascal SpoolDeletePrinter(word printerNum) in spool.goh
+49 Name=SPOOLSETDEFAULTPRINTER Pascal=2 \
+	Comment=void pascal SpoolSetDefaultPrinter(word printerNum) in spool.goh
+50 Name=SPOOLCREATESPOOLFILE Pascal=4 \
+	Comment=FileHandle pascal SpoolCreateSpoolFile(char *fileNameBuf) in spool.goh
+51 Name=SPOOLDELJOB Pascal=2 \
+	Comment=SpoolOpStatus pascal SpoolDelJob(word jobID) in spool.goh
+52 Name=SPOOLINFO Pascal=6 \
+	Comment=SpoolOpStatus pascal SpoolInfo(SpoolInfoType infoType, SpoolInfoParams *params) in spool.goh
+53 Name=SPOOLHURRYJOB Pascal=2 \
+	Comment=SpoolOpStatus pascal SpoolHurryJob(word jobID) in spool.goh
+54 Name=SPOOLDELAYJOB Pascal=2 \
+	Comment=SpoolOpStatus pascal SpoolDelayJob(word jobID) in spool.goh
+55 Name=SPOOLMODIFYPRIORITY Pascal=4 \
+	Comment=SpoolOpStatus pascal SpoolModifyPriority(word jobID, ThreadPriority priority) in spool.goh
+56 Name=SPOOLVERIFYPRINTERPORT Pascal=4 \
+	Comment=SpoolOpStatus pascal SpoolVerifyPrinterPort(struct _PrintPortInfo *portInfo) in spool.goh
+57 Name=SizeVerifyDialogClass
+58 Name=SpoolEMOMClass
+59 Name=SpoolPrinterNameToMedium
+;------------------EOF------------------

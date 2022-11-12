@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WATC Pascal=0
+;---------------------------------------
+1 Name=Connect__11RMsvWatcherR3RFs
+2 Name=RegisterExeClient__11RMsvWatcherG4TUidRC6TDesC8
+3 Name=UnregisterExeClient__11RMsvWatcherG4TUidRC6TDesC8
+4 Name=_._11RMsvWatcher
+5 Name=__11RMsvWatcher
+;------------------EOF------------------

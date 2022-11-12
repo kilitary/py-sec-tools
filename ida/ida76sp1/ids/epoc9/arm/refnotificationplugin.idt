@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=REFNOTIFICATIONPLUGIN Pascal=0
+;---------------------------------------
+1 Name=_ZN22CRefNotificationPlugin4NewLEv
+2 Name=_ZTI22CRefNotificationPlugin
+3 Name=_ZTV22CRefNotificationPlugin
+;------------------EOF------------------

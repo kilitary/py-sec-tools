@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CHARCONV Pascal=0
+;---------------------------------------
+1 Name=_._25CCnvCharacterSetConverter
+2 Name=ConvertFromUnicodeToNative8BitBuild__25CCnvCharacterSetConverterR5TDes8RC7TDesC16RC6TDesC8
+3 Name=ConvertFromUnicodeToNative8BitBuild__25CCnvCharacterSetConverterR5TDes8RC7TDesC16RC6TDesC8Ri
+4 Name=ConvertFromUnicodeToNative8BitBuild__25CCnvCharacterSetConverterR5TDes8RC7TDesC16Ri
+5 Name=ConvertFromUnicodeToUtf7__15CnvUtfConverterR5TDes8RC7TDesC16i
+6 Name=ConvertFromUnicodeToUtf8__15CnvUtfConverterR5TDes8RC7TDesC16i
+7 Name=ConvertFromUnicode__C25CCnvCharacterSetConverterR5TDes8RC7TDesC16
+8 Name=ConvertFromUnicode__C25CCnvCharacterSetConverterR5TDes8RC7TDesC16Ri
+9 Name=ConvertToUnicodeFromNative8BitBuild__25CCnvCharacterSetConverterR6TDes16RC6TDesC8Ri
+10 Name=ConvertToUnicodeFromNative8BitBuild__25CCnvCharacterSetConverterR6TDes16RC6TDesC8RiT3
+11 Name=ConvertToUnicodeFromUtf7__15CnvUtfConverterR6TDes16RC6TDesC8Ri
+12 Name=ConvertToUnicodeFromUtf8__15CnvUtfConverterR6TDes16RC6TDesC8
+13 Name=ConvertToUnicode__C25CCnvCharacterSetConverterR6TDes16RC6TDesC8Ri
+14 Name=ConvertToUnicode__C25CCnvCharacterSetConverterR6TDes16RC6TDesC8RiT3
+15 Name=CreateArrayOfCharacterSetsAvailableLC__25CCnvCharacterSetConverter
+16 Name=CreateArrayOfCharacterSetsAvailableL__25CCnvCharacterSetConverter
+17 Name=NewLC__25CCnvCharacterSetConverter
+18 Name=NewL__25CCnvCharacterSetConverter
+19 Name=PrepareToConvertToOrFromL__25CCnvCharacterSetConverterUiRCt9CArrayFix1ZQ225CCnvCharacterSetConverter13SCharacterSet
+20 Name=SetReplacementForUnconvertibleUnicodeCharactersL__25CCnvCharacterSetConverterRC6TDesC8
+21 Name=ConvertFromUnicodeToNative8BitBuild__25CCnvCharacterSetConverterR5TDes8RC7TDesC16
+22 Name=SetDefaultEndiannessOfForeignCharacters__25CCnvCharacterSetConverterQ225CCnvCharacterSetConverter11TEndianness
+;------------------EOF------------------

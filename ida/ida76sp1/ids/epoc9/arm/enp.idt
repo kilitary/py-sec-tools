@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ENP Pascal=0
+;---------------------------------------
+1 Name=_ZN24CEmailNotificationParser4NewLER20CRegisteredParserDllR9CMsvEntryR3RFs
+2 Name=_ZTI24CEmailNotificationParser
+3 Name=_ZTV24CEmailNotificationParser
+;------------------EOF------------------

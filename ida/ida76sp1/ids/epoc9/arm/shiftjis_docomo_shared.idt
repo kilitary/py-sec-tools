@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SHIFTJIS_DOCOMO_SHARED Pascal=0
+;---------------------------------------
+1 Name=_ZN11CnvShiftJis44ReplacementForUnconvertibleUnicodeCharactersEv
+2 Name=_ZN11CnvShiftJis18ConvertFromUnicodeEN25CCnvCharacterSetConverter11TEndiannessERK6TDesC8R5TDes8RK7TDesC16RNS0_24TArrayOfAscendingIndicesE
+3 Name=_ZN11CnvShiftJis16ConvertToUnicodeEN25CCnvCharacterSetConverter11TEndiannessER6TDes16RK6TDesC8RiS7_
+4 Name=_ZN11CnvShiftJis18ConvertFromUnicodeEN25CCnvCharacterSetConverter11TEndiannessERK6TDesC8R5TDes8RK7TDesC16RNS0_24TArrayOfAscendingIndicesERK6TArrayIN12CnvUtilities13SCharacterSetEE
+5 Name=_ZN11CnvShiftJis16ConvertToUnicodeEN25CCnvCharacterSetConverter11TEndiannessER6TDes16RK6TDesC8RiS7_RK6TArrayIN12CnvUtilities7SMethodEE
+;------------------EOF------------------

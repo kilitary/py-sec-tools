@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BIFU Pascal=0
+;---------------------------------------
+1 Name=_._18CBioInfoFileWriter
+2 Name=Description__C18CBioInfoFileReader
+3 Name=GeneralData1__C18CBioInfoFileReader
+4 Name=GeneralData2__C18CBioInfoFileReader
+5 Name=GeneralData3__C18CBioInfoFileReader
+6 Name=IconsFilename__C18CBioInfoFileReader
+7 Name=IdsLC__C18CBioInfoFileReader
+8 Name=MessageAppCtrlUid__C18CBioInfoFileReader
+9 Name=MessageAppUid__C18CBioInfoFileReader
+10 Name=MessageParserUid__C18CBioInfoFileReader
+11 Name=MessageTypeUid__C18CBioInfoFileReader
+12 Name=NewLC__18CBioInfoFileReaderR3RFsRC7TDesC16G4TUid
+13 Name=NewLC__18CBioInfoFileWriterR3RFsRC7TDesC16G4TUid
+14 Name=NewL__18CBioInfoFileReaderR3RFsRC7TDesC16G4TUid
+15 Name=SetDescription__18CBioInfoFileWriterRC7TPtrC16
+16 Name=SetGeneralData1__18CBioInfoFileWriters
+17 Name=SetGeneralData2__18CBioInfoFileWriters
+18 Name=SetGeneralData3__18CBioInfoFileWriters
+19 Name=SetIconsFilename__18CBioInfoFileWriterRCt4TBuf1i256
+20 Name=SetMessageAppCtrlUid__18CBioInfoFileWriterG4TUid
+21 Name=SetMessageAppUid__18CBioInfoFileWriterG4TUid
+22 Name=SetMessageParserUid__18CBioInfoFileWriterG4TUid
+23 Name=SetMessageTypeUid__18CBioInfoFileWriterG4TUid
+24 Name=SetZoomLevelsL__18CBioInfoFileWriterRCt9CArrayFix1Zs
+25 Name=StoreL__18CBioInfoFileWriter
+26 Name=ZoomLevelsCount__C18CBioInfoFileReader
+27 Name=ZoomLevelsLC__C18CBioInfoFileReader
+28 Name=_._18CBioInfoFileReader
+29 Name=AddIdL__18CBioInfoFileWriterRC9TBioMsgId
+30 Name=FileExtension__C18CBioInfoFileReader
+31 Name=SetFileExtension__18CBioInfoFileWriterRC7TPtrC16
+;------------------EOF------------------

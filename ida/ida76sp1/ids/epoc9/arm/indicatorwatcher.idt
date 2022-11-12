@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=INDICATORWATCHER Pascal=0
+;---------------------------------------
+1 Name=_Z24ImplementationGroupProxyRi
+2 Name=_ZTI17CCallStateWatcher
+3 Name=_ZTI17CIndicatorWatcher
+4 Name=_ZTV17CCallStateWatcher
+5 Name=_ZTV17CIndicatorWatcher
+;------------------EOF------------------

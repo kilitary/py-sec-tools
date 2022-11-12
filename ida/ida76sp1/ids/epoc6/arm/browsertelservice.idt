@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BROWSERTELSERVICE Pascal=0
+;---------------------------------------
+1 Name=_._CBrowserTelService
+2 Name=AddPBEntryL__CBrowserTelServiceRTDesC16N21
+3 Name=CancelMakeCall__CBrowserTelService
+4 Name=CancelSendDTMF__CBrowserTelService
+5 Name=DisconnectActiveCSDConnectionL__CBrowserTelService
+6 Name=EDll__FTDllReason
+7 Name=MakeCall__CBrowserTelServiceRTRequestStatusRTDesC16i
+8 Name=MakeCall__CBrowserTelServiceRTDesC16i
+9 Name=NewLC__CBrowserTelServicePMBrowserTelServiceObserver
+10 Name=NewL__CBrowserTelServicePMBrowserTelServiceObserver
+11 Name=ParsePhoneNumberL__CBrowserTelServicePTDes16
+12 Name=RemoveObserver__CBrowserTelServicePMBrowserTelServiceObserver
+13 Name=SendDTMF__CBrowserTelServiceRTRequestStatusRTDesC16i
+14 Name=SendDTMF__CBrowserTelServiceRTDesC16i
+15 Name=SendEmailMessageL__CBrowserTelServiceRCTDesC16Ni
+16 Name=ShowDialogL__CBrowserTelServiceRCTDesC16RCTBrowserTelServiceDlgType
+17 Name=State__CCBrowserTelService
+18 Name=AddObserver__CBrowserTelServicePMBrowserTelServiceObserver
+19 Name=SendEmailMessageL__CBrowserTelServiceRCTDesC16N31
+;------------------EOF------------------

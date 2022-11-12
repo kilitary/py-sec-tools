@@ -1,0 +1,67 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=userenv.dll Args=0 Drops=60
+;---------------------------------------
+104 Name=DeleteGroup Pascal=8
+105 Name=RsopLoggingEnabled Pascal=0
+106 Name=CreateEnvironmentBlock Pascal=12
+107 Name=CreateProfile Pascal=16
+108 Name=DeleteProfileA Pascal=12
+109 Name=DeleteProfileW Pascal=12
+110 Name=DestroyEnvironmentBlock Pascal=4
+111 Name=DllCanUnloadNow Pascal=0
+112 Name=DllGetClassObject Pascal=12
+113 Name=DllGetContractDescription Pascal=8
+114 Name=DllRegisterServer Pascal=0
+115 Name=DllUnregisterServer Pascal=0
+116 Name=EnterCriticalPolicySection Pascal=4
+117 Name=ExpandEnvironmentStringsForUserA Pascal=16
+118 Name=ExpandEnvironmentStringsForUserW Pascal=16
+119 Name=ForceSyncFgPolicy Pascal=4
+120 Name=FreeGPOListA Pascal=4
+121 Name=FreeGPOListW Pascal=4
+122 Name=DeleteLinkFile Pascal=16
+123 Name=GetAllUsersProfileDirectoryA Pascal=8
+124 Name=GetAllUsersProfileDirectoryW Pascal=8
+125 Name=GetAppliedGPOListA Pascal=20
+126 Name=GetAppliedGPOListW Pascal=20
+127 Name=GetDefaultUserProfileDirectoryA Pascal=8
+128 Name=GetDefaultUserProfileDirectoryW Pascal=8
+129 Name=GetGPOListA Pascal=24
+130 Name=GetGPOListW Pascal=24
+131 Name=GetNextFgPolicyRefreshInfo Pascal=8
+132 Name=GetPreviousFgPolicyRefreshInfo Pascal=8
+133 Name=GetProfileType Pascal=4
+134 Name=GetProfilesDirectoryA Pascal=8
+135 Name=PingComputer Pascal=8
+136 Name=GetProfilesDirectoryW Pascal=8
+137 Name=CreateGroupEx Pascal=16
+138 Name=GetUserProfileDirectoryA Pascal=12
+139 Name=CreateLinkFileEx Pascal=48
+140 Name=GetUserProfileDirectoryW Pascal=12
+141 Name=LeaveCriticalPolicySection Pascal=4
+142 Name=LoadUserProfileA Pascal=8
+143 Name=LoadUserProfileW Pascal=8
+144 Name=ProcessGroupPolicyCompleted Pascal=12
+145 Name=ProcessGroupPolicyCompletedEx Pascal=16
+146 Name=RefreshPolicy Pascal=4
+147 Name=RefreshPolicyEx Pascal=8
+148 Name=RegisterGPNotification Pascal=8
+149 Name=RsopAccessCheckByType Pascal=44
+150 Name=RsopFileAccessCheck Pascal=20
+151 Name=RsopResetPolicySettingStatus Pascal=12
+152 Name=RsopSetPolicySettingStatus Pascal=20
+153 Name=UnloadUserProfile Pascal=8
+154 Name=UnregisterGPNotification Pascal=4
+155 Name=WaitForMachinePolicyForegroundProcessing Pascal=0
+156 Name=WaitForUserPolicyForegroundProcessing Pascal=0
+175 Name=CheckXForestLogon Pascal=4
+202 Name=DeleteProfileDirectory Pascal=12
+203 Name=CheckDirectoryOwnership Pascal=12
+206 Name=CreateDirectoryJunctionsForSystem Pascal=0
+207 Name=CreateDirectoryJunctionsForUserProfile Pascal=4
+208 Name=RemapProfile Pascal=12
+209 Name=CopyProfileDirectoryEx2 Pascal=28
+;------------------EOF------------------

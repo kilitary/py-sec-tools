@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MEMORYMANAGERSERVER Pascal=0
+;---------------------------------------
+1 Name=StartMemoryManagerServer__35MemoryManagerServerStartupFunctions
+2 Name=MemoryManagerThreadName__35MemoryManagerServerStartupFunctions
+;------------------EOF------------------

@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NPCALLS.dll Pascal=0
+;---------------------------------------
+1 Name=NPCALL
+2 Name=NPINIT
+3 Name=NPGETCOMPUTERNAME
+4 Name=NPGETFIRSTNMPIPESERVER
+5 Name=NPGETNEXTNMPIPESERVER
+6 Name=NPSCALL
+8 Name=NPGETSERVERCONNECTIONS
+9 Name=NPGETCLIENTSESSIONS
+;------------------EOF------------------

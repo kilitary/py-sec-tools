@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ifsutilx.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=?CheckSnapshotPresence@@YGEPAU_SNAPSHOT_DATA@@@Z Pascal=4
+2 Name=?CreateVolumeSnapshot@@YGEPAGPAPAU_SNAPSHOT_DATA@@@Z Pascal=8
+3 Name=?InitializeCOM@@YGEPAE@Z Pascal=4
+4 Name=?ReleaseVolumeSnapshot@@YGEPAU_SNAPSHOT_DATA@@@Z Pascal=4
+5 Name=?UninitializeCOM@@YGXXZ Pascal=0
+;------------------EOF------------------

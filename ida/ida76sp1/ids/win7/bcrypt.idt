@@ -1,0 +1,61 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=bcrypt.dll Args=0 Drops=54
+;---------------------------------------
+1 Name=BCryptAddContextFunction Pascal=20
+2 Name=BCryptAddContextFunctionProvider Pascal=24
+3 Name=BCryptCloseAlgorithmProvider Pascal=8
+4 Name=BCryptConfigureContext Pascal=12
+5 Name=BCryptConfigureContextFunction Pascal=20
+6 Name=BCryptCreateContext Pascal=12
+7 Name=BCryptCreateHash Pascal=28
+8 Name=BCryptDecrypt Pascal=40
+9 Name=BCryptDeleteContext Pascal=8
+10 Name=BCryptDeriveKey Pascal=28
+11 Name=BCryptDeriveKeyCapi Pascal=20
+12 Name=BCryptDeriveKeyPBKDF2 Pascal=40
+13 Name=BCryptDestroyHash Pascal=4
+14 Name=BCryptDestroyKey Pascal=4
+15 Name=BCryptDestroySecret Pascal=4
+16 Name=BCryptDuplicateHash Pascal=20
+17 Name=BCryptDuplicateKey Pascal=20
+18 Name=BCryptEncrypt Pascal=40
+19 Name=BCryptEnumAlgorithms Pascal=16
+20 Name=BCryptEnumContextFunctionProviders Pascal=24
+21 Name=BCryptEnumContextFunctions Pascal=20
+22 Name=BCryptEnumContexts Pascal=12
+23 Name=BCryptEnumProviders Pascal=16
+24 Name=BCryptEnumRegisteredProviders Pascal=8
+25 Name=BCryptExportKey Pascal=28
+26 Name=BCryptFinalizeKeyPair Pascal=8
+27 Name=BCryptFinishHash Pascal=16
+28 Name=BCryptFreeBuffer Pascal=4
+29 Name=BCryptGenRandom Pascal=16
+30 Name=BCryptGenerateKeyPair Pascal=16
+31 Name=BCryptGenerateSymmetricKey Pascal=28
+32 Name=BCryptGetFipsAlgorithmMode Pascal=4
+33 Name=BCryptGetProperty Pascal=24
+34 Name=BCryptHashData Pascal=16
+35 Name=BCryptImportKey Pascal=36
+36 Name=BCryptImportKeyPair Pascal=28
+37 Name=BCryptOpenAlgorithmProvider Pascal=16
+38 Name=BCryptQueryContextConfiguration Pascal=16
+39 Name=BCryptQueryContextFunctionConfiguration Pascal=24
+40 Name=BCryptQueryContextFunctionProperty Pascal=28
+41 Name=BCryptQueryProviderRegistration Pascal=20
+42 Name=BCryptRegisterConfigChangeNotify Pascal=4
+43 Name=BCryptRegisterProvider Pascal=12
+44 Name=BCryptRemoveContextFunction Pascal=16
+45 Name=BCryptRemoveContextFunctionProvider Pascal=20
+46 Name=BCryptResolveProviders Pascal=32
+47 Name=BCryptSecretAgreement Pascal=16
+48 Name=BCryptSetAuditingInterface Pascal=4
+49 Name=BCryptSetContextFunctionProperty Pascal=28
+50 Name=BCryptSetProperty Pascal=20
+51 Name=BCryptSignHash Pascal=32
+52 Name=BCryptUnregisterConfigChangeNotify Pascal=4
+53 Name=BCryptUnregisterProvider Pascal=4
+54 Name=BCryptVerifySignature Pascal=28
+;------------------EOF------------------

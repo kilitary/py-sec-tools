@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CFLOG Pascal=0
+;---------------------------------------
+1 Name=_ZN8CCFLogIf5WriteERK6TDesC8S2_RK7TDesC16
+2 Name=_ZN8CCFLogIf7ConnectEv
+3 Name=_ZN8CCFLogIf7ContextEv
+4 Name=_ZN8CCFLogIf6DeleteEPS_
+5 Name=_ZN8CCFLogIf7HexDumpERK6TDesC8S2_PKtS4_PKhi
+6 Name=_ZN8CCFLogIf4NewLEv
+7 Name=_ZN8CCFLogIf5PanicE11TCFLogPanic
+8 Name=_ZN8CCFLogIf10SetContextEv
+9 Name=_ZN8CCFLogIf11WriteBinaryERK6TDesC8S2_S2_
+10 Name=_ZN8CCFLogIf11WriteFormatERK6TDesC8S2_11TRefByValueIS1_ERSt9__va_list
+11 Name=_ZN8CCFLogIf11WriteFormatERK6TDesC8S2_11TRefByValueIS1_Ez
+12 Name=_ZN8CCFLogIf11WriteFormatERK6TDesC8S2_11TRefByValueIK7TDesC16ERSt9__va_list
+13 Name=_ZN8CCFLogIf11WriteFormatERK6TDesC8S2_11TRefByValueIK7TDesC16Ez
+14 Name=_ZN8CCFLogIf5WriteERK6TDesC8S2_S2_
+15 Name=_ZN8CCFLogIf5CloseEv
+;------------------EOF------------------

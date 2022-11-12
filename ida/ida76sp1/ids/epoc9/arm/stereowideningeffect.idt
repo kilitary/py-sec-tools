@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=STEREOWIDENINGEFFECT Pascal=0
+;---------------------------------------
+1 Name=_ZN15CStereoWidening12DoEffectDataEv
+2 Name=_ZN15CStereoWidening13SetEffectDataERK6TDesC8
+3 Name=_ZN15CStereoWidening23SetStereoWideningLevelLEh
+4 Name=_ZN15CStereoWidening4NewLEP21CCustomCommandUtilityia
+5 Name=_ZN15CStereoWidening4NewLER12CMMFDevSoundia
+6 Name=_ZN15CStereoWidening4NewLER16MCustomInterfaceia
+7 Name=_ZN15CStereoWidening4NewLER20CMdaAudioInputStreamia
+8 Name=_ZN15CStereoWidening4NewLER20CMdaAudioToneUtilityia
+9 Name=_ZN15CStereoWidening4NewLER21CMdaAudioOutputStreamia
+10 Name=_ZN15CStereoWidening4NewLER22CMdaAudioPlayerUtilityia
+11 Name=_ZN15CStereoWidening4NewLER23CMdaAudioConvertUtilityia
+12 Name=_ZN15CStereoWidening4NewLER24CMdaAudioRecorderUtilityiia
+13 Name=_ZN15CStereoWidening4NewLEv
+14 Name=_ZN15CStereoWideningC2Ev
+15 Name=_ZN15CStereoWideningD0Ev
+16 Name=_ZN15CStereoWideningD1Ev
+17 Name=_ZN15CStereoWideningD2Ev
+18 Name=_ZNK15CStereoWidening19StereoWideningLevelEv
+19 Name=_ZNK15CStereoWidening26IsContinuousLevelSupportedEv
+20 Name=_ZNK15CStereoWidening3UidEv
+21 Name=_ZTI15CStereoWidening
+22 Name=_ZTV15CStereoWidening
+;------------------EOF------------------

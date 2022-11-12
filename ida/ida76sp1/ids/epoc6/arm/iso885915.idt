@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ISO885915 Pascal=0
+;---------------------------------------
+1 Name=ReplacementForUnconvertibleUnicodeCharacters__Fv
+2 Name=ConvertFromUnicode__FQ225CCnvCharacterSetConverter11TEndiannessRC6TDesC8R5TDes8RC7TDesC16RQ225CCnvCharacterSetConverter24TArrayOfAscendingIndices
+3 Name=ConvertToUnicode__FQ225CCnvCharacterSetConverter11TEndiannessR6TDes16RC6TDesC8RiN23
+4 Name=IsInThisCharacterSetL__FRiT0RC6TDesC8
+5 Name=Reserved_2__Fv
+6 Name=Reserved_3__Fv
+7 Name=Reserved_4__Fv
+8 Name=Reserved_5__Fv
+9 Name=Reserved_6__Fv
+10 Name=Reserved_7__Fv
+11 Name=Reserved_8__Fv
+;------------------EOF------------------

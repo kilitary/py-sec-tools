@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=OpcServices.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=CreatePackageConsumerOnFileHandle Pascal=16
+2 Name=CreatePackageConsumerOnIStream Pascal=16
+3 Name=CreatePackageProducerOnFileHandle Pascal=16
+4 Name=CreatePackageProducerOnIStream Pascal=16
+5 Name=DllCanUnloadNow Pascal=0
+6 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

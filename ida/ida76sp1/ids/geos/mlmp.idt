@@ -1,0 +1,10 @@
+DECLARATION Nokia 9110 Geos 3.0 library mlmp.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mlmpdll Pascal=0
+;---------------------------------------
+1 Name=rfc822_parse_hdr
+2 Name=rfc822_parse_msg
+3 Name=rfc822_copy_default_subtype
+;------------------EOF------------------

@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PCLINKSETTINGSPANELITEM Pascal=0
+;---------------------------------------
+1 Name=CreateControlL__FRC7TDesC16
+;------------------EOF------------------

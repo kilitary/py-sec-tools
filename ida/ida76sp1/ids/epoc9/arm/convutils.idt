@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CONVUTILS Pascal=0
+;---------------------------------------
+1 Name=_ZN12CnvUtilities18ConvertFromUnicodeEN25CCnvCharacterSetConverter11TEndiannessERK6TDesC8R5TDes8RK7TDesC16RNS0_24TArrayOfAscendingIndicesERK6TArrayINS_13SCharacterSetEE
+2 Name=_ZN12CnvUtilities18ConvertFromUnicodeEN25CCnvCharacterSetConverter11TEndiannessERK6TDesC8R5TDes8RK7TDesC16RNS0_24TArrayOfAscendingIndicesERK6TArrayINS_13SCharacterSetEERjj
+3 Name=_ZN12CnvUtilities36ConvertFromIntermediateBufferInPlaceEiR5TDes8RiRK6TDesC8i
+4 Name=_ZN12CnvUtilities32ConvertToUnicodeFromModalForeignEN25CCnvCharacterSetConverter11TEndiannessER6TDes16RK6TDesC8RiS7_S7_RK6TArrayINS_6SStateEE
+5 Name=_ZN12CnvUtilities32ConvertToUnicodeFromModalForeignEN25CCnvCharacterSetConverter11TEndiannessER6TDes16RK6TDesC8RiS7_S7_RK6TArrayINS_6SStateEERjj
+6 Name=_ZN12CnvUtilities40ConvertToUnicodeFromHeterogeneousForeignEN25CCnvCharacterSetConverter11TEndiannessER6TDes16RK6TDesC8RiS7_RK6TArrayINS_7SMethodEE
+7 Name=_ZN12CnvUtilities40ConvertToUnicodeFromHeterogeneousForeignEN25CCnvCharacterSetConverter11TEndiannessER6TDes16RK6TDesC8RiS7_RK6TArrayINS_7SMethodEERjj
+;------------------EOF------------------

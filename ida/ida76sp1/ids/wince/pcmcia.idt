@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PCMCIA.dll Pascal=0
+;---------------------------------------
+1 Name=CardAccessConfigurationRegister
+2 Name=CardDeregisterClient
+3 Name=CardGetEventMask
+4 Name=CardGetFirstTuple
+5 Name=CardGetNextTuple
+6 Name=CardGetParsedTuple
+7 Name=CardGetStatus
+8 Name=CardGetTupleData
+9 Name=CardMapWindow
+10 Name=CardModifyWindow
+11 Name=CardRegisterClient
+12 Name=CardReleaseConfiguration
+13 Name=CardReleaseExclusive
+14 Name=CardReleaseIRQ
+15 Name=CardReleaseSocketMask
+16 Name=CardReleaseWindow
+17 Name=CardRequestConfiguration
+18 Name=CardRequestExclusive
+19 Name=CardRequestIRQ
+20 Name=CardRequestSocketMask
+21 Name=CardRequestWindow
+22 Name=CardResetFunction
+23 Name=CardSetEventMask
+24 Name=CardSystemInit
+25 Name=CardSystemPower
+26 Name=ntecards_inb
+27 Name=ntecards_inw
+28 Name=ntecards_outb
+29 Name=ntecards_outw
+30 Name=ntecards_startinterruptthread
+;------------------EOF------------------

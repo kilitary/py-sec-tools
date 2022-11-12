@@ -1,0 +1,56 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=atlce211.dll Pascal=0
+;---------------------------------------
+1 Name=DllCanUnloadNow
+2 Name=DllGetClassObject
+3 Name=DllRegisterServer
+4 Name=DllUnregisterServer
+5 Name=AtlDevModeW2A
+9 Name=_AtlCEDispatchCall
+10 Name=AtlAdvise
+11 Name=AtlUnadvise
+15 Name=AtlModuleGetClassObject
+16 Name=AtlModuleInit
+18 Name=AtlModuleRegisterServer
+19 Name=AtlModuleRegisterTypeLib
+21 Name=AtlModuleTerm
+22 Name=AtlModuleUnregisterServer
+23 Name=AtlModuleUpdateRegistryFromResourceD
+25 Name=AtlSetErrorInfo
+26 Name=AtlCreateTargetDC
+27 Name=AtlHiMetricToPixel
+28 Name=AtlPixelToHiMetric
+30 Name=AtlComPtrAssign
+31 Name=AtlComQIPtrAssign
+32 Name=AtlInternalQueryInterface
+34 Name=AtlGetVersion
+35 Name=AtlAxDialogBoxW
+37 Name=AtlAxCreateDialogW
+39 Name=AtlAxCreateControl
+40 Name=AtlAxCreateControlEx
+41 Name=AtlAxAttachControl
+42 Name=AtlAxWinInit
+43 Name=AtlModuleAddCreateWndData
+44 Name=AtlModuleExtractCreateWndData
+45 Name=AtlModuleRegisterWndClassInfoW
+47 Name=AtlAxGetControl
+48 Name=AtlAxGetHost
+50 Name=AtlIPersistStreamInit_Load
+51 Name=AtlIPersistStreamInit_Save
+52 Name=AtlIPersistPropertyBag_Load
+53 Name=AtlIPersistPropertyBag_Save
+54 Name=AtlGetObjectSourceInterface
+55 Name=AtlModuleUnRegisterTypeLib
+56 Name=AtlModuleLoadTypeLib
+57 Name=AtlModuleUnregisterServerEx
+58 Name=AtlModuleAddTermFunc
+59 Name=wce_OleLoadFromStream
+60 Name=wce_OleSaveToStream
+61 Name=wce_CLSIDFromProgID
+62 Name=wce_ProgIDFromCLSID
+63 Name=wce_MulDiv
+64 Name=wce_CreateStreamOnHGlobal
+;------------------EOF------------------

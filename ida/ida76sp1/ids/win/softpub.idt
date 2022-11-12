@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=softpub.dll Args=0 Drops=24
+;---------------------------------------
+1 Name=GenericChainCertificateTrust Pascal=4
+2 Name=GenericChainFinalProv Pascal=4
+3 Name=HTTPSCertificateTrust Pascal=4
+4 Name=SoftpubDefCertInit Pascal=4
+5 Name=SoftpubFreeDefUsageCallData Pascal=8
+6 Name=SoftpubLoadDefUsageCallData Pascal=8
+7 Name=AddPersonalTrustDBPages Pascal=12
+8 Name=DllRegisterServer Pascal=0
+9 Name=DllUnregisterServer Pascal=0
+10 Name=DriverCleanupPolicy Pascal=4
+11 Name=DriverFinalPolicy Pascal=4
+12 Name=DriverInitializePolicy Pascal=4
+13 Name=FindCertsByIssuer Pascal=28
+14 Name=HTTPSFinalProv Pascal=4
+15 Name=OfficeCleanupPolicy Pascal=4
+16 Name=OfficeInitializePolicy Pascal=4
+17 Name=OpenPersonalTrustDBDialog Pascal=4
+18 Name=SoftpubAuthenticode Pascal=4
+19 Name=SoftpubCheckCert Pascal=16
+20 Name=SoftpubCleanup Pascal=4
+21 Name=SoftpubDumpStructure Pascal=4
+22 Name=SoftpubInitialize Pascal=4
+23 Name=SoftpubLoadMessage Pascal=4
+24 Name=SoftpubLoadSignature Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BIUT Pascal=0
+;---------------------------------------
+1 Name=__17CBaseScriptParserR20CRegisteredParserDllR15CMsvServerEntryR3RFs
+2 Name=FieldName__C12CParsedField
+3 Name=FieldValue__C12CParsedField
+4 Name=GetLibrary__20CRegisteredParserDllR3RFsR8RLibrary
+5 Name=InternalizeL__12CParsedFieldR11RReadStream
+6 Name=MandatoryField__C12CParsedField
+7 Name=NewL__20CRegisteredParserDllR8TUidType
+8 Name=ParserUid__17CBaseScriptParser
+9 Name=ReleaseLibrary__20CRegisteredParserDll
+10 Name=ResetL__17CBaseScriptParser
+11 Name=RestoreL__17CBaseScriptParserR9CMsvStore
+12 Name=RestoreL__17CBaseScriptParserRCt4TBuf1i256
+13 Name=SetFieldNameL__12CParsedFieldRC7TDesC16
+14 Name=SetFieldValueL__12CParsedFieldRC7TDesC16
+15 Name=SetMandatoryField__12CParsedFieldi
+16 Name=StoreL__C17CBaseScriptParserR9CMsvStore
+17 Name=StoreL__C17CBaseScriptParserRCt4TBuf1i256
+18 Name=UnfoldMessageL__17CBaseScriptParser
+19 Name=_._12CParsedField
+20 Name=_._17CBaseScriptParser
+21 Name=_._20CRegisteredParserDll
+22 Name=__12CParsedField
+23 Name=ExternalizeL__C12CParsedFieldR12RWriteStream
+24 Name=NewLC__10CIpAddressRC7TDesC16
+25 Name=NewL__10CIpAddressRC7TDesC16
+26 Name=SetAddrL__10CIpAddressRC7TDesC16
+27 Name=_._10CIpAddress
+28 Name=Addr__C10CIpAddress
+;------------------EOF------------------

@@ -1,0 +1,74 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=amxread.dll Args=0 Drops=67
+;---------------------------------------
+1 Name=AmxCloseManifest Pascal=4
+2 Name=AmxGetCharacteristics Pascal=8
+3 Name=AmxGetModuleGroupName Pascal=12
+4 Name=AmxGetModuleType Pascal=8
+5 Name=AmxGetProviderDescription Pascal=12
+6 Name=AmxGetProviderName Pascal=12
+7 Name=AmxGetRecordDataSize Pascal=8
+8 Name=AmxGetRecordID Pascal=8
+9 Name=AmxGetRecordStatus Pascal=8
+10 Name=AmxGetRecordType Pascal=8
+11 Name=AmxGetRecordVolumeID Pascal=8
+12 Name=AmxGetSignature Pascal=8
+13 Name=AmxGetStdFnCallingConvention Pascal=8
+14 Name=AmxGetStdFnFlags Pascal=8
+15 Name=AmxGetStdFnForwardedAttribute Pascal=8
+16 Name=AmxGetStdFnForwardedName Pascal=12
+17 Name=AmxGetStdFnHint Pascal=8
+18 Name=AmxGetStdFnInformation Pascal=12
+19 Name=AmxGetStdFnManifestID Pascal=8
+20 Name=AmxGetStdFnName Pascal=12
+21 Name=AmxGetStdFnNumberOfParams Pascal=8
+22 Name=AmxGetStdFnOrdinal Pascal=8
+23 Name=AmxGetStdFnParamBaseTypeID Pascal=8
+24 Name=AmxGetStdFnParamFlags Pascal=8
+25 Name=AmxGetStdFnParamIndirection Pascal=8
+26 Name=AmxGetStdFnParamInformation Pascal=12
+27 Name=AmxGetStdFnParamModifier Pascal=8
+28 Name=AmxGetStdFnParamName Pascal=12
+29 Name=AmxGetStdFnParamSize Pascal=8
+30 Name=AmxGetStdFnParamTypeID Pascal=8
+31 Name=AmxGetStdFnRVA Pascal=8
+32 Name=AmxGetStdFnReturnValueBaseTypeID Pascal=8
+33 Name=AmxGetStdFnReturnValueIndirection Pascal=8
+34 Name=AmxGetStdFnReturnValueSize Pascal=8
+35 Name=AmxGetStdFnReturnValueTypeID Pascal=8
+36 Name=AmxGetStdFnTotalParamsSize Pascal=8
+37 Name=AmxGetTableName Pascal=12
+38 Name=AmxGetTimeStamp Pascal=8
+39 Name=AmxGetTotalVolumes Pascal=8
+40 Name=AmxGetType Pascal=8
+41 Name=AmxGetTypeInformation Pascal=12
+42 Name=AmxGetTypeManifestID Pascal=8
+43 Name=AmxGetTypeMemberBaseTypeID Pascal=8
+44 Name=AmxGetTypeMemberFlags Pascal=8
+45 Name=AmxGetTypeMemberIndirection Pascal=8
+46 Name=AmxGetTypeMemberInformation Pascal=12
+47 Name=AmxGetTypeMemberManifestID Pascal=8
+48 Name=AmxGetTypeMemberName Pascal=12
+49 Name=AmxGetTypeMemberOffset Pascal=8
+50 Name=AmxGetTypeMemberSize Pascal=8
+51 Name=AmxGetTypeMemberTag Pascal=8
+52 Name=AmxGetTypeMemberTypeID Pascal=8
+53 Name=AmxGetTypeModuleID Pascal=8
+54 Name=AmxGetTypeName Pascal=12
+55 Name=AmxGetTypeNumberOfMembers Pascal=8
+56 Name=AmxGetTypeSize Pascal=8
+57 Name=AmxGetVersion Pascal=8
+58 Name=AmxIsBOF Pascal=4
+59 Name=AmxIsEOF Pascal=4
+60 Name=AmxOpenManifest Pascal=12
+61 Name=AmxRead Pascal=4
+62 Name=AmxResetBuffer Pascal=4
+63 Name=AmxSetCurrentStdFnParamByIndex Pascal=8
+64 Name=AmxSetCurrentTypeMemberByIndex Pascal=8
+65 Name=AmxSetGroupByID Pascal=8
+66 Name=AmxSetTableByOID Pascal=8
+67 Name=AmxUnLoadStringTable Pascal=4
+;------------------EOF------------------

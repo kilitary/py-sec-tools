@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CONNMON Pascal=0
+;---------------------------------------
+1 Name=UplinkData__CCConnMonUplinkDataThreshold
+2 Name=AuthoritativeDelete__CCConnMonDeleteSubConnection
+3 Name=CancelAsyncRequest__RConnectionMonitori
+4 Name=CancelNotifications__RConnectionMonitor
+5 Name=Close__RConnectionMonitor
+6 Name=ConnectL__RConnectionMonitor
+7 Name=ConnectionActivity__CCConnMonConnectionActivityChange
+8 Name=ConnectionId__CCConnMonEventBase
+9 Name=ConnectionStatus__CCConnMonConnectionStatusChange
+10 Name=DownlinkData__CCConnMonDeleteConnection
+11 Name=DownlinkData__CCConnMonDeleteSubConnection
+12 Name=DownlinkData__CCConnMonDownlinkDataThreshold
+13 Name=EDll__FTDllReason
+14 Name=EventType__CCConnMonEventBase
+15 Name=GetBoolAttribute__RConnectionMonitorUiUiUiRiRTRequestStatus
+16 Name=GetConnectionCount__RConnectionMonitorRUiRTRequestStatus
+17 Name=GetConnectionInfo__CRConnectionMonitorUiRUiT2
+18 Name=GetIntAttribute__RConnectionMonitorUiUiUiRiRTRequestStatus
+19 Name=GetPckgAttribute__CRConnectionMonitorUiUiUiRTDes8RTRequestStatus
+20 Name=GetStringAttribute__CRConnectionMonitorUiUiUiRTDes16RTRequestStatus
+21 Name=GetSubConnectionInfo__CRConnectionMonitorUiUiRUi
+22 Name=GetUintAttribute__RConnectionMonitorUiUiUiRUiRTRequestStatus
+23 Name=NetworkStatus__CCConnMonNetworkStatusChange
+24 Name=NotifyEventL__RConnectionMonitorRMConnectionMonitorObserver
+25 Name=SetBoolAttribute__CRConnectionMonitorUiUiUii
+26 Name=SetIntAttribute__CRConnectionMonitorUiUiUii
+27 Name=SetPckgAttribute__CRConnectionMonitorUiUiUiRCTDes8
+28 Name=SetStringAttribute__CRConnectionMonitorUiUiUiRCTDes16
+29 Name=SetUintAttribute__CRConnectionMonitorUiUiUiUi
+30 Name=SubConnectionId__CCConnMonCreateSubConnection
+31 Name=SubConnectionId__CCConnMonDeleteSubConnection
+32 Name=SubConnectionId__CCConnMonUplinkDataThreshold
+33 Name=SubConnectionId__CCConnMonDownlinkDataThreshold
+34 Name=SubConnectionId__CCConnMonConnectionStatusChange
+35 Name=SubConnectionId__CCConnMonConnectionActivityChange
+36 Name=ThreadStart__CConnMonSchedulerRQCConnMonSchedulerTSignal
+37 Name=UplinkData__CCConnMonDeleteConnection
+38 Name=UplinkData__CCConnMonDeleteSubConnection
+39 Name=AuthoritativeDelete__CCConnMonDeleteConnection
+40 Name=RegistrationStatus__CCConnMonNetworkRegistrationChange
+41 Name=Bearer__CCConnMonBearerChange
+42 Name=SignalStrength__CCConnMonSignalStrengthChange
+43 Name=Availability__CCConnMonBearerAvailabilityChange
+44 Name=Data__CCConnMonGenericEvent
+45 Name=IapAvailability__CCConnMonIapAvailabilityChange
+;------------------EOF------------------

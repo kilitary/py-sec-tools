@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QTIMESETTINGSDLG Pascal=0
+;---------------------------------------
+1 Name=_ZN17CQTimeSettingsDlg8RunDlgLDEv
+;------------------EOF------------------

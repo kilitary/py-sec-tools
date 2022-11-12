@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QSTARTUPREASONHANDLER Pascal=0
+;---------------------------------------
+1 Name=_ZN22CQStartupReasonHandler18StartupOptionDataLEv
+2 Name=_ZN22CQStartupReasonHandler21CurrentStartupReasonLEv
+3 Name=_ZN22CQStartupReasonHandler21SetNextStartupReasonLEii
+;------------------EOF------------------

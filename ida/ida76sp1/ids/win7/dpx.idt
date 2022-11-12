@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dpx.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=DpxFreeMemory Pascal=4
+2 Name=DpxNewJob Pascal=8
+3 Name=DpxRestoreJob Pascal=8
+;------------------EOF------------------

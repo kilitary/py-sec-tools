@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=jgmd400.dll Args=0 Drops=36
+;---------------------------------------
+1 Name=JgMDArtToMid Pascal=0
+2 Name=JgMDAuxClose Pascal=0
+3 Name=JgMDAuxDecode Pascal=0
+4 Name=JgMDAuxOpen Pascal=0
+5 Name=JgMDClose Pascal=0
+6 Name=JgMDDeviceClose Pascal=0
+7 Name=JgMDDeviceGetCaps Pascal=0
+8 Name=JgMDDeviceGetReport Pascal=0
+9 Name=JgMDDeviceGetVolume Pascal=0
+10 Name=JgMDDeviceInput Pascal=0
+11 Name=JgMDDeviceOpen Pascal=0
+12 Name=JgMDDeviceSetVolume Pascal=0
+13 Name=JgMDDeviceStartPlay Pascal=0
+14 Name=JgMDDeviceStopPlay Pascal=0
+15 Name=JgMDEstimateMidSize Pascal=0
+16 Name=JgMDGetDevice Pascal=0
+17 Name=JgMDGetReport Pascal=0
+18 Name=JgMDGetStreamInfo Pascal=0
+19 Name=JgMDGetVolume Pascal=0
+20 Name=JgMDHeartbeat Pascal=0
+21 Name=JgMDInputSegment Pascal=0
+22 Name=JgMDInputStream Pascal=0
+23 Name=JgMDOpen Pascal=0
+24 Name=JgMDRawClose Pascal=0
+25 Name=JgMDRawDecode Pascal=0
+26 Name=JgMDRawOpen Pascal=0
+27 Name=JgMDReleaseDevice Pascal=0
+28 Name=JgMDSet Pascal=0
+29 Name=JgMDSetEOFMark Pascal=0
+30 Name=JgMDSetPlayParameters Pascal=0
+31 Name=JgMDSetVolume Pascal=0
+32 Name=JgMDShutDown Pascal=0
+33 Name=JgMDStartPlay Pascal=0
+34 Name=JgMDStartUp Pascal=0
+35 Name=JgMDStatus Pascal=0
+36 Name=JgMDTerminatePlay Pascal=0
+;------------------EOF------------------

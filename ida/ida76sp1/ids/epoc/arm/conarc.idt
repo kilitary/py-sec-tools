@@ -1,0 +1,75 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CONARC Pascal=0
+;---------------------------------------
+1 Name=__17CImportBufferBasei
+2 Name=AddMimeFromL__13CCnaConverterRC9TDataType
+3 Name=AddMimeToL__13CCnaConverterRC9TDataType
+4 Name=AtL__22CCnaConvInfoFileReaderi
+5 Name=CancelConvert__14CConverterBase
+6 Name=Capabilities__14CConverterBase
+7 Name=CommitExportBufferL__20CExportDynamicBuffer
+8 Name=ConstructL__17CExportBufferBase
+9 Name=ConstructL__17CImportBufferBase
+10 Name=ConstructL__20CExportDynamicBuffer
+11 Name=ConvFromL__17CCnaConverterListRC9TDataType
+12 Name=ConvToL__17CCnaConverterListRC9TDataType
+13 Name=ConvertAL__14CConverterBaseRCt4TBuf1i256T1PC18MConverterObserver
+14 Name=ConvertL__14CConverterBaseRCt4TBuf1i256T1PC18MConverterObserver
+15 Name=ConvertObjectAL__14CConverterBaseR11RReadStreamR12RWriteStreamPC18MConverterObserver
+16 Name=ConvertObjectL__14CConverterBaseR11RReadStreamR12RWriteStreamPC18MConverterObserver
+17 Name=Converter__17CCnaConverterListG4TUid
+18 Name=CountFrom__C13CCnaConverter
+19 Name=CountTo__C13CCnaConverter
+20 Name=Count__17CCnaConverterList
+21 Name=Count__22CCnaConvInfoFileReader
+22 Name=DoConvertL__14CConverterBase
+23 Name=ExternalizeL__C13CCnaConverterR12RWriteStream
+24 Name=FillImportBuf__17CFileImportBuffer
+25 Name=FinalizeExport__17CExportBufferBase
+26 Name=InsertL__17CExportBufferBaseUc
+27 Name=InternalizeL__13CCnaConverterR11RReadStream
+28 Name=MaxSize__17CImportBufferBase
+29 Name=MimeFrom__C13CCnaConverterRC9TDataType
+30 Name=MimeFrom__C13CCnaConverteri
+31 Name=MimeTo__C13CCnaConverterRC9TDataType
+32 Name=MimeTo__C13CCnaConverteri
+33 Name=NewLC__13CCnaConverterG4TUidG9TDataTypeT2
+34 Name=NewLC__13CCnaConverterRC13CCnaConverter
+35 Name=NewLC__17CCnaConverterList
+36 Name=NewLC__22CCnaConvInfoFileReaderRC6TDesC8G4TUid
+37 Name=NewLC__22CCnaConvInfoFileWriterRC6TDesC8G4TUid
+38 Name=NewLC__27CCnaScanningConverterFinderR3RFs
+39 Name=NewL__13CCnaConverterG4TUidG9TDataTypeT2
+40 Name=NewL__13CCnaConverterRC13CCnaConverter
+41 Name=NewL__17CCnaConverterList
+42 Name=NewL__20CExportDynamicBufferiR8CBufBase
+43 Name=NewL__22CCnaConvInfoFileReaderRC6TDesC8G4TUid
+44 Name=NewL__22CCnaConvInfoFileWriterRC6TDesC8G4TUid
+45 Name=NewL__27CCnaScanningConverterFinderR3RFs
+46 Name=ReadL__17CImportBufferBaseRUc
+47 Name=Release__17CCnaConverterList
+48 Name=ResetExportBuffer__17CExportBufferBase
+49 Name=ResetImportBuffer__17CImportBufferBase
+50 Name=ResetReadPtr__17CImportBufferBase
+51 Name=ResetWritePtr__17CExportBufferBase
+52 Name=RestoreL__22CCnaConvInfoFileReader
+53 Name=SeekL__17CFileImportBuffer5TSeeki
+54 Name=SeekL__17CImportBufferBase5TSeeki
+55 Name=SetLength__17CImportBufferBasei
+56 Name=SetUid__13CCnaConverterG4TUid
+57 Name=UpdateL__17CCnaConverterList
+58 Name=_._13CCnaConverter
+59 Name=_._17CCnaConverterList
+60 Name=_._17CExportBufferBase
+61 Name=_._17CImportBufferBase
+62 Name=_._22CCnaConvInfoFileWriter
+63 Name=_._27CCnaScanningConverterFinder
+64 Name=__13CCnaConverter
+65 Name=__17CExportBufferBasei
+66 Name=__17CFileImportBufferG5RFilei
+67 Name=AddConverterL__22CCnaConvInfoFileWriterRC13CCnaConverter
+68 Name=StoreL__C22CCnaConvInfoFileWriter
+;------------------EOF------------------

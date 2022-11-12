@@ -1,0 +1,47 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msrepl40.dll Args=0 Drops=40
+;---------------------------------------
+2001 Name=JetCreateReplica Pascal=24
+2002 Name=JetMoveReplica Pascal=12
+2011 Name=JetCreateMessage Pascal=20
+2012 Name=JetApplyMessage Pascal=16
+2021 Name=JetReplicaRetrieveExchangeInfo Pascal=16
+2022 Name=JetReplicaRetrieveExchangeStatus Pascal=16
+2023 Name=JetReplicaExchangeData Pascal=24
+2024 Name=JetReplicaDirectExchange Pascal=16
+2025 Name=JetReplicaExchangeAll Pascal=8
+2041 Name=JetSetReplicaInfo Pascal=20
+2042 Name=JetGetReplicaInfo Pascal=28
+2043 Name=JetSetRegistryInfo Pascal=16
+2044 Name=JetGetRegistryInfo Pascal=20
+2045 Name=JetClearRegistryInfo Pascal=4
+2046 Name=JetGetTransporterInfo Pascal=32
+2047 Name=JetSetTransporterInfo Pascal=24
+2051 Name=JetReplicaMakeMaster Pascal=8
+2052 Name=JetReplicaMoveMaster Pascal=12
+2061 Name=JetPartialReplicaAddFilter Pascal=20
+2062 Name=JetPartialReplicaDeleteFilter Pascal=20
+2063 Name=JetPopulatePartial Pascal=16
+2071 Name=JetRemoveRemoteTransporter Pascal=12
+2072 Name=JetTrRefreshTransporterInfo Pascal=8
+2091 Name=JetTrClientInit Pascal=4
+2092 Name=JetTrClientTerm Pascal=4
+2093 Name=JetTrClientGetEvent Pascal=40
+2094 Name=JetTrClientSetEvent Pascal=4
+2095 Name=JetTrServerInit Pascal=8
+2096 Name=JetTrServerTerm Pascal=0
+2097 Name=JetTrServerDoWork Pascal=0
+2098 Name=JetTrServerGetErrorInfo Pascal=36
+2099 Name=JetTrServerRegister Pascal=0
+2100 Name=JetTrServerDoInetExchange Pascal=24
+2101 Name=JetTrServerProcessInetMessage Pascal=0
+2102 Name=JetTrServerReadHttpFile Pascal=20
+2103 Name=JetTrServerWriteHttpFile Pascal=20
+2191 Name=JetReplTouchTombstoneRow Pascal=16
+2200 Name=JetRecoverReplica Pascal=16
+2201 Name=JetGetRecoveryReplica Pascal=20
+2202 Name=JetWingReplInit Pascal=12
+;------------------EOF------------------

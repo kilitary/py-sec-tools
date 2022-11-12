@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=Nlsdl.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=DownlevelGetParentLocaleLCID Pascal=4
+2 Name=DownlevelGetParentLocaleName Pascal=12
+3 Name=DownlevelLCIDToLocaleName Pascal=16
+4 Name=DownlevelLocaleNameToLCID Pascal=8
+;------------------EOF------------------

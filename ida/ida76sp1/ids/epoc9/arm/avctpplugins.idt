@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=AVCTPPLUGINS Pascal=0
+;---------------------------------------
+1 Name=_Z24ImplementationGroupProxyRi
+2 Name=_ZN16CAvctpConnection4NewLER30CConnectionProviderFactoryBase
+3 Name=_ZN16CAvctpConnectionD0Ev
+4 Name=_ZN16CAvctpConnectionD1Ev
+5 Name=_ZN16CAvctpConnectionD2Ev
+6 Name=_ZN23CAvctpConnectionFactory16DoSelectProviderERN4Meta9SMetaDataER16ISelectionNotifyPK12RMessagePtr2
+7 Name=_ZN23CAvctpConnectionFactory17DoCreateProviderLEv
+8 Name=_ZN23CAvctpConnectionFactory23DoEnumerateConnectionsLER13RPointerArrayI15TConnectionInfoE
+9 Name=_ZN23CAvctpConnectionFactory25DoSelectNextLayerProviderERN4Meta9SMetaDataER16ISelectionNotifyPK12RMessagePtr2
+10 Name=_ZN23CAvctpConnectionFactory4NewLEPv
+11 Name=_ZN23CAvctpConnectionFactoryD0Ev
+12 Name=_ZN23CAvctpConnectionFactoryD1Ev
+13 Name=_ZN23CAvctpConnectionFactoryD2Ev
+14 Name=_ZN24CAvctpLowerSubConFactory17DoCreateProviderLER23CConnectionProviderBaseN14RSubConnection12TSubConnTypeE
+15 Name=_ZN24CAvctpLowerSubConFactory4NewLEPv
+16 Name=_ZN24CAvctpLowerSubConFactoryC1EjR30CSubConnectionFactoryContainer
+17 Name=_ZN24CAvctpLowerSubConFactoryC2EjR30CSubConnectionFactoryContainer
+18 Name=_ZN24CAvctpLowerSubConFactoryD0Ev
+19 Name=_ZN24CAvctpLowerSubConFactoryD1Ev
+20 Name=_ZN24CAvctpLowerSubConFactoryD2Ev
+21 Name=_ZN24CAvctpUpperSubConFactory17DoCreateProviderLER23CConnectionProviderBaseN14RSubConnection12TSubConnTypeE
+22 Name=_ZN24CAvctpUpperSubConFactory4NewLEPv
+23 Name=_ZN24CAvctpUpperSubConFactoryC1EjR30CSubConnectionFactoryContainer
+24 Name=_ZN24CAvctpUpperSubConFactoryC2EjR30CSubConnectionFactoryContainer
+25 Name=_ZN24CAvctpUpperSubConFactoryD0Ev
+26 Name=_ZN24CAvctpUpperSubConFactoryD1Ev
+27 Name=_ZN24CAvctpUpperSubConFactoryD2Ev
+28 Name=_ZTIN4Meta18RMetaDataContainerINS_13SMetaDataEComEEE
+29 Name=_ZTIN4Meta5TMetaI10TBTDevAddrEE
+30 Name=_ZTIN4Meta5TMetaIiEE
+31 Name=_ZTVN4Meta18RMetaDataContainerINS_13SMetaDataEComEEE
+32 Name=_ZTVN4Meta5TMetaI10TBTDevAddrEE
+33 Name=_ZTVN4Meta5TMetaIiEE
+34 Name=_ZThn4_N16CAvctpConnectionD0Ev
+35 Name=_ZThn4_N16CAvctpConnectionD1Ev
+;------------------EOF------------------

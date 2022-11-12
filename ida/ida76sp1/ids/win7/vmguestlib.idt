@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=vmGuestLib.dll Args=0 Drops=43
+;---------------------------------------
+1 Name=DllMain Pascal=12
+2 Name=VMGuestLib_AtomicUpdateCookie Pascal=0
+3 Name=VMGuestLib_CloseHandle Pascal=0
+4 Name=VMGuestLib_GetCpuLimitMHz Pascal=0
+5 Name=VMGuestLib_GetCpuReservationMHz Pascal=0
+6 Name=VMGuestLib_GetCpuShares Pascal=0
+7 Name=VMGuestLib_GetCpuStolenMs Pascal=0
+8 Name=VMGuestLib_GetCpuUsedMs Pascal=0
+9 Name=VMGuestLib_GetElapsedMs Pascal=0
+10 Name=VMGuestLib_GetErrorText Pascal=0
+11 Name=VMGuestLib_GetHostCpuUsedMs Pascal=0
+12 Name=VMGuestLib_GetHostMemKernOvhdMB Pascal=0
+13 Name=VMGuestLib_GetHostMemMappedMB Pascal=0
+14 Name=VMGuestLib_GetHostMemPhysFreeMB Pascal=0
+15 Name=VMGuestLib_GetHostMemPhysMB Pascal=0
+16 Name=VMGuestLib_GetHostMemSharedMB Pascal=0
+17 Name=VMGuestLib_GetHostMemSwappedMB Pascal=0
+18 Name=VMGuestLib_GetHostMemUnmappedMB Pascal=0
+19 Name=VMGuestLib_GetHostMemUsedMB Pascal=0
+20 Name=VMGuestLib_GetHostNumCpuCores Pascal=0
+21 Name=VMGuestLib_GetHostProcessorSpeed Pascal=0
+22 Name=VMGuestLib_GetMemActiveMB Pascal=0
+23 Name=VMGuestLib_GetMemBalloonMaxMB Pascal=0
+24 Name=VMGuestLib_GetMemBalloonTargetMB Pascal=0
+25 Name=VMGuestLib_GetMemBalloonedMB Pascal=0
+26 Name=VMGuestLib_GetMemLLSwappedMB Pascal=0
+27 Name=VMGuestLib_GetMemLimitMB Pascal=0
+28 Name=VMGuestLib_GetMemMappedMB Pascal=0
+29 Name=VMGuestLib_GetMemOverheadMB Pascal=0
+30 Name=VMGuestLib_GetMemReservationMB Pascal=0
+31 Name=VMGuestLib_GetMemSharedMB Pascal=0
+32 Name=VMGuestLib_GetMemSharedSavedMB Pascal=0
+33 Name=VMGuestLib_GetMemShares Pascal=0
+34 Name=VMGuestLib_GetMemSwapTargetMB Pascal=0
+35 Name=VMGuestLib_GetMemSwappedMB Pascal=0
+36 Name=VMGuestLib_GetMemTargetSizeMB Pascal=0
+37 Name=VMGuestLib_GetMemUsedMB Pascal=0
+38 Name=VMGuestLib_GetMemZipSavedMB Pascal=0
+39 Name=VMGuestLib_GetMemZippedMB Pascal=0
+40 Name=VMGuestLib_GetResourcePoolPath Pascal=0
+41 Name=VMGuestLib_GetSessionId Pascal=0
+42 Name=VMGuestLib_OpenHandle Pascal=0
+43 Name=VMGuestLib_UpdateInfo Pascal=0
+;------------------EOF------------------

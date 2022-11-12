@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SPDCTRL Pascal=0
+;---------------------------------------
+1 Name=_._CSpdiaControl
+2 Name=AssignDialIndexL__CSpdiaControli
+3 Name=AssignDialNumberL__CSpdiaControliPCEikStatusPane
+4 Name=AssignNumberL__CSpdiaControliPCEikStatusPanePCCoeControli
+5 Name=Cancel__CSpdiaControl
+6 Name=ContactId__CCSpdiaControli
+7 Name=ContactTitleL__CSpdiaControlli
+8 Name=CreateGridDataL__CSpdiaControlPCAknGridi
+9 Name=DialNumberL__CSpdiaControliRTDes16PCEikStatusPane
+10 Name=DrawShadow__CSpdiaControlRCWindowGcRCTSize
+11 Name=ExecuteLD__CSpdiaControlli
+12 Name=IconArray__CCSpdiaControl
+13 Name=IconIndex__CCSpdiaControli
+14 Name=Index__CCSpdiaControli
+15 Name=NewL__CSpdiaControl
+16 Name=NewL__CSpdiaControlRCPbkContactEngine
+17 Name=NumberType__CCSpdiaControli
+18 Name=Number__CCSpdiaControli
+19 Name=PbkEngine__CCSpdiaControl
+20 Name=PhoneDialNumber__CCSpdiaControli
+21 Name=PhoneNumber__CCSpdiaControli
+22 Name=RemoveDialIndexL__CSpdiaControlii
+23 Name=SetLayout__CSpdiaControlRCTRect
+24 Name=Size__CCSpdiaControl
+25 Name=SpdIconIndex__CCSpdiaControli
+26 Name=ThumbIndex__CCSpdiaControli
+27 Name=VMBoxPosition__CCSpdiaControl
+28 Name=VoiceMailL__CSpdiaControlRTDes16
+29 Name=ApplyCellSpdiaPaneStyleL__CSpdiaControlRCAknGridRTSize
+30 Name=DeleteIconArray__CSpdiaControl
+31 Name=ReloadIconArray__CSpdiaControl
+;------------------EOF------------------

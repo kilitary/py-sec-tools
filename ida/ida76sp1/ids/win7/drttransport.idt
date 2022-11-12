@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=drttransport.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=DrtCreateIpv6UdpTransport Pascal=20
+2 Name=DrtDeleteIpv6UdpTransport Pascal=4
+;------------------EOF------------------

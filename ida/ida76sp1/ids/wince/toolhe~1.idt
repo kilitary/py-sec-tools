@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=toolhelpm.dll Pascal=0
+;---------------------------------------
+1 Name=CloseToolhelp32Snapshot
+2 Name=CreateToolhelp32Snapshot
+3 Name=DllMain
+4 Name=Heap32First
+5 Name=Heap32ListFirst
+6 Name=Heap32ListNext
+7 Name=Heap32Next
+8 Name=Module32First
+9 Name=Module32Next
+10 Name=Process32First
+11 Name=Process32Next
+12 Name=Thread32First
+13 Name=Thread32Next
+14 Name=Toolhelp32ReadProcessMemory
+;------------------EOF------------------

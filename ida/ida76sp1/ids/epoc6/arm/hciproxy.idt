@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HCIPROXY Pascal=0
+;---------------------------------------
+1 Name=ConstructL__20CHciExtensionConduit
+2 Name=IssueCommandL__20CHciExtensionConduitR6TDesC8
+3 Name=NewL__20CHciExtensionConduitR25MVendorSpecificHciConduit
+4 Name=StopWaitingForEvent__20CHciExtensionConduit
+5 Name=WaitForEvent__20CHciExtensionConduit
+6 Name=_._20CHciExtensionConduit
+;------------------EOF------------------

@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msxml2.dll Args=0 Drops=12
+;---------------------------------------
+6 Name=GetDOMNodeFromHandle Pascal=12
+7 Name=GetDOMNodeHandle Pascal=12
+8 Name=GetMemoryUsed Pascal=0
+9 Name=ReleaseDOMNodeHandle Pascal=8
+10 Name=SetDOMFlags Pascal=8
+11 Name=SetDocumentRowset Pascal=12
+12 Name=SetMemoryLimit Pascal=4
+13 Name=DllCanUnloadNow Pascal=0
+14 Name=DllGetClassObject Pascal=12
+15 Name=DllMain Pascal=12
+16 Name=DllRegisterServer Pascal=0
+17 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

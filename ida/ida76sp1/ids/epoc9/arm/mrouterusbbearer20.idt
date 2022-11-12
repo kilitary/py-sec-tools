@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MROUTERUSBBEARER20 Pascal=0
+;---------------------------------------
+1 Name=_Z36CmRouterClientBearerCreatorFunctionLv
+2 Name=_ZTI11CDelayTimer
+3 Name=_ZTI17CmRouterUSBBearer
+4 Name=_ZTI19CmRouterUSBListener
+5 Name=_ZTV11CDelayTimer
+6 Name=_ZTV17CmRouterUSBBearer
+7 Name=_ZTV19CmRouterUSBListener
+8 Name=_ZTI24CmRouterUSBDeviceMonitor
+9 Name=_ZTI25CmRouterUSBServiceMonitor
+10 Name=_ZTV24CmRouterUSBDeviceMonitor
+11 Name=_ZTV25CmRouterUSBServiceMonitor
+;------------------EOF------------------

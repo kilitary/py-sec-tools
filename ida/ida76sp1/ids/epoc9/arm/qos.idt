@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QOS Pascal=0
+;---------------------------------------
+1 Name=Install
+2 Name=_ZTV9CFlowHook
+3 Name=_ZTV8CSapItem
+4 Name=_ZTI10CInterface
+5 Name=_ZTI11CModuleData
+6 Name=_ZTI11CModuleSpec
+7 Name=_ZTI12CJoinSession
+8 Name=_ZTI12CProtocolQoS
+9 Name=_ZTI12CQoSProvider
+10 Name=_ZTI13CLeaveSession
+11 Name=_ZTI13CQoSPolicyMgr
+12 Name=_ZTI14CModuleManager
+13 Name=_ZTI14CNegotiateItem
+14 Name=_ZTI15CModuleSelector
+15 Name=_ZTI15CQoSSessionBase
+16 Name=_ZTI17CInterfaceManager
+17 Name=_ZTI17CNegotiateSession
+18 Name=_ZTI18CProtocolFamilyQoS
+19 Name=_ZTI18CQoSChannelManager
+20 Name=_ZTI19CInternalQoSChannel
+21 Name=_ZTI21CCreateChannelSession
+22 Name=_ZTI24CNegotiateChannelSession
+23 Name=_ZTI8CSapItem
+24 Name=_ZTI9CFlowHook
+25 Name=_ZTV10CInterface
+26 Name=_ZTV11CModuleData
+27 Name=_ZTV11CModuleSpec
+28 Name=_ZTV12CJoinSession
+29 Name=_ZTV12CProtocolQoS
+30 Name=_ZTV12CQoSProvider
+31 Name=_ZTV13CLeaveSession
+32 Name=_ZTV13CQoSPolicyMgr
+33 Name=_ZTV14CModuleManager
+34 Name=_ZTV14CNegotiateItem
+35 Name=_ZTV15CModuleSelector
+36 Name=_ZTV15CQoSSessionBase
+37 Name=_ZTV17CInterfaceManager
+38 Name=_ZTV17CNegotiateSession
+39 Name=_ZTV18CProtocolFamilyQoS
+40 Name=_ZTV18CQoSChannelManager
+41 Name=_ZTV19CInternalQoSChannel
+42 Name=_ZTV21CCreateChannelSession
+43 Name=_ZTV24CNegotiateChannelSession
+;------------------EOF------------------

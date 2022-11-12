@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QSBQUARTZ Pascal=0
+;---------------------------------------
+1 Name=ControlFactory__17CQSbQuartzLibrary
+2 Name=ResourceFile__17CQSbQuartzLibrary
+3 Name=SetActive__20CQSbSISLNotifierIconi
+;------------------EOF------------------

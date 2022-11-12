@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SERVICEREGISTRY Pascal=0
+;---------------------------------------
+1 Name=_ZN16CServiceRegistry10SetDefaultE4TUidRK9TDataTypeS0_
+2 Name=_ZN16CServiceRegistry10GetDefaultE4TUidRK9TDataTypeRS0_
+3 Name=_ZN16CServiceRegistry11RemoveEntryE4TUidRK9TDataType
+4 Name=_ZN16CServiceRegistry4NewLEv
+5 Name=_ZN16CServiceRegistryD0Ev
+6 Name=_ZN16CServiceRegistryD1Ev
+7 Name=_ZN16CServiceRegistryD2Ev
+8 Name=_ZTI16CServiceRegistry
+9 Name=_ZTV16CServiceRegistry
+;------------------EOF------------------

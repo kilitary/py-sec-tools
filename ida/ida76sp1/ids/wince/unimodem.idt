@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=Unimodem.dll Pascal=0
+;---------------------------------------
+1 Name=TSPI_lineGetProcTable
+2 Name=TSPI_providerInit
+3 Name=TSPI_providerShutdown
+;------------------EOF------------------

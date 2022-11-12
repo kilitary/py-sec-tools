@@ -1,0 +1,55 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MTEXTUTILS Pascal=0
+;---------------------------------------
+1 Name=_._CTextFileReaderSource
+2 Name=__TBufferReaderSourceRCTDesC8
+3 Name=AppendUcsToBufferFromUtfL__CUtfUtilsPCBufBaseRCTDesC8
+4 Name=AppendUtfToBufferFromUcsL__CUtfUtilsPCBufBaseRCTDesC16
+5 Name=CancelCheckInputType__CTextSourceReader
+6 Name=CancelGetLine__CTextSourceReader
+7 Name=CancelReloadBuffer__TBufferReaderSourcePCTextSourceReader
+8 Name=CancelReloadBuffer__CTextFileReaderSourcePCTextSourceReader
+9 Name=CheckInputType__CTextSourceReaderRCTDesC8
+10 Name=CheckInputType__CTextSourceReaderRCTDesC8PTRequestStatus
+11 Name=DeleteHead__CBufFlatTextLinei
+12 Name=DeleteTail__CBufFlatTextLinei
+13 Name=DoCancel__CTextSourceReader
+14 Name=ExtraBytesForUtfLeadByte__CUtfUtilsUc
+15 Name=GetByte__TBufferReaderSourcePCTextSourceReaderPUc
+16 Name=GetByte__CTextFileReaderSourcePCTextSourceReaderPUc
+17 Name=GetInputType__CTextSourceReader
+18 Name=GetLine__CTextSourceReaderPTPtr8
+19 Name=GetLine__CTextSourceReaderPTPtrPTRequestStatus
+20 Name=GetLine__CTextSourceReaderPTPtr16
+21 Name=GetLine__CTextSourceReaderPTPtrPTRequestStatus
+22 Name=Line__CBufFlatTextLine
+23 Name=Line__CBufFlatTextLine
+24 Name=NewLC__CTextSourceReaderPQCTextSourceReaderMSource
+25 Name=NewLC__CTextFileReaderSourceRRFsRCTDesC16i
+26 Name=NewL__CBufFlatTextLineQCBufFlatTextLineTTypei
+27 Name=NewL__CTextSourceReaderPQCTextSourceReaderMSource
+28 Name=NewL__CTextFileReaderSourceRRFsRCTDesC16i
+29 Name=ReloadBuffer__TBufferReaderSourcePCTextSourceReaderPTRequestStatus
+30 Name=ReloadBuffer__CTextFileReaderSourcePCTextSourceReaderPTRequestStatus
+31 Name=Reset__CBufFlatTextLine
+32 Name=RunL__CTextSourceReader
+33 Name=SetInputType__CTextSourceReaderQCTextSourceReaderTEncoding
+34 Name=Size__CBufFlatTextLine
+35 Name=UcsFromUcs__CUtfUtilsRPUsPUsUl
+36 Name=UcsFromUcs__CUtfUtilsRPCUsPCUsRUl
+37 Name=UcsFromUtf__CUtfUtilsRPCUcPCUcRUl
+38 Name=UtfFromUcs__CUtfUtilsPTPtrC16PTPtr8
+39 Name=UtfFromUcs__CUtfUtilsRPUcPUcUl
+40 Name=UtfLengthForUcs__CUtfUtilsRPCUsPCUs
+41 Name=UtfLengthForUcs__CUtfUtilsUl
+42 Name=UtfToUcs__CUtfUtilsPTPtrC8PTPtrUs
+43 Name=WaitForReloadRequest__TBufferReaderSourcePCTextSourceReaderPTRequestStatus
+44 Name=WaitForReloadRequest__CTextFileReaderSourcePCTextSourceReaderPTRequestStatus
+45 Name=_._CBufFlatTextLine
+46 Name=_._CTextSourceReader
+47 Name=_._TBufferReaderSource
+48 Name=AppendL__CBufFlatTextLineUl
+;------------------EOF------------------

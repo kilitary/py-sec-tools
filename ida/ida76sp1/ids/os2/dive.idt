@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DIVE.dll Pascal=0
+;---------------------------------------
+1 Name=DiveQueryCaps
+2 Name=DiveOpen
+3 Name=DiveClose
+4 Name=DiveSetupBlitter
+5 Name=DiveBlitImage
+6 Name=DiveAcquireFrameBuffer
+7 Name=DiveSwitchBank
+8 Name=DiveDeacquireFrameBuffer
+9 Name=DiveSetDestinationPalette
+10 Name=DiveSetSourcePalette
+11 Name=DiveCalcFrameBufferAddress
+12 Name=DiveAllocImageBuffer
+13 Name=DiveFreeImageBuffer
+14 Name=DiveBeginImageBufferAccess
+15 Name=DiveEndImageBufferAccess
+;------------------EOF------------------

@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TLSCACHECLIENT Pascal=0
+;---------------------------------------
+1 Name=_ZN15RTlsCacheClient13RequestNotifyER14TRequestStatus
+2 Name=_ZN15RTlsCacheClient4OpenERK16CX509Certificate
+3 Name=_ZN15RTlsCacheClient6CancelEv
+4 Name=_ZN15RTlsCacheClient9GetStateLEv
+5 Name=_ZN15RTlsCacheClient9SetStateLE16TCacheEntryState
+;------------------EOF------------------

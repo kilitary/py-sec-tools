@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dhcpcsvc.dll Args=0 Drops=45
+;---------------------------------------
+1 Name=DhcpAcquireParameters Pascal=4
+2 Name=DhcpAcquireParametersByBroadcast Pascal=4
+3 Name=DhcpCApiCleanup Pascal=0
+4 Name=DhcpCApiInitialize Pascal=4
+5 Name=DhcpDeRegisterConnectionStateNotification Pascal=8
+6 Name=DhcpDeRegisterOptions Pascal=4
+7 Name=DhcpDeRegisterParamChange Pascal=12
+8 Name=DhcpDelPersistentRequestParams Pascal=8
+9 Name=DhcpEnumClasses Pascal=16
+10 Name=DhcpFallbackRefreshParams Pascal=4
+11 Name=DhcpFreeMem Pascal=4
+12 Name=DhcpGetDhcpServicedConnections Pascal=12
+13 Name=DhcpGetNotificationStatus Pascal=8
+14 Name=DhcpHandlePnPEvent Pascal=20
+15 Name=DhcpLeaseIpAddress Pascal=24
+16 Name=DhcpLeaseIpAddressEx Pascal=32
+17 Name=DhcpNotifyConfigChange Pascal=28
+18 Name=DhcpNotifyConfigChangeEx Pascal=32
+19 Name=DhcpNotifyMediaReconnected Pascal=4
+20 Name=DhcpOpenGlobalEvent Pascal=0
+21 Name=DhcpPersistentRequestParams Pascal=28
+22 Name=DhcpQueryHWInfo Pascal=20
+23 Name=DhcpRegisterConnectionStateNotification Pascal=12
+24 Name=DhcpRegisterOptions Pascal=16
+25 Name=DhcpRegisterParamChange Pascal=28
+26 Name=DhcpReleaseIpAddressLease Pascal=8
+27 Name=DhcpReleaseIpAddressLeaseEx Pascal=16
+28 Name=DhcpReleaseParameters Pascal=4
+29 Name=DhcpRemoveDNSRegistrations Pascal=0
+30 Name=DhcpRenewIpAddressLease Pascal=16
+31 Name=DhcpRenewIpAddressLeaseEx Pascal=24
+32 Name=DhcpRequestCachedParams Pascal=20
+33 Name=DhcpRequestOptions Pascal=28
+34 Name=DhcpRequestParams Pascal=44
+35 Name=DhcpSetMSFTVendorSpecificOptions Pascal=24
+36 Name=DhcpStaticRefreshParams Pascal=4
+37 Name=DhcpUndoRequestParams Pascal=16
+38 Name=McastApiCleanup Pascal=0
+39 Name=McastApiStartup Pascal=4
+40 Name=McastEnumerateScopes Pascal=20
+41 Name=McastGenUID Pascal=4
+42 Name=McastReleaseAddress Pascal=12
+43 Name=McastRenewAddress Pascal=16
+44 Name=McastRequestAddress Pascal=20
+45 Name=ServiceMain Pascal=8
+;------------------EOF------------------

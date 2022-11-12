@@ -1,0 +1,49 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=COMSDBGUTIL Pascal=0
+;---------------------------------------
+1 Name=_ZN11RFileLoggerC1Ev
+2 Name=_ZN11RFileLogger7ConnectEv
+3 Name=_ZN11RFileLogger9CreateLogERK7TDesC16S2_16TFileLoggingMode
+4 Name=_ZNK11RFileLogger9LastErrorEv
+5 Name=_ZNK11RFileLogger8LogValidEv
+6 Name=_ZN11RFileLoggerD1Ev
+7 Name=_ZN11RFileLogger14SetDateAndTimeEii
+8 Name=_ZNK11RFileLogger7VersionEv
+9 Name=_ZN11RFileLogger11WriteFormatE11TRefByValueIK7TDesC16Ez
+10 Name=_ZN11RFileLogger11WriteFormatERK7TDesC16S2_16TFileLoggingMode11TRefByValueIS1_Ez
+11 Name=_ZN11RFileLogger5WriteERK7TDesC16
+12 Name=_ZN11RFileLogger5WriteERK7TDesC16S2_16TFileLoggingModeS2_
+13 Name=_ZN11RFileLoggerC2Ev
+14 Name=_ZN11RFileLogger8CloseLogEv
+15 Name=_ZN11RFileLogger11WriteFormatE11TRefByValueIK6TDesC8ERSt9__va_list
+16 Name=_ZN11RFileLogger11WriteFormatERK7TDesC16S2_16TFileLoggingMode11TRefByValueIK6TDesC8ERSt9__va_list
+17 Name=_ZN11RFileLogger7HexDumpEPKtS1_PKhi
+18 Name=_ZN11RFileLogger7HexDumpERK7TDesC16S2_16TFileLoggingModePKtS5_PKhi
+19 Name=_ZN11RFileLogger11WriteFormatE11TRefByValueIK7TDesC16ERSt9__va_list
+20 Name=_ZN11RFileLogger11WriteFormatE11TRefByValueIK6TDesC8Ez
+21 Name=_ZN11RFileLogger11WriteFormatERK7TDesC16S2_16TFileLoggingMode11TRefByValueIS1_ERSt9__va_list
+22 Name=_ZN11RFileLogger11WriteFormatERK7TDesC16S2_16TFileLoggingMode11TRefByValueIK6TDesC8Ez
+23 Name=_ZN11RFileLogger5WriteERK6TDesC8
+24 Name=_ZN11RFileLogger5WriteERK7TDesC16S2_16TFileLoggingModeRK6TDesC8
+25 Name=_ZN11RFileLogger19__DbgShutDownServerEv
+26 Name=_ZN11RFileLogger5CloseEv
+27 Name=_ZN11RFileLogger7HexDumpERK6TDesC8S2_S2_S2_
+28 Name=_ZN11RFileLogger7HexDumpERK6TDesC8S2_
+29 Name=_ZN11RFileLogger10SetLogTagsERK6TDesC8S2_
+30 Name=_ZN11RFileLogger11WriteBinaryERK6TDesC8
+31 Name=_ZN11RFileLogger11WriteFormatERK6TDesC8S2_11TRefByValueIS1_ERSt9__va_list
+32 Name=_ZN11RFileLogger11WriteFormatERK6TDesC8S2_11TRefByValueIS1_Ez
+33 Name=_ZN11RFileLogger11WriteFormatERK6TDesC8S2_11TRefByValueIK7TDesC16ERSt9__va_list
+34 Name=_ZN11RFileLogger11WriteFormatERK6TDesC8S2_11TRefByValueIK7TDesC16Ez
+35 Name=_ZN11RFileLogger5WriteERK6TDesC8S2_S2_
+36 Name=_ZN11RFileLogger5WriteERK6TDesC8S2_RK7TDesC16
+37 Name=_ZN11RFileLogger19__DbgSetHeapFailureEi
+38 Name=_ZN11RFileLogger8ClearLogEv
+39 Name=_ZNK11RFileLogger6HandleEv
+40 Name=_ZN11RFileLogger5ShareEv
+41 Name=_Z21ClientRunStubOrdinal1v
+42 Name=_ZN11RFileLoggerD2Ev
+;------------------EOF------------------

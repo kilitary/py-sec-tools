@@ -1,0 +1,60 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMLHTTPBASE Pascal=0
+;---------------------------------------
+1 Name=_ZN12CSmlHttpBase11DisconnectLEv
+2 Name=_ZN12CSmlHttpBase11InitialiseLEv
+3 Name=_ZN12CSmlHttpBase11MHFRunErrorEi16RHTTPTransactionRK10THTTPEvent
+4 Name=_ZN12CSmlHttpBase11ReleaseDataEv
+5 Name=_ZN12CSmlHttpBase11SetCallBackEP28MSmlTransportSessionObserver
+6 Name=_ZN12CSmlHttpBase12GetPropertyLERK6TDesC8R5TDes8
+7 Name=_ZN12CSmlHttpBase12SetPropertyLERK6TDesC8S2_
+8 Name=_ZN12CSmlHttpBase13CancelSessionEv
+9 Name=_ZN12CSmlHttpBase15ClearPropertiesEv
+10 Name=_ZN12CSmlHttpBase15GetCredentialsLERK6TUriC87RString8RStringFRS3_S5_
+11 Name=_ZN12CSmlHttpBase15GetNextDataPartER6TPtrC8
+12 Name=_ZN12CSmlHttpBase15OverallDataSizeEv
+13 Name=_ZN12CSmlHttpBase16SetMaxPacketSizeEi
+14 Name=_ZN12CSmlHttpBase19SetNoServerResponseEv
+15 Name=_ZN12CSmlHttpBase5ResetEv
+16 Name=_ZN12CSmlHttpBase7MHFRunLE16RHTTPTransactionRK10THTTPEvent
+17 Name=_ZN12CSmlHttpBase7SetDataERK6TDesC8
+18 Name=_ZN12CSmlHttpBase7SetUriLERK6TUriC8
+19 Name=_ZN12CSmlHttpBase8ConnectLERK6TUriC8
+20 Name=_ZThn4_NK12CSmlHttpBase13ConnectStatusERi
+21 Name=_ZN12CSmlHttpBaseC2Ev
+22 Name=_ZN12CSmlHttpBaseD0Ev
+23 Name=_ZN12CSmlHttpBaseD1Ev
+24 Name=_ZN12CSmlHttpBaseD2Ev
+25 Name=_ZN12RSmlProperty4OpenE8RStringFS0_
+26 Name=_ZN12RSmlProperty5CloseEv
+27 Name=_ZN12RSmlProperty5FieldEv
+28 Name=_ZN12RSmlProperty5ValueEv
+29 Name=_ZNK12CSmlHttpBase11ReceiveDataEv
+30 Name=_ZNK12CSmlHttpBase13ConnectStatusERi
+31 Name=_ZTI12CSmlHttpBase
+32 Name=_ZTV12CSmlHttpBase
+33 Name=_ZThn20_N12CSmlHttpBase11MHFRunErrorEi16RHTTPTransactionRK10THTTPEvent
+34 Name=_ZThn20_N12CSmlHttpBase7MHFRunLE16RHTTPTransactionRK10THTTPEvent
+35 Name=_ZThn24_N12CSmlHttpBase15GetCredentialsLERK6TUriC87RString8RStringFRS3_S5_
+36 Name=_ZThn28_N12CSmlHttpBase11ReleaseDataEv
+37 Name=_ZThn28_N12CSmlHttpBase15GetNextDataPartER6TPtrC8
+38 Name=_ZThn28_N12CSmlHttpBase15OverallDataSizeEv
+39 Name=_ZThn28_N12CSmlHttpBase5ResetEv
+40 Name=_ZThn4_N12CSmlHttpBase11DisconnectLEv
+41 Name=_ZThn4_N12CSmlHttpBase11InitialiseLEv
+42 Name=_ZThn4_N12CSmlHttpBase11SetCallBackEP28MSmlTransportSessionObserver
+43 Name=_ZThn4_N12CSmlHttpBase12GetPropertyLERK6TDesC8R5TDes8
+44 Name=_ZThn4_N12CSmlHttpBase12SetPropertyLERK6TDesC8S2_
+45 Name=_ZThn4_N12CSmlHttpBase13CancelSessionEv
+46 Name=_ZThn4_N12CSmlHttpBase15ClearPropertiesEv
+47 Name=_ZThn4_N12CSmlHttpBase16SetMaxPacketSizeEi
+48 Name=_ZThn4_N12CSmlHttpBase19SetNoServerResponseEv
+49 Name=_ZThn4_N12CSmlHttpBase7SetUriLERK6TUriC8
+50 Name=_ZThn4_N12CSmlHttpBase8ConnectLERK6TUriC8
+51 Name=_ZThn4_NK12CSmlHttpBase11ReceiveDataEv
+52 Name=_ZN12CSmlHttpBase15ClosePropertiesEi
+53 Name=_ZN12CSmlHttpBase16CleanUpResourcesEv
+;------------------EOF------------------

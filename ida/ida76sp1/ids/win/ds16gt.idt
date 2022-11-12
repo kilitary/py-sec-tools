@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ds16gt.dLL Args=0 Drops=5
+;---------------------------------------
+1 Name=CONFIGDSN Pascal=12
+2 Name=___EXPORTEDSTUB Pascal=0
+200 Name=WEP Pascal=2
+201 Name=LIBMAIN Pascal=10
+202 Name=INITTHUNKS Pascal=4
+;------------------EOF------------------

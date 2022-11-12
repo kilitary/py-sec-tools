@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CTFINDER Pascal=0
+;---------------------------------------
+1 Name=_ZN12CCTTokenType4NewLE4TUid3RFs
+2 Name=_ZN12CCTTokenType4NewLERK16CCTTokenTypeInfo3RFs
+3 Name=_ZN16CCTTokenTypeInfo5ListLER14RCPointerArrayIS_E
+4 Name=_ZN16CCTTokenTypeInfo5ListLER14RCPointerArrayIS_ERK18MCTTokenTypeFilter
+5 Name=_ZN28TCTFindTokenTypesByInterfaceC1E6TArrayI4TUidE
+6 Name=_ZN28TCTFindTokenTypesByInterfaceC2E6TArrayI4TUidE
+7 Name=_ZN40TCTFindTokenTypesByInterfaceAndAttributeC1E6TArrayI4TUidES0_I21TCTTokenTypeAttributeE
+8 Name=_ZN40TCTFindTokenTypesByInterfaceAndAttributeC2E6TArrayI4TUidES0_I21TCTTokenTypeAttributeE
+9 Name=_ZNK16CCTTokenTypeInfo10AttributesEv
+10 Name=_ZNK16CCTTokenTypeInfo10InterfacesEv
+11 Name=_ZNK16CCTTokenTypeInfo4TypeEv
+12 Name=_ZNK16CCTTokenTypeInfo5LabelEv
+13 Name=_ZNK16TCTAllTokenTypes6AcceptERK16CCTTokenTypeInfo
+14 Name=_ZTI16TCTAllTokenTypes
+15 Name=_ZTI28TCTFindTokenTypesByInterface
+16 Name=_ZTI40TCTFindTokenTypesByInterfaceAndAttribute
+17 Name=_ZTV16TCTAllTokenTypes
+18 Name=_ZTV28TCTFindTokenTypesByInterface
+19 Name=_ZTV40TCTFindTokenTypesByInterfaceAndAttribute
+20 Name=_ZTI16CCTTokenTypeInfo
+21 Name=_ZTV16CCTTokenTypeInfo
+;------------------EOF------------------

@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=icmp.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=IcmpCloseHandle Pascal=4
+2 Name=IcmpCreateFile Pascal=0
+3 Name=IcmpParseReplies Pascal=8
+4 Name=IcmpSendEcho2 Pascal=44
+5 Name=IcmpSendEcho Pascal=32
+6 Name=do_echo_rep Pascal=40
+7 Name=do_echo_req Pascal=40
+8 Name=register_icmp Pascal=0
+;------------------EOF------------------

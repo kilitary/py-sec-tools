@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=webio.dll Args=0 Drops=25
+;---------------------------------------
+1 Name=WebCancelHttpRequest Pascal=12
+4 Name=WebCloseHttpRequest Pascal=12
+5 Name=WebCloseSession Pascal=12
+8 Name=WebCreateHttpRequest Pascal=20
+9 Name=WebCreateSession Pascal=16
+10 Name=WebCreateUri Pascal=12
+11 Name=WebDeleteUri Pascal=4
+14 Name=WebFlushCookies Pascal=20
+15 Name=WebGetCookies Pascal=32
+17 Name=WebInitialize Pascal=16
+18 Name=WebQueryHttpRequestOption Pascal=24
+19 Name=WebQueryHttpResponseHeaders Pascal=28
+20 Name=WebQueryHttpResponseReasonPhrase Pascal=20
+21 Name=WebQueryHttpResponseStatusCode Pascal=12
+22 Name=WebQueryHttpResponseVersion Pascal=12
+23 Name=WebReceiveHttpResponse Pascal=24
+24 Name=WebReceiveHttpResponseEntity Pascal=32
+25 Name=WebSendHttpRequest Pascal=36
+26 Name=WebSendHttpRequestEntity Pascal=28
+27 Name=WebSetCookie Pascal=20
+28 Name=WebSetHttpRequestHeader Pascal=16
+29 Name=WebSetHttpRequestOption Pascal=20
+31 Name=WebTerminate Pascal=12
+32 Name=WebSetHttpRequestInformationRoutine Pascal=20
+33 Name=WebRemoveHttpRequestInformationRoutine Pascal=12
+;------------------EOF------------------

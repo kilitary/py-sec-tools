@@ -1,0 +1,20 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=UISS Pascal=0
+;---------------------------------------
+1 Name=_ZN3Swi11CUissServer4NewLEN7CActive9TPriorityE
+2 Name=_ZN3Swi11CUissServer5NewLCEN7CActive9TPriorityE
+3 Name=_ZN3Swi21RInstallServerSession11RestoreFileERK8TIpcArgs
+4 Name=_ZN3Swi21RInstallServerSession13RestoreCommitEv
+5 Name=_ZN3Swi21RInstallServerSession6CancelEv
+6 Name=_ZN3Swi21RInstallServerSession7ConnectEv
+7 Name=_ZN3Swi21RInstallServerSession7RestoreERK8TIpcArgs
+8 Name=_ZTIN3Swi11CUissServerE
+9 Name=_ZTIN3Swi12CUissSessionE
+10 Name=_ZTIN3Swi21CServerInstallWatcherE
+11 Name=_ZTVN3Swi11CUissServerE
+12 Name=_ZTVN3Swi12CUissSessionE
+13 Name=_ZTVN3Swi21CServerInstallWatcherE
+;------------------EOF------------------

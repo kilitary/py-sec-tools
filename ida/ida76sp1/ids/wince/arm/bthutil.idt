@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTHUTIL.dll Pascal=0
+;---------------------------------------
+1 Name=BthSetMode
+2 Name=BthGetMode
+3 Name=BthSetLocalName
+4 Name=BthInitiateBonding
+5 Name=BthAnswerBondingReq
+6 Name=GetDeviceByName
+7 Name=GetDeviceByAddr
+8 Name=GetDeviceList
+9 Name=DoInquiry
+10 Name=BthGetCachedHardwareStatus
+11 Name=BthDeviceChanged
+12 Name=CancelInquiry
+13 Name=BthSuppressRetry
+14 Name=?BthInitializeVCOM@@YAJXZ
+15 Name=?BthModifyVCOMPort@@YAJPAUBTH_VCOM_PORT@@W4BTH_VCOM_MODIFY_TYPE@@@Z
+16 Name=OnBthDeviceAdded
+17 Name=OnBthDeviceRemoved
+18 Name=?AlterA2DPConnection@@YAJHPB_K@Z
+19 Name=GetA2DPConnectionState
+20 Name=?ProcessShellBthutilSDPMessage@@YAJIJ@Z
+21 Name=IsBluetoothVisibleAllowed
+22 Name=?SetAsPreferredA2DPHeadset@@YAJPB_K@Z
+23 Name=BthSetModeInternal
+;------------------EOF------------------

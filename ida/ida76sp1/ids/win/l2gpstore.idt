@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=l2gpstore.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=L2GPPolicyDataDelete Pascal=8
+2 Name=L2GPPolicyDataDeleteAll Pascal=4
+3 Name=L2GPPolicyDataRead Pascal=12
+4 Name=L2GPPolicyDataWrite Pascal=12
+5 Name=L2GPPolicyFreeMem Pascal=8
+6 Name=L2GPPolicyStoreClose Pascal=4
+7 Name=L2GPPolicyStoreOpen Pascal=24
+;------------------EOF------------------

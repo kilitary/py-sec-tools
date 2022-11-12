@@ -1,0 +1,46 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=p2pgraph.dll Args=0 Drops=38
+;---------------------------------------
+1 Name=pMemoryHelper
+2 Name=DllMain Pascal=12
+3 Name=PeerGraphAddRecord Pascal=12
+4 Name=PeerGraphClose Pascal=4
+5 Name=PeerGraphCloseDirectConnection Pascal=12
+6 Name=PeerGraphConnect Pascal=16
+7 Name=PeerGraphCreate Pascal=16
+8 Name=PeerGraphDelete Pascal=12
+9 Name=PeerGraphDeleteRecord Pascal=12
+10 Name=PeerGraphEndEnumeration Pascal=4
+11 Name=PeerGraphEnumConnections Pascal=12
+12 Name=PeerGraphEnumNodes Pascal=12
+13 Name=PeerGraphEnumRecords Pascal=16
+14 Name=PeerGraphExportDatabase Pascal=8
+15 Name=PeerGraphFreeData Pascal=4
+16 Name=PeerGraphGetEventData Pascal=8
+17 Name=PeerGraphGetItemCount Pascal=8
+18 Name=PeerGraphGetNextItem Pascal=12
+19 Name=PeerGraphGetNodeInfo Pascal=16
+20 Name=PeerGraphGetProperties Pascal=8
+21 Name=PeerGraphGetRecord Pascal=12
+22 Name=PeerGraphGetStatus Pascal=8
+23 Name=PeerGraphImportDatabase Pascal=8
+24 Name=PeerGraphListen Pascal=16
+25 Name=PeerGraphOpen Pascal=28
+26 Name=PeerGraphOpenDirectConnection Pascal=16
+27 Name=PeerGraphPeerTimeToUniversalTime Pascal=12
+28 Name=PeerGraphRegisterEvent Pascal=20
+29 Name=PeerGraphSearchRecords Pascal=12
+30 Name=PeerGraphSendData Pascal=24
+31 Name=PeerGraphSetNodeAttributes Pascal=8
+32 Name=PeerGraphSetPresence Pascal=8
+33 Name=PeerGraphSetProperties Pascal=8
+34 Name=PeerGraphShutdown Pascal=0
+35 Name=PeerGraphStartup Pascal=8
+36 Name=PeerGraphUniversalTimeToPeerTime Pascal=12
+37 Name=PeerGraphUnregisterEvent Pascal=4
+38 Name=PeerGraphUpdateRecord Pascal=8
+39 Name=PeerGraphValidateDeferredRecords Pascal=12
+;------------------EOF------------------

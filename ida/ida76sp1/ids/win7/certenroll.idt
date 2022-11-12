@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CertEnroll.dll Args=0 Drops=20
+;---------------------------------------
+15 Name=EnrollOnBehalfOf Pascal=4
+16 Name=EnrollForCertificates Pascal=8
+17 Name=DllCanUnloadNow Pascal=0
+18 Name=AutoEnrollWizard Pascal=12
+19 Name=CreateCustomRequest Pascal=8
+20 Name=CertEnrollComServer Pascal=0
+21 Name=EnumeratePolicyUrl Pascal=16
+22 Name=AddUrl Pascal=8
+23 Name=RemoveUrl Pascal=12
+24 Name=SetFlags Pascal=12
+25 Name=PromptForUsername Pascal=20
+26 Name=PromptForClientAuthCert Pascal=20
+27 Name=CEGetVerifyFlags Pascal=4
+28 Name=PromptLoadPolicy Pascal=20
+29 Name=EnrollForCertificateFromTemplate Pascal=32
+30 Name=?GetICertConfigCAs@CertEnroll@@YGJW4X509CertificateEnrollmentContext@@PAPAUICertificationAuthorities@@@Z Pascal=8
+31 Name=DllGetClassObject Pascal=12
+32 Name=DllMain Pascal=12
+33 Name=DllRegisterServer Pascal=0
+34 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

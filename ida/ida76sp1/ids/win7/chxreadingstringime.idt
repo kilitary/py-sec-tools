@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CHxReadingStringIME.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=GetReadingString Pascal=24
+2 Name=ShowReadingWindow Pascal=8
+;------------------EOF------------------

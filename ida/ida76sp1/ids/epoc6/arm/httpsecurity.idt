@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HTTPSECURITY Pascal=0
+;---------------------------------------
+1 Name=CreatePluginManagerL__FR3RFsR8RLibrary
+2 Name=CreatePluginL__FR3RFsRC8RLibraryi
+3 Name=CreateActivePluginL__FR3RFsRC8RLibraryi
+4 Name=GetSharedSecretLC__13CHttpSecurityRP6HBufC8
+5 Name=Extend_CHttpSecurity__13CHttpSecurityPv
+6 Name=Extend_CHttpSecurity__C13CHttpSecurityPv
+7 Name=Extend_MSecurityPolicy__15MSecurityPolicyPv
+8 Name=Extend_MSecurityPolicy__C15MSecurityPolicyPv
+9 Name=GetCipherSuitesL__13CHttpSecurityRt13CArrayFixFlat1ZQ25RWTLS12TCipherSuite
+10 Name=GetKeyExchangeSuiteAnon__13CHttpSecurityRQ25RWTLS17TKeyExchangeSuiteRQ25RWTLS7TIdTypeR5TDes8
+11 Name=GetKeyExchangeSuiteNormal__13CHttpSecurityRQ25RWTLS17TKeyExchangeSuiteRQ25RWTLS7TIdTypeR5TDes8
+12 Name=GetKeyRefreshRate__13CHttpSecurityRUc
+13 Name=GetNegotiatedCipherAction__13CHttpSecurityPQ25RWTLS12TCipherSuitePQ25RWTLS19TSequenceNumberMode
+14 Name=GetNumCipherSuites__13CHttpSecurityRi
+15 Name=GetRecordLengthUsage__13CHttpSecurityRi
+16 Name=GetSequenceNumberMode__13CHttpSecurityRQ25RWTLS19TSequenceNumberMode
+17 Name=AnonymousAuthenticationAllowed__13CHttpSecurity
+;------------------EOF------------------

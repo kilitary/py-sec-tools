@@ -1,0 +1,74 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FEPBASE Pascal=0
+;---------------------------------------
+1 Name=??0CCoeFep@@IAE@XZ
+2 Name=??1CCoeFep@@UAE@XZ
+3 Name=??1CCoeFepParameters@@UAE@XZ
+4 Name=??1CFepFastFileAccessor@@UAE@XZ
+5 Name=?AddFileL@CFepFastFileAccessor@@QAEXABVTDesC8@@@Z
+6 Name=?ApplicationUid@CCoeFepParameters@@QBE?AVTUid@@XZ
+7 Name=?BaseConstructL@CCoeFep@@IAEXHVTUid@@ABVTDesC8@@ABVTFepOnOrOffKeyData@@2H@Z
+8 Name=?CCoeFep_Reserved_1@CCoeFep@@EAEXXZ
+9 Name=?CCoeFep_Reserved_2@CCoeFep@@EAEXXZ
+10 Name=?CFepFastFileAccessor_Reserved_1@CFepFastFileAccessor@@EAEXXZ
+11 Name=?CFepFastFileAccessor_Reserved_2@CFepFastFileAccessor@@EAEXXZ
+12 Name=?DefaultOffKeyData@CCoeFepParameters@@QBE?AVTFepOnOrOffKeyData@@XZ
+13 Name=?DefaultOnKeyData@CCoeFepParameters@@QBE?AVTFepOnOrOffKeyData@@XZ
+14 Name=?FileHasChanged@CFepFastFileAccessor@@QAEXABVTDesC8@@@Z
+15 Name=?FepAwareItemIsFocused@@YAHABVMCoeFepAwareItem@@@Z
+16 Name=?GetData@CFepFastFileAccessor@@ABEXABVTDesC8@@AAPBEAAHPAH@Z
+17 Name=?IsTurnedOffByL@CCoeFep@@IBEHII@Z
+18 Name=?IsTurnedOnByL@CCoeFep@@IBEHII@Z
+19 Name=?MCoeFepAwareItem_Reserved_1@MCoeFepAwareItem@@EAEXXZ
+20 Name=?MCoeFepAwareItem_Reserved_2@MCoeFepAwareItem@@EAEXXZ
+21 Name=?MFepItemSupportingFepContextInformation_Reserved_1@MFepItemSupportingFepContextInformation@@EAEXXZ
+22 Name=?MFepItemSupportingFepContextInformation_Reserved_2@MFepItemSupportingFepContextInformation@@EAEXXZ
+23 Name=?MFepItemSupportingFepInlineEditing_Reserved_1@MFepItemSupportingFepInlineEditing@@EAEXXZ
+24 Name=?MFepItemSupportingFepInlineEditing_Reserved_2@MFepItemSupportingFepInlineEditing@@EAEXXZ
+25 Name=?MakeDependentOnAttributeL@CCoeFep@@IAEXVTUid@@@Z
+26 Name=?NameOfApplicationIniFile@CCoeFepParameters@@QBE?AVTPtrC8@@XZ
+27 Name=?NewL@CCoeFepParameters@@SAPAV1@VTUid@@ABVTDesC8@@ABVTFepOnOrOffKeyData@@2HH@Z
+28 Name=?NewL@CFepFastFileAccessor@@SAPAV1@AAVRFs@@@Z
+29 Name=?NewLC@CCoeFepParameters@@SAPAV1@VTUid@@ABVTDesC8@@ABVTFepOnOrOffKeyData@@2HH@Z
+30 Name=?NewLC@CFepFastFileAccessor@@SAPAV1@AAVRFs@@@Z
+31 Name=?ReadAttributeDataFromStreamL@CCoeFep@@IAEXVTUid@@@Z
+32 Name=?WriteAttributeDataToStreamAtApplicationScopeL@CCoeFep@@IAEXVTUid@@@Z
+33 Name=?WriteAttributeDataToStreamAtGlobalScopeL@CCoeFep@@IAEXVTUid@@@Z
+34 Name=?NewL@CFepGenericGlobalSettings@@SAPAV1@ABVTFepOnOrOffKeyData@@0H@Z
+35 Name=?NewLC@CFepGenericGlobalSettings@@SAPAV1@ABVTFepOnOrOffKeyData@@0H@Z
+36 Name=?OffKeyData@CFepGenericGlobalSettings@@QBE?AVTFepOnOrOffKeyData@@XZ
+37 Name=?OnKeyData@CFepGenericGlobalSettings@@QBE?AVTFepOnOrOffKeyData@@XZ
+38 Name=?RefreshL@CFepGenericGlobalSettings@@QAEXXZ
+39 Name=?SetOffKeyData@CFepGenericGlobalSettings@@QAEXABVTFepOnOrOffKeyData@@@Z
+40 Name=?SetOnKeyData@CFepGenericGlobalSettings@@QAEXABVTFepOnOrOffKeyData@@@Z
+41 Name=?StoreChangesL@CFepGenericGlobalSettings@@QAEXXZ
+42 Name=?FepObserverHandleStartOfTransactionL@@YAXAAVMCoeFepObserver@@@Z
+43 Name=?MCoeFepObserver_Reserved_1@MCoeFepObserver@@EAEXXZ
+44 Name=?MCoeFepObserver_Reserved_2@MCoeFepObserver@@EAEXXZ
+45 Name=??1CFepGlobalDynamicFrequencyTable@@UAE@XZ
+46 Name=?IncrementFrequencyOfCharacter@CFepGlobalDynamicFrequencyTable@@QAEXI@Z
+47 Name=?MCharacterArray_Reserved_1@MCharacterArray@CFepGlobalDynamicFrequencyTable@@EAEXXZ
+48 Name=?MCharacterArray_Reserved_2@MCharacterArray@CFepGlobalDynamicFrequencyTable@@EAEXXZ
+49 Name=?NewL@CFepGlobalDynamicFrequencyTable@@SAPAV1@H@Z
+50 Name=?NewLC@CFepGlobalDynamicFrequencyTable@@SAPAV1@H@Z
+51 Name=?SortL@CFepGlobalDynamicFrequencyTable@@QAEXAAVMCharacterArray@1@P6AHII@ZW4TSortType@1@@Z
+52 Name=?Reset@CFepGlobalDynamicFrequencyTable@@QAEXXZ
+53 Name=?IsOn@CCoeFep@@IBEHXZ
+54 Name=?IsOn@CFepGenericGlobalSettings@@QBEHXZ
+55 Name=?SetIsOn@CFepGenericGlobalSettings@@QAEXH@Z
+56 Name=??1CFepGenericGlobalSettings@@UAE@XZ
+57 Name=?DefaultIsOn@CCoeFepParameters@@QBEHXZ
+58 Name=?AllWindowsMustBeBackedUpWindows@CCoeFepParameters@@QBEHXZ
+59 Name=?RemoveFile@CFepFastFileAccessor@@QAEXABVTDesC8@@@Z
+60 Name=?CharacterQueue@CCoeFep@@IAEPAVMCharacterQueue@1@XZ
+61 Name=?MCharacterQueue_Reserved_1@MCharacterQueue@CCoeFep@@EAEXXZ
+62 Name=?MCharacterQueue_Reserved_2@MCharacterQueue@CCoeFep@@EAEXXZ
+63 Name=?OfferAsynchronousEventCompletionL@CCoeFep@@SA?AW4TEventResponse@1@PAV1@AAVMCharacterQueue@1@@Z
+64 Name=?OfferKeyEventL@CCoeFep@@QAE?AW4TEventResponse@1@AAVMCharacterQueue@1@ABUTKeyEvent@@H@Z
+65 Name=?OfferPointerEventL@CCoeFep@@QAE?AW4TEventResponse@1@AAVMCharacterQueue@1@ABUTPointerEvent@@PBVCCoeControl@@@Z
+66 Name=?MFepGetterOfFormatOfFepInlineText_Reserved_1@MFepGetterOfFormatOfFepInlineText@@EAEXXZ
+67 Name=?MFepGetterOfFormatOfFepInlineText_Reserved_2@MFepGetterOfFormatOfFepInlineText@@EAEXXZ
+;------------------EOF------------------

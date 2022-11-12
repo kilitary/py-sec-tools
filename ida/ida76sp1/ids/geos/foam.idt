@@ -1,0 +1,339 @@
+DECLARATION Nokia 9110 Geos 3.0 library foam.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+99 Name=foamdll Args=0 Drops=88
+;---------------------------------------
+1 Name=FoamSetDocumentDir
+2 Name=FoamGetDocumentDir
+3 Name=FoamGetDocumentDirName
+4 Name=FoamDisplayDeleteWarning
+5 Name=FoamDisplayWarning
+6 Name=FoamDisplayQuestion
+7 Name=FoamDisplayError
+8 Name=FoamDocSetAttrInfo
+9 Name=FoamDocCheckProtocol
+10 Name=FoamDocCreate
+11 Name=FoamDocOpen
+12 Name=FoamDocClose
+13 Name=FoamDocDelete
+14 Name=FoamDocSetBlockHandle
+15 Name=FoamDocSetHeaderData
+16 Name=FoamDocGetHeaderData
+17 Name=FoamDocSetTextLength
+18 Name=FoamDocGetTextLength
+19 Name=FoamDocGetTextLengthFromField
+20 Name=FoamDocGetDosTextSmall
+21 Name=FoamDocStoreDosTextSmall
+22 Name=FoamDocIsTextFormatted
+23 Name=FoamDocConvertFromDosInit
+24 Name=FoamDocConvertFromDosAppend
+25 Name=FoamDocConvertFromDosDone
+26 Name=FoamDocConvertToDosInit
+27 Name=FoamDocConvertToDosRange
+28 Name=FoamDocConvertToDosDone
+29 Name=FoamDisplayOkCancelWarning
+30 Name=FoamWarnIfOutOfSpace
+31 Name=FoamCancelIfNoFreeSpace
+32 Name=FoamLaunchApplication
+33 Name=FoamDisplayNote
+34 Name=FoamDisplayNoteNoBlock
+35 Name=FoamDisplayWarningNoBlock
+36 Name=FoamDisplayErrorNoBlock
+37 Name=FoamGetFileType
+38 Name=FoamGetHandleFileType
+39 Name=CreateVisMonikerLine
+40 Name=PutUpDialogViaUIThread
+41 Name=TakeDownDialogViaUIThread
+42 Name=FOAMSETDOCUMENTDIR Pascal=2 \
+	Comment=void pascal FoamSetDocumentDir(FDocumentDir fDocDir) in foam.goh
+43 Name=FOAMGETDOCUMENTDIR \
+	Comment=FDocumentDir pascal FoamGetDocumentDir(void) in foam.goh
+44 Name=FOAMGETDOCUMENTDIRNAME Pascal=6 \
+	Comment=void pascal FoamGetDocumentDirName(FDocumentDir fDocDir, FileLongName *buffer) in foam.goh
+45 Name=FOAMDISPLAYDELETEWARNING Pascal=12 \
+	Comment=InteractionCommand pascal FoamDisplayDeleteWarning(optr preText, TCHAR *midText, optr postText) in foam.goh
+46 Name=FOAMDISPLAYWARNING Pascal=4 \
+	Comment=void pascal FoamDisplayWarning(optr warningText) in foam.goh
+47 Name=FOAMDISPLAYQUESTION Pascal=4 \
+	Comment=InteractionCommand pascal FoamDisplayQuestion(optr questionText) in foam.goh
+48 Name=FOAMDISPLAYERROR Pascal=4 \
+	Comment=void pascal FoamDisplayError(optr errorText) in foam.goh
+49 Name=FOAMDOCSETATTRINFO Pascal=6 \
+	Comment=void pascal FoamDocSetAttrInfo(DocumentHandle docHandle, FileAttrInfo *fileAttrInfo) in foam.goh
+50 Name=FOAMDOCCHECKPROTOCOL Pascal=8 \
+	Comment=Boolean pascal FoamDocCheckProtocol(DocumentHandle docHandle, word numCreatorChars, word majorProtocol, word minorProtocol) in foam.goh
+51 Name=FOAMDOCCREATE Pascal=12 \
+	Comment=word pascal FoamDocCreate(DocumentInfo *docInfo, FileAttrInfo *fileAttr, DocumentPrefix *prefix) in foam.goh
+52 Name=FOAMDOCOPEN Pascal=6 \
+	Comment=DocumentHandle pascal FoamDocOpen(DocumentInfo *docInfo, FDocAccess docAccess) in foam.goh
+53 Name=FOAMDOCCLOSE Pascal=2 \
+	Comment=void pascal FoamDocClose(DocumentHandle docHandle) in foam.goh
+54 Name=FOAMDOCDELETE Pascal=4 \
+	Comment=Boolean pascal FoamDocDelete(DocumentInfo *docInfo) in foam.goh
+55 Name=FOAMDOCSETBLOCKHANDLE Pascal=6 \
+	Comment=void pascal FoamDocSetBlockHandle(DocumentHandle docHandle, VMBlockHandle block, FoamDocHeader docHeader) in foam.goh
+56 Name=FOAMDOCSETHEADERDATA Pascal=6 \
+	Comment=void pascal FoamDocSetHeaderData(DocumentHandle docHandle, word data, FoamDocHeader docHeader) in foam.goh
+57 Name=FOAMDOCGETHEADERDATA Pascal=4 \
+	Comment=word pascal FoamDocGetHeaderData(DocumentHandle docHandle, FoamDocHeader docHeader) in foam.goh
+58 Name=FOAMDOCSETTEXTLENGTH Pascal=6 \
+	Comment=void pascal FoamDocSetTextLength(DocumentHandle docHandle, dword length) in foam.goh
+59 Name=FOAMDOCGETTEXTLENGTH Pascal=2 \
+	Comment=dword pascal FoamDocGetTextLength(DocumentHandle docHandle) in foam.goh
+60 Name=FOAMDOCGETTEXTLENGTHFROMFIELD Pascal=4 \
+	Comment=dword pascal FoamDocGetTextLengthFromField(char *field) in foam.goh
+61 Name=FOAMDOCGETDOSTEXTSMALL Pascal=8 \
+	Comment=word pascal FoamDocGetDosTextSmall(DocumentHandle docHandle, void *buffer, word count) in foam.goh
+62 Name=FOAMDOCSTOREDOSTEXTSMALL Pascal=8 \
+	Comment=void pascal FoamDocStoreDosTextSmall(DocumentHandle docHandle, void *buffer, word bufferLen) in foam.goh
+63 Name=FOAMDOCISTEXTFORMATTED Pascal=6 \
+	Comment=Boolean pascal FoamDocIsTextFormatted(DocumentHandle docHandle, DocumentFontInfo *fontInfo) in foam.goh
+64 Name=FOAMDOCCONVERTFROMDOSINIT \
+	Comment=optr pascal FoamDocConvertFromDosInit(void) in foam.goh
+65 Name=FOAMDOCCONVERTFROMDOSAPPEND Pascal=10 \
+	Comment=void pascal FoamDocConvertFromDosAppend(optr object, TCHAR *buffer, word bufferLength) in foam.goh
+66 Name=FOAMDOCCONVERTFROMDOSDONE Pascal=6 \
+	Comment=void pascal FoamDocConvertFromDosDone(DocumentHandle docHandle, optr object) in foam.goh
+67 Name=FOAMDOCCONVERTTODOSINIT Pascal=2 \
+	Comment=optr pascal FoamDocConvertToDosInit(DocumentHandle docHandle) in foam.goh
+68 Name=FOAMDOCCONVERTTODOSRANGE Pascal=16 \
+	Comment=word pascal FoamDocConvertToDosRange(optr object, TCHAR *buffer, dword startPos, dword endPos) in foam.goh
+69 Name=FOAMDOCCONVERTTODOSDONE Pascal=4 \
+	Comment=void pascal FoamDocConvertToDosDone(optr object) in foam.goh
+70 Name=FOAMDISPLAYOKCANCELWARNING Pascal=4 \
+	Comment=InteractionCommand pascal FoamDisplayOkCancelWarning(optr warningText) in foam.goh
+71 Name=FOAMCHECKIFOUTOFSPACE \
+	Comment=FoamDiskSpaceStatus pascal FoamCheckIfOutOfSpace(void) in foam.goh
+72 Name=FOAMWARNIFOUTOFSPACE \
+	Comment=Boolean pascal FoamWarnIfOutOfSpace(void) in foam.goh
+73 Name=FOAMWARNFORSAVING Pascal=4 \
+	Comment=FoamSaveAction pascal FoamWarnForSaving(dword space) in foam.goh
+74 Name=FOAMCANCELIFNOFREESPACE \
+	Comment=Boolean pascal FoamCancelIfNoFreeSpace(void) in foam.goh
+75 Name=FOAMGETFREEDISKSPACE \
+	Comment=dword pascal FoamGetFreeDiskSpace(void) in foam.goh
+76 Name=FOAMLAUNCHAPPLICATION Pascal=2 \
+	Comment=void pascal FoamLaunchApplication(FApplication applicationConstant) in foam.goh
+77 Name=FOAMSTANDARDDIALOGOPTR Pascal=48 \
+	Comment=InteractionCommand pascal FoamStandardDialogOptr(void *helpFile, void *helpContext, LayerPriority layerPriority, Message rejectTriggerMessage, optr rejectTriggerDestination, Message acceptTriggerMessage, optr acceptTriggerDestination, optr triggerTopText, TCHAR *arg2, TCHAR *arg1, FoamCustomDialogBoxFlags dialogFlags, optr bodyText, optr titleText, optr titleIconBitmap) in foam.goh
+78 Name=FOAMDISPLAYNOTE Pascal=4 \
+	Comment=void pascal FoamDisplayNote(optr noteText) in foam.goh
+79 Name=FOAMSTANDARDDIALOGOPTRNOBLOCK Pascal=48 \
+	Comment=optr pascal FoamStandardDialogOptrNoBlock(void *helpFile, void *helpContext, LayerPriority layerPriority, Message rejectTriggerMessage, optr rejectTriggerDestination, Message acceptTriggerMessage, optr acceptTriggerDestination, optr triggerTopText, TCHAR *arg2, TCHAR *arg1, FoamCustomDialogBoxFlags dialogFlags, optr bodyText, optr titleText, optr titleIconBitmap) in foam.goh
+80 Name=FOAMDISPLAYNOTENOBLOCK Pascal=4 \
+	Comment=void pascal FoamDisplayNoteNoBlock(optr noteText) in foam.goh
+81 Name=FOAMDISPLAYWARNINGNOBLOCK Pascal=4 \
+	Comment=void pascal FoamDisplayWarningNoBlock(optr warningText) in foam.goh
+82 Name=FOAMDISPLAYERRORNOBLOCK Pascal=4 \
+	Comment=void pascal FoamDisplayErrorNoBlock(optr errorText) in foam.goh
+83 Name=FOAMGETFILETYPE Pascal=4 \
+	Comment=GeosFileType pascal FoamGetFileType(TCHAR *filename) in foam.goh
+84 Name=FOAMGETHANDLEFILETYPE Pascal=2 \
+	Comment=GeosFileType pascal FoamGetHandleFileType(DocumentHandle docHandle) in foam.goh
+85 Name=CREATEVISMONIKERLINE Pascal=10 \
+	Comment=optr pascal CreateVisMonikerLine(word pointSize, FontID typeFace, word numberOfFields, VisMonikerColumn *columnList) in foam.goh
+86 Name=PUTUPDIALOGVIAUITHREAD Pascal=4 \
+	Comment=optr pascal PutUpDialogViaUIThread(optr dialogBoxTemplate) in foam.goh
+87 Name=TAKEDOWNDIALOGVIAUITHREAD Pascal=4 \
+	Comment=void pascal TakeDownDialogViaUIThread(optr dialogBox) in foam.goh
+88 Name=FFileSelectorClass
+89 Name=ComplexMonikerClass
+90 Name=GreyFrameClass
+91 Name=RepeatingGenGlyphClass
+92 Name=UnderlinedGenTextClass
+93 Name=UnderlinedVisTextClass
+94 Name=TwoLevelTriggerClass
+95 Name=GreyGenInteractionClass
+96 Name=IndicatorClass
+97 Name=IconIndicatorClass
+98 Name=LevelIndicatorClass
+99 Name=TextWithListClass
+100 Name=UnderlinedTextWithListClass
+101 Name=ListWithUserDefinedClass
+102 Name=AppLaunchClass
+103 Name=ComplexExpandingMonikerClass
+104 Name=VisClockClass
+105 Name=VisAnalogClockClass
+106 Name=ClockContentClass
+107 Name=GenValueWithListClass
+108 Name=FoamHelpControlClass
+109 Name=FoamPointSizeControlClass
+110 Name=FlashingNoteClass
+111 Name=SelfDestroyingDialogClass
+112 Name=StandardDialogClass
+113 Name=UpdateHelpContext
+114 Name=FoamJustificationControlClass
+115 Name=FoamFontControlClass
+116 Name=FoamTextStyleControlClass
+117 Name=FoamStopSoundSequence
+118 Name=FOAMSTOPSOUNDSEQUENCE \
+	Comment=Boolean pascal FoamStopSoundSequence(void) in foam.goh
+119 Name=UPDATEHELPCONTEXT
+120 Name=FoamUTOffset
+121 Name=FOAMUTOFFSET
+122 Name=FoamGetLexicalOrder
+123 Name=FOAMGETLEXICALORDER Pascal=2 \
+	Comment=byte pascal FoamGetLexicalOrder(char theChar) in foam.goh
+124 Name=FoamProgressDialogClass
+125 Name=FoamGenerateUniqueFilename
+126 Name=FOAMGENERATEUNIQUEFILENAME Pascal=4 \
+	Comment=void pascal FoamGenerateUniqueFilename(FileLongName *nameBuffer) in foam.goh
+127 Name=FoamECIToMailboxError
+128 Name=FOAMECITOMAILBOXERROR Pascal=12 \
+	Comment=Boolean pascal FoamECIToMailboxError(byte reasonType, byte reason, MailboxError *mbErr, optr *mbErrorString) in foam.goh
+129 Name=FoamSubApplicationClass
+130 Name=FoamDocStoreTextAsVMChain
+131 Name=FOAMDOCSTORETEXTASVMCHAIN Pascal=6 \
+	Comment=word pascal FoamDocStoreTextAsVMChain(DocumentHandle docHandle, optr textObject) in foam.goh
+132 Name=FoamStartSoundSequence
+133 Name=FOAMSTARTSOUNDSEQUENCE Pascal=6 \
+	Comment=void pascal FoamStartSoundSequence(StandardSoundType sound, word duration, word interval) in foam.goh
+134 Name=FoamDisplayDeleteWarningNoBlock
+135 Name=FoamWarnIfNotEnoughSpace
+136 Name=FOAMWARNIFNOTENOUGHSPACE Pascal=4 \
+	Comment=FoamDiskSpaceStatus pascal FoamWarnIfNotEnoughSpace(dword space) in foam.goh
+137 Name=FoamWarnForSaving
+138 Name=FOAMDISPLAYDELETEWARNINGNOBLOCK Pascal=10 \
+	Comment=void pascal FoamDisplayDeleteWarningNoBlock(optr bodyText, word msg, optr dest) in foam.goh
+139 Name=FOAMWARNSPACEAFTEROPERATION \
+	Comment=FoamDiskSpaceStatus pascal FoamWarnSpaceAfterOperation(void) in foam.goh
+140 Name=IndicatorInteractionClass
+141 Name=DiskSpaceDialogClass
+142 Name=FoamRoundUpAsMultipleOfClusterSize
+143 Name=FOAMROUNDUPASMULTIPLEOFCLUSTERSIZE Pascal=4 \
+	Comment=dword pascal FoamRoundUpAsMultipleOfClusterSize(dword space) in foam.goh
+144 Name=FoamDocSetTextFormatted
+145 Name=FOAMDOCSETTEXTFORMATTED Pascal=8 \
+	Comment=void pascal FoamDocSetTextFormatted(DocumentHandle docHandle, FoamDocTextFormatted fdtf, DocumentFontInfo *fontInfo) in foam.goh
+146 Name=FoamIsTextFormatted
+147 Name=FOAMISTEXTFORMATTED Pascal=8 \
+	Comment=Boolean pascal FoamIsTextFormatted(optr textObject, DocumentFontInfo *fontInfo) in foam.goh
+148 Name=FoamSetLowSoundFlag
+149 Name=FOAMSETLOWSOUNDFLAG Pascal=2 \
+	Comment=void pascal FoamSetLowSoundFlag(word lowSndFlag) in foam.goh
+150 Name=FoamGetLowSoundFlag
+151 Name=FOAMGETLOWSOUNDFLAG \
+	Comment=word pascal FoamGetLowSoundFlag(void) in foam.goh
+152 Name=FilterListClass
+153 Name=FilterTextClass
+154 Name=ExtendedFileSelectorClass
+155 Name=FoamPathMakeSP
+156 Name=FoamPathMake
+157 Name=FoamPathGetFullPath
+158 Name=FoamPathFolderName
+159 Name=FoamPathParent
+160 Name=FoamPathLock
+161 Name=FoamPathUnlock
+162 Name=FoamPathCheckLock
+163 Name=FoamPathRename
+164 Name=FoamPathIsFDD
+165 Name=FOAMPATHMAKESP Pascal=6 \
+	Comment=FoamPathHandle pascal FoamPathMakeSP ( StandardPath stdPath, TCHAR *pathname ) in foam.goh
+166 Name=FOAMPATHMAKE Pascal=6 \
+	Comment=FoamPathHandle pascal FoamPathMake( FoamPathHandle parent, TCHAR *pathstr ) in foam.goh
+167 Name=FOAMPATHGETFULLPATH Pascal=6 \
+	Comment=StandardPath pascal FoamPathGetFullPath( FoamPathHandle fph, TCHAR *buffer) in foam.goh
+168 Name=FOAMPATHFOLDERNAME Pascal=6 \
+	Comment=void pascal FoamPathFolderName( FoamPathHandle fph, TCHAR *buffer ) in foam.goh
+169 Name=FOAMPATHPARENT Pascal=2 \
+	Comment=FoamPathHandle pascal FoamPathParent( FoamPathHandle fph ) in foam.goh
+170 Name=FOAMPATHLOCK Pascal=2 \
+	Comment=void pascal FoamPathLock( FoamPathHandle fph ) in foam.goh
+171 Name=FOAMPATHUNLOCK Pascal=2 \
+	Comment=void pascal FoamPathUnlock( FoamPathHandle fph ) in foam.goh
+172 Name=FOAMPATHCHECKLOCK Pascal=2 \
+	Comment=word pascal FoamPathCheckLock( FoamPathHandle fph ) in foam.goh
+173 Name=FOAMPATHRENAME Pascal=6 \
+	Comment=void pascal FoamPathRename( FoamPathHandle fph, TCHAR *newName ) in foam.goh
+174 Name=FOAMPATHISFDD Pascal=2 \
+	Comment=word pascal FoamPathIsFDD( FoamPathHandle fph ) in foam.goh
+175 Name=FoamLaunchReaderApp
+176 Name=FOAMLAUNCHREADERAPP Pascal=2 \
+	Comment=Boolean pascal FoamLaunchReaderApp(FoamReaderAppType frat) in foam.goh
+177 Name=FoamSetBacklightTimeout
+178 Name=FOAMSETBACKLIGHTTIMEOUT Pascal=2 \
+	Comment=void pascal FoamSetBacklightTimeout(int timeoutLevel) in foam.goh
+179 Name=FOAMGETBACKLIGHTTIMEOUT \
+	Comment=int pascal FoamGetBacklightTimeout(void) in foam.goh
+180 Name=FoamGetDocumentOutboxName
+181 Name=FOAMGETDOCUMENTOUTBOXNAME Pascal=4 \
+	Comment=void pascal FoamGetDocumentOutboxName(FileLongName *buffer) in foam.goh
+182 Name=CreateVisMonikerLineAdaptableColumns
+183 Name=CREATEVISMONIKERLINEADAPTABLECOLUMNS Pascal=10 \
+	Comment=optr pascal CreateVisMonikerLineAdaptableColumns(word pointSize, FontID typeFace, word numberOfFields, VisMonikerColumn *columnList) in foam.goh
+184 Name=FoamGetMinutesBetweenTimes
+185 Name=FoamAdjustTimeForward
+186 Name=FoamAdjustTimeBackward
+187 Name=FoamGetCompressedDateTime
+188 Name=FOAMGETMINUTESBETWEENTIMES Pascal=8 \
+	Comment=dword pascal FoamGetMinutesBetweenTimes( TimerCompressedDate firstDate, word firstTime, TimerCompressedDate secondDate, word secondTime) in foam.goh
+189 Name=FOAMADJUSTTIMEFORWARD Pascal=16 \
+	Comment=void pascal FoamAdjustTimeForward( TimerCompressedDate startDate, word startTime, word adjustment, AdvanceNoticeType noticeType, TimerCompressedDate *resultDate, word *resultTime) in foam.goh
+190 Name=FOAMADJUSTTIMEBACKWARD Pascal=16 \
+	Comment=void pascal FoamAdjustTimeBackward( TimerCompressedDate startDate, word startTime, word adjustment, AdvanceNoticeType noticeType, TimerCompressedDate *resultDate, word *resultTime) in foam.goh
+191 Name=FOAMGETCOMPRESSEDDATETIME Pascal=8 \
+	Comment=void pascal FoamGetCompressedDateTime( TimerCompressedDate *currentDate, word *currentTime) in foam.goh
+192 Name=PickAToneClass
+193 Name=FoamConvertZoomGString
+194 Name=FoamConvertToZoomedSize
+195 Name=FoamZoomSetLevel
+196 Name=FOAMCONVERTZOOMGSTRING Pascal=8 \
+	Comment=optr pascal FoamConvertZoomGString(ZoomLevel zl, Handle hanSource, GStringType hanType, word chunkSource) in foam.goh
+197 Name=FOAMCONVERTTOZOOMEDSIZE Pascal=6 \
+	Comment=WWFixedAsDWord pascal FoamConvertToZoomedSize(ZoomLevel zoomLevel, WWFixedAsDWord pointSize) in foam.goh
+198 Name=FOAMZOOMSETLEVEL Pascal=2 \
+	Comment=void pascal FoamZoomSetLevel(ZoomLevel zoomLevel) in foam.goh
+199 Name=FOAMZOOMGETLEVEL \
+	Comment=ZoomLevel pascal FoamZoomGetLevel() in foam.goh
+200 Name=FoamReplaceStringInTemplate
+201 Name=FoamConvertValueToString
+202 Name=FOAMREPLACESTRINGINTEMPLATE Pascal=16 \
+	Comment=optr pascal FoamReplaceStringInTemplate( optr template, optr s1, optr s2, optr s3) in foam.goh
+203 Name=FOAMCONVERTVALUETOSTRING Pascal=8 \
+	Comment=optr pascal FoamConvertValueToString( dword value, hptr lmemHandle, UtilHexToAsciiFlags flags) in foam.goh
+204 Name=FoamGetComplexMonikerBitmap
+205 Name=FoamGetComplexMonikerText
+206 Name=FOAMGETCOMPLEXMONIKERBITMAP Pascal=2 \
+	Comment=optr pascal FoamGetComplexMonikerBitmap(ComplexMonikerBitmap cmb) in foam.goh
+207 Name=FOAMGETCOMPLEXMONIKERTEXT Pascal=8 \
+	Comment=int pascal FoamGetComplexMonikerText(ComplexMonikerText cmt, TCHAR *buffer, int bufsize) in foam.goh
+208 Name=FoamCheckIfOutOfSpaceOnDisk
+209 Name=FoamWarnIfOutOfSpaceOnDisk
+210 Name=FoamWarnForSavingOnDisk
+211 Name=FoamCancelIfNoFreeSpaceOnDisk
+212 Name=FoamWarnIfNotEnoughSpaceOnDisk
+213 Name=FoamWarnSpaceAfterOperationOnDisk
+214 Name=FoamGetFreeDiskSpaceOnDisk
+215 Name=FOAMCHECKIFOUTOFSPACEONDISK Pascal=2 \
+	Comment=FoamDiskSpaceStatus pascal FoamCheckIfOutOfSpaceOnDisk(DiskHandle diskHan) in foam.goh
+216 Name=FOAMWARNIFOUTOFSPACEONDISK Pascal=2 \
+	Comment=Boolean pascal FoamWarnIfOutOfSpaceOnDisk(DiskHandle diskHan) in foam.goh
+217 Name=FOAMWARNFORSAVINGONDISK Pascal=6 \
+	Comment=FoamSaveAction pascal FoamWarnForSavingOnDisk(dword space, DiskHandle diskHan) in foam.goh
+218 Name=FOAMCANCELIFNOFREESPACEONDISK Pascal=2 \
+	Comment=Boolean pascal FoamCancelIfNoFreeSpaceOnDisk(DiskHandle diskHan) in foam.goh
+219 Name=FOAMWARNIFNOTENOUGHSPACEONDISK Pascal=6 \
+	Comment=FoamDiskSpaceStatus pascal FoamWarnIfNotEnoughSpaceOnDisk(dword space, DiskHandle diskHan) in foam.goh
+220 Name=FOAMWARNSPACEAFTEROPERATIONONDISK Pascal=2 \
+	Comment=FoamDiskSpaceStatus pascal FoamWarnSpaceAfterOperationOnDisk(DiskHandle diskHan) in foam.goh
+221 Name=FOAMGETFREEDISKSPACEONDISK Pascal=2 \
+	Comment=dword pascal FoamGetFreeDiskSpaceOnDisk(DiskHandle diskHan) in foam.goh
+222 Name=FoamPathGetFullPathForDisplay
+223 Name=FoamPathFolderNameForDisplay
+224 Name=FOAMPATHGETFULLPATHFORDISPLAY Pascal=6 \
+	Comment=StandardPath pascal FoamPathGetFullPathForDisplay( FoamPathHandle fph, TCHAR *buffer) in foam.goh
+225 Name=FOAMPATHFOLDERNAMEFORDISPLAY Pascal=6 \
+	Comment=void pascal FoamPathFolderNameForDisplay( FoamPathHandle fph, TCHAR *buffer ) in foam.goh
+226 Name=FoamZoomedTextWidth
+227 Name=FOAMZOOMEDTEXTWIDTH Pascal=12 \
+	Comment=int pascal FoamZoomedTextWidth(TCHAR *text, int numChars, ZoomLevel zoomLevel, WWFixedAsDWord pointSize) in foam.goh
+228 Name=MenuAnimationClass
+229 Name=FoamPlayCMTTone
+230 Name=FOAMPLAYCMTTONE Pascal=2 \
+	Comment=void pascal FoamPlayCMTTone(FoamCMTToneType cmtTone) in foam.goh
+231 Name=FoamRoundUpAsMultipleOfClusterSizeOnDisk
+232 Name=FOAMROUNDUPASMULTIPLEOFCLUSTERSIZEONDISK Pascal=6 \
+	Comment=dword pascal FoamRoundUpAsMultipleOfClusterSizeOnDisk(dword space, DiskHandle diskHan) in foam.goh
+233 Name=FoamDeleteWarningDialogClass
+;------------------EOF------------------

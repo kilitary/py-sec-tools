@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTUINOTIFIERS Pascal=0
+;---------------------------------------
+1 Name=_Z24ImplementationGroupProxyRi
+2 Name=_ZN17CBTUIAuthNotifier14DialogFinishedEi
+3 Name=_ZN18CBTUIRadioNotifier14DialogFinishedEi
+4 Name=_ZN20CBTUIPasskeyNotifier14DialogFinishedEi
+;------------------EOF------------------

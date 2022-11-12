@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=libzdll Pascal=0
+;---------------------------------------
+1 Name=adler32
+2 Name=compress
+3 Name=compress2
+4 Name=compressBound
+5 Name=crc32
+6 Name=deflate
+7 Name=deflateBound
+8 Name=deflateCopy
+9 Name=deflateEnd
+10 Name=deflateInit2
+11 Name=deflateInit
+12 Name=deflateParams
+13 Name=deflateReset
+14 Name=deflateSetDictionary
+15 Name=getcrctable
+16 Name=gclose
+17 Name=gdopen
+18 Name=geof
+19 Name=gerror
+20 Name=gflush
+21 Name=ggetc
+22 Name=ggets
+23 Name=gopen
+24 Name=gprintf
+25 Name=gputc
+26 Name=gputs
+27 Name=gread
+28 Name=grewind
+29 Name=gseek
+30 Name=gsetparams
+31 Name=gell
+32 Name=gwrite
+33 Name=inflate
+34 Name=inflateEnd
+35 Name=inflateInit2
+36 Name=inflateInit
+37 Name=inflateReset
+38 Name=inflateSetDictionary
+39 Name=inflateSync
+40 Name=inflateSyncPoint
+41 Name=uncompress
+42 Name=Error
+43 Name=libVersion
+;------------------EOF------------------

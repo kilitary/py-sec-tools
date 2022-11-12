@@ -1,0 +1,59 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WORLDCLIENT Pascal=0
+;---------------------------------------
+1 Name=_ZN12RWorldServer10AddCountryERK12TCountryDataRK9TCityData
+2 Name=_ZN12RWorldServer10DeleteCityER8TWorldId
+3 Name=_ZN12RWorldServer10UpdateCityER8TWorldIdRK9TCityData
+4 Name=_ZN12RWorldServer11NearestCityERK6TPointPK8TWorldId
+6 Name=_ZN12RWorldServer12DataFileSaveEv
+7 Name=_ZN12RWorldServer12ResetAllDataEv
+8 Name=_ZN12RWorldServer12__DbgMarkEndEv
+9 Name=_ZN12RWorldServer13DeleteCountryER8TWorldId
+10 Name=_ZN12RWorldServer13UpdateCountryER8TWorldIdRK12TCountryData
+11 Name=_ZN12RWorldServer13__DbgMarkHeapEv
+13 Name=_ZN12RWorldServer14NotifyOnChangeER14TRequestStatus
+14 Name=_ZN12RWorldServer14__DbgFailAllocEi
+15 Name=_ZN12RWorldServer15NextNearestCityER8TWorldIdi
+16 Name=_ZN12RWorldServer16SetDistanceUnitsE17TWldDistanceUnits
+17 Name=_ZN12RWorldServer17SetDefaultCountryERK8TWorldId
+18 Name=_ZN12RWorldServer19SetRomDatabaseToUseERK7TDesC16
+19 Name=_ZN12RWorldServer20NotifyOnChangeCancelEv
+20 Name=_ZN12RWorldServer21DataFileRevertToSavedEv
+21 Name=_ZN12RWorldServer24SetCollationLevelForFindEi
+22 Name=_ZN12RWorldServer7AddCityERK9TCityData
+23 Name=_ZN12RWorldServer7ConnectEv
+24 Name=_ZN12RWorldServer7SetHomeERK8TWorldId
+25 Name=_ZN8TLatLong11SetMinutesLEii
+26 Name=_ZN8TLatLong26SetMinutesCorrectingErrorsEii
+27 Name=_ZN8TWorldIdC1Ev
+28 Name=_ZN8TWorldIdC2Ev
+29 Name=_ZNK12RWorldServer11CountryDataER12TCountryDataRK8TWorldId
+30 Name=_ZNK12RWorldServer11FindCountryER8TWorldIdRK7TDesC16
+31 Name=_ZNK12RWorldServer11LastCountryER8TWorldId
+32 Name=_ZNK12RWorldServer11NextCountryER8TWorldId
+33 Name=_ZNK12RWorldServer11PrevCountryER8TWorldId
+34 Name=_ZNK12RWorldServer12FirstCountryER8TWorldId
+35 Name=_ZNK12RWorldServer12NumberCitiesEv
+36 Name=_ZNK12RWorldServer13DistanceUnitsER17TWldDistanceUnits
+37 Name=_ZNK12RWorldServer14DefaultCountryER8TWorldId
+38 Name=_ZNK12RWorldServer15IsCityDeletableERiRK8TWorldId
+39 Name=_ZNK12RWorldServer15NumberCountriesEv
+41 Name=_ZNK12RWorldServer17CalculateDistanceERiRK8TWorldIdS3_
+42 Name=_ZNK12RWorldServer17CalculateSunlightER5TTimeS1_RK8TWorldIdRKS0_
+43 Name=_ZNK12RWorldServer18IsCountryDeletableERiRK8TWorldId
+44 Name=_ZNK12RWorldServer19ReadOnlyDataIsInRAMEv
+45 Name=_ZNK12RWorldServer23GetCountryNameByISOCodeERK7TDesC16R6TDes16
+46 Name=_ZNK12RWorldServer4FindER8TWorldIdRK7TDesC16S4_
+47 Name=_ZNK12RWorldServer4HomeER8TWorldId
+48 Name=_ZNK12RWorldServer7VersionEv
+49 Name=_ZNK12RWorldServer8CityDataER9TCityDataRK8TWorldId
+50 Name=_ZNK12RWorldServer8FindCityER8TWorldIdRK7TDesC16
+51 Name=_ZNK12RWorldServer8LastCityER8TWorldId
+52 Name=_ZNK12RWorldServer8NextCityER8TWorldId
+53 Name=_ZNK12RWorldServer8PrevCityER8TWorldId
+54 Name=_ZNK12RWorldServer8RomTitleER6TDes16
+55 Name=_ZNK12RWorldServer9FirstCityER8TWorldId
+;------------------EOF------------------

@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iasrad.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=?initialize@VSAFilter@@QAEJXZ Pascal=0
+2 Name=?radiusFromIAS@VSAFilter@@QBEJPAUIAttributesRaw@@@Z Pascal=4
+3 Name=?radiusToIAS@VSAFilter@@QBEJPAUIAttributesRaw@@@Z Pascal=4
+4 Name=?shutdown@VSAFilter@@QAEJXZ Pascal=0
+5 Name=DllCanUnloadNow Pascal=0
+6 Name=DllGetClassObject Pascal=12
+7 Name=DllRegisterServer Pascal=0
+8 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

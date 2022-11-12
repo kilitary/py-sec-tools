@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=GUQOS Pascal=0
+;---------------------------------------
+1 Name=Install
+2 Name=_ZTI10CNegotiate
+3 Name=_ZTI11CChannelMan
+4 Name=_ZTI11CNifManager
+5 Name=_ZTI11CPdpContext
+6 Name=_ZTI12CJoinRequest
+7 Name=_ZTI12CModuleGuqos
+8 Name=_ZTI12COpenChannel
+9 Name=_ZTI12CRequestBase
+10 Name=_ZTI13CCloseChannel
+11 Name=_ZTI13CLeaveRequest
+12 Name=_ZTI15CDefaultContext
+13 Name=_ZTI16CExtensionModule
+14 Name=_ZTI17CNegotiateChannel
+15 Name=_ZTI4CNif
+16 Name=_ZTI6CClose
+17 Name=_ZTI8CChannel
+18 Name=_ZTI9CFlowData
+19 Name=_ZTV10CNegotiate
+20 Name=_ZTV11CChannelMan
+21 Name=_ZTV11CNifManager
+22 Name=_ZTV11CPdpContext
+23 Name=_ZTV12CJoinRequest
+24 Name=_ZTV12CModuleGuqos
+25 Name=_ZTV12COpenChannel
+26 Name=_ZTV12CRequestBase
+27 Name=_ZTV13CCloseChannel
+28 Name=_ZTV13CLeaveRequest
+29 Name=_ZTV15CDefaultContext
+30 Name=_ZTV16CExtensionModule
+31 Name=_ZTV17CNegotiateChannel
+32 Name=_ZTV4CNif
+33 Name=_ZTV6CClose
+34 Name=_ZTV8CChannel
+35 Name=_ZTV9CFlowData
+;------------------EOF------------------

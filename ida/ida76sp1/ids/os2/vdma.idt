@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=VDMA.dll Pascal=0
+;---------------------------------------
+1 Name=VDHREGISTERDMACHANNEL
+2 Name=VDHCALLOUTDMA
+;------------------EOF------------------

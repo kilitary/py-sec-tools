@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SSERV.dll Pascal=0
+;---------------------------------------
+1 Name=PD365Read
+2 Name=PD365Write
+3 Name=PDCardGetAdapter
+4 Name=PDCardGetSocket
+5 Name=PDCardGetWindow
+6 Name=PDCardInitServices
+7 Name=PDCardInquireAdapter
+8 Name=PDCardInquireWindow
+9 Name=PDCardResetSocket
+10 Name=PDCardSetAdapter
+11 Name=PDCardSetSocket
+12 Name=PDCardSetWindow
+13 Name=ntecards_getcardvals
+14 Name=ntecards_inb
+15 Name=ntecards_inw
+16 Name=ntecards_mapmem
+17 Name=ntecards_outb
+18 Name=ntecards_outw
+19 Name=ntecards_setcardiowin
+20 Name=ntecards_startinterruptthread
+21 Name=ntecards_unmapmem
+;------------------EOF------------------

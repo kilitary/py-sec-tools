@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LOGWRAP Pascal=0
+;---------------------------------------
+1 Name=_ZN10CLogActive10DoCompleteERi
+2 Name=_ZN10CLogActive4RunLEv
+3 Name=_ZN10CLogActive5QueueER14TRequestStatus
+4 Name=_ZN10CLogActive8CompleteEi
+5 Name=_ZN10CLogActive8DoCancelEv
+6 Name=_ZTV9CLogEvent
+7 Name=_ZN10CLogActiveC2Ei
+8 Name=_ZN10CLogActiveD0Ev
+9 Name=_ZN10CLogActiveD1Ev
+10 Name=_ZN10CLogActiveD2Ev
+11 Name=_ZN11CLogWrapper4NewLER3RFsi
+12 Name=_ZN11CLogWrapperD0Ev
+13 Name=_ZN11CLogWrapperD1Ev
+14 Name=_ZN11CLogWrapperD2Ev
+15 Name=_ZN8CLogBase11ChangeEventERK9CLogEventR14TRequestStatus
+16 Name=_ZN8CLogBase11DeleteEventElR14TRequestStatus
+17 Name=_ZN8CLogBase14LoadResourcesLER3RFs
+18 Name=_ZN8CLogBase18CLogBase_Reserved1Ev
+19 Name=_ZN8CLogBase8AddEventER9CLogEventR14TRequestStatus
+20 Name=_ZN8CLogBase8GetEventER9CLogEventR14TRequestStatus
+21 Name=_ZN8CLogBaseC1Ei
+22 Name=_ZN8CLogBaseC2Ei
+23 Name=_ZN8CLogBaseD0Ev
+24 Name=_ZN8CLogBaseD1Ev
+25 Name=_ZN8CLogBaseD2Ev
+26 Name=_ZN9CLogEvent12InternalizeLER11RReadStream
+27 Name=_ZN9CLogEvent4NewLEv
+28 Name=_ZN9CLogEvent5CopyLERKS_
+29 Name=_ZN9CLogEvent8SetDataLER11RReadStreami
+30 Name=_ZN9CLogEvent8SetDataLERK6TDesC8
+31 Name=_ZN9CLogEventD0Ev
+32 Name=_ZN9CLogEventD1Ev
+33 Name=_ZN9CLogEventD2Ev
+34 Name=_ZNK11CLogWrapper15ClientAvailableEv
+35 Name=_ZNK8CLogBase9GetStringER6TDes16i
+36 Name=_ZNK9CLogEvent12ExternalizeLER12RWriteStream
+37 Name=_ZTV11CLogWrapper
+38 Name=_ZTI9CLogEvent
+39 Name=_ZTI11CLogWrapper
+40 Name=_ZTI10CLogActive
+41 Name=_ZTI8CLogBase
+42 Name=_ZTV10CLogActive
+43 Name=_ZTV8CLogBase
+;------------------EOF------------------

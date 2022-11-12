@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SCHSVR Pascal=0
+;---------------------------------------
+1 Name=__as__9TTaskInfoRC9TTaskInfo
+2 Name=CreatePersistentSchedule__10RSchedulerR17TSchedulerItemRefRCt13CArrayFixFlat1Z18TScheduleEntryInfo
+3 Name=Data__C14CScheduledTask
+4 Name=DeleteSchedule__C10RScheduleri
+5 Name=DeleteTask__C10RScheduleri
+6 Name=DisableSchedule__C10RScheduleri
+7 Name=EditSchedule__10RScheduleriRCt13CArrayFixFlat1Z18TScheduleEntryInfo
+8 Name=EnableSchedule__C10RScheduleri
+9 Name=ExternalizeL__C9TTaskInfoR12RWriteStream
+10 Name=GetScheduleL__10RScheduleriR14TScheduleStateRt13CArrayFixFlat1Z18TScheduleEntryInfoRt13CArrayFixFlat1Z9TTaskInfoR5TTime
+11 Name=GetScheduleRefsL__10RSchedulerRt13CArrayFixFlat1Z17TSchedulerItemRef15TScheduleFilter
+12 Name=GetTaskDataSize__10RScheduleriRi
+13 Name=GetTaskInfoL__10RScheduleriR9TTaskInfoR6TPtr16R17TSchedulerItemRefR5TTime
+14 Name=GetTaskRefsL__10RSchedulerRt13CArrayFixFlat1Z17TSchedulerItemRef15TScheduleFilter11TTaskFilter
+15 Name=Info__C14CScheduledTask
+16 Name=InternalizeL__9TTaskInfoR11RReadStream
+17 Name=NewLC__14CScheduledTaskR11RReadStream
+18 Name=Register__10RSchedulerRCt4TBuf1i256i
+19 Name=RunScheduler__Fv
+20 Name=ScheduleTask__10RSchedulerR9TTaskInfoR7HBufC16R17TSchedulerItemRefRCt13CArrayFixFlat1Z18TScheduleEntryInfo
+21 Name=ScheduleTask__10RSchedulerR9TTaskInfoR7HBufC16i
+22 Name=StartSch32__Fv
+23 Name=ValidUntil__C14CScheduledTask
+24 Name=Version__C10RScheduler
+25 Name=__10RScheduler
+26 Name=__14CScheduledTaskR9TTaskInfoP7HBufC16
+27 Name=__9TTaskInfo
+28 Name=__9TTaskInfoiRt4TBuf1i128ii
+29 Name=__DbgCheckHeap__10RScheduleri
+30 Name=__DbgFailNext__10RScheduleri
+31 Name=__DbgMarkEnd__10RScheduleri
+32 Name=__DbgMarkHeap__10RScheduler
+33 Name=__DbgResetHeap__10RScheduler
+34 Name=__FaultServer__10RScheduler
+35 Name=Connect__10RScheduler
+;------------------EOF------------------

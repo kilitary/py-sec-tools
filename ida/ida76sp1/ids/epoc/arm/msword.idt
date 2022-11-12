@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MSWORD Pascal=0
+;---------------------------------------
+1 Name=ConvertL__16CMsWordConverterRC6TDesC8T1
+2 Name=OleStreamBuf__22COleFilePropertySetDiri
+3 Name=PushL__14ROleReadStream
+4 Name=Release__14ROleReadStream
+5 Name=_._16CMsWordConverter
+6 Name=__16CMsWordConverter
+;------------------EOF------------------

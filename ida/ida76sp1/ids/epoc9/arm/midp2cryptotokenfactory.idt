@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2CRYPTOTOKENFACTORY Pascal=0
+;---------------------------------------
+1 Name=_Z22GetCryptotokenFactoryLm
+2 Name=_ZTI19CCryptotokenFactory
+3 Name=_ZTV19CCryptotokenFactory
+;------------------EOF------------------

@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CLOCK Pascal=0
+;---------------------------------------
+1 Name=__26TDigitalDisplayTextSectioniG4TRgb38TDigitalDisplayHorizontalTextAlignment36TDigitalDisplayVerticalTextAlignmentiiRC6TDesC8
+2 Name=AddHandL__12RAnalogClockRC18TAnalogDisplayHand
+3 Name=AddLine__18TAnalogDisplayHandQ216CGraphicsContext9TPenStyleG4TRgbRC5TSizeRC6TPointT4
+4 Name=AddPolyLine__18TAnalogDisplayHandQ216CGraphicsContext9TPenStyleG4TRgbRC5TSizeQ216CGraphicsContext11TBrushStyleT2iPCt9CArrayFix1Z6TPoint
+5 Name=AddTextSectionL__13RDigitalClockRC26TDigitalDisplayTextSection
+6 Name=CancelDisplay__14RMessageWindow
+7 Name=Close__14RAnimWithUtils
+8 Name=ConstructL__12RAnalogClockG20TTimeIntervalSecondsRC6TPointRC5TSizeRC8TMarginsRC17STimeDeviceShadowiiiPC18SAnalogDisplayAmPm
+9 Name=ConstructL__13RDigitalClockG20TTimeIntervalSecondsRC6TPointRC5TSizeRC8TMarginsRC17STimeDeviceShadowG4TRgbi
+10 Name=ConstructL__14RMessageWindowiiG4TRgbT3
+11 Name=Draw__11RTimeDevice
+12 Name=SetBackgroundColor__13RDigitalClockG4TRgbT1
+13 Name=SetPositionAndSize__11RTimeDeviceRC6TPointRC5TSize
+14 Name=SetPosition__11RTimeDeviceRC6TPoint
+15 Name=SetSize__11RTimeDeviceRC5TSize
+16 Name=SetUniversalTimeOffset__6RClockG20TTimeIntervalSeconds
+17 Name=SetVisible__11RTimeDevicei
+18 Name=StartDisplay__14RMessageWindowiG27TTimeIntervalMicroSeconds32RC6TDesC8
+19 Name=StartDisplay__14RMessageWindowiG27TTimeIntervalMicroSeconds32T2RC6TDesC8
+20 Name=UpdateDisplay__11RTimeDevice
+21 Name=__12RAnalogClockR8RAnimDllRC11RWindowBase
+22 Name=__13RDigitalClockR8RAnimDllRC11RWindowBase
+23 Name=__14RMessageWindowR8RAnimDllRC11RWindowBase
+24 Name=__18TAnalogDisplayHand22TAnalogDisplayHandType
+25 Name=AddCircle__18TAnalogDisplayHandQ216CGraphicsContext9TPenStyleG4TRgbRC5TSizeQ216CGraphicsContext11TBrushStyleT2RC6TPointi
+26 Name=GetBorders__14RMessageWindowR8TMargins
+;------------------EOF------------------

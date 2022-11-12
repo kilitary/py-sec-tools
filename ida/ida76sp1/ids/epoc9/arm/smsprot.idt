@@ -1,0 +1,72 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMSPROT Pascal=0
+;---------------------------------------
+1 Name=_Z10InstallSMSv
+2 Name=_ZTI11CSmsPDURead
+3 Name=_ZTI11CSmsSendTry
+4 Name=_ZTI12CSmsProtocol
+5 Name=_ZTI12CSmsProvider
+6 Name=_ZTI13CSmsPDUDelete
+7 Name=_ZTI13CSmsStoreRead
+8 Name=_ZTI14CSmsPDUProcess
+9 Name=_ZTI14CSmsParamsBase
+10 Name=_ZTI14CSmsReadParams
+11 Name=_ZTI14CSmspSendQueue
+12 Name=_ZTI14CSmspSetBearer
+13 Name=_ZTI15CSmsMessageSend
+14 Name=_ZTI15CSmsWriteParams
+15 Name=_ZTI15CSmspWriteQueue
+16 Name=_ZTI15TKeySmsObserver
+17 Name=_ZTI16CQueuedPDUDelete
+18 Name=_ZTI16CSmsMessageWrite
+19 Name=_ZTI16CSmsPduReadTimer
+20 Name=_ZTI16CSmspCommDbEvent
+21 Name=_ZTI16CSmspDeleteQueue
+22 Name=_ZTI16CSmspReceiveMode
+23 Name=_ZTI17CQueuedSmsMessage
+24 Name=_ZTI17CSmsPDUReadLogger
+25 Name=_ZTI17CSmspMessageQueue
+26 Name=_ZTI18CSmsProtocolFamily
+27 Name=_ZTI19CSmsReassemblyStore
+28 Name=_ZTI20CSmsMonitorDiskSpace
+29 Name=_ZTI20CSmsPhoneEnumeration
+30 Name=_ZTI21CSmsModemNotification
+31 Name=_ZTI21CSmsProtocolBootTimer
+32 Name=_ZTI21CSmsSegmentationStore
+33 Name=_ZTI23CSmsPhoneInitialization
+34 Name=_ZTV11CSmsPDURead
+35 Name=_ZTV11CSmsSendTry
+36 Name=_ZTV12CSmsProtocol
+37 Name=_ZTV12CSmsProvider
+38 Name=_ZTV13CSmsPDUDelete
+39 Name=_ZTV13CSmsStoreRead
+40 Name=_ZTV14CSmsPDUProcess
+41 Name=_ZTV14CSmsParamsBase
+42 Name=_ZTV14CSmsReadParams
+43 Name=_ZTV14CSmspSendQueue
+44 Name=_ZTV14CSmspSetBearer
+45 Name=_ZTV15CSmsMessageSend
+46 Name=_ZTV15CSmsWriteParams
+47 Name=_ZTV15CSmspWriteQueue
+48 Name=_ZTV15TKeySmsObserver
+49 Name=_ZTV16CQueuedPDUDelete
+50 Name=_ZTV16CSmsMessageWrite
+51 Name=_ZTV16CSmsPduReadTimer
+52 Name=_ZTV16CSmspCommDbEvent
+53 Name=_ZTV16CSmspDeleteQueue
+54 Name=_ZTV16CSmspReceiveMode
+55 Name=_ZTV17CQueuedSmsMessage
+56 Name=_ZTV17CSmsPDUReadLogger
+57 Name=_ZTV17CSmspMessageQueue
+58 Name=_ZTV18CSmsProtocolFamily
+59 Name=_ZTV19CSmsReassemblyStore
+60 Name=_ZTV20CSmsMonitorDiskSpace
+61 Name=_ZTV20CSmsPhoneEnumeration
+62 Name=_ZTV21CSmsModemNotification
+63 Name=_ZTV21CSmsProtocolBootTimer
+64 Name=_ZTV21CSmsSegmentationStore
+65 Name=_ZTV23CSmsPhoneInitialization
+;------------------EOF------------------

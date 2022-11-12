@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMTP.dll Pascal=0
+;---------------------------------------
+1 Name=TransportConnect
+2 Name=TransportConvert
+3 Name=TransportCount
+4 Name=TransportDel
+5 Name=TransportDisconnect
+6 Name=TransportDuplicateHandle
+7 Name=TransportError
+8 Name=TransportErrorEx
+9 Name=TransportErrorMsg
+10 Name=TransportFreeMsg
+11 Name=TransportInit
+12 Name=TransportNonIpm
+13 Name=TransportProps
+14 Name=TransportRecv
+15 Name=TransportRelease
+16 Name=TransportSend
+17 Name=TransportSetPassword
+18 Name=TransportView
+;------------------EOF------------------

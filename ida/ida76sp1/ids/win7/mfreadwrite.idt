@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mfreadwrite.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=MFCreateSinkWriterFromMediaSink Pascal=12
+4 Name=MFCreateSinkWriterFromURL Pascal=16
+5 Name=MFCreateSourceReaderFromByteStream Pascal=12
+6 Name=MFCreateSourceReaderFromMediaSource Pascal=12
+7 Name=MFCreateSourceReaderFromURL Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-console-l1-1-0.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=AllocConsole Pascal=0
+2 Name=GetConsoleCP Pascal=0
+3 Name=GetConsoleMode Pascal=8
+4 Name=GetConsoleOutputCP Pascal=0
+5 Name=GetNumberOfConsoleInputEvents Pascal=8
+6 Name=PeekConsoleInputA Pascal=16
+7 Name=ReadConsoleA Pascal=20
+8 Name=ReadConsoleInputA Pascal=16
+9 Name=ReadConsoleInputW Pascal=16
+10 Name=ReadConsoleW Pascal=20
+11 Name=SetConsoleCtrlHandler Pascal=8
+12 Name=SetConsoleMode Pascal=8
+13 Name=WriteConsoleA Pascal=20
+14 Name=WriteConsoleW Pascal=20
+;------------------EOF------------------

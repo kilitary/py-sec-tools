@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ECOM Pascal=0
+;---------------------------------------
+1 Name=__REComSession
+2 Name=Close__REComSession
+3 Name=CreateImplementationL__REComSessionGTUidRTUid
+4 Name=CreateImplementationL__REComSessionGTUidRTUidPv
+5 Name=CreateImplementationL__REComSessionGTUidRTUidPvRCTEComResolverParams
+6 Name=CreateImplementationL__REComSessionGTUidRTUidPvRCTEComResolverParamsT1
+7 Name=CreateImplementationL__REComSessionGTUidRTUidRCTEComResolverParams
+8 Name=CreateImplementationL__REComSessionGTUidRTUidRCTEComResolverParamsT1
+9 Name=CreateImplementationL__REComSessionGTUidl
+10 Name=CreateImplementationL__REComSessionGTUidlPv
+11 Name=CreateImplementationL__REComSessionGTUidlPvRCTEComResolverParams
+12 Name=CreateImplementationL__REComSessionGTUidlPvRCTEComResolverParamsT1
+13 Name=CreateImplementationL__REComSessionGTUidlRCTEComResolverParams
+14 Name=CreateImplementationL__REComSessionGTUidlRCTEComResolverParamsT1
+15 Name=DestroyedImplementation__REComSessionGTUid
+16 Name=ListImplementationsL__REComSessionGTUidRCTEComResolverParamsRtRPointerArrayZCImplementationInformation
+17 Name=ListImplementationsL__REComSessionGTUidRCTEComResolverParamsTRtRPointerArrayZCImplementationInformation
+18 Name=ListImplementationsL__REComSessionGTUidRtRPointerArrayZCImplementationInformation
+19 Name=NotifyOnChange__REComSessionRTRequestStatus
+20 Name=OpenL__REComSession
+21 Name=CancelNotifyOnChange__REComSessionRTRequestStatus
+22 Name=FinalClose__REComSession
+;------------------EOF------------------

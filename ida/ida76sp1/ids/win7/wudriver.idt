@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wudriver.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=CancelCDMOperation Pascal=0
+2 Name=CloseCDMContext Pascal=4
+3 Name=DetFilesDownloaded Pascal=4
+4 Name=DownloadIsInternetAvailable Pascal=0
+5 Name=DownloadUpdatedFiles Pascal=24
+6 Name=FindMatchingDriver Pascal=12
+7 Name=LogDriverNotFound Pascal=12
+8 Name=OpenCDMContext Pascal=4
+9 Name=OpenCDMContextEx Pascal=4
+10 Name=QueryDetectionFiles Pascal=12
+;------------------EOF------------------

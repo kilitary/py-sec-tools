@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-fibers-l1-1-0.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=FlsAlloc Pascal=4
+2 Name=FlsFree Pascal=4
+3 Name=FlsGetValue Pascal=4
+4 Name=FlsSetValue Pascal=8
+;------------------EOF------------------

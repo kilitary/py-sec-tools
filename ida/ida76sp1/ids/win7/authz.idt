@@ -1,0 +1,53 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=authz.dll Args=0 Drops=46
+;---------------------------------------
+1 Name=AuthzAccessCheck Pascal=36
+2 Name=AuthzAddSidsToContext Pascal=24
+3 Name=AuthzCachedAccessCheck Pascal=20
+4 Name=AuthzEnumerateSecurityEventSources Pascal=16
+5 Name=AuthzEvaluateSacl Pascal=24
+6 Name=AuthzFreeAuditEvent Pascal=4
+7 Name=AuthzFreeContext Pascal=4
+8 Name=AuthzFreeHandle Pascal=4
+9 Name=AuthzFreeResourceManager Pascal=4
+10 Name=AuthzGetInformationFromContext Pascal=20
+11 Name=AuthzInitializeContextFromAuthzContext Pascal=28
+12 Name=AuthzInitializeContextFromSid Pascal=32
+13 Name=AuthzInitializeContextFromToken Pascal=32
+14 Name=AuthzInitializeObjectAccessAuditEvent Pascal=0
+15 Name=AuthzInitializeObjectAccessAuditEvent2 Pascal=0
+16 Name=AuthzInitializeResourceManager Pascal=24
+17 Name=AuthzInstallSecurityEventSource Pascal=8
+18 Name=AuthzModifySecurityAttributes Pascal=12
+19 Name=AuthzOpenObjectAudit Pascal=32
+20 Name=AuthzRegisterSecurityEventSource Pascal=12
+21 Name=AuthzReportSecurityEvent Pascal=0
+22 Name=AuthzReportSecurityEventFromParams Pascal=20
+23 Name=AuthzUninstallSecurityEventSource Pascal=8
+24 Name=AuthzUnregisterSecurityEventSource Pascal=8
+25 Name=AuthziAccessCheckEx Pascal=40
+26 Name=AuthziAllocateAuditParams Pascal=8
+27 Name=AuthziCheckContextMembership Pascal=16
+28 Name=AuthziFreeAuditEventType Pascal=4
+29 Name=AuthziFreeAuditParams Pascal=4
+30 Name=AuthziFreeAuditQueue Pascal=4
+31 Name=AuthziGenerateAdminAlertAuditW Pascal=16
+32 Name=AuthziInitializeAuditEvent Pascal=44
+33 Name=AuthziInitializeAuditEventType Pascal=20
+34 Name=AuthziInitializeAuditParams Pascal=0
+35 Name=AuthziInitializeAuditParamsFromArray Pascal=20
+36 Name=AuthziInitializeAuditParamsWithRM Pascal=0
+37 Name=AuthziInitializeAuditQueue Pascal=20
+38 Name=AuthziInitializeContextFromSid Pascal=32
+39 Name=AuthziLogAuditEvent Pascal=12
+40 Name=AuthziModifyAuditEvent2 Pascal=32
+41 Name=AuthziModifyAuditEvent Pascal=28
+42 Name=AuthziModifyAuditEventType Pascal=20
+43 Name=AuthziModifyAuditQueue Pascal=24
+44 Name=AuthziModifySecurityAttributes Pascal=12
+45 Name=AuthziQuerySecurityAttributes Pascal=24
+46 Name=AuthziSourceAudit Pascal=0
+;------------------EOF------------------

@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=LinkMan Pascal=0
+;---------------------------------------
+1 Name=Lock__17RemoteLinkManagerG9TThreadId
+2 Name=Pause__17RemoteLinkManagerR16MLinkManObserverRi
+3 Name=RestartOnNetworkDisconnection__17RemoteLinkManager
+4 Name=Restart__17RemoteLinkManager
+5 Name=Unlock__17RemoteLinkManagerG9TThreadId
+;------------------EOF------------------

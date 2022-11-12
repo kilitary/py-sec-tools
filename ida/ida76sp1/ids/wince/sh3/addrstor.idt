@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ADDRSTOR Pascal=0
+;---------------------------------------
+1 Name=_CloseAddressBook
+2 Name=_OpenAddressBook
+3 Name=_CreateAddressBook
+4 Name=_RecountCards
+5 Name=_SetColumnProperties
+6 Name=_GetSortOrder
+7 Name=_SetSortOrder
+8 Name=_GetMask
+9 Name=_SetMask
+10 Name=_GetAddressCardOid
+11 Name=_GetAddressCardIndex
+12 Name=_OpenAddressCard
+13 Name=_GetAddressCardProperties
+14 Name=_GetMatchingEntry
+15 Name=_GetMatchingEntryEx
+16 Name=_AddAddressCard
+17 Name=_DeleteAddressCard
+18 Name=_ModifyAddressCard
+19 Name=_FreeAddressCard
+20 Name=_GetNumberOfAddressCards
+21 Name=_FindFirstEntry
+22 Name=_GetPropertyDataStruct
+23 Name=_InitializeExtended
+24 Name=_GetDefaultFields
+25 Name=_GetSortOrderFromProperty
+26 Name=_GetFieldFromProperty
+27 Name=_PimCategListBlob
+28 Name=_PimCategParseBlob
+29 Name=_ConstructStoreFileAs
+30 Name=_GetAddrstorInst
+;------------------EOF------------------

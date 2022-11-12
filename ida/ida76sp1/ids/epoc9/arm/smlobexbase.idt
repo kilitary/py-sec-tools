@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMLOBEXBASE Pascal=0
+;---------------------------------------
+1 Name=_Z12SmlObexPanici
+2 Name=_ZN12RSmlProperty4OpenE8RStringFS0_
+3 Name=_ZN12RSmlProperty5CloseEv
+4 Name=_ZN12RSmlProperty5FieldEv
+5 Name=_ZN12RSmlProperty5ValueEv
+6 Name=_ZN15CSmlObexAdapter15SetProtocolInfoER17TObexProtocolInfo
+7 Name=_ZN15CSmlObexAdapter4OpenEv
+8 Name=_ZN15CSmlObexAdapter7SetWhoLERK6TDesC8
+9 Name=_ZN21CSmlObexClientHandler4NewLEv
+10 Name=_ZN21CSmlObexServerHandler12StartServerLEv
+11 Name=_ZN21CSmlObexServerHandler20SetListenerAvailableEi
+12 Name=_ZN21CSmlObexServerHandler4NewLERK6TDesC8iR21MSmlListeningObserver
+13 Name=_ZTI15CSmlObexAdapter
+14 Name=_ZTI21CSmlObexClientHandler
+15 Name=_ZTI21CSmlObexServerHandler
+16 Name=_ZTV15CSmlObexAdapter
+17 Name=_ZTV21CSmlObexClientHandler
+18 Name=_ZTV21CSmlObexServerHandler
+;------------------EOF------------------

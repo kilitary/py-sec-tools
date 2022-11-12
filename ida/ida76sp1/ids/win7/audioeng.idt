@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=AudioEng.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=AERT_Allocate Pascal=8
+2 Name=AERT_Free Pascal=4
+3 Name=DllCanUnloadNow Pascal=0
+4 Name=DllGetClassObject Pascal=12
+5 Name=DllRegisterServer Pascal=0
+6 Name=DllUnregisterServer Pascal=0
+;------------------EOF------------------

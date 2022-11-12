@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RECAPP Pascal=0
+;---------------------------------------
+1 Name=CreateRecognizer__Fv
+;------------------EOF------------------

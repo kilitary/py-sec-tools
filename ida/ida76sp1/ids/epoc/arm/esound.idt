@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ESOUND Pascal=0
+;---------------------------------------
+1 Name=CreateLogicalDevice__Fv
+;------------------EOF------------------

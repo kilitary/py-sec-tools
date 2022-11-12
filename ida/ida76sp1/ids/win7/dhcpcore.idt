@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dhcpcore.dll Args=0 Drops=1
+;---------------------------------------
+1 Name=DhcpGlobalIsShuttingDown
+2 Name=DhcpGlobalServiceSyncEvent
+3 Name=DhcpGlobalTerminateEvent
+4 Name=ServiceMain Pascal=8
+;------------------EOF------------------

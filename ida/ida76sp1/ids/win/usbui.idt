@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=usbui.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=CPlApplet Pascal=16
+2 Name=USBControllerBandwidthPage Pascal=8
+3 Name=USBControllerPropPageProvider Pascal=12
+4 Name=USBDevicePropPageProvider Pascal=12
+5 Name=USBErrorHandler Pascal=8
+6 Name=USBHubPowerPage Pascal=8
+7 Name=USBHubPropPageProvider Pascal=12
+8 Name=UsbControlPanelApplet Pascal=0
+;------------------EOF------------------

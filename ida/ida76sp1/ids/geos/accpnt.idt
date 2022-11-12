@@ -1,0 +1,56 @@
+DECLARATION Nokia 9110 Geos 3.0 library accpnt.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+16 Name=accpntdll Args=0 Drops=15
+;---------------------------------------
+1 Name=AccessPointCreateEntry
+2 Name=AccessPointDestroyEntry
+3 Name=AccessPointGetType
+4 Name=AccessPointSetStringProperty
+5 Name=AccessPointSetIntegerProperty
+6 Name=AccessPointGetStringProperty
+7 Name=AccessPointGetIntegerProperty
+8 Name=AccessPointDestroyProperty
+9 Name=AccessPointGetEntries
+10 Name=AccessPointCompareStandardProperty
+11 Name=AccessPointCommit
+12 Name=AccessPointControlClass
+13 Name=AccessPointSelectorClass
+15 Name=ACCESSPOINTCREATEENTRY Pascal=4 \
+	Comment=word pascal AccessPointCreateEntry(word loc, AccessPointType apt) in accpnt.goh
+16 Name=ACCESSPOINTDESTROYENTRY Pascal=2 \
+	Comment=Boolean pascal AccessPointDestroyEntry(word id) in accpnt.goh
+17 Name=ACCESSPOINTGETTYPE Pascal=2 \
+	Comment=AccessPointType pascal AccessPointGetType(word id) in accpnt.goh
+18 Name=ACCESSPOINTSETSTRINGPROPERTY Pascal=10 \
+	Comment=Boolean pascal AccessPointSetStringProperty(word id, char *prop, char *val) in accpnt.goh
+19 Name=ACCESSPOINTSETINTEGERPROPERTY Pascal=8 \
+	Comment=Boolean pascal AccessPointSetIntegerProperty(word id, char *prop, int val) in accpnt.goh
+20 Name=ACCESSPOINTGETSTRINGPROPERTYBLOCK Pascal=14 \
+	Comment=Boolean pascal AccessPointGetStringPropertyBlock(word id, char *prop, MemHandle *data, int *datalen) in accpnt.goh
+21 Name=ACCESSPOINTGETSTRINGPROPERTYBUFFER Pascal=14 \
+	Comment=Boolean pascal AccessPointGetStringPropertyBuffer(word id, char *prop, char *buf, int *datalen) in accpnt.goh
+22 Name=ACCESSPOINTGETINTEGERPROPERTY Pascal=10 \
+	Comment=Boolean pascal AccessPointGetIntegerProperty(word id, char *prop, int *val) in accpnt.goh
+23 Name=ACCESSPOINTDESTROYPROPERTY Pascal=6 \
+	Comment=Boolean pascal AccessPointDestroyProperty(word id, char *prop) in accpnt.goh
+24 Name=ACCESSPOINTGETENTRIES Pascal=6 \
+	Comment=ChunkHandle pascal AccessPointGetEntries(MemHandle mh, ChunkHandle chunk, AccessPointType apt) in accpnt.goh
+25 Name=ACCESSPOINTCOMPARESTANDARDPROPERTY Pascal=6 \
+	Comment=Boolean pascal AccessPointCompareStandardProperty(AccessPointStandardProperty prop, char *str) in accpnt.goh
+26 Name=ACCESSPOINTCOMMIT \
+	Comment=void pascal AccessPointCommit(void) in accpnt.goh
+27 Name=AccessPointIsEntryValid
+28 Name=ACCESSPOINTISENTRYVALID Pascal=2 \
+	Comment=Boolean pascal AccessPointIsEntryValid(word id) in accpnt.goh
+29 Name=AccessPointLock
+30 Name=AccessPointUnlock
+31 Name=ACCESSPOINTLOCK Pascal=2 \
+	Comment=void pascal AccessPointLock (word id) in accpnt.goh
+32 Name=ACCESSPOINTUNLOCK Pascal=2 \
+	Comment=void pascal AccessPointUnlock (word id) in accpnt.goh
+33 Name=AccessPointInUse
+34 Name=ACCESSPOINTINUSE Pascal=2 \
+	Comment=Boolean pascal AccessPointInUse (word id) in accpnt.goh
+;------------------EOF------------------

@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wmi.dll Args=0 Drops=45
+;---------------------------------------
+1 Name=CloseTrace Pascal=8
+2 Name=ControlTraceA Pascal=20
+3 Name=ControlTraceW Pascal=20
+4 Name=CreateTraceInstanceId Pascal=8
+5 Name=EnableTrace Pascal=24
+6 Name=GetTraceEnableFlags Pascal=8
+7 Name=GetTraceEnableLevel Pascal=8
+8 Name=GetTraceLoggerHandle Pascal=4
+9 Name=OpenTraceA Pascal=4
+10 Name=OpenTraceW Pascal=4
+11 Name=ProcessTrace Pascal=16
+12 Name=QueryAllTracesA Pascal=12
+13 Name=QueryAllTracesW Pascal=12
+14 Name=RegisterTraceGuidsA Pascal=32
+15 Name=RegisterTraceGuidsW Pascal=32
+16 Name=RemoveTraceCallback Pascal=4
+17 Name=SetTraceCallback Pascal=8
+18 Name=StartTraceA Pascal=12
+19 Name=StartTraceW Pascal=12
+20 Name=TraceEvent Pascal=12
+21 Name=TraceEventInstance Pascal=20
+22 Name=UnregisterTraceGuids Pascal=8
+23 Name=WmiCloseBlock Pascal=4
+24 Name=WmiDevInstToInstanceNameA Pascal=16
+25 Name=WmiDevInstToInstanceNameW Pascal=16
+26 Name=WmiEnumerateGuids Pascal=8
+27 Name=WmiExecuteMethodA Pascal=28
+28 Name=WmiExecuteMethodW Pascal=28
+29 Name=WmiFileHandleToInstanceNameA Pascal=16
+30 Name=WmiFileHandleToInstanceNameW Pascal=16
+31 Name=WmiFreeBuffer Pascal=4
+32 Name=WmiMofEnumerateResourcesA Pascal=12
+33 Name=WmiMofEnumerateResourcesW Pascal=12
+34 Name=WmiNotificationRegistrationA Pascal=20
+35 Name=WmiNotificationRegistrationW Pascal=20
+36 Name=WmiOpenBlock Pascal=12
+37 Name=WmiQueryAllDataA Pascal=12
+38 Name=WmiQueryAllDataW Pascal=12
+39 Name=WmiQueryGuidInformation Pascal=8
+40 Name=WmiQuerySingleInstanceA Pascal=16
+41 Name=WmiQuerySingleInstanceW Pascal=16
+42 Name=WmiSetSingleInstanceA Pascal=20
+43 Name=WmiSetSingleInstanceW Pascal=20
+44 Name=WmiSetSingleItemA Pascal=24
+45 Name=WmiSetSingleItemW Pascal=24
+;------------------EOF------------------

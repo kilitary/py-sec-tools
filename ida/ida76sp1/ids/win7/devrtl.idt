@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=devrtl.dll Args=0 Drops=29
+;---------------------------------------
+1 Name=DevRtlCloseTextLogSection Pascal=12
+2 Name=DevRtlCreateTextLogSectionA Pascal=16
+3 Name=DevRtlCreateTextLogSectionW Pascal=16
+4 Name=DevRtlGetThreadLogToken Pascal=0
+5 Name=DevRtlSetThreadLogToken Pascal=8
+6 Name=DevRtlWriteTextLog Pascal=0
+7 Name=DevRtlWriteTextLogError Pascal=0
+8 Name=NdxTableAddObject Pascal=16
+9 Name=NdxTableAddObjectToList Pascal=12
+10 Name=NdxTableClose Pascal=8
+11 Name=NdxTableFirstObject Pascal=12
+12 Name=NdxTableFirstObjectInList Pascal=12
+13 Name=NdxTableGetObjectName Pascal=16
+14 Name=NdxTableGetObjectType Pascal=8
+15 Name=NdxTableGetObjectTypeCount Pascal=8
+16 Name=NdxTableGetObjectTypeName Pascal=20
+17 Name=NdxTableGetPropertyTypeClass Pascal=16
+18 Name=NdxTableGetPropertyTypeCount Pascal=12
+19 Name=NdxTableGetPropertyTypeName Pascal=24
+20 Name=NdxTableGetPropertyValue Pascal=20
+21 Name=NdxTableNextObject Pascal=4
+22 Name=NdxTableObjectFromName Pascal=16
+23 Name=NdxTableObjectFromPointer Pascal=12
+24 Name=NdxTableOpen Pascal=16
+25 Name=NdxTableRemoveObject Pascal=4
+26 Name=NdxTableRemoveObjectFromList Pascal=12
+27 Name=NdxTableSetObjectPointer Pascal=12
+28 Name=NdxTableSetPropertyValue Pascal=16
+29 Name=NdxTableSetTypeDefinition Pascal=16
+;------------------EOF------------------

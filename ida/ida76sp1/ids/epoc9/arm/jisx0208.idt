@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=JISX0208 Pascal=0
+;---------------------------------------
+1 Name=_ZN11CnvJisX020814ConversionDataEv
+;------------------EOF------------------

@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ND_DLGSV Pascal=0
+;---------------------------------------
+1 Name=??0RNetdialDialogServer@@QAE@XZ
+2 Name=??1RNetdialDialogServer@@QAE@XZ
+3 Name=?Authenticate@RNetdialDialogServer@@QAEXAAVTDes8@@0AAVTRequestStatus@@@Z
+4 Name=?Cancel@RNetdialDialogServer@@QAEHXZ
+5 Name=?Connect@RNetdialDialogServer@@QAEHXZ
+6 Name=?Login@RNetdialDialogServer@@QAEXAAVTDes8@@0AAVTRequestStatus@@@Z
+7 Name=?Reconnect@RNetdialDialogServer@@QAEXAAHAAVTRequestStatus@@@Z
+8 Name=?RequestServiceLocationAndModem@RNetdialDialogServer@@QAEXAAK00AAVTRequestStatus@@@Z
+9 Name=?StartDialogThread@@YAHXZ
+10 Name=?Version@RNetdialDialogServer@@QBE?AVTVersion@@XZ
+11 Name=?ClosePct@RNetdialDialogServer@@QAEXXZ
+12 Name=?DestroyPctNotification@RNetdialDialogServer@@QAEXAAVTRequestStatus@@@Z
+13 Name=?OpenPct@RNetdialDialogServer@@QAEHXZ
+14 Name=?ReadPct@RNetdialDialogServer@@QAEXAAVTDes8@@AAVTRequestStatus@@@Z
+15 Name=?WritePct@RNetdialDialogServer@@QAEHABVTDesC8@@@Z
+;------------------EOF------------------

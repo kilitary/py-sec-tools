@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTEXTNOTIFIERS Pascal=0
+;---------------------------------------
+1 Name=_ZN13TBTDeviceList18MaxNumberOfDevicesEv
+2 Name=_ZN13TBTDeviceList5ResetEv
+3 Name=_ZN13TBTDeviceList9AddDeviceERK10TBTDevAddr
+4 Name=_ZN13TBTDeviceList9GetDeviceER10TBTDevAddr
+5 Name=_ZN13TBTDeviceListC1Ev
+6 Name=_ZN13TBTDeviceListC2Ev
+7 Name=_ZN13TBTDeviceListcvR5TDes8Ev
+8 Name=_ZN13TBTDeviceListcvRK6TDesC8Ev
+9 Name=_ZN23TBTDeviceResponseParams11DeviceClassEv
+10 Name=_ZN23TBTDeviceResponseParams13SetDeviceNameERK7TDesC16
+11 Name=_ZN23TBTDeviceResponseParams14SetDeviceClassE14TBTDeviceClass
+12 Name=_ZN23TBTDeviceResponseParams16SetDeviceAddressERK10TBTDevAddr
+13 Name=_ZN23TBTDeviceResponseParams18IsValidDeviceClassEv
+14 Name=_ZN23TBTDeviceResponseParamsC1Ev
+15 Name=_ZN23TBTDeviceResponseParamsC2Ev
+16 Name=_ZN24TBTDeviceSelectionParams11DeviceClassEv
+17 Name=_ZN24TBTDeviceSelectionParams11IsValidUUIDEv
+18 Name=_ZN24TBTDeviceSelectionParams14SetDeviceClassE14TBTDeviceClass
+19 Name=_ZN24TBTDeviceSelectionParams18IsValidDeviceClassEv
+20 Name=_ZN24TBTDeviceSelectionParams4UUIDEv
+21 Name=_ZN24TBTDeviceSelectionParams7SetUUIDERK5TUUID
+22 Name=_ZN24TBTDeviceSelectionParamsC1Ev
+23 Name=_ZN24TBTDeviceSelectionParamsC2Ev
+24 Name=_ZNK23TBTDeviceResponseParams10DeviceNameEv
+25 Name=_ZNK23TBTDeviceResponseParams13IsValidBDAddrEv
+26 Name=_ZNK23TBTDeviceResponseParams17IsValidDeviceNameEv
+27 Name=_ZNK23TBTDeviceResponseParams6BDAddrEv
+;------------------EOF------------------

@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QPUSHMTMUI Pascal=0
+;---------------------------------------
+1 Name=_Z22NewPushMtmUiDataLayerLR17CRegisteredMtmDll
+2 Name=_Z13NewPushMtmUiLR8CBaseMtmR17CRegisteredMtmDll
+3 Name=_ZTI10CPushMtmUi
+4 Name=_ZTI14CPushMtmUiData
+5 Name=_ZTV10CPushMtmUi
+6 Name=_ZTV14CPushMtmUiData
+7 Name=_ZTI14CQPushMtmUiDlg
+8 Name=_ZTV14CQPushMtmUiDlg
+;------------------EOF------------------

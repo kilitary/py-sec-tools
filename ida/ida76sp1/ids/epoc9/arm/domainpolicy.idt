@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DOMAINPOLICY Pascal=0
+;---------------------------------------
+1 Name=_ZN8DmPolicy14GetDomainSpecsEv
+2 Name=_ZN8DmPolicy7ReleaseEPK13TDmDomainSpec
+3 Name=_ZN8DmPolicy9GetPolicyER18TDmHierarchyPolicy
+;------------------EOF------------------

@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=slcext.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=SLAcquireGenuineTicket
+2 Name=SLActivateProduct
+3 Name=SLGetPackageProductKey Pascal=12
+4 Name=SLGetPackageProperties Pascal=16
+5 Name=SLGetPackageToken Pascal=16
+6 Name=SLGetReferralInformation Pascal=20
+7 Name=SLGetServerStatus
+8 Name=SLInstallPackage Pascal=24
+9 Name=SLUninstallPackage Pascal=20
+;------------------EOF------------------

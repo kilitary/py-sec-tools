@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=avrt.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=AvQuerySystemResponsiveness Pascal=8
+2 Name=AvRevertMmThreadCharacteristics Pascal=4
+3 Name=AvRtCreateThreadOrderingGroup Pascal=16
+4 Name=AvRtCreateThreadOrderingGroupExA Pascal=20
+5 Name=AvRtCreateThreadOrderingGroupExW Pascal=20
+6 Name=AvRtDeleteThreadOrderingGroup Pascal=4
+7 Name=AvRtJoinThreadOrderingGroup Pascal=12
+8 Name=AvRtLeaveThreadOrderingGroup Pascal=4
+9 Name=AvRtWaitOnThreadOrderingGroup Pascal=4
+10 Name=AvSetMmMaxThreadCharacteristicsA Pascal=12
+11 Name=AvSetMmMaxThreadCharacteristicsW Pascal=12
+12 Name=AvSetMmThreadCharacteristicsA Pascal=8
+13 Name=AvSetMmThreadCharacteristicsW Pascal=8
+14 Name=AvSetMmThreadPriority Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2USERAGENT Pascal=0
+;---------------------------------------
+1 Name=_Z13GetUserAgentLm
+2 Name=_ZN4MIDP18CPermissionRequest12ExternalizeLER12RWriteStream
+3 Name=_ZN4MIDP18CPermissionRequest12InternalizeLER11RReadStream
+4 Name=_ZN4MIDP18CPermissionRequest4NewLEPNS_13CPropertyListERK7TDesC16S5_iPPK7HBufC16NS_11MPermission5TModeERK6RArrayISB_E
+5 Name=_ZN4MIDP18CPermissionRequestC1Ev
+6 Name=_ZN4MIDP18CPermissionRequestC2Ev
+7 Name=_ZN4MIDP18CPermissionRequestD0Ev
+8 Name=_ZN4MIDP18CPermissionRequestD1Ev
+9 Name=_ZN4MIDP18CPermissionRequestD2Ev
+10 Name=_ZN4MIDP19CPermissionResponse12ExternalizeLER12RWriteStream
+11 Name=_ZN4MIDP19CPermissionResponse12InternalizeLER11RReadStream
+12 Name=_ZN4MIDP19CPermissionResponseC1EiNS_11MPermission5TModeENS_22MRuntimeSecurityPolicy15TUserPermissionE
+13 Name=_ZN4MIDP19CPermissionResponseC1Ev
+14 Name=_ZN4MIDP19CPermissionResponseC2EiNS_11MPermission5TModeENS_22MRuntimeSecurityPolicy15TUserPermissionE
+15 Name=_ZN4MIDP19CPermissionResponseC2Ev
+16 Name=_ZN4MIDP19CPermissionResponseD0Ev
+17 Name=_ZN4MIDP19CPermissionResponseD1Ev
+18 Name=_ZN4MIDP19CPermissionResponseD2Ev
+19 Name=_ZNK4MIDP17CUserAgentMessage11MessageTypeEv
+20 Name=_ZNK4MIDP17CUserAgentMessage8CategoryEv
+21 Name=_ZNK4MIDP18CPermissionRequest10PermissionEv
+22 Name=_ZNK4MIDP18CPermissionRequest11CurrentModeEv
+23 Name=_ZNK4MIDP18CPermissionRequest12AllowedModesEv
+24 Name=_ZNK4MIDP18CPermissionRequest21MIDletSuitePropertiesEv
+25 Name=_ZNK4MIDP18CPermissionRequest4ArgsEv
+26 Name=_ZNK4MIDP18CPermissionRequest9OperationEv
+27 Name=_ZNK4MIDP19CPermissionResponse11CurrentModeEv
+28 Name=_ZNK4MIDP19CPermissionResponse14UserPermissionEv
+29 Name=_ZTIN4MIDP18CPermissionRequestE
+30 Name=_ZTIN4MIDP19CPermissionResponseE
+31 Name=_ZTVN4MIDP18CPermissionRequestE
+32 Name=_ZTVN4MIDP19CPermissionResponseE
+33 Name=_ZTIN4MIDP10CUserAgentE
+34 Name=_ZTVN4MIDP10CUserAgentE
+35 Name=_ZN4MIDP25CErrorNotificationMessage15AddCustomParamLER7TDesC16
+36 Name=_ZN4MIDP25CErrorNotificationMessage4NewLEm
+37 Name=_ZN4MIDP25CErrorNotificationMessageD0Ev
+38 Name=_ZN4MIDP25CErrorNotificationMessageD1Ev
+39 Name=_ZN4MIDP25CErrorNotificationMessageD2Ev
+40 Name=_ZTIN4MIDP25CErrorNotificationMessageE
+41 Name=_ZTVN4MIDP25CErrorNotificationMessageE
+;------------------EOF------------------

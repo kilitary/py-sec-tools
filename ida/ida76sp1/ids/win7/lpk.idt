@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=lpk.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=LpkTabbedTextOut Pascal=48
+3 Name=LpkDrawTextEx Pascal=40
+4 Name=LpkEditControl
+5 Name=LpkExtTextOut Pascal=36
+6 Name=LpkGetCharacterPlacement Pascal=28
+7 Name=LpkGetTextExtentExPoint Pascal=36
+8 Name=LpkInitialize Pascal=4
+9 Name=LpkPSMTextOut Pascal=24
+10 Name=LpkUseGDIWidthCache Pascal=20
+11 Name=ftsWordBreak Pascal=20
+;------------------EOF------------------

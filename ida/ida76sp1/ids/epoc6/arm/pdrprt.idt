@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PDRPRT Pascal=0
+;---------------------------------------
+1 Name=__24TSerialPrinterPortConfig
+2 Name=Config__18CSerialPrinterPort
+3 Name=ConstructL__16CCommPrinterPortRC7TDesC16T1RC24TSerialPrinterPortConfig5TFifo
+4 Name=ExternalizeL__C16TOutputHandshakeR12RWriteStream
+5 Name=ExternalizeL__C24TSerialPrinterPortConfigR12RWriteStream
+6 Name=InternalizeL__16TOutputHandshakeR11RReadStream
+7 Name=InternalizeL__24TSerialPrinterPortConfigR11RReadStream
+8 Name=NewL__16CCommPrinterPortRC7TDesC16T1RC24TSerialPrinterPortConfig5TFifo
+9 Name=NewL__16CFilePrinterPortRC7TDesC16
+10 Name=NewL__16CIrdaPrinterPort
+11 Name=NewL__18CSerialPrinterPortRC7TDesC16RC24TSerialPrinterPortConfig
+12 Name=NewL__20CParallelPrinterPortRC7TDesC16
+13 Name=WriteRequest__16CCommPrinterPortRC6TDesC8R14TRequestStatus
+14 Name=_._16CCommPrinterPort
+15 Name=_._16CFilePrinterPort
+16 Name=_._16CIrdaPrinterPort
+17 Name=_._18CSerialPrinterPort
+18 Name=_._20CParallelPrinterPort
+19 Name=__16CCommPrinterPort
+20 Name=__16TOutputHandshake
+21 Name=Cancel__16CCommPrinterPort
+22 Name=NewL__16CEpocConnectPort
+23 Name=_._16CEpocConnectPort
+;------------------EOF------------------

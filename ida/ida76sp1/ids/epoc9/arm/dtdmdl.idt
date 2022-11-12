@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DTDMDL Pascal=0
+;---------------------------------------
+1 Name=_ZN9CDTDModel13GeneratedTreeEv
+2 Name=_ZN9CDTDModel14BuildWml11DTDLER8CBNFNode
+3 Name=_ZN9CDTDModel14EndConditionalE16TParserNodeTypesi
+4 Name=_ZN9CDTDModel16StartConditionalE16TParserNodeTypes
+5 Name=_ZN9CDTDModel4NewLER21CAttributeLookupTable
+6 Name=_ZN9CDTDModel5TreeLEv
+7 Name=_ZN9CDTDModel6ResetLEv
+8 Name=_ZN9CDTDModelC1ER21CAttributeLookupTable
+9 Name=_ZN9CDTDModelC2ER21CAttributeLookupTable
+10 Name=_ZN9CDTDModelD0Ev
+11 Name=_ZN9CDTDModelD1Ev
+12 Name=_ZN9CDTDModelD2Ev
+13 Name=_ZTI9CDTDModel
+14 Name=_ZTV9CDTDModel
+;------------------EOF------------------

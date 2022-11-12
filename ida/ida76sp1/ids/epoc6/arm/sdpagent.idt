@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SDPAGENT Pascal=0
+;---------------------------------------
+1 Name=_._9CSdpAgent
+2 Name=AttributeRequestL__9CSdpAgentP18MSdpElementBuilderUlUs
+3 Name=AttributeRequestL__9CSdpAgentUlRC19CSdpAttrIdMatchList
+4 Name=AttributeRequestL__9CSdpAgentUlUs
+5 Name=NewLC__9CSdpAgentR17MSdpAgentNotifierRC10TBTDevAddr
+6 Name=NewL__9CSdpAgentR17MSdpAgentNotifierRC10TBTDevAddr
+7 Name=NextRecordRequestL__9CSdpAgent
+8 Name=SetAttributePredictorListL__9CSdpAgentRC19CSdpAttrIdMatchList
+9 Name=SetRecordFilterL__9CSdpAgentRC17CSdpSearchPattern
+10 Name=AttributeRequestL__9CSdpAgentP18MSdpElementBuilderUlRC19CSdpAttrIdMatchList
+;------------------EOF------------------

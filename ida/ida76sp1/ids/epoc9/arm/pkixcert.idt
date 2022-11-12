@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PKIXCERT Pascal=0
+;---------------------------------------
+1 Name=_ZN14CPKIXCertChain14CancelValidateEv
+2 Name=_ZN14CPKIXCertChain4NewLER3RFsRK6TPtrC84TUid
+3 Name=_ZN14CPKIXCertChain4NewLER3RFsRK6TPtrC8RK13RPointerArrayI16CX509CertificateE
+4 Name=_ZN14CPKIXCertChain5NewLCER3RFsRK6TPtrC84TUid
+5 Name=_ZN14CPKIXCertChain5NewLCER3RFsRK6TPtrC8RK13RPointerArrayI16CX509CertificateE
+6 Name=_ZN14CPKIXCertChain8AddCertLERK6TPtrC8
+7 Name=_ZN14CPKIXCertChain9ValidateLER21CPKIXValidationResultRK5TTimeR14TRequestStatus
+8 Name=_ZN14CPKIXCertChain9ValidateLER21CPKIXValidationResultRK5TTimeRK9CArrayPtrI7HBufC16ER14TRequestStatus
+9 Name=_ZN14CPKIXCertChainD0Ev
+10 Name=_ZN14CPKIXCertChainD1Ev
+11 Name=_ZN14CPKIXCertChainD2Ev
+12 Name=_ZN21CPKIXValidationResult4NewLEv
+13 Name=_ZN21CPKIXValidationResult5NewLCEv
+14 Name=_ZN21CPKIXValidationResultD0Ev
+15 Name=_ZN21CPKIXValidationResultD1Ev
+16 Name=_ZN21CPKIXValidationResultD2Ev
+17 Name=_ZNK14CPKIXCertChain12ChainHasRootEv
+18 Name=_ZNK21CPKIXValidationResult5ErrorEv
+19 Name=_ZNK21CPKIXValidationResult8PoliciesEv
+20 Name=_ZNK21CPKIXValidationResult8WarningsEv
+21 Name=_ZTI14CPKIXCertChain
+22 Name=_ZTI21CPKIXValidationResult
+23 Name=_ZTV14CPKIXCertChain
+24 Name=_ZTV21CPKIXValidationResult
+;------------------EOF------------------

@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=drt.dll Args=0 Drops=20
+;---------------------------------------
+1 Name=DrtFlushCache Pascal=4
+2 Name=DrtGetCacheStatsEx Pascal=8
+3 Name=DrtPingPeer Pascal=36
+4 Name=DrtStartPartitionDetection Pascal=4
+5 Name=DrtClose Pascal=4
+6 Name=DrtContinueSearch Pascal=4
+7 Name=DrtEndSearch Pascal=4
+8 Name=DrtGetEventData Pascal=12
+9 Name=DrtGetEventDataSize Pascal=8
+10 Name=DrtGetInstanceName Pascal=12
+11 Name=DrtGetInstanceNameSize Pascal=8
+12 Name=DrtGetSearchPath Pascal=12
+13 Name=DrtGetSearchPathSize Pascal=8
+14 Name=DrtGetSearchResult Pascal=12
+15 Name=DrtGetSearchResultSize Pascal=8
+16 Name=DrtOpen Pascal=16
+17 Name=DrtRegisterKey Pascal=16
+18 Name=DrtStartSearch Pascal=28
+19 Name=DrtUnregisterKey Pascal=4
+20 Name=DrtUpdateKey Pascal=8
+;------------------EOF------------------

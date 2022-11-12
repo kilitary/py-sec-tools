@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MEMORYMANAGER Pascal=0
+;---------------------------------------
+1 Name=_._22CMemoryManagerNotifier
+2 Name=Connect__26RMemoryManagerDebugSession
+3 Name=DeActivateServer__26RMemoryManagerDebugSession
+4 Name=DelayRequeue__22CMemoryManagerNotifier
+5 Name=HandleError__22CMemoryManagerNotifieri
+6 Name=NewL__22CMemoryManagerNotifierR13MSaveObserver
+7 Name=Queue__22CMemoryManagerNotifier
+8 Name=ActivateServer__26RMemoryManagerDebugSession
+;------------------EOF------------------

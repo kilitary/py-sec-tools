@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=IMGDECMP.DLL Pascal=0
+;---------------------------------------
+1 Name=DecompressImageIndirect
+2 Name=GetHalftonePalette
+3 Name=Get332Palette
+4 Name=GetTransparentColor
+;------------------EOF------------------

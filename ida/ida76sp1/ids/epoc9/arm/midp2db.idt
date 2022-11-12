@@ -1,0 +1,54 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2DB Pascal=0
+;---------------------------------------
+1 Name=_ZN4MIDP2DB12GetDatabaseLEm
+2 Name=_ZTIN4MIDP2DB11CAlarmTableE
+3 Name=_ZTIN4MIDP2DB12CMIDletTableE
+4 Name=_ZTIN4MIDP2DB16CConnectionTableE
+5 Name=_ZTIN4MIDP2DB17CCertificateTableE
+6 Name=_ZTIN4MIDP2DB17CJadEncodingTableE
+7 Name=_ZTIN4MIDP2DB17CMIDletSuiteTableE
+8 Name=_ZTIN4MIDP2DB19CAlarmTableIteratorE
+9 Name=_ZTIN4MIDP2DB21CMIDletSuiteInfoTableE
+10 Name=_ZTIN4MIDP2DB22CProtectionDomainTableE
+11 Name=_ZTIN4MIDP2DB23CSecurityAttributeTableE
+12 Name=_ZTIN4MIDP2DB24CCertificateChainIdTableE
+13 Name=_ZTIN4MIDP2DB24CConnectionTableIteratorE
+14 Name=_ZTIN4MIDP2DB25CMIDletSuiteTableIteratorE
+15 Name=_ZTIN4MIDP2DB29CUserSecurityPreferencesTableE
+16 Name=_ZTIN4MIDP2DB32CUserSecurityPreferencesIteratorE
+17 Name=_ZTIN4MIDP2DB6CTableE
+18 Name=_ZTIN4MIDP2DB9CDatabaseE
+19 Name=_ZTVN4MIDP2DB11CAlarmTableE
+20 Name=_ZTVN4MIDP2DB12CMIDletTableE
+21 Name=_ZTVN4MIDP2DB16CConnectionTableE
+22 Name=_ZTVN4MIDP2DB17CCertificateTableE
+23 Name=_ZTVN4MIDP2DB17CJadEncodingTableE
+24 Name=_ZTVN4MIDP2DB17CMIDletSuiteTableE
+25 Name=_ZTVN4MIDP2DB19CAlarmTableIteratorE
+26 Name=_ZTVN4MIDP2DB21CMIDletSuiteInfoTableE
+27 Name=_ZTVN4MIDP2DB22CProtectionDomainTableE
+28 Name=_ZTVN4MIDP2DB23CSecurityAttributeTableE
+29 Name=_ZTVN4MIDP2DB24CCertificateChainIdTableE
+30 Name=_ZTVN4MIDP2DB24CConnectionTableIteratorE
+31 Name=_ZTVN4MIDP2DB25CMIDletSuiteTableIteratorE
+32 Name=_ZTVN4MIDP2DB29CUserSecurityPreferencesTableE
+33 Name=_ZTVN4MIDP2DB32CUserSecurityPreferencesIteratorE
+34 Name=_ZTVN4MIDP2DB6CTableE
+35 Name=_ZTVN4MIDP2DB9CDatabaseE
+36 Name=_ZTIN4MIDP2DB20CUninstallLaterTableE
+37 Name=_ZTIN4MIDP2DB28CUninstallLaterTableIteratorE
+38 Name=_ZTVN4MIDP2DB20CUninstallLaterTableE
+39 Name=_ZTVN4MIDP2DB28CUninstallLaterTableIteratorE
+40 Name=_ZTIN4MIDP2DB18CCustomAttribTableE
+41 Name=_ZTVN4MIDP2DB18CCustomAttribTableE
+42 Name=_ZTIN4MIDP2DB26CCustomAttribTableIteratorE
+43 Name=_ZTVN4MIDP2DB26CCustomAttribTableIteratorE
+44 Name=_ZTIN4MIDP2DB15CAPNCenRepTableE
+45 Name=_ZTVN4MIDP2DB15CAPNCenRepTableE
+46 Name=_ZTIN4MIDP2DB19CSilentInstallTableE
+47 Name=_ZTVN4MIDP2DB19CSilentInstallTableE
+;------------------EOF------------------

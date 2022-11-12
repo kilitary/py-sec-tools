@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=usrfaxa.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=Data_TaskExit Pascal=0
+2 Name=Data_TaskInit1 Pascal=0
+3 Name=Data_TaskInit2 Pascal=0
+4 Name=DllMain Pascal=12
+;------------------EOF------------------

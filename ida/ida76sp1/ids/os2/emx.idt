@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EMX.dll Pascal=0
+;---------------------------------------
+1 Name=_emx_init
+2 Name=_emx_syscall
+3 Name=_emx_16to32
+4 Name=_emx_32to16
+5 Name=_emx_thunk1
+6 Name=_emx_exception
+128 Name=EMX_REVISION
+;------------------EOF------------------

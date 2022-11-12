@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ntdsbcli.dll Args=0 Drops=30
+;---------------------------------------
+2 Name=DsBackupClose Pascal=4
+3 Name=DsBackupEnd Pascal=4
+4 Name=DsBackupFree Pascal=4
+5 Name=DsBackupGetBackupLogsA Pascal=12
+6 Name=DsBackupGetBackupLogsW Pascal=12
+7 Name=DsBackupGetDatabaseNamesA Pascal=12
+8 Name=DsBackupGetDatabaseNamesW Pascal=12
+9 Name=DsBackupOpenFileA Pascal=16
+10 Name=DsBackupOpenFileW Pascal=16
+11 Name=DsBackupPrepareA Pascal=24
+12 Name=DsBackupPrepareW Pascal=24
+13 Name=DsBackupRead Pascal=16
+14 Name=DsBackupTruncateLogs Pascal=4
+15 Name=DsIsNTDSOnlineA Pascal=8
+16 Name=DsIsNTDSOnlineW Pascal=8
+17 Name=DsRestoreCheckExpiryToken Pascal=8
+18 Name=DsRestoreEnd Pascal=4
+19 Name=DsRestoreGetDatabaseLocationsA Pascal=12
+20 Name=DsRestoreGetDatabaseLocationsW Pascal=12
+21 Name=DsRestorePrepareA Pascal=20
+22 Name=DsRestorePrepareW Pascal=20
+23 Name=DsRestoreRegisterA Pascal=32
+24 Name=DsRestoreRegisterComplete Pascal=8
+25 Name=DsRestoreRegisterW Pascal=32
+26 Name=DsSetAuthIdentityA Pascal=12
+27 Name=DsSetAuthIdentityW Pascal=12
+28 Name=DsSetCurrentBackupLogA Pascal=8
+29 Name=DsSetCurrentBackupLogW Pascal=8
+30 Name=I_DsCheckBackupLogs Pascal=4
+31 Name=I_DsRestoreW Pascal=36
+;------------------EOF------------------

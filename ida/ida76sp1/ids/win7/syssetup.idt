@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=syssetup.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=AsrAddSifEntryA Pascal=12
+2 Name=AsrAddSifEntryW Pascal=12
+3 Name=AsrCreateStateFileA Pascal=20
+4 Name=AsrCreateStateFileW Pascal=20
+5 Name=AsrFreeContext Pascal=4
+6 Name=AsrRestorePlugPlayRegistryData Pascal=16
+7 Name=GetAnswerFileSetting Pascal=16
+8 Name=SetupChangeFontSize Pascal=8
+9 Name=SetupInfObjectInstallActionW Pascal=16
+10 Name=SetupSetDisplay Pascal=28
+11 Name=WaitForSamService Pascal=4
+;------------------EOF------------------

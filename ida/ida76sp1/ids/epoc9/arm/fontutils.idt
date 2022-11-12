@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FONTUTILS Pascal=0
+;---------------------------------------
+1 Name=_ZN10TAknFontId13IsEncodedFontEi
+2 Name=_ZN21TAknFontSpecificationC1E16TAknFontCategoryRK9TFontSpecPK18MGraphicsDeviceMap
+3 Name=_ZN21TAknFontSpecificationC1Ei
+4 Name=_ZN21TAknFontSpecificationC2E16TAknFontCategoryRK9TFontSpecPK18MGraphicsDeviceMap
+5 Name=_ZN21TAknFontSpecificationC2Ei
+6 Name=_ZNK21TAknFontSpecification12FontCategoryEv
+7 Name=_ZNK21TAknFontSpecification14TextPaneHeightEv
+8 Name=_ZNK21TAknFontSpecification6WeightEv
+9 Name=_ZNK21TAknFontSpecification7PostureEv
+10 Name=_ZN31TAknFontProviderSuppliedMetrics15SetExcessAscentEi
+11 Name=_ZN31TAknFontProviderSuppliedMetrics16SetExcessDescentEi
+12 Name=_ZN31TAknFontProviderSuppliedMetrics29SetMaxDescentToTextPaneBottomEi
+13 Name=_ZNK31TAknFontProviderSuppliedMetrics12ExcessAscentEv
+14 Name=_ZNK31TAknFontProviderSuppliedMetrics13ExcessDescentEv
+15 Name=_ZNK31TAknFontProviderSuppliedMetrics26MaxDescentToTextPaneBottomEv
+16 Name=_ZN21TAknFontSpecification10SetPostureE12TFontPosture
+17 Name=_ZN21TAknFontSpecification15SetFontCategoryE16TAknFontCategory
+18 Name=_ZN21TAknFontSpecification17SetTextPaneHeightEi
+19 Name=_ZN21TAknFontSpecification9SetWeightE17TFontStrokeWeight
+20 Name=_ZN21TAknFontSpecification21SetExactMatchRequiredEi
+21 Name=_ZN21TAknFontSpecification31SetTextPaneHeightIsDesignHeightEi
+22 Name=_ZN21TAknFontSpecification8SetUnitsENS_26TAknFontSpecificationUnitsE
+23 Name=_ZNK21TAknFontSpecification18ExactMatchRequiredEv
+24 Name=_ZNK21TAknFontSpecification22TextPaneIsDesignHeightEv
+25 Name=_ZNK21TAknFontSpecification5UnitsEv
+;------------------EOF------------------

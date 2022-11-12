@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=GDBSENG Pascal=0
+;---------------------------------------
+1 Name=__12CGdbCommPorti
+2 Name=Cleanup__5Trace
+3 Name=Close__16CGdbCommServPort
+4 Name=CommType__C16CGdbCommServPort
+5 Name=Enter__5TraceRC7TDesC16Gt11TRefByValue1ZC7TDesC16e
+6 Name=Exit__5TraceRC7TDesC16Gt11TRefByValue1ZC7TDesC16e
+7 Name=GdbAssertFailed__FPCci
+8 Name=GdbPanic__Fi
+9 Name=InitL__5Tracei
+10 Name=Msg__5TraceGt11TRefByValue1ZC7TDesC16e
+11 Name=NewLC__10CGdbEngine
+12 Name=NewLC__16CGdbCommServPort
+13 Name=NewL__16CGdbCommServPort
+14 Name=Open__16CGdbCommServPortRiT1
+15 Name=ReadConfigFileL__10CGdbEngineRC7TDesC16Ri
+16 Name=RefCommType__16CGdbCommServPort
+17 Name=SetCommModuleL__16CGdbCommServPortRC7TDesC16
+18 Name=SetLogicalDeviceL__16CGdbCommServPortRC7TDesC16
+19 Name=SetPhysicalDeviceL__16CGdbCommServPortRC7TDesC16
+20 Name=SetPortL__10CGdbEngineP12CGdbCommPort
+21 Name=Start__10CGdbDriverPQ210CGdbDriver13MEventHandlerUl
+22 Name=State__C10CGdbDriver
+23 Name=Stop__10CGdbDriver
+24 Name=_._10CGdbEngine
+25 Name=_._12CGdbCommPort
+26 Name=_._16CGdbCommServPort
+27 Name=BytePacket__5TraceRC7TDesC16RC6TDesC8
+28 Name=InterruptDebuggee__10CGdbDriver
+;------------------EOF------------------

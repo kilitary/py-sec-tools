@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DRMHELPER Pascal=0
+;---------------------------------------
+1 Name=LaunchDetailsViewEmbeddedL__CDRMHelperRCTDesC16
+2 Name=CheckRightsPercentL__CDRMHelperRCTDesC16i
+3 Name=HandleErrorL__CDRMHelperiRCTDesC16
+4 Name=CheckRightsAmountL__CDRMHelperRCTDesC16ii
+5 Name=NewLC__CDRMHelperRCCoeEnv
+6 Name=NewL__CDRMHelperRCCoeEnv
+7 Name=_._CDRMHelper
+8 Name=_._CDRMHelperRightsConstraints
+9 Name=FullRights__CDRMHelperRightsConstraints
+10 Name=GetCountersL__CDRMHelperRightsConstraintsRUlT1
+11 Name=GetEndTimeL__CDRMHelperRightsConstraintsRTTime
+12 Name=GetIntervalL__CDRMHelperRightsConstraintsRTTimeIntervalSeconds
+13 Name=GetIntervalStartL__CDRMHelperRightsConstraintsRTTime
+14 Name=GetRightsDetailsL__CDRMHelperRCTDesC16UlRiTRPCDRMHelperRightsConstraintsN35
+15 Name=GetStartTimeL__CDRMHelperRightsConstraintsRTTime
+16 Name=IsPreview__CDRMHelperRightsConstraints
+17 Name=LaunchDetailsViewEmbeddedL__CDRMHelperPCHBufC8
+18 Name=CanSetAutomated__CDRMHelperRCTDesC16Ri
+19 Name=IndicateIdle__CDRMHelper
+20 Name=NewLC__CDRMHelper
+21 Name=NewL__CDRMHelper
+22 Name=RemoveAutomated__CDRMHelperRCTDesC8
+23 Name=RemoveAutomated__CDRMHelperRCTDesC16
+24 Name=SetAutomated__CDRMHelperRCTDesC8
+25 Name=SetAutomated__CDRMHelperRCTDesC16
+26 Name=CanSetAutomated__CDRMHelperRCTDesC8Ri
+27 Name=SetAutomatedPassive__CDRMHelperRCTDesC8
+28 Name=SetAutomatedPassive__CDRMHelperRCTDesC16
+29 Name=CheckRightsAmountL__CDRMHelperRCTDesC8ii
+30 Name=RemoveAutomatedPassive__CDRMHelperRCTDesC8
+31 Name=RemoveAutomatedPassive__CDRMHelperRCTDesC16
+32 Name=SetAutomatedSilent__CDRMHelperRCTDesC8i
+33 Name=SetAutomatedSilent__CDRMHelperRCTDesC16i
+34 Name=ShowAutomatedNote__CDRMHelperRCTDesC8
+35 Name=ShowAutomatedNote__CDRMHelperRCTDesC16
+;------------------EOF------------------

@@ -1,0 +1,20 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EVENTMEDSIT Pascal=0
+;---------------------------------------
+1 Name=_ZN4CSit16EventRequiresSitE10TEventType
+2 Name=_ZN4CSit19FindCancelEventTypeE10TEventType
+3 Name=_ZN4CSit24FindTaskRequestEventTypeE10TEventType
+4 Name=_ZN4CSit36IsTaskCancellationObservationRequestE10TEventType
+5 Name=_ZN4CSit6StartLEv
+6 Name=_ZN4CSit8ThreadIdEv
+7 Name=_ZN4CSitC1EP17MSitDeathListener
+8 Name=_ZN4CSitC2EP17MSitDeathListener
+9 Name=_ZN4CSitD0Ev
+10 Name=_ZN4CSitD1Ev
+11 Name=_ZN4CSitD2Ev
+12 Name=_ZTI4CSit
+13 Name=_ZTV4CSit
+;------------------EOF------------------

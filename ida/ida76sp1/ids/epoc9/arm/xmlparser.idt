@@ -1,0 +1,69 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=XMLPARSER Pascal=0
+;---------------------------------------
+2 Name=_ZN12CMDXMLParser11ParseSourceEP24MMDXMLParserDataProvider
+3 Name=_ZN12CMDXMLParser12DetachXMLDocEv
+4 Name=_ZN12CMDXMLParser15SetStoreInvalidEi
+5 Name=_ZN12CMDXMLParser18SetEntityConverterEP21CMDXMLEntityConverter
+6 Name=_ZN12CMDXMLParser23SetSourceCharacterWidthENS_26TMDXMLParserInputCharWidthE
+7 Name=_ZN12CMDXMLParser28PlaceholderForRemovedExport1EP20MMDXMLParserObserver
+8 Name=_ZN12CMDXMLParser28PlaceholderForRemovedExport2EP20MMDXMLParserObserverP7MXMLDtd
+9 Name=_ZN12CMDXMLParser28PlaceholderForRemovedExport3Ev
+10 Name=_ZN12CMDXMLParser4NewLEP20MMDXMLParserObserver
+11 Name=_ZN12CMDXMLParser4NewLEP20MMDXMLParserObserverP7MXMLDtd
+12 Name=_ZN12CMDXMLParser5NewLCEP20MMDXMLParserObserver
+13 Name=_ZN12CMDXMLParser5NewLCEP20MMDXMLParserObserverP7MXMLDtd
+14 Name=_ZN12CMDXMLParser8DoCancelEv
+15 Name=_ZN12CMDXMLParser8RunErrorEi
+16 Name=_ZN12CMDXMLParser8SetErrorEi21TXMLErrorCodeSeverity
+17 Name=_ZN12CMDXMLParser9ParseFileE3RFsRK7TDesC16
+18 Name=_ZN12CMDXMLParserD0Ev
+19 Name=_ZN12CMDXMLParserD1Ev
+20 Name=_ZN12CMDXMLParserD2Ev
+21 Name=_ZN14CMDXMLComposer11ComposeFileE3RFsRK7TDesC16P14CMDXMLDocument12TXMLFileType
+22 Name=_ZN14CMDXMLComposer11OutputDataLERK7TDesC16
+23 Name=_ZN14CMDXMLComposer14ComposeEndTagLER10CMDXMLNode
+24 Name=_ZN14CMDXMLComposer16ComposeStartTagLER10CMDXMLNode
+25 Name=_ZN14CMDXMLComposer16OutputAttributeLERK7TDesC16S2_
+26 Name=_ZN14CMDXMLComposer17CalculateFileSizeERiP14CMDXMLDocument12TXMLFileType
+27 Name=_ZN14CMDXMLComposer18SetEntityConverterEP21CMDXMLEntityConverter
+28 Name=_ZN14CMDXMLComposer22OutputEndOfElementTagLEi
+29 Name=_ZN14CMDXMLComposer24OutputStartOfElementTagLERK7TDesC16
+30 Name=_ZN14CMDXMLComposer28PlaceholderForRemovedExport1EP22MMDXMLComposerObserver
+31 Name=_ZN14CMDXMLComposer28PlaceholderForRemovedExport2Ev
+32 Name=_ZN14CMDXMLComposer28PlaceholderForRemovedExport3Ev
+33 Name=_ZN14CMDXMLComposer4NewLEP22MMDXMLComposerObserver
+34 Name=_ZN14CMDXMLComposer4NewLEP22MMDXMLComposerObserveri
+35 Name=_ZN14CMDXMLComposer5NewLCEP22MMDXMLComposerObserver
+36 Name=_ZN14CMDXMLComposer5NewLCEP22MMDXMLComposerObserveri
+37 Name=_ZN14CMDXMLComposer8DoCancelEv
+38 Name=_ZN14CMDXMLComposer8RunErrorEi
+39 Name=_ZN14CMDXMLComposer8SetErrorEi21TXMLErrorCodeSeverity
+40 Name=_ZN14CMDXMLComposerD0Ev
+41 Name=_ZN14CMDXMLComposerD1Ev
+42 Name=_ZN14CMDXMLComposerD2Ev
+43 Name=_ZN21CMDXMLEntityConverter19OutputComposedTextLEP14CMDXMLComposerRK7TDesC16
+44 Name=_ZN21CMDXMLEntityConverterC1Ev
+45 Name=_ZN21CMDXMLEntityConverterC2Ev
+46 Name=_ZN21CMDXMLEntityConverterD0Ev
+47 Name=_ZN21CMDXMLEntityConverterD1Ev
+48 Name=_ZN21CMDXMLEntityConverterD2Ev
+49 Name=_ZNK12CMDXMLParser13ErrorSeverityEv
+50 Name=_ZNK12CMDXMLParser5ErrorEv
+51 Name=_ZNK14CMDXMLComposer13ErrorSeverityEv
+52 Name=_ZNK14CMDXMLComposer15EntityConverterEv
+53 Name=_ZNK14CMDXMLComposer5ErrorEv
+54 Name=_ZTI12CMDXMLParser
+55 Name=_ZTI14CMDXMLComposer
+56 Name=_ZTI21CMDXMLEntityConverter
+57 Name=_ZTV12CMDXMLParser
+58 Name=_ZTV14CMDXMLComposer
+59 Name=_ZTV21CMDXMLEntityConverter
+60 Name=_ZTI26CMDXMLParserFileDataSource
+61 Name=_ZTV26CMDXMLParserFileDataSource
+62 Name=_ZN12CMDXMLParser9ParseFileER5RFile
+63 Name=_ZN14CMDXMLComposer11ComposeFileER5RFileP14CMDXMLDocument12TXMLFileType
+;------------------EOF------------------

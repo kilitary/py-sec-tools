@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CPINPUTHISTORY Pascal=0
+;---------------------------------------
+1 Name=_ZN15CCpInputHistory11IsInputNewLERK6TDesC8RK7TDesC16
+2 Name=_ZN15CCpInputHistory12AppendInputLERK6TDesC8RK7TDesC16
+3 Name=_ZN15CCpInputHistory4NewLER3RFsRK7TDesC16
+4 Name=_ZN15CCpInputHistory5NewLCER3RFsRK7TDesC16
+5 Name=_ZN15CCpInputHistoryD0Ev
+6 Name=_ZN15CCpInputHistoryD1Ev
+7 Name=_ZN15CCpInputHistoryD2Ev
+8 Name=_ZTI15CCpInputHistory
+9 Name=_ZTI19CCpInputHistoryItem
+10 Name=_ZTV15CCpInputHistory
+11 Name=_ZTV19CCpInputHistoryItem
+;------------------EOF------------------

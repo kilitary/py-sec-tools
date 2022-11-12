@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PlaySndSrv.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=DllCanUnloadNow Pascal=0
+2 Name=DllGetClassObject Pascal=12
+3 Name=PlaySoundServerInitialize Pascal=12
+4 Name=PlaySoundServerTerminate Pascal=12
+;------------------EOF------------------

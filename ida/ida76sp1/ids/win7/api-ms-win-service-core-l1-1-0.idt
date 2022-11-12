@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-service-core-l1-1-0.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=RegisterServiceCtrlHandlerExW Pascal=12
+2 Name=SetServiceStatus Pascal=8
+3 Name=StartServiceCtrlDispatcherW Pascal=4
+;------------------EOF------------------

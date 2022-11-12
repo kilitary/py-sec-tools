@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sxs.dll Args=0 Drops=21
+;---------------------------------------
+1 Name=SxsFindClrClassInformation Pascal=24
+2 Name=SxsFindClrSurrogateInformation Pascal=24
+3 Name=SxsLookupClrGuid Pascal=24
+4 Name=SxsRunDllInstallAssembly Pascal=16
+5 Name=SxsRunDllInstallAssemblyW Pascal=16
+6 Name=SxspGenerateManifestPathOnAssemblyIdentity Pascal=16
+7 Name=CreateAssemblyCache Pascal=8
+8 Name=CreateAssemblyNameObject Pascal=16
+9 Name=SxsBeginAssemblyInstall Pascal=24
+10 Name=SxsEndAssemblyInstall Pascal=12
+11 Name=SxsGenerateActivationContext Pascal=4
+12 Name=SxsInstallW Pascal=4
+13 Name=SxsOleAut32MapConfiguredClsidToReferenceClsid Pascal=8
+14 Name=SxsOleAut32MapIIDOrCLSIDToTypeLibrary Pascal=8
+15 Name=SxsOleAut32MapIIDToProxyStubCLSID Pascal=8
+16 Name=SxsOleAut32MapIIDToTLBPath Pascal=16
+17 Name=SxsOleAut32MapReferenceClsidToConfiguredClsid Pascal=8
+18 Name=SxsOleAut32RedirectTypeLibrary Pascal=28
+19 Name=SxsProbeAssemblyInstallation Pascal=12
+20 Name=SxsQueryManifestInformation Pascal=28
+21 Name=SxsUninstallW Pascal=8
+;------------------EOF------------------

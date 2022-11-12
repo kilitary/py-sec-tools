@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WEBLOG Pascal=0
+;---------------------------------------
+1 Name=Level__10CWebLogger
+2 Name=NewL__10CWebLoggerRC7TDesC16
+3 Name=SetLevel__10CWebLoggerQ210CWebLogger12TWebLogLevel
+4 Name=Write__10CWebLoggerQ210CWebLogger12TWebLogLevelGt11TRefByValue1ZC7TDesC16e
+;------------------EOF------------------

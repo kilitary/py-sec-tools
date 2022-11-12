@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sscore.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=SsCoreInitialize Pascal=0
+2 Name=SsCoreShareAdd Pascal=16
+3 Name=SsCoreShareCleanup Pascal=0
+4 Name=SsCoreShareDel Pascal=8
+5 Name=SsCoreShareSetInfo Pascal=28
+6 Name=SsCoreUninitialize Pascal=0
+;------------------EOF------------------

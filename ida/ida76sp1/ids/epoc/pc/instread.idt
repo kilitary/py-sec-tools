@@ -1,0 +1,53 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=INSTREAD Pascal=0
+;---------------------------------------
+1 Name=??0TInstallPrefs@@QAE@XZ
+2 Name=??1CInstallationDependencyInfoReader@@UAE@XZ
+3 Name=??1CInstallationFile@@UAE@XZ
+4 Name=??1CInstallationFileInfoReader@@UAE@XZ
+5 Name=?AllocReadForApplicationNameLC@CInstallationFile@@QBEPAVHBufC8@@XZ
+6 Name=?AllocReadForDependencyNameLC@CInstallationDependencyInfoReader@@QBEPAVHBufC8@@XZ
+7 Name=?AllocReadForDestinationLC@CInstallationFileInfoReader@@QBEPAVHBufC8@@XZ
+8 Name=?AllocReadForFileContentsLC@CInstallationFileInfoReader@@QBEPAVHBufC8@@XZ
+9 Name=?AllocReadForFileSisStubLC@CInstallationFile@@QAEPAVHBufC8@@XZ
+10 Name=?AllocReadForSourceLC@CInstallationFileInfoReader@@QBEPAVHBufC8@@XZ
+11 Name=?AppVersionMajor@CInstallationFile@@QBEGXZ
+12 Name=?AppVersionMinor@CInstallationFile@@QBEGXZ
+13 Name=?AppVersionVariant@CInstallationFile@@QBEJXZ
+14 Name=?AppendVersionString@CInstallUtils@@SAXAAVTDes8@@HH@Z
+15 Name=?Close@CInstallationFile@@QAEXXZ
+16 Name=?DeleteFileContentsFromInstallationFileL@CInstallationFileInfoReader@@QAEXXZ
+17 Name=?ExternalizeL@TInstallPrefs@@QBEXAAVRWriteStream@@@Z
+18 Name=?FileIsCorruptedL@CInstallationFile@@QBEHXZ
+19 Name=?FileLength@CInstallationFileInfoReader@@QBEHXZ
+20 Name=?FileName@CInstallationFile@@QBE?AV?$TBuf@$0BAA@@@XZ
+21 Name=?FileOption@CInstallationFileInfoReader@@QBEXAATTInstFileOption@@@Z
+22 Name=?FileType@CInstallationFileInfoReader@@QBE?AW4TInstFileType@@XZ
+23 Name=?Flags@CInstallationFile@@QBEKXZ
+24 Name=?InstallationDrive@CInstallationFile@@QBEXAAVTChar@@@Z
+25 Name=?InstallerVersion@CInstallationFile@@QBEKXZ
+26 Name=?InternalizeL@TInstallPrefs@@QAEXAAVRReadStream@@@Z
+27 Name=?IsLanguageDependent@CInstallationFileInfoReader@@QBEHXZ
+28 Name=?IsPartialInstallation@CInstallationFile@@QBEHXZ
+29 Name=?LanguageL@CInstallationFile@@QBE?AW4TLanguage@@H@Z
+30 Name=?MajorVersion@CInstallationDependencyInfoReader@@QBEHXZ
+31 Name=?MinorVersion@CInstallationDependencyInfoReader@@QBEHXZ
+32 Name=?NewLC@CInstallationDependencyInfoReader@@SAPAV1@AAVCInstallationFile@@H@Z
+33 Name=?NewLC@CInstallationFileInfoReader@@SAPAV1@AAVCInstallationFile@@H@Z
+34 Name=?NumberOfDependencies@CInstallationFile@@QBEHXZ
+35 Name=?NumberOfFiles@CInstallationFile@@QBEHXZ
+36 Name=?NumberOfFilesInstalled@CInstallationFile@@QBEHXZ
+37 Name=?NumberOfLanguagesSupported@CInstallationFile@@QBEHXZ
+38 Name=?OpenL@CInstallationFile@@QAEXAAVRFs@@ABVTDesC8@@W4TFileMode@@@Z
+39 Name=?ReadDriveAndLanguageL@CInstallationFile@@QAEXXZ
+40 Name=?SetDrive@CInstallationFile@@QAEXVTChar@@@Z
+41 Name=?SetLanguage@CInstallationFile@@QAEXW4TLanguage@@@Z
+42 Name=?SetSystemFileL@CInstallationFile@@QAEXAAVRFile@@H@Z
+43 Name=?Uid@CInstallationDependencyInfoReader@@QBEHXZ
+44 Name=?Uid@CInstallationFile@@QBEHH@Z
+45 Name=?UpdateFilesInstalledL@CInstallationFileInfoReader@@QAEXH@Z
+46 Name=?Variant@CInstallationDependencyInfoReader@@QBEKXZ
+;------------------EOF------------------

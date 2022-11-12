@@ -1,0 +1,41 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WAPTC Pascal=0
+;---------------------------------------
+1 Name=__8CXmlTaskR5CNode
+2 Name=CertificateConfirmationL__19CXmlTaskCoordinatorRCQ212RCertificate5TInfo
+3 Name=CompleteURLL__19CXmlTaskCoordinatorRC7TDesC16
+4 Name=ConfirmationL__19CXmlTaskCoordinatorRC7TDesC16N21
+5 Name=DoCancel__19CXmlTaskCoordinator
+6 Name=Element__8CXmlTask
+7 Name=ExecuteAsyncTaskL__19CXmlTaskCoordinatorP5CNode
+8 Name=ExecuteAsyncTaskL__19CXmlTaskCoordinatorP8CXmlTask
+9 Name=ExecuteTaskL__19CXmlTaskCoordinatorP5CNode
+10 Name=ExecuteTaskL__19CXmlTaskCoordinatorP8CXmlTask
+11 Name=Href__8CXmlTask
+12 Name=NewL__19CXmlTaskCoordinatorP10CWAPEngine
+13 Name=NewL__8CXmlTaskR5CNode
+14 Name=NewL__8CXmlTaskRC7TDesC16
+15 Name=NewL__8CXmlTaskRC7TDesC16R5CNode
+16 Name=NewL__8CXmlTaskRC7TDesC16T1
+17 Name=Node__8CXmlTask
+18 Name=PasswordL__19CXmlTaskCoordinatorRt4TBuf1i16
+19 Name=PromptL__19CXmlTaskCoordinatorRC7TDesC16T1
+20 Name=RunL__19CXmlTaskCoordinator
+21 Name=TaskId__8CXmlTask
+22 Name=_._19CXmlTaskCoordinator
+23 Name=_._8CXmlTask
+24 Name=__8CXmlTask
+25 Name=AlertL__19CXmlTaskCoordinatorRC7TDesC16
+26 Name=CXmlTaskCoordinator_Reserved1__19CXmlTaskCoordinator
+27 Name=CXmlTaskPlugin_Reserved1__14CXmlTaskPlugin
+28 Name=CXmlTask_Reserved1__8CXmlTask
+29 Name=MDialogProvider_Reserved1__19CXmlTaskCoordinator
+30 Name=Disconnect__19CXmlTaskCoordinatori
+31 Name=CancelConnectingDialog__19CXmlTaskCoordinator
+32 Name=DisplayConnectingDialogL__19CXmlTaskCoordinator
+33 Name=Resume__19CXmlTaskCoordinator
+34 Name=Suspend__19CXmlTaskCoordinator
+;------------------EOF------------------

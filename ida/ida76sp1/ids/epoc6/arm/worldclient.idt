@@ -1,0 +1,61 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WORLDCLIENT Pascal=0
+;---------------------------------------
+1 Name=__DbgMarkHeap__RWorldServer
+2 Name=AddCountry__RWorldServerRCTCountryDataRCTCityData
+3 Name=CalculateDistance__CRWorldServerRiRCTWorldIdT2
+4 Name=CalculateSunlight__CRWorldServerRTTimeTRCTWorldIdRCTTime
+5 Name=CityData__CRWorldServerRTCityDataRCTWorldId
+6 Name=Connect__RWorldServer
+7 Name=CountryData__CRWorldServerRTCountryDataRCTWorldId
+8 Name=DataFileLocation__CRWorldServerRtTBuf1i256
+9 Name=DataFileOpen__RWorldServerRCTDesC16
+10 Name=DataFileRevertToSaved__RWorldServer
+11 Name=DataFileSaveAs__RWorldServerRCTDesC16i
+12 Name=DataFileSave__RWorldServer
+13 Name=DefaultCountry__CRWorldServerRTWorldId
+14 Name=DeleteCity__RWorldServerRTWorldId
+15 Name=DeleteCountry__RWorldServerRTWorldId
+16 Name=DistanceUnits__CRWorldServerRTWldDistanceUnits
+17 Name=FindCity__CRWorldServerRTWorldIdRCTDesC16
+18 Name=FindCountry__CRWorldServerRTWorldIdRCTDesC16
+19 Name=Find__CRWorldServerRTWorldIdRCTDesC16T2
+20 Name=FirstCity__CRWorldServerRTWorldId
+21 Name=FirstCountry__CRWorldServerRTWorldId
+22 Name=GetCountryNameByISOCode__CRWorldServerRCTDesC16RTDes16
+23 Name=Home__CRWorldServerRTWorldId
+24 Name=IsCityDeletable__CRWorldServerRiRCTWorldId
+25 Name=IsCountryDeletable__CRWorldServerRiRCTWorldId
+26 Name=LastCity__CRWorldServerRTWorldId
+27 Name=LastCountry__CRWorldServerRTWorldId
+28 Name=NearestCity__RWorldServerRCTPointPCTWorldId
+29 Name=NextCity__CRWorldServerRTWorldId
+30 Name=NextCountry__CRWorldServerRTWorldId
+31 Name=NextNearestCity__RWorldServerRTWorldIdi
+32 Name=NotifyOnChangeCancel__RWorldServer
+33 Name=NotifyOnChange__RWorldServerRTRequestStatus
+34 Name=NumberCities__CRWorldServer
+35 Name=NumberCountries__CRWorldServer
+36 Name=PrevCity__CRWorldServerRTWorldId
+37 Name=PrevCountry__CRWorldServerRTWorldId
+38 Name=ReadOnlyDataIsInRAM__CRWorldServer
+39 Name=ResetAllData__RWorldServer
+40 Name=RomTitle__CRWorldServerRTDes16
+41 Name=SetCollationLevelForFind__RWorldServeri
+42 Name=SetDefaultCountry__RWorldServerRCTWorldId
+43 Name=SetDistanceUnits__RWorldServerTWldDistanceUnits
+44 Name=SetHome__RWorldServerRCTWorldId
+45 Name=SetRomDatabaseToUse__RWorldServerRCTDesC16
+46 Name=UpdateCity__RWorldServerRTWorldIdRCTCityData
+47 Name=UpdateCountry__RWorldServerRTWorldIdRCTCountryData
+48 Name=Version__CRWorldServer
+49 Name=__TWorldId
+50 Name=__DbgFailAlloc__RWorldServeri
+51 Name=__DbgMarkEnd__RWorldServer
+52 Name=AddCity__RWorldServerRCTCityData
+53 Name=SetMinutesCorrectingErrors__TLatLongii
+54 Name=SetMinutesL__TLatLongii
+;------------------EOF------------------

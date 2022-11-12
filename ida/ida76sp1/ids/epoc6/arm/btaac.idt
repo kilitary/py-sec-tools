@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTAAC Pascal=0
+;---------------------------------------
+1 Name=VoiceRecognitionActivated__CBTaaControllerApi
+2 Name=AudioToPhone__CBTaaControllerApi
+3 Name=CancelAudioToAccessory__CBTaaControllerApi
+4 Name=CancelConnectToAccessory__CBTaaControllerApiRCTBTDevAddr
+5 Name=ConnectToAccessory__CBTaaControllerApiRTRequestStatusRCTBTDevAddr
+6 Name=DisconnectAccessory__CBTaaControllerApiRCTBTDevAddr
+7 Name=EDll__FTDllReason
+8 Name=NewL__CBTaaControllerApi
+9 Name=AudioToAccessory__CBTaaControllerApiRTRequestStatus
+;------------------EOF------------------

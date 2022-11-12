@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mscat32.dll Args=0 Drops=36
+;---------------------------------------
+1 Name=CryptCATVerifyMember Pascal=12
+2 Name=CatalogCompactHashDatabase Pascal=16
+3 Name=CryptCATAdminAcquireContext Pascal=12
+4 Name=CryptCATAdminAddCatalog Pascal=16
+5 Name=CryptCATAdminCalcHashFromFileHandle Pascal=16
+6 Name=CryptCATAdminEnumCatalogFromHash Pascal=20
+7 Name=CryptCATAdminReleaseCatalogContext Pascal=12
+8 Name=CryptCATAdminReleaseContext Pascal=8
+9 Name=CryptCATCDFClose Pascal=4
+10 Name=CryptCATCDFEnumAttributes Pascal=16
+11 Name=CryptCATCDFEnumAttributesWithCDFTag Pascal=20
+12 Name=CryptCATCDFEnumCatAttributes Pascal=12
+13 Name=CryptCATCDFEnumMembers Pascal=12
+14 Name=CryptCATCDFEnumMembersByCDFTag Pascal=16
+15 Name=CryptCATCDFEnumMembersByCDFTagEx Pascal=24
+16 Name=CryptCATCDFOpen Pascal=8
+17 Name=CryptCATCatalogInfoFromContext Pascal=12
+18 Name=CryptCATClose Pascal=4
+19 Name=CryptCATEnumerateAttr Pascal=12
+20 Name=CryptCATEnumerateCatAttr Pascal=8
+21 Name=CryptCATEnumerateMember Pascal=8
+22 Name=CryptCATGetAttrInfo Pascal=12
+23 Name=CryptCATGetCatAttrInfo Pascal=8
+24 Name=CryptCATGetMemberInfo Pascal=8
+25 Name=CryptCATHandleFromStore Pascal=4
+26 Name=CryptCATOpen Pascal=20
+27 Name=CryptCATPersistStore Pascal=4
+28 Name=CryptCATPutAttrInfo Pascal=24
+29 Name=CryptCATPutCatAttrInfo Pascal=20
+30 Name=CryptCATPutMemberInfo Pascal=28
+31 Name=CryptCATStoreFromHandle Pascal=4
+32 Name=DllRegisterServer Pascal=0
+33 Name=DllUnregisterServer Pascal=0
+34 Name=IsCatalogFile Pascal=8
+35 Name=MsCatConstructHashTag Pascal=12
+36 Name=MsCatFreeHashTag Pascal=4
+;------------------EOF------------------

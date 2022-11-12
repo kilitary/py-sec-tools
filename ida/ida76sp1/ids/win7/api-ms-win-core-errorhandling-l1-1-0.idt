@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-errorhandling-l1-1-0.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=GetErrorMode Pascal=0
+2 Name=GetLastError Pascal=0
+3 Name=RaiseException Pascal=16
+4 Name=SetErrorMode Pascal=4
+5 Name=SetLastError Pascal=4
+6 Name=SetUnhandledExceptionFilter Pascal=4
+7 Name=UnhandledExceptionFilter Pascal=4
+;------------------EOF------------------

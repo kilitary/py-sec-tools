@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PMPIC.dll Pascal=0
+;---------------------------------------
+1 Name=PicPrint
+2 Name=PicIchg
+3 Name=Pif2Met
+4 Name=PrfPif2Met
+11 Name=PicPrint
+12 Name=PicIchg
+13 Name=PrfPif2Met
+;------------------EOF------------------

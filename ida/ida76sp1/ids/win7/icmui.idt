@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=icmui.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=SetupColorMatchingA Pascal=4
+2 Name=SetupColorMatchingW Pascal=4
+;------------------EOF------------------

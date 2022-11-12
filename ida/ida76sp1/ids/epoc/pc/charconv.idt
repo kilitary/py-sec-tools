@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CHARCONV Pascal=0
+;---------------------------------------
+1 Name=??1CCnvCharacterSetConverter@@UAE@XZ
+2 Name=?ConvertFromUnicode@CCnvCharacterSetConverter@@QBEHAAVTDes8@@ABVTDesC16@@@Z
+3 Name=?ConvertFromUnicode@CCnvCharacterSetConverter@@QBEHAAVTDes8@@ABVTDesC16@@AAH@Z
+4 Name=?ConvertFromUnicodeToNative8BitBuild@CCnvCharacterSetConverter@@SAHAAVTDes8@@ABVTDesC16@@@Z
+5 Name=?ConvertFromUnicodeToNative8BitBuild@CCnvCharacterSetConverter@@SAHAAVTDes8@@ABVTDesC16@@AAH@Z
+6 Name=?ConvertFromUnicodeToNative8BitBuild@CCnvCharacterSetConverter@@SAHAAVTDes8@@ABVTDesC16@@ABVTDesC8@@@Z
+7 Name=?ConvertFromUnicodeToNative8BitBuild@CCnvCharacterSetConverter@@SAHAAVTDes8@@ABVTDesC16@@ABVTDesC8@@AAH@Z
+8 Name=?ConvertFromUnicodeToUtf7@CnvUtfConverter@@SAHAAVTDes8@@ABVTDesC16@@H@Z
+9 Name=?ConvertFromUnicodeToUtf8@CnvUtfConverter@@SAHAAVTDes8@@ABVTDesC16@@H@Z
+10 Name=?ConvertToUnicode@CCnvCharacterSetConverter@@QBEHAAVTDes16@@ABVTDesC8@@AAH2@Z
+11 Name=?ConvertToUnicode@CCnvCharacterSetConverter@@QBEHAAVTDes16@@ABVTDesC8@@AAH@Z
+12 Name=?ConvertToUnicodeFromNative8BitBuild@CCnvCharacterSetConverter@@SAHAAVTDes16@@ABVTDesC8@@AAH2@Z
+13 Name=?ConvertToUnicodeFromNative8BitBuild@CCnvCharacterSetConverter@@SAHAAVTDes16@@ABVTDesC8@@AAH@Z
+14 Name=?ConvertToUnicodeFromUtf7@CnvUtfConverter@@SAHAAVTDes16@@ABVTDesC8@@AAH@Z
+15 Name=?ConvertToUnicodeFromUtf8@CnvUtfConverter@@SAHAAVTDes16@@ABVTDesC8@@@Z
+16 Name=?CreateArrayOfCharacterSetsAvailableL@CCnvCharacterSetConverter@@SAPAV?$CArrayFix@USCharacterSet@CCnvCharacterSetConverter@@@@XZ
+17 Name=?CreateArrayOfCharacterSetsAvailableLC@CCnvCharacterSetConverter@@SAPAV?$CArrayFix@USCharacterSet@CCnvCharacterSetConverter@@@@XZ
+18 Name=?NewL@CCnvCharacterSetConverter@@SAPAV1@XZ
+19 Name=?NewLC@CCnvCharacterSetConverter@@SAPAV1@XZ
+20 Name=?PrepareToConvertToOrFromL@CCnvCharacterSetConverter@@QAEXIABV?$CArrayFix@USCharacterSet@CCnvCharacterSetConverter@@@@@Z
+21 Name=?SetReplacementForUnconvertibleUnicodeCharactersL@CCnvCharacterSetConverter@@QAEXABVTDesC8@@@Z
+22 Name=?SetDefaultEndiannessOfForeignCharacters@CCnvCharacterSetConverter@@QAEXW4TEndianness@1@@Z
+;------------------EOF------------------

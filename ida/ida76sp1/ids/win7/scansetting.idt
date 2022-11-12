@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=scansetting.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=GetDefaultProfileScan Pascal=28
+2 Name=GetImageDialog Pascal=32
+3 Name=ProfilesDialog Pascal=4
+4 Name=ProgDlgTakeFgIfShowing Pascal=0
+5 Name=DllCanUnloadNow Pascal=0
+6 Name=DllMain Pascal=12
+;------------------EOF------------------

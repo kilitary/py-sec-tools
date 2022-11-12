@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CCON Pascal=0
+;---------------------------------------
+1 Name=_ZN12TChineseDateC1Ev
+2 Name=_ZN12TChineseDateC2Ev
+3 Name=_ZN25CChineseCalendarConverter4NewLEv
+4 Name=_ZNK12TChineseDateeqERKS_
+5 Name=_ZTI29CChineseCalendarConverterImpl
+6 Name=_ZTV29CChineseCalendarConverterImpl
+;------------------EOF------------------

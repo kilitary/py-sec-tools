@@ -1,0 +1,22 @@
+DECLARATION Nokia 9110 Geos 3.0 library fscript.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=fscriptdll Pascal=0
+;---------------------------------------
+1 Name=FScriptEditViewerOpen
+2 Name=FScriptEditViewerDetach
+3 Name=FScriptEditViewerChangeDocument
+4 Name=FScriptEditViewerClose
+5 Name=FScriptEditControlClass
+6 Name=FScriptDialogClass
+7 Name=FScriptCompile
+8 Name=FScriptAttachExecutableToDocument
+9 Name=FScriptGetExecutable
+10 Name=FScriptStartExecution
+11 Name=FScriptEndExecution
+12 Name=FScriptProcessInput
+13 Name=FScriptProcessTimeout
+14 Name=FScriptGetLocalIPAddress
+15 Name=FScriptGetDNSAddress
+;------------------EOF------------------

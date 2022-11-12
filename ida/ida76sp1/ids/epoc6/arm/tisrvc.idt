@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TISRVC Pascal=0
+;---------------------------------------
+1 Name=__22RTextInputServerClient
+2 Name=Connect__22RTextInputServerClient
+3 Name=GetInABoxModule__C22RTextInputServerClientRt4TBuf1i256
+4 Name=GetWriteAnywhereModule__C22RTextInputServerClientRt4TBuf1i256
+5 Name=GlobalSendFunction__C22RTextInputServerClienti
+6 Name=Version__C22RTextInputServerClient
+7 Name=Close__22RTextInputServerClient
+8 Name=PassOnWriteAnywhereParametersReply__C22RTextInputServerClientiPvRi
+9 Name=PassOnWriteAnywhereParameters__C22RTextInputServerClientiPv
+10 Name=StopNotification__22RTextInputServerClient
+11 Name=SetInABoxModule__C22RTextInputServerClientRC7TDesC16
+12 Name=SetTextInputObserver__22RTextInputServerClientP18MTextInputObserver
+13 Name=SetWriteAnywhereModule__C22RTextInputServerClientRC7TDesC16
+14 Name=StartNotificationL__22RTextInputServerClient
+15 Name=StatusOfInABoxTi__C22RTextInputServerClientRi
+16 Name=StatusOfWriteAnywhereTi__C22RTextInputServerClientRi
+17 Name=LoadNewAnimDll__C22RTextInputServerClientRC7TDesC16i
+18 Name=AddSlaveSpriteAnim__C22RTextInputServerClientG13TGulAlignmentG5TSize
+;------------------EOF------------------

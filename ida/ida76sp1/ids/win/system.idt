@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=system.drv Args=0 Drops=10
+;---------------------------------------
+1 Name=INQUIRESYSTEM Pascal=4
+2 Name=CREATESYSTEMTIMER Pascal=6
+3 Name=KILLSYSTEMTIMER Pascal=2
+4 Name=ENABLESYSTEMTIMERS Pascal=0
+5 Name=DISABLESYSTEMTIMERS Pascal=0
+6 Name=GETSYSTEMMSECCOUNT
+7 Name=GET80X87SAVESIZE Pascal=0
+8 Name=SAVE80X87STATE Pascal=4
+9 Name=RESTORE80X87STATE Pascal=4
+10 Name=WEP Pascal=2
+20 Name=A20_PROC Pascal=2
+;------------------EOF------------------

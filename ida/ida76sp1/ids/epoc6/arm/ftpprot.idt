@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FTPPROT Pascal=0
+;---------------------------------------
+1 Name=GetVersion__12CFtpProtocol
+2 Name=NewL__12CFtpProtocolP20MFtpProtocolNotifier
+;------------------EOF------------------

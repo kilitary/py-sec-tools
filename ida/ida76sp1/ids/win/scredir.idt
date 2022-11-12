@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=scredir.dll Args=0 Drops=43
+;---------------------------------------
+1 Name=DllRegisterServer Pascal=0
+2 Name=DllUnregisterServer Pascal=0
+3 Name=SCardAccessStartedEvent Pascal=0
+4 Name=SCardAddReaderToGroupA Pascal=12
+5 Name=SCardAddReaderToGroupW Pascal=12
+6 Name=SCardBeginTransaction Pascal=4
+7 Name=SCardCancel Pascal=4
+8 Name=SCardConnectA Pascal=24
+9 Name=SCardConnectW Pascal=24
+10 Name=SCardControl Pascal=28
+11 Name=SCardDisconnect Pascal=8
+12 Name=SCardEndTransaction Pascal=8
+13 Name=SCardEstablishContext Pascal=16
+14 Name=SCardForgetReaderA Pascal=8
+15 Name=SCardForgetReaderGroupA Pascal=8
+16 Name=SCardForgetReaderGroupW Pascal=8
+17 Name=SCardForgetReaderW Pascal=8
+18 Name=SCardGetAttrib Pascal=16
+19 Name=SCardGetStatusChangeA Pascal=16
+20 Name=SCardGetStatusChangeW Pascal=16
+21 Name=SCardIntroduceReaderA Pascal=12
+22 Name=SCardIntroduceReaderGroupA Pascal=8
+23 Name=SCardIntroduceReaderGroupW Pascal=8
+24 Name=SCardIntroduceReaderW Pascal=12
+25 Name=SCardIsValidContext Pascal=4
+26 Name=SCardListReaderGroupsA Pascal=12
+27 Name=SCardListReaderGroupsW Pascal=12
+28 Name=SCardListReadersA Pascal=16
+29 Name=SCardListReadersW Pascal=16
+30 Name=SCardLocateCardsA Pascal=16
+31 Name=SCardLocateCardsByATRA Pascal=20
+32 Name=SCardLocateCardsByATRW Pascal=20
+33 Name=SCardLocateCardsW Pascal=16
+34 Name=SCardReconnect Pascal=20
+35 Name=SCardReleaseContext Pascal=4
+36 Name=SCardReleaseStartedEvent Pascal=0
+37 Name=SCardRemoveReaderFromGroupA Pascal=12
+38 Name=SCardRemoveReaderFromGroupW Pascal=12
+39 Name=SCardSetAttrib Pascal=16
+40 Name=SCardState Pascal=20
+41 Name=SCardStatusA Pascal=28
+42 Name=SCardStatusW Pascal=28
+43 Name=SCardTransmit Pascal=28
+;------------------EOF------------------

@@ -1,0 +1,53 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=VIEWSRV Pascal=0
+;---------------------------------------
+1 Name=_ZN10CVwsServer4NewLER14MVwsAppStarter
+2 Name=_ZN10CVwsServerD0Ev
+3 Name=_ZN10CVwsServerD1Ev
+4 Name=_ZN10CVwsServerD2Ev
+5 Name=_ZTI10CVwsServer
+6 Name=_ZTI11CVwsSession
+7 Name=_ZTI14CVwsEventQueue
+8 Name=_ZTI14CVwsEventTimer
+9 Name=_ZTI15CVwsServerEvent
+10 Name=_ZTI16CVwsSessionEvent
+11 Name=_ZTI17CVwsClientMessage
+12 Name=_ZTI17CVwsThreadWatcher
+13 Name=_ZTI17CVwsWServRedrawer
+14 Name=_ZTI21CVwsWServEventHandler
+15 Name=_ZTI23CVwsWServSessionHandler
+16 Name=_ZTI24CVwsServerEvent_Activate
+17 Name=_ZTI24CVwsServerEvent_AppStart
+18 Name=_ZTI27CVwsSessionEvent_Activation
+19 Name=_ZTI29CVwsSessionEvent_Deactivation
+20 Name=_ZTI35CVwsServerEvent_ScreenDeviceChanged
+21 Name=_ZTI36CVwsServerEvent_DeactivateActiveView
+22 Name=_ZTI39CVwsSessionEvent_ActivationNotification
+23 Name=_ZTI41CVwsSessionEvent_DeactivationNotification
+24 Name=_ZTI47CVwsSessionEvent_ScreenDeviceChangeNotification
+25 Name=_ZTI9CVwsEvent
+26 Name=_ZTV10CVwsServer
+27 Name=_ZTV11CVwsSession
+28 Name=_ZTV14CVwsEventQueue
+29 Name=_ZTV14CVwsEventTimer
+30 Name=_ZTV15CVwsServerEvent
+31 Name=_ZTV16CVwsSessionEvent
+32 Name=_ZTV17CVwsClientMessage
+33 Name=_ZTV17CVwsThreadWatcher
+34 Name=_ZTV17CVwsWServRedrawer
+35 Name=_ZTV21CVwsWServEventHandler
+36 Name=_ZTV23CVwsWServSessionHandler
+37 Name=_ZTV24CVwsServerEvent_Activate
+38 Name=_ZTV24CVwsServerEvent_AppStart
+39 Name=_ZTV27CVwsSessionEvent_Activation
+40 Name=_ZTV29CVwsSessionEvent_Deactivation
+41 Name=_ZTV35CVwsServerEvent_ScreenDeviceChanged
+42 Name=_ZTV36CVwsServerEvent_DeactivateActiveView
+43 Name=_ZTV39CVwsSessionEvent_ActivationNotification
+44 Name=_ZTV41CVwsSessionEvent_DeactivationNotification
+45 Name=_ZTV47CVwsSessionEvent_ScreenDeviceChangeNotification
+46 Name=_ZTV9CVwsEvent
+;------------------EOF------------------

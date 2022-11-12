@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=capisp.dll Args=0 Drops=3
+;---------------------------------------
+1 Name=CAPISysPrep_Generalize Pascal=0
+2 Name=CryptoSysPrep_Clean Pascal=0
+3 Name=CryptoSysPrep_Specialize Pascal=0
+;------------------EOF------------------

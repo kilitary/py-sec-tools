@@ -1,0 +1,43 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EPOSLMDBMANLIB Pascal=0
+;---------------------------------------
+1 Name=_ZN18HPosLmDatabaseInfo4NewLERK7TDesC16
+2 Name=_ZN18HPosLmDatabaseInfo4NewLERKS_
+3 Name=_ZN18HPosLmDatabaseInfo5NewLCERK7TDesC16
+4 Name=_ZN18HPosLmDatabaseInfo5NewLCERKS_
+5 Name=_ZN18HPosLmDatabaseInfo8SettingsEv
+6 Name=_ZN20PosLmDbInfoExtension10SetDefaultER18HPosLmDatabaseInfoi
+7 Name=_ZN20PosLmDbInfoExtension12SetMediaTypeER18HPosLmDatabaseInfo10TMediaType
+8 Name=_ZN20PosLmDbInfoExtension16SetDatabaseDriveER18HPosLmDatabaseInfo5TChar
+9 Name=_ZN21CPosLmDatabaseManager4NewLEv
+10 Name=_ZN21CPosLmDatabaseManagerC2Ev
+11 Name=_ZN21CPosLmDatabaseManagerD0Ev
+12 Name=_ZN21CPosLmDatabaseManagerD1Ev
+13 Name=_ZN21CPosLmDatabaseManagerD2Ev
+14 Name=_ZN22TPosLmDatabaseSettings14UnsetAttributeENS_10TAttributeE
+15 Name=_ZN22TPosLmDatabaseSettings15SetDatabaseNameERK4TBufILi64EE
+16 Name=_ZN22TPosLmDatabaseSettingsC1Ev
+17 Name=_ZN22TPosLmDatabaseSettingsC2Ev
+18 Name=_ZN31CPosLmDatabaseManagerPluginBase14BaseConstructLEPv
+19 Name=_ZN31CPosLmDatabaseManagerPluginBaseC2Ev
+20 Name=_ZN31CPosLmDatabaseManagerPluginBaseD0Ev
+21 Name=_ZN31CPosLmDatabaseManagerPluginBaseD1Ev
+22 Name=_ZN31CPosLmDatabaseManagerPluginBaseD2Ev
+23 Name=_ZNK18HPosLmDatabaseInfo11DatabaseUriEv
+24 Name=_ZNK18HPosLmDatabaseInfo13DatabaseDriveEv
+25 Name=_ZNK18HPosLmDatabaseInfo13DatabaseMediaEv
+26 Name=_ZNK18HPosLmDatabaseInfo4SizeEv
+27 Name=_ZNK18HPosLmDatabaseInfo8ProtocolEv
+28 Name=_ZNK18HPosLmDatabaseInfo8SettingsEv
+29 Name=_ZNK18HPosLmDatabaseInfo9IsDefaultEv
+30 Name=_ZNK22TPosLmDatabaseSettings12DatabaseNameEv
+31 Name=_ZNK22TPosLmDatabaseSettings14IsAttributeSetENS_10TAttributeE
+32 Name=_ZNK31CPosLmDatabaseManagerPluginBase7SessionEv
+33 Name=_ZTI21CPosLmDatabaseManager
+34 Name=_ZTI31CPosLmDatabaseManagerPluginBase
+35 Name=_ZTV21CPosLmDatabaseManager
+36 Name=_ZTV31CPosLmDatabaseManagerPluginBase
+;------------------EOF------------------

@@ -1,0 +1,40 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MTUR Pascal=0
+;---------------------------------------
+1 Name=__Q214CBaseMtmUiData14TMtmUiFunctionRCQ214CBaseMtmUiData14TMtmUiFunction
+2 Name=ConstructL__10CBaseMtmUi
+3 Name=ConstructL__14CBaseMtmUiData
+4 Name=CopyFromL__10CBaseMtmUiRC18CMsvEntrySelectionlR14TRequestStatus
+5 Name=CopyToL__10CBaseMtmUiRC18CMsvEntrySelectionR14TRequestStatus
+6 Name=CreateBitmapsL__14CBaseMtmUiDataiRC7TDesC16ii
+7 Name=CreateL__10CBaseMtmUiRC9TMsvEntryR9CMsvEntryR14TRequestStatus
+8 Name=DeleteFromL__10CBaseMtmUiRC18CMsvEntrySelectionR14TRequestStatus
+9 Name=DeleteServiceL__10CBaseMtmUiRC9TMsvEntryR14TRequestStatus
+10 Name=DisplayProgressSummary__C10CBaseMtmUiRC6TDesC8
+11 Name=FunctionRecognised__C14CBaseMtmUiDatai
+12 Name=GetProgress__C10CBaseMtmUiRC6TDesC8Rt4TBuf1i255RiN33
+13 Name=InvokeAsyncFunctionL__10CBaseMtmUiiRC18CMsvEntrySelectionR14TRequestStatusR5TDes8
+14 Name=InvokeSyncFunctionL__10CBaseMtmUiiRC18CMsvEntrySelectionR5TDes8
+15 Name=MoveFromL__10CBaseMtmUiRC18CMsvEntrySelectionlR14TRequestStatus
+16 Name=MoveToL__10CBaseMtmUiRC18CMsvEntrySelectionR14TRequestStatus
+17 Name=NewL__14CMtmUiRegistryR11CMsvSessionG27TTimeIntervalMicroSeconds32
+18 Name=NewL__18CMtmUiDataRegistryR11CMsvSessionG27TTimeIntervalMicroSeconds32
+19 Name=NewMtmUiDataLayerL__18CMtmUiDataRegistryRC4TUid
+20 Name=NewMtmUiL__14CMtmUiRegistryR8CBaseMtm
+21 Name=Preferences__C10CBaseMtmUi
+22 Name=QueryCapability__10CBaseMtmUiG4TUidRi
+23 Name=ReadFunctionsFromResourceFileL__14CBaseMtmUiDatai
+24 Name=Session__C10CBaseMtmUi
+25 Name=SetPreferences__10CBaseMtmUiUi
+26 Name=UnDeleteFromL__10CBaseMtmUiRC18CMsvEntrySelectionR14TRequestStatus
+27 Name=_._10CBaseMtmUi
+28 Name=_._14CBaseMtmUiData
+29 Name=__10CBaseMtmUiR8CBaseMtmR17CRegisteredMtmDll
+30 Name=__14CBaseMtmUiDataR17CRegisteredMtmDll
+31 Name=__Q214CBaseMtmUiData14TMtmUiFunctionR15TResourceReader
+32 Name=CanUnDeleteFromEntryL__C14CBaseMtmUiDataRC9TMsvEntryRi
+33 Name=LaunchEditorL__9MturUtilsl
+;------------------EOF------------------

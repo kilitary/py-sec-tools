@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SCPPNWDL Pascal=0
+;---------------------------------------
+1 Name=_ZdaPv
+2 Name=_ZdaPvRKSt9nothrow_t
+3 Name=_ZdlPv
+4 Name=_ZdlPvRKSt9nothrow_t
+5 Name=_Znaj
+6 Name=_ZnajRKSt9nothrow_t
+7 Name=_Znwj
+8 Name=_ZnwjRKSt9nothrow_t
+9 Name=_Znwjj
+;------------------EOF------------------

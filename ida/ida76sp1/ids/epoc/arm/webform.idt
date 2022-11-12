@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WEBFORM Pascal=0
+;---------------------------------------
+1 Name=NewPlugInL__Fv
+2 Name=ZoomFactor__C17CHtmlFormDataText
+3 Name=GetDataL__C17CHtmlFormDataBool
+4 Name=GetNameL__C19CHtmlFormDataButton
+5 Name=GetOptionNameL__C17CHtmlFormDataMenui
+6 Name=GetTextL__C20CHtmlFormDataTextBox
+7 Name=GetTextL__C21CHtmlFormDataTextArea
+8 Name=Lines__C20CHtmlFormDataTextBox
+9 Name=Lines__C21CHtmlFormDataTextArea
+10 Name=MaxLength__C20CHtmlFormDataTextBox
+11 Name=MaxLength__C21CHtmlFormDataTextArea
+12 Name=NamesNeedUpdating__C17CHtmlFormDataMenu
+13 Name=NumberOptionsL__C17CHtmlFormDataMenu
+14 Name=OptionSetL__C17CHtmlFormDataMenui
+15 Name=SelectedL__C17CHtmlFormDataMenu
+16 Name=SetOptionL__17CHtmlFormDataMenuii
+17 Name=SubmitDataL__17CHtmlFormDataBooli
+18 Name=SubmitTextL__20CHtmlFormDataTextBoxRC6TDesC8
+19 Name=SubmitTextL__21CHtmlFormDataTextAreaRC6TDesC8
+20 Name=Width__C20CHtmlFormDataTextBox
+21 Name=Width__C21CHtmlFormDataTextArea
+22 Name=ButtonType__C19CHtmlFormDataButton
+23 Name=GetTextL__C17CHtmlFormDataFile
+24 Name=Lines__C17CHtmlFormDataFile
+25 Name=Lines__C17CHtmlFormDataMenu
+26 Name=MaxLength__C17CHtmlFormDataFile
+27 Name=SubmitTextL__17CHtmlFormDataFileRC6TDesC8
+28 Name=Width__C17CHtmlFormDataFile
+29 Name=CHtmlFormControl_Reserved1__16CHtmlFormControl
+30 Name=CHtmlFormControl_Reserved2__16CHtmlFormControl
+31 Name=CHtmlFormControl_Reserved3__16CHtmlFormControl
+;------------------EOF------------------

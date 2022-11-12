@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=IRDA_VIA_POD Pascal=0
+;---------------------------------------
+1 Name=InstallIrda
+2 Name=__9TIASQueryRC6TDesC8T1Ui
+3 Name=GetCharString8__C12TIASResponsei
+4 Name=GetCharString__C12TIASResponseR5TDes8i
+5 Name=GetCharString__C12TIASResponseR6TDes16i
+6 Name=GetInteger__C12TIASResponseRii
+7 Name=GetOctetSeq__C12TIASResponseR5TDes8i
+8 Name=Get__9TIASQueryR5TDes8T1RUi
+9 Name=SetAttributeName__17TIASDatabaseEntryRC6TDesC8
+10 Name=SetClassName__17TIASDatabaseEntryRC6TDesC8
+11 Name=SetToCharString__17TIASDatabaseEntryRC6TDesC8
+12 Name=SetToCharString__17TIASDatabaseEntryRC7TDesC16
+13 Name=SetToInteger__17TIASDatabaseEntryUi
+14 Name=SetToOctetSeq__17TIASDatabaseEntryRC6TDesC8
+15 Name=Set__9TIASQueryRC6TDesC8T1Ui
+16 Name=__12TIASResponse
+17 Name=__13TIrdaSockAddr
+18 Name=__13TIrdaSockAddrRC9TSockAddr
+19 Name=__21TIASDatabaseEntryV001
+20 Name=__9TIASQuery
+21 Name=GetCharString16__C12TIASResponsei
+;------------------EOF------------------

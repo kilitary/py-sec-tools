@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MROUTERCLIENTLOGGER Pascal=0
+;---------------------------------------
+1 Name=_ZN20CmRouterClientLogger4NewLERK7TDesC16
+2 Name=_ZN20CmRouterClientLogger6EnableEv
+3 Name=_ZN20CmRouterClientLogger7DisableEv
+4 Name=_ZN20CmRouterClientLogger9LogPrintfE11TRefByValueIK6TDesC8Ez
+5 Name=_ZN20CmRouterClientLogger9LogPrintfE11TRefByValueIK7TDesC16Ez
+6 Name=_ZN20CmRouterClientLoggerD0Ev
+7 Name=_ZN20CmRouterClientLoggerD1Ev
+8 Name=_ZN20CmRouterClientLoggerD2Ev
+9 Name=_ZTI20CmRouterClientLogger
+10 Name=_ZTV20CmRouterClientLogger
+;------------------EOF------------------

@@ -1,0 +1,12 @@
+DECLARATION Nokia 9110 Geos 3.0 library smsend.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=smsenddll Pascal=0
+;---------------------------------------
+1 Name=SMAddressControlClass
+2 Name=ManualSMSClass
+3 Name=SMTRANSMITMESSAGE
+4 Name=ManualBizCardClass
+5 Name=SMSOptionsClass
+;------------------EOF------------------

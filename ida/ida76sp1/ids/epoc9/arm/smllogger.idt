@@ -1,0 +1,64 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMLLOGGER Pascal=0
+;---------------------------------------
+1 Name=_Z12LeftFunctionv
+2 Name=_Z13EnableLoggingv
+3 Name=_Z14CloseSharedLogv
+4 Name=_Z14DisableLoggingv
+5 Name=_Z14SetDateLoggingi
+6 Name=_Z14SetTimeLoggingi
+7 Name=_Z15ReadConfigFileLv
+8 Name=_Z15SetLoggingLevel12TLoggingMode
+9 Name=_Z16WriteConfigFileLv
+10 Name=_Z17SetSrcLineLoggingi
+11 Name=_Z17SwitchOnSharedLogv
+12 Name=_Z18EnteredNewFunctionv
+13 Name=_Z18SwitchOffSharedLogv
+14 Name=_Z19DisconnectSharedLogv
+15 Name=_Z20ConnectSharedLoggerLRK7TDesC16S1_i
+16 Name=_Z20SetProfilingOnlyModei
+17 Name=_Z21SetSrcFilenameLoggingi
+18 Name=_Z21WriteSharedLogMessageRK6TDesC8i12TLoggingModeiRK7TDesC16
+19 Name=_Z21WriteSharedLogMessageRK6TDesC8i12TLoggingModeiS1_
+20 Name=_Z27PushStartTimeOfFunctionCallv
+21 Name=_Z28PopElapsedTimeOfFunctionCallv
+22 Name=_ZN10CSmlLogger10DisconnectEv
+23 Name=_ZN10CSmlLogger11CreateDirsLERK7TDesC16
+24 Name=_ZN10CSmlLogger11DecRefCountEv
+25 Name=_ZN10CSmlLogger11IncRefCountEv
+26 Name=_ZN10CSmlLogger12LeftFunctionEv
+27 Name=_ZN10CSmlLogger13EnableLoggingEv
+28 Name=_ZN10CSmlLogger14DisableLoggingEv
+29 Name=_ZN10CSmlLogger14GetLogFilenameEv
+30 Name=_ZN10CSmlLogger14SetDateLoggingEi
+31 Name=_ZN10CSmlLogger14SetLogFilenameERK7TDesC16
+32 Name=_ZN10CSmlLogger14SetTimeLoggingEi
+33 Name=_ZN10CSmlLogger15GetLogDirectoryEv
+34 Name=_ZN10CSmlLogger15ReadConfigFileLEv
+35 Name=_ZN10CSmlLogger15SetLogDirectoryERK7TDesC16
+36 Name=_ZN10CSmlLogger15SetLoggingLevelE12TLoggingMode
+37 Name=_ZN10CSmlLogger15WriteLogMessageERK6TDesC8i12TLoggingModeiRK7TDesC16
+38 Name=_ZN10CSmlLogger15WriteLogMessageERK6TDesC8i12TLoggingModeiS2_
+39 Name=_ZN10CSmlLogger16WriteConfigFileLEv
+40 Name=_ZN10CSmlLogger17SetSrcLineLoggingEi
+41 Name=_ZN10CSmlLogger18EnteredNewFunctionEv
+42 Name=_ZN10CSmlLogger19BaseWriteLogMessageERK6TDesC8i12TLoggingModeii
+43 Name=_ZN10CSmlLogger20SetProfilingOnlyModeEi
+44 Name=_ZN10CSmlLogger21SetSrcFilenameLoggingEi
+45 Name=_ZN10CSmlLogger27PushStartTimeOfFunctionCallEv
+46 Name=_ZN10CSmlLogger28PopElapsedTimeOfFunctionCallEv
+47 Name=_ZN10CSmlLogger4NewLEv
+48 Name=_ZN10CSmlLogger5CloseEv
+49 Name=_ZN10CSmlLogger8ConnectLERK7TDesC16S2_i
+50 Name=_ZN10CSmlLogger8RefCountEv
+51 Name=_ZN10CSmlLogger8SwitchOnEv
+52 Name=_ZN10CSmlLogger9SwitchOffEv
+53 Name=_ZN10CSmlLoggerD0Ev
+54 Name=_ZN10CSmlLoggerD1Ev
+55 Name=_ZN10CSmlLoggerD2Ev
+56 Name=_ZTI10CSmlLogger
+57 Name=_ZTV10CSmlLogger
+;------------------EOF------------------

@@ -1,0 +1,47 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msidcrl30.dll Args=0 Drops=38
+;---------------------------------------
+1 Name=Initialize Pascal=12
+2 Name=Uninitialize Pascal=0
+3 Name=PassportFreeMemory Pascal=4
+4 Name=CreateIdentityHandle Pascal=12
+5 Name=SetCredential Pascal=12
+6 Name=GetIdentityProperty Pascal=12
+7 Name=SetIdentityProperty Pascal=12
+8 Name=CloseIdentityHandle Pascal=4
+9 Name=CreatePassportAuthUIContext Pascal=12
+10 Name=GetPreferredAuthUIContextSize Pascal=8
+11 Name=MoveAuthUIContext Pascal=20
+12 Name=DestroyPassportAuthUIContext Pascal=4
+13 Name=AuthIdentityToService Pascal=32
+14 Name=?g_strRequest@@3V?$CStringT@GV?$StrTraitATL@GV?$ChTraitsCRT@G@ATL@@@ATL@@@ATL@@A
+15 Name=PersistCredential Pascal=8
+16 Name=RemovePersistedCredential Pascal=8
+17 Name=EnumIdentitiesWithCachedCredentials Pascal=8
+18 Name=NextIdentity Pascal=8
+19 Name=CloseEnumIdentitiesHandle Pascal=4
+20 Name=GetAuthState Pascal=20
+21 Name=LogonIdentity Pascal=12
+22 Name=LogonIdentityWithUI Pascal=16
+23 Name=HasPersistedCredential Pascal=12
+24 Name=SetIdentityCallback Pascal=12
+25 Name=?g_strResponse@@3V?$CStringT@GV?$StrTraitATL@GV?$ChTraitsCRT@G@ATL@@@ATL@@@ATL@@A
+26 Name=BuildAuthTokenRequest Pascal=16
+27 Name=BuildServiceTokenRequest Pascal=20
+28 Name=PutTokenResponse Pascal=28
+29 Name=InitializeEx Pascal=20
+30 Name=GetWebAuthUrl Pascal=28
+31 Name=LogonIdentityEx Pascal=20
+33 Name=AuthIdentityToServiceEx Pascal=16
+34 Name=GetAuthStateEx Pascal=24
+35 Name=GetCertificate Pascal=32
+36 Name=BuildServiceTokenRequestEx Pascal=16
+37 Name=BuildAuthTokenRequestEx Pascal=24
+38 Name=CancelPendingRequest Pascal=4
+39 Name=PutTokenResponseEx Pascal=12
+40 Name=VerifyCertificate Pascal=20
+41 Name=GetIdentityPropertyByName Pascal=12
+;------------------EOF------------------

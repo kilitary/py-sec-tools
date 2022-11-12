@@ -1,0 +1,74 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PUSHMTMUTIL Pascal=0
+;---------------------------------------
+1 Name=__ne__CCPushInitiatorListRCCPushInitiatorList
+2 Name=AddL__CPushInitiatorListRCCPushInitiator
+3 Name=At__CCPushInitiatorListi
+4 Name=Attrs__CPushMtmUtilRCTMsvEntry
+5 Name=AuthenticationRequired__CCPushMtmSettings
+6 Name=ConvertDetailsL__CCPushMtmUtilRCTDesC8
+7 Name=ConvertUriToDisplayFormL__CPushMtmUtilRCTDesC16
+8 Name=Count__CCPushInitiatorList
+9 Name=DeleteEntryL__CPushMtmUtill
+10 Name=DeleteOperation__CPushAsyncOpRunner
+11 Name=Delete__CPushInitiatorListi
+12 Name=DoCancel__CPushMtmOperation
+13 Name=DoCancel__CPushAsyncOpRunner
+14 Name=ExternalizeL__CCPushInitiatorListRRWriteStream
+15 Name=FindMessagesL__CPushMtmUtilGTUid
+16 Name=FindMessagesL__CPushMtmUtilRCCMsvEntrySelectionGTUid
+17 Name=FindMessagesL__CPushMtmUtillGTUidi
+18 Name=FindPushFoldersL__CPushMtmUtil
+19 Name=FindSiIdLC__CPushMtmUtilRCTDesC16
+20 Name=FindUrlLC__CPushMtmUtilRCTDesC16GTUid
+21 Name=Find__CCPushInitiatorListRCCPushInitiatorRi
+22 Name=InternalizeL__CPushInitiatorListRRReadStream
+23 Name=InvokeRun__CPushMtmOperation
+24 Name=LoadL__CPushMtmSettings
+25 Name=MarkServiceReadL__CPushMtmUtill
+26 Name=NewLC__CPushMtmSettingsRCMsvSession
+27 Name=NewL__CPushMtmUtilRCMsvSession
+28 Name=NewL__CPushMtmSettingsRCMsvSession
+29 Name=NewL__CPushInitiatorList
+30 Name=OnRunLActionL__CPushAsyncOpRunnerRi
+31 Name=OnStartupL__CPushAsyncOpRunnerRi
+32 Name=Operation__CPushAsyncOpRunner
+33 Name=ProgressL__CPushMtmOperation
+34 Name=ProgressL__CPushAsyncOpRunner
+35 Name=PushInitiatorList__CCPushMtmSettings
+36 Name=RegisterObserver__CPushMtmSettingsRMPushMtmSettingsObserver
+37 Name=ResetAndDestroy__CPushInitiatorList
+38 Name=ResetAttrs__CPushMtmUtilRTMsvEntryl
+39 Name=RestoreFactorySettingsL__CPushMtmSettings
+40 Name=RunError__CPushMtmOperationi
+41 Name=RunError__CPushAsyncOpRunneri
+42 Name=RunL__CPushMtmOperation
+43 Name=RunL__CPushAsyncOpRunner
+44 Name=SaveL__CPushMtmSettingsi
+45 Name=ServiceLoadingType__CCPushMtmSettings
+46 Name=ServiceReception__CCPushMtmSettings
+47 Name=SetAddressL__CPushInitiatorRCTDesC16QCPushInitiatorTAddrType
+48 Name=SetAttrs__CPushMtmUtilRTMsvEntryl
+49 Name=SetAuthenticationRequired__CPushMtmSettingsi
+50 Name=SetOperation__CPushAsyncOpRunnerPCMsvOperation
+51 Name=SetServiceLoadingType__CPushMtmSettingsQCPushMtmSettingsTServiceLoading
+52 Name=SetServiceReception__CPushMtmSettingsi
+53 Name=SignalObserver__CPushMtmOperationi
+54 Name=StartL__CPushMtmOperation
+55 Name=StartL__CPushAsyncOpRunner
+56 Name=UnregisterObserver__CPushMtmSettings
+57 Name=_._CPushMtmUtil
+58 Name=_._CPushInitiator
+59 Name=_._CPushMtmSettings
+60 Name=_._CPushMtmOperation
+61 Name=_._CPushAsyncOpRunner
+62 Name=_._CPushInitiatorList
+63 Name=__CPushInitiator
+64 Name=__CPushMtmOperationRCMsvSessionlRTRequestStatus
+65 Name=__CPushAsyncOpRunnerRCMsvSessionlRTRequestStatus
+66 Name=__eq__CCPushInitiatorListRCCPushInitiatorList
+67 Name=AddL__CPushInitiatorListPCPushInitiator
+;------------------EOF------------------

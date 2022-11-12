@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=AKNNOTIFYPLUGIN Pascal=0
+;---------------------------------------
+1 Name=NotifierArray__Fv
+2 Name=CancelNote__CNotifierDialogControlleri
+3 Name=DisplayNonNoteDialogL__CNotifierDialogControlleri
+4 Name=LaunchNoteL__CNotifierDialogControlleriii
+5 Name=LaunchNoteL__CNotifierDialogControlleriiiQCAknNoteDialogTTimeoutQCAknNoteDialogTTone
+6 Name=SetNoteObserver__CNotifierDialogControllerPMNotifierDialogObserver
+7 Name=_._CAknSoftNotificationParameters
+8 Name=NewL__CAknSoftNotificationParameters
+9 Name=NewL__CAknSoftNotificationParametersRCTDesC16iiiQCAknNoteDialogTTone
+10 Name=NewL__CAknSoftNotificationParametersRCTDesC16iiiQCAknNoteDialogTToneGTVwsViewIdGTUidiRCTDesC8
+;------------------EOF------------------

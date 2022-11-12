@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=UTLCRYPTO Pascal=0
+;---------------------------------------
+1 Name=_ZN10TUtlCrypto13CryptoVersionEv
+2 Name=_ZN10TUtlCrypto18MakeDiffieHellmanLERK6TDesC8S2_
+3 Name=_ZN10TUtlCrypto19DsaVerifySignatureLERK6TDesC8S2_S2_S2_S2_
+4 Name=_ZN10TUtlCrypto19IsWeakCryptoLibraryEv
+5 Name=_ZN10TUtlCrypto20MakeMessageDigesterLENS_19TUtlMessageDigestIdERK6TDesC8
+6 Name=_ZN10TUtlCrypto20RsaPublicKeyDecryptLERK6TDesC8S2_RP6HBufC8
+7 Name=_ZN10TUtlCrypto20RsaPublicKeyEncryptLERK6TDesC8S2_RP6HBufC8
+8 Name=_ZN10TUtlCrypto23MakeSymmetricDecryptorLENS_21TUtlSymmetricCipherIdERK6TDesC8S3_
+9 Name=_ZN10TUtlCrypto23MakeSymmetricEncryptorLENS_21TUtlSymmetricCipherIdERK6TDesC8S3_
+10 Name=_ZN17CUtlDiffieHellman10CompleteKLERK6TDesC8
+11 Name=_ZN17CUtlDiffieHellman10GenerateXLEv
+12 Name=_ZN17CUtlDiffieHellmanD0Ev
+13 Name=_ZN17CUtlDiffieHellmanD1Ev
+14 Name=_ZN17CUtlDiffieHellmanD2Ev
+15 Name=_ZN17CUtlMessageDigest10ReplicateLEv
+16 Name=_ZN17CUtlMessageDigest5CopyLEv
+17 Name=_ZN17CUtlMessageDigest5FinalERK6TDesC8
+18 Name=_ZN17CUtlMessageDigest5FinalEv
+19 Name=_ZN17CUtlMessageDigest5ResetEv
+20 Name=_ZN17CUtlMessageDigest6UpdateERK6TDesC8
+21 Name=_ZN17CUtlMessageDigestD0Ev
+22 Name=_ZN17CUtlMessageDigestD1Ev
+23 Name=_ZN17CUtlMessageDigestD2Ev
+24 Name=_ZN19CUtlSymmetricCipher13ProcessFinalLERK6TDesC8R5TDes8
+25 Name=_ZN19CUtlSymmetricCipher5ResetEv
+26 Name=_ZN19CUtlSymmetricCipher7ProcessERK6TDesC8R5TDes8
+27 Name=_ZN19CUtlSymmetricCipherD0Ev
+28 Name=_ZN19CUtlSymmetricCipherD1Ev
+29 Name=_ZN19CUtlSymmetricCipherD2Ev
+30 Name=_ZNK17CUtlMessageDigest8HashSizeEv
+31 Name=_ZNK17CUtlMessageDigest9BlockSizeEv
+32 Name=_ZNK19CUtlSymmetricCipher15MaxOutputLengthEi
+33 Name=_ZNK19CUtlSymmetricCipher20MaxFinalOutputLengthEi
+34 Name=_ZNK19CUtlSymmetricCipher7KeySizeEv
+35 Name=_ZNK19CUtlSymmetricCipher9BlockSizeEv
+36 Name=_ZTI17CUtlDiffieHellman
+37 Name=_ZTI17CUtlMessageDigest
+38 Name=_ZTI19CUtlSymmetricCipher
+39 Name=_ZTV17CUtlDiffieHellman
+40 Name=_ZTV17CUtlMessageDigest
+41 Name=_ZTV19CUtlSymmetricCipher
+;------------------EOF------------------

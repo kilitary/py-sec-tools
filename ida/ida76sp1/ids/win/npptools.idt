@@ -1,0 +1,67 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=npptools.dll Args=0 Drops=60
+;---------------------------------------
+1 Name=ClearEventData Pascal=0
+2 Name=CreateBlob Pascal=0
+3 Name=CreateNPPInterface Pascal=0
+4 Name=DestroyBlob Pascal=0
+5 Name=DestroyNPPBlobTable Pascal=0
+6 Name=DuplicateBlob Pascal=0
+7 Name=FilterNPPBlob Pascal=0
+8 Name=FindOneOf Pascal=0
+9 Name=FindUnknownBlobCategories Pascal=0
+10 Name=FindUnknownBlobTags Pascal=0
+11 Name=GetBoolFromBlob Pascal=0
+12 Name=GetClassIDFromBlob Pascal=0
+13 Name=GetDwordFromBlob Pascal=0
+14 Name=GetMacAddressFromBlob Pascal=0
+15 Name=GetNPPAddressFilterFromBlob Pascal=0
+16 Name=GetNPPBlobFromUI Pascal=0
+17 Name=GetNPPBlobTable Pascal=0
+18 Name=GetNPPEtypeSapFilter Pascal=0
+19 Name=GetNPPMacTypeAsNumber Pascal=0
+20 Name=GetNPPPatternFilterFromBlob Pascal=0
+21 Name=GetNPPTriggerFromBlob Pascal=0
+22 Name=GetNetworkInfoFromBlob Pascal=0
+23 Name=GetStringFromBlob Pascal=0
+24 Name=GetStringsFromBlob Pascal=0
+25 Name=IsRemoteNPP Pascal=0
+26 Name=LockBlob Pascal=0
+27 Name=MarshalBlob Pascal=0
+28 Name=MergeBlob Pascal=0
+29 Name=NmAddUsedEntry Pascal=8
+30 Name=NmHeapAllocate Pascal=20
+31 Name=NmHeapFree Pascal=8
+32 Name=NmHeapReallocate Pascal=24
+33 Name=NmHeapSetMaxSize Pascal=4
+34 Name=NmHeapSize Pascal=4
+35 Name=NmRemoveUsedEntry Pascal=8
+36 Name=RaiseNMEvent Pascal=0
+37 Name=ReadBlobFromFile Pascal=0
+38 Name=RegCreateBlobKey Pascal=0
+39 Name=RegOpenBlobKey Pascal=0
+40 Name=ReleaseEventSystem Pascal=0
+41 Name=RemoveFromBlob Pascal=0
+42 Name=SelectNPPBlobFromTable Pascal=0
+43 Name=SendEvent Pascal=4
+44 Name=SetBoolInBlob Pascal=0
+45 Name=SetClassIDInBlob Pascal=0
+46 Name=SetDwordInBlob Pascal=0
+47 Name=SetMacAddressInBlob Pascal=0
+48 Name=SetNPPAddressFilterInBlob Pascal=0
+49 Name=SetNPPEtypeSapFilter Pascal=0
+50 Name=SetNPPPatternFilterInBlob Pascal=0
+51 Name=SetNPPTriggerInBlob Pascal=0
+52 Name=SetNetworkInfoInBlob Pascal=0
+53 Name=SetStringInBlob Pascal=0
+54 Name=SubkeyExists Pascal=0
+55 Name=UnMarshalBlob Pascal=0
+56 Name=UnlockBlob Pascal=0
+57 Name=WriteBlobToFile Pascal=0
+58 Name=WriteCrackedBlobToFile Pascal=8
+59 Name=recursiveDeleteKey Pascal=0
+60 Name=setKeyAndValue Pascal=0
+;------------------EOF------------------

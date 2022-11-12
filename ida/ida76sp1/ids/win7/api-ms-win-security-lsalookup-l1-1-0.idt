@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-security-lsalookup-l1-1-0.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=LookupAccountNameLocalA Pascal=24
+2 Name=LookupAccountNameLocalW Pascal=24
+3 Name=LookupAccountSidLocalA Pascal=24
+4 Name=LookupAccountSidLocalW Pascal=24
+5 Name=LsaLookupClose Pascal=4
+6 Name=LsaLookupFreeMemory Pascal=4
+7 Name=LsaLookupGetDomainInfo Pascal=12
+8 Name=LsaLookupManageSidNameMapping Pascal=12
+9 Name=LsaLookupOpenLocalPolicy Pascal=12
+10 Name=LsaLookupTranslateNames Pascal=24
+11 Name=LsaLookupTranslateSids Pascal=20
+;------------------EOF------------------

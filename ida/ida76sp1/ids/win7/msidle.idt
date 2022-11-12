@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msidle.dll Args=0 Drops=7
+;---------------------------------------
+3 Name=?BeginIdleDetection@@YGKP6GXK@ZKK@Z Pascal=12
+4 Name=?EndIdleDetection@@YGHK@Z Pascal=4
+5 Name=?SetIdleTimeout@@YGHKK@Z Pascal=8
+6 Name=?SetIdleNotify@@YGXHK@Z Pascal=8
+7 Name=?SetBusyNotify@@YGXHK@Z Pascal=8
+8 Name=?GetIdleMinutes@@YGKK@Z Pascal=4
+9 Name=?GetIdleSeconds@@YGKK@Z Pascal=4
+;------------------EOF------------------

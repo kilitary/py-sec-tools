@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MEDIASERVERSTUB Pascal=0
+;---------------------------------------
+1 Name=WinsMain__FPv
+2 Name=StaticAnyPointer__Fv
+;------------------EOF------------------

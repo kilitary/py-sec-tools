@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=efscore.dll Args=0 Drops=35
+;---------------------------------------
+1 Name=EfsDllAddUsersToFileSrv Pascal=24
+2 Name=EfsDllAllocateHeap Pascal=4
+3 Name=EfsDllCloseFileRaw Pascal=4
+4 Name=EfsDllConstructEFS Pascal=12
+5 Name=EfsDllDecryptFek Pascal=16
+6 Name=EfsDllDecryptFileSrv Pascal=12
+7 Name=EfsDllDisabled Pascal=0
+8 Name=EfsDllDuplicateEncryptionInfoFileSrv Pascal=32
+9 Name=EfsDllEncryptFileSrv Pascal=12
+10 Name=EfsDllErrorToNtStatus Pascal=8
+11 Name=EfsDllFileKeyInfoSrv Pascal=16
+12 Name=EfsDllFreeHeap Pascal=4
+13 Name=EfsDllFreeUserInfo Pascal=4
+14 Name=EfsDllGetLocalFileName Pascal=12
+15 Name=EfsDllGetLogFile Pascal=8
+16 Name=EfsDllGetUserInfo Pascal=4
+17 Name=EfsDllGetVolumeRoot Pascal=8
+18 Name=EfsDllIsNonEfsSKU Pascal=0
+19 Name=EfsDllLoadUserProfile Pascal=8
+20 Name=EfsDllMarkFileForDelete Pascal=4
+21 Name=EfsDllOnSessionChange Pascal=8
+22 Name=EfsDllOpenFileRaw Pascal=20
+23 Name=EfsDllQueryRecoveryAgentsSrv Pascal=12
+24 Name=EfsDllQueryUsersOnFileSrv Pascal=12
+25 Name=EfsDllReadFileRaw Pascal=8
+26 Name=EfsDllRemoveUsersFromFileSrv Pascal=16
+27 Name=EfsDllSetFileEncryptionKeySrv Pascal=16
+28 Name=EfsDllShareDecline Pascal=12
+29 Name=EfsDllSsoFlushUserCache Pascal=4
+30 Name=EfsDllUnloadUserProfile Pascal=4
+31 Name=EfsDllUsePinForEncryptedFilesSrv Pascal=12
+32 Name=EfsDllValidateEfsStream Pascal=12
+33 Name=EfsDllWriteFileRaw Pascal=8
+34 Name=EfsInitialize Pascal=0
+35 Name=EfsUnInitialize Pascal=0
+;------------------EOF------------------

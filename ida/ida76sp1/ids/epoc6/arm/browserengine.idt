@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BROWSERENGINE Pascal=0
+;---------------------------------------
+1 Name=_._CBrCtl
+2 Name=AddOptionMenuItemsL__CBrCtlRCEikMenuPaneii
+3 Name=AddStateChangeObserverL__CBrCtlPMBrCtlStateChangeObserver
+4 Name=BrowserSettingL__CBrCtlUi
+5 Name=CertInfo__CBrCtl
+6 Name=ClearCache__CBrCtl
+7 Name=ClearItemInCache__CBrCtlRTDesC16
+8 Name=ContentSize__CBrCtl
+9 Name=CreateBrowserControlL__FPCCoeControlGTRectUiUiPMBrCtlSoftkeysObserverPMBrCtlLinkResolverPMBrCtlSpecialLoadObserverPMBrCtlLayoutObserverPMBrCtlDialogsProvider
+10 Name=FocusedElementType__CBrCtl
+11 Name=HandleCommandL__CBrCtli
+12 Name=ImageCountL__CBrCtl
+13 Name=InitLoadDataL__CBrCtlRCTDesC16RCTDataTypeGTUidUiPMBrCtlDataLoadSupplierPPMBrCtlDataLoadConsumer
+14 Name=IsUrlInCache__CBrCtlRTDesC16
+15 Name=LoadDataL__CBrCtlRCTDesC16RCTDesC8RCTDataTypeGTUid
+16 Name=LoadFileL__CBrCtlRRFile
+17 Name=LoadFileL__CBrCtlRCTDesC16
+18 Name=LoadUrlL__CBrCtlRCTDesC16iQTBrCtlDefsTBrCtlCacheMode
+19 Name=MinimumSize__CBrCtl
+20 Name=NavigationAvailable__CBrCtlQTBrCtlDefsTBrCtlNavigationDirection
+21 Name=OfferKeyEventL__CBrCtlRCTKeyEventTEventCode
+22 Name=PageInfoLC__CBrCtlQTBrCtlDefsTBrCtlPageInfo
+23 Name=RemoveLoadEventObserver__CBrCtlPMBrCtlLoadEventObserver
+24 Name=RemoveStateChangeObserver__CBrCtlPMBrCtlStateChangeObserver
+25 Name=SaveToFileL__CBrCtlRCTDesC16
+26 Name=SetBrowserSettingL__CBrCtlUiUi
+27 Name=SetFocus__CBrCtliTDrawNow
+28 Name=SetSelfDownloadContentTypesL__CBrCtlRTDesC16
+29 Name=VersionInfoLC__CBrCtlQTBrCtlDefsTBrCtlVersionInfo
+30 Name=WMLOptionMenuItemsL__CBrCtl
+31 Name=AddLoadEventObserverL__CBrCtlPMBrCtlLoadEventObserver
+32 Name=SetParamL__CBrCtlQTBrCtlDefsTBrCtlParamsRCTDesC16
+;------------------EOF------------------

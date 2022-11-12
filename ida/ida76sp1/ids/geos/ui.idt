@@ -1,0 +1,510 @@
+DECLARATION Nokia 9110 Geos 3.0 library ui.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+101 Name=uidll Args=1 Drops=78
+;---------------------------------------
+1 Name=GenProcessClass
+2 Name=FlowClass
+3 Name=GenTriggerClass
+4 Name=GenDisplayClass
+5 Name=GenApplicationClass
+6 Name=GenFieldClass
+7 Name=GenScreenClass
+8 Name=GenSystemClass
+9 Name=GenViewClass
+10 Name=GenContentClass
+11 Name=GenInteractionClass
+12 Name=GenGlyphClass
+13 Name=GenTextClass
+14 Name=GenDisplayGroupClass
+15 Name=GenPrimaryClass
+16 Name=GenGadgetClass
+18 Name=GenDocumentGroupClass
+19 Name=GenDocumentClass
+20 Name=GenFileSelectorClass
+21 Name=GenBooleanGroupClass
+22 Name=GenItemGroupClass
+23 Name=GenDynamicListClass
+24 Name=GenItemClass
+25 Name=GenBooleanClass
+26 Name=GenControlClass
+27 Name=GenValueClass
+28 Name=GenEditControlClass
+29 Name=GenToolControlClass
+30 Name=GenViewControlClass
+31 Name=GenPageControlClass
+32 Name=GenDisplayControlClass
+36 Name=GenPenInputControlClass
+41 Name=VisSpecNotifyEnabled
+42 Name=VisSpecNotifyNotEnabled
+44 Name=FlowTranslatePassiveButton
+45 Name=FlowGetUIButtonFlags
+46 Name=FlowForceGrab
+47 Name=FlowRequestGrab
+48 Name=FlowReleaseGrab
+49 Name=ClipboardStartQuickTransfer
+50 Name=ClipboardEndQuickTransfer
+51 Name=FlowCheckKbdShortcut
+52 Name=FlowAlterHierarchicalGrab
+53 Name=FlowUpdateHierarchicalGrab
+55 Name=FlowGetTargetAtTargetLevel
+56 Name=ClipboardAbortQuickTransfer
+58 Name=FlowDispatchSendOnOrDestroyClassedEvent
+59 Name=GenClass
+60 Name=GenDocumentControlClass
+61 Name=GenFindMoniker
+62 Name=GenDrawMoniker
+63 Name=GenGetMonikerSize
+64 Name=UserCallSystem
+65 Name=GenCallParent
+66 Name=GenCallApplication
+67 Name=UserSendToApplicationViaProcess
+68 Name=GenFindParent
+69 Name=GenSwapLockParent
+70 Name=GenSendToChildren
+71 Name=GenCallNextSibling
+72 Name=GenInsertChild
+73 Name=GenCopyChunk
+74 Name=GenAddChildUpwardLinkOnly
+75 Name=GenSetUpwardLink
+76 Name=GenRemoveDownwardLink
+77 Name=GenProcessGenAttrsBeforeAction
+78 Name=GenControlOutputActionRegs
+79 Name=GenControlOutputActionStack
+80 Name=GenSpecShrink
+81 Name=GenFindObjectInTree
+82 Name=GenCheckIfFullyUsable
+83 Name=GenCheckIfFullyEnabled
+84 Name=GenCheckIfSpecGrown
+85 Name=GenCheckKbdAccelerator
+86 Name=GenInstantiateIgnoreDirty
+87 Name=GenProcessGenAttrsAfterAction
+88 Name=GenProcessAction
+89 Name=GenRelocMonikerList
+90 Name=UserGetInitFileCategory
+91 Name=USERGETINITFILECATEGORY Pascal=4 \
+	Comment=void pascal UserGetInitFileCategory(char *buf) in ui.goh
+92 Name=GenGotoParentTailRecurse
+95 Name=GenPathSetObjectPath
+96 Name=GenPathGetObjectPath
+97 Name=GenPathSetCurrentPathFromObjectPath
+98 Name=GenPathUnrelocObjectPath
+99 Name=GenPathFetchDiskHandleAndDerefPath
+100 Name=GenPathConstructFullObjectPath
+101 Name=GenViewSetSimpleBounds
+102 Name=GenSetupTrackingArgs
+103 Name=GenReturnTrackingArgs
+104 Name=GenViewSendToLinksIfNeeded
+105 Name=GenBooleanSendMsg
+106 Name=GenItemSendMsg
+107 Name=GenControlSendToOutputRegs
+108 Name=GenControlSendToOutputStack
+109 Name=TokenDefineToken
+110 Name=TokenGetTokenInfo
+111 Name=TokenLookupMoniker
+112 Name=TokenLoadMoniker
+113 Name=TokenRemoveToken
+114 Name=TokenGetTokenStats
+115 Name=TokenLoadToken
+116 Name=TokenLockTokenMoniker
+117 Name=TokenUnlockTokenMoniker
+118 Name=TokenListTokens
+119 Name=UserAllocObjBlock
+120 Name=UserCallFlow
+121 Name=UserCopyChunkOut
+122 Name=UserDoDialog
+123 Name=UserLoadApplication
+124 Name=ClipboardRegisterItem
+125 Name=ClipboardQueryItem
+126 Name=ClipboardRequestItemFormat
+127 Name=ClipboardDoneWithItem
+128 Name=ClipboardUnregisterItem
+129 Name=ClipboardGetNormalItemInfo
+130 Name=ClipboardGetQuickItemInfo
+131 Name=ClipboardGetUndoItemInfo
+132 Name=ClipboardGetClipboardFile
+133 Name=ClipboardAddToNotificationList
+134 Name=ClipboardRemoveFromNotificationList
+135 Name=UserHaveProcessCopyChunkIn
+136 Name=UserHaveProcessCopyChunkOut
+137 Name=UserHaveProcessCopyChunkOver
+138 Name=UserScreenRegister
+139 Name=UserAddAutoExec
+140 Name=UserRemoveAutoExec
+141 Name=UserCheckAcceleratorChar
+142 Name=UserCallApplication
+143 Name=UserCheckInsertableCtrlChar
+144 Name=UserCreateItem
+145 Name=UserAddItemToGroup
+146 Name=UserStandardSound Args=2 \
+	Comment=word cdecl UserStandardSound(StandardSoundType type, ...) in ui.goh
+147 Name=UserSetDefaultMonikerFont
+148 Name=UserGetDisplayType
+149 Name=UserLoadExtendedDriver
+150 Name=UserGetOverstrikeMode
+151 Name=UserSetOverstrikeMode
+152 Name=UserMessageIM
+153 Name=ClipboardGetQuickTransferStatus
+154 Name=ClipboardSetQuickTransferFeedback
+155 Name=ClipboardGetItemInfo
+156 Name=ClipboardClearQuickTransferNotification
+157 Name=ClipboardHandleEndMoveCopy
+158 Name=ClipboardTestItemFormat
+159 Name=ClipboardEnumItemFormats
+160 Name=ClipboardFreeItem
+161 Name=UserGetSpecUIProtocolRequirement
+162 Name=USERGETHWRLIBRARYHANDLE \
+	Comment=GeodeHandle pascal UserGetHWRLibraryHandle(void) in ui.goh
+163 Name=UserCreateInkDestinationInfo
+164 Name=USERGETDEFAULTLAUNCHLEVEL \
+	Comment=UIInterfaceLevel pascal UserGetDefaultLaunchLevel(void) in ui.goh
+165 Name=USERGETINTERFACEOPTIONS \
+	Comment=UIInterfaceOptions pascal UserGetInterfaceOptions(void) in ui.goh
+166 Name=GenValueSendMsg
+167 Name=VisEmptyClass
+168 Name=VisClass
+169 Name=VisCompClass
+170 Name=VisContentClass
+171 Name=VisInitialize
+172 Name=VisCompInitialize
+173 Name=VisGetSize
+174 Name=VisGetBounds
+175 Name=VisGetCenter
+176 Name=VisCallParent
+177 Name=VisFindParent
+178 Name=VisSwapLockParent
+179 Name=VisSendToChildren
+180 Name=VisCallChildUnderPoint
+181 Name=VisCallFirstChild
+182 Name=VisRecalcSizeAndInvalIfNeeded
+183 Name=VisSendPositionAndInvalIfNeeded
+184 Name=VisTestPointInBounds
+185 Name=VisQueryWindow
+186 Name=VisQueryParentWin
+187 Name=VisGetParentGeometry
+188 Name=VisMarkInvalid
+189 Name=VisSetSize
+190 Name=VisSetPosition
+191 Name=VisFindMoniker
+192 Name=VisGetMonikerSize
+193 Name=VisGetMonikerPos
+194 Name=VisDrawMoniker
+195 Name=VisInsertChild
+196 Name=VisConvertSpecVisSize
+197 Name=VisConvertCoordsToRatio
+198 Name=VisConvertRatioToCoords
+199 Name=VisGetVisParent
+200 Name=VisAddChildRelativeToGen
+201 Name=VisGetSpecificVisObject
+202 Name=VisMarkFullyInvalid
+203 Name=VisCheckIfSpecBuilt
+204 Name=VisCheckIfVisGrown
+205 Name=VisGrabMouse
+206 Name=VisForceGrabMouse
+207 Name=VisGrabLargeMouse
+208 Name=VisForceGrabLargeMouse
+209 Name=VisReleaseMouse
+210 Name=VisAddButtonPrePassive
+211 Name=VisRemoveButtonPrePassive
+212 Name=VisAddButtonPostPassive
+213 Name=VisRemoveButtonPostPassive
+214 Name=VisTakeGadgetExclAndGrab
+215 Name=VisGrabKbd
+216 Name=VisForceGrabKbd
+217 Name=VisReleaseKbd
+218 Name=VisGetParentCenter
+219 Name=VisSendCenter
+220 Name=VisCallNextSibling
+221 Name=VisNavigateCommon
+222 Name=VisCheckOptFlags
+223 Name=VisRemove
+224 Name=VisIfFlagSetCallVisChildren
+225 Name=VisIfFlagSetCallGenChildren
+226 Name=VisMarkInvalidOnParent
+227 Name=VisSpecBuild
+228 Name=VisCompGetCenter
+229 Name=VisCompRecalcSize
+230 Name=VisCheckMnemonic
+231 Name=VisSpecBuildSetEnabledState
+232 Name=VisSendSpecBuild
+233 Name=VisSendSpecBuildBranch
+234 Name=VisCompPosition
+235 Name=VisSetNotRealized
+236 Name=VisApplySizeHints
+237 Name=VisSetupSizeArgs
+238 Name=VisApplySizeArgsToWidth
+239 Name=VisApplySizeArgsToHeight
+240 Name=VisApplyInitialSizeArgs
+241 Name=VisGetBoundsInsideMargins
+242 Name=VisCompMakePressesInk
+243 Name=VisCompMakePressesNotInk
+244 Name=VisCallChildrenInBounds
+245 Name=VisObjectHandlesInkReply
+246 Name=VisCompDraw
+247 Name=VisCallCommon
+248 Name=VisGotoParentTailRecurse
+249 Name=MetaGrabFocusExclLow
+250 Name=MetaReleaseFocusExclLow
+251 Name=MetaGrabTargetExclLow
+252 Name=MetaReleaseTargetExclLow
+253 Name=MetaGrabModelExclLow
+254 Name=MetaReleaseModelExclLow
+255 Name=MetaReleaseFTExclLow
+256 Name=ECCheckUILMemOD
+257 Name=ECCheckODCXDX
+258 Name=ECCheckLMemODCXDX
+259 Name=ECCheckUILMemODCXDX
+260 Name=ECEnsureInGenTree
+261 Name=ECVisStartNavigation
+262 Name=ECVisEndNavigation
+263 Name=ECCheckVisFlags
+264 Name=ECCheckVisCoords
+265 Name=GenEnsureNotUsable
+266 Name=VisCheckVisAssumption
+267 Name=CheckForDamagedES
+268 Name=GenCheckGenAssumption
+269 Name=CLIPBOARDREGISTERITEM Pascal=6 \
+	Comment=Boolean pascal ClipboardRegisterItem(TransferBlockID header, ClipboardItemFlags flags) in objects/clipbrd.goh
+270 Name=CLIPBOARDUNREGISTERITEM Pascal=4 \
+	Comment=void pascal ClipboardUnregisterItem(optr owner) in objects/clipbrd.goh
+271 Name=CLIPBOARDQUERYITEM Pascal=6 \
+	Comment=void pascal ClipboardQueryItem(word ClipboardItemFlags, ClipboardQueryArgs *retValues) in objects/clipbrd.goh
+272 Name=CLIPBOARDTESTITEMFORMAT Pascal=8 \
+	Comment=Boolean pascal ClipboardTestItemFormat(TransferBlockID header, ClipboardItemFormatID format) in objects/clipbrd.goh
+273 Name=CLIPBOARDENUMITEMFORMATS Pascal=10 \
+	Comment=word pascal ClipboardEnumItemFormats(TransferBlockID header, word maxNumFormats, ClipboardItemFormatID *buffer) in objects/clipbrd.goh
+274 Name=CLIPBOARDGETITEMINFO Pascal=4 \
+	Comment=dword pascal ClipboardGetItemInfo(TransferBlockID header) in objects/clipbrd.goh
+275 Name=CLIPBOARDREQUESTITEMFORMAT Pascal=12 \
+	Comment=void pascal ClipboardRequestItemFormat(ClipboardItemFormatID format, TransferBlockID header, ClipboardRequestArgs *retValue) in objects/clipbrd.goh
+276 Name=CLIPBOARDDONEWITHITEM Pascal=4 \
+	Comment=void pascal ClipboardDoneWithItem(TransferBlockID header) in objects/clipbrd.goh
+277 Name=CLIPBOARDGETNORMALITEMINFO \
+	Comment=TransferBlockID pascal ClipboardGetNormalItemInfo(void) in objects/clipbrd.goh
+278 Name=CLIPBOARDGETQUICKITEMINFO \
+	Comment=TransferBlockID pascal ClipboardGetQuickItemInfo(void) in objects/clipbrd.goh
+279 Name=CLIPBOARDGETUNDOITEMINFO \
+	Comment=TransferBlockID pascal ClipboardGetUndoItemInfo(void) in objects/clipbrd.goh
+280 Name=CLIPBOARDGETCLIPBOARDFILE \
+	Comment=VMFileHandle pascal ClipboardGetClipboardFile(void) in objects/clipbrd.goh
+281 Name=CLIPBOARDADDTONOTIFICATIONLIST Pascal=4 \
+	Comment=void pascal ClipboardAddToNotificationList(optr notificationOD) in objects/clipbrd.goh
+282 Name=CLIPBOARDREMOVEFROMNOTIFICATIONLIST Pascal=4 \
+	Comment=Boolean pascal ClipboardRemoveFromNotificationList(optr notificationOD) in objects/clipbrd.goh
+283 Name=CLIPBOARDSTARTQUICKTRANSFER Pascal=16 \
+	Comment=Boolean pascal ClipboardStartQuickTransfer(ClipboardQuickTransferFlags flags, ClipboardQuickTransferFeedback initialCursor, word mouseXPos, word mouseYPos, ClipboardQuickTransferRegionInfo *regionParams, optr notificationOD) in objects/clipbrd.goh
+284 Name=CLIPBOARDGETQUICKTRANSFERSTATUS \
+	Comment=Boolean pascal ClipboardGetQuickTransferStatus(void) in objects/clipbrd.goh
+285 Name=CLIPBOARDSETQUICKTRANSFERFEEDBACK Pascal=4 \
+	Comment=void pascal ClipboardSetQuickTransferFeedback( ClipboardQuickTransferFeedback cursor, UIFunctionsActive buttonFlags) in objects/clipbrd.goh
+286 Name=CLIPBOARDENDQUICKTRANSFER Pascal=2 \
+	Comment=void pascal ClipboardEndQuickTransfer(ClipboardQuickNotifyFlags flags) in objects/clipbrd.goh
+287 Name=CLIPBOARDABORTQUICKTRANSFER \
+	Comment=void pascal ClipboardAbortQuickTransfer(void) in objects/clipbrd.goh
+288 Name=CLIPBOARDCLEARQUICKTRANSFERNOTIFICATION Pascal=4 \
+	Comment=void pascal ClipboardClearQuickTransferNotification(optr notificationOD) in objects/clipbrd.goh
+289 Name=CLIPBOARDHANDLEENDMOVECOPY Pascal=6 \
+	Comment=dword pascal ClipboardHandleEndMoveCopy(word activeGrab, word uifa, Boolean checkQTInProgress) in objects/clipbrd.goh
+290 Name=USERDODIALOG Pascal=4 \
+	Comment=word pascal UserDoDialog(optr dialogBox) in udialog.h
+291 Name=GENCOPYCHUNK Pascal=8 \
+	Comment=word pascal GenCopyChunk(MemHandle destBlock, MemHandle blk, ChunkHandle chnk, CompChildFlags flags) in objects/genc.goh
+292 Name=GENINSERTCHILD Pascal=14 \
+	Comment=void pascal GenInsertChild(MemHandle mh, ChunkHandle chnk, optr childToAdd, optr referenceChild, CompChildFlags flags) in objects/genc.goh
+293 Name=GENSETUPWARDLINK Pascal=8 \
+	Comment=void pascal GenSetUpwardLink(MemHandle mh, ChunkHandle chnk, optr parent) in objects/genc.goh
+294 Name=GENREMOVEDOWNWARDLINK Pascal=6 \
+	Comment=void pascal GenRemoveDownwardLink(MemHandle mh, ChunkHandle chnk, CompChildFlags flags) in objects/genc.goh
+295 Name=GENSPECSHRINK Pascal=4 \
+	Comment=void pascal GenSpecShrink(MemHandle mh, ChunkHandle chnk) in objects/genc.goh
+296 Name=GENPROCESSGENATTRSBEFOREACTION Pascal=4 \
+	Comment=void pascal GenProcessGenAttrsBeforeAction( MemHandle mh, ChunkHandle chnk) in objects/genc.goh
+297 Name=GENPROCESSGENATTRSAFTERACTION Pascal=4 \
+	Comment=void pascal GenProcessGenAttrsAfterAction( MemHandle mh, ChunkHandle chnk) in objects/genc.goh
+298 Name=GENFINDOBJECTINTREE Pascal=8 \
+	Comment=optr pascal GenFindObjectInTree(optr startObject, dword childTable) in objects/genc.goh
+299 Name=FLOWALTERHIERARCHICALGRAB Pascal=16 \
+	Comment=Segment pascal FlowAlterHierarchicalGrab(optr objectOptr, Message gainedMessage, word offsetToMasterInstance, word offsetToHierarchicalGrab, optr objectToBeGivenExclusive, HierarchicalGrabFlags flags) in objects/uiinputc.goh
+300 Name=FLOWUPDATEHIERARCHICALGRAB Pascal=12 \
+	Comment=Segment pascal FlowUpdateHierarchicalGrab(optr objectOptr, Message gainedMessage, word offsetToMasterInstance, word offsetToHierarchicalGrab, Message updateMessage) in objects/uiinputc.goh
+302 Name=FLOWDISPATCHSENDONORDESTROYCLASSEDEVENT Pascal=20 \
+	Comment=Boolean pascal FlowDispatchSendOnOrDestroyClassedEvent( MessageReturnValues *retvals, optr objectOptr, Message messageToSend, EventHandle classedEvent, word otherData, optr objectToSendTo, MessageFlags flags) in objects/uiinputc.goh
+303 Name=TOKENDEFINETOKEN Pascal=12 \
+	Comment=word pascal TokenDefineToken(dword tokenChars, ManufacturerID manufacturerID, optr monikerList, TokenFlags flags) in token.h
+304 Name=TOKENGETTOKENINFO Pascal=10 \
+	Comment=Boolean pascal TokenGetTokenInfo(dword tokenChars, ManufacturerID manufacturerID, TokenFlags *flags) in token.h
+305 Name=TOKENLOOKUPMONIKER Pascal=14 \
+	Comment=Boolean pascal TokenLookupMoniker(dword tokenChars, ManufacturerID manufacturerID, DisplayType displayType, VisMonikerSearchFlags searchFlags, TokenMonikerInfo *tokenMonikerInfo) in token.h
+306 Name=TOKENLOADMONIKERBLOCK Pascal=18 \
+	Comment=Boolean pascal TokenLoadMonikerBlock(dword tokenChars, ManufacturerID manufacturerID, DisplayType displayType, VisMonikerSearchFlags searchFlags, word *blockSize, MemHandle *blockHandle) in token.h
+307 Name=TOKENLOADMONIKERCHUNK Pascal=20 \
+	Comment=Boolean pascal TokenLoadMonikerChunk(dword tokenChars, ManufacturerID manufacturerID, DisplayType displayType, VisMonikerSearchFlags searchFlags, MemHandle lmemBlock, word *chunkSize, ChunkHandle *chunkHandle) in token.h
+308 Name=TOKENLOADMONIKERBUFFER Pascal=20 \
+	Comment=Boolean pascal TokenLoadMonikerBuffer(dword tokenChars, ManufacturerID manufacturerID, DisplayType displayType, VisMonikerSearchFlags searchFlags, void *buffer, word bufferSize, word *bytesReturned) in token.h
+309 Name=TOKENREMOVETOKEN Pascal=6 \
+	Comment=Boolean pascal TokenRemoveToken(dword tokenChars, ManufacturerID manufacturerID) in token.h
+310 Name=TOKENGETTOKENSTATS Pascal=6 \
+	Comment=void pascal TokenGetTokenStats(dword tokenChars, ManufacturerID manufacturerID) in token.h
+311 Name=TOKENLOADTOKENBLOCK Pascal=14 \
+	Comment=Boolean pascal TokenLoadTokenBlock(dword tokenChars, ManufacturerID manufacturerID, word *blockSize, MemHandle *blockHandle) in token.h
+312 Name=TOKENLOADTOKENCHUNK Pascal=16 \
+	Comment=Boolean pascal TokenLoadTokenChunk(dword tokenChars, ManufacturerID manufacturerID, MemHandle lmemBlock, word *chunkSize, ChunkHandle *chunkHandle) in token.h
+313 Name=TOKENLOADTOKENBUFFER Pascal=10 \
+	Comment=Boolean pascal TokenLoadTokenBuffer(dword tokenChars, ManufacturerID manufacturerID, TokenEntry *buffer) in token.h
+314 Name=TOKENLOCKTOKENMONIKER Pascal=6 \
+	Comment=void * pascal TokenLockTokenMoniker(TokenMonikerInfo tokenMonikerInfo) in token.h
+315 Name=TOKENUNLOCKTOKENMONIKER Pascal=4 \
+	Comment=void pascal TokenUnlockTokenMoniker(void *moniker) in token.h
+316 Name=TOKENLISTTOKENS Pascal=6 \
+	Comment=dword pascal TokenListTokens (TokenRangeFlags tokenRangeFlags, word headerSize, ManufacturerID manufacturerID) in token.h
+317 Name=_UserStandardSound_Old
+318 Name=USERADDAUTOEXEC Pascal=4 \
+	Comment=void pascal UserAddAutoExec(const char *appName) in ui.goh
+319 Name=USERREMOVEAUTOEXEC Pascal=4 \
+	Comment=void pascal UserRemoveAutoExec(const char *appName) in ui.goh
+320 Name=USERSTANDARDDIALOG Pascal=22 \
+	Comment=word pascal UserStandardDialog(char *helpContext, char *customTriggers, char *arg2, char *arg1, char *string, CustomDialogBoxFlags dialogFlags) in udialog.h
+321 Name=USERSTANDARDDIALOGOPTR Pascal=22 \
+	Comment=word pascal UserStandardDialogOptr(optr helpContext, optr customTriggers, optr arg2, optr arg1, optr string, CustomDialogBoxFlags dialogFlags) in udialog.h
+322 Name=GenToolGroupClass
+323 Name=GENPROCESSUNDOGETFILE \
+	Comment=VMFileHandle pascal GenProcessUndoGetFile(void) in objects/gprocc.goh
+324 Name=GENPROCESSUNDOCHECKIFIGNORING \
+	Comment=Boolean pascal GenProcessUndoCheckIfIgnoring(void) in objects/gprocc.goh
+326 Name=UserCreateDialog
+327 Name=UserDestroyDialog
+328 Name=USERCREATEDIALOG Pascal=4 \
+	Comment=optr pascal UserCreateDialog(optr dialogBox) in udialog.h
+329 Name=USERDESTROYDIALOG Pascal=4 \
+	Comment=void pascal UserDestroyDialog(optr dialogBox) in udialog.h
+330 Name=IACPRegisterServer
+331 Name=IACPUnregisterServer
+332 Name=IACPConnect
+333 Name=IACPSendMessage
+334 Name=IACPSendMessageToServer
+335 Name=IACPShutdown
+336 Name=IACPShutdownAll
+337 Name=IACPProcessMessage
+338 Name=IACPLostConnection
+339 Name=IACPShutdownConnection
+340 Name=IACPCreateDefaultLaunchBlock
+341 Name=IACPGetServerNumber
+342 Name=IACPREGISTERSERVER Pascal=12 \
+	Comment=void pascal IACPRegisterServer(GeodeToken *list, optr server, IACPServerMode mode, IACPServerFlags flags) in iacp.goh
+343 Name=IACPUNREGISTERSERVER Pascal=8 \
+	Comment=void pascal IACPUnregisterServer(GeodeToken *list, optr server) in iacp.goh
+344 Name=IACPCONNECT Pascal=16 \
+	Comment=IACPConnection pascal IACPConnect(GeodeToken *list, IACPConnectFlags flags, MemHandle appLaunchBlock, optr client, word *numServersPtr) in iacp.goh
+345 Name=IACPSENDMESSAGE Pascal=10 \
+	Comment=word pascal IACPSendMessage(IACPConnection connection, EventHandle msgToSend, TravelOption topt, EventHandle completionMsg, IACPSide side) in iacp.goh
+346 Name=IACPSENDMESSAGETOSERVER Pascal=10 \
+	Comment=word pascal IACPSendMessageToServer(IACPConnection connection, EventHandle msgToSend, TravelOption topt, EventHandle completionMsg, word serverNum) in iacp.goh
+347 Name=IACPSHUTDOWN Pascal=6 \
+	Comment=void pascal IACPShutdown(IACPConnection connection, optr server) in iacp.goh
+348 Name=IACPSHUTDOWNALL Pascal=4 \
+	Comment=void pascal IACPShutdownAll(optr obj) in iacp.goh
+349 Name=IACPPROCESSMESSAGE Pascal=10 \
+	Comment=void pascal IACPProcessMessage(optr oself, EventHandle msgToSend, TravelOption topt, EventHandle completionMsg) in iacp.goh
+350 Name=IACPLOSTCONNECTION Pascal=6 \
+	Comment=void pascal IACPLostConnection(optr oself, IACPConnection connection) in iacp.goh
+352 Name=IACPCREATEDEFAULTLAUNCHBLOCK Pascal=2 \
+	Comment=MemHandle pascal IACPCreateDefaultLaunchBlock(word appMode) in iacp.goh
+353 Name=IACPGETSERVERNUMBER Pascal=6 \
+	Comment=word pascal IACPGetServerNumber(IACPConnection connection, optr server) in iacp.goh
+354 Name=UserRegisterForTextContext
+355 Name=UserUnregisterForTextContext
+356 Name=USERREGISTERFORTEXTCONTEXT Pascal=4 \
+	Comment=void pascal UserRegisterForTextContext(optr obj) in ui.goh
+357 Name=USERUNREGISTERFORTEXTCONTEXT Pascal=4 \
+	Comment=void pascal UserUnregisterForTextContext(optr obj) in ui.goh
+358 Name=USERCHECKIFCONTEXTUPDATEDESIRED \
+	Comment=Boolean pascal UserCheckIfContextUpdateDesired(void) in ui.goh
+359 Name=UserGetDefaultMonikerFont
+360 Name=USERGETDEFAULTUILEVEL \
+	Comment=UIInterfaceLevel pascal UserGetDefaultUILevel(void) in ui.goh
+361 Name=HelpControlClass
+362 Name=HelpTextClass
+363 Name=HelpSendHelpNotification
+364 Name=HelpSendFocusNotification
+365 Name=VISOBJECTHANDLESINKREPLY \
+	Comment=void pascal VisObjectHandlesInkReply() in objects/visc.goh
+366 Name=ExpressMenuControlClass
+367 Name=UserDiskRestore
+368 Name=USERDISKRESTORE Pascal=8 \
+	Comment=word pascal UserDiskRestore(void *savedData, word *diskHandlePtr) in ui.goh
+369 Name=USERGETLAUNCHMODEL \
+	Comment=UILaunchModel pascal UserGetLaunchModel(void) in ui.goh
+370 Name=UserGetKbdAcceleratorMode
+371 Name=VisCallParentEnsureStack
+372 Name=UIApplicationClass
+373 Name=USERGETLAUNCHOPTIONS \
+	Comment=UILaunchOptions pascal UserGetLaunchOptions(void) in ui.goh
+374 Name=ClipboardRemoteSend
+375 Name=ClipboardRemoteReceive
+376 Name=CLIPBOARDREMOTESEND \
+	Comment=Boolean pascal ClipboardRemoteSend(void) in objects/clipbrd.goh
+377 Name=CLIPBOARDREMOTERECEIVE \
+	Comment=Boolean pascal ClipboardRemoteReceive(void) in objects/clipbrd.goh
+378 Name=USERCREATEINKDESTINATIONINFO Pascal=12 \
+	Comment=MemHandle pascal UserCreateInkDestinationInfo(optr dest, GStateHandle gs, word brushSize, GestureCallback *callback) in ui.goh
+380 Name=GenCallParentEnsureStack
+381 Name=EMCInteractionClass
+382 Name=USERLOADAPPLICATION Pascal=16 \
+	Comment=GeodeHandle pascal UserLoadApplication(AppLaunchFlags alf, Message attachMethod, MemHandle appLaunchBlock, char *filename, StandardPath sPath, GeodeLoadError *err) in ui.goh
+383 Name=FLOWCHECKKBDSHORTCUT Pascal=12 \
+	Comment=word pascal FlowCheckKbdShortcut(KeyboardShortcut *shortcutTable, word numEntriesInTable, word character, word flags, word state) in objects/uiinputc.goh
+384 Name=HELPSENDHELPNOTIFICATION Pascal=10 \
+	Comment=void pascal HelpSendHelpNotification(word HelpType, const char *contextname, const char *filename) in objects/helpcc.goh
+385 Name=EMCPanelInteractionClass
+386 Name=IACPRegisterDocument
+387 Name=IACPUnregisterDocument
+388 Name=IACPFinishConnect
+389 Name=IACPREGISTERDOCUMENT Pascal=10 \
+	Comment=void pascal IACPRegisterDocument(optr server, word disk, dword fileID) in iacp.goh
+390 Name=IACPUNREGISTERDOCUMENT Pascal=10 \
+	Comment=void pascal IACPUnregisterDocument(optr server, word disk, dword fileID) in iacp.goh
+391 Name=IACPFINISHCONNECT Pascal=6 \
+	Comment=void pascal IACPFinishConnect(IACPConnection connection, optr server) in iacp.goh
+392 Name=IACPGetDocumentID
+393 Name=USERALLOCOBJBLOCK Pascal=2 \
+	Comment=MemHandle pascal UserAllocObjBlock (ThreadHandle threadHandle) in ui.goh
+394 Name=TOKENOPENLOCALTOKENDB \
+	Comment=word pascal TokenOpenLocalTokenDB(void) in token.h
+395 Name=TOKENCLOSELOCALTOKENDB \
+	Comment=void pascal TokenCloseLocalTokenDB(void) in token.h
+396 Name=CLIPBOARDOPENCLIPBOARDFILE \
+	Comment=word pascal ClipboardOpenClipboardFile(void) in objects/clipbrd.goh
+397 Name=CLIPBOARDCLOSECLIPBOARDFILE \
+	Comment=void pascal ClipboardCloseClipboardFile(void) in objects/clipbrd.goh
+399 Name=UserEncryptPassword
+400 Name=USERENCRYPTPASSWORD Pascal=8 \
+	Comment=Boolean pascal UserEncryptPassword(const char *string, char *dest) in ui.goh
+401 Name=GENAPPCLOSEKEYBOARD
+402 Name=UserGetFloatingKbdEnabledStatus
+403 Name=IACPLocateServer
+404 Name=IACPBindToken
+405 Name=IACPUnbindToken
+406 Name=IACPLOCATESERVER Pascal=4 \
+	Comment=MemHandle pascal IACPLocateServer(const GeodeToken *token) in iacp.goh
+407 Name=IACPBINDTOKEN Pascal=8 \
+	Comment=void pascal IACPBindToken(const GeodeToken *token, const char *appPath) in iacp.goh
+408 Name=IACPUNBINDTOKEN Pascal=4 \
+	Comment=void pascal IACPUnbindToken(const GeodeToken *token) in iacp.goh
+409 Name=EMObjectManagerClass
+410 Name=EMTriggerClass
+411 Name=ClipboardFreeItemsNotInUse
+412 Name=GenViewSendToLinksIfNeededDirection
+413 Name=IACPConnectToDocumentServer
+414 Name=IACPCONNECTTODOCUMENTSERVER Pascal=16 \
+	Comment=IACPConnection pascal IACPConnectToDocumentServer(const char *pathname, const char *filename, DiskHandle disk, IACPConnectFlags flags, optr client) in iacp.goh
+415 Name=IACPSendMessageAndWait
+416 Name=IACPSENDMESSAGEANDWAIT Pascal=8 \
+	Comment=word pascal IACPSendMessageAndWait(IACPConnection connection, EventHandle msgToSend, TravelOption topt, IACPSide side) in iacp.goh
+417 Name=IACPGETDOCUMENTID Pascal=12 \
+	Comment=dword pascal IACPGetDocumentID(const char *pathname, const char *filename, DiskHandle *disk) in iacp.goh
+418 Name=_UserStandardSound
+419 Name=UserStopStandardSound
+420 Name=USERSTOPSTANDARDSOUND Pascal=4 \
+	Comment=void pascal UserStopStandardSound(StandardSoundType soundType, word countID) in ui.goh
+;------------------EOF------------------

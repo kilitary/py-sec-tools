@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MONCALLS.dll Pascal=0
+;---------------------------------------
+1 Name=DosMonWrite
+2 Name=DosMonRead
+3 Name=DosMonClose
+4 Name=DosMonOpen
+5 Name=DosMonReg
+;------------------EOF------------------

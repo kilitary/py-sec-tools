@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=txfw32.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=TxfGetThreadMiniVersionForCreate Pascal=4
+2 Name=TxfLogCreateFileReadContext Pascal=28
+3 Name=TxfLogCreateRangeReadContext Pascal=36
+4 Name=TxfLogDestroyReadContext Pascal=4
+5 Name=TxfLogReadRecords Pascal=20
+6 Name=TxfLogRecordGetFileName Pascal=20
+7 Name=TxfLogRecordGetGenericType Pascal=16
+8 Name=TxfReadMetadataInfo Pascal=20
+9 Name=TxfSetThreadMiniVersionForCreate Pascal=4
+;------------------EOF------------------

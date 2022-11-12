@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EFFECTBASE Pascal=0
+;---------------------------------------
+1 Name=_ZN12CAudioEffect17RegisterObserverLER20MAudioEffectObserver
+2 Name=_ZN12CAudioEffect18UnRegisterObserverER20MAudioEffectObserver
+3 Name=_ZN12CAudioEffect7EnableLEv
+4 Name=_ZN12CAudioEffect8DisableLEv
+5 Name=_ZN12CAudioEffect8EnforceLEi
+6 Name=_ZN12CAudioEffectC2Ev
+7 Name=_ZN12CAudioEffectD0Ev
+8 Name=_ZN12CAudioEffectD1Ev
+9 Name=_ZN12CAudioEffectD2Ev
+10 Name=_ZNK12CAudioEffect10IsEnforcedEv
+11 Name=_ZNK12CAudioEffect16HaveUpdateRightsEv
+12 Name=_ZNK12CAudioEffect9IsEnabledEv
+13 Name=_ZTI12CAudioEffect
+14 Name=_ZTV12CAudioEffect
+;------------------EOF------------------

@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WPTWATCHER Pascal=0
+;---------------------------------------
+1 Name=_Z24ImplementationGroupProxyRi
+2 Name=_ZN24CSmsWatcherLoaderCdmaWPTD0Ev
+3 Name=_ZN24CSmsWatcherLoaderCdmaWPTD1Ev
+4 Name=_ZN24CSmsWatcherLoaderCdmaWPTD2Ev
+5 Name=_ZN25CSmsMessageHandlerCdmaWPT24DoHandleMessageTypeDACKLEv
+6 Name=_ZN25CSmsMessageHandlerCdmaWPT24DoHandleMessageTypeRACKLEv
+7 Name=_ZN25CSmsMessageHandlerCdmaWPT24DoHandleMessageTypeUACKLEv
+8 Name=_ZN25CSmsMessageHandlerCdmaWPT27DoHandleMessageTypeDeliverLEv
+9 Name=_ZTI24CSmsWatcherLoaderCdmaWPT
+10 Name=_ZTI25CSmsMessageHandlerCdmaWPT
+11 Name=_ZTV24CSmsWatcherLoaderCdmaWPT
+12 Name=_ZTV25CSmsMessageHandlerCdmaWPT
+;------------------EOF------------------

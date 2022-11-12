@@ -1,0 +1,66 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SPL1B.dll Pascal=0
+;---------------------------------------
+1 Name=SplQmOpen
+2 Name=SplQmStartDoc
+3 Name=SplQmEndDoc
+4 Name=SplQmWrite
+5 Name=SplQmAbort
+6 Name=SplQmClose
+7 Name=SplMessageBox
+8 Name=SplQmAbortDoc
+41 Name=SplQmListQueues
+42 Name=SplQmQueryQInfo
+43 Name=SplQmListJobs
+44 Name=SplQmQueryJInfo
+45 Name=SplQmHoldQueue
+46 Name=SplQmReleaseQueue
+47 Name=SplQmHoldJob
+48 Name=SplQmReleaseJob
+49 Name=SplQmCancelJob
+50 Name=SplQmRestartJob
+51 Name=SplQmRepeatJob
+52 Name=SplQmPrintJobNext
+53 Name=SplQmQueryPInfo
+54 Name=SplQmChangeJobPrty
+55 Name=SplQmWriteFile
+56 Name=SplQmSetStatus
+70 Name=SplQmSpoolerPresent
+71 Name=SplQmChooseLogAddr
+74 Name=CpaConfigureSpoolerIn
+80 Name=SplQmInitialise
+90 Name=SplQmCancelPrintingJob
+91 Name=SplQmCancelWaitingJobs
+130 Name=SplVqifInit
+140 Name=SplCpExitUpdate
+155 Name=CpaPrmSpool
+158 Name=SplLogErr
+170 Name=SplDevStartDw
+171 Name=SplSysInit
+206 Name=NetAlertRaise
+207 Name=NetServerEnum
+212 Name=NetAccessCheck
+220 Name=NetCharDevGetInfo
+255 Name=NetServerGetInfo
+266 Name=NetShareDel
+267 Name=NetShareEnum
+268 Name=NetShareGetInfo
+273 Name=NetUseAdd
+274 Name=NetUseDel
+275 Name=NetUseEnum
+276 Name=NetUseGetInfo
+281 Name=NetUserGetInfo
+284 Name=NetWkstaGetInfo
+312 Name=NetiIsRemote
+313 Name=NetiRemoteApi
+371 Name=NetServerEnum2
+459 Name=NetUserRestrict
+462 Name=Lpfn_Pg_Caller
+484 Name=_P12Functions
+490 Name=NetiHasAuthority
+499 Name=I_NetPathType
+508 Name=_Rdr_Open
+;------------------EOF------------------

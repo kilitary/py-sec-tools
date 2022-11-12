@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMUM Pascal=0
+;---------------------------------------
+1 Name=NewL__13CSmsMtmUiDataR17CRegisteredMtmDll
+2 Name=NewL__9CSmsMtmUiR8CBaseMtmR17CRegisteredMtmDll
+;------------------EOF------------------

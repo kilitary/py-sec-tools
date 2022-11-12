@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=printui.dll Args=0 Drops=25
+;---------------------------------------
+1 Name=ConstructPrinterFriendlyName Pascal=12
+2 Name=DocumentPropertiesWrap Pascal=28
+3 Name=PnPInterface Pascal=8
+4 Name=PrintUIEntryW Pascal=16
+5 Name=PrinterPropPageProvider Pascal=12
+6 Name=ConnectToPrinterDlg Pascal=8
+7 Name=ConnectToPrinterPropertyPage Pascal=12
+8 Name=DllCanUnloadNow Pascal=0
+9 Name=DllGetClassObject Pascal=12
+10 Name=DllMain Pascal=12
+11 Name=PrintNotifyTray_Exit Pascal=0
+12 Name=PrintNotifyTray_Init Pascal=0
+13 Name=RegisterPrintNotify Pascal=16
+14 Name=ShowErrorMessageHR Pascal=28
+15 Name=ShowErrorMessageSC Pascal=28
+16 Name=UnregisterPrintNotify Pascal=12
+17 Name=bFolderEnumPrinters Pascal=20
+18 Name=bFolderGetPrinter Pascal=20
+19 Name=bFolderRefresh Pascal=8
+20 Name=bPrinterSetup Pascal=24
+21 Name=vDocumentDefaults Pascal=16
+22 Name=vPrinterPropPages Pascal=16
+23 Name=vQueueCreate Pascal=16
+24 Name=vServerPropPages Pascal=16
+200 Name=?AddPrinterConnectionNoUI@@YGPAXPBGPAH@Z Pascal=8
+;------------------EOF------------------

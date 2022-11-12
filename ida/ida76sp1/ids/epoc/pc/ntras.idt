@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NTRAS Pascal=0
+;---------------------------------------
+1 Name=_Install
+2 Name=?Open@RNtRas@@QAEHXZ
+3 Name=?Start@RNtRas@@QAEHW4TConnectType@1@@Z
+;------------------EOF------------------

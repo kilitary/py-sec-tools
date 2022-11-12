@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BIOUTIL Pascal=0
+;---------------------------------------
+1 Name=_ZN13CBioIconUtils4NewLER7CCoeEnv
+2 Name=_ZN13CBioIconUtilsD0Ev
+3 Name=_ZN13CBioIconUtilsD1Ev
+4 Name=_ZN13CBioIconUtilsD2Ev
+5 Name=_ZNK13CBioIconUtils11ContextIconERK9TMsvEntryi
+6 Name=_ZTI13CBioIconUtils
+7 Name=_ZTI9CBioIcons
+8 Name=_ZTV13CBioIconUtils
+9 Name=_ZTV9CBioIcons
+;------------------EOF------------------

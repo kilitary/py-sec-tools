@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PLP Pascal=0
+;---------------------------------------
+1 Name=InstallPlpProto
+2 Name=__8TPlpAddrUiRC6TDesC8Ui
+3 Name=Interface__C8TPlpAddr
+4 Name=LinkConfig__C18TPlpSerialCategoryUiR16TPlpSerialConfig
+5 Name=PortConfig__C18TPlpSerialCategoryRC6TDesC8R16TPlpSerialConfig
+6 Name=ServiceName__C8TPlpAddr
+7 Name=SetInterface__8TPlpAddrUi
+8 Name=SetLinkConfigL__18TPlpSerialCategoryUiRC16TPlpSerialConfig
+9 Name=SetPortConfigL__18TPlpSerialCategoryRC16TPlpSerialConfig
+10 Name=SetServiceName__8TPlpAddrRC6TDesC8
+11 Name=__18TPlpSerialCategory
+12 Name=__8TPlpAddr
+;------------------EOF------------------

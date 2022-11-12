@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QBTSHAREDUI Pascal=0
+;---------------------------------------
+1 Name=_ZNK16CQBTUIAuthDialog14NewDeviceNameLEi
+2 Name=_ZN16CQBTUIAuthDialogC1ER9CBTDeviceRK4TUidR17CBTUIAuthNotifier
+3 Name=_ZN16CQBTUIAuthDialogC2ER9CBTDeviceRK4TUidR17CBTUIAuthNotifier
+4 Name=_ZN16CQBTUIAuthDialogD0Ev
+5 Name=_ZN16CQBTUIAuthDialogD1Ev
+6 Name=_ZN16CQBTUIAuthDialogD2Ev
+7 Name=_ZN17CQBTUIRadioDialogC1ER18CBTUIRadioNotifier
+8 Name=_ZN17CQBTUIRadioDialogC2ER18CBTUIRadioNotifier
+9 Name=_ZN17CQBTUIRadioDialogD0Ev
+10 Name=_ZN17CQBTUIRadioDialogD1Ev
+11 Name=_ZN17CQBTUIRadioDialogD2Ev
+12 Name=_ZN18CQBTUISelectDialog17SetDialogObserverEP26MQBTUISelectDialogObserver
+13 Name=_ZN18CQBTUISelectDialog26LaunchSingleSelectDialogLDEv
+14 Name=_ZN18CQBTUISelectDialog28LaunchMultipleSelectDialogLDEv
+15 Name=_ZN18CQBTUISelectDialog4NewLEP13CArrayPtrFlatI9CBTDeviceEiii
+16 Name=_ZN18CQBTUISelectDialog8RunDlgLDEm
+17 Name=_ZN19CQBTUIPasskeyDialogC1ERK9CBTDeviceR8TPckgBufI11TPINCodeV10ER20CBTUIPasskeyNotifier
+18 Name=_ZN19CQBTUIPasskeyDialogC2ERK9CBTDeviceR8TPckgBufI11TPINCodeV10ER20CBTUIPasskeyNotifier
+19 Name=_ZN18CQBTUISelectDialogD0Ev
+20 Name=_ZN18CQBTUISelectDialogD1Ev
+21 Name=_ZN18CQBTUISelectDialogD2Ev
+22 Name=_ZNK19CQBTUIPasskeyDialog14NewDeviceNameLEi
+;------------------EOF------------------

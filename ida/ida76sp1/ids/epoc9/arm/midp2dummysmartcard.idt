@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2DUMMYSMARTCARD Pascal=0
+;---------------------------------------
+1 Name=_Z12GetSmartcardR14TRequestStatusmmRPN9Smartcard10MSmartcardE
+2 Name=_ZTI15CDummySmartcard
+3 Name=_ZTI28CDummyCryptotokenApplication
+4 Name=_ZTV15CDummySmartcard
+5 Name=_ZTV28CDummyCryptotokenApplication
+;------------------EOF------------------

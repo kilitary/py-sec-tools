@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sfc_os.dll Args=0 Drops=17
+;---------------------------------------
+1 Name=BeginFileMapEnumeration Pascal=12
+2 Name=CloseFileMapEnumeration Pascal=4
+3 Name=GetNextFileMapContent Pascal=20
+4 Name=SRSetRestorePointA Pascal=8
+5 Name=SRSetRestorePointW Pascal=8
+6 Name=SfcClose Pascal=4
+7 Name=SfcConnectToServer Pascal=4
+8 Name=SfcFileException Pascal=12
+9 Name=SfcGetNextProtectedFile Pascal=8
+10 Name=SfcInitProt Pascal=28
+11 Name=SfcInitiateScan Pascal=8
+12 Name=SfcInstallProtectedFiles Pascal=28
+13 Name=SfcIsFileProtected Pascal=8
+14 Name=SfcIsKeyProtected Pascal=12
+15 Name=SfcTerminateWatcherThread
+16 Name=SfpDeleteCatalog Pascal=8
+17 Name=SfpInstallCatalog Pascal=12
+18 Name=SfpVerifyFile Pascal=12
+;------------------EOF------------------

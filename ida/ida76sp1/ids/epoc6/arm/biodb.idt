@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BIODB Pascal=0
+;---------------------------------------
+1 Name=Start__18CBifChangeObserver
+2 Name=AddBifL__12CBIODatabaseP18CBioInfoFileReader
+3 Name=BIOCount__12CBIODatabase
+4 Name=BIOEntryLC__12CBIODatabasei
+5 Name=BifReader__C12CBIODatabasei
+6 Name=BioEntryByTypeLC__12CBIODatabaseQ212CBIODatabase11TSearchList13TBioMsgIdTypeRi
+7 Name=GetBioControlIDL__12CBIODatabaseG4TUidR4TUid
+8 Name=GetBioControlID__12CBIODatabaseiR4TUid
+9 Name=GetBioIndexWithMsgIDL__12CBIODatabaseG4TUidRi
+10 Name=GetBioIndexWithParserIDL__12CBIODatabaseG4TUidRi
+11 Name=GetBioMsgID__12CBIODatabaseiR4TUid
+12 Name=GetBioParserIDL__12CBIODatabaseG4TUidR4TUid
+13 Name=GetBioParserID__12CBIODatabaseiR4TUid
+14 Name=GetDefaultSendBearerByTypeL__12CBIODatabaseG4TUid13TBioMsgIdTypeR9TBioMsgId
+15 Name=GetDefaultSendBearerL__12CBIODatabaseG4TUidR9TBioMsgId
+16 Name=GetDefaultSendBearerTypeL__12CBIODatabaseG4TUidR13TBioMsgIdType
+17 Name=GetFileExtL__12CBIODatabaseG4TUid
+18 Name=GetIdentifierTextL__12CBIODatabaseG4TUid13TBioMsgIdTypeRt4TBuf1i128
+19 Name=GetPortNumberL__12CBIODatabaseG4TUid13TBioMsgIdTypeRi
+20 Name=IsBioMessageL__12CBIODatabase13TBioMsgIdTypeRC7TDesC16UsR4TUid
+21 Name=IsBioMessageL__12CBIODatabaseG9TBioMsgIdR4TUid
+22 Name=NewLC__12CBIODatabaseR3RFs
+23 Name=NewL__12CBIODatabaseR3RFs
+24 Name=NewL__18CBifChangeObserverR18MBifChangeObserverR3RFs
+25 Name=RemoveBifL__12CBIODatabaseG4TUid
+26 Name=RemoveBifL__12CBIODatabasei
+27 Name=AddAllBifsL__12CBIODatabaseR3RFs
+;------------------EOF------------------

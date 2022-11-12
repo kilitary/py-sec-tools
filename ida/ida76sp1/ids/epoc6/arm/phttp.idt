@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PHTTP Pascal=0
+;---------------------------------------
+1 Name=CreatePluginManagerL__FR3RFsR8RLibrary
+2 Name=CreatePluginL__FR3RFsRC8RLibraryi
+3 Name=CreateActivePluginL__FR3RFsRC8RLibraryi
+;------------------EOF------------------

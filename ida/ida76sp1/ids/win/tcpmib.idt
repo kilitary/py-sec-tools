@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=tcpmib.dll Args=0 Drops=28
+;---------------------------------------
+1 Name=??0CTcpMib@@QAE@ABV0@@Z Pascal=4
+2 Name=??0CTcpMib@@QAE@XZ Pascal=0
+3 Name=??0CTcpMibABC@@QAE@ABV0@@Z Pascal=4
+4 Name=??0CTcpMibABC@@QAE@XZ Pascal=0
+5 Name=??1CTcpMib@@UAE@XZ Pascal=0
+6 Name=??1CTcpMibABC@@UAE@XZ Pascal=0
+7 Name=??4CTcpMib@@QAEAAV0@ABV0@@Z Pascal=4
+8 Name=??4CTcpMibABC@@QAEAAV0@ABV0@@Z Pascal=4
+9 Name=??_7CTcpMib@@6B@ Pascal=0
+10 Name=??_7CTcpMibABC@@6B@ Pascal=0
+11 Name=?EnterCSection@CTcpMib@@AAEXXZ Pascal=0
+12 Name=?ExitCSection@CTcpMib@@AAEXXZ Pascal=0
+13 Name=?GetDeviceDescription@CTcpMib@@UAEKPBD0KPAGK@Z Pascal=20
+14 Name=?GetDeviceHWAddress@CTcpMib@@UAEKPBD0KKPAG@Z Pascal=20
+15 Name=?GetDeviceName@CTcpMib@@UAEKPBD0KKPAG@Z Pascal=20
+16 Name=?GetDeviceStatus@CTcpMib@@UAEKPBD0K@Z Pascal=12
+17 Name=?GetJobStatus@CTcpMib@@UAEKPBD0K@Z Pascal=12
+18 Name=?SNMPToPortStatus@CTcpMib@@UAEHKPAU_PORT_INFO_3W@@@Z Pascal=8
+19 Name=?SNMPToPrinterStatus@CTcpMib@@UAEKK@Z Pascal=4
+20 Name=?SnmpGet@CTcpMib@@QAEKPBD0KPAUSnmpVarBindList@@@Z Pascal=16
+21 Name=?SnmpGet@CTcpMib@@UAEKPBD0KPAUAsnObjectIdentifier@@PAUSnmpVarBindList@@@Z Pascal=20
+22 Name=?SnmpGetNext@CTcpMib@@QAEKPBD0KPAUSnmpVarBindList@@@Z Pascal=16
+23 Name=?SnmpGetNext@CTcpMib@@UAEKPBD0KPAUAsnObjectIdentifier@@PAUSnmpVarBindList@@@Z Pascal=20
+24 Name=?SnmpWalk@CTcpMib@@QAEKPBD0KPAUSnmpVarBindList@@@Z Pascal=16
+25 Name=?SnmpWalk@CTcpMib@@UAEKPBD0KPAUAsnObjectIdentifier@@PAUSnmpVarBindList@@@Z Pascal=20
+26 Name=?SupportsPrinterMib@CTcpMib@@UAEHPBD0KPAH@Z Pascal=16
+27 Name=GetTcpMibPtr Pascal=0
+28 Name=_Ping@4 Pascal=4
+;------------------EOF------------------

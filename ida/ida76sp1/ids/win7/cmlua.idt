@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cmlua.dll Args=0 Drops=10
+;---------------------------------------
+1 Name=DllAddRef Pascal=0
+2 Name=DllCanUnloadNow Pascal=0
+3 Name=DllGetClassObject Pascal=12
+4 Name=DllMain Pascal=12
+5 Name=DllRelease Pascal=0
+6 Name=_GetCoCreateInstanceAsAdminHandle Pascal=20
+7 Name=_RemoveShieldIcon Pascal=4
+8 Name=_SetShieldButton Pascal=8
+9 Name=_SetShieldIcon Pascal=4
+10 Name=_ThrowErrorBox Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SHIMNOTIFIERCLI Pascal=0
+;---------------------------------------
+1 Name=_ZN17RCommsdatNotifier18CancelNotificationEv
+2 Name=_ZN17RCommsdatNotifier19RequestNotificationER14TRequestStatus
+3 Name=_ZN17RCommsdatNotifier7ConnectEv
+4 Name=_ZN17RCommsdatNotifierC1Ev
+5 Name=_ZN17RCommsdatNotifierC2Ev
+6 Name=_ZNK17RCommsdatNotifier7VersionEv
+7 Name=_ZN17RCommsdatNotifier5CloseEv
+;------------------EOF------------------

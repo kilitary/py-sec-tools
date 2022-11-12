@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2USERAGENTUIFACTORY Pascal=0
+;---------------------------------------
+1 Name=_Z22GetUserAgentUIFactoryLv
+2 Name=_ZTIN4MIDP20COperationPromptDataE
+3 Name=_ZTIN4MIDP9UserAgent2UI24CPermissionPromptFactoryE
+4 Name=_ZTIN4MIDP9UserAgent2UI25CTamperNotificationDialogE
+5 Name=_ZTIN4MIDP9UserAgent2UI29CUIQPermissionDialogContainer20CUIQPermissionDialogE
+6 Name=_ZTIN4MIDP9UserAgent2UI29CUIQPermissionDialogContainerE
+7 Name=_ZTIN4MIDP9UserAgent2UI29MTimedErrorNotificationDialog13CDialogCloserE
+8 Name=_ZTIN4MIDP9UserAgent2UI8CFactoryE
+9 Name=_ZTVN4MIDP20COperationPromptDataE
+10 Name=_ZTVN4MIDP9UserAgent2UI24CPermissionPromptFactoryE
+11 Name=_ZTVN4MIDP9UserAgent2UI25CTamperNotificationDialogE
+12 Name=_ZTVN4MIDP9UserAgent2UI29CUIQPermissionDialogContainer20CUIQPermissionDialogE
+13 Name=_ZTVN4MIDP9UserAgent2UI29CUIQPermissionDialogContainerE
+14 Name=_ZTVN4MIDP9UserAgent2UI29MTimedErrorNotificationDialog13CDialogCloserE
+15 Name=_ZTVN4MIDP9UserAgent2UI8CFactoryE
+;------------------EOF------------------

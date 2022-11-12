@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MEDIACLIENTAUDIOINPUTSTREAM Pascal=0
+;---------------------------------------
+1 Name=Stop__CMdaAudioInputStream
+2 Name=GetBalanceL__CCMdaAudioInputStream
+3 Name=GetBytes__CMdaAudioInputStream
+4 Name=MaxGain__CCMdaAudioInputStream
+5 Name=NewL__CMdaAudioInputStreamRMMdaAudioInputStreamCallback
+6 Name=NewL__CMdaAudioInputStreamRMMdaAudioInputStreamCallbackiTMdaPriorityPreference
+7 Name=Open__CMdaAudioInputStreamPTMdaPackage
+8 Name=Position__CMdaAudioInputStream
+9 Name=ReadL__CMdaAudioInputStreamRTDes8
+10 Name=SetAudioPropertiesL__CMdaAudioInputStreamii
+11 Name=SetBalanceL__CMdaAudioInputStreami
+12 Name=SetGain__CMdaAudioInputStreami
+13 Name=SetPriority__CMdaAudioInputStreamiTMdaPriorityPreference
+14 Name=Gain__CCMdaAudioInputStream
+15 Name=SetDataTypeL__CMdaAudioInputStreamGTFourCC
+16 Name=DataType__CCMdaAudioInputStream
+;------------------EOF------------------

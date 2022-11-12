@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-util-l1-1-0.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=Beep Pascal=8
+2 Name=DecodePointer Pascal=4
+3 Name=DecodeSystemPointer Pascal=4
+4 Name=EncodePointer Pascal=4
+5 Name=EncodeSystemPointer Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msh263.drv Args=0 Drops=2
+;---------------------------------------
+1 Name=DriverProc Pascal=20
+2 Name=DllMain Pascal=12
+;------------------EOF------------------

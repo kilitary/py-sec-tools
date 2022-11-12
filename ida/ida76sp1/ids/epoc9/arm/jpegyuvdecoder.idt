@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=JPEGYUVDECODER Pascal=0
+;---------------------------------------
+1 Name=_ZN15CJpegYuvDecoder10ConvertYuvEP14TRequestStatusR10CFbsBitmapS3_i
+2 Name=_ZN15CJpegYuvDecoder10ConvertYuvEP14TRequestStatusR10CFbsBitmapi
+;------------------EOF------------------

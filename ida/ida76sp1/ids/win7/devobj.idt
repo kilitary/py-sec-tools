@@ -1,0 +1,55 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=devobj.dll Args=0 Drops=48
+;---------------------------------------
+1 Name=DevObjBuildClassInfoList Pascal=24
+2 Name=DevObjClassGuidsFromName Pascal=24
+3 Name=DevObjClassNameFromGuid Pascal=24
+4 Name=DevObjCreateDevRegKey Pascal=24
+5 Name=DevObjCreateDeviceInfo Pascal=24
+6 Name=DevObjCreateDeviceInfoList Pascal=20
+7 Name=DevObjCreateDeviceInterface Pascal=24
+8 Name=DevObjCreateDeviceInterfaceRegKey Pascal=20
+9 Name=DevObjDeleteAllInterfacesForDevice Pascal=8
+10 Name=DevObjDeleteDevRegKey Pascal=20
+11 Name=DevObjDeleteDevice Pascal=8
+12 Name=DevObjDeleteDeviceInfo Pascal=8
+13 Name=DevObjDeleteDeviceInterfaceData Pascal=8
+14 Name=DevObjDeleteDeviceInterfaceRegKey Pascal=12
+15 Name=DevObjDestroyDeviceInfoList Pascal=4
+16 Name=DevObjEnumDeviceInfo Pascal=12
+17 Name=DevObjEnumDeviceInterfaces Pascal=20
+18 Name=DevObjGetClassDescription Pascal=24
+19 Name=DevObjGetClassDevs Pascal=24
+20 Name=DevObjGetClassProperty Pascal=36
+21 Name=DevObjGetClassPropertyKeys Pascal=28
+22 Name=DevObjGetClassRegistryProperty Pascal=32
+23 Name=DevObjGetDeviceInfoDetail Pascal=12
+24 Name=DevObjGetDeviceInfoListClass Pascal=8
+25 Name=DevObjGetDeviceInfoListDetail Pascal=8
+26 Name=DevObjGetDeviceInstanceId Pascal=20
+27 Name=DevObjGetDeviceInterfaceAlias Pascal=16
+28 Name=DevObjGetDeviceInterfaceDetail Pascal=24
+29 Name=DevObjGetDeviceInterfaceProperty Pascal=32
+30 Name=DevObjGetDeviceInterfacePropertyKeys Pascal=24
+31 Name=DevObjGetDeviceProperty Pascal=32
+32 Name=DevObjGetDevicePropertyKeys Pascal=24
+33 Name=DevObjGetDeviceRegistryProperty Pascal=28
+34 Name=DevObjLocateDevice Pascal=16
+35 Name=DevObjOpenClassRegKey Pascal=20
+36 Name=DevObjOpenDevRegKey Pascal=24
+37 Name=DevObjOpenDeviceInfo Pascal=20
+38 Name=DevObjOpenDeviceInterface Pascal=16
+39 Name=DevObjOpenDeviceInterfaceRegKey Pascal=16
+40 Name=DevObjRegisterDeviceInfo Pascal=24
+41 Name=DevObjRemoveDeviceInterface Pascal=8
+42 Name=DevObjSetClassProperty Pascal=32
+43 Name=DevObjSetClassRegistryProperty Pascal=24
+44 Name=DevObjSetDeviceInfoDetail Pascal=12
+45 Name=DevObjSetDeviceInterfaceDefault Pascal=16
+46 Name=DevObjSetDeviceInterfaceProperty Pascal=28
+47 Name=DevObjSetDeviceProperty Pascal=28
+48 Name=DevObjSetDeviceRegistryProperty Pascal=20
+;------------------EOF------------------

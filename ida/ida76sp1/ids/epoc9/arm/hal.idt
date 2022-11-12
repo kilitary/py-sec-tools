@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HAL Pascal=0
+;---------------------------------------
+1 Name=_ZN3HAL3GetEN7HALData10TAttributeERi
+2 Name=_ZN3HAL3SetEN7HALData10TAttributeEi
+3 Name=_ZN3HAL6GetAllERiRPNS_6SEntryE
+4 Name=_ZN3HAL3GetEiN7HALData10TAttributeERi
+5 Name=_ZN3HAL3SetEiN7HALData10TAttributeEi
+;------------------EOF------------------

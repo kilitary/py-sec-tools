@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FILEDATASUPPLIER_SHARED Pascal=0
+;---------------------------------------
+1 Name=_ZN17CFileDataSupplier18NewFromFileHandleLER5RFilejN13ContentAccess7TIntentE
+2 Name=_ZN17CFileDataSupplier4NewLEPv
+3 Name=_ZTI17CFileDataSupplier
+4 Name=_ZTV17CFileDataSupplier
+;------------------EOF------------------

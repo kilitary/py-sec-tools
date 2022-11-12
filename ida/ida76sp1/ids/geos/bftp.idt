@@ -1,0 +1,13 @@
+DECLARATION Nokia 9110 Geos 3.0 library bftp.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=bftpdll Pascal=0
+;---------------------------------------
+1 Name=bFTP_Command_ind
+2 Name=bFTP_ConstructErrorPDU
+3 Name=bFTP_ConstructPutReq
+4 Name=bFTP_ConstructQueryReq
+5 Name=bFTP_Command_cnf
+6 Name=bFTP_parseResolution
+;------------------EOF------------------

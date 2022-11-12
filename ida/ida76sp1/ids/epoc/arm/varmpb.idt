@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=VARMPB Pascal=0
+;---------------------------------------
+1 Name=VariantInitialise__Fv
+2 Name=MaximumVolume__7Variant
+3 Name=SetPenMode__7VariantQ27Variant8TPenMode
+4 Name=SetVolume__7Varianti
+;------------------EOF------------------

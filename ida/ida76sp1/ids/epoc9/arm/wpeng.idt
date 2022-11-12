@@ -1,0 +1,53 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WPENG Pascal=0
+;---------------------------------------
+1 Name=_ZN10CWordModel10ConstructLEPK18MFieldFileNameInfoPK18MFieldNumPagesInfo
+2 Name=_ZN10CWordModel15RestoreMinimalLERK12CStreamStoreRK17CStreamDictionaryPKvPK18MFieldFileNameInfoPK18MFieldNumPagesInfoP15MPictureFactory
+3 Name=_ZN10CWordModel17ConstructMinimalLEPK18MFieldFileNameInfoPK18MFieldNumPagesInfoRK7TDesC16
+4 Name=_ZN10CWordModel4NewLEPK18MFieldFileNameInfoPK18MFieldNumPagesInfo
+5 Name=_ZN10CWordModel4NewLEPK18MFieldFileNameInfoPK18MFieldNumPagesInfoRK7TDesC16
+6 Name=_ZN10CWordModel8RestoreLERK12CStreamStoreRK17CStreamDictionaryPKvPK18MFieldFileNameInfoPK18MFieldNumPagesInfoP15MPictureFactory
+7 Name=_ZN10CWordModelC1Ev
+8 Name=_ZN10CWordModelC2Ev
+9 Name=_ZN10CWordModelD0Ev
+10 Name=_ZN10CWordModelD1Ev
+11 Name=_ZN10CWordModelD2Ev
+20 Name=_ZN18CWordModelHeaderV216DetachFromStoreLEN8CPicture7TDetachE
+21 Name=_ZN18CWordModelHeaderV25ModelEv
+22 Name=_ZN18CWordModelHeaderV28RestoreLERK12CStreamStoreRK17CStreamDictionary
+23 Name=_ZN18CWordModelHeaderV2D0Ev
+24 Name=_ZN18CWordModelHeaderV2D1Ev
+25 Name=_ZN18CWordModelHeaderV2D2Ev
+26 Name=_ZN18CWordModelHeaderV316DetachFromStoreLEN8CPicture7TDetachE
+27 Name=_ZN18CWordModelHeaderV35ModelEv
+28 Name=_ZN18CWordModelHeaderV38RestoreLERK12CStreamStoreRK17CStreamDictionary
+29 Name=_ZN18CWordModelHeaderV3D0Ev
+30 Name=_ZN18CWordModelHeaderV3D1Ev
+31 Name=_ZN18CWordModelHeaderV3D2Ev
+34 Name=_ZN25TWordModelHeaderFactoryV2C1ERK4TBufILi256EE
+35 Name=_ZN25TWordModelHeaderFactoryV2C2ERK4TBufILi256EE
+36 Name=_ZN25TWordModelHeaderFactoryV3C1Ev
+37 Name=_ZN25TWordModelHeaderFactoryV3C2Ev
+38 Name=_ZNK10CWordModel6StoreLER12CStreamStoreR17CStreamDictionaryPKv
+41 Name=_ZNK18CWordModelHeaderV25AppIdEv
+42 Name=_ZNK18CWordModelHeaderV26StoreLER12CStreamStoreR17CStreamDictionary
+43 Name=_ZNK18CWordModelHeaderV35AppIdEv
+44 Name=_ZNK18CWordModelHeaderV36StoreLER12CStreamStoreR17CStreamDictionary
+46 Name=_ZNK25TWordModelHeaderFactoryV210NewHeaderLERK12CStreamStoreRK17CStreamDictionaryRK17TApaAppIdentifier
+47 Name=_ZNK25TWordModelHeaderFactoryV310NewHeaderLERK12CStreamStoreRK17CStreamDictionaryRK17TApaAppIdentifier
+48 Name=_ZTI10CWordModel
+50 Name=_ZTI18CWordModelHeaderV2
+51 Name=_ZTI18CWordModelHeaderV3
+53 Name=_ZTI23TWordModelStoreResolver
+54 Name=_ZTI25TWordModelHeaderFactoryV2
+55 Name=_ZTI25TWordModelHeaderFactoryV3
+56 Name=_ZTV10CWordModel
+58 Name=_ZTV18CWordModelHeaderV2
+59 Name=_ZTV18CWordModelHeaderV3
+61 Name=_ZTV23TWordModelStoreResolver
+62 Name=_ZTV25TWordModelHeaderFactoryV2
+63 Name=_ZTV25TWordModelHeaderFactoryV3
+;------------------EOF------------------

@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=REMCONSTATUSAPI Pascal=0
+;---------------------------------------
+1 Name=_ZN26CRemConStatusApiController11SubunitInfoER14TRequestStatusRj
+2 Name=_ZN26CRemConStatusApiController4NewLER24CRemConInterfaceSelectorR34MRemConStatusApiControllerObserver
+3 Name=_ZN26CRemConStatusApiController8UnitInfoER14TRequestStatusRj
+4 Name=_ZN26CRemConStatusApiControllerD0Ev
+5 Name=_ZN26CRemConStatusApiControllerD1Ev
+6 Name=_ZN26CRemConStatusApiControllerD2Ev
+7 Name=_ZN34MRemConStatusApiControllerObserver27Mrcsaco_ExtensionInterfaceLE4TUidRPv
+8 Name=_ZTI34MRemConStatusApiControllerObserver
+9 Name=_ZTV34MRemConStatusApiControllerObserver
+;------------------EOF------------------

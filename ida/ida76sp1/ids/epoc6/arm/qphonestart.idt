@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QPHONESTART Pascal=0
+;---------------------------------------
+1 Name=WinsMain__Fv
+;------------------EOF------------------

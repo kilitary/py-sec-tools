@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=NUMBERCONVERSION Pascal=0
+;---------------------------------------
+1 Name=_ZN16NumberConversion11FormatDigitER6TDes16ii10TDigitType
+2 Name=_ZN16NumberConversion12ConvertDigitER5TChar10TDigitType
+3 Name=_ZN16NumberConversion12FormatNumberER6TDes16i10TDigitType
+4 Name=_ZN16NumberConversion13ConvertDigitsER6TDes1610TDigitType
+5 Name=_ZN16NumberConversion18AppendFormatNumberER6TDes16i10TDigitType
+6 Name=_ZN16NumberConversion18ConvertFirstNumberERK7TDesC16RiR10TDigitTypeNS_15TDigitMatchTypeE
+7 Name=_ZN16NumberConversion21LengthOfConvertedTextERK7TDesC1610TDigitType
+8 Name=_ZN16NumberConversion23LengthOfFormattedNumberEi10TDigitType
+9 Name=_ZN16NumberConversion27PositionAndTypeOfNextNumberERK7TDesC16R10TDigitTypei
+10 Name=_ZN16NumberConversion6FormatE10TDigitType11TRefByValueI6TDes16Ez
+;------------------EOF------------------

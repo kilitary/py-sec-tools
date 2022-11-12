@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=shimgvw.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=ImageView_Fullscreen Pascal=16
+2 Name=ImageView_FullscreenA Pascal=16
+3 Name=ImageView_FullscreenW Pascal=16
+4 Name=ImageView_PrintTo Pascal=16
+5 Name=ImageView_PrintToA Pascal=16
+6 Name=ImageView_PrintToW Pascal=16
+7 Name=imageview_fullscreenW Pascal=16
+8 Name=DllCanUnloadNow Pascal=0
+9 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

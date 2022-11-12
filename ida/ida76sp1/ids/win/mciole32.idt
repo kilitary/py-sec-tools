@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mciole32.dll Args=0 Drops=11
+;---------------------------------------
+2 Name=DllLoadFromStream Pascal=36
+3 Name=DllCreateFromClip Pascal=32
+4 Name=DllCreateLinkFromClip Pascal=28
+5 Name=DllCreateFromTemplate Pascal=32
+6 Name=DllCreate Pascal=32
+7 Name=DllCreateFromFile Pascal=36
+8 Name=DllCreateLinkFromFile Pascal=40
+9 Name=GetMessageHook Pascal=12
+10 Name=OleQueryObjPos Pascal=16
+11 Name=InstallHook Pascal=8
+12 Name=RemoveHook Pascal=0
+;------------------EOF------------------

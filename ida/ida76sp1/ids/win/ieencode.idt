@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ieencode.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=CceDetectInputCode Pascal=32
+2 Name=CceGetAvailableEncodings Pascal=8
+3 Name=CceIsAvailableEncoding Pascal=4
+4 Name=CceStreamMultiByteToUnicode Pascal=36
+5 Name=CceStreamUnicodeToMultiByte Pascal=36
+6 Name=CceStringMultiByteToUnicode Pascal=36
+7 Name=CceStringUnicodeToMultiByte Pascal=36
+8 Name=DllMain Pascal=12
+9 Name=FetchMsEncodeDllVersion Pascal=8
+;------------------EOF------------------

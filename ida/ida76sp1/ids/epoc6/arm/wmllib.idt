@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WMLLIB Pascal=0
+;---------------------------------------
+1 Name=CXmlLibrary_Reserved1__11CWmlLibrary
+2 Name=NewLC__11CWmlLibraryR10CWAPEngineP11CXmlElement
+3 Name=NewL__11CWmlLibraryR10CWAPEngineP11CXmlElement
+4 Name=ResolveWapErrorCode__11CWmlLibraryi
+5 Name=__11CWmlLibraryR10CWAPEngineP11CXmlElement
+6 Name=__11CWmlLibraryR8CBNFNodeR21CAttributeLookupTableR11CXmlElement
+7 Name=NewLC__11CWmlLibraryR8CBNFNodeR21CAttributeLookupTableR11CXmlElement
+8 Name=NewL__11CWmlLibraryR8CBNFNodeR21CAttributeLookupTableR11CXmlElement
+;------------------EOF------------------

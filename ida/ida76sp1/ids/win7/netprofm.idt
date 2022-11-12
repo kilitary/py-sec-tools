@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=netprofm.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=SvchostPushServiceGlobals Pascal=4
+2 Name=DllCanUnloadNow Pascal=0
+3 Name=DllGetClassObject Pascal=12
+4 Name=DllRegisterServer Pascal=0
+5 Name=DllUnregisterServer Pascal=0
+6 Name=ServiceMain Pascal=8
+;------------------EOF------------------

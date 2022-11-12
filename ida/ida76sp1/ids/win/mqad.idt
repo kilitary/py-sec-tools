@@ -1,0 +1,41 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mqad.dll Args=0 Drops=34
+;---------------------------------------
+1 Name=MQADBeginDeleteNotification Pascal=20
+2 Name=MQADCreateObject Pascal=36
+3 Name=MQADDeleteObject Pascal=16
+4 Name=MQADDeleteObjectGuid Pascal=16
+5 Name=MQADEndDeleteNotification Pascal=4
+6 Name=MQADEndQuery Pascal=4
+7 Name=MQADFreeMemory Pascal=4
+8 Name=MQADGetADsPathInfo Pascal=12
+9 Name=MQADGetComputerSites Pascal=12
+10 Name=MQADGetComputerVersion Pascal=24
+11 Name=MQADGetObjectProperties Pascal=28
+12 Name=MQADGetObjectPropertiesGuid Pascal=28
+13 Name=MQADGetObjectSecurity Pascal=28
+14 Name=MQADGetObjectSecurityGuid Pascal=28
+15 Name=MQADInit Pascal=12
+16 Name=MQADNotifyDelete Pascal=4
+17 Name=MQADQMGetObjectSecurity Pascal=32
+18 Name=MQADQMSetMachineProperties Pascal=24
+19 Name=MQADQueryAllLinks Pascal=16
+20 Name=MQADQueryAllSites Pascal=16
+21 Name=MQADQueryConnectors Pascal=20
+22 Name=MQADQueryForeignSites Pascal=16
+23 Name=MQADQueryLinks Pascal=24
+24 Name=MQADQueryMachineQueues Pascal=20
+25 Name=MQADQueryNT4MQISServers Pascal=24
+26 Name=MQADQueryQueues Pascal=24
+27 Name=MQADQueryResults Pascal=12
+28 Name=MQADQuerySiteServers Pascal=24
+29 Name=MQADQueryUserCert Pascal=20
+30 Name=MQADSetObjectProperties Pascal=28
+31 Name=MQADSetObjectPropertiesGuid Pascal=28
+32 Name=MQADSetObjectSecurity Pascal=28
+33 Name=MQADSetObjectSecurityGuid Pascal=28
+34 Name=MQADSetupInit Pascal=4
+;------------------EOF------------------

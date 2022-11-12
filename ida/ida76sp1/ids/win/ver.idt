@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ver.dll Args=0 Drops=16
+;---------------------------------------
+1 Name=WEP Pascal=2
+2 Name=GETFILERESOURCESIZE Pascal=16
+3 Name=GETFILERESOURCE Pascal=24
+6 Name=GETFILEVERSIONINFOSIZE Pascal=8
+7 Name=GETFILEVERSIONINFO Pascal=16
+8 Name=VERFINDFILE Pascal=30
+9 Name=VERINSTALLFILE Pascal=30
+10 Name=VERLANGUAGENAME Pascal=8
+11 Name=VERQUERYVALUE Pascal=16
+12 Name=VER_12 Pascal=10
+13 Name=VER_13 Pascal=0
+14 Name=VER_14 Pascal=0
+15 Name=VER_15 Pascal=0
+16 Name=VER_16 Pascal=0
+17 Name=VER_17 Pascal=12
+18 Name=VER_18 Pascal=8
+19 Name=VER_19
+20 Name=VER_20
+;------------------EOF------------------

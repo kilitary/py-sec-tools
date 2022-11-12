@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BITMAPTRANSFORMS Pascal=0
+;---------------------------------------
+1 Name=_ZN13CBitmapScaler13CustomCommandE4TUidPv
+2 Name=_ZN13CBitmapScaler4NewLEv
+3 Name=_ZN13CBitmapScaler5ScaleEP14TRequestStatusR10CFbsBitmapRK5TSizei
+4 Name=_ZN13CBitmapScaler5ScaleEP14TRequestStatusR10CFbsBitmapS3_i
+5 Name=_ZN13CBitmapScaler6CancelEv
+6 Name=_ZN13CBitmapScalerD0Ev
+7 Name=_ZN13CBitmapScalerD1Ev
+8 Name=_ZN13CBitmapScalerD2Ev
+9 Name=_ZN14CBitmapRotator4NewLEv
+10 Name=_ZN14CBitmapRotator6CancelEv
+11 Name=_ZN14CBitmapRotator6RotateEP14TRequestStatusR10CFbsBitmapNS_14TRotationAngleE
+12 Name=_ZN14CBitmapRotator6RotateEP14TRequestStatusR10CFbsBitmapS3_NS_14TRotationAngleE
+13 Name=_ZN14CBitmapRotatorD0Ev
+14 Name=_ZN14CBitmapRotatorD1Ev
+15 Name=_ZN14CBitmapRotatorD2Ev
+16 Name=_ZN16CBitmapConverter4NewLEv
+17 Name=_ZN16CBitmapConverter6CancelEv
+18 Name=_ZN16CBitmapConverter7ConvertEP14TRequestStatusR10CFbsBitmapS3_
+19 Name=_ZN16CBitmapConverterD0Ev
+20 Name=_ZN16CBitmapConverterD1Ev
+21 Name=_ZN16CBitmapConverterD2Ev
+22 Name=_ZTI13CBitmapScaler
+23 Name=_ZTI14CBitmapRotator
+24 Name=_ZTV13CBitmapScaler
+25 Name=_ZTV14CBitmapRotator
+26 Name=_ZN14CBitmapRotator13CustomCommandE4TUidPv
+;------------------EOF------------------

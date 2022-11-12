@@ -1,0 +1,49 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=UNDO Pascal=0
+;---------------------------------------
+1 Name=_._Q210UndoSystem13CBatchCommand
+2 Name=AllowNotUndoableL__Q210UndoSystem22MNotUndoableGatekeeperi
+3 Name=Batch__Q210UndoSystem13CBatchCommand
+4 Name=Batch__Q210UndoSystem14CSingleCommand
+5 Name=BeginBatchLC__Q210UndoSystem15CCommandManager
+6 Name=CanRedo__C15CEditorWithUndo
+7 Name=CanRedo__CQ210UndoSystem15CCommandManager
+8 Name=CanUndo__C15CEditorWithUndo
+9 Name=CanUndo__CQ210UndoSystem15CCommandManager
+10 Name=CreateInverseL__CQ210UndoSystem14CSingleCommand
+11 Name=ExecuteL__Q210UndoSystem15CCommandManagerRCQ210UndoSystem14CSingleCommand
+12 Name=FamilyUid__CQ210UndoSystem14CSingleCommand
+13 Name=NewLC__Q210UndoSystem13CBatchCommand
+14 Name=NewL__15CEditorWithUndoR14MUnifiedEditor
+15 Name=NewL__15CEditorWithUndoR14MUnifiedEditorPQ210UndoSystem15CCommandManager
+16 Name=NewL__24CEditorPlainTextWithUndoR14MUnifiedEditorPQ210UndoSystem15CCommandManager
+17 Name=NewL__Q210UndoSystem13CBatchCommand
+18 Name=NewL__Q210UndoSystem15CCommandManager
+19 Name=NewReference__Q210UndoSystem15CCommandManager
+20 Name=Pop__Q210UndoSystem13CBatchCommand
+21 Name=PrepareToAddInverseToLastL__CQ210UndoSystem14CSingleCommandRQ210UndoSystem14CSingleCommand
+22 Name=PrepareToPushL__Q210UndoSystem13CBatchCommandPQ210UndoSystem8CCommand
+23 Name=PushL__Q210UndoSystem13CBatchCommandPQ210UndoSystem8CCommand
+24 Name=Push__Q210UndoSystem13CBatchCommandPQ210UndoSystem8CCommand
+25 Name=RedoL__15CEditorWithUndo
+26 Name=RedoL__Q210UndoSystem15CCommandManager
+27 Name=Release__Q210UndoSystem15CCommandManager
+28 Name=ResetUndo__15CEditorWithUndo
+29 Name=ResetUndo__Q210UndoSystem15CCommandManager
+30 Name=RetryOutOfMemoryL__Q210UndoSystem22MNotUndoableGatekeeperi
+31 Name=SetGatekeeper__15CEditorWithUndoPQ210UndoSystem22MNotUndoableGatekeeper
+32 Name=SetGatekeeper__Q210UndoSystem15CCommandManagerPQ210UndoSystem22MNotUndoableGatekeeper
+33 Name=SetMaxItems__15CEditorWithUndoi
+34 Name=SetMaxItems__Q210UndoSystem15CCommandManageri
+35 Name=Single__Q210UndoSystem13CBatchCommand
+36 Name=Single__Q210UndoSystem14CSingleCommand
+37 Name=Top__CQ210UndoSystem13CBatchCommand
+38 Name=UndoL__15CEditorWithUndo
+39 Name=UndoL__Q210UndoSystem15CCommandManager
+40 Name=AddInverseToLast__CQ210UndoSystem14CSingleCommandRQ210UndoSystem14CSingleCommand
+41 Name=IsAtBookmark__CQ210UndoSystem15CCommandManager
+42 Name=SetBookmark__Q210UndoSystem15CCommandManager
+;------------------EOF------------------

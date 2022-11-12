@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sqlwid.dll Pascal=0
+;---------------------------------------
+1 Name=GetEnvironmentStrings_
+2 Name=GetProcAddress_
+3 Name=OpenFile_
+4 Name=_hwrite_
+5 Name=_lcreat_
+6 Name=_lopen_
+7 Name=_lwrite_
+8 Name=_ttof
+9 Name=strerror_
+10 Name=wstrlen
+;------------------EOF------------------

@@ -1,0 +1,57 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=catsrvut.dll Args=0 Drops=50
+;---------------------------------------
+1 Name=??0CCom98Component@@QAE@ABV0@@Z Pascal=4
+2 Name=??0CCom98Interface@@QAE@ABV0@@Z Pascal=4
+3 Name=??0CCom98Method@@QAE@ABV0@@Z Pascal=4
+4 Name=??0CCom98Object@@QAE@ABV0@@Z Pascal=4
+5 Name=??0CComPlusComponent@@QAE@ABV0@@Z Pascal=4
+6 Name=??0CComPlusInterface@@QAE@ABV0@@Z Pascal=4
+7 Name=??0CComPlusMethod@@QAE@ABV0@@Z Pascal=4
+8 Name=??0CComPlusObject@@QAE@ABV0@@Z Pascal=4
+9 Name=??1CComPlusComponent@@UAE@XZ Pascal=0
+10 Name=??1CComPlusInterface@@UAE@XZ Pascal=0
+11 Name=??4CCom98Component@@QAEAAV0@ABV0@@Z Pascal=4
+12 Name=??4CCom98Dll@@QAEAAV0@ABV0@@Z Pascal=4
+13 Name=??4CCom98Interface@@QAEAAV0@ABV0@@Z Pascal=4
+14 Name=??4CCom98Method@@QAEAAV0@ABV0@@Z Pascal=4
+15 Name=??4CCom98Object@@QAEAAV0@ABV0@@Z Pascal=4
+16 Name=??4CComPlusComponent@@QAEAAV0@ABV0@@Z Pascal=4
+17 Name=??4CComPlusInterface@@QAEAAV0@ABV0@@Z Pascal=4
+18 Name=??4CComPlusMethod@@QAEAAV0@ABV0@@Z Pascal=4
+19 Name=??4CComPlusObject@@QAEAAV0@ABV0@@Z Pascal=4
+20 Name=??4CComPlusTypelib@@QAEAAV0@ABV0@@Z Pascal=4
+21 Name=??_7CCom98Component@@6B@ Pascal=0
+22 Name=??_7CCom98Interface@@6B@ Pascal=0
+23 Name=??_7CCom98Method@@6B@ Pascal=0
+24 Name=??_7CCom98Object@@6B@ Pascal=0
+25 Name=??_7CComPlusComponent@@6B@ Pascal=0
+26 Name=??_7CComPlusInterface@@6B@ Pascal=0
+27 Name=??_7CComPlusMethod@@6B@ Pascal=0
+28 Name=??_7CComPlusObject@@6B@ Pascal=0
+29 Name=?GetITypeLib@CComPlusTypelib@@QAEPAUITypeLib@@XZ Pascal=0
+30 Name=RegDBBackup Pascal=4
+31 Name=RegDBRestore Pascal=4
+32 Name=StartMTSTOCOM Pascal=4
+33 Name=WinlogonHandlePendingInfOperations Pascal=4
+34 Name=CGMIsAdministrator Pascal=4
+35 Name=COMPlusUninstallActionW Pascal=16
+36 Name=DllCanUnloadNow Pascal=0
+37 Name=DllGetClassObject Pascal=12
+38 Name=DllRegisterServer Pascal=0
+39 Name=DllUnregisterServer Pascal=0
+40 Name=EntryPointDllGetClassObjW Pascal=16
+41 Name=EntryPointDllRegSvrW Pascal=16
+42 Name=EntryPointDllUnRegSvrW Pascal=16
+43 Name=FindAssemblyModulesW Pascal=16
+44 Name=LoadLibraryOnUserDllW Pascal=16
+45 Name=ManagedRequestW Pascal=16
+46 Name=QueryUserDllW Pascal=16
+47 Name=RegisterUserDllW Pascal=16
+48 Name=RunMTSToCom Pascal=16
+49 Name=SysprepComplus2 Pascal=0
+50 Name=SysprepComplus Pascal=0
+;------------------EOF------------------

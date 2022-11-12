@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DLOG Pascal=0
+;---------------------------------------
+1 Name=??0CDebugLog@@QAE@PAVCDebugLogDevice@@@Z
+2 Name=?ConstructL@CDebugLog@@QAEXHAAVTDesC8@@@Z
+;------------------EOF------------------

@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mqcertui.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=CaConfig Pascal=32
+2 Name=SelectPersonalCertificateForRegister Pascal=16
+3 Name=SelectPersonalCertificateForRemoval Pascal=16
+4 Name=ShowCertificate Pascal=12
+5 Name=ShowPersonalCertificates Pascal=12
+;------------------EOF------------------

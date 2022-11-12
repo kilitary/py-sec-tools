@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-service-management-l1-1-0.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=CloseServiceHandle Pascal=4
+2 Name=ControlServiceExW Pascal=16
+3 Name=CreateServiceW Pascal=52
+4 Name=DeleteService Pascal=4
+5 Name=OpenSCManagerW Pascal=12
+6 Name=OpenServiceW Pascal=12
+7 Name=StartServiceW Pascal=12
+;------------------EOF------------------

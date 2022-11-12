@@ -1,0 +1,75 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SIPPROFILECLI Pascal=0
+;---------------------------------------
+1 Name=_ZN11CSIPProfileD0Ev
+2 Name=_ZN11CSIPProfileD1Ev
+3 Name=_ZN11CSIPProfileD2Ev
+4 Name=_ZN18CSIPManagedProfile12SetParameterEmRK11MDesC8Array
+5 Name=_ZN18CSIPManagedProfile12SetParameterEmRK6TDesC8
+6 Name=_ZN18CSIPManagedProfile12SetParameterEmi
+7 Name=_ZN18CSIPManagedProfile12SetParameterEmm
+8 Name=_ZN18CSIPManagedProfile12SetParameterEmmRK6TDesC8
+9 Name=_ZN18CSIPManagedProfile7SetTypeERK19TSIPProfileTypeInfo
+10 Name=_ZN18CSIPManagedProfileD0Ev
+11 Name=_ZN18CSIPManagedProfileD1Ev
+12 Name=_ZN18CSIPManagedProfileD2Ev
+13 Name=_ZN19CSIPProfileRegistry11ConnectionLER11CSIPProfile
+14 Name=_ZN19CSIPProfileRegistry4NewLER4CSIPR27MSIPProfileRegistryObserver
+15 Name=_ZN19CSIPProfileRegistry5NewLCER4CSIPR27MSIPProfileRegistryObserver
+16 Name=_ZN19CSIPProfileRegistry7DisableER11CSIPProfile
+17 Name=_ZN19CSIPProfileRegistry7EnableLER11CSIPProfileR22MSIPConnectionObserver
+18 Name=_ZN19CSIPProfileRegistryD0Ev
+19 Name=_ZN19CSIPProfileRegistryD1Ev
+20 Name=_ZN19CSIPProfileRegistryD2Ev
+21 Name=_ZN23CSIPProfileRegistryBase15DefaultProfileLEv
+22 Name=_ZN23CSIPProfileRegistryBase22SupportedProfileTypesLER6RArrayI19TSIPProfileTypeInfoE
+23 Name=_ZN23CSIPProfileRegistryBase8ProfileLEm
+24 Name=_ZN23CSIPProfileRegistryBase9ProfilesLER13RPointerArrayI11CSIPProfileE
+25 Name=_ZN23CSIPProfileRegistryBase9ProfilesLERK19TSIPProfileTypeInfoR13RPointerArrayI11CSIPProfileE
+26 Name=_ZN23CSIPProfileRegistryBase9ProfilesLERK6TDesC8R13RPointerArrayI11CSIPProfileE
+27 Name=_ZN23CSIPProfileRegistryBaseD0Ev
+28 Name=_ZN23CSIPProfileRegistryBaseD1Ev
+29 Name=_ZN23CSIPProfileRegistryBaseD2Ev
+30 Name=_ZN26CSIPManagedProfileRegistry4NewLER27MSIPProfileRegistryObserver
+31 Name=_ZN26CSIPManagedProfileRegistry5NewLCER27MSIPProfileRegistryObserver
+32 Name=_ZN26CSIPManagedProfileRegistry5SaveLER11CSIPProfile
+33 Name=_ZN26CSIPManagedProfileRegistry7CreateLERK19TSIPProfileTypeInfo
+34 Name=_ZN26CSIPManagedProfileRegistry8DestroyLER11CSIPProfile
+35 Name=_ZN26CSIPManagedProfileRegistryD0Ev
+36 Name=_ZN26CSIPManagedProfileRegistryD1Ev
+37 Name=_ZN26CSIPManagedProfileRegistryD2Ev
+38 Name=_ZNK11CSIPProfile12GetParameterEmRPK11MDesC8Array
+39 Name=_ZNK11CSIPProfile12GetParameterEmRPK6TDesC8
+40 Name=_ZNK11CSIPProfile12GetParameterEmRi
+41 Name=_ZNK11CSIPProfile12GetParameterEmRm
+42 Name=_ZNK11CSIPProfile12GetParameterEmmRPK6TDesC8
+43 Name=_ZNK11CSIPProfile4TypeEv
+44 Name=_ZNK18CSIPManagedProfile6CloneLEv
+45 Name=_ZNK19CSIPProfileRegistry3SIPEv
+46 Name=_ZNK19CSIPProfileRegistry9IsEnabledERK11CSIPProfile
+47 Name=_ZNK23CSIPProfileRegistryBase21LastRegistrationErrorERK11CSIPProfile
+48 Name=_ZNK26CSIPManagedProfileRegistry8IsInUseLERK11CSIPProfile
+49 Name=_ZTI11CSIPProfile
+50 Name=_ZTI14CSIPProfileITC
+51 Name=_ZTI15CSIPProfileItem
+52 Name=_ZTI18CSIPManagedProfile
+53 Name=_ZTI19CSIPProfileRegistry
+54 Name=_ZTI22CSIPProfileITCReceiver
+55 Name=_ZTI23CSIPProfileRegistryBase
+56 Name=_ZTI26CSIPManagedProfileRegistry
+57 Name=_ZTV11CSIPProfile
+58 Name=_ZTV14CSIPProfileITC
+59 Name=_ZTV15CSIPProfileItem
+60 Name=_ZTV18CSIPManagedProfile
+61 Name=_ZTV19CSIPProfileRegistry
+62 Name=_ZTV22CSIPProfileITCReceiver
+63 Name=_ZTV23CSIPProfileRegistryBase
+64 Name=_ZTV26CSIPManagedProfileRegistry
+65 Name=_ZThn4_N11CSIPProfileD0Ev
+66 Name=_ZThn4_N11CSIPProfileD1Ev
+67 Name=_ZThn4_N18CSIPManagedProfileD0Ev
+68 Name=_ZThn4_N18CSIPManagedProfileD1Ev
+;------------------EOF------------------

@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2PROTECTIONDOMAINBINDING Pascal=0
+;---------------------------------------
+1 Name=_ZN4MIDP8Security11GetBindingLEv
+2 Name=_ZTIN4MIDP8Security31CDefaultProtectionDomainBindingE
+3 Name=_ZTVN4MIDP8Security31CDefaultProtectionDomainBindingE
+;------------------EOF------------------

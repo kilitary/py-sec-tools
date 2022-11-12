@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=shsvcs.dll Args=0 Drops=2
+;---------------------------------------
+15 Name=HardwareDetectionServiceMain Pascal=8
+16 Name=CreateHardwareEventMoniker Pascal=12
+;------------------EOF------------------

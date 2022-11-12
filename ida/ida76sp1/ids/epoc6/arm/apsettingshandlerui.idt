@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=APSETTINGSHANDLERUI Pascal=0
+;---------------------------------------
+1 Name=__CApSettingsHandleriTSelectionListTypeTSelectionMenuType
+2 Name=ConstructL__CApSettingsHandleriii
+3 Name=EDll__FTDllReason
+4 Name=NewLC__CApSettingsHandlerRCActiveApDbiTSelectionListTypeTSelectionMenuTypeiii
+5 Name=NewLC__CApSettingsHandleriTSelectionListTypeTSelectionMenuTypeiii
+6 Name=RunSettingsL__CApSettingsHandlerUlRUl
+7 Name=RunViewerL__CApSettingsHandlerUl
+8 Name=SetFilterL__CApSettingsHandleriii
+9 Name=SetTextOverrideL__CApSettingsHandlerTTextIDRCTDesC16
+10 Name=TextOverrideL__CApSettingsHandlerTTextID
+11 Name=_._CApSettingsHandler
+12 Name=ConstructL__CApSettingsHandlerRCActiveApDbiii
+13 Name=Cvt__CApSettingsHandler
+14 Name=NewLC__CApSettingsHandlerRCActiveApDbiTSelectionListTypeTSelectionMenuTypeiiii
+15 Name=NewLC__CApSettingsHandleriTSelectionListTypeTSelectionMenuTypeiiii
+16 Name=ConstructL__CApSettingsHandlerRCActiveApDbiiiTVpnFilterType
+17 Name=ConstructL__CApSettingsHandleriiiTVpnFilterType
+18 Name=NewLC__CApSettingsHandlerRCActiveApDbiTSelectionListTypeTSelectionMenuTypeiiiiTVpnFilterType
+19 Name=NewLC__CApSettingsHandleriTSelectionListTypeTSelectionMenuTypeiiiiTVpnFilterType
+;------------------EOF------------------

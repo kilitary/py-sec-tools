@@ -1,0 +1,56 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-processthreads-l1-1-0.dll Args=0 Drops=49
+;---------------------------------------
+1 Name=CreateProcessA Pascal=40
+2 Name=CreateProcessAsUserW Pascal=44
+3 Name=CreateProcessW Pascal=40
+4 Name=CreateRemoteThread Pascal=28
+5 Name=CreateRemoteThreadEx Pascal=32
+6 Name=CreateThread Pascal=24
+7 Name=DeleteProcThreadAttributeList Pascal=4
+8 Name=ExitProcess Pascal=4
+9 Name=ExitThread Pascal=4
+10 Name=FlushProcessWriteBuffers Pascal=0
+11 Name=GetCurrentProcess Pascal=0
+12 Name=GetCurrentProcessId Pascal=0
+13 Name=GetCurrentThread Pascal=0
+14 Name=GetCurrentThreadId Pascal=0
+15 Name=GetExitCodeProcess Pascal=8
+16 Name=GetExitCodeThread Pascal=8
+17 Name=GetPriorityClass Pascal=4
+18 Name=GetProcessId Pascal=4
+19 Name=GetProcessIdOfThread Pascal=4
+20 Name=GetProcessTimes Pascal=20
+21 Name=GetProcessVersion Pascal=4
+22 Name=GetStartupInfoW Pascal=4
+23 Name=GetThreadId Pascal=4
+24 Name=GetThreadPriority Pascal=4
+25 Name=GetThreadPriorityBoost Pascal=8
+26 Name=InitializeProcThreadAttributeList Pascal=16
+27 Name=OpenProcessToken Pascal=12
+28 Name=OpenThread Pascal=12
+29 Name=OpenThreadToken Pascal=16
+30 Name=ProcessIdToSessionId Pascal=8
+31 Name=QueryProcessAffinityUpdateMode Pascal=8
+32 Name=QueueUserAPC Pascal=12
+33 Name=ResumeThread Pascal=4
+34 Name=SetPriorityClass Pascal=8
+35 Name=SetProcessAffinityUpdateMode Pascal=8
+36 Name=SetProcessShutdownParameters Pascal=8
+37 Name=SetThreadPriority Pascal=8
+38 Name=SetThreadPriorityBoost Pascal=8
+39 Name=SetThreadStackGuarantee Pascal=4
+40 Name=SetThreadToken Pascal=8
+41 Name=SuspendThread Pascal=4
+42 Name=SwitchToThread Pascal=0
+43 Name=TerminateProcess Pascal=8
+44 Name=TerminateThread Pascal=8
+45 Name=TlsAlloc Pascal=0
+46 Name=TlsFree Pascal=4
+47 Name=TlsGetValue Pascal=4
+48 Name=TlsSetValue Pascal=8
+49 Name=UpdateProcThreadAttribute Pascal=28
+;------------------EOF------------------

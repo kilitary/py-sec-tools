@@ -1,0 +1,38 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WAPMSGCLI Pascal=0
+;---------------------------------------
+1 Name=__CWapFullySpecDatagramService
+2 Name=ConstructL__CWapBoundDatagramService
+3 Name=ConstructL__CWapFullySpecCLPushService
+4 Name=ConstructL__CWapFullySpecDatagramService
+5 Name=GetLocalAddressesL__CWapMessageUtilsRtRArrayZQWapTAddressInfo
+6 Name=NewL__CWapBoundCLPushService
+7 Name=NewL__CWapBoundDatagramService
+8 Name=NewL__CWapFullySpecCLPushService
+9 Name=NewL__CWapFullySpecDatagramService
+10 Name=_._CWapBoundCLPushService
+11 Name=_._CWapBoundDatagramService
+12 Name=_._CWapFullySpecCLPushService
+13 Name=_._CWapFullySpecDatagramService
+14 Name=__CWapBoundCLPushService
+15 Name=__CWapBoundDatagramService
+16 Name=__CWapFullySpecCLPushService
+17 Name=ConstructL__CWapBoundCLPushService
+18 Name=ConstructL__CWapFullySpecCLWSPService
+19 Name=NewL__CWapBoundCLWSPService
+20 Name=NewL__CWapBoundCLWSPServiceRCTUid
+21 Name=NewL__CWapBoundCLPushServiceRCTUid
+22 Name=NewL__CWapBoundDatagramServiceRCTUid
+23 Name=NewL__CWapFullySpecCLWSPService
+24 Name=NewL__CWapFullySpecCLWSPServiceRCTUid
+25 Name=NewL__CWapFullySpecCLPushServiceRCTUid
+26 Name=NewL__CWapFullySpecDatagramServiceRCTUid
+27 Name=_._CWapBoundCLWSPService
+28 Name=_._CWapFullySpecCLWSPService
+29 Name=__CWapBoundCLWSPService
+30 Name=__CWapFullySpecCLWSPService
+31 Name=ConstructL__CWapBoundCLWSPService
+;------------------EOF------------------

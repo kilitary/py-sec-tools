@@ -1,0 +1,67 @@
+DECLARATION Nokia 9110 Geos 3.0 library faxfile.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=faxfiledll Pascal=0
+;---------------------------------------
+1 Name=FaxFileCreate
+2 Name=FaxFileGetHeader
+3 Name=FaxFileGetPage
+4 Name=FaxFileInitialize
+5 Name=FaxFileGetPageCount
+6 Name=FaxFileCompressScanline
+7 Name=FaxFileInsertPage
+8 Name=FaxFileDecompressScanline
+9 Name=FaxFileDeletePage
+10 Name=FaxFileGetName
+11 Name=FaxFileSetExtAttrs
+12 Name=FaxFile2DCompressScanline
+13 Name=FaxFile2DDecompressScanline
+14 Name=PutThreadInFaxInfoDir
+15 Name=PutThreadInFaxInDir
+16 Name=PutThreadInFaxOutDir
+17 Name=PutThreadInFaxForwardDir
+18 Name=PutThreadInFaxDriverDir
+19 Name=GetFaxInfoPath
+20 Name=GetFaxInPath
+21 Name=GetFaxOutPath
+22 Name=GetFaxForwardPath
+23 Name=GetFaxDriverPath
+24 Name=FaxInfoFileOpen
+25 Name=FaxInfoFileGetDialAssistInfo
+26 Name=FaxInfoFileSetDialAssistInfo
+27 Name=LocalCopyDBCSASCIIToSBCS
+28 Name=FaxfileCreateUniqueFile
+29 Name=FaxfileCreateTTL
+30 Name=FaxInitFileReadT30
+31 Name=FaxInitFileWriteT30
+32 Name=CPCMergeTextClass
+33 Name=CPCMergeCoverPage
+34 Name=CPCGetNewRootBlock
+35 Name=CPCCheckIniCoverPage
+36 Name=CPCGetCoverPageGStringAndSize
+37 Name=CPCSetUpIni
+38 Name=CPCSetDirectory
+39 Name=CPCOpenScrapbook
+40 Name=CPCCloseScrapbook
+41 Name=CPCFindScrap
+42 Name=CPCScrapListGetEntry
+43 Name=CPCVerifyGString
+44 Name=CPCGetMsgPadSize
+45 Name=CPCGetDiskHandleFromBuffer
+46 Name=QNLFormatElementNicely
+47 Name=FaxFileValidateFaxFile
+48 Name=FaxfileStartPrintJob
+49 Name=FaxfileEndPrintJob
+50 Name=FaxfileFetchPrintSwath
+51 Name=PutThreadInFaxReceivedDir
+52 Name=GetFaxReceivedPath
+53 Name=CPCSetUpGStringForFastHeightCalc
+54 Name=CPCLoadGStringFromScrapInfo
+55 Name=FaxFileCompressPage
+56 Name=FaxFileCompressFile
+57 Name=FaxFileCopyFile
+58 Name=FaxFileDetectLeftEdge
+59 Name=FaxFileStoreCoverPageBitmap
+60 Name=FaxFileGetCoverPageBitmap
+;------------------EOF------------------

@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MSGMAILUTILS Pascal=0
+;---------------------------------------
+1 Name=__CMsgMailPreferences
+2 Name=CheckIfBannedL__CMsgMailAppUiGtTBuf1iGRApaLsSession
+3 Name=ConstructL__CMsgMailAppUi
+4 Name=CreateNewL__CMsgMailDocumentlliGTUid
+5 Name=DefaultAccountSettingsL__CMsgMailPreferenceslRCMsvSession
+6 Name=EntryChangedL__CMsgMailDocument
+7 Name=ExportSendOptionsL__CMsgMailPreferencesRCTMsvEmailEntry
+8 Name=FileSize__CMsgMailAppUiRCTDesC16
+9 Name=ImportSendOptionsL__CMsgMailPreferencesRTMsvEmailEntry
+10 Name=IsBannedMimeL__CCMsgMailAppUiRCTDesC16
+11 Name=MsgSaveL__CMsgMailAppUiii
+12 Name=ReadBannedMimesL__CMsgMailAppUi
+13 Name=RemoveNote__CMsgMailAppUi
+14 Name=_._CMsgMailAppUi
+15 Name=_._CMsgMailDocument
+16 Name=__CMsgMailAppUi
+17 Name=__CMsgMailDocumentRCEikApplication
+18 Name=CheckFFSL__CMsgMailAppUii
+19 Name=CleanupWaitDialog__CMsgMailAppUiPv
+20 Name=CleanupWaitNoteWrapper__CMsgMailAppUiPv
+21 Name=IsValidAddress__CCMsgMailAppUiRCTDesC16
+;------------------EOF------------------

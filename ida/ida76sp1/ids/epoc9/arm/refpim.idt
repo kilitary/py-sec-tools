@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=REFPIM Pascal=0
+;---------------------------------------
+1 Name=_ZN15CJavaPimManager4NewLEv
+2 Name=_ZTI12CJavaPimList
+3 Name=_ZTI13CAgendaFilter
+4 Name=_ZTI13CJavaTodoItem
+5 Name=_ZTI14CJavaEventItem
+6 Name=_ZTI14CJavaPimSearch
+7 Name=_ZTI15CJavaAgendaItem
+8 Name=_ZTI15CJavaPimManager
+9 Name=_ZTI16CJavaContactItem
+10 Name=_ZTI17CJavaTodoDatabase
+11 Name=_ZTI17CJavaTodoIterator
+12 Name=_ZTI18CJavaEventDatabase
+13 Name=_ZTI18CJavaEventIterator
+14 Name=_ZTI19CJavaAgendaDatabase
+15 Name=_ZTI19CJavaAgendaIterator
+16 Name=_ZTI19CJavaPIMWriteStream
+17 Name=_ZTI20CJavaContactDatabase
+18 Name=_ZTI20CJavaContactIterator
+19 Name=_ZTI21CJavaPluginRepeatRule
+20 Name=_ZTI24CJavaDataTransferHandler
+21 Name=_ZTI24CJavaPIMItemDeserializer
+24 Name=_ZTV12CJavaPimList
+25 Name=_ZTV13CAgendaFilter
+26 Name=_ZTV13CJavaTodoItem
+27 Name=_ZTV14CJavaEventItem
+28 Name=_ZTV14CJavaPimSearch
+29 Name=_ZTV15CJavaAgendaItem
+30 Name=_ZTV15CJavaPimManager
+31 Name=_ZTV16CJavaContactItem
+32 Name=_ZTV17CJavaTodoDatabase
+33 Name=_ZTV17CJavaTodoIterator
+34 Name=_ZTV18CJavaEventDatabase
+35 Name=_ZTV18CJavaEventIterator
+36 Name=_ZTV19CJavaAgendaDatabase
+37 Name=_ZTV19CJavaAgendaIterator
+38 Name=_ZTV19CJavaPIMWriteStream
+39 Name=_ZTV20CJavaContactDatabase
+40 Name=_ZTV20CJavaContactIterator
+41 Name=_ZTV21CJavaPluginRepeatRule
+42 Name=_ZTV24CJavaDataTransferHandler
+43 Name=_ZTV24CJavaPIMItemDeserializer
+;------------------EOF------------------

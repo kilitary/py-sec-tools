@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WAPP Pascal=0
+;---------------------------------------
+1 Name=_ZN22CMsvBIOWapAccessParser4NewLER20CRegisteredParserDllR9CMsvEntryR3RFs
+2 Name=_ZTI13CIspTableData
+3 Name=_ZTI13CWappBookmark
+4 Name=_ZTI16CWapIpBearerData
+5 Name=_ZTI18CWapGprsBearerData
+6 Name=_ZTI20CWapCharsetConverter
+7 Name=_ZTI21CMMSSettingsProxyBase
+8 Name=_ZTI22CMsvBIOWapAccessParser
+10 Name=_ZTV13CIspTableData
+11 Name=_ZTV13CWappBookmark
+12 Name=_ZTV16CWapIpBearerData
+13 Name=_ZTV18CWapGprsBearerData
+14 Name=_ZTV20CWapCharsetConverter
+15 Name=_ZTV21CMMSSettingsProxyBase
+16 Name=_ZTV22CMsvBIOWapAccessParser
+;------------------EOF------------------

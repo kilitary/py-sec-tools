@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=JBLUETOOTHPUSH Pascal=0
+;---------------------------------------
+1 Name=_ZN4MIDP10Connection9Bluetooth11InitializeLERNS_18MConnectionManagerE
+2 Name=_ZTI18CJavaBTDataElement
+3 Name=_ZTI22CJavaBTDataElementList
+4 Name=_ZTI24CJavaBTServiceRecordBase
+5 Name=_ZTIN24CJavaBTServiceRecordBase14CAttributeListE
+6 Name=_ZTIN4MIDP10Connection9Bluetooth14CAddressFilterE
+7 Name=_ZTIN4MIDP10Connection9Bluetooth20CBluetoothConnectionE
+8 Name=_ZTIN4MIDP10Connection9Bluetooth21CAddressFilterFactoryE
+9 Name=_ZTIN4MIDP10Connection9Bluetooth23CRfcommStreamConnectionE
+10 Name=_ZTIN4MIDP10Connection9Bluetooth24CConnectionPermissionMapE
+11 Name=_ZTIN4MIDP10Connection9Bluetooth24CL2capAcceptorConnectionE
+12 Name=_ZTIN4MIDP10Connection9Bluetooth24CL2capDatagramConnectionE
+13 Name=_ZTIN4MIDP10Connection9Bluetooth24CPersistentServiceRecordE
+14 Name=_ZTIN4MIDP10Connection9Bluetooth25CJavaBTL2capServiceRecordE
+15 Name=_ZTIN4MIDP10Connection9Bluetooth25CRfcommAcceptorConnectionE
+16 Name=_ZTIN4MIDP10Connection9Bluetooth26CJavaBTRfcommServiceRecordE
+17 Name=_ZTIN4MIDP10Connection9Bluetooth27CBluetoothConnectionFactoryE
+18 Name=_ZTIN4MIDP10Connection9Bluetooth28CBluetoothAcceptorConnectionE
+19 Name=_ZTV18CJavaBTDataElement
+20 Name=_ZTV22CJavaBTDataElementList
+21 Name=_ZTV24CJavaBTServiceRecordBase
+22 Name=_ZTVN24CJavaBTServiceRecordBase14CAttributeListE
+23 Name=_ZTVN4MIDP10Connection9Bluetooth14CAddressFilterE
+24 Name=_ZTVN4MIDP10Connection9Bluetooth20CBluetoothConnectionE
+25 Name=_ZTVN4MIDP10Connection9Bluetooth21CAddressFilterFactoryE
+26 Name=_ZTVN4MIDP10Connection9Bluetooth23CRfcommStreamConnectionE
+27 Name=_ZTVN4MIDP10Connection9Bluetooth24CConnectionPermissionMapE
+28 Name=_ZTVN4MIDP10Connection9Bluetooth24CL2capAcceptorConnectionE
+29 Name=_ZTVN4MIDP10Connection9Bluetooth24CL2capDatagramConnectionE
+30 Name=_ZTVN4MIDP10Connection9Bluetooth24CPersistentServiceRecordE
+31 Name=_ZTVN4MIDP10Connection9Bluetooth25CJavaBTL2capServiceRecordE
+32 Name=_ZTVN4MIDP10Connection9Bluetooth25CRfcommAcceptorConnectionE
+33 Name=_ZTVN4MIDP10Connection9Bluetooth26CJavaBTRfcommServiceRecordE
+34 Name=_ZTVN4MIDP10Connection9Bluetooth27CBluetoothConnectionFactoryE
+35 Name=_ZTVN4MIDP10Connection9Bluetooth28CBluetoothAcceptorConnectionE
+36 Name=_ZTIN4MIDP10Connection9Bluetooth21CGOEPStreamConnectionE
+37 Name=_ZTIN4MIDP10Connection9Bluetooth23CGOEPAcceptorConnectionE
+38 Name=_ZTIN4MIDP10Connection9Bluetooth24CJavaBTGOEPServiceRecordE
+39 Name=_ZTVN4MIDP10Connection9Bluetooth21CGOEPStreamConnectionE
+40 Name=_ZTVN4MIDP10Connection9Bluetooth23CGOEPAcceptorConnectionE
+41 Name=_ZTVN4MIDP10Connection9Bluetooth24CJavaBTGOEPServiceRecordE
+;------------------EOF------------------

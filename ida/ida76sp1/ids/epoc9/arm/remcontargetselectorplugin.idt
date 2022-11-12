@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=REMCONTARGETSELECTORPLUGIN Pascal=0
+;---------------------------------------
+1 Name=_ZN11TClientInfo7MessageEv
+2 Name=_ZN11TClientInfo8SecureIdEv
+3 Name=_ZN11TClientInfo9ProcessIdEv
+4 Name=_ZN11TClientInfoC1Ev
+5 Name=_ZN11TClientInfoC2Ev
+6 Name=_ZN11TClientInfoD1Ev
+7 Name=_ZN11TClientInfoD2Ev
+8 Name=_ZN15TBearerSecurityC1E4TUidRK15TSecurityPolicy
+9 Name=_ZN15TBearerSecurityC2E4TUidRK15TSecurityPolicy
+10 Name=_ZN15TBearerSecurityD1Ev
+11 Name=_ZN15TBearerSecurityD2Ev
+12 Name=_ZN27CRemConTargetSelectorPlugin4NewLE4TUidR35MRemConTargetSelectorPluginObserver
+13 Name=_ZN27CRemConTargetSelectorPlugin8ObserverEv
+14 Name=_ZN27CRemConTargetSelectorPluginC2ER35MRemConTargetSelectorPluginObserver
+15 Name=_ZN27CRemConTargetSelectorPluginD0Ev
+16 Name=_ZN27CRemConTargetSelectorPluginD1Ev
+17 Name=_ZN27CRemConTargetSelectorPluginD2Ev
+18 Name=_ZN35MRemConTargetSelectorPluginObserver24IncomingCommandAddressedEi
+19 Name=_ZN35MRemConTargetSelectorPluginObserver24OutgoingCommandAddressedEi
+20 Name=_ZN35MRemConTargetSelectorPluginObserver24OutgoingCommandPermittedEi
+21 Name=_ZNK11TClientInfo7MessageEv
+22 Name=_ZNK11TClientInfo8SecureIdEv
+23 Name=_ZNK11TClientInfo9ProcessIdEv
+24 Name=_ZNK15TBearerSecurity14SecurityPolicyEv
+25 Name=_ZNK15TBearerSecurity9BearerUidEv
+26 Name=_ZTI27CRemConTargetSelectorPlugin
+27 Name=_ZTV27CRemConTargetSelectorPlugin
+28 Name=_ZN35MRemConTargetSelectorPluginObserver14GetConnectionsER7TSglQueI14TRemConAddressE
+;------------------EOF------------------

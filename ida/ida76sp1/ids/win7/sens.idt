@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=Sens.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=ServiceMain Pascal=8
+2 Name=SvchostPushServiceGlobals Pascal=4
+3 Name=SensNotifyNetconEvent Pascal=4
+4 Name=SensNotifyRasEvent Pascal=4
+5 Name=SensNotifyWinlogonEvent Pascal=4
+;------------------EOF------------------

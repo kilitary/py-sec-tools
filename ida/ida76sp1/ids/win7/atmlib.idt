@@ -1,0 +1,83 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=atmlib.dll Args=0 Drops=76
+;---------------------------------------
+1 Name=ATMAddFont Pascal=16
+2 Name=ATMAddFontA Pascal=16
+3 Name=ATMAddFontEx Pascal=20
+4 Name=ATMAddFontExA Pascal=20
+5 Name=ATMAddFontExW Pascal=20
+6 Name=ATMAddFontW Pascal=16
+7 Name=ATMBBoxBaseXYShowText Pascal=48
+8 Name=ATMBBoxBaseXYShowTextA Pascal=48
+9 Name=ATMBBoxBaseXYShowTextW Pascal=48
+10 Name=ATMBeginFontChange Pascal=0
+11 Name=ATMClient Pascal=4
+12 Name=ATMEndFontChange Pascal=0
+13 Name=ATMEnumFonts Pascal=8
+14 Name=ATMEnumFontsA Pascal=8
+15 Name=ATMEnumFontsW Pascal=8
+16 Name=ATMEnumMMFonts Pascal=12
+17 Name=ATMEnumMMFontsA Pascal=12
+18 Name=ATMEnumMMFontsW Pascal=12
+19 Name=ATMFinish Pascal=0
+20 Name=ATMFontAvailable Pascal=24
+21 Name=ATMFontAvailableA Pascal=24
+22 Name=ATMFontAvailableW Pascal=24
+23 Name=ATMFontSelected Pascal=4
+24 Name=ATMFontStatus Pascal=16
+25 Name=ATMFontStatusA Pascal=16
+26 Name=ATMFontStatusW Pascal=16
+27 Name=ATMForceFontChange Pascal=0
+28 Name=ATMGetBuildStr Pascal=4
+29 Name=ATMGetBuildStrA Pascal=8
+30 Name=ATMGetBuildStrW Pascal=8
+31 Name=ATMGetFontBBox Pascal=8
+32 Name=ATMGetFontInfo Pascal=20
+33 Name=ATMGetFontInfoA Pascal=20
+34 Name=ATMGetFontInfoW Pascal=20
+35 Name=ATMGetFontPaths Pascal=8
+36 Name=ATMGetFontPathsA Pascal=8
+37 Name=ATMGetFontPathsW Pascal=8
+38 Name=ATMGetGlyphList Pascal=12
+39 Name=ATMGetGlyphListA Pascal=12
+40 Name=ATMGetGlyphListW Pascal=12
+41 Name=ATMGetMenuName Pascal=8
+42 Name=ATMGetMenuNameA Pascal=8
+43 Name=ATMGetMenuNameW Pascal=8
+44 Name=ATMGetNtmFields Pascal=12
+45 Name=ATMGetNtmFieldsA Pascal=12
+46 Name=ATMGetNtmFieldsW Pascal=12
+47 Name=ATMGetOutline Pascal=32
+48 Name=ATMGetOutlineA Pascal=32
+49 Name=ATMGetOutlineW Pascal=32
+50 Name=ATMGetPostScriptName Pascal=8
+51 Name=ATMGetPostScriptNameA Pascal=8
+52 Name=ATMGetPostScriptNameW Pascal=8
+53 Name=ATMGetVersion Pascal=0
+54 Name=ATMGetVersionEx Pascal=4
+55 Name=ATMGetVersionExA Pascal=4
+56 Name=ATMGetVersionExW Pascal=4
+57 Name=ATMInstallSubstFontA Pascal=8
+58 Name=ATMInstallSubstFontW Pascal=8
+59 Name=ATMMakePFM Pascal=16
+60 Name=ATMMakePFMA Pascal=16
+61 Name=ATMMakePFMW Pascal=16
+62 Name=ATMMakePSS Pascal=16
+63 Name=ATMMakePSSA Pascal=16
+64 Name=ATMMakePSSW Pascal=16
+65 Name=ATMProperlyLoaded Pascal=0
+66 Name=ATMRemoveFont Pascal=8
+67 Name=ATMRemoveFontA Pascal=8
+68 Name=ATMRemoveFontW Pascal=8
+69 Name=ATMRemoveSubstFontA Pascal=4
+70 Name=ATMRemoveSubstFontW Pascal=4
+71 Name=ATMSelectEncoding Pascal=8
+72 Name=ATMSelectObject Pascal=16
+73 Name=ATMSetFlags Pascal=8
+74 Name=ATMXYShowText Pascal=36
+75 Name=ATMXYShowTextA Pascal=36
+76 Name=ATMXYShowTextW Pascal=36
+;------------------EOF------------------

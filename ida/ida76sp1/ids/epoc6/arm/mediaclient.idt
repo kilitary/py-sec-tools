@@ -1,0 +1,70 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MEDIACLIENT Pascal=0
+;---------------------------------------
+1 Name=StartMediaServer__Fv
+2 Name=StartMediaServerL__Fv
+3 Name=StartMediaServer__FR14TRequestStatus
+4 Name=Connect__11RMdaSessioni
+5 Name=ConnectL__11RMdaSessioni
+6 Name=ConnectLC__11RMdaSessioni
+7 Name=SynchPackage__C10RMdaObjectsRC14TMdaRawPackage
+8 Name=AsynchMessage__C10RMdaObjectsR14TRequestStatusPCvT3
+9 Name=AsynchPackageCreateMessage__10RMdaObjectRC10RMdaObjectsR14TRequestStatusR15TMdaOpenPackage
+10 Name=AsynchPackageReturn__C10RMdaObjectsR14TRequestStatusRC17TMdaReturnPackageRP14TMdaRawPackage
+11 Name=AsynchPackage__C10RMdaObjectsR14TRequestStatusRC14TMdaRawPackage
+12 Name=BlindMessageL__C10RMdaObjectsPCvN22
+13 Name=BlindMessage__C10RMdaObjectsPCvN22
+14 Name=CancelCreateMessage__10RMdaObjectR14TRequestStatus
+15 Name=CancelGetListenerEvents__11RMdaSession
+16 Name=CancelMessage__C10RMdaObjectR14TRequestStatus
+17 Name=Close__10RMdaObject
+18 Name=GetListenerEvents__11RMdaSessionR16TMdaEventPackageR14TRequestStatus
+19 Name=ListenToL__11RMdaSessionRC10RMdaObject
+20 Name=ListenTo__11RMdaSessionRC10RMdaObject
+21 Name=SetListenerParametersL__11RMdaSessionR16TMdaEventPackagei
+22 Name=SetListenerParameters__11RMdaSessionR16TMdaEventPackagei
+23 Name=StopListeningTo__11RMdaSessionRC10RMdaObject
+24 Name=SynchCreateMessageLC__10RMdaObjectRC10RMdaObjectsPv
+25 Name=SynchCreateMessageL__10RMdaObjectRC10RMdaObjectsPv
+26 Name=SynchCreateMessage__10RMdaObjectRC10RMdaObjectsPv
+27 Name=SynchMessageL__C10RMdaObjectsPCvN22
+28 Name=SynchMessage__C10RMdaObjectsPCvN22
+29 Name=SynchPackageCreateMessageLC__10RMdaObjectRC10RMdaObjectsR15TMdaOpenPackage
+30 Name=SynchPackageCreateMessageL__10RMdaObjectRC10RMdaObjectsR15TMdaOpenPackage
+31 Name=SynchPackageCreateMessage__10RMdaObjectRC10RMdaObjectsR15TMdaOpenPackage
+32 Name=SynchPackageL__C10RMdaObjectsRC14TMdaRawPackage
+33 Name=SynchPackageReturnLC__C10RMdaObjectsRC17TMdaReturnPackageRP14TMdaRawPackage
+34 Name=SynchPackageReturnL__C10RMdaObjectsRC17TMdaReturnPackageRP14TMdaRawPackage
+35 Name=SynchPackageReturn__C10RMdaObjectsRC17TMdaReturnPackageRP14TMdaRawPackage
+36 Name=AsynchCreateMessage__10RMdaObjectRC10RMdaObjectsR14TRequestStatusPv
+37 Name=__14CMdaRecognizer
+38 Name=BuildListL__14CMdaRecognizer
+39 Name=ConnectL__14CMdaControllerP11MMdaSrcPortP11MMdaDstPortG4TUid
+40 Name=Count__C23TMdaResourceEntryParserQ223TMdaResourceEntryParser5TType
+41 Name=Entry__C23TMdaResourceEntryParserQ223TMdaResourceEntryParser5TTypei
+42 Name=Match__14CMdaRecognizerRC7TDesC16RC6TDesC8
+43 Name=MimeString__14CMdaRecognizer
+44 Name=NewL__10CMdaServer
+45 Name=NewL__14CMdaControllerP10CMdaServerR29MMdaObjectStateChangeObserver
+46 Name=NumMimeTypes__14CMdaRecognizer
+47 Name=Pause__14CMdaController
+48 Name=Play__14CMdaController
+49 Name=Prepare__14CMdaController
+50 Name=Prime__14CMdaController
+51 Name=RemoveListener__10CMdaServerR23MMdaObjectEventListener
+52 Name=Reset__14CMdaController
+53 Name=SetPriorityL__14CMdaControlleri22TMdaPriorityPreference
+54 Name=Set__23TMdaResourceEntryParserRC6TDesC8
+55 Name=Stop__14CMdaController
+56 Name=SupportedDataTypeL__C14CMdaRecognizeri
+57 Name=Unprepare__14CMdaController
+58 Name=_._10CMdaServer
+59 Name=_._14CMdaController
+60 Name=_._14CMdaRecognizer
+61 Name=__12CMdaResourcei
+62 Name=AddListenerL__10CMdaServerR23MMdaObjectEventListener
+63 Name=Close__11RMdaSession
+;------------------EOF------------------

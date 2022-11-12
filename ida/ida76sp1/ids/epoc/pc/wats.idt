@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WATS Pascal=0
+;---------------------------------------
+1 Name=?StartMessageWatcher@@YAHPAX@Z
+2 Name=??0CWatcherData@@QAE@VTUid@@PAVHBufC8@@@Z
+3 Name=?EntryL@CWatcherServer@@QAEPAVCMsvEntry@@J@Z
+4 Name=?EventHasOccured@CWatcherServer@@QAEXVTUid@@@Z
+5 Name=?FinishedWithSession@CWatcherServer@@QAEXXZ
+6 Name=?NewL@CWatcherServer@@SAPAV1@XZ
+7 Name=?RequireSession@CWatcherServer@@QAEHXZ
+;------------------EOF------------------

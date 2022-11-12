@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HWRMLIGHTCLIENT Pascal=0
+;---------------------------------------
+1 Name=_ZN10CHWRMLight4NewLEP18MHWRMLightObserver
+2 Name=_ZN10CHWRMLight4NewLEv
+3 Name=_ZN10CHWRMLight5NewLCEP18MHWRMLightObserver
+4 Name=_ZN10CHWRMLight5NewLCEv
+;------------------EOF------------------

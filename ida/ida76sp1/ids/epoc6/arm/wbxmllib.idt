@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WBXMLLIB Pascal=0
+;---------------------------------------
+1 Name=CWbxmlConverter_Reserved1__15CWbxmlConverter
+2 Name=CommitL__15CWbxmlConverter
+3 Name=MWbxmlConverterObserver_Reserved1__23MWbxmlConverterObserver
+4 Name=NewLC__15CWbxmlConverterR3RFsP23MWbxmlConverterObserver
+5 Name=NewL__15CWbxmlConverterR3RFsP23MWbxmlConverterObserver
+6 Name=ProcessDataL__15CWbxmlConverterR6HBufC8
+7 Name=NewL__15CWbxmlConverterR3RFsP23MWbxmlConverterObserverPC7TDesC16
+;------------------EOF------------------

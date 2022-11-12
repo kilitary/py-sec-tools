@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ntshrui.dll Args=0 Drops=18
+;---------------------------------------
+1 Name=GetLocalPathFromNetResource Pascal=20
+2 Name=GetLocalPathFromNetResourceA Pascal=20
+3 Name=GetLocalPathFromNetResourceW Pascal=20
+4 Name=GetNetResourceFromLocalPath Pascal=16
+5 Name=GetNetResourceFromLocalPathA Pascal=16
+6 Name=GetNetResourceFromLocalPathW Pascal=16
+7 Name=IsPathShared Pascal=8
+8 Name=IsPathSharedA Pascal=8
+9 Name=IsPathSharedW Pascal=8
+10 Name=SharingDialog Pascal=12
+11 Name=SharingDialogA Pascal=12
+12 Name=SharingDialogW Pascal=12
+13 Name=CanShareFolderW Pascal=4
+14 Name=DllCanUnloadNow Pascal=0
+15 Name=DllGetClassObject Pascal=12
+16 Name=IsFolderPrivateForUser Pascal=16
+17 Name=SetFolderPermissionsForSharing Pascal=16
+18 Name=ShowShareFolderUIW Pascal=8
+;------------------EOF------------------

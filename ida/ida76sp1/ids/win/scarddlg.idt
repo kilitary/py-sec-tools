@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=scarddlg.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=GetOpenCardNameA Pascal=4
+2 Name=GetOpenCardNameW Pascal=4
+3 Name=SCardDlgExtendedError Pascal=0
+4 Name=SCardUIDlgSelectCardA Pascal=4
+5 Name=SCardUIDlgSelectCardW Pascal=4
+6 Name=SCardUIDlgGetPINA Pascal=4
+7 Name=SCardUIDlgChangePINA Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=vaultcli.dll Args=0 Drops=27
+;---------------------------------------
+1 Name=VaultAddItem Pascal=20
+2 Name=VaultCloseVault Pascal=4
+3 Name=VaultConfirmVaultAccess Pascal=12
+4 Name=VaultCopyItem Pascal=24
+5 Name=VaultCopyVault Pascal=28
+6 Name=VaultCreateItemType Pascal=48
+7 Name=VaultCreateVault Pascal=28
+8 Name=VaultDeleteItemType Pascal=12
+9 Name=VaultDeleteVault Pascal=8
+10 Name=VaultEnumerateItemTypes Pascal=16
+11 Name=VaultEnumerateItems Pascal=16
+12 Name=VaultEnumerateVaults Pascal=12
+13 Name=VaultFindItems Pascal=28
+14 Name=VaultFree Pascal=4
+15 Name=VaultGetInformation Pascal=12
+16 Name=VaultGetItem Pascal=28
+17 Name=VaultGetItemType Pascal=16
+18 Name=VaultLoadVaults Pascal=8
+19 Name=VaultLockVault Pascal=8
+20 Name=VaultMoveItem Pascal=24
+21 Name=VaultOpenVault Pascal=12
+22 Name=VaultRegisterNotification Pascal=16
+23 Name=VaultRemoveItem Pascal=20
+24 Name=VaultSetInformation Pascal=16
+25 Name=VaultUnRegisterNotification Pascal=16
+26 Name=VaultUnloadVaults Pascal=8
+27 Name=VaultUnlockVault Pascal=12
+;------------------EOF------------------

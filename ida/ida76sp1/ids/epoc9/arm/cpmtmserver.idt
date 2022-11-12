@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CPMTMSERVER Pascal=0
+;---------------------------------------
+1 Name=_ZN12CCpMtmServer4NewLER17CRegisteredMtmDllP15CMsvServerEntry
+;------------------EOF------------------

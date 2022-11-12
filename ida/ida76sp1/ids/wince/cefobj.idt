@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CEFOBJ.dll Pascal=0
+;---------------------------------------
+1 Name=GetObjTypeInfo
+2 Name=InitObjType
+3 Name=ObjectNotify
+4 Name=ReportStatus
+;------------------EOF------------------

@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTHLINK.dll Pascal=0
+;---------------------------------------
+1 Name=BTL_Init
+2 Name=BTL_Deinit
+3 Name=BTL_Open
+4 Name=BTL_Close
+5 Name=BTL_Read
+6 Name=BTL_Write
+7 Name=BTL_Seek
+8 Name=BTL_IOControl
+9 Name=BTL_PowerUp
+10 Name=BTL_PowerDown
+;------------------EOF------------------

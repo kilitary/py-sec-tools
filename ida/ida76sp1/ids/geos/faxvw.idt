@@ -1,0 +1,18 @@
+DECLARATION Nokia 9110 Geos 3.0 library faxvw.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=faxvwdll Pascal=0
+;---------------------------------------
+1 Name=FaxViewOpen
+2 Name=FaxViewDetach
+3 Name=FaxViewChangeDocument
+4 Name=FaxViewClose
+5 Name=FVCheckForIncomplete
+6 Name=FaxViewDialogClass
+7 Name=FaxViewViewClass
+8 Name=FaxViewContentClass
+9 Name=FaxViewContentProcessClass
+10 Name=FaxViewRangeTextClass
+11 Name=FaxViewPageRangeClass
+;------------------EOF------------------

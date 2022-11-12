@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=uexfat.dll Args=0 Drops=35
+;---------------------------------------
+1 Name=??0CLUSTER_CHAIN@@QAE@XZ Pascal=0
+2 Name=??0EXFATDIR@@QAE@XZ Pascal=0
+3 Name=??0EXFAT_DIRENT@@QAE@XZ Pascal=0
+4 Name=??0EXFAT_SA@@QAE@XZ Pascal=0
+5 Name=??0EXFAT_VOL@@QAE@XZ Pascal=0
+6 Name=??1CLUSTER_CHAIN@@UAE@XZ Pascal=0
+7 Name=??1EXFATDIR@@UAE@XZ Pascal=0
+8 Name=??1EXFAT_DIRENT@@UAE@XZ Pascal=0
+9 Name=??1EXFAT_SA@@UAE@XZ Pascal=0
+10 Name=??1EXFAT_VOL@@UAE@XZ Pascal=0
+11 Name=?AllocChain@FAT@@QAEKPAVEXFATBITMAP@@KPAK@Z Pascal=12
+12 Name=Chkdsk Pascal=44
+13 Name=ChkdskEx Pascal=20
+14 Name=Format Pascal=28
+15 Name=FormatEx Pascal=16
+16 Name=?FreeChain@FAT@@QAEXPAVEXFATBITMAP@@K@Z Pascal=8
+17 Name=GetFilesystemInformation Pascal=12
+18 Name=?Initialize@CLUSTER_CHAIN@@QAEEPAVMEM@@PAVLOG_IO_DP_DRIVE@@PAVEXFAT_SA@@PBVFAT@@KKE@Z Pascal=28
+19 Name=?Initialize@EXFATDIR@@QAEEPAVHMEM@@PAVLOG_IO_DP_DRIVE@@PAVEXFAT_SA@@PBVFAT@@KKE@Z Pascal=28
+20 Name=?Initialize@EXFAT_DIRENT@@QAEEPAVEXFAT_SA@@PAXPAVEXFATDIR@@K@Z Pascal=16
+21 Name=?Initialize@EXFAT_SA@@QAEEPAVLOG_IO_DP_DRIVE@@PAVMESSAGE@@@Z Pascal=8
+22 Name=?Initialize@EXFAT_VOL@@QAE?AW4FORMAT_ERROR_CODE@@PBVWSTRING@@PAVMESSAGE@@EEW4_MEDIA_TYPE@@EE@Z Pascal=28
+23 Name=?QueryAllocatedClusters@FAT@@QBEKXZ Pascal=0
+24 Name=?QueryFileSize@EXFAT_DIRENT@@QAE_JXZ Pascal=0
+25 Name=?QueryLengthOfChain@FAT@@QBEKKPAK@Z Pascal=8
+26 Name=?QueryNthCluster@FAT@@QBEKKK@Z Pascal=8
+27 Name=?QueryStartingCluster@EXFAT_DIRENT@@QAEKXZ Pascal=0
+28 Name=?Read@CLUSTER_CHAIN@@UAEEXZ Pascal=0
+29 Name=?ReadAndRecordBadSectors@CLUSTER_CHAIN@@QAEEPAVEXFATSECRUNBITMAP@@@Z Pascal=4
+30 Name=Recover Pascal=8
+31 Name=?SetFileSize@EXFAT_DIRENT@@QAEE_J@Z Pascal=8
+32 Name=?SetStartingCluster@EXFAT_DIRENT@@QAEEK@Z Pascal=4
+33 Name=?VerifyAndFixPhase2@EXFAT_DIRENT@@QAEEPAVEXFATBITMAP@@0PAVWSTRING@@EEEW4FIX_LEVEL@@PAEPAVMESSAGE@@@Z Pascal=36
+34 Name=?Write@CLUSTER_CHAIN@@UAEEXZ Pascal=0
+35 Name=?WriteAndSkipBadSectors@CLUSTER_CHAIN@@QAEEXZ Pascal=0
+;------------------EOF------------------

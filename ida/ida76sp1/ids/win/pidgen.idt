@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=pidgen.dll Args=0 Drops=7
+;---------------------------------------
+1 Name=PIDGenA Pascal=56
+2 Name=PIDGenW Pascal=56
+3 Name=PIDGenSimpA Pascal=36
+4 Name=PIDGenSimpW Pascal=36
+5 Name=SetupPIDGenA Pascal=28
+6 Name=SetupPIDGenW Pascal=28
+7 Name=VerifyPIDSequenceW Pascal=12
+;------------------EOF------------------

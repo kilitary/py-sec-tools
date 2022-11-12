@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FAXIO Pascal=0
+;---------------------------------------
+1 Name=WriteRawHeaderLineL__15CFaxHeaderLinesiRt5TBuf81i216
+2 Name=DecodeScanLine2D__6CFaxT4R5TDes8RC6TDesC8
+3 Name=DecodeScanLine__6CFaxT4R5TDes8RC6TDesC8
+4 Name=EncodeScanLine1D__6CFaxT4RC6TDesC8R5TDes8
+5 Name=EncodeScanLine2D__6CFaxT4RC6TDesC8R5TDes8
+6 Name=EncodeScanLine__6CFaxT4RC6TDesC8R5TDes8
+7 Name=NewLC__15CFaxHeaderLines
+8 Name=NewLC__6CFaxT4
+9 Name=NewL__15CFaxHeaderLines
+10 Name=NewL__6CFaxT4
+11 Name=PageInitialize__6CFaxT414TFaxResolution15TFaxCompressioni
+12 Name=ReadFaxHeaderInfoL__15CFaxHeaderLinesR14TFaxHeaderInfo
+13 Name=ReadRawFontLineL__15CFaxHeaderLinesiRt5TBuf81i216
+14 Name=ReadRawHeaderLineL__15CFaxHeaderLinesiRt5TBuf81i216
+15 Name=WriteFaxHeaderInfoL__15CFaxHeaderLinesR14TFaxHeaderInfo
+16 Name=WriteRawFontLineL__15CFaxHeaderLinesiRt5TBuf81i216
+17 Name=DecodeScanLine1D__6CFaxT4R5TDes8RC6TDesC8
+;------------------EOF------------------

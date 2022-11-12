@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sl_anet.acm Args=0 Drops=8
+;---------------------------------------
+1 Name=ACM_copybits Pascal=20
+2 Name=ACM_decoder_16k0 Pascal=12
+3 Name=ACM_decoder_5k0 Pascal=12
+4 Name=ACM_decoder_8k5 Pascal=12
+5 Name=ACM_init_decoder_16k0 Pascal=0
+6 Name=ACM_init_decoder_5k0 Pascal=0
+7 Name=ACM_init_decoder_8k5 Pascal=0
+8 Name=DriverProc Pascal=20
+;------------------EOF------------------

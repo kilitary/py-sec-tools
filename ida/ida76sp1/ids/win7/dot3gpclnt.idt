@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dot3gpclnt.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=DeserializeLANPolicy Pascal=20
+2 Name=GenerateLANPolicy Pascal=20
+3 Name=ProcessLANPolicyEx Pascal=40
+4 Name=LANGPADeInit Pascal=0
+5 Name=LANGPAInit Pascal=4
+;------------------EOF------------------

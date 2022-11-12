@@ -1,0 +1,61 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CRYPTO Pascal=0
+;---------------------------------------
+1 Name=__eq__C27CSigningAlgorithmIdentifierRC27CSigningAlgorithmIdentifier
+2 Name=Algorithm__C20CAlgorithmIdentifier
+3 Name=AsymmetricAlgorithm__C27CSigningAlgorithmIdentifier
+4 Name=ConstructL__13CSignedObjectR11RReadStreamP19TSignedObjectParserP11TKeyFactory
+5 Name=ConstructL__13CSignedObjectRC13CSignedObjectP19TSignedObjectParserP11TKeyFactory
+6 Name=ConstructL__13CSignedObjectRC6TPtrC8P19TSignedObjectParserP11TKeyFactory
+7 Name=ConstructL__20CAlgorithmIdentifierRC20CAlgorithmIdentifier
+8 Name=ConstructL__20CAlgorithmIdentifierRC6TDesC8
+9 Name=ConstructL__21CSubjectPublicKeyInfoRC21CSubjectPublicKeyInfo
+10 Name=DigestAlgorithm__C27CSigningAlgorithmIdentifier
+11 Name=EncodedParams__C20CAlgorithmIdentifier
+12 Name=EncodedParams__C21CSubjectPublicKeyInfo
+13 Name=Encoding__C13CSignedObject
+14 Name=ExternalizeL__C13CSignedObjectR12RWriteStream
+15 Name=Fingerprint__C13CSignedObject
+16 Name=Finish__C15CValidityPeriod
+17 Name=KeyData__C21CSubjectPublicKeyInfo
+18 Name=NewLC__20CAlgorithmIdentifierR12TAlgorithmIdRC6TDesC8
+19 Name=NewLC__20CAlgorithmIdentifierRC20CAlgorithmIdentifier
+20 Name=NewLC__21CSigningKeyParameters
+21 Name=NewLC__21CSigningKeyParametersRC21CSigningKeyParameters
+22 Name=NewLC__21CSubjectPublicKeyInfoRC21CSubjectPublicKeyInfo
+23 Name=NewLC__27CSigningAlgorithmIdentifierRC27CSigningAlgorithmIdentifier
+24 Name=NewL__20CAlgorithmIdentifierR12TAlgorithmIdRC6TDesC8
+25 Name=NewL__20CAlgorithmIdentifierRC20CAlgorithmIdentifier
+26 Name=NewL__21CSigningKeyParameters
+27 Name=NewL__21CSigningKeyParametersRC21CSigningKeyParameters
+28 Name=NewL__21CSubjectPublicKeyInfoRC21CSubjectPublicKeyInfo
+29 Name=NewL__27CSigningAlgorithmIdentifierRC27CSigningAlgorithmIdentifier
+30 Name=PublicKey__C12CCertificate
+31 Name=SerialNumber__C12CCertificate
+32 Name=SetDSAParamsL__21CSigningKeyParametersRC14CDSAParameters
+33 Name=SetParametersL__13CSignedObjectRC21CSigningKeyParameters
+34 Name=Signature__C13CSignedObject
+35 Name=SignedDataL__C13CSignedObject
+36 Name=SigningAlgorithm__C13CSignedObject
+37 Name=Start__C15CValidityPeriod
+38 Name=Valid__C15CValidityPeriodRC5TTime
+39 Name=ValidityPeriod__C12CCertificate
+40 Name=VerifySignatureL__C13CSignedObjectRC6TDesC8
+41 Name=_._12CCertificate
+42 Name=_._13CSignedObject
+43 Name=_._19CRSASignatureResult
+44 Name=_._20CAlgorithmIdentifier
+45 Name=_._21CSigningKeyParameters
+46 Name=_._21CSubjectPublicKeyInfo
+47 Name=_._27CSigningAlgorithmIdentifier
+48 Name=__15CValidityPeriod
+49 Name=__15CValidityPeriodRC15CValidityPeriod
+50 Name=__20CAlgorithmIdentifier
+51 Name=__20CAlgorithmIdentifierR12TAlgorithmId
+52 Name=__eq__C19CRSASignatureResultRC19CRSASignatureResult
+53 Name=__eq__C20CAlgorithmIdentifierRC20CAlgorithmIdentifier
+54 Name=AlgorithmId__C21CSubjectPublicKeyInfo
+;------------------EOF------------------

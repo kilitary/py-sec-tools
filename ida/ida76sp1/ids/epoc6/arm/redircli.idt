@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=REDIRCLI Pascal=0
+;---------------------------------------
+1 Name=Write__13RRedirSessionR14TRequestStatusRC6TDesC8i
+2 Name=CompleteRead__11CStreamBaseRC8RMessage
+3 Name=Connect__13RRedirSession
+4 Name=Flush__13RRedirSessionR14TRequestStatus
+5 Name=GetStatus__C18CStreamFactoryBase
+6 Name=NewL__12CRedirServerP18CStreamFactoryBase
+7 Name=Read__13RRedirSessionR14TRequestStatusR5TDes8
+8 Name=Read__13RRedirSessionR14TRequestStatusR5TDes8i
+9 Name=SetStreamFactory__12CRedirServerP18CStreamFactoryBase
+10 Name=Write__13RRedirSessionR14TRequestStatusRC6TDesC8
+11 Name=AppendToStatus__18CStreamFactoryBaseRC7TDesC16
+;------------------EOF------------------

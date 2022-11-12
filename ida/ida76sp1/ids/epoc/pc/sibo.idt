@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SIBO Pascal=0
+;---------------------------------------
+1 Name=?ChDirL@SiboUtil@@SAXAAVRFs@@ABVTDesC8@@AAVTDes8@@G1@Z
+2 Name=?EraToSiboBatteryState@SiboDevInfo@@SAGW4TBatteryState@@@Z
+3 Name=?EraToSiboFileAttr@SiboFileInfo@@SAGI@Z
+4 Name=?EraToSiboMediaType@SiboDevInfo@@SAGABVTDriveInfo@@@Z
+5 Name=?EraToSiboParseFlags@SiboParse@@SAEABVTParse@@@Z
+6 Name=?ErrorEraToSibo@SiboUtil@@SAFH@Z
+7 Name=?ErrorSiboToEra@SiboUtil@@SAHF@Z
+8 Name=?FileModeEraToSibo@SiboUtil@@SAGW4TFileOpen@@K@Z
+9 Name=?Get16@SiboUtil@@SAGPBE@Z
+10 Name=?Get32@SiboUtil@@SAKPBE@Z
+11 Name=?Get@SiboDevInfo@@SAXAAVTVolumeInfo@@ABVTDesC8@@@Z
+12 Name=?Get@SiboFileInfo@@SAXAAVTEntry@@ABVTDesC8@@@Z
+13 Name=?GetFloat@SiboUtil@@SANPAX@Z
+14 Name=?GetLongPathL@SiboUtil@@SAXAAVRFs@@ABVTDesC8@@AAVTDes8@@@Z
+15 Name=?GetShortPathL@SiboUtil@@SAXAAVRFs@@ABVTDesC8@@AAVTDes8@@@Z
+16 Name=?GetWithNameAppended@SiboFileInfo@@SAHAAVTEntry@@ABVTDesC8@@@Z
+17 Name=?GetWithNameAppendedL@SiboParse@@SAHABVTDesC8@@AAVTParse@@@Z
+18 Name=?OpenFileL@SiboUtil@@SAXAAVRFile@@AAVRFs@@ABVTDesC8@@GPAVTDes8@@@Z
+19 Name=?Put16@SiboUtil@@SAXPAEG@Z
+20 Name=?Put32@SiboUtil@@SAXPAEK@Z
+21 Name=?PutFloat@SiboUtil@@SAXPAXABN@Z
+22 Name=?SeekL@SiboUtil@@SAXAAVRFile@@AAHF@Z
+23 Name=?SeekModeEraToSiboL@SiboUtil@@SAFW4TSeek@@@Z
+24 Name=?SeekModeSiboToEraL@SiboUtil@@SA?AW4TSeek@@FAAH@Z
+25 Name=?Set@SiboDevInfo@@SAXABVTVolumeInfo@@AAVTDes8@@@Z
+26 Name=?Set@SiboFileInfo@@SAXABVTEntry@@AAVTDes8@@@Z
+27 Name=?Set@SiboNodeInfo@@SAXAAVTDes8@@@Z
+28 Name=?Set@SiboParse@@SAXABVTParse@@AAVTDes8@@@Z
+29 Name=?SetWithNameAppendedL@SiboFileInfo@@SAHAAVRFs@@ABVTEntry@@AAVTDes8@@ABVTDesC8@@@Z
+30 Name=?SetWithNameAppendedL@SiboParse@@SAHABVTParse@@AAVTDes8@@@Z
+31 Name=?SiboToEraBatteryState@SiboDevInfo@@SA?AW4TBatteryState@@G@Z
+32 Name=?SiboToEraFileAttr@SiboFileInfo@@SAIG@Z
+33 Name=?SiboToEraMediaType@SiboDevInfo@@SAXAAVTDriveInfo@@G@Z
+34 Name=?TimeEraToSibo@SiboUtil@@SAKABVTTime@@@Z
+35 Name=?TimeSiboToEra@SiboUtil@@SA?AVTTime@@K@Z
+;------------------EOF------------------

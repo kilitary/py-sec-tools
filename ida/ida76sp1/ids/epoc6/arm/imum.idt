@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=IMUM Pascal=0
+;---------------------------------------
+1 Name=NewPP3UMtmUiL__FR8CBaseMtmR17CRegisteredMtmDll
+2 Name=NewPP3IMtmUiDataLayerL__FR17CRegisteredMtmDll
+3 Name=NewSMTUMtmUiL__FR8CBaseMtmR17CRegisteredMtmDll
+4 Name=NewSMTIMtmUiDataLayerL__FR17CRegisteredMtmDll
+5 Name=NewIMPUMtmUiL__FR8CBaseMtmR17CRegisteredMtmDll
+6 Name=NewIMPIMtmUiDataLayerL__FR17CRegisteredMtmDll
+;------------------EOF------------------

@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=icaapi.dll Args=0 Drops=32
+;---------------------------------------
+1 Name=IcaCdCreateThread Pascal=16
+2 Name=IcaCdIoControl Pascal=28
+3 Name=IcaCdWaitForMultipleObjects Pascal=20
+4 Name=IcaCdWaitForSingleObject Pascal=12
+5 Name=IcaChannelClose Pascal=4
+6 Name=IcaChannelIoControl Pascal=28
+7 Name=IcaChannelOpen Pascal=16
+8 Name=IcaChannelTrace Pascal=0
+9 Name=IcaClose Pascal=4
+10 Name=IcaIoControl Pascal=28
+11 Name=IcaMemoryAllocate Pascal=8
+12 Name=IcaMemoryFree Pascal=4
+13 Name=IcaOpen Pascal=4
+14 Name=IcaPushConsoleStack Pascal=20
+15 Name=IcaStackCallback Pascal=24
+16 Name=IcaStackClose Pascal=4
+17 Name=IcaStackConnectionAccept Pascal=36
+18 Name=IcaStackConnectionClose Pascal=16
+19 Name=IcaStackConnectionRequest Pascal=28
+20 Name=IcaStackConnectionWait Pascal=28
+21 Name=IcaStackCreateShadowEndpoint Pascal=20
+22 Name=IcaStackDisconnect Pascal=12
+23 Name=IcaStackIoControl Pascal=28
+24 Name=IcaStackOpen Pascal=20
+25 Name=IcaStackQueryState Pascal=16
+26 Name=IcaStackReconnect Pascal=16
+27 Name=IcaStackTerminate Pascal=4
+28 Name=IcaStackTrace Pascal=0
+29 Name=IcaStackUnlock Pascal=4
+30 Name=IcaSystemTrace Pascal=0
+31 Name=IcaTrace Pascal=0
+32 Name=_IcaStackIoControl Pascal=28
+;------------------EOF------------------

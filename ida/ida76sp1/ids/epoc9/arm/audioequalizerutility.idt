@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=AUDIOEQUALIZERUTILITY Pascal=0
+;---------------------------------------
+1 Name=_ZN19CTempAudioEqualizer4NewLEiP15CAudioEqualizer
+2 Name=_ZN19CTempAudioEqualizer6ApplyLEv
+3 Name=_ZN22CAudioEqualizerUtility10GetPresetLEi
+4 Name=_ZN22CAudioEqualizerUtility12ApplyPresetLEi
+5 Name=_ZN22CAudioEqualizerUtility12ResetPresetLEi
+6 Name=_ZN22CAudioEqualizerUtility13CreatePresetLER7TDesC16R15CAudioEqualizer
+7 Name=_ZN22CAudioEqualizerUtility13DeletePresetLEi
+8 Name=_ZN22CAudioEqualizerUtility13ModifyPresetLEiR7TDesC16R15CAudioEqualizer
+9 Name=_ZN22CAudioEqualizerUtility17DisableEqualizerLEv
+10 Name=_ZN22CAudioEqualizerUtility4NewLEP21CCustomCommandUtility
+11 Name=_ZN22CAudioEqualizerUtility4NewLER12CMMFDevSound
+12 Name=_ZN22CAudioEqualizerUtility4NewLER16MCustomInterface
+13 Name=_ZN22CAudioEqualizerUtility4NewLER20CMdaAudioInputStream
+14 Name=_ZN22CAudioEqualizerUtility4NewLER20CMdaAudioToneUtility
+15 Name=_ZN22CAudioEqualizerUtility4NewLER21CMdaAudioOutputStream
+16 Name=_ZN22CAudioEqualizerUtility4NewLER22CMdaAudioPlayerUtility
+17 Name=_ZN22CAudioEqualizerUtility4NewLER23CMdaAudioConvertUtility
+18 Name=_ZN22CAudioEqualizerUtility4NewLER24CMdaAudioRecorderUtility
+19 Name=_ZN22CAudioEqualizerUtility7PresetsEv
+20 Name=_ZN22CAudioEqualizerUtility9BassBoostEv
+21 Name=_ZN22CAudioEqualizerUtility9EqualizerEv
+22 Name=_ZNK22CAudioEqualizerUtility25NumberOfPreDefinedPresetsEv
+23 Name=_ZTI19CTempAudioEqualizer
+24 Name=_ZTI22CAudioEqualizerUtility
+25 Name=_ZTV19CTempAudioEqualizer
+26 Name=_ZTV22CAudioEqualizerUtility
+;------------------EOF------------------

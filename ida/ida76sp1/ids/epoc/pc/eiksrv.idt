@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=EIKSRV Pascal=0
+;---------------------------------------
+1 Name=??0TEikPasswordModeCategory@@QAE@XZ
+2 Name=?CycleTasks@CEikServAppUi@@QBEXW4TTaskCycleDirection@1@@Z
+3 Name=?LaunchTaskListL@CEikServAppUi@@QBEXXZ
+4 Name=?NewLC@CEikServAppUi@@SAPAV1@XZ
+5 Name=?NotifyAlarmServerOfTaskChange@CEikServAppUi@@QBEXXZ
+6 Name=?PasswordMode@TEikPasswordModeCategory@@QBEXAAW4TPasswordMode@@@Z
+7 Name=?SetPasswordMode@TEikPasswordModeCategory@@QAEHW4TPasswordMode@@@Z
+;------------------EOF------------------

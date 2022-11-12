@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SERVICEBROKERCLIENT Pascal=0
+;---------------------------------------
+1 Name=_ZN4conn20RServiceBrokerClient10DisconnectEv
+2 Name=_ZN4conn20RServiceBrokerClient10StopServerEv
+3 Name=_ZN4conn20RServiceBrokerClient12RegisterPortERK7TDesC16j
+4 Name=_ZN4conn20RServiceBrokerClient13FailedToStartERK7TDesC16j
+5 Name=_ZN4conn20RServiceBrokerClient7ConnectEv
+6 Name=_ZN4conn20RServiceBrokerClientC1Ev
+7 Name=_ZN4conn20RServiceBrokerClientC2Ev
+8 Name=_ZN4conn20RServiceBrokerClientD1Ev
+9 Name=_ZN4conn20RServiceBrokerClientD2Ev
+10 Name=_ZNK4conn20RServiceBrokerClient7VersionEv
+;------------------EOF------------------

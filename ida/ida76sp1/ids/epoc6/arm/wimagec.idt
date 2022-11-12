@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WIMAGEC Pascal=0
+;---------------------------------------
+1 Name=GetModuleInfo
+2 Name=GetPluginInfo
+;------------------EOF------------------

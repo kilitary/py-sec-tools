@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DEVINFOSUPPORTCLIENT Pascal=0
+;---------------------------------------
+1 Name=_ZN3Swi11RDeviceInfo10DeviceIdsLEv
+2 Name=_ZN3Swi11RDeviceInfo11StartServerEv
+3 Name=_ZN3Swi11RDeviceInfo5CloseEv
+4 Name=_ZN3Swi11RDeviceInfo7ConnectEv
+5 Name=_ZN3Swi11RDeviceInfoC1Ev
+6 Name=_ZN3Swi11RDeviceInfoC2Ev
+;------------------EOF------------------

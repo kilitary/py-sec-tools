@@ -1,0 +1,224 @@
+DECLARATION Nokia 9110 Geos 3.0 library contdb.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+62 Name=contdbdll Args=0 Drops=42
+;---------------------------------------
+1 Name=CONTACTGETDBHANDLE \
+	Comment=VMFileHandle pascal ContactGetDBHandle(void) in contdb.h
+2 Name=ContactGetDBHandle
+3 Name=CONTACTCREATERECORDFROMTEMPLATE \
+	Comment=MemHandle pascal ContactCreateRecordFromTemplate(void) in contdb.h
+4 Name=ContactSetTemplateRecord
+5 Name=CONTACTSETTEMPLATERECORD Pascal=2 \
+	Comment=void pascal ContactSetTemplateRecord(MemHandle record) in contdb.h
+6 Name=ContactSaveRecord
+7 Name=CONTACTSAVERECORD Pascal=2 \
+	Comment=dword pascal ContactSaveRecord(MemHandle record) in contdb.h
+8 Name=CONTACTGETDBHANDLENOBLOCK \
+	Comment=VMFileHandle pascal ContactGetDBHandleNoBlock(void) in contdb.h
+9 Name=CONTACTCLOSEDBFILE \
+	Comment=word pascal ContactCloseDBFile(void) in contdb.h
+10 Name=CONTACTREOPENDBFILE \
+	Comment=VMFileHandle pascal ContactReOpenDBFile(void) in contdb.h
+11 Name=CONTACTRELEASEDBHANDLE \
+	Comment=void pascal ContactReleaseDBHandle(void) in contdb.h
+12 Name=ContactListClass
+13 Name=ContactSearchTextClass
+14 Name=ContactEditClass
+15 Name=ContactFieldEditClass
+16 Name=ContactMatchNumber
+17 Name=CONTACTMATCHNUMBER Pascal=14 \
+	Comment=RecordID pascal ContactMatchNumber(TCHAR *number, ContdbCallType type, FieldID *field, word *numMatches) in contdb.h
+18 Name=ContactGetName
+19 Name=CONTACTGETNAME Pascal=6 \
+	Comment=Boolean pascal ContactGetName(MemHandle record, TCHAR *dest) in contdb.h
+20 Name=CONTACTGETUSERDATAID \
+	Comment=dword pascal ContactGetUserDataID(void) in contdb.h
+21 Name=ContactEnsureField
+22 Name=CONTACTENSUREFIELD Pascal=8 \
+	Comment=FieldID pascal ContactEnsureField(MemHandle record, optr fieldName, ContdbFieldType fieldType) in contdb.h
+23 Name=SpeedDialControlClass
+24 Name=SpeedDialGetRecord
+25 Name=SpeedDialSetRecord
+26 Name=SpeedDialGetSlot
+27 Name=SpeedDialGetNumber
+28 Name=SPEEDDIALGETRECORD Pascal=10 \
+	Comment=int pascal SpeedDialGetRecord(int slot, RecordID *rid, FieldID *fid) in contdb.h
+29 Name=SPEEDDIALSETRECORD Pascal=8 \
+	Comment=int pascal SpeedDialSetRecord(int slot, RecordID rid, FieldID fid) in contdb.h
+30 Name=SPEEDDIALGETSLOT Pascal=6 \
+	Comment=int pascal SpeedDialGetSlot(RecordID rid, FieldID fid) in contdb.h
+31 Name=SPEEDDIALGETNUMBER Pascal=6 \
+	Comment=int pascal SpeedDialGetNumber(int slot, TCHAR *buf) in contdb.h
+32 Name=ContactEnsureEmptyField
+33 Name=CONTACTENSUREEMPTYFIELD Pascal=8 \
+	Comment=FieldID pascal ContactEnsureEmptyField(MemHandle record, optr fieldName, ContdbFieldType fieldType) in contdb.h
+34 Name=ContactMatchName
+35 Name=CONTACTMATCHNAME Pascal=16 \
+	Comment=RecordID pascal ContactMatchName(TCHAR *name, ContdbFieldType type, Boolean stopEarly, FieldID *field, word *numMatches) in contdb.h
+36 Name=ContactGetTruncatedName
+37 Name=CONTACTGETTRUNCATEDNAME Pascal=8 \
+	Comment=Boolean pascal ContactGetTruncatedName(MemHandle record, TCHAR *dest, word destSize) in contdb.h
+38 Name=ContactImportDBFromTextFile
+39 Name=ContactExportDBToTextFile
+40 Name=ContdbTranslateSubFieldLabelToEnglish
+41 Name=ContdbRecreateFieldLabel
+42 Name=CONTACTIMPORTDBFROMTEXTFILE Pascal=2 \
+	Comment=void pascal ContactImportDBFromTextFile(hptr fileImport) in contdb.h
+43 Name=CONTACTEXPORTDBTOTEXTFILE Pascal=10 \
+	Comment=ContactExportStatus pascal ContactExportDBToTextFile(hptr fileExport, dword startElement, dword numOfRecords) in contdb.h
+44 Name=CONTDBTRANSLATESUBFIELDLABELTOENGLISH Pascal=8 \
+	Comment=void pascal ContdbTranslateSubFieldLabelToEnglish(TCHAR *subLabel, TCHAR *destination) in contdb.h
+45 Name=CONTDBRECREATEFIELDLABEL Pascal=10 \
+	Comment=void pascal ContdbRecreateFieldLabel(TCHAR *subLabel, TCHAR *destination, int fieldType) in contdb.h
+46 Name=ContactCompareNumbers
+47 Name=CONTACTCOMPARENUMBERS Pascal=8 \
+	Comment=Boolean pascal ContactCompareNumbers(TCHAR *number1, TCHAR *number2) in contdb.h
+48 Name=ContactGetUserDataName
+49 Name=CONTACTGETUSERDATANAME Pascal=6 \
+	Comment=word pascal ContactGetUserDataName(TCHAR *username, word bufSize) in contdb.h
+50 Name=ContactChangeNetworkVersion
+51 Name=CONTACTCHANGENETWORKVERSION Pascal=2 \
+	Comment=void pascal ContactChangeNetworkVersion(ContactNetworkVersionType cnvt) in contdb.h
+52 Name=ContactListDetailsContentClass
+53 Name=ThickGenInteractionClass
+54 Name=SpecialItemsListClass
+55 Name=SpecialItemClass
+56 Name=ContactEditPickAToneClass
+57 Name=PickAnImageClass
+58 Name=CONTACTVERIFYNETWORKVERSION \
+	Comment=void pascal ContactVerifyNetworkVersion(void) in contdb.h
+59 Name=ContactGetDBName
+60 Name=ContactChangeStandardDB
+61 Name=ContactCreateNewDB
+62 Name=ContactSetOverrideDB
+63 Name=ContactRemoveOverrideDB
+64 Name=ContactGetNumDBsOnMemoryCard
+65 Name=CONTACTGETDBNAME Pascal=6 \
+	Comment=int pascal ContactGetDBName(int dbIndex, TCHAR *dbName) in contdb.h
+66 Name=CONTACTCHANGESTANDARDDB Pascal=4 \
+	Comment=int pascal ContactChangeStandardDB(TCHAR *dbName) in contdb.h
+67 Name=CONTACTCREATENEWDB Pascal=4 \
+	Comment=word pascal ContactCreateNewDB(TCHAR *dbName) in contdb.h
+68 Name=CONTACTSETOVERRIDEDB Pascal=4 \
+	Comment=word pascal ContactSetOverrideDB(TCHAR *dbName) in contdb.h
+69 Name=CONTACTREMOVEOVERRIDEDB \
+	Comment=void pascal ContactRemoveOverrideDB(void ) in contdb.h
+70 Name=CONTACTGETNUMDBSONMEMORYCARD \
+	Comment=int pascal ContactGetNumDBsOnMemoryCard(void) in contdb.h
+71 Name=ContactGetMemCardStatus
+72 Name=CONTACTGETMEMCARDSTATUS \
+	Comment=int pascal ContactGetMemCardStatus(void) in contdb.h
+73 Name=ContactGetImageFile
+74 Name=ContactSetImageFile
+75 Name=CONTACTGETIMAGEFILE Pascal=8 \
+	Comment=ContactImageFileType pascal ContactGetImageFile(RecordID recordID, TCHAR *imageLocation) in contdb.h
+76 Name=CONTACTSETIMAGEFILE Pascal=8 \
+	Comment=ContactImageFileType pascal ContactSetImageFile(RecordID recordID, TCHAR *imageLocation) in contdb.h
+77 Name=ContactCreateGroup
+78 Name=CONTACTCREATEGROUP Pascal=4 \
+	Comment=RecordID pascal ContactCreateGroup(TCHAR *groupName) in contdb.h
+79 Name=ContactAddRecordToGroup
+80 Name=CONTACTADDRECORDTOGROUP Pascal=8 \
+	Comment=word pascal ContactAddRecordToGroup(RecordID childRecord, RecordID group) in contdb.h
+81 Name=ContactIsRecordAGroup
+82 Name=CONTACTISRECORDAGROUP Pascal=2 \
+	Comment=Boolean pascal ContactIsRecordAGroup(Handle record) in contdb.h
+83 Name=ContactRemoveRecordFromGroup
+84 Name=CONTACTREMOVERECORDFROMGROUP Pascal=8 \
+	Comment=void pascal ContactRemoveRecordFromGroup(RecordID recordToRemove, RecordID group) in contdb.h
+85 Name=ContactListGroups
+86 Name=CONTACTLISTGROUPS Pascal=2 \
+	Comment=optr pascal ContactListGroups(Boolean getMemberCount ) in contdb.h
+87 Name=ContactGroupListClass
+88 Name=ContactGetToneFile
+89 Name=ContactSetToneFile
+90 Name=CONTACTGETTONEFILE Pascal=8 \
+	Comment=ContactToneFileType pascal ContactGetToneFile(RecordID recordID, TCHAR *toneLocation) in contdb.h
+91 Name=CONTACTSETTONEFILE Pascal=8 \
+	Comment=ContactToneFileType pascal ContactSetToneFile(RecordID recordID, TCHAR *toneLocation) in contdb.h
+92 Name=ContactMonitorClass
+93 Name=CONTACTENUMONGROUPMEMBERS
+94 Name=CONTACTENUMONALLGROUPMEMBERS
+95 Name=CONTACTENUMONGROUPS
+96 Name=CONTACTISRECORDINGROUP
+97 Name=CONTACTENUMONGROUPSRECORDISIN
+98 Name=CONTACTENUMONALLGROUPSRECORDISIN
+99 Name=CONTACTISLOCKEDRECORDAGROUP
+100 Name=ContactMatchGroupName
+101 Name=CONTACTMATCHGROUPNAME
+102 Name=ContactSIMListClass
+103 Name=ContactSIMEditClass
+104 Name=ContactSIMFilterListClass
+105 Name=ContactSIMFilterTextClass
+106 Name=ContactSIMProgressDialogClass
+107 Name=ContactSIMFetchContacts
+108 Name=CONTACTSIMFETCHCONTACTS \
+	Comment=Boolean pascal ContactSIMFetchContacts(void) in contsim.goh
+109 Name=CONTACTSIMGETCACHESTATUS \
+	Comment=ContactSIMError pascal ContactSIMGetCacheStatus(void) in contsim.goh
+110 Name=CONTACTSIMNUMBER Pascal=8 \
+	Comment=ContactSIMError pascal ContactSIMNumber(word *totalSIMContacts, word *usedSIMContacts ) in contsim.goh
+111 Name=CONTACTSIMGETLOCATIONENTRY Pascal=10 \
+	Comment=ContactSIMError pascal ContactSIMGetLocationEntry(word location, TCHAR *name, TCHAR *number ) in contsim.goh
+112 Name=CONTACTSIMGETSORTEDENTRY Pascal=10 \
+	Comment=ContactSIMError pascal ContactSIMGetSortedEntry(word sortOrder, TCHAR *name, TCHAR *number ) in contsim.goh
+113 Name=ContactSIMCheckLocationEmpty
+114 Name=CONTACTSIMCHECKLOCATIONEMPTY Pascal=2 \
+	Comment=Boolean pascal ContactSIMCheckLocationEmpty(word location) in contsim.goh
+115 Name=ContactSIMCheckLocationHasNumber
+116 Name=CONTACTSIMCHECKLOCATIONHASNUMBER Pascal=2 \
+	Comment=Boolean pascal ContactSIMCheckLocationHasNumber(word location) in contsim.goh
+117 Name=ContactParentGroupListClass
+118 Name=ContactSIMCheckSIMStatus
+119 Name=CONTACTSIMCHECKSIMSTATUS \
+	Comment=Boolean pascal ContactSIMCheckSIMStatus(void) in contsim.goh
+120 Name=ContactSIMGetFirstEmptyLocation
+121 Name=CONTACTSIMGETFIRSTEMPTYLOCATION \
+	Comment=word pascal ContactSIMGetFirstEmptyLocation(void) in contsim.goh
+122 Name=ContactSIMNumber
+123 Name=ContactRenameDB
+124 Name=ContactSIMXlatToLocation
+125 Name=CONTACTSIMXLATTOLOCATION Pascal=2 \
+	Comment=word pascal ContactSIMXlatToLocation(word sortOrder) in contsim.goh
+126 Name=ContactSIMXlatToSortOrder
+127 Name=CONTACTSIMXLATTOSORTORDER Pascal=2 \
+	Comment=word pascal ContactSIMXlatToSortOrder(word location) in contsim.goh
+128 Name=FramedImageInteractionClass
+129 Name=ContactCopyRecordToDB
+130 Name=CONTACTCOPYRECORDTODB
+131 Name=ContactRenameGroup
+132 Name=CONTACTRENAMEGROUP
+133 Name=ContactDeleteDatabase
+134 Name=CONTACTDELETEDATABASE
+135 Name=ContactDrawMMCTitle
+136 Name=CONTACTDRAWMMCTITLE
+137 Name=ContactDrawBitmap
+138 Name=CONTACTRENAMEDB
+139 Name=ContactRestoreOverrideDB
+140 Name=CONTACTRESTOREOVERRIDEDB Pascal=2 \
+	Comment=void pascal ContactRestoreOverrideDB(word dbToken ) in contdb.h
+141 Name=CONTACTREADCALLERGROUPFIELD
+142 Name=CONTACTWRITECALLERGROUPFIELD
+143 Name=CONTACTISRECORDINCALLERGROUP
+144 Name=CONTACTRECORDREADCALLERGROUPS
+145 Name=ImageConvertProgressDialogClass
+146 Name=CONTACTIMPORTDBFROMTEXTFILESTATUS Pascal=2 \
+	Comment=ContactExportStatus pascal ContactImportDBFromTextFileStatus(hptr fileImport) in contdb.h
+147 Name=ContactImportDBFromTextFileStatus
+148 Name=ContactDeleteRecord
+149 Name=CONTACTDELETERECORD Pascal=2 \
+	Comment=Boolean pascal ContactDeleteRecord(MemHandle record) in contdb.h
+150 Name=CONTACTGETDBDISKHANDLE \
+	Comment=DiskHandle pascal ContactGetDBDiskHandle(void) in contdb.h
+151 Name=CONTACTGETGROUPCOUNT \
+	Comment=word pascal ContactGetGroupCount(void) in contdb.h
+152 Name=ContactSIMCheckFDNStatus
+153 Name=CONTACTSIMCHECKFDNSTATUS \
+	Comment=Boolean pascal ContactSIMCheckFDNStatus(void) in contsim.goh
+154 Name=CONTACTCLOSEDBFILESONMMC \
+	Comment=void pascal ContactCloseDBFilesOnMMC(void) in contdb.h
+155 Name=CONTACTREOPENDBFILESONMMC \
+	Comment=void pascal ContactReOpenDBFilesOnMMC(void) in contdb.h
+;------------------EOF------------------

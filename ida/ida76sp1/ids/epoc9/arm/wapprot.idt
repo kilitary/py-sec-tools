@@ -1,0 +1,24 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WAPPROT Pascal=0
+;---------------------------------------
+1 Name=InstallWAPSMS
+2 Name=_ZTI12CWapDatagram
+3 Name=_ZTI15CWapSmsProtocol
+4 Name=_ZTI15CWapSmsProvider
+5 Name=_ZTI19CWapReassemblyStore
+6 Name=_ZTI20CWapProtocolObserver
+7 Name=_ZTI20CWapSapMessageSender
+8 Name=_ZTI20CWapSmsProviderWrite
+9 Name=_ZTI21CWapSmsProtocolFamily
+10 Name=_ZTV12CWapDatagram
+11 Name=_ZTV15CWapSmsProtocol
+12 Name=_ZTV15CWapSmsProvider
+13 Name=_ZTV19CWapReassemblyStore
+14 Name=_ZTV20CWapProtocolObserver
+15 Name=_ZTV20CWapSapMessageSender
+16 Name=_ZTV20CWapSmsProviderWrite
+17 Name=_ZTV21CWapSmsProtocolFamily
+;------------------EOF------------------

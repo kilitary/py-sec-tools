@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=xpsservices.dll Args=0 Drops=7
+;---------------------------------------
+3 Name=ProduceXpsPackageToFile Pascal=16
+4 Name=ConsumeXpsPackageFromFile Pascal=20
+5 Name=ProduceXpsPackageToStream Pascal=16
+6 Name=ConsumeXpsPackageFromStream Pascal=20
+7 Name=ConsumeXpsPackageFromOpcPackageContent Pascal=20
+8 Name=DllCanUnloadNow Pascal=0
+9 Name=DllGetClassObject Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,41 @@
+DECLARATION Nokia 9110 Geos 3.0 library pccom.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+16 Name=pccomdll Args=0 Drops=13
+;---------------------------------------
+1 Name=PCCOMINIT Pascal=12 \
+	Comment=PCComReturnType pascal PCComInit(SerialPortNum port, SerialBaud baud, word timeout, optr callbackOptr, PCComInitFlags flags) in pccom.goh
+2 Name=PCCOMEXIT \
+	Comment=PCComReturnType pascal PCComExit(void) in pccom.goh
+3 Name=PCCOMABORT \
+	Comment=void pascal PCComAbort(void) in pccom.goh
+4 Name=PCComClass
+5 Name=PCCOMGET Pascal=14 \
+	Comment=PCComFullReturnType pascal PCComGet(hptr dataBlock, word bytesPerStatus, optr statusDest, word statusMSG, char *destPathname) in pccom.goh
+6 Name=PCCOMSEND Pascal=16 \
+	Comment=PCComFullReturnType pascal PCComSend(char *sourcePathname, word bytesPerStatus, optr statusOptr, word statusMSG, char *destPathname) in pccom.goh
+7 Name=PCCOMSTATUS Pascal=8 \
+	Comment=PCComFullReturnType pascal PCComStatus(struct StatusReply *statusBuffer, char *currentFilename) in pccom.goh
+8 Name=PCCOMCD Pascal=4 \
+	Comment=PCComFullReturnType pascal PCComCD(const char *dirPathname) in pccom.goh
+9 Name=PCCOMMKDIR Pascal=4 \
+	Comment=PCComFullReturnType pascal PCComMkdir(char *dirPathname) in pccom.goh
+10 Name=PCCOMGETFILESIZE Pascal=8 \
+	Comment=PCComFullReturnType pascal PCComGetFileSize(dword *fileSize, char *filename) in pccom.goh
+11 Name=PCCOMDIR Pascal=8 \
+	Comment=PCComFullReturnType pascal PCComDir(hptr dataBlock, PCComDirDetailLevel detailLevel, char *fileSpec) in pccom.goh
+12 Name=PCCOMLISTDRIVES Pascal=2 \
+	Comment=PCComFullReturnType pascal PCComListDrives(hptr dataBlock) in pccom.goh
+13 Name=PCCOMFILEENUM Pascal=12 \
+	Comment=word pascal PCComFileEnum(FileEnumParams *params, MemHandle *bufCreated, word *numNoFit) in pccom.goh
+14 Name=PCCOMREMARK Pascal=4 \
+	Comment=PCComFullReturnType pascal PCComRemark(char *remark) in pccom.goh
+15 Name=PCCOMPWD Pascal=4 \
+	Comment=PCComFullReturnType pascal PCComPWD(char *buffer) in pccom.goh
+16 Name=PCCOMGETFREESPACE Pascal=6 \
+	Comment=PCComFullReturnType pascal PCComGetFreeSpace(dword *driveSpace, word driveLetter) in pccom.goh
+17 Name=PCComFileSelectorClass
+18 Name=PCCOMRESET \
+	Comment=PCComReturnType pascal PCComReset(void) in pccom.goh
+;------------------EOF------------------

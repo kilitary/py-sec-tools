@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=clbcatq.dll Args=0 Drops=32
+;---------------------------------------
+1 Name=ActivatorUpdateForIsRouterChanges Pascal=8
+2 Name=CoRegCleanup Pascal=0
+3 Name=DeleteAllActivatorsForClsid Pascal=20
+4 Name=DowngradeAPL Pascal=4
+5 Name=GetGlobalBabyJITEnabled Pascal=0
+6 Name=UpdateFromAppChange Pascal=8
+7 Name=UpdateFromComponentChange Pascal=8
+8 Name=CLSIDFromStringByBitness Pascal=12
+9 Name=CheckMemoryGates Pascal=8
+10 Name=ComPlusEnablePartitions Pascal=4
+11 Name=ComPlusEnableRemoteAccess Pascal=4
+12 Name=ComPlusMigrate Pascal=24
+13 Name=ComPlusPartitionsEnabled Pascal=4
+14 Name=ComPlusRemoteAccessEnabled Pascal=4
+15 Name=CreateComponentLibraryEx Pascal=12
+16 Name=DllCanUnloadNow Pascal=0
+17 Name=DllGetClassObject Pascal=12
+18 Name=DllRegisterServer Pascal=0
+19 Name=DllUnregisterServer Pascal=0
+20 Name=GetCatalogObject2 Pascal=8
+21 Name=GetCatalogObject Pascal=8
+22 Name=GetComputerObject Pascal=8
+23 Name=GetSimpleTableDispenser Pascal=8
+24 Name=InprocServer32FromString Pascal=20
+25 Name=OpenComponentLibraryEx Pascal=12
+26 Name=OpenComponentLibraryOnMemEx Pascal=12
+27 Name=OpenComponentLibraryOnStreamEx Pascal=12
+28 Name=ServerGetApplicationType Pascal=12
+29 Name=SetSetupOpen Pascal=4
+30 Name=SetSetupSave Pascal=4
+31 Name=SetupOpen Pascal=0
+32 Name=SetupSave Pascal=0
+;------------------EOF------------------

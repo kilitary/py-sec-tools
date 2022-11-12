@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msiltcfg.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=MsiDecomposeDescriptorW Pascal=20
+2 Name=MsiGetComponentPathW Pascal=16
+3 Name=MsiGetProductInfoW Pascal=16
+4 Name=MsiProvideComponentFromDescriptorW Pascal=16
+5 Name=MsiQueryFeatureStateW Pascal=8
+6 Name=MsiQueryFeatureStateFromDescriptorW Pascal=4
+7 Name=MsiSetInternalUI Pascal=8
+8 Name=MsiAdvertiseScriptW Pascal=16
+9 Name=MsiQueryProductStateW Pascal=4
+10 Name=MsiIsProductElevatedW Pascal=8
+11 Name=MsiReinstallProductW Pascal=8
+12 Name=MsiConfigureProductExW Pascal=16
+13 Name=ShutdownMsi Pascal=4
+14 Name=RestartMsi Pascal=4
+;------------------EOF------------------

@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SHUTDOWNSRV Pascal=0
+;---------------------------------------
+1 Name=_ZN19CServShutdownServer10ConstructLEv
+2 Name=_ZN19CServShutdownServer10NotifySaveEN13MSaveObserver9TSaveTypeE
+3 Name=_ZN19CServShutdownServer13ClientArrayLCEv
+4 Name=_ZN19CServShutdownServer14CancelPowerOffEv
+5 Name=_ZN19CServShutdownServer20HandleShutdownEventLEN13MSaveObserver9TSaveTypeEi
+6 Name=_ZN19CServShutdownServer23HandlePowerNotifRequestERK7RThread
+7 Name=_ZN19CServShutdownServer4NewLEv
+8 Name=_ZN19CServShutdownServerC1Ei
+9 Name=_ZN19CServShutdownServerC2Ei
+10 Name=_ZN19CServShutdownServerD0Ev
+11 Name=_ZN19CServShutdownServerD1Ev
+12 Name=_ZN19CServShutdownServerD2Ev
+13 Name=_ZN20CServShutdownSession8ServiceLERK9RMessage2
+14 Name=_ZN20CServShutdownSessionC1Ev
+15 Name=_ZN20CServShutdownSessionC2Ev
+16 Name=_ZN20CServShutdownSessionD0Ev
+17 Name=_ZN20CServShutdownSessionD1Ev
+18 Name=_ZN20CServShutdownSessionD2Ev
+19 Name=_ZNK19CServShutdownServer10IsPowerOffEv
+20 Name=_ZNK19CServShutdownServer12IsClientHungE9TThreadId
+21 Name=_ZNK19CServShutdownServer16GetShutdownStateERiS0_
+22 Name=_ZTI19CServShutdownServer
+23 Name=_ZTI20CServShutdownSession
+24 Name=_ZTV19CServShutdownServer
+25 Name=_ZTV20CServShutdownSession
+26 Name=_ZThn104_N19CServShutdownServer13ClientArrayLCEv
+27 Name=_ZThn104_N19CServShutdownServer20HandleShutdownEventLEN13MSaveObserver9TSaveTypeEi
+28 Name=_ZThn104_NK19CServShutdownServer12IsClientHungE9TThreadId
+29 Name=_ZThn104_NK19CServShutdownServer16GetShutdownStateERiS0_
+;------------------EOF------------------

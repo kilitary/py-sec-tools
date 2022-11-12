@@ -1,0 +1,75 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=JAVAHELPER Pascal=0
+;---------------------------------------
+1 Name=_ZN12CJavaRemover4NewLE4TUidR14MJavaRemoverUI
+2 Name=_ZN12CJavaRemover6RemoveER14TRequestStatus
+3 Name=_ZN14CJavaInstaller12NotifyCancelEv
+4 Name=_ZN14CJavaInstaller4NewLER16MJavaInstallerUIR16MJarDownloaderUIRK6TDesC8im
+5 Name=_ZN14CJavaInstaller7InstallER27CMIDPInstallationLaunchInfoR14TRequestStatus
+6 Name=_ZN16COTAReportSender11SendReportLE4TUidimP20MCustomMIDletInstall
+7 Name=_ZN16COTAReportSender4NewLERK7TDesC16
+8 Name=_ZN16COTAReportSender4NewLERK8CJadFile
+9 Name=_ZN16COTAReportSender5NewLCERK7TDesC16
+10 Name=_ZN16COTAReportSender5NewLCERK8CJadFile
+11 Name=_ZN16COTAReportSender6CancelEv
+12 Name=_ZN19TMIDLetJournalEntryC1Ei4TUidRK6TDesC8S3_
+13 Name=_ZN19TMIDLetJournalEntryC2Ei4TUidRK6TDesC8S3_
+14 Name=_ZN20CMIDLetStatusManager12AppendEntryLER19TMIDLetJournalEntry
+15 Name=_ZN20CMIDLetStatusManager15ProcessEntriesLEv
+16 Name=_ZN20CMIDLetStatusManager18CancelNotificationEv
+17 Name=_ZN20CMIDLetStatusManager18SendNotifyMessageLER19TMIDLetJournalEntry
+18 Name=_ZN20CMIDLetStatusManager18SetCustomInstallerEP20MCustomMIDletInstall
+19 Name=_ZN20CMIDLetStatusManagerD0Ev
+20 Name=_ZN20CMIDLetStatusManagerD1Ev
+21 Name=_ZN20CMIDLetStatusManagerD2Ev
+22 Name=_ZN27CMIDPInstallationLaunchInfo4NewLER3RFsRK7TDesC16
+23 Name=_ZN27CMIDPInstallationLaunchInfo4NewLER3RFsRK7TDesC16S4_RK6TDesC8S4_S4_S7_
+24 Name=_ZN27CMIDPInstallationLaunchInfo6WriteLERK7TDesC16
+25 Name=_ZN27CMIDPInstallationLaunchInfoD0Ev
+26 Name=_ZN27CMIDPInstallationLaunchInfoD1Ev
+27 Name=_ZN27CMIDPInstallationLaunchInfoD2Ev
+28 Name=_ZN29CJavaMIDletInstallationResult16SetInstallResultEi
+29 Name=_ZN29CJavaMIDletInstallationResult16SetOTAReportCodeEi
+30 Name=_ZN29CJavaMIDletInstallationResult4NewLENS_14TOTAReportCodeE
+31 Name=_ZN29CJavaMIDletInstallationResultD0Ev
+32 Name=_ZN29CJavaMIDletInstallationResultD1Ev
+33 Name=_ZN29CJavaMIDletInstallationResultD2Ev
+34 Name=_ZN29CJavaMIDletInstallationResultaSERKS_
+35 Name=_ZNK29CJavaMIDletInstallationResult13InstallResultEv
+36 Name=_ZNK29CJavaMIDletInstallationResult13OTAReportCodeEv
+37 Name=_ZTI27CMIDPInstallationLaunchInfo
+38 Name=_ZNK29CJavaMIDletInstallationResulteqERKS_
+39 Name=_ZNK29CJavaMIDletInstallationResultneERKS_
+40 Name=_ZTV27CMIDPInstallationLaunchInfo
+41 Name=_ZTI20CMIDLetStatusManager
+42 Name=_ZTI29CJavaMIDletInstallationResult
+43 Name=_ZTV20CMIDLetStatusManager
+44 Name=_ZTV29CJavaMIDletInstallationResult
+45 Name=_ZTI12CJavaRemover
+46 Name=_ZTI14CJavaInstaller
+47 Name=_ZTI16COTAReportSender
+48 Name=_ZTI21CMIDLetInstallJournal
+49 Name=_ZTI22CJavaOCSPErrorSettings
+50 Name=_ZTV12CJavaRemover
+51 Name=_ZTV14CJavaInstaller
+52 Name=_ZTV16COTAReportSender
+53 Name=_ZTV21CMIDLetInstallJournal
+54 Name=_ZTV22CJavaOCSPErrorSettings
+55 Name=_ZN27CMIDPInstallationLaunchInfo10SetJarUrlLERK7TDesC16
+56 Name=_ZN27CMIDPInstallationLaunchInfo3JadEv
+57 Name=_ZN27CMIDPInstallationLaunchInfo3JarEv
+58 Name=_ZN27CMIDPInstallationLaunchInfo4NewLER3RFsR15CJavaFileHandleS3_
+59 Name=_ZNK27CMIDPInstallationLaunchInfo11JadMimeTypeEv
+60 Name=_ZNK27CMIDPInstallationLaunchInfo11JarMimeTypeEv
+61 Name=_ZNK27CMIDPInstallationLaunchInfo6JadUrlEv
+62 Name=_ZNK27CMIDPInstallationLaunchInfo6JarUrlEv
+63 Name=_ZNK27CMIDPInstallationLaunchInfo7JadPathEv
+64 Name=_ZNK27CMIDPInstallationLaunchInfo7JarPathEv
+65 Name=_ZN16COTAReportSender4NewLER15CJavaFileHandle
+66 Name=_ZN16COTAReportSender5NewLCER15CJavaFileHandle
+67 Name=_ZN14CJavaInstaller24DeletePartialInstallInfoERK7TDesC16
+68 Name=_ZNK14CJavaInstaller21GetPartialInstallInfoEv
+;------------------EOF------------------

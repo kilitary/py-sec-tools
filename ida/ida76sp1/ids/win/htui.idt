@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=htui.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=HTUI_ColorAdjustment Pascal=24
+2 Name=HTUI_ColorAdjustmentA Pascal=24
+3 Name=HTUI_ColorAdjustmentW Pascal=24
+4 Name=HTUI_DeviceColorAdjustment Pascal=8
+5 Name=HTUI_DeviceColorAdjustmentA Pascal=8
+6 Name=HTUI_DeviceColorAdjustmentW Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,25 @@
+0 Name=mfcm100u.dll
+;---------------------------------------
+256 Name=?Create@CWinFormsView@MFC@VisualC@Microsoft@@MEAAHPEB_W0KAEBUtagRECT@@PEAVCWnd@@IPEAUCCreateContext@@@Z
+257 Name=?CreateControlCommon@CWinFormsControlSite@MFC@VisualC@Microsoft@@UEAAJPEAVCWnd@@AEBU_GUID@@AEBVCControlCreationInfo@@PEB_WKPEBUtagPOINT@@PEBUtagSIZE@@IPEAVCFile@@HPEA_W@Z
+258 Name=?CreateOrLoad@CWinFormsControlSite@MFC@VisualC@Microsoft@@UEAAJAEBVCControlCreationInfo@@@Z
+259 Name=?DoVerb@CWinFormsControlSite@MFC@VisualC@Microsoft@@UEAAJJPEAUtagMSG@@@Z
+260 Name=?GetMessageMap@CWinFormsView@MFC@VisualC@Microsoft@@MEBAPEBUAFX_MSGMAP@@XZ
+261 Name=?GetProperty@CWinFormsControlSite@MFC@VisualC@Microsoft@@UEBAXJGPEAX@Z
+262 Name=?GetRuntimeClass@CWinFormsView@MFC@VisualC@Microsoft@@UEBAPEAUCRuntimeClass@@XZ
+263 Name=?GetStyle@CWinFormsControlSite@MFC@VisualC@Microsoft@@UEBAKXZ
+264 Name=?GetThisClass@CWinFormsView@MFC@VisualC@Microsoft@@SAPEAUCRuntimeClass@@XZ
+265 Name=?GetThisMessageMap@CWinFormsView@MFC@VisualC@Microsoft@@KAPEBUAFX_MSGMAP@@XZ
+266 Name=?OnActivateView@CWinFormsView@MFC@VisualC@Microsoft@@MEAAXHPEAVCView@@0@Z
+267 Name=?OnCmdMsg@CWinFormsView@MFC@VisualC@Microsoft@@MEAAHIHPEAXPEAUAFX_CMDHANDLERINFO@@@Z
+268 Name=?OnHandleCreated@CWinFormsControlSite@MFC@VisualC@Microsoft@@UEAAXU?$gcroot@PE$AAVObject@System@@@@U?$gcroot@PE$AAVEventArgs@System@@@@@Z
+275 Name=?OnHandleCreatedHandler@CWinFormsControlSite@MFC@VisualC@Microsoft@@QEAAXXZ
+269 Name=?OnInitialUpdate@CWinFormsView@MFC@VisualC@Microsoft@@MEAAXXZ
+270 Name=?OnSize@CWinFormsView@MFC@VisualC@Microsoft@@IEAAXIHH@Z
+271 Name=?OnUpdate@CWinFormsView@MFC@VisualC@Microsoft@@MEAAXPEAVCView@@_JPEAVCObject@@@Z
+272 Name=?PreCreateWindow@CWinFormsView@MFC@VisualC@Microsoft@@MEAAHAEAUtagCREATESTRUCTW@@@Z
+273 Name=?PreTranslateMessage@CWinFormsView@MFC@VisualC@Microsoft@@MEAAHPEAUtagMSG@@@Z
+274 Name=?SetPropertyV@CWinFormsControlSite@MFC@VisualC@Microsoft@@UEAAXJGPEAD@Z
+280 Name=AfxmEnsureManagedInitialization
+281 Name=AfxmReleaseManagedReferences
+279 Name=InitMfcmDll

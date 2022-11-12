@@ -1,0 +1,67 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMCM Pascal=0
+;---------------------------------------
+1 Name=?NewL@CSmsClientMtm@@SAPAV1@AAVCRegisteredMtmDll@@AAVCMsvSession@@@Z
+2 Name=??0TSmsMessageSettings@@QAE@XZ
+3 Name=??0TSmsPDUHeader@@QAE@XZ
+4 Name=??0TSmsSettings@@QAE@XZ
+5 Name=??1CSmsHeader@@UAE@XZ
+6 Name=??1CSmsRecipient@@UAE@XZ
+7 Name=?AddSentMessagePDUReference@CSmsRecipient@@QAEXI@Z
+8 Name=?Crc@TSmsPDUHeader@@QBEHXZ
+9 Name=?DecodeMessagePDUsL@CSmsHeader@@QAEXABV?$CArrayFix@VTSms@@@@H@Z
+10 Name=?EncodeMessagePDUL@CSmsMessage@@QBEXAAVTSms@@H@Z
+11 Name=?EncodeMessagePDUsL@CSmsHeader@@QAEXHAAV?$CArrayFix@VTSms@@@@HH@Z
+12 Name=?ExternalizeL@CSmsHeader@@QBEXAAVRMsvWriteStream@@@Z
+13 Name=?ExternalizeL@CSmsMessage@@QBEXAAVRMsvWriteStream@@@Z
+14 Name=?ExternalizeL@CSmsRecipient@@QBEXAAVRMsvWriteStream@@@Z
+15 Name=?ExternalizeL@TSmsMessageSettings@@QBEXAAVRMsvWriteStream@@@Z
+16 Name=?ExternalizeL@TSmsPDUHeader@@QBEXAAVRMsvWriteStream@@@Z
+17 Name=?ExternalizeL@TSmsSettings@@QBEXAAVRMsvWriteStream@@@Z
+18 Name=?InternalizeL@CSmsHeader@@QAEXAAVRMsvReadStream@@@Z
+19 Name=?InternalizeL@CSmsRecipient@@QAEXAAVRMsvReadStream@@@Z
+20 Name=?InternalizeL@TSmsMessageSettings@@QAEXAAVRMsvReadStream@@@Z
+21 Name=?InternalizeL@TSmsPDUHeader@@QAEXAAVRMsvReadStream@@@Z
+22 Name=?InternalizeL@TSmsSettings@@QAEXAAVRMsvReadStream@@@Z
+23 Name=?MaxTextLength@CSmsHeader@@QBEHXZ
+24 Name=?MessageIndex@CSmsMessage@@QBEHXZ
+25 Name=?MessageReference@CSmsHeader@@QBEHXZ
+26 Name=?MessageReference@CSmsMessage@@QBEHXZ
+27 Name=?MessageSettings@CSmsHeader@@QBEXAAVTSmsMessageSettings@@@Z
+28 Name=?NewL@CSmsHeader@@SAPAV1@ABVTSms@@AAVCPlainText@@H@Z
+29 Name=?NewL@CSmsHeader@@SAPAV1@W4TSmsMsgType@CSmsMessage@@AAVCPlainText@@@Z
+30 Name=?NewL@CSmsMessage@@SAPAV1@AAVRMsvReadStream@@AAVCCnvCharacterSetConverter@@@Z
+31 Name=?NewL@CSmsMessage@@SAPAV1@ABVTSms@@AAVCCnvCharacterSetConverter@@H@Z
+32 Name=?NewL@CSmsMessage@@SAPAV1@W4TSmsMsgType@1@AAVCCnvCharacterSetConverter@@@Z
+33 Name=?NewL@CSmsRecipient@@SAPAV1@XZ
+34 Name=?NumMessagePDUs@CSmsRecipient@@QBEHXZ
+35 Name=?NumMessages@CSmsMessage@@QBEHXZ
+36 Name=?NumMessagesL@CSmsHeader@@QAEHXZ
+37 Name=?NumSentMessagePDUs@CSmsRecipient@@QBEHXZ
+38 Name=?ParsedServiceCenterAddress@CSmsHeader@@QBEXAAUTGsmTelNumber@@@Z
+39 Name=?PopulateMsgEntry@TSmsPDUHeader@@QAEXAAVTMsvEntry@@@Z
+40 Name=?PopulateMsgEntryL@CSmsHeader@@QAEXAAVTMsvEntry@@@Z
+41 Name=?RestoreL@CSmsHeader@@QAEXAAVCMsvStore@@@Z
+42 Name=?RestoreL@TSmsPDUHeader@@QAEXAAVCMsvStore@@@Z
+43 Name=?RestoreL@TSmsSettings@@QAEXAAVCMsvStore@@@Z
+44 Name=?SentMessagePDUReference@CSmsRecipient@@QBEIH@Z
+45 Name=?ServiceCenterAddress@CSmsHeader@@QBE?AVTPtrC8@@XZ
+46 Name=?SetAddressL@CSmsRecipient@@QAEXABVTDesC8@@@Z
+47 Name=?SetMessageIndex@CSmsMessage@@QAEXH@Z
+48 Name=?SetMessageReference@CSmsMessage@@QAEXH@Z
+49 Name=?SetMessageSettingsL@CSmsHeader@@QAEXABVTSmsMessageSettings@@@Z
+50 Name=?SetNameL@CSmsRecipient@@QAEXABVTDesC8@@@Z
+51 Name=?SetNumMessagePDUsL@CSmsRecipient@@QAEXH@Z
+52 Name=?SetNumMessages@CSmsMessage@@QAEXH@Z
+53 Name=?SetParsedServiceCenterAddressL@CSmsHeader@@QAEXABUTGsmTelNumber@@@Z
+54 Name=?SetServiceCenterAddressL@CSmsHeader@@QAEXABVTDesC8@@@Z
+55 Name=?SetTextConcatenatedL@CSmsMessage@@QAEXH@Z
+56 Name=?StoreL@CSmsHeader@@QBEXAAVCMsvStore@@@Z
+57 Name=?StoreL@TSmsPDUHeader@@QBEXAAVCMsvStore@@@Z
+58 Name=?StoreL@TSmsSettings@@QBEXAAVCMsvStore@@@Z
+59 Name=?TextConcatenated@CSmsMessage@@QBEHXZ
+60 Name=?CompressionSupported@CSmsHeader@@SAHAAVRFs@@@Z
+;------------------EOF------------------

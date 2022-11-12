@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=sfc_os.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=SfcInitProt Pascal=28
+2 Name=SfcTerminateWatcherThread Pascal=0
+3 Name=SfcConnectToServer Pascal=4
+4 Name=SfcClose Pascal=4
+5 Name=SfcFileException Pascal=12
+6 Name=SfcInitiateScan Pascal=8
+7 Name=SfcInstallProtectedFiles Pascal=28
+8 Name=SfcGetNextProtectedFile Pascal=8
+9 Name=SfcIsFileProtected Pascal=8
+10 Name=SfcWLEventLogoff Pascal=4
+11 Name=SfcWLEventLogon Pascal=4
+;------------------EOF------------------

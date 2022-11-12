@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BT Pascal=0
+;---------------------------------------
+1 Name=InstallBTProtocolFamily
+2 Name=_ZN14CAvctpProtocol15NewSapLinksMgrLER33CSubConnectionProviderFactoryBaseR23CConnectionProviderBase
+3 Name=_ZN14CAvctpProtocol9NewMuxerLER33CSubConnectionProviderFactoryBaseR23CConnectionProviderBase
+4 Name=_ZN8CBlogger14GetFloggerInfoEv
+5 Name=_ZTIN4Meta18RMetaDataContainerINS_13SMetaDataEComEEE
+6 Name=_ZTVN4Meta18RMetaDataContainerINS_13SMetaDataEComEEE
+;------------------EOF------------------

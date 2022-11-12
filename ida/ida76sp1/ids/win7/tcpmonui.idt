@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=tcpmonui.dll Args=0 Drops=15
+;---------------------------------------
+1 Name=??0CPortABC@@QAE@ABV0@@Z Pascal=4
+2 Name=??0CPortABC@@QAE@XZ Pascal=0
+3 Name=??0CTcpMibABC@@QAE@ABV0@@Z Pascal=4
+4 Name=??0CTcpMibABC@@QAE@XZ Pascal=0
+5 Name=??1CPortABC@@UAE@XZ Pascal=0
+6 Name=??1CTcpMibABC@@UAE@XZ Pascal=0
+7 Name=??4CPortABC@@QAEAAV0@ABV0@@Z Pascal=4
+8 Name=??4CTcpMibABC@@QAEAAV0@ABV0@@Z Pascal=4
+9 Name=??_7CPortABC@@6B@ Pascal=0
+10 Name=??_7CTcpMibABC@@6B@ Pascal=0
+11 Name=InitializePrintMonitorUI2 Pascal=8
+12 Name=?Read@CPortABC@@UAEKQAXPAEKPAK@Z Pascal=16
+13 Name=InitializePrintMonitorUI Pascal=0
+14 Name=LocalAddPortUI Pascal=4
+15 Name=LocalConfigurePortUI Pascal=8
+;------------------EOF------------------

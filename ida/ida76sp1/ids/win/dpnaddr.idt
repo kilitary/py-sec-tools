@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dpnaddr.dll Args=0 Drops=1
+;---------------------------------------
+1 Name=DirectPlay8AddressCreate Pascal=12
+;------------------EOF------------------

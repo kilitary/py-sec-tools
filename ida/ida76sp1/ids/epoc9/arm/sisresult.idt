@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SISRESULT Pascal=0
+;---------------------------------------
+1 Name=_ZN3Swi19CInstallationResult12InternalizeLER11RReadStream
+2 Name=_ZN3Swi19CInstallationResult4NewLEv
+3 Name=_ZNK3Swi19CInstallationResult12ExternalizeLER12RWriteStream
+4 Name=_ZTIN3Swi19CInstallationResultE
+5 Name=_ZTVN3Swi19CInstallationResultE
+;------------------EOF------------------

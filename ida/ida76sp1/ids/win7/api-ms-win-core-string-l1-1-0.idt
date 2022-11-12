@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-string-l1-1-0.dll Args=0 Drops=8
+;---------------------------------------
+1 Name=CompareStringEx Pascal=36
+2 Name=CompareStringOrdinal Pascal=20
+3 Name=CompareStringW Pascal=24
+4 Name=FoldStringW Pascal=20
+5 Name=GetStringTypeExW Pascal=20
+6 Name=GetStringTypeW Pascal=16
+7 Name=MultiByteToWideChar Pascal=24
+8 Name=WideCharToMultiByte Pascal=32
+;------------------EOF------------------

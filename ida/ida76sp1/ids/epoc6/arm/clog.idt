@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CLOG Pascal=0
+;---------------------------------------
+1 Name=_._10CLogClient
+2 Name=LogEnter__10CLogClientRC7TDesC16Q210CLogClient9TLogLevel
+3 Name=LogReturn__10CLogClient
+4 Name=Log__10CLogClientQ210CLogClient9TLogLevelGt11TRefByValue1ZC7TDesC16e
+5 Name=Log__10CLogClientRC7TDesC16Q210CLogClient9TLogLevel
+6 Name=NewL__10CLogClientRC7TDesC16i
+7 Name=NotifyOnChangeCancel__10CLogClient
+8 Name=NotifyOnChange__10CLogClient
+9 Name=Close__10CLogClient
+10 Name=RDebugConfig__10CLogClienti
+;------------------EOF------------------

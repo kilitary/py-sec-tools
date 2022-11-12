@@ -1,0 +1,32 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PLATFORMENV Pascal=0
+;---------------------------------------
+1 Name=VideosPath__PathInfo
+2 Name=GamesPath__PathInfo
+3 Name=GmsPicturesPath__PathInfo
+4 Name=ImagesPath__PathInfo
+5 Name=ImagesThumbnailPath__PathInfo
+6 Name=InstallsPath__PathInfo
+7 Name=MemoryCardRootPath__PathInfo
+8 Name=MmsBackgroundImagesPath__PathInfo
+9 Name=OthersPath__PathInfo
+10 Name=PhoneMemoryRootPath__PathInfo
+11 Name=PicturesPath__PathInfo
+12 Name=RomRootPath__PathInfo
+13 Name=SimpleSoundsPath__PathInfo
+14 Name=SoundsPath__PathInfo
+15 Name=DigitalSoundsPath__PathInfo
+16 Name=_._CSettingInfo
+17 Name=CancelNotifications__CSettingInfoRCtCArrayFixZQSettingInfoTSettingID
+18 Name=Get__CCSettingInfoQSettingInfoTSettingIDRTDes16
+19 Name=Get__CCSettingInfoQSettingInfoTSettingIDRi
+20 Name=NewL__CSettingInfoPMSettingInfoObserver
+21 Name=NotifyChanges__CSettingInfoQSettingInfoTSettingID
+22 Name=NotifyChanges__CSettingInfoRCtCArrayFixZQSettingInfoTSettingID
+23 Name=CancelNotifications__CSettingInfoQSettingInfoTSettingID
+24 Name=PresenceLogosPath__PathInfo
+25 Name=MemoryCardContactsPath__PathInfo
+;------------------EOF------------------

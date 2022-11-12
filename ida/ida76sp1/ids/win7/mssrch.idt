@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=mssrch.dll Args=0 Drops=24
+;---------------------------------------
+1 Name=??0CSearchServiceObj@@QAE@ABV0@@Z Pascal=4
+2 Name=??0CSearchServiceObj@@QAE@XZ Pascal=0
+3 Name=??1CSearchServiceObj@@QAE@XZ Pascal=0
+4 Name=??4CSearchServiceObj@@QAEAAV0@ABV0@@Z Pascal=4
+5 Name=??_7CSearchServiceObj@@6B@ Pascal=0
+6 Name=?Cleanup@CSearchServiceObj@@SGHXZ Pascal=0
+7 Name=?DeleteFilterPool@CSearchServiceObj@@UAGJK@Z Pascal=8
+8 Name=?Initialize@CSearchServiceObj@@UAGJXZ Pascal=4
+9 Name=?LogonNotification@CSearchServiceObj@@UAGJXZ Pascal=4
+10 Name=?SetServiceStatusObj@CSearchServiceObj@@UAGJPAUIDCOMServiceStatus@@@Z Pascal=8
+11 Name=?Shutdown@CSearchServiceObj@@UAGJXZ Pascal=4
+12 Name=?Start@CSearchServiceObj@@UAGJXZ Pascal=4
+13 Name=?Stop@CSearchServiceObj@@UAGJH@Z Pascal=8
+14 Name=ConcatVectValues Pascal=32
+15 Name=DecodeText Pascal=32
+16 Name=MSSCompressText Pascal=12
+17 Name=MSSUncompressText Pascal=16
+18 Name=DllCanUnloadNow Pascal=0
+19 Name=DllGetClassObject Pascal=12
+20 Name=DllRegisterServer Pascal=0
+21 Name=DllUnregisterServer Pascal=0
+22 Name=GetCatalogManager Pascal=0
+23 Name=GetPropStoreManager Pascal=0
+24 Name=MSSrch_SysPrep_Cleanup Pascal=0
+;------------------EOF------------------

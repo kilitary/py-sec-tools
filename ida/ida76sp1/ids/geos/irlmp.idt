@@ -1,0 +1,61 @@
+DECLARATION Nokia 9110 Geos 3.0 library irlmp.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=irlmpdll Pascal=0
+;---------------------------------------
+1 Name=StationFsmClass
+2 Name=IrlapFsmClass
+3 Name=IasClientFsmClass
+4 Name=IrlmpRegister
+5 Name=IrlmpUnregister
+6 Name=IrlmpDiscoverDevicesRequest
+7 Name=IrlmpConnectRequest
+8 Name=IrlmpConnectResponse
+9 Name=IrlmpDisconnectRequest
+10 Name=IrlmpStatusRequest
+11 Name=IrlmpDataRequest
+12 Name=IrlmpUDataRequest
+13 Name=IrlmpGetValueByClassRequest
+14 Name=IrlmpDisconnectIas
+15 Name=IrlmpGetPacketSize
+16 Name=TTPRegister
+17 Name=TTPUnregister
+18 Name=TTPConnectRequest
+19 Name=TTPConnectResponse
+20 Name=TTPDataRequest
+21 Name=TTPTxQueueGetFreeCount
+22 Name=TTPDisconnectRequest
+23 Name=TTPStatusRequest
+24 Name=TTPAdvanceCredit
+25 Name=IRDBOPENDATABASE
+26 Name=IRDBCLOSEDATABASE
+27 Name=IrdbCreateEntry
+28 Name=IrdbAddAttribute
+29 Name=IRDBCREATEENTRY_OLD
+30 Name=IRDBDELETEENTRY
+31 Name=IRDBADDATTRIBUTE_OLD
+32 Name=IRLMPREGISTER
+33 Name=IRLMPUNREGISTER
+34 Name=IRLMPDISCOVERDEVICESREQUEST
+35 Name=IRLMPCONNECTREQUEST
+36 Name=IRLMPCONNECTRESPONSE
+37 Name=IRLMPDISCONNECTREQUEST
+38 Name=IRLMPSTATUSREQUEST
+39 Name=IRLMPDATAREQUEST
+40 Name=IRLMPUDATAREQUEST
+41 Name=IRLMPGETPACKETSIZE
+42 Name=IRLMPDISCONNECTIAS
+43 Name=IRLMPGETVALUEBYCLASSREQUEST
+44 Name=TTPREGISTER
+45 Name=TTPUNREGISTER
+46 Name=TTPCONNECTREQUEST
+47 Name=TTPCONNECTRESPONSE
+48 Name=TTPDATAREQUEST
+49 Name=TTPTXQUEUEGETFREECOUNT
+50 Name=TTPDISCONNECTREQUEST
+51 Name=TTPSTATUSREQUEST
+52 Name=TTPADVANCECREDIT
+53 Name=IRDBCREATEENTRY
+54 Name=IRDBADDATTRIBUTE
+;------------------EOF------------------

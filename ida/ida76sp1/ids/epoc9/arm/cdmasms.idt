@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CDMASMS Pascal=0
+;---------------------------------------
+1 Name=_Z15InstallCDMASMSLv
+2 Name=_ZTI13CCdmaSmsPhone
+3 Name=_ZTI13CCdmaSmsStore
+4 Name=_ZTI14CCdmaSmsReader
+5 Name=_ZTI14CCdmaSmsSender
+6 Name=_ZTI16CCdmaSmsProtocol
+7 Name=_ZTI16CCdmaSmsProvider
+8 Name=_ZTI16CCdmaSmsReceiver
+9 Name=_ZTI18CCdmaSmsPduDeleter
+10 Name=_ZTI19CCdmaSmsEventLogger
+11 Name=_ZTI20CCdmaSmsQueuedDelete
+12 Name=_ZTI21CCdmaSmsMessageWriter
+13 Name=_ZTI22CCdmaSmsBackupObserver
+14 Name=_ZTI22CCdmaSmsProtocolFamily
+15 Name=_ZTI22CCdmaSmsReferenceStore
+16 Name=_ZTI23CCdmaSmsReassemblyStore
+17 Name=_ZTI25CCdmaSmsStorageEnumerator
+18 Name=_ZTI28CCdmaSmsMessageRecoveryTimer
+19 Name=_ZTI29CCdmaSmsRadioInterfaceMonitor
+20 Name=_ZTV13CCdmaSmsPhone
+21 Name=_ZTV13CCdmaSmsStore
+22 Name=_ZTV14CCdmaSmsReader
+23 Name=_ZTV14CCdmaSmsSender
+24 Name=_ZTV16CCdmaSmsProtocol
+25 Name=_ZTV16CCdmaSmsProvider
+26 Name=_ZTV16CCdmaSmsReceiver
+27 Name=_ZTV18CCdmaSmsPduDeleter
+28 Name=_ZTV19CCdmaSmsEventLogger
+29 Name=_ZTV20CCdmaSmsQueuedDelete
+30 Name=_ZTV21CCdmaSmsMessageWriter
+31 Name=_ZTV22CCdmaSmsBackupObserver
+32 Name=_ZTV22CCdmaSmsProtocolFamily
+33 Name=_ZTV22CCdmaSmsReferenceStore
+34 Name=_ZTV23CCdmaSmsReassemblyStore
+35 Name=_ZTV25CCdmaSmsStorageEnumerator
+36 Name=_ZTV28CCdmaSmsMessageRecoveryTimer
+37 Name=_ZTV29CCdmaSmsRadioInterfaceMonitor
+38 Name=_ZTI18CLogMappingStorage
+39 Name=_ZTV18CLogMappingStorage
+40 Name=_ZTI28CCdmaBackupAndRestoreMonitor
+41 Name=_ZTV28CCdmaBackupAndRestoreMonitor
+42 Name=_ZTI22CCdmaSmsCenrepNotifier
+43 Name=_ZTV22CCdmaSmsCenrepNotifier
+;------------------EOF------------------

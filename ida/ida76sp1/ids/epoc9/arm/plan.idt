@@ -1,0 +1,68 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PLAN Pascal=0
+;---------------------------------------
+1 Name=_ZN3Swi12CApplication10SetInstallERKNS_3Sis11CControllerE
+2 Name=_ZN3Swi12CApplication10SetUpgradeERKNS_3Sis11CControllerE
+3 Name=_ZN3Swi12CApplication11RemoveFileLERKNS_27CSisRegistryFileDescriptionE
+4 Name=_ZN3Swi12CApplication11SetPackageLERKNS_19CSisRegistryPackageE
+5 Name=_ZN3Swi12CApplication12AddPropertyLERKNS0_9TPropertyE
+6 Name=_ZN3Swi12CApplication12SetUninstallERNS_19CSisRegistryPackageE
+7 Name=_ZN3Swi12CApplication13SetControllerE4TUid
+8 Name=_ZN3Swi12CApplication13SetControllerERKNS_3Sis11CControllerE
+9 Name=_ZN3Swi12CApplication15SetAugmentationERKNS_3Sis11CControllerE
+10 Name=_ZN3Swi12CApplication17RunFileOnInstallLERKNS_3Sis16CFileDescriptionE5TChar
+11 Name=_ZN3Swi12CApplication17SetPartialUpgradeERKNS_3Sis11CControllerE
+12 Name=_ZN3Swi12CApplication18SetPreInstalledAppERKNS_3Sis11CControllerE
+13 Name=_ZN3Swi12CApplication19RunFileOnUninstallLERKNS_27CSisRegistryFileDescriptionE
+14 Name=_ZN3Swi12CApplication20SetPreInstalledPatchERKNS_3Sis11CControllerE
+15 Name=_ZN3Swi12CApplication21DisplayFileOnInstallLERKNS_3Sis16CFileDescriptionE5TChar
+16 Name=_ZN3Swi12CApplication23AddEmbeddedApplicationLEPS0_
+17 Name=_ZN3Swi12CApplication23DisplayFileOnUninstallLERKNS_27CSisRegistryFileDescriptionE
+18 Name=_ZN3Swi12CApplication4NewLEv
+19 Name=_ZN3Swi12CApplication5NewLCEv
+20 Name=_ZN3Swi12CApplication8AddFileLERKNS_3Sis16CFileDescriptionE5TChar
+21 Name=_ZN3Swi12CApplication8SetInROMEv
+22 Name=_ZN3Swi15CUserSelections11SetOptionsLERK6RArrayIiE
+23 Name=_ZN3Swi5CPlan11SetAppInfoLERKNS_8TAppInfoE
+24 Name=_ZN3Swi5CPlan14SetApplicationEPNS_12CApplicationE
+25 Name=_ZN3Swi5CPlan25AddInstallFileForProgressEx
+26 Name=_ZN3Swi5CPlan26SetApplicationInformationLERK7TDesC16S3_RK8TVersion
+27 Name=_ZN3Swi5CPlan27AddUninstallFileForProgressEv
+28 Name=_ZN3Swi5CPlan4NewLEv
+29 Name=_ZN3Swi5CPlanD0Ev
+30 Name=_ZN3Swi5CPlanD1Ev
+31 Name=_ZN3Swi5CPlanD2Ev
+32 Name=_ZNK3Swi12CApplication10FilesToAddEv
+33 Name=_ZNK3Swi12CApplication10PropertiesEv
+34 Name=_ZNK3Swi12CApplication11ControllerLEv
+35 Name=_ZNK3Swi12CApplication11IsUninstallEv
+36 Name=_ZNK3Swi12CApplication13FilesToRemoveEv
+37 Name=_ZNK3Swi12CApplication14IsAugmentationEv
+38 Name=_ZNK3Swi12CApplication16IsPartialUpgradeEv
+39 Name=_ZNK3Swi12CApplication17IsPreInstalledAppEv
+40 Name=_ZNK3Swi12CApplication19FilesToRunOnInstallEv
+41 Name=_ZNK3Swi12CApplication19IsPreInstalledPatchEv
+42 Name=_ZNK3Swi12CApplication20EmbeddedApplicationsEv
+43 Name=_ZNK3Swi12CApplication21FilesToRunOnUninstallEv
+44 Name=_ZNK3Swi12CApplication23FilesToDisplayOnInstallEv
+45 Name=_ZNK3Swi12CApplication25FilesToDisplayOnUninstallEv
+46 Name=_ZNK3Swi12CApplication7IsInROMEv
+47 Name=_ZNK3Swi12CApplication8PackageLEv
+48 Name=_ZNK3Swi12CApplication9IsInstallEv
+49 Name=_ZNK3Swi12CApplication9IsUpgradeEv
+50 Name=_ZNK3Swi5CPlan12ApplicationLEv
+51 Name=_ZNK3Swi5CPlan21FinalProgressBarValueEv
+52 Name=_ZNK3Swi5CPlan8AppInfoLEv
+53 Name=_ZTIN3Swi12CApplicationE
+54 Name=_ZTIN3Swi5CPlanE
+55 Name=_ZTVN3Swi12CApplicationE
+56 Name=_ZTVN3Swi5CPlanE
+57 Name=_ZN3Swi12CApplication15AddSisStubFileLERKNS_27CSisRegistryFileDescriptionE
+58 Name=_ZNK3Swi12CApplication12CanPropagateEv
+59 Name=_ZNK3Swi12CApplication9StubDriveEv
+60 Name=_ZN3Swi12CApplication18SetPreInstalledAppEv
+61 Name=_ZN3Swi12CApplication20SetPreInstalledPatchEv
+;------------------EOF------------------

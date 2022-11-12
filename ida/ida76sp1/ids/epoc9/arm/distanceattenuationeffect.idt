@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DISTANCEATTENUATIONEFFECT Pascal=0
+;---------------------------------------
+1 Name=_ZN20CDistanceAttenuation12DoEffectDataEv
+2 Name=_ZN20CDistanceAttenuation13SetEffectDataERK6TDesC8
+3 Name=_ZN20CDistanceAttenuation16RollOffFactorMaxERm
+4 Name=_ZN20CDistanceAttenuation19DistanceAttenuationERlS0_RiRmS2_
+5 Name=_ZN20CDistanceAttenuation20RoomRollOffFactorMaxERm
+6 Name=_ZN20CDistanceAttenuation23SetDistanceAttenuationLEllimm
+7 Name=_ZN20CDistanceAttenuation4NewLEP21CCustomCommandUtility
+8 Name=_ZN20CDistanceAttenuation4NewLER12CMMFDevSound
+9 Name=_ZN20CDistanceAttenuation4NewLER16MCustomInterface
+10 Name=_ZN20CDistanceAttenuation4NewLER20CMdaAudioInputStream
+11 Name=_ZN20CDistanceAttenuation4NewLER20CMdaAudioToneUtility
+12 Name=_ZN20CDistanceAttenuation4NewLER21CMdaAudioOutputStream
+13 Name=_ZN20CDistanceAttenuation4NewLER22CMdaAudioPlayerUtility
+14 Name=_ZN20CDistanceAttenuation4NewLER23CMdaAudioConvertUtility
+15 Name=_ZN20CDistanceAttenuation4NewLER24CMdaAudioRecorderUtilityi
+16 Name=_ZN20CDistanceAttenuationC2Ev
+17 Name=_ZN20CDistanceAttenuationD0Ev
+18 Name=_ZN20CDistanceAttenuationD1Ev
+19 Name=_ZN20CDistanceAttenuationD2Ev
+20 Name=_ZNK20CDistanceAttenuation3UidEv
+21 Name=_ZTI20CDistanceAttenuation
+22 Name=_ZTV20CDistanceAttenuation
+;------------------EOF------------------

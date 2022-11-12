@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=netjoin.dll Args=0 Drops=45
+;---------------------------------------
+1 Name=NetProvisionComputerAccount Pascal=32
+2 Name=NetRequestOfflineDomainJoin Pascal=16
+3 Name=NetSetuppCloseLog Pascal=0
+4 Name=NetSetuppOpenLog Pascal=0
+5 Name=NetpAvoidNetlogonSpnSet Pascal=4
+6 Name=NetpChangeMachineName Pascal=24
+7 Name=NetpCheckOfflineLsaPolicyUpdate Pascal=4
+8 Name=NetpCompleteOfflineDomainJoin Pascal=8
+9 Name=NetpControlServices Pascal=8
+10 Name=NetpCrackNamesStatus2Win32Error Pascal=4
+11 Name=NetpCreateComputerObjectInDs Pascal=40
+12 Name=NetpDecodeProvisioningBlob Pascal=12
+13 Name=NetpDecodeProvisioningData Pascal=12
+14 Name=NetpDoDomainJoin Pascal=24
+15 Name=NetpDoInitiateOfflineDomainJoin Pascal=16
+16 Name=NetpDomainJoinLicensingCheck Pascal=0
+17 Name=NetpDumpBlobToLog Pascal=8
+18 Name=NetpDumpDcInfoToLog Pascal=8
+19 Name=NetpDumpDnsDomainInfoToLog Pascal=8
+20 Name=NetpEncodeProvisionData Pascal=24
+21 Name=NetpEncodeProvisioningBlob Pascal=36
+22 Name=NetpFreeLdapLsaDomainInfo Pascal=4
+23 Name=NetpFreeODJBlob Pascal=4
+24 Name=NetpGetJoinInformation Pascal=12
+25 Name=NetpGetListOfJoinableOUs Pascal=20
+26 Name=NetpGetLogIndentPrefixString Pascal=8
+27 Name=NetpGetLsaPrimaryDomain Pascal=16
+28 Name=NetpGetMachineAccountName Pascal=8
+29 Name=NetpGetNewMachineName Pascal=4
+30 Name=NetpInitAndPickleBlobWin7 Pascal=36
+31 Name=NetpIsSetupInProgress Pascal=0
+32 Name=NetpLogPrintHelper Pascal=0
+33 Name=NetpMachineValidToJoin Pascal=12
+34 Name=NetpManageIPCConnect Pascal=16
+35 Name=NetpManageMachineAccountWithSid Pascal=28
+36 Name=NetpProvisionComputerAccount Pascal=56
+37 Name=NetpQueryService Pascal=12
+38 Name=NetpSeparateUserAndDomain Pascal=12
+39 Name=NetpSetComputerAccountPassword Pascal=20
+40 Name=NetpStopService Pascal=8
+41 Name=NetpStoreInitialDcRecord Pascal=4
+42 Name=NetpUnJoinDomain Pascal=16
+43 Name=NetpUnpickleBlobWin7 Pascal=12
+44 Name=NetpUpgradePreNT5JoinInfo Pascal=0
+45 Name=NetpValidateName Pascal=20
+;------------------EOF------------------

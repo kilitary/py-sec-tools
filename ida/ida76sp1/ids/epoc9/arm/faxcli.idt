@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FAXCLI Pascal=0
+;---------------------------------------
+1 Name=_ZN12CFaxTransfer10AddSourceLERK4TBufILi256EE24TFaxPreferredCompression
+2 Name=_ZN12CFaxTransfer10AddSourceLERK4TBufILi256EEi24TFaxPreferredCompression
+3 Name=_ZN12CFaxTransfer10AddSourceLERK4TBufILi256EEii24TFaxPreferredCompression
+4 Name=_ZN12CFaxTransfer15SetPhoneNumberLER6TDesC8
+5 Name=_ZN12CFaxTransfer16RemoveAllSourcesEv
+6 Name=_ZN12CFaxTransfer4NewLERK12TFaxSettings
+7 Name=_ZN12CFaxTransfer4StopEv
+8 Name=_ZN12CFaxTransfer5NewLCERK12TFaxSettings
+9 Name=_ZN12CFaxTransfer5StartER14TRequestStatus
+10 Name=_ZN12CFaxTransfer6CancelEv
+11 Name=_ZN12CFaxTransfer8ProgressEv
+12 Name=_ZN12TFaxSettings12InternalizeLER11RReadStream
+13 Name=_ZN12TFaxSettingsaSERKS_
+14 Name=_ZN18CFaxTransferSource10AddSourceLERK4TBufILi256EE24TFaxPreferredCompression
+15 Name=_ZN18CFaxTransferSource10AddSourceLERK4TBufILi256EEi24TFaxPreferredCompression
+16 Name=_ZN18CFaxTransferSource10AddSourceLERK4TBufILi256EEii24TFaxPreferredCompression
+17 Name=_ZN18CFaxTransferSource16RemoveAllSourcesEv
+18 Name=_ZNK12TFaxSettings12ExternalizeLER12RWriteStream
+19 Name=_ZTI12CFaxSettings
+20 Name=_ZTI12CFaxTransfer
+21 Name=_ZTI18CFaxTransferSource
+22 Name=_ZTV12CFaxSettings
+23 Name=_ZTV12CFaxTransfer
+24 Name=_ZTV18CFaxTransferSource
+;------------------EOF------------------

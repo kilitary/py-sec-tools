@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QTHEMES Pascal=0
+;---------------------------------------
+1 Name=_ZN13QThemeDialogs17RunViewThemeDlgLDER13CThmThemePack
+2 Name=_ZN7QThemes15SetSystemSoundLERK18TBaSystemSoundInfoR3RFs
+3 Name=_ZN7QThemes18RunAppearanceDlgLDEv
+4 Name=_ZN7QThemes20RunThemeManagerDlgLDEv
+5 Name=_ZN20CQThemeManagerDialog14EmbeddedLinkIdEv
+6 Name=_ZN20CQThemeManagerDialog15MopSupplyObjectE8TTypeUid
+7 Name=_ZThn88_N20CQThemeManagerDialog14EmbeddedLinkIdEv
+8 Name=_ZThn4_N20CQThemeManagerDialog15MopSupplyObjectE8TTypeUid
+9 Name=_ZN7QThemes18TWallpaperSettingsC1Ev
+10 Name=_ZN7QThemes18TWallpaperSettingsC2Ev
+11 Name=_ZN7QThemes21GetWallpaperSettingsLERK7TDesC16RNS_18TWallpaperSettingsE
+12 Name=_ZN7QThemes21SetWallpaperSettingsLERK7TDesC16RKNS_18TWallpaperSettingsE
+13 Name=_ZN7QThemes13SetWallpaperLERK7TDesC16RK4TBufILi256EE
+14 Name=_ZN7QThemes13SetWallpaperLERK7TDesC16PK10CFbsBitmap
+15 Name=_ZN7QThemes21IsWallpaperProtectedLERK7TDesC16
+;------------------EOF------------------

@@ -1,0 +1,63 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=VCAL Pascal=0
+;---------------------------------------
+1 Name=ConvertAllDateTimesToUTCL__CParserPropertyValueAlarmRCTTimeIntervalSecondsPCCVersitDaylight
+2 Name=ConvertAllDateTimesToUTCL__CParserPropertyValueRecurrenceRCTTimeIntervalSecondsPCCVersitDaylight
+3 Name=ConvertAllUTCDateTimesToMachineLocalL__CParserPropertyValueAlarmRCTTimeIntervalSeconds
+4 Name=ConvertAllUTCDateTimesToMachineLocalL__CParserPropertyValueRecurrenceRCTTimeIntervalSeconds
+5 Name=ExternalizeL__CParserVCalRRWriteStream
+6 Name=ExternalizeL__CWeekDayArrayRRWriteStream
+7 Name=ExternalizeL__CParserVCalEntityRRWriteStream
+8 Name=ExternalizeL__CParserPropertyValueAlarmRRWriteStreamRCQVersitTEncodingAndCharseti
+9 Name=ExternalizeL__CParserPropertyValueRecurrenceRRWriteStreamRCQVersitTEncodingAndCharseti
+10 Name=ExternalizeOccurrenceListsL__CCVersitRecurrenceDailyRRWriteStream
+11 Name=ExternalizeOccurrenceListsL__CCVersitRecurrenceWeeklyRRWriteStream
+12 Name=ExternalizeOccurrenceListsL__CCVersitRecurrenceYearlyByDayRRWriteStream
+13 Name=ExternalizeOccurrenceListsL__CCVersitRecurrenceMonthlyByDayRRWriteStream
+14 Name=ExternalizeOccurrenceListsL__CCVersitRecurrenceMonthlyByPosRRWriteStream
+15 Name=ExternalizeOccurrenceListsL__CCVersitRecurrenceYearlyByMonthRRWriteStream
+16 Name=InternalizeL__CParserVCalRRReadStream
+17 Name=IsAsciiCharacterSetSufficient__CParserPropertyValueAlarm
+18 Name=MakeEntityL__CParserVCaliPHBufC16
+19 Name=MakePropertyValueAlarmL__CParserVCalEntityGTPtr16
+20 Name=MakePropertyValueL__CParserVCalEntityRCTUidRPHBufC16
+21 Name=MakePropertyValueRecurrenceL__CRecurrenceParserRTDes16
+22 Name=NewL__CParserVCal
+23 Name=NewL__CVersitAlarmPTVersitDateTimePTTimeiRCTDesC16T4
+24 Name=NewL__CParserVCalEntity
+25 Name=RecognizeEntityName__CCParserVCal
+26 Name=RecognizeToken__CCParserVCalRCTDesC8
+27 Name=RecognizeToken__CCParserVCalEntityRCTDesC8
+28 Name=_._CVersitAlarm
+29 Name=_._CWeekDayArray
+30 Name=_._CParserVCalEntity
+31 Name=_._CVersitRecurrence
+32 Name=_._CVersitRecurrenceWeekly
+33 Name=_._CParserPropertyValueAlarm
+34 Name=_._CVersitRecurrenceYearlyByDay
+35 Name=_._CVersitRecurrenceMonthlyByDay
+36 Name=_._CVersitRecurrenceMonthlyByPos
+37 Name=_._CParserPropertyValueRecurrence
+38 Name=_._CVersitRecurrenceYearlyByMonth
+39 Name=_._QCVersitRecurrenceMonthlyByPosCMonthPosition
+40 Name=__CWeekDayArray
+41 Name=__CRecurrenceParseri
+42 Name=__CVersitRecurrenceiiPTVersitDateTime
+43 Name=__CVersitRecurrenceDailyiiPTVersitDateTime
+44 Name=__CVersitRecurrenceWeeklyiiPTVersitDateTimePCWeekDayArray
+45 Name=__CParserPropertyValueAlarmPCVersitAlarm
+46 Name=__CVersitRecurrenceYearlyByDayiiPTVersitDateTimePtCArrayFixZi
+47 Name=__CVersitRecurrenceMonthlyByDayiiPTVersitDateTimePtCArrayFixZiTi
+48 Name=__CVersitRecurrenceMonthlyByPosiiPTVersitDateTimePtCArrayPtrFlatZQCVersitRecurrenceMonthlyByPosCMonthPosition
+49 Name=__CParserPropertyValueRecurrencePCVersitRecurrence
+50 Name=__CVersitRecurrenceYearlyByMonthiiPTVersitDateTimePtCArrayFixZTMonth
+51 Name=Reserved__CParserVCal
+52 Name=Reserved__CParserVCalEntity
+53 Name=Reserved__CRecurrenceParser
+54 Name=Reserved__CParserVCal
+55 Name=Reserved__CParserVCalEntity
+56 Name=Reserved__CRecurrenceParser
+;------------------EOF------------------

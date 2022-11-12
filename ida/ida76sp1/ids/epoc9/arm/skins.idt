@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SKINS Pascal=0
+;---------------------------------------
+1 Name=_ZN10CSkinPatch4SetLERK14TSkinPatchDataPK9CEikonEnv
+2 Name=_ZN11SkinManager10AnimationLE4TUidPK11CCoeControl
+3 Name=_ZN11SkinManager15IsSkinAvailableE4TUidPK11CCoeControl
+4 Name=_ZNK10CSkinPatch7HasMaskEv
+5 Name=_ZN11SkinManager16CountSkinPatchesE4TUid
+6 Name=_ZN11SkinManager20IsAnimationAvailableE4TUidPK11CCoeControl
+7 Name=_ZN11SkinManager7CreateLER9CEikonEnv
+8 Name=_ZN11SkinManager9SkinPatchE4TUidiPK11CCoeControl
+9 Name=_ZNK10CSkinPatch10DrawBitmapER14CBitmapContextRK5TRectS4_i
+10 Name=_ZNK10CSkinPatch10DrawBitmapER9CWindowGcRK5TRectS4_i
+11 Name=_ZNK10CSkinPatch12SizeInPixelsEv
+12 Name=_ZN11SkinManager10TextDrawerE4TUidiPK11CCoeControl
+13 Name=_ZNK10CSkinPatch16MultiBitmapCountEv
+14 Name=_ZNK10CSkinPatch18TransparencyBitmapERP10CFbsBitmapRK5TSizeRK9CEikonEnv
+15 Name=_ZN11SkinManager6ExistsEPK11CCoeControl
+16 Name=_ZN10CSkinPatchD0Ev
+17 Name=_ZN10CSkinPatchD1Ev
+18 Name=_ZN10CSkinPatchD2Ev
+19 Name=_ZN11SkinManager25CreateColorizedSkinPatchLERP10CSkinPatch4TUidi4TRgbPK11CCoeControl
+20 Name=_ZN11SkinManager10FlushCacheEv
+21 Name=_ZN11SkinManager23AddThemeChangeObserverLER20MThemeChangeObserverPK11CCoeControl
+22 Name=_ZN11SkinManager25RemoveThemeChangeObserverER20MThemeChangeObserverPK11CCoeControl
+23 Name=_ZN11SkinManager13GetTextDrawerERP18CCoeTextDrawerBase4TUidiPK11CCoeControl
+24 Name=_ZN15CSkinTextDrawer3NewE14TSkinTextStyle4TRgbS1_S1_
+25 Name=_ZNK10CSkinPatch11DrawMarginsEv
+26 Name=_ZN11CThemedIcon10NewOrNullLER10RWsSessionRK8TUidPairRK5TSize
+27 Name=_ZN11CThemedIcon9NewOrAppLER10RWsSessionRK8TUidPairRK5TSize
+28 Name=_ZNK11CThemedIcon11NaturalSizeEv
+29 Name=_ZNK11CThemedIcon12ExplicitSizeEv
+30 Name=_ZNK11CThemedIcon4DrawER9CWindowGcRK5TRectS4_j
+31 Name=_ZNK11CThemedIcon4UidsEv
+32 Name=_ZNK11CThemedIcon11NearestSizeERK5TSize
+33 Name=_ZN15CSkinTextDrawer12SetTextColorE4TRgb
+34 Name=_ZN15CSkinTextDrawer12SetTextStyleE14TSkinTextStyle
+35 Name=_ZN15CSkinTextDrawer14SetShadowColorE4TRgb
+36 Name=_ZN15CSkinTextDrawer15SetOutlineColorE4TRgb
+37 Name=_ZN11CThemedIcon6CloneLEv
+38 Name=_ZNK10CSkinPatch17TransparentRegionEPK11CCoeControli
+39 Name=_ZNK10CSkinPatch8IsOpaqueEv
+40 Name=_ZN11SkinManager18OverrideSkinPatchLE4TUidiP9CWsBitmap13TSkinDrawMode9TMargins8
+41 Name=_ZN11SkinManager18OverrideSkinPatchLE4TUidiP9CWsBitmapS2_13TSkinDrawMode9TMargins8
+42 Name=_ZN11SkinManager18OverrideSkinPatchLE4TUidiRK11CCoeControlP9CWsBitmap13TSkinDrawMode9TMargins8
+43 Name=_ZN11SkinManager18OverrideSkinPatchLE4TUidiRK11CCoeControlP9CWsBitmapS5_13TSkinDrawMode9TMargins8
+44 Name=_ZN11SkinManager24CancelOverridenSkinPatchE4TUidi
+45 Name=_ZN11SkinManager24CancelOverridenSkinPatchE4TUidiRK11CCoeControl
+;------------------EOF------------------

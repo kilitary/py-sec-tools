@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PPP Pascal=0
+;---------------------------------------
+1 Name=Install
+2 Name=__8TPppAddr
+3 Name=__as__8TPppAddrRC9TSockAddr
+;------------------EOF------------------

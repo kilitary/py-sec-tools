@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=d2d1.dll Args=0 Drops=5
+;---------------------------------------
+1 Name=D2D1CreateFactory Pascal=16
+2 Name=D2D1MakeRotateMatrix Pascal=16
+3 Name=D2D1MakeSkewMatrix Pascal=20
+4 Name=D2D1IsMatrixInvertible Pascal=4
+5 Name=D2D1InvertMatrix Pascal=4
+;------------------EOF------------------

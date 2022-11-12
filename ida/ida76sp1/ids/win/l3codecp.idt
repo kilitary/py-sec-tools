@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=l3codecp.acm Args=0 Drops=3
+;---------------------------------------
+1 Name=DllRegisterServer Pascal=0
+2 Name=DllUnregisterServer Pascal=0
+3 Name=DriverProc Pascal=20
+;------------------EOF------------------

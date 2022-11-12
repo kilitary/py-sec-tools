@@ -26,11 +26,12 @@ import ida_kernwin
 # manually if we want to use it
 def init_hexrays():
     ALL_DECOMPILERS = {
-        ida_idp.PLFM_386: "hexrays",
-        ida_idp.PLFM_ARM: "hexarm",
-        ida_idp.PLFM_PPC: "hexppc",
+        ida_idp.PLFM_386:  "hexrays",
+        ida_idp.PLFM_ARM:  "hexarm",
+        ida_idp.PLFM_PPC:  "hexppc",
         ida_idp.PLFM_MIPS: "hexmips",
     }
+    
     cpu = ida_idp.ph.id
     decompiler = ALL_DECOMPILERS.get(cpu, None)
     if not decompiler:
@@ -47,7 +48,6 @@ def init_hexrays():
         print('Couldn\'t load or initialize decompiler: "%s"' % decompiler)
         return False
 
-
 def decompile_func(ea, outfile):
     ida_kernwin.msg("Decompiling at: %X..." % ea)
     cf = ida_hexrays.decompile(ea)
@@ -57,7 +57,6 @@ def decompile_func(ea, outfile):
     else:
         ida_kernwin.msg("failed!\n")
         outfile.write("decompilation failure at %X!\n" % ea)
-
 
 def main():
     print("Waiting for autoanalysis...")

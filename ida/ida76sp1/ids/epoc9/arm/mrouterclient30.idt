@@ -1,0 +1,49 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MROUTERCLIENT30 Pascal=0
+;---------------------------------------
+1 Name=_ZN16RmRouterClient3010SetConfigLE4TUidRK6TDesC8
+2 Name=_ZN16RmRouterClient3013StopListenerLE4TUid
+3 Name=_ZN16RmRouterClient3014ConnectBearerLE4TUidi
+4 Name=_ZN16RmRouterClient3014DisconnectNowLEv
+5 Name=_ZN16RmRouterClient3014StartListenerLE4TUid
+6 Name=_ZN16RmRouterClient3016PerformOperationE4TUidiRK6TDesC8R5TDes8R14TRequestStatus
+7 Name=_ZN16RmRouterClient3017PerformOperationLE4TUidiRK6TDesC8R5TDes8
+8 Name=_ZN16RmRouterClient3018GetConnectionNameLER4TBufILi128EE
+9 Name=_ZN16RmRouterClient3018OperationSupportedE4TUidi
+10 Name=_ZN16RmRouterClient3022CancelPerformOperationE4TUidi
+11 Name=_ZN16RmRouterClient3029WaitForConnectionStatusChangeER8TPckgBufI24TmRouterConnectionStatusER14TRequestStatus
+12 Name=_ZN16RmRouterClient3035CancelWaitForConnectionStatusChangeEv
+13 Name=_ZN16RmRouterClient305OpenLEv
+14 Name=_ZN16RmRouterClient30C1Ev
+15 Name=_ZN16RmRouterClient30C2Ev
+16 Name=_ZN16RmRouterClient30D1Ev
+17 Name=_ZN16RmRouterClient30D2Ev
+18 Name=_ZN20CmRouterClientLogger4NewLERK7TDesC16
+19 Name=_ZN20CmRouterClientLogger6EnableEv
+20 Name=_ZN20CmRouterClientLogger7DisableEv
+21 Name=_ZN20CmRouterClientLogger9LogPrintfE11TRefByValueIK6TDesC8Ez
+22 Name=_ZN20CmRouterClientLogger9LogPrintfE11TRefByValueIK7TDesC16Ez
+23 Name=_ZN20CmRouterClientLoggerD0Ev
+24 Name=_ZN20CmRouterClientLoggerD1Ev
+25 Name=_ZN20CmRouterClientLoggerD2Ev
+26 Name=_ZN24CmRouterConnectionStatus16ConnectionStatusEv
+27 Name=_ZN24CmRouterConnectionStatus4NewLER16RmRouterClient30R31MmRouterConnectionStateObserver
+28 Name=_ZN24CmRouterConnectionStatus5StartEv
+29 Name=_ZN24CmRouterConnectionStatusD0Ev
+30 Name=_ZN24CmRouterConnectionStatusD1Ev
+31 Name=_ZN24CmRouterConnectionStatusD2Ev
+32 Name=_ZNK16RmRouterClient3014ListenerStatusE4TUidR22TmRouterListenerStatus
+33 Name=_ZNK16RmRouterClient3016ConnectionStatusER24TmRouterConnectionStatus
+34 Name=_ZNK16RmRouterClient3017SupportedBearersLER6RArrayI4TUidE
+35 Name=_ZNK16RmRouterClient307ConfigLE4TUidR5TDes8
+36 Name=_ZNK16RmRouterClient309GetValueLE4TUidjR5TDes8
+37 Name=_ZNK16RmRouterClient309GetValueLE4TUidjR6TDes16
+38 Name=_ZNK16RmRouterClient309GetValueLE4TUidjRm
+39 Name=_ZTI20CmRouterClientLogger
+40 Name=_ZTI24CmRouterConnectionStatus
+41 Name=_ZTV20CmRouterClientLogger
+42 Name=_ZTV24CmRouterConnectionStatus
+;------------------EOF------------------

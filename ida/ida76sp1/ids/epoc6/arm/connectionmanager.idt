@@ -1,0 +1,75 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CONNECTIONMANAGER Pascal=0
+;---------------------------------------
+1 Name=__TIdPairUlUl
+2 Name=ConnectL__CInternetConnectionManagerUl
+3 Name=ConnectL__CInternetConnectionManagerUlUl
+4 Name=Connected__CWapConnectionManager
+5 Name=CurrentAPId__CCWapConnectionManager
+6 Name=CurrentAccessPoint__CCWapConnectionManager
+7 Name=CurrentApExists__CCWapConnectionManager
+8 Name=CurrentApNameLC__CCWapConnectionManager
+9 Name=CurrentBearerTypeL__CCWapConnectionManager
+10 Name=CurrentConnectionSpeed__CCWapConnectionManager
+11 Name=CurrentGatewayLC__CCWapConnectionManager
+12 Name=CurrentSessionConnectionOriented__CCWapConnectionManager
+13 Name=CurrentSessionSecure__CCWapConnectionManager
+14 Name=CurrentStartPageLC__CCWapConnectionManager
+15 Name=Disconnect__CWapConnectionManager
+16 Name=EDll__FTDllReason
+17 Name=GoOffLine__CWapConnectionManager
+18 Name=NewConnectionEstablished__CCWapConnectionManager
+19 Name=NewConnectionEstablished__CCInternetConnectionManager
+20 Name=NewLC__CInternetConnectionManagerPCCommsDatabasei
+21 Name=NewLC__CInternetConnectionManageri
+22 Name=NewLC__CConnectionStageNotifierWCBi
+23 Name=NewL__CWapConnectionManagerPCCommsDatabaseii
+24 Name=NewL__CWapConnectionManagerii
+25 Name=NewL__CInternetConnectionManagerPCCommsDatabasei
+26 Name=NewL__CInternetConnectionManageri
+27 Name=NewL__CConnectionStageNotifierWCBi
+28 Name=RequestedAPValidityL__CWapConnectionManager
+29 Name=SetApChangeObserver__CWapConnectionManagerRMApChangeObserver
+30 Name=SetRequestedAP__CWapConnectionManagerUli
+31 Name=SetRequestedAPs__CWapConnectionManagerGTIdPair
+32 Name=ShowGeneralConnectionErrorL__CInternetConnectionManager
+33 Name=StartConnectionL__CWapConnectionManagerii
+34 Name=StartNotificationL__CConnectionStageNotifierWCBiPMConnectionStageObserveri
+35 Name=StopConnectionL__CInternetConnectionManager
+36 Name=UnsetApChangeObserver__CWapConnectionManager
+37 Name=_._CWapConnectionManager
+38 Name=_._CConnectionStageNotifierWCB
+39 Name=__TIdPair
+40 Name=AccessPoint__CCWapConnectionManager
+41 Name=IsThereActiveHSCSDConnectionL__CWapConnectionManager
+42 Name=ConnectionNameL__CWapConnectionManager
+43 Name=ConnectionNameL__CInternetConnectionManager
+44 Name=Connection__CWapConnectionManager
+45 Name=Connection__CInternetConnectionManager
+46 Name=StartNotificationL__CConnectionStageNotifierWCBPtTBuf1iPiiPMConnectionMultiStageObserveri
+47 Name=StartNotificationL__CConnectionStageNotifierWCBPtTBuf1iiPMConnectionStageObserveri
+48 Name=Connected__CInternetConnectionManager
+49 Name=CurrentAPId__CCInternetConnectionManager
+50 Name=CurrentAccessPoint__CCInternetConnectionManager
+51 Name=CurrentApNameLC__CCInternetConnectionManager
+52 Name=CurrentBearerTypeL__CCInternetConnectionManager
+53 Name=CurrentConnectionSpeed__CCInternetConnectionManager
+54 Name=CurrentGatewayLC__CCInternetConnectionManager
+55 Name=CurrentSessionConnectionOriented__CCInternetConnectionManager
+56 Name=CurrentSessionSecure__CCInternetConnectionManager
+57 Name=CurrentStartPageLC__CCInternetConnectionManager
+58 Name=Disconnect__CInternetConnectionManager
+59 Name=RequestedAPValidityL__CInternetConnectionManager
+60 Name=SetApChangeObserver__CInternetConnectionManagerRMApChangeObserver
+61 Name=SetRequestedAP__CInternetConnectionManagerUli
+62 Name=SetRequestedAPs__CInternetConnectionManagerGTIdPair
+63 Name=StartConnectionL__CInternetConnectionManagerii
+64 Name=UnsetApChangeObserver__CInternetConnectionManager
+65 Name=CurrentAP__CInternetConnectionManager
+66 Name=SocketServer__CInternetConnectionManager
+67 Name=SocketServer__CWapConnectionManager
+68 Name=IsThereActiveHSCSDConnectionL__CInternetConnectionManager
+;------------------EOF------------------

@@ -1,0 +1,53 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MMFDEVSOUND Pascal=0
+;---------------------------------------
+1 Name=_Z6E32Dll10TDllReason
+2 Name=_ZN12CMMFDevSound10RecordDataEv
+3 Name=_ZN12CMMFDevSound10SetConfigLERK16TMMFCapabilities
+4 Name=_ZN12CMMFDevSound11InitializeLER17MDevSoundObserver4TUid9TMMFState
+5 Name=_ZN12CMMFDevSound11InitializeLER17MDevSoundObserver7TFourCC9TMMFState
+6 Name=_ZN12CMMFDevSound11InitializeLER17MDevSoundObserver9TMMFState
+7 Name=_ZN12CMMFDevSound11RecordInitLEv
+8 Name=_ZN12CMMFDevSound12CapabilitiesEv
+9 Name=_ZN12CMMFDevSound13PlayDualToneLEiiRK25TTimeIntervalMicroSeconds
+10 Name=_ZN12CMMFDevSound13SamplesPlayedEv
+11 Name=_ZN12CMMFDevSound13SetVolumeRampERK25TTimeIntervalMicroSeconds
+12 Name=_ZN12CMMFDevSound14SetDTMFLengthsER27TTimeIntervalMicroSeconds32S1_S1_
+13 Name=_ZN12CMMFDevSound14SetToneRepeatsEiRK25TTimeIntervalMicroSeconds
+14 Name=_ZN12CMMFDevSound15CustomInterfaceE4TUid
+15 Name=_ZN12CMMFDevSound15GetPlayBalanceLERiS0_
+16 Name=_ZN12CMMFDevSound15PlayDTMFStringLERK7TDesC16
+17 Name=_ZN12CMMFDevSound15SamplesRecordedEv
+18 Name=_ZN12CMMFDevSound15SetPlayBalanceLEii
+19 Name=_ZN12CMMFDevSound17FixedSequenceNameEi
+20 Name=_ZN12CMMFDevSound17GetRecordBalanceLERiS0_
+21 Name=_ZN12CMMFDevSound17PlayToneSequenceLERK6TDesC8
+22 Name=_ZN12CMMFDevSound17SetRecordBalanceLEii
+23 Name=_ZN12CMMFDevSound18FixedSequenceCountEv
+24 Name=_ZN12CMMFDevSound18PlayFixedSequenceLEi
+25 Name=_ZN12CMMFDevSound19SetPrioritySettingsERK20TMMFPrioritySettings
+26 Name=_ZN12CMMFDevSound4GainEv
+27 Name=_ZN12CMMFDevSound4NewLEv
+28 Name=_ZN12CMMFDevSound4StopEv
+29 Name=_ZN12CMMFDevSound5PauseEv
+30 Name=_ZN12CMMFDevSound6VolumeEv
+31 Name=_ZN12CMMFDevSound7MaxGainEv
+32 Name=_ZN12CMMFDevSound7SetGainEi
+33 Name=_ZN12CMMFDevSound8PlayDataEv
+34 Name=_ZN12CMMFDevSound9MaxVolumeEv
+35 Name=_ZN12CMMFDevSound9PlayInitLEv
+36 Name=_ZN12CMMFDevSound9PlayToneLEiRK25TTimeIntervalMicroSeconds
+37 Name=_ZN12CMMFDevSound9SetVolumeEi
+38 Name=_ZN12CMMFDevSoundD0Ev
+39 Name=_ZN12CMMFDevSoundD1Ev
+40 Name=_ZN12CMMFDevSoundD2Ev
+41 Name=_ZN24CMMFDevSoundEventHandler4NewLEP20RMMFAudioPolicyProxy
+42 Name=_ZNK12CMMFDevSound6ConfigEv
+43 Name=_ZNK12CMMFDevSound27GetSupportedInputDataTypesLER6RArrayI7TFourCCERK20TMMFPrioritySettings
+44 Name=_ZNK12CMMFDevSound28GetSupportedOutputDataTypesLER6RArrayI7TFourCCERK20TMMFPrioritySettings
+45 Name=_ZTI12CMMFDevSound
+46 Name=_ZTV12CMMFDevSound
+;------------------EOF------------------

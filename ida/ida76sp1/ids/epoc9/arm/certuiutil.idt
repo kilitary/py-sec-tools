@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CERTUIUTIL Pascal=0
+;---------------------------------------
+1 Name=_ZN11CCertFormat4NewLEv
+2 Name=_ZN11CCertFormatD0Ev
+3 Name=_ZN11CCertFormatD1Ev
+4 Name=_ZN11CCertFormatD2Ev
+5 Name=_ZN15CAddCertManager15AddCertificateLER5RFile
+6 Name=_ZN15CAddCertManager5NewLCER3RFsR17CUnifiedCertStore
+7 Name=_ZN15CAddCertManagerD0Ev
+8 Name=_ZN15CAddCertManagerD1Ev
+9 Name=_ZN15CAddCertManagerD2Ev
+10 Name=_ZN21TCertificateViewUtils15IsWIMTokenTypeLE4TUid
+11 Name=_ZN21TSignatureInterpreterC1ER9CEikonEnvRK12CCertificate18TCertificateFormatPK9TDateTime
+12 Name=_ZN21TSignatureInterpreterC2ER9CEikonEnvRK12CCertificate18TCertificateFormatPK9TDateTime
+13 Name=_ZN25CCertificateDetailsDialog8RunDlgLDERK12CCertificate18TCertificateFormatiRK7TDesC16
+14 Name=_ZN32CCertManagerViewURLDetailsDialog8RunDlgLDEP11CCTCertInfoRK6HBufC8i
+15 Name=_ZNK21TSignatureInterpreter10GetVersionER6TDes16
+16 Name=_ZNK21TSignatureInterpreter11GetValidToLER6TDes16
+17 Name=_ZNK21TSignatureInterpreter12GetSignedOnLER6TDes16
+18 Name=_ZNK21TSignatureInterpreter13GetValidFromLER6TDes16
+19 Name=_ZNK21TSignatureInterpreter14GetFingerprintER6TDes16
+20 Name=_ZNK21TSignatureInterpreter14GetIssuerNameLER6TDes16
+21 Name=_ZNK21TSignatureInterpreter15GetSerialNumberER6TDes16
+22 Name=_ZNK21TSignatureInterpreter15GetSubjectNameLER6TDes16
+;------------------EOF------------------

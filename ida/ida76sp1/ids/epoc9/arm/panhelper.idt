@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PANHELPER Pascal=0
+;---------------------------------------
+1 Name=_ZN9PanHelper19TPanDeviceRolesList12SetSupportsUEi
+2 Name=_ZN9PanHelper19TPanDeviceRolesList12SetSupportsUEv
+3 Name=_ZN9PanHelper19TPanDeviceRolesList13SetSupportsGnEi
+4 Name=_ZN9PanHelper19TPanDeviceRolesList13SetSupportsGnEv
+5 Name=_ZN9PanHelper19TPanDeviceRolesList14SetSupportsNapEi
+6 Name=_ZN9PanHelper19TPanDeviceRolesList14SetSupportsNapEv
+7 Name=_ZN9PanHelper19TPanDeviceRolesListC1Ev
+8 Name=_ZN9PanHelper19TPanDeviceRolesListC2Ev
+9 Name=_ZN9PanHelper20RPanRemoteSdpQuerier11CancelQueryEv
+10 Name=_ZN9PanHelper20RPanRemoteSdpQuerier4OpenEv
+11 Name=_ZN9PanHelper20RPanRemoteSdpQuerier5CloseEv
+12 Name=_ZN9PanHelper20RPanRemoteSdpQuerier5QueryERK10TBTDevAddrR5TDes8R14TRequestStatus
+13 Name=_ZN9PanHelper26RPanRemoteDeviceDiscoverer10FindDeviceER7TDesC16R5TDes8R14TRequestStatus
+14 Name=_ZN9PanHelper26RPanRemoteDeviceDiscoverer16CancelFindDeviceEv
+15 Name=_ZN9PanHelper26RPanRemoteDeviceDiscoverer4OpenEv
+16 Name=_ZN9PanHelper26RPanRemoteDeviceDiscoverer5CloseEv
+17 Name=_ZNK9PanHelper19TPanDeviceRolesList10SupportsGnEv
+18 Name=_ZNK9PanHelper19TPanDeviceRolesList11IsSupportedE17TBluetoothPanRole
+19 Name=_ZNK9PanHelper19TPanDeviceRolesList11SupportsNapEv
+20 Name=_ZNK9PanHelper19TPanDeviceRolesList9SupportsUEv
+;------------------EOF------------------

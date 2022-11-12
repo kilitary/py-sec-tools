@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=CPMTMCLIENT Pascal=0
+;---------------------------------------
+1 Name=_ZN12CCpMtmClient4NewLER17CRegisteredMtmDllR11CMsvSession
+;------------------EOF------------------

@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RTAARCHIVE Pascal=0
+;---------------------------------------
+1 Name=_ZN18ReferenceTestAgent19CRefTestAgentImport13WriteCompleteEv
+2 Name=_ZN18ReferenceTestAgent19CRefTestAgentImport26ContinueWithNewOutputFileLER5RFile
+3 Name=_ZN18ReferenceTestAgent19CRefTestAgentImport26GetSuggestedOutputFileNameER6TDes16
+4 Name=_ZN18ReferenceTestAgent19CRefTestAgentImport31GetSuggestedOutputFileExtensionER6TDes16
+5 Name=_ZN18ReferenceTestAgent19CRefTestAgentImport4NewLEv
+6 Name=_ZN18ReferenceTestAgent19CRefTestAgentImport6WriteLERK6TDesC8
+7 Name=_ZN18ReferenceTestAgent20CRefTestAgentArchive13CreateArchiveERK7TDesC16S3_R6TDes16R5TDes8
+8 Name=_ZN18ReferenceTestAgent20CRefTestAgentArchive15DefaultMimeTypeEv
+9 Name=_ZN18ReferenceTestAgent20CRefTestAgentArchive29GetDefaultMimeTypeFromHeaderLERK6TDesC8R5TDes8
+10 Name=_ZN18ReferenceTestAgent20CRefTestAgentArchive4NewLER5RFile
+11 Name=_ZN18ReferenceTestAgent20CRefTestAgentArchive9DrmFilesLEv
+12 Name=_ZTIN18ReferenceTestAgent19CRefTestAgentImportE
+13 Name=_ZTIN18ReferenceTestAgent20CRefTestAgentArchiveE
+14 Name=_ZTVN18ReferenceTestAgent19CRefTestAgentImportE
+15 Name=_ZTVN18ReferenceTestAgent20CRefTestAgentArchiveE
+;------------------EOF------------------

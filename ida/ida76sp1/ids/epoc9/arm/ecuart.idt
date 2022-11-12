@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ECUART Pascal=0
+;---------------------------------------
+1 Name=LibEntry
+2 Name=_ZTI11CCommReader
+3 Name=_ZTI11CCommWriter
+4 Name=_ZTI12CCommBreaker
+5 Name=_ZTI14CHWPortFactory
+6 Name=_ZTI15CCommNotifyBase
+7 Name=_ZTI18CCommReadWriteBase
+8 Name=_ZTI19CCommSignalNotifier
+9 Name=_ZTI25CCommConfigChangeNotifier
+10 Name=_ZTI26CCommAvailableDataNotifier
+11 Name=_ZTI30CCommFlowControlChangeNotifier
+12 Name=_ZTI7CHWPort
+13 Name=_ZTV11CCommReader
+14 Name=_ZTV11CCommWriter
+15 Name=_ZTV12CCommBreaker
+16 Name=_ZTV14CHWPortFactory
+17 Name=_ZTV15CCommNotifyBase
+18 Name=_ZTV18CCommReadWriteBase
+19 Name=_ZTV19CCommSignalNotifier
+20 Name=_ZTV25CCommConfigChangeNotifier
+21 Name=_ZTV26CCommAvailableDataNotifier
+22 Name=_ZTV30CCommFlowControlChangeNotifier
+23 Name=_ZTV7CHWPort
+;------------------EOF------------------

@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=netlogon.dll Args=0 Drops=29
+;---------------------------------------
+1 Name=DsrGetDcName Pascal=24
+2 Name=DsrGetDcNameEx2 Pascal=32
+3 Name=I_DsGetDcCache Pascal=16
+4 Name=I_NetLogonAddressToSiteName Pascal=8
+5 Name=I_NetLogonAppendChangeLog Pascal=12
+6 Name=I_NetLogonCloseChangeLog Pascal=8
+7 Name=I_NetLogonFree Pascal=4
+8 Name=I_NetLogonGetAuthDataEx Pascal=36
+9 Name=I_NetLogonGetDirectDomain Pascal=12
+10 Name=I_NetLogonGetIpAddresses Pascal=8
+11 Name=I_NetLogonGetSerialNumber Pascal=12
+12 Name=I_NetLogonLdapLookup Pascal=12
+13 Name=I_NetLogonLdapLookupEx Pascal=16
+14 Name=I_NetLogonMixedDomain Pascal=4
+15 Name=I_NetLogonNewChangeLog Pascal=4
+16 Name=I_NetLogonReadChangeLog Pascal=28
+17 Name=I_NetLogonSendToSamOnPdc Pascal=12
+18 Name=I_NetLogonSetServiceBits Pascal=8
+19 Name=I_NetNotifyDelta Pascal=40
+20 Name=I_NetNotifyDsChange Pascal=4
+21 Name=I_NetNotifyMachineAccount Pascal=20
+22 Name=I_NetNotifyNetlogonDllHandle Pascal=4
+23 Name=I_NetNotifyNtdsDsaDeletion Pascal=16
+24 Name=I_NetNotifyRole Pascal=4
+25 Name=I_NetNotifyTrustedDomain Pascal=12
+26 Name=InitSecurityInterfaceW Pascal=0
+27 Name=NetrLogonSamLogoff Pascal=24
+28 Name=NetrLogonSamLogon Pascal=36
+29 Name=NlNetlogonMain Pascal=8
+;------------------EOF------------------

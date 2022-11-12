@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FwRemoteSvr.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=FwRpcAPIsInitialize Pascal=0
+2 Name=FwRpcAPIsShutdown Pascal=0
+;------------------EOF------------------

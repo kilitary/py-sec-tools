@@ -1,0 +1,35 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=evr.dll Args=0 Drops=28
+;---------------------------------------
+1 Name=MFGetUncompressedVideoFormat Pascal=4
+2 Name=DllCanUnloadNow Pascal=0
+3 Name=DllGetClassObject Pascal=12
+4 Name=DllRegisterServer Pascal=0
+5 Name=DllUnregisterServer Pascal=0
+6 Name=MFConvertColorInfoFromDXVA Pascal=8
+7 Name=MFConvertColorInfoToDXVA Pascal=8
+8 Name=MFConvertFromFP16Array Pascal=12
+9 Name=MFConvertToFP16Array Pascal=12
+10 Name=MFCopyImage Pascal=24
+11 Name=MFCreateDXSurfaceBuffer Pascal=16
+12 Name=MFCreateVideoMediaType Pascal=8
+13 Name=MFCreateVideoMediaTypeFromBitMapInfoHeader Pascal=48
+14 Name=MFCreateVideoMediaTypeFromSubtype Pascal=8
+15 Name=MFCreateVideoMediaTypeFromVideoInfoHeader2 Pascal=24
+16 Name=MFCreateVideoMediaTypeFromVideoInfoHeader Pascal=36
+17 Name=MFCreateVideoMixer Pascal=16
+18 Name=MFCreateVideoMixerAndPresenter Pascal=24
+19 Name=MFCreateVideoOTA Pascal=8
+20 Name=MFCreateVideoPresenter2 Pascal=16
+21 Name=MFCreateVideoPresenter Pascal=16
+22 Name=MFCreateVideoSampleAllocator Pascal=8
+23 Name=MFCreateVideoSampleFromSurface Pascal=8
+24 Name=MFGetPlaneSize Pascal=16
+25 Name=MFGetStrideForBitmapInfoHeader Pascal=12
+26 Name=MFInitVideoFormat Pascal=8
+27 Name=MFInitVideoFormat_RGB Pascal=16
+28 Name=MFIsFormatYUV Pascal=4
+;------------------EOF------------------

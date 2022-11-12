@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=drvstore.dll Args=0 Drops=32
+;---------------------------------------
+1 Name=DriverPackageClose Pascal=4
+2 Name=DriverPackageEnumDriversW Pascal=16
+3 Name=DriverPackageEnumFilesW Pascal=20
+4 Name=DriverPackageEnumRegKeysW Pascal=20
+5 Name=DriverPackageEnumServicesW Pascal=20
+6 Name=DriverPackageGetVersionInfoW Pascal=8
+7 Name=DriverPackageOpenW Pascal=20
+8 Name=DriverStoreClose Pascal=4
+9 Name=DriverStoreDeleteW Pascal=12
+10 Name=DriverStoreEnumW Pascal=16
+11 Name=DriverStoreFindW Pascal=32
+12 Name=DriverStoreImportW Pascal=28
+13 Name=DriverStoreOfflineAddDriverPackageA Pascal=36
+14 Name=DriverStoreOfflineAddDriverPackageW Pascal=36
+15 Name=DriverStoreOfflineDeleteDriverPackageA Pascal=20
+16 Name=DriverStoreOfflineDeleteDriverPackageW Pascal=20
+17 Name=DriverStoreOfflineEnumDriverPackageA Pascal=12
+18 Name=DriverStoreOfflineEnumDriverPackageW Pascal=12
+19 Name=DriverStoreOfflineEnumPublishedInfA Pascal=12
+20 Name=DriverStoreOfflineEnumPublishedInfW Pascal=12
+21 Name=DriverStoreOfflineFindDriverPackageA Pascal=28
+22 Name=DriverStoreOfflineFindDriverPackageW Pascal=28
+23 Name=DriverStoreOpenW Pascal=16
+24 Name=DriverStorePublishW Pascal=24
+25 Name=DriverStoreReflectCriticalW Pascal=16
+26 Name=DriverStoreReflectW Pascal=16
+27 Name=DriverStoreSetLogContext Pascal=4
+28 Name=DriverStoreUnpublishW Pascal=24
+29 Name=DriverStoreUnreflectCriticalW Pascal=16
+30 Name=DriverStoreUnreflectW Pascal=16
+31 Name=pServerDeleteDriverPackage Pascal=8
+32 Name=pServerImportDriverPackage Pascal=36
+;------------------EOF------------------

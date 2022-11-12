@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTMTMUI Pascal=0
+;---------------------------------------
+1 Name=_Z18NewMtmUiDataLayerLR17CRegisteredMtmDll
+2 Name=_Z9NewMtmUiLR8CBaseMtmR17CRegisteredMtmDll
+3 Name=_ZN8CBTMtmUi15UpdateProgressLEP29CMsvProgressReporterOperationRK6TDesC8R4TBufILi255EERiS8_S8_S8_
+4 Name=_ZN8CBTMtmUi20UpdateFinalProgressLEP29CMsvProgressReporterOperation
+;------------------EOF------------------

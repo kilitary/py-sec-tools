@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=isrdbg32.dll Args=0 Drops=20
+;---------------------------------------
+1 Name=DbgMsg Pascal=0
+2 Name=_ISR_ClearItems@0 Pascal=0
+3 Name=_ISR_DbgRes@16 Pascal=16
+4 Name=_ISR_DbgStr@16 Pascal=16
+5 Name=_ISR_DbgStrStr@16 Pascal=16
+6 Name=_ISR_GetItem@8 Pascal=8
+7 Name=_ISR_GetModule@4 Pascal=4
+8 Name=_ISR_GetNumItems@0 Pascal=0
+9 Name=_ISR_GetNumModules@0 Pascal=0
+10 Name=_ISR_HookDbgRes@20 Pascal=20
+11 Name=_ISR_HookDbgStr@20 Pascal=20
+12 Name=_ISR_HookDbgStrStr@20 Pascal=20
+13 Name=_ISR_OutputDbgStr@4 Pascal=4
+14 Name=_ISR_OutputNum@8 Pascal=8
+15 Name=_ISR_OutputStr@4 Pascal=4
+16 Name=_ISR_RegisterModule@12 Pascal=12
+17 Name=_ISR_SetCaptureFilter@12 Pascal=12
+18 Name=_OutputRec@24 Pascal=24
+19 Name=_OutputRecStr@28 Pascal=28
+20 Name=TTDbgMsg Pascal=0
+;------------------EOF------------------

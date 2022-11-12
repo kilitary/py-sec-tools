@@ -1,0 +1,70 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FAXSTRM Pascal=0
+;---------------------------------------
+1 Name=_ZN12CFaxPageInfo12InternalizeLER11RReadStream
+2 Name=_ZN12CFaxPageInfo4NewLEv
+3 Name=_ZN12CFaxPageInfoD0Ev
+4 Name=_ZN12CFaxPageInfoD1Ev
+5 Name=_ZN12CFaxPageInfoD2Ev
+6 Name=_ZN12CReadFaxFile4NewLEv
+7 Name=_ZN12CReadFaxFile5CloseEv
+8 Name=_ZN12CReadFaxFile5OpenLERK7TDesC16
+9 Name=_ZN12CReadFaxFileD0Ev
+10 Name=_ZN12CReadFaxFileD1Ev
+11 Name=_ZN12CReadFaxFileD2Ev
+12 Name=_ZN13CReadFaxPages12GetScanLineLER5TDes8
+13 Name=_ZN13CReadFaxPages13SeekScanLineLEi
+14 Name=_ZN13CReadFaxPages19GetEncodedScanLineLER5TDes8
+15 Name=_ZN13CReadFaxPages4NewLER12CStreamStore9TStreamId
+16 Name=_ZN13CReadFaxPages8SetPageLEi
+17 Name=_ZN13CReadFaxPagesD0Ev
+18 Name=_ZN13CReadFaxPagesD1Ev
+19 Name=_ZN13CReadFaxPagesD2Ev
+20 Name=_ZN13CWriteFaxFile10AbortWriteEv
+21 Name=_ZN13CWriteFaxFile4NewLEv
+22 Name=_ZN13CWriteFaxFile5CloseEv
+23 Name=_ZN13CWriteFaxFile5OpenLERK7TDesC16i
+24 Name=_ZN13CWriteFaxFile7CommitLEv
+25 Name=_ZN13CWriteFaxFileD0Ev
+26 Name=_ZN13CWriteFaxFileD1Ev
+27 Name=_ZN13CWriteFaxFileD2Ev
+28 Name=_ZN14CWriteFaxPages11CommitPageLEv
+29 Name=_ZN14CWriteFaxPages12AddScanLineLERK6TDesC8
+30 Name=_ZN14CWriteFaxPages19AddEncodedScanLineLERK6TDesC8
+31 Name=_ZN14CWriteFaxPages4NewLER12CStreamStorei
+32 Name=_ZN14CWriteFaxPages8EndPageLE14TFaxResolutionR4TBufILi20EE15TFaxCompressioni
+33 Name=_ZN14CWriteFaxPages9StartPageE14TFaxResolution15TFaxCompressioni
+34 Name=_ZN14CWriteFaxPagesD0Ev
+35 Name=_ZN14CWriteFaxPagesD1Ev
+36 Name=_ZN14CWriteFaxPagesD2Ev
+37 Name=_ZN14TFaxBandHeader12InternalizeLER11RReadStream
+38 Name=_ZN14TFaxBandHeaderC1E9TStreamId
+39 Name=_ZN14TFaxBandHeaderC1Ev
+40 Name=_ZN14TFaxBandHeaderC2E9TStreamId
+41 Name=_ZN14TFaxBandHeaderC2Ev
+42 Name=_ZN9CFaxPages12InternalizeLER11RReadStream
+43 Name=_ZN9CFaxPages4NewLEv
+44 Name=_ZN9CFaxPagesD0Ev
+45 Name=_ZN9CFaxPagesD1Ev
+46 Name=_ZN9CFaxPagesD2Ev
+47 Name=_ZNK12CFaxPageInfo12ExternalizeLER12RWriteStream
+48 Name=_ZNK13CReadFaxPages15CurrentPageInfoEv
+49 Name=_ZNK13CReadFaxPages8NumPagesEv
+50 Name=_ZNK14TFaxBandHeader12ExternalizeLER12RWriteStream
+51 Name=_ZNK9CFaxPages12ExternalizeLER12RWriteStream
+52 Name=_ZTI12CFaxPageInfo
+53 Name=_ZTI12CReadFaxFile
+54 Name=_ZTI13CReadFaxPages
+55 Name=_ZTI13CWriteFaxFile
+56 Name=_ZTI14CWriteFaxPages
+57 Name=_ZTI9CFaxPages
+58 Name=_ZTV12CFaxPageInfo
+59 Name=_ZTV12CReadFaxFile
+60 Name=_ZTV13CReadFaxPages
+61 Name=_ZTV13CWriteFaxFile
+62 Name=_ZTV14CWriteFaxPages
+63 Name=_ZTV9CFaxPages
+;------------------EOF------------------

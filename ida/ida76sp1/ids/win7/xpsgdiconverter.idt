@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=XpsGdiConverter.dll Args=0 Drops=1
+;---------------------------------------
+1 Name=CreateXpstoGdiConverter Pascal=12
+;------------------EOF------------------

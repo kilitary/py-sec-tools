@@ -1,0 +1,39 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QAPPSETTINGSMGR Pascal=0
+;---------------------------------------
+1 Name=_ZN22CCenrepSettingsMonitor12AddObserverLEP22MCenrepSettingObserver
+2 Name=_ZN22CCenrepSettingsMonitor13SetGlobalLockEi
+3 Name=_ZN22CCenrepSettingsMonitor14RemoveObserverEPK22MCenrepSettingObserver
+4 Name=_ZN22CCenrepSettingsMonitor14SetDisplayTypeEiNS_8TFoldersE
+5 Name=_ZN22CCenrepSettingsMonitor15FolderHandlesLCEv
+6 Name=_ZN22CCenrepSettingsMonitor16SetInstallFolderEi
+7 Name=_ZN22CCenrepSettingsMonitor16StartTransactionEN11CRepository16TTransactionModeE
+8 Name=_ZN22CCenrepSettingsMonitor17CommitTransactionERm
+9 Name=_ZN22CCenrepSettingsMonitor19RollbackTransactionEv
+10 Name=_ZN22CCenrepSettingsMonitor4NewLEv
+11 Name=_ZN22CCenrepSettingsMonitorD0Ev
+12 Name=_ZN22CCenrepSettingsMonitorD1Ev
+13 Name=_ZN22CCenrepSettingsMonitorD2Ev
+14 Name=_ZNK22CCenrepSettingsMonitor10CreateLockEv
+15 Name=_ZNK22CCenrepSettingsMonitor10FolderLockEi
+16 Name=_ZNK22CCenrepSettingsMonitor10GlobalLockEv
+17 Name=_ZNK22CCenrepSettingsMonitor10HandleSizeEv
+18 Name=_ZNK22CCenrepSettingsMonitor10SortOrderLEi
+19 Name=_ZNK22CCenrepSettingsMonitor11DisplayLockEv
+20 Name=_ZNK22CCenrepSettingsMonitor11DisplayTypeENS_8TFoldersE
+21 Name=_ZNK22CCenrepSettingsMonitor13FolderAppLockEi
+22 Name=_ZNK22CCenrepSettingsMonitor13InstallFolderEv
+23 Name=_ZNK22CCenrepSettingsMonitor13SetFolderLockEii
+24 Name=_ZNK22CCenrepSettingsMonitor13SetSortOrderLEiRK7TDesC16
+25 Name=_ZNK22CCenrepSettingsMonitor14FolderLockSizeEv
+26 Name=_ZNK22CCenrepSettingsMonitor14GlobalLockSizeEv
+27 Name=_ZNK22CCenrepSettingsMonitor15DisplayTypeSizeEv
+28 Name=_ZNK22CCenrepSettingsMonitor16FolderChangeLockEi
+29 Name=_ZNK22CCenrepSettingsMonitor16FoldersAndAppsLCEi
+30 Name=_ZNK22CCenrepSettingsMonitor17GlobalAppMoveLockEv
+31 Name=_ZNK22CCenrepSettingsMonitor17InstallFolderSizeEv
+32 Name=_ZNK22CCenrepSettingsMonitor9SortSizeLEi
+;------------------EOF------------------

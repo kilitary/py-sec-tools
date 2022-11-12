@@ -1,0 +1,77 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=XMLFRAMEWORK Pascal=0
+;---------------------------------------
+1 Name=_ZN3Xml10RAttribute4CopyEv
+2 Name=_ZN3Xml10RAttribute4OpenERK7RStringS3_S3_NS_14TAttributeTypeE
+3 Name=_ZN3Xml10RAttribute4OpenERK7RStringS3_S3_S3_NS_14TAttributeTypeE
+4 Name=_ZN3Xml10RAttribute5CloseEv
+5 Name=_ZN3Xml10RAttribute8SetValueERK7RString
+6 Name=_ZN3Xml10RAttributeC1Ev
+7 Name=_ZN3Xml10RAttributeC2Ev
+8 Name=_ZN3Xml17CCharSetConverter16PrepareCharConvLERjRK6TDesC8
+9 Name=_ZN3Xml17CCharSetConverter16PrepareCharConvLERji
+10 Name=_ZN3Xml17CCharSetConverter17ConvertToUnicodeLEmRK6TDesC8RP7HBufC16
+11 Name=_ZN3Xml17CCharSetConverter19ConvertFromUnicodeLERK7TDesC16mRP6HBufC8
+12 Name=_ZN3Xml17CCharSetConverter25PrepareToConvertToOrFromLEm
+13 Name=_ZN3Xml17CCharSetConverter32ConvertUcs4CharactersToEncodingLEPmimRP6HBufC8
+14 Name=_ZN3Xml17CCharSetConverter44ConvertCharacterSetIdentifierToStandardNameLEmRP6HBufC8
+15 Name=_ZN3Xml19CDictionaryCodePage22ConstructIndexMappingLEPKiNS0_11TStringTypeE
+16 Name=_ZN3Xml19CDictionaryCodePage4NewLEPK12TStringTableS3_S3_h
+17 Name=_ZN3Xml19CDictionaryCodePageD0Ev
+18 Name=_ZN3Xml19CDictionaryCodePageD1Ev
+19 Name=_ZN3Xml19CDictionaryCodePageD2Ev
+20 Name=_ZN3Xml19RDocumentParameters4OpenERK7RString
+21 Name=_ZN3Xml19RDocumentParameters5CloseEv
+22 Name=_ZN3Xml19RDocumentParametersC1Ev
+23 Name=_ZN3Xml19RDocumentParametersC2Ev
+24 Name=_ZN3Xml27RStringDictionaryCollection10StringPoolEv
+25 Name=_ZN3Xml27RStringDictionaryCollection15OpenDictionaryLERK6TDesC8
+26 Name=_ZN3Xml27RStringDictionaryCollection5CloseEv
+27 Name=_ZN3Xml27RStringDictionaryCollection5OpenLEv
+28 Name=_ZN3Xml27RStringDictionaryCollectionC1Ev
+29 Name=_ZN3Xml27RStringDictionaryCollectionC2Ev
+30 Name=_ZN3Xml6ParseLERNS_7CParserER3RFsRK7TDesC16
+31 Name=_ZN3Xml6ParseLERNS_7CParserERK6TDesC8
+32 Name=_ZN3Xml7CParser10StringPoolEv
+33 Name=_ZN3Xml7CParser11ParseBeginLERK6TDesC8
+34 Name=_ZN3Xml7CParser11ParseBeginLEv
+35 Name=_ZN3Xml7CParser13EnableFeatureEi
+36 Name=_ZN3Xml7CParser14DisableFeatureEi
+37 Name=_ZN3Xml7CParser18SetProcessorChainLERK6RArrayI4TUidE
+38 Name=_ZN3Xml7CParser23AddPreloadedDictionaryLERK6TDesC8
+39 Name=_ZN3Xml7CParser26StringDictionaryCollectionEv
+40 Name=_ZN3Xml7CParser4NewLERK6TDesC8RNS_15MContentHandlerE
+41 Name=_ZN3Xml7CParser5NewLCERK6TDesC8RNS_15MContentHandlerE
+42 Name=_ZN3Xml7CParser6ParseLERK6TDesC8
+43 Name=_ZN3Xml7CParser9ParseEndLEv
+44 Name=_ZN3Xml8RTagInfo4CopyEv
+45 Name=_ZN3Xml8RTagInfo4OpenERK7RStringS3_S3_
+46 Name=_ZN3Xml8RTagInfo5CloseEv
+47 Name=_ZN3Xml8RTagInfoC1Ev
+48 Name=_ZN3Xml8RTagInfoC2Ev
+49 Name=_ZNK3Xml10RAttribute4TypeEv
+50 Name=_ZNK3Xml10RAttribute5ValueEv
+51 Name=_ZNK3Xml10RAttribute9AttributeEv
+52 Name=_ZNK3Xml19CDictionaryCodePage11StringTableENS0_11TStringTypeE
+53 Name=_ZNK3Xml19CDictionaryCodePage24StringPoolIndexFromTokenEiNS0_11TStringTypeE
+54 Name=_ZNK3Xml19CDictionaryCodePage24TokenFromStringPoolIndexEiNS0_11TStringTypeE
+55 Name=_ZNK3Xml19CDictionaryCodePage8CodePageEv
+56 Name=_ZNK3Xml19RDocumentParameters16CharacterSetNameEv
+57 Name=_ZNK3Xml27RStringDictionaryCollection18CurrentDictionaryLEv
+58 Name=_ZNK3Xml7CParser16IsFeatureEnabledEi
+59 Name=_ZNK3Xml8RTagInfo3UriEv
+60 Name=_ZNK3Xml8RTagInfo6PrefixEv
+61 Name=_ZNK3Xml8RTagInfo9LocalNameEv
+62 Name=_ZTIN3Xml19CDictionaryCodePageE
+63 Name=_ZTVN3Xml19CDictionaryCodePageE
+64 Name=_ZTIN3Xml17CCharSetConverterE
+65 Name=_ZTIN3Xml7CParserE
+66 Name=_ZTVN3Xml17CCharSetConverterE
+67 Name=_ZTVN3Xml7CParserE
+68 Name=_ZN3Xml6ParseLERNS_7CParserER5RFile
+69 Name=_ZN3Xml17CCharSetConverter17ConvertToUnicodeLEmRK6TDesC8R6TPtr16
+70 Name=_ZN3Xml17CCharSetConverter19ConvertFromUnicodeLERK7TDesC16mR5TPtr8
+;------------------EOF------------------

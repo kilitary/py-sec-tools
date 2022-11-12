@@ -1,0 +1,8 @@
+DECLARATION Nokia 9110 Geos 3.0 library color.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=colordll Pascal=0
+;---------------------------------------
+1 Name=ColorSelectorClass
+;------------------EOF------------------

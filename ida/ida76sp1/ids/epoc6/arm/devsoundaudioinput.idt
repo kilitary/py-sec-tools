@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DEVSOUNDAUDIOINPUT Pascal=0
+;---------------------------------------
+1 Name=_._CDevSoundAudioInput
+2 Name=CapabilitiesChannelsL__CDevSoundAudioInputRtRArrayZUi
+3 Name=CapabilitiesDataTypesL__CDevSoundAudioInputRtRArrayZTFourCC
+4 Name=CapabilitiesRatesL__CDevSoundAudioInputRtRArrayZUi
+5 Name=ConfigChannelsL__CDevSoundAudioInputRtRArrayZUi
+6 Name=ConfigDataTypesL__CDevSoundAudioInputRtRArrayZTFourCC
+7 Name=ConfigRatesL__CDevSoundAudioInputRtRArrayZUi
+8 Name=ConfigureL__CDevSoundAudioInputUiUiGTFourCCRTDesC8
+9 Name=GainL__CDevSoundAudioInput
+10 Name=MaxGainL__CDevSoundAudioInput
+11 Name=NewL__CDevSoundAudioInputRCTMMFPrioritySettingsRMDevSoundAudioInputObserver
+12 Name=NewL__CDevSoundAudioInputUiUiGTFourCCRTDesC8RCTMMFPrioritySettingsRMDevSoundAudioInputObserver
+13 Name=PauseL__CDevSoundAudioInput
+14 Name=PrimeL__CDevSoundAudioInput
+15 Name=RecordL__CDevSoundAudioInputPv
+16 Name=SetGainL__CDevSoundAudioInputi
+17 Name=SetPrioritySettingsL__CDevSoundAudioInputRCTMMFPrioritySettings
+18 Name=StopL__CDevSoundAudioInput
+19 Name=CalculateAudioInputPositionL__CCDevSoundAudioInput
+20 Name=SetBitRatesL__CDevSoundAudioInputUiRtRArrayZi
+21 Name=SetChannelsL__CDevSoundAudioInputUi
+22 Name=SetRatesL__CDevSoundAudioInputUi
+;------------------EOF------------------

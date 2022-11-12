@@ -1,0 +1,17 @@
+DECLARATION Nokia 9110 Geos 3.0 library vsstb.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=vsstbdll Pascal=0
+;---------------------------------------
+1 Name=init_stub
+2 Name=log_t_write
+3 Name=log_b_write
+4 Name=VpReserveData
+5 Name=VpReleaseData
+6 Name=VpSendDataMessage
+7 Name=set_return_value
+8 Name=dataReceive_call
+9 Name=SAVEDS
+10 Name=RECOVERDS
+;------------------EOF------------------

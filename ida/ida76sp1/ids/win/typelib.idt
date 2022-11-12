@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=typelib.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=WEP Pascal=2
+2 Name=CREATETYPELIB Pascal=10
+3 Name=LOADTYPELIB Pascal=8
+4 Name=LHASHVALOFNAMESYS Pascal=10
+5 Name=_IID_ICREATETYPEINFO
+6 Name=_IID_ICREATETYPELIB
+7 Name=_IID_ITYPECOMP
+8 Name=_IID_ITYPEINFO
+9 Name=_IID_ITYPELIB
+10 Name=REGISTERTYPELIB Pascal=12
+11 Name=LOADREGTYPELIB Pascal=16
+12 Name=___EXPORTEDSTUB Pascal=0
+14 Name=QUERYPATHOFREGTYPELIB Pascal=16
+15 Name=OABUILDVERSION Pascal=0
+;------------------EOF------------------

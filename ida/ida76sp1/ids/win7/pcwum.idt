@@ -1,0 +1,46 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=pcwum.dll Args=0 Drops=39
+;---------------------------------------
+1 Name=PcwAddQueryItem Pascal=36
+2 Name=PcwClearCounterSetSecurity Pascal=4
+3 Name=PcwCollectData Pascal=16
+4 Name=PcwCompleteNotification Pascal=20
+5 Name=PcwCreateNotifier Pascal=8
+6 Name=PcwCreateQuery Pascal=8
+7 Name=PcwDisconnectCounterSet Pascal=8
+8 Name=PcwEnumerateInstances Pascal=24
+9 Name=PcwIsNotifierAlive Pascal=12
+10 Name=PcwQueryCounterSetSecurity Pascal=20
+11 Name=PcwReadNotificationData Pascal=16
+12 Name=PcwRegisterCounterSet Pascal=12
+13 Name=PcwRemoveQueryItem Pascal=8
+14 Name=PcwSendNotification Pascal=32
+15 Name=PcwSendStatelessNotification Pascal=32
+16 Name=PcwSetCounterSetSecurity Pascal=12
+17 Name=PcwSetQueryItemUserData Pascal=12
+18 Name=PerfCreateInstance Pascal=16
+19 Name=PerfDecrementULongCounterValue Pascal=16
+20 Name=PerfDecrementULongLongCounterValue Pascal=20
+21 Name=PerfDeleteInstance Pascal=8
+22 Name=PerfIncrementULongCounterValue Pascal=16
+23 Name=PerfIncrementULongLongCounterValue Pascal=20
+24 Name=PerfQueryInstance Pascal=16
+25 Name=PerfSetCounterRefValue Pascal=16
+26 Name=PerfSetCounterSetInfo Pascal=12
+27 Name=PerfSetULongCounterValue Pascal=16
+28 Name=PerfSetULongLongCounterValue Pascal=20
+29 Name=PerfStartProvider Pascal=12
+30 Name=PerfStartProviderEx Pascal=12
+31 Name=PerfStopProvider Pascal=4
+32 Name=StmAlignSize Pascal=4
+33 Name=StmAllocateFlat Pascal=8
+34 Name=StmCoalesceChunks Pascal=12
+35 Name=StmDeinitialize Pascal=4
+36 Name=StmInitialize Pascal=20
+37 Name=StmReduceSize Pascal=8
+38 Name=StmReserve Pascal=12
+39 Name=StmWrite Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,75 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FNTSTR Pascal=0
+;---------------------------------------
+1 Name=__eq__C9TAlgStyleRC9TAlgStyle
+2 Name=AscentInPixels__C11CBitmapFont
+3 Name=BaselineOffsetInPixels__C11CBitmapFont
+4 Name=BitmapEncoding__C11CBitmapFont
+5 Name=CharWidthInPixels__C11CBitmapFontG5TChar
+6 Name=CharacterMetrics__C11CBitmapFontiRPUc
+7 Name=CodeSection__C11CBitmapFonti
+8 Name=FontHeightInPixels__C10CFontStoreii
+9 Name=FontHeightInTwips__C10CFontStoreii
+10 Name=FontSpecInTwips__C11CBitmapFont
+11 Name=GetFontById__10CFontStoreRP5CFontG4TUidRC9TAlgStyle
+12 Name=GetNearestFontInPixels__10CFontStoreRP5CFontRC9TFontSpec
+13 Name=GetNearestFontInTwips__10CFontStoreRP5CFontRC9TFontSpec
+14 Name=HeightFactor__C9TAlgStyle
+15 Name=HeightInPixels__C11CBitmapFont
+16 Name=IsBold__C9TAlgStyle
+17 Name=IsItalic__C9TAlgStyle
+18 Name=IsMono__C9TAlgStyle
+19 Name=MaxCharWidthInPixels__C11CBitmapFont
+20 Name=MaxNormalCharWidthInPixels__C11CBitmapFont
+21 Name=NewL__10CFontStoreP5RHeap
+22 Name=NewL__11CBitmapFontP5RHeapRC9TFontSpecRC9TAlgStyleP11CFontBitmap
+23 Name=NumCodeSections__C11CBitmapFont
+24 Name=NumTypefaces__C10CFontStore
+25 Name=RemoveFile__10CFontStoreG4TUid
+26 Name=SetHeightFactor__9TAlgStylei
+27 Name=SetIsBold__9TAlgStylei
+28 Name=SetIsItalic__9TAlgStylei
+29 Name=SetIsMono__9TAlgStylei
+30 Name=SetWidthFactor__9TAlgStylei
+31 Name=TextCount__C11CBitmapFontRC6TDesC8i
+32 Name=TextCount__C11CBitmapFontRC6TDesC8iRi
+33 Name=TextWidthInPixels__C11CBitmapFontRC6TDesC8
+34 Name=TypeUid__C11CBitmapFont
+35 Name=TypefaceSupport__C10CFontStoreR16TTypefaceSupporti
+36 Name=WidthFactor__C9TAlgStyle
+37 Name=_._10CFontStore
+38 Name=__17TCharacterMetrics
+39 Name=__9TAlgStyle
+40 Name=__dl__11CBitmapFontPv
+41 Name=AddFileL__10CFontStoreRC6TDesC8
+42 Name=DeleteSessionCache__10CFontStorei
+43 Name=GetCharacterData__C11CBitmapFontiiR20TOpenFontCharMetricsRPCUc
+44 Name=GetFaceAttrib__C11CBitmapFontR19TOpenFontFaceAttrib
+45 Name=GetFontMetrics__C11CBitmapFontR16TOpenFontMetrics
+46 Name=GetTCharacterMetrics__C20TOpenFontCharMetricsR17TCharacterMetrics
+47 Name=HasCharacterL__C11CBitmapFonti
+48 Name=InstallRasterizerL__10CFontStoreP19COpenFontRasterizer
+49 Name=Rasterize__C11CBitmapFontiiP18TOpenFontGlyphData
+50 Name=_._13COpenFontFile
+51 Name=_._9COpenFont
+52 Name=__13COpenFontFileiRC6TDesC8
+53 Name=__16TOpenFontMetricsPC5CFont
+54 Name=__20TOpenFontCharMetricsRC17TCharacterMetrics
+55 Name=__9COpenFontP5RHeapP25COpenFontSessionCacheListP13COpenFontFile
+56 Name=__dl__9COpenFontPv
+57 Name=__9COpenFontP5RHeapP25COpenFontSessionCacheListP13COpenFontFilei
+58 Name=CompensateForAspectRatio__13TOpenFontSpecRC18MGraphicsDeviceMap
+59 Name=CompensateForAspectRatio__13TOpenFontSpecii
+60 Name=GetNearestFontHelper__C13COpenFontFileRC13TOpenFontSpeciiRiR13TOpenFontSpec
+61 Name=GetNearestFontInPixels__10CFontStoreRP5CFontRC13TOpenFontSpec
+62 Name=GetNearestFontInTwips__10CFontStoreRP5CFontRC13TOpenFontSpec
+63 Name=GetTFontSpec__C13TOpenFontSpecR9TFontSpec
+64 Name=SetAttrib__13TOpenFontSpecRC23TOpenFontFaceAttribBase
+65 Name=__13TOpenFontSpec
+66 Name=__13TOpenFontSpecRC9TFontSpec
+67 Name=__as__13TOpenFontSpecRC9TFontSpec
+68 Name=New__18TOpenFontGlyphDataP5RHeapi
+;------------------EOF------------------

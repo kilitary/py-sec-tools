@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=iscsied.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=DiscpLoadGPSettings Pascal=44
+2 Name=DllMain Pascal=12
+;------------------EOF------------------

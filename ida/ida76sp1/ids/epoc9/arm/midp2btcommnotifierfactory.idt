@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MIDP2BTCOMMNOTIFIERFACTORY Pascal=0
+;---------------------------------------
+1 Name=_Z25GetBTCommNotifierFactoryLv
+2 Name=_ZTI20CBTCommOptionsDialog
+3 Name=_ZTI20CBTCommPendingDialog
+4 Name=_ZTI22CBTCommNotifierFactory
+5 Name=_ZTV20CBTCommOptionsDialog
+6 Name=_ZTV20CBTCommPendingDialog
+7 Name=_ZTV22CBTCommNotifierFactory
+;------------------EOF------------------

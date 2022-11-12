@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RICHBIO Pascal=0
+;---------------------------------------
+1 Name=__CRichBioTRichBioMode
+2 Name=ConstructL__CRichBioPCCCoeControl
+3 Name=CurrentLineRect__CRichBio
+4 Name=Editor__CRichBio
+5 Name=IsEditorBaseMode__CCRichBio
+6 Name=NewL__CRichBioPCCCoeControlTRichBioMode
+7 Name=Reset__CRichBio
+8 Name=AddItemL__CRichBioRCTDesC16T1
+9 Name=SetAndGetSizeL__CRichBioRTSize
+10 Name=IsCursorLocation__CCRichBioTMsgCursorLocation
+11 Name=VirtualHeight__CRichBio
+12 Name=VirtualVisibleTop__CRichBio
+;------------------EOF------------------

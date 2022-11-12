@@ -1,0 +1,36 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=JSMSPUSH Pascal=0
+;---------------------------------------
+1 Name=_ZN4MIDP10Connection3Sms11InitializeLERNS_18MConnectionManagerE
+2 Name=_ZTIN4MIDP10Connection3Sms14CSmsConnectionE
+3 Name=_ZTIN4MIDP10Connection3Sms17CSmsAddressFilterE
+4 Name=_ZTIN4MIDP10Connection3Sms21CSmsConnectionFactoryE
+5 Name=_ZTIN4MIDP10Connection3Sms24CSmsAddressFilterFactoryE
+6 Name=_ZTIN4MIDP10Connection3Sms27CSmsConnectionPermissionMapE
+7 Name=_ZTVN4MIDP10Connection3Sms14CSmsConnectionE
+8 Name=_ZTVN4MIDP10Connection3Sms17CSmsAddressFilterE
+9 Name=_ZTVN4MIDP10Connection3Sms21CSmsConnectionFactoryE
+10 Name=_ZTVN4MIDP10Connection3Sms24CSmsAddressFilterFactoryE
+11 Name=_ZTVN4MIDP10Connection3Sms27CSmsConnectionPermissionMapE
+12 Name=_ZTIN4MIDP10Connection3Sms11CCbsDecoderE
+13 Name=_ZTIN4MIDP10Connection3Sms14CCbsConnectionE
+14 Name=_ZTIN4MIDP10Connection3Sms14CCbsGSMDecoderE
+15 Name=_ZTIN4MIDP10Connection3Sms16CCbsWCDMADecoderE
+16 Name=_ZTIN4MIDP10Connection3Sms17CCbsAddressFilterE
+17 Name=_ZTIN4MIDP10Connection3Sms18CCbsDecoderFactoryE
+18 Name=_ZTIN4MIDP10Connection3Sms21CCbsConnectionFactoryE
+19 Name=_ZTIN4MIDP10Connection3Sms24CCbsAddressFilterFactoryE
+20 Name=_ZTIN4MIDP10Connection3Sms27CCbsConnectionPermissionMapE
+21 Name=_ZTVN4MIDP10Connection3Sms11CCbsDecoderE
+22 Name=_ZTVN4MIDP10Connection3Sms14CCbsConnectionE
+23 Name=_ZTVN4MIDP10Connection3Sms14CCbsGSMDecoderE
+24 Name=_ZTVN4MIDP10Connection3Sms16CCbsWCDMADecoderE
+25 Name=_ZTVN4MIDP10Connection3Sms17CCbsAddressFilterE
+26 Name=_ZTVN4MIDP10Connection3Sms18CCbsDecoderFactoryE
+27 Name=_ZTVN4MIDP10Connection3Sms21CCbsConnectionFactoryE
+28 Name=_ZTVN4MIDP10Connection3Sms24CCbsAddressFilterFactoryE
+29 Name=_ZTVN4MIDP10Connection3Sms27CCbsConnectionPermissionMapE
+;------------------EOF------------------

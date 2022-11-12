@@ -1,0 +1,53 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=X500 Pascal=0
+;---------------------------------------
+1 Name=_ZN22CX500DistinguishedName4NewLER11RReadStream
+2 Name=_ZN22CX500DistinguishedName4NewLERK6TDesC8
+3 Name=_ZN22CX500DistinguishedName4NewLERK6TDesC8Ri
+4 Name=_ZN22CX500DistinguishedName4NewLERK9CArrayPtrI26CX520AttributeTypeAndValueE
+5 Name=_ZN22CX500DistinguishedName4NewLERKS_
+6 Name=_ZN22CX500DistinguishedName5NewLCER11RReadStream
+7 Name=_ZN22CX500DistinguishedName5NewLCERK6TDesC8
+8 Name=_ZN22CX500DistinguishedName5NewLCERK6TDesC8Ri
+9 Name=_ZN22CX500DistinguishedName5NewLCERK9CArrayPtrI26CX520AttributeTypeAndValueE
+10 Name=_ZN22CX500DistinguishedName5NewLCERKS_
+11 Name=_ZN22CX500DistinguishedNameD0Ev
+12 Name=_ZN22CX500DistinguishedNameD1Ev
+13 Name=_ZN22CX500DistinguishedNameD2Ev
+14 Name=_ZN26CX520AttributeTypeAndValue4NewLE14TAttributeTypeRK6TDesC8
+15 Name=_ZN26CX520AttributeTypeAndValue4NewLER11RReadStream
+16 Name=_ZN26CX520AttributeTypeAndValue4NewLERK6TDesC8
+17 Name=_ZN26CX520AttributeTypeAndValue4NewLERK6TDesC8Ri
+18 Name=_ZN26CX520AttributeTypeAndValue4NewLERKS_
+19 Name=_ZN26CX520AttributeTypeAndValue5NewLCE14TAttributeTypeRK6TDesC8
+20 Name=_ZN26CX520AttributeTypeAndValue5NewLCER11RReadStream
+21 Name=_ZN26CX520AttributeTypeAndValue5NewLCERK6TDesC8
+22 Name=_ZN26CX520AttributeTypeAndValue5NewLCERK6TDesC8Ri
+23 Name=_ZN26CX520AttributeTypeAndValue5NewLCERKS_
+24 Name=_ZN26CX520AttributeTypeAndValueD0Ev
+25 Name=_ZN26CX520AttributeTypeAndValueD1Ev
+26 Name=_ZN26CX520AttributeTypeAndValueD2Ev
+27 Name=_ZNK22CX500DistinguishedName11EncodeASN1LEv
+28 Name=_ZNK22CX500DistinguishedName11ExactMatchLERKS_
+29 Name=_ZNK22CX500DistinguishedName12DisplayNameLEv
+30 Name=_ZNK22CX500DistinguishedName12EncodeASN1LCEv
+31 Name=_ZNK22CX500DistinguishedName12ExternalizeLER12RWriteStream
+32 Name=_ZNK22CX500DistinguishedName13ExtractFieldLERK7TDesC16
+33 Name=_ZNK22CX500DistinguishedName13MatchElementLERK26CX520AttributeTypeAndValue
+34 Name=_ZNK22CX500DistinguishedName16IsWithinSubtreeLERKS_
+35 Name=_ZNK22CX500DistinguishedName5CountEv
+36 Name=_ZNK22CX500DistinguishedName7ElementEi
+37 Name=_ZNK26CX520AttributeTypeAndValue11EncodeASN1LEv
+38 Name=_ZNK26CX520AttributeTypeAndValue11ExactMatchLERKS_
+39 Name=_ZNK26CX520AttributeTypeAndValue12EncodeASN1LCEv
+40 Name=_ZNK26CX520AttributeTypeAndValue12EncodedValueEv
+41 Name=_ZNK26CX520AttributeTypeAndValue4TypeEv
+42 Name=_ZNK26CX520AttributeTypeAndValue6ValueLEv
+43 Name=_ZTI26CX520AttributeTypeAndValue
+44 Name=_ZTV26CX520AttributeTypeAndValue
+45 Name=_ZTI22CX500DistinguishedName
+46 Name=_ZTV22CX500DistinguishedName
+;------------------EOF------------------

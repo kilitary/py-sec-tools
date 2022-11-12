@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MGFETCH Pascal=0
+;---------------------------------------
+1 Name=RunL__MGFetchRCDesCArrayTMediaFileTypeiPMMGFetchVerifier
+2 Name=RunL__MGFetchRCDesCArrayTMediaFileTypeiRCTDesC16TPMMGFetchVerifier
+3 Name=RunL__MGFetchRCDesCArrayTMediaFileTypeiRCTDesC16TPMDesCArrayPMMGFetchVerifier
+4 Name=RunL__MGFetchRCDesCArrayTMediaFileTypeiRCTDesC16TPMDesCArrayRPMMGFetchCancelerPMMGFetchVerifier
+;------------------EOF------------------

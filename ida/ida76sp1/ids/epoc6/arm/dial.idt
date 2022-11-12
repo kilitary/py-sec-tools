@@ -1,0 +1,50 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DIAL Pascal=0
+;---------------------------------------
+1 Name=__13TDialLocationRCt4TBuf1i10N31RCt4TBuf1i4T5RCt4TBuf1i8UiUi
+2 Name=Parse__15TelephoneNumberRt4TBuf1i50RC13TDialLocationRC11TChargeCardRC7TDesC1610TParseMode
+3 Name=Parse__15TelephoneNumberRt4TBuf1i50RC13TDialLocationRC7TDesC16
+4 Name=SetAreaCode__13TDialLocationRC7TDesC16
+5 Name=SetDialLocationFlags__13TDialLocationUi
+6 Name=SetDialOutLocalCode__13TDialLocationRC7TDesC16
+7 Name=SetDialOutLongDistanceCode__13TDialLocationRC7TDesC16
+8 Name=SetDisableCallWaitingCode__13TDialLocationRC7TDesC16
+9 Name=SetIntlPrefCode__13TDialLocationRC7TDesC16
+10 Name=SetIntlRule__11TChargeCardRC7TDesC16
+11 Name=SetLocalRule__11TChargeCardRC7TDesC16
+12 Name=SetNatCode__13TDialLocationRC7TDesC16
+13 Name=SetNatPrefCode__13TDialLocationRC7TDesC16
+14 Name=SetNatRule__11TChargeCardRC7TDesC16
+15 Name=SetNumber__11TChargeCardRC7TDesC16
+16 Name=SetPauseAfterDialout__13TDialLocationUi
+17 Name=SetPin__11TChargeCardRC7TDesC16
+18 Name=__11TChargeCard
+19 Name=__11TChargeCardRCt4TBuf1i32RCt4TBuf1i8T1N21
+20 Name=__13TDialLocation
+21 Name=CalculateDialCityPrefix__15TelephoneNumberRt4TBuf1i50RC14TCityDialCodesT216TCityDialOptionsG5TChar22TPlusFormatDialOptions
+22 Name=DialOutLocalCode__C13TDialLocation
+23 Name=DialOutLongDistanceCode__C13TDialLocation
+24 Name=DisableCallWaitingCode__C13TDialLocation
+25 Name=IntlPrefCode__C13TDialLocation
+26 Name=IntlRule__C11TChargeCard
+27 Name=IsDialOutRequired__C13TDialLocation
+28 Name=IsDisableCallWaitingCode__C13TDialLocation
+29 Name=IsMobile__C13TDialLocation
+30 Name=IsPbxUsePulseDial__C13TDialLocation
+31 Name=IsUsePulseDial__C13TDialLocation
+32 Name=IsWaitForDialingTone__C13TDialLocation
+33 Name=IsWaitForProceedTone__C13TDialLocation
+34 Name=LocalRule__C11TChargeCard
+35 Name=NatCode__C13TDialLocation
+36 Name=NatPrefCode__C13TDialLocation
+37 Name=NatRule__C11TChargeCard
+38 Name=Number__C11TChargeCard
+39 Name=PauseAfterDialout__C13TDialLocation
+40 Name=Pin__C11TChargeCard
+41 Name=ValidateChargeCardInfo__C11TChargeCard
+42 Name=AreaCode__C13TDialLocation
+43 Name=Parse__15TelephoneNumberRt4TBuf1i50RC13TDialLocationRC7TDesC1616TCityDialOptions
+;------------------EOF------------------

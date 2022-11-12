@@ -1,0 +1,57 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msgina.dll Args=0 Drops=50
+;---------------------------------------
+1 Name=ShellGetUserList Pascal=12
+2 Name=ShellIsSingleUserNoPassword Pascal=8
+3 Name=ShellACPIPowerButtonPressed Pascal=12
+4 Name=ShellSwitchUser Pascal=4
+5 Name=ShellIsRemoteConnectionsEnabled Pascal=0
+6 Name=ShellEnableFriendlyUI Pascal=4
+7 Name=ShellEnableMultipleUsers Pascal=4
+8 Name=ShellEnableRemoteConnections Pascal=4
+9 Name=ShellTurnOffDialog Pascal=4
+10 Name=ShellNotifyThemeUserChange Pascal=8
+11 Name=ShellStatusHostBegin Pascal=4
+12 Name=ShellStatusHostEnd Pascal=4
+13 Name=ShellIsFriendlyUIActive Pascal=0
+14 Name=ShellIsSuspendAllowed Pascal=0
+15 Name=ShellSwitchWhenInteractiveReady Pascal=8
+16 Name=ShellDimScreen Pascal=8
+17 Name=ShellInstallAccountFilterData Pascal=0
+18 Name=ShellStatusHostShuttingDown Pascal=0
+19 Name=ShellIsUserInteractiveLogonAllowed Pascal=4
+20 Name=ShellIsMultipleUsersEnabled Pascal=0
+21 Name=ShellReturnToWelcome Pascal=4
+22 Name=ShellStatusHostPowerEvent Pascal=0
+23 Name=ShellStartCredentialServer Pascal=16
+24 Name=ShellAcquireLogonMutex Pascal=0
+25 Name=ShellReleaseLogonMutex Pascal=4
+26 Name=ShellSignalShutdown Pascal=0
+27 Name=ShellStatusHostHide Pascal=0
+28 Name=ShellStatusHostShow Pascal=0
+29 Name=ShellShutdownDialog Pascal=12
+30 Name=WlxActivateUserShell Pascal=16
+31 Name=WlxDisconnectNotify Pascal=4
+32 Name=WlxDisplayLockedNotice Pascal=4
+33 Name=WlxDisplaySASNotice Pascal=4
+34 Name=WlxDisplayStatusMessage Pascal=20
+35 Name=WlxGetConsoleSwitchCredentials Pascal=8
+36 Name=WlxGetStatusMessage Pascal=16
+37 Name=WlxInitialize Pascal=20
+38 Name=WlxIsLockOk Pascal=4
+39 Name=WlxIsLogoffOk Pascal=4
+40 Name=WlxLoggedOnSAS Pascal=12
+41 Name=WlxLoggedOutSAS Pascal=32
+42 Name=WlxLogoff Pascal=4
+43 Name=WlxNegotiate Pascal=8
+44 Name=WlxNetworkProviderLoad Pascal=8
+45 Name=WlxReconnectNotify Pascal=4
+46 Name=WlxRemoveStatusMessage Pascal=4
+47 Name=WlxScreenSaverNotify Pascal=8
+48 Name=WlxShutdown Pascal=8
+49 Name=WlxStartApplication Pascal=16
+50 Name=WlxWkstaLockedSAS Pascal=8
+;------------------EOF------------------

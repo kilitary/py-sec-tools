@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MMFAUDIOPOLICYPROXY Pascal=0
+;---------------------------------------
+1 Name=_ZN20RMMFAudioPolicyProxy11MakeRequestER31TMMFAudioPolicyPrioritySettings
+2 Name=_ZN20RMMFAudioPolicyProxy11UpdateStateER31TMMFAudioPolicyPrioritySettings
+3 Name=_ZN20RMMFAudioPolicyProxy13GetPlayFormatER8TPckgBufIN12RMdaDevSound19TCurrentSoundFormatEE
+4 Name=_ZN20RMMFAudioPolicyProxy13ReceiveEventsER8TPckgBufI20TMMFAudioPolicyEventER14TRequestStatus
+5 Name=_ZN20RMMFAudioPolicyProxy14LaunchRequestsEv
+6 Name=_ZN20RMMFAudioPolicyProxy15GetRecordFormatER8TPckgBufIN12RMdaDevSound19TCurrentSoundFormatEE
+7 Name=_ZN20RMMFAudioPolicyProxy15SetDevSoundInfoER16TMMFDevSoundInfo
+8 Name=_ZN20RMMFAudioPolicyProxy19CancelReceiveEventsEv
+9 Name=_ZN20RMMFAudioPolicyProxy23GetPlayFormatsSupportedER8TPckgBufIN12RMdaDevSound22TSoundFormatsSupportedEE
+10 Name=_ZN20RMMFAudioPolicyProxy25GetRecordFormatsSupportedER8TPckgBufIN12RMdaDevSound22TSoundFormatsSupportedEE
+11 Name=_ZN20RMMFAudioPolicyProxy4OpenER8RServer2
+12 Name=_ZN20RMMFAudioPolicyProxy16StopNotificationEv
+13 Name=_ZN20RMMFAudioPolicyProxy27RequestResourceNotificationE4TUidRK6TDesC8
+14 Name=_ZN20RMMFAudioPolicyProxy33CancelRequestResourceNotificationE4TUid
+15 Name=_ZN20RMMFAudioPolicyProxy32IsRegisteredResourceNotificationE4TUid
+16 Name=_ZN20RMMFAudioPolicyProxy12CreateServerER8RServer2
+;------------------EOF------------------

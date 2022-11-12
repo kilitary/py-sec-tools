@@ -1,0 +1,25 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ubpm.dll Args=0 Drops=18
+;---------------------------------------
+1 Name=UbpmApiBufferFree Pascal=4
+2 Name=UbpmCloseRootHandle Pascal=4
+3 Name=UbpmCloseTriggerConsumerHandle Pascal=4
+4 Name=UbpmCloseTriggerProviderHandle Pascal=4
+5 Name=UbpmConfigureTriggerConsumer Pascal=12
+6 Name=UbpmControlTriggerConsumer Pascal=16
+7 Name=UbpmGenerateNotification Pascal=12
+8 Name=UbpmGenerateTrigger Pascal=12
+9 Name=UbpmInitialize Pascal=4
+10 Name=UbpmOpenRootHandle Pascal=12
+11 Name=UbpmOpenTriggerConsumerHandle Pascal=20
+12 Name=UbpmOpenTriggerProviderHandle Pascal=20
+13 Name=UbpmQueryTriggerConsumerStatus Pascal=16
+14 Name=UbpmRegisterTriggerConsumer Pascal=20
+15 Name=UbpmRegisterTriggerProvider Pascal=20
+16 Name=UbpmTerminate Pascal=0
+17 Name=UbpmUnregisterTriggerConsumer Pascal=12
+18 Name=UbpmUnregisterTriggerProvider Pascal=12
+;------------------EOF------------------

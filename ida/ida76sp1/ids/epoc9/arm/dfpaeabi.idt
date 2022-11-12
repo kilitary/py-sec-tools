@@ -1,0 +1,55 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DFPAEABI Pascal=0
+;---------------------------------------
+1 Name=__aeabi_cdcmpeq
+2 Name=__aeabi_cdcmple
+3 Name=__aeabi_cdrcmple
+4 Name=__aeabi_cfcmpeq
+5 Name=__aeabi_cfcmple
+6 Name=__aeabi_cfrcmple
+7 Name=__aeabi_d2f
+8 Name=__aeabi_d2iz
+9 Name=__aeabi_d2lz
+10 Name=__aeabi_d2uiz
+11 Name=__aeabi_d2ulz
+12 Name=__aeabi_dadd
+13 Name=__aeabi_dcmpeq
+14 Name=__aeabi_dcmpge
+15 Name=__aeabi_dcmpgt
+16 Name=__aeabi_dcmple
+17 Name=__aeabi_dcmplt
+18 Name=__aeabi_dcmpun
+19 Name=__aeabi_ddiv
+20 Name=__aeabi_dmul
+21 Name=__aeabi_dneg
+22 Name=__aeabi_drsub
+23 Name=__aeabi_dsub
+24 Name=__aeabi_f2d
+25 Name=__aeabi_f2iz
+26 Name=__aeabi_f2lz
+27 Name=__aeabi_f2uiz
+28 Name=__aeabi_f2ulz
+29 Name=__aeabi_fadd
+30 Name=__aeabi_fcmpeq
+31 Name=__aeabi_fcmpge
+32 Name=__aeabi_fcmpgt
+33 Name=__aeabi_fcmple
+34 Name=__aeabi_fcmplt
+35 Name=__aeabi_fcmpun
+36 Name=__aeabi_fdiv
+37 Name=__aeabi_fmul
+38 Name=__aeabi_fneg
+39 Name=__aeabi_frsub
+40 Name=__aeabi_fsub
+41 Name=__aeabi_i2d
+42 Name=__aeabi_i2f
+43 Name=__aeabi_l2d
+44 Name=__aeabi_l2f
+45 Name=__aeabi_ui2d
+46 Name=__aeabi_ui2f
+47 Name=__aeabi_ul2d
+48 Name=__aeabi_ul2f
+;------------------EOF------------------

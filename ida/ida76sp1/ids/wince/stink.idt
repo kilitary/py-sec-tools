@@ -1,0 +1,12 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=STINK.dll Pascal=0
+;---------------------------------------
+1 Name=InitInkX
+2 Name=InitRichInkDLL
+3 Name=InkToString
+4 Name=StringInFile
+5 Name=StringInMemFile
+;------------------EOF------------------

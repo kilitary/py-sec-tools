@@ -1,0 +1,20 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=UTLPKCS10 Pascal=0
+;---------------------------------------
+1 Name=_ZN10CPkcs10Req10SetDNSNameERK6TDesC8
+2 Name=_ZN10CPkcs10Req12SetPublicKeyERK6TDesC88TKeyType
+3 Name=_ZN10CPkcs10Req14SetChallengePwERK6TDesC8
+4 Name=_ZN10CPkcs10Req20SetDistinguishedNameERK6TDesC8
+5 Name=_ZN10CPkcs10Req23SetSubjectAltNameRfc822ERK6TDesC8
+6 Name=_ZN10CPkcs10Req26CreateCertificateRequestLCE9THashTypeRK5TBuf8ILi20EEiiPFiRK6TDesC8R5TDes8S4_8TKeyTypePvESB_
+7 Name=_ZN10CPkcs10Req29SetDistinguishedNameExtendedLERK6TDesC8
+8 Name=_ZN10CPkcs10Req34BuildDistinguishedNameDerFromTextLERP6HBufC8RK6TDesC8iS5_
+9 Name=_ZN10CPkcs10ReqD0Ev
+10 Name=_ZN10CPkcs10ReqD1Ev
+11 Name=_ZN10CPkcs10ReqD2Ev
+12 Name=_ZTI10CPkcs10Req
+13 Name=_ZTV10CPkcs10Req
+;------------------EOF------------------

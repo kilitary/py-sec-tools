@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=cscapi.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=CscNetApiGetInterface Pascal=16
+2 Name=CscSearchApiGetInterface Pascal=12
+3 Name=OfflineFilesEnable Pascal=8
+4 Name=OfflineFilesQueryStatus Pascal=8
+;------------------EOF------------------

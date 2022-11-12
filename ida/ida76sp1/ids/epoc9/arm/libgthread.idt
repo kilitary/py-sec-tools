@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=libgthreaddll Pascal=0
+;---------------------------------------
+1 Name=gthreadinit
+2 Name=gthreadinitwitherrorcheckmutexes
+;------------------EOF------------------

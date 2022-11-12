@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=tsgqec.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=InitializeQec Pascal=0
+2 Name=UninitializeQec Pascal=0
+;------------------EOF------------------

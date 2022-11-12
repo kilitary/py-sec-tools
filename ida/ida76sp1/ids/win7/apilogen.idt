@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=apilogen.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=LeInitialize Pascal=8
+2 Name=LeTraceFunctionCall Pascal=4
+3 Name=LeUninitialize Pascal=0
+4 Name=LeWriteExceptionData Pascal=4
+5 Name=LeWriteManifestData Pascal=4
+6 Name=LeWriteProcessData Pascal=4
+;------------------EOF------------------

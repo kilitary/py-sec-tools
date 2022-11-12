@@ -1,0 +1,74 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MSGSTORE Pascal=0
+;---------------------------------------
+1 Name=_MailError@4
+2 Name=_MailErrorMsg@16
+3 Name=_MailOpen@8
+4 Name=_MailOpenNotify@12
+5 Name=_MailPutFolder@12
+6 Name=_MailGetFolderName@16
+7 Name=_MailGetFolderId@12
+8 Name=_MailPut@8
+9 Name=_MailPutAttachment@12
+10 Name=_MailGet@8
+11 Name=_MailGetAttachment@12
+12 Name=_MailRequestAttachment@16
+13 Name=_MailGetSvcId@8
+14 Name=_MailFirst@8
+15 Name=_MailNext@8
+16 Name=_MailUpdate@12
+17 Name=_MailDelete@8
+18 Name=_MailDeleteAttachment@16
+19 Name=_MailFree@4
+20 Name=_MailClose@4
+21 Name=_MailHeaderLen@4
+22 Name=_MailLocalAttachmentLen@8
+23 Name=_MailGetField@12
+24 Name=_MailSetField@12
+25 Name=_MailSetAttachmentOptions@12
+26 Name=_MailRegOpenKeyExW@20
+27 Name=_MailRegEnumKeyExW@32
+28 Name=_MailRegCloseKey@4
+29 Name=_MailSetSort@12
+30 Name=_MailGetSort@8
+31 Name=?MailGetHeadRecordOid@@YGHPAXPAK@Z
+32 Name=?MailSetMessageId@@YGHPAXK@Z
+33 Name=?MailCheckFolder@@YGHKK@Z
+34 Name=?MailGetFolderCounts@@YGHKPAK000@Z
+35 Name=_MailPutFolderEx@16
+36 Name=_MailGetFolderNameEx@16
+37 Name=_MailGetFolderIdEx@16
+38 Name=_MailPutEx@12
+39 Name=_MailGetEx@16
+40 Name=_MailGetSvcIdEx@12
+41 Name=_MailFirstEx@16
+42 Name=_MailNextEx@16
+43 Name=_MailUpdateEx@20
+44 Name=_MailGetFirstSubFolder@16
+45 Name=_MailGetNextSubFolder@12
+46 Name=_MailFreeIterator@8
+47 Name=_MailGetParent@12
+48 Name=_MailPutFolderInfo@12
+49 Name=_MailGetFolderInfo@12
+50 Name=_MailFreeFolderInfo@8
+51 Name=_MailGetSpecialFolderId@16
+52 Name=_MailGetFolderIdFromSvcId@16
+53 Name=?MailFindObjects@@YGHPAU_CEGUID@@KPAKPAPAKPAH3I@Z
+54 Name=_MailOpenNotifyEx@16
+55 Name=_MailFreeNotification@8
+56 Name=_MailReadNonIPMProperties@16
+57 Name=_MailWriteNonIPMProperties@16
+211 Name=_MailPrMoveAttachments@20
+212 Name=_MailPrCreateNewAttDirectoryInRAM@0
+213 Name=_MailPrCardHasOurAttachments@4
+214 Name=_MailPrGetStoresOnCard@12
+215 Name=_MailPrGetStoreSize@4
+216 Name=_MailPrOpenDatabase@12
+217 Name=_MailPrEnumInstalledCards@8
+218 Name=_MailPrGetDBInfo@8
+219 Name=_MailPrEnumStorageCards@8
+220 Name=_MailPrLocateCardWithOurAttachments@0
+;------------------EOF------------------

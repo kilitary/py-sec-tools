@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PARSEFTPURL Pascal=0
+;---------------------------------------
+1 Name=_ZN12CParseFtpUrl10NewParserLEv
+;------------------EOF------------------

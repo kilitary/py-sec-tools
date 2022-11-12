@@ -1,0 +1,28 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ADVANCEDAUDIOCONTROLLERUTILS Pascal=0
+;---------------------------------------
+1 Name=_._CAapResource
+2 Name=BitRate__CVBRUtility
+3 Name=Channels__CVBRUtility
+4 Name=FindFramePos__CVBRUtilityRCTInt64PCMMFClip
+5 Name=GetMetaDataEntriesL__CAapResourceRCCMMFClipRtRPointerArrayZCMMFMetaDataEntry
+6 Name=GetVBRTypeL__CVBRUtilityPCMMFClipPCMMFDataBufferRi
+7 Name=HeaderData__CVBRUtility
+8 Name=HeaderOffset__CVBRUtility
+9 Name=LastScannedFramePosition__CVBRUtility
+10 Name=NewL__CVBRUtilityi
+11 Name=NewL__CAapResourcei
+12 Name=PrependHeader__CVBRUtility
+13 Name=SampleRate__CVBRUtility
+14 Name=ScanDuration__CVBRUtility
+15 Name=ScanFramesL__CVBRUtilityPCMMFClipPCMMFDataBufferii
+16 Name=ScanHeaderL__CVBRUtilityPCMMFClipPCMMFDataBuffer
+17 Name=SetCodecConfigData__CVBRUtilityRtRArrayZi
+18 Name=SyncOffset__CVBRUtility
+19 Name=AapPropertiesL__CAapResource
+20 Name=GetHWSupportedBitRateL__CAapResource
+21 Name=GetSoftSupportedBitRateL__CAapResource
+;------------------EOF------------------

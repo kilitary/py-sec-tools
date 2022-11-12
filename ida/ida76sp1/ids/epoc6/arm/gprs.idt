@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=GPRS Pascal=0
+;---------------------------------------
+1 Name=CreateAgentL__FR14MAgentObserverP16CDialogProcessorR14CCommsDbAccess26TCommDbConnectionDirection
+;------------------EOF------------------

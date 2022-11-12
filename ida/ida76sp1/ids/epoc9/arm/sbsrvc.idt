@@ -1,0 +1,15 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SBSRVC Pascal=0
+;---------------------------------------
+1 Name=_ZN22RStatusBarServerClient7ConnectEv
+2 Name=_ZN22RStatusBarServerClientC1Ev
+3 Name=_ZN22RStatusBarServerClientC2Ev
+4 Name=_ZN29StatusBarServerStartFunctions20StartStatusBarServerEv
+5 Name=_ZNK22RStatusBarServerClient19SetStatusPaneLayoutEi
+6 Name=_ZNK22RStatusBarServerClient7VersionEv
+7 Name=_ZNK22RStatusBarServerClient8SetFlagsEi
+8 Name=_ZNK22RStatusBarServerClient13ReloadLayoutsEv
+;------------------EOF------------------

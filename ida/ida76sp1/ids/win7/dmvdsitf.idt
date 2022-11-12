@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=dmvdsitf.dll Args=0 Drops=11
+;---------------------------------------
+1 Name=?AddLDMObjMapEntry@CDataCache@@QAEXPAU_LDM_OBJ_MAP_ENTRY@@@Z Pascal=4
+2 Name=CreateDataCacheZ Pascal=0
+3 Name=CreateServerRequestsZ Pascal=20
+4 Name=?GetDiskCount@CDataCache@@QAEKXZ Pascal=0
+5 Name=?GetLdmObjectId@CDMNodeObj@@QAE_JXZ Pascal=0
+6 Name=?GetNumMembers@CDMNodeObj@@QAEKXZ Pascal=0
+7 Name=?GetOcxFrameCWndPtr@CTaskData@@QAEPAVCWnd@@XZ Pascal=0
+8 Name=?GetRegionColorStructPtr@CTaskData@@QAEXPAPAU_REGION_COLORS@@AAH@Z Pascal=8
+9 Name=?GetServerName@CDataCache@@QAE?AVCString@@XZ Pascal=4
+10 Name=?GetVolumeCount@CDataCache@@QAEKXZ Pascal=0
+11 Name=LoadPropertyPageData Pascal=12
+;------------------EOF------------------

@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=QGSUTILS Pascal=0
+;---------------------------------------
+1 Name=_ZN11CGsResolver13SetOrganizerLEv
+2 Name=_ZN11CGsResolver16GetMailServiceIdERl
+3 Name=_ZN11CGsResolver17UpdatePhoneOwnerLERK9TMsvEntry
+4 Name=_ZN11CGsResolver20SetOrganizerAddressLER6TDes16
+5 Name=_ZN11CGsResolver4NewLER11CMsvSession
+6 Name=_ZN11CGsResolver4NewLER11CMsvSessionR9CCalEntry
+7 Name=_ZN11CGsResolver9DirectionEv
+8 Name=_ZN13CICalMailData11SetSubjectLERK7TDesC16
+9 Name=_ZN13CICalMailData12InternalizeLER11RReadStream
+10 Name=_ZN13CICalMailData13AddresseeListEv
+11 Name=_ZN13CICalMailData13ICalendarDataEv
+12 Name=_ZN13CICalMailData16SetAddresseeListEP12CDesC16Array
+13 Name=_ZN13CICalMailData17SetICalendarDataLERK7TDesC16
+14 Name=_ZN13CICalMailData4NewLEv
+15 Name=_ZN13CICalMailData6MethodEv
+16 Name=_ZN13CICalMailData7SubjectEv
+17 Name=_ZN13CICalMailData9SetMethodEN9CCalEntry7TMethodE
+18 Name=_ZN9CGsSender4NewLER11CMsvSession
+19 Name=_ZN9CGsSender4NewLER11CMsvSessionR11MGsObserver
+20 Name=_ZN9CGsSender9SendICalLER9CCalEntry
+21 Name=_ZNK13CICalMailData12ExternalizeLER12RWriteStream
+22 Name=_ZTI11CGsResolver
+23 Name=_ZTI13CICalMailData
+26 Name=_ZTI9CGsSender
+27 Name=_ZTV11CGsResolver
+28 Name=_ZTV13CICalMailData
+31 Name=_ZTV9CGsSender
+;------------------EOF------------------

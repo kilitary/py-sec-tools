@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SECURESOCKET Pascal=0
+;---------------------------------------
+1 Name=NewL__CSecureSocketRRSocketRCTDesC16
+2 Name=Unload__CSecureSocketLibraryLoader
+;------------------EOF------------------

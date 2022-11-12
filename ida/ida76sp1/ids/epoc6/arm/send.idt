@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SEND Pascal=0
+;---------------------------------------
+1 Name=_._7CSendAs
+2 Name=AddMtmCapabilityL__7CSendAsG4TUidi
+3 Name=AddRecipientL__7CSendAsRC7TDesC16
+4 Name=AddRecipientL__7CSendAsRC7TDesC16T1
+5 Name=CreateAttachmentL__7CSendAsRlRt4TBuf1i256
+6 Name=CreateMessageL__7CSendAs
+7 Name=DeleteAttachmentL__7CSendAsl
+8 Name=NewL__7CSendAsR15MSendAsObserver
+9 Name=QueryMessageCapability__7CSendAsG4TUidi
+10 Name=RecipientList__C7CSendAs
+11 Name=RemoveRecipient__7CSendAsi
+12 Name=RenderImage__15MSendAsObserverG4TUidRC7TDesC16
+13 Name=RenderImage__15MSendAsObserverG4TUidRC7TDesC16R14TRequestStatus
+14 Name=ResetMtmCapabilitiesL__7CSendAs
+15 Name=SaveMessageL__7CSendAsi
+16 Name=SetBodyL__7CSendAsRC9CRichText
+17 Name=SetMtmL__7CSendAsG4TUid
+18 Name=SetMtmL__7CSendAsi
+19 Name=SetService__7CSendAsi
+20 Name=SetSubjectL__7CSendAsRC7TDesC16
+21 Name=ValidateMessage__7CSendAs
+22 Name=AbandonMessage__7CSendAs
+23 Name=SaveMessageL__7CSendAsR14TRequestStatusi
+24 Name=CancelRendering__15MSendAsObserver
+25 Name=SetAttachmentL__7CSendAslRC7TDesC16
+26 Name=SetBioTypeL__7CSendAsG4TUid
+27 Name=CreateMessageL__7CSendAsl
+;------------------EOF------------------

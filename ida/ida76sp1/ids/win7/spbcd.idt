@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=spbcd.dll Args=0 Drops=2
+;---------------------------------------
+1 Name=Sysprep_Generalize_Bcd Pascal=0
+2 Name=Sysprep_Specialize_Bcd Pascal=0
+;------------------EOF------------------

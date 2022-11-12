@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=GB2312_SHARED Pascal=0
+;---------------------------------------
+1 Name=ConversionData__9CnvGb2312
+2 Name=ReplacementForUnconvertibleUnicodeCharacters__9CnvGb2312
+3 Name=IsCharGBBased__9CnvGb2312RiRC6TDesC8
+;------------------EOF------------------

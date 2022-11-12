@@ -1,0 +1,55 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=wlanapi.dll Args=0 Drops=48
+;---------------------------------------
+1 Name=WlanAllocateMemory Pascal=4
+2 Name=WlanCloseHandle Pascal=8
+3 Name=WlanConnect Pascal=16
+4 Name=WlanDeleteProfile Pascal=16
+5 Name=WlanDisconnect Pascal=12
+6 Name=WlanEnumInterfaces Pascal=12
+7 Name=WlanExtractPsdIEDataList Pascal=24
+8 Name=WlanFreeMemory Pascal=4
+9 Name=WlanGetAvailableNetworkList Pascal=20
+10 Name=WlanGetFilterList Pascal=16
+11 Name=WlanGetInterfaceCapability Pascal=16
+12 Name=WlanGetNetworkBssList Pascal=28
+13 Name=WlanGetProfile Pascal=28
+14 Name=WlanGetProfileCustomUserData Pascal=24
+15 Name=WlanGetProfileList Pascal=16
+16 Name=WlanGetSecuritySettings Pascal=20
+17 Name=WlanHostedNetworkForceStart Pascal=12
+18 Name=WlanHostedNetworkForceStop Pascal=12
+19 Name=WlanHostedNetworkInitSettings Pascal=12
+20 Name=WlanHostedNetworkQueryProperty Pascal=24
+21 Name=WlanHostedNetworkQuerySecondaryKey Pascal=28
+22 Name=WlanHostedNetworkQueryStatus Pascal=12
+23 Name=WlanHostedNetworkRefreshSecuritySettings Pascal=12
+24 Name=WlanHostedNetworkSetProperty Pascal=24
+25 Name=WlanHostedNetworkSetSecondaryKey Pascal=28
+26 Name=WlanHostedNetworkStartUsing Pascal=12
+27 Name=WlanHostedNetworkStopUsing Pascal=12
+28 Name=WlanIhvControl Pascal=32
+29 Name=WlanOpenHandle Pascal=16
+30 Name=WlanQueryAutoConfigParameter Pascal=24
+31 Name=WlanQueryInterface Pascal=28
+32 Name=WlanReasonCodeToString Pascal=16
+33 Name=WlanRegisterNotification Pascal=28
+34 Name=WlanRegisterVirtualStationNotification Pascal=12
+35 Name=WlanRenameProfile Pascal=20
+36 Name=WlanSaveTemporaryProfile Pascal=28
+37 Name=WlanScan Pascal=20
+38 Name=WlanSetAutoConfigParameter Pascal=20
+39 Name=WlanSetFilterList Pascal=16
+40 Name=WlanSetInterface Pascal=24
+41 Name=WlanSetProfile Pascal=32
+42 Name=WlanSetProfileCustomUserData Pascal=24
+43 Name=WlanSetProfileEapUserData Pascal=44
+44 Name=WlanSetProfileEapXmlUserData Pascal=24
+45 Name=WlanSetProfileList Pascal=20
+46 Name=WlanSetProfilePosition Pascal=20
+47 Name=WlanSetPsdIEDataList Pascal=16
+48 Name=WlanSetSecuritySettings Pascal=12
+;------------------EOF------------------

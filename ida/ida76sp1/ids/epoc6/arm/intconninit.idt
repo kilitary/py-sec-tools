@@ -1,0 +1,14 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=INTCONNINIT Pascal=0
+;---------------------------------------
+1 Name=GetActiveIap__CIntConnectionInitiatorRUl
+2 Name=ConnectL__CIntConnectionInitiatorRCQCCommsDbConnectionPrefTableViewTCommDbIapConnectionPrefRTRequestStatus
+3 Name=ConnectL__CIntConnectionInitiatorRCQCCommsDbConnectionPrefTableViewTCommDbIapConnectionPrefTRTRequestStatus
+4 Name=ConnectL__CIntConnectionInitiatorRTRequestStatus
+5 Name=NewL__CIntConnectionInitiator
+6 Name=TerminateActiveConnection__CIntConnectionInitiator
+7 Name=TerminateActiveConnection__CIntConnectionInitiatorRTRequestStatus
+;------------------EOF------------------

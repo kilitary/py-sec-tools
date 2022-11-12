@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ERRORRES Pascal=0
+;---------------------------------------
+1 Name=_._12CErrResolver
+2 Name=FindFullPathOfResourceFileL__C12CErrResolverRt4TBuf1i256
+3 Name=LoadResourceFilesL__12CErrResolver
+4 Name=NewLC__12CErrResolverR7CCoeEnv
+5 Name=NewL__12CErrResolverR7CCoeEnv
+6 Name=ResolveError__C12CErrResolveri
+7 Name=ResolveError__C12CErrResolverii
+8 Name=ResourceForError__C12CErrResolveri
+9 Name=ConstructL__12CErrResolver
+;------------------EOF------------------

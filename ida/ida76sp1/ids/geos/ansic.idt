@@ -1,0 +1,102 @@
+DECLARATION Nokia 9110 Geos 3.0 library ansic.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+43 Name=ansicdll Args=0 Drops=43
+;---------------------------------------
+1 Name=_sprintf
+2 Name=VSPRINTF Pascal=12 \
+	Comment=sword pascal vsprintf(TCHAR *__buf, const TCHAR *__format, va_list __args) in ansi/stdio.h
+3 Name=STRLEN Pascal=4 \
+	Comment=word pascal STRLEN (const TCHAR *__str) in ansi/string.h
+4 Name=STRCHR Pascal=6 \
+	Comment=TCHAR *pascal strchr (const TCHAR *__s, int __c) in ansi/string.h
+5 Name=STRRCHR Pascal=6 \
+	Comment=TCHAR *pascal strrchr (const TCHAR *__s, int __c) in ansi/string.h
+6 Name=STRPOS Pascal=6 \
+	Comment=word pascal strpos (const TCHAR *__s, int __c) in geomisc.h
+7 Name=STRRPOS Pascal=6 \
+	Comment=word pascal strrpos (const TCHAR *__s, int __c) in geomisc.h
+8 Name=STRCPY Pascal=8 \
+	Comment=TCHAR *pascal strcpy(TCHAR *__s, const TCHAR *__t) in ansi/string.h
+9 Name=STRNCPY Pascal=10 \
+	Comment=TCHAR *pascal strncpy (TCHAR *__s, const TCHAR *__t, const size_t __n) in ansi/string.h
+10 Name=STRCMP Pascal=8 \
+	Comment=int pascal strcmp (const TCHAR *__s, const TCHAR *__t) in ansi/string.h
+11 Name=STRNCMP Pascal=10 \
+	Comment=int pascal strncmp (const TCHAR *__s, const TCHAR *__t, const size_t __n) in ansi/string.h
+12 Name=STRCAT Pascal=8 \
+	Comment=TCHAR *pascal strcat (TCHAR *__s, const TCHAR *__t) in ansi/string.h
+13 Name=strncat_old
+14 Name=STRSPN Pascal=8 \
+	Comment=word pascal strspn (const TCHAR *__s, const TCHAR *__set) in ansi/string.h
+15 Name=STRCSPN Pascal=8 \
+	Comment=word pascal strcspn (const TCHAR *__s, const TCHAR *__set) in ansi/string.h
+16 Name=STRPBRK Pascal=8 \
+	Comment=TCHAR *pascal strpbrk (const TCHAR *__s, const TCHAR *__set) in ansi/string.h
+17 Name=STRRPBRK
+18 Name=STRSTR Pascal=8 \
+	Comment=TCHAR *pascal strstr(const TCHAR *__s, const TCHAR *__t) in ansi/string.h
+19 Name=STRREV Pascal=4 \
+	Comment=void pascal strrev(TCHAR *__s) in geomisc.h
+20 Name=ATOI Pascal=4 \
+	Comment=int pascal atoi (const TCHAR *__s) in ansi/stdlib.h
+21 Name=ITOA Pascal=6 \
+	Comment=void pascal itoa(int __n, TCHAR *__s) in geomisc.h
+22 Name=MEMCCPY_OLD
+23 Name=MEMCPY_OLD
+24 Name=MEMSET_OLD
+25 Name=MEMCHR_OLD
+26 Name=MEMCMP_OLD
+27 Name=_MALLOC Pascal=6 \
+	Comment=void *pascal _Malloc(word blockSize, GeodeHandle geodeHan, word zeroInit) in geomisc.h
+28 Name=_FREE Pascal=6 \
+	Comment=void pascal _Free(void *blockPtr, GeodeHandle geodeHan) in geomisc.h
+29 Name=_REALLOC Pascal=8 \
+	Comment=void *pascal _ReAlloc(void *blockPtr, word newSize, GeodeHandle geodeHan) in geomisc.h
+30 Name=FSEEK Pascal=10 \
+	Comment=int pascal fseek(FILE *_stream,dword _posOrOffset, word _mode) in ansi/stdio.h
+31 Name=FOPEN Pascal=8 \
+	Comment=FILE * pascal fopen(const char *_filename, const char * _modeString) in ansi/stdio.h
+32 Name=FCLOSE Pascal=4 \
+	Comment=int pascal fclose(FILE *_stream) in ansi/stdio.h
+33 Name=FTELL Pascal=4 \
+	Comment=dword pascal ftell(FILE *_stream) in ansi/stdio.h
+34 Name=FWRITE Pascal=12 \
+	Comment=word pascal fwrite(const void * _buf,word _elSize, word _nmemb, FILE *_stream) in ansi/stdio.h
+35 Name=FREAD Pascal=12 \
+	Comment=word pascal fread(void * _buf, word _elSize, word _nmemb, FILE *_stream) in ansi/stdio.h
+36 Name=FGETC_OLD
+37 Name=FFLUSH Pascal=4 \
+	Comment=int pascal fflush(FILE *_stream) in ansi/stdio.h
+38 Name=RENAME Pascal=8 \
+	Comment=int pascal rename(const char * _oldName, const char * _newName) in ansi/stdio.h
+39 Name=FDOPEN Pascal=6 \
+	Comment=FILE * pascal fdopen(FileHandle _fileHan, const char * _modeString) in ansi/stdio.h
+40 Name=FDCLOSE Pascal=4 \
+	Comment=FileHandle pascal fdclose(FILE *_stream) in ansi/stdio.h
+41 Name=QSORT Pascal=8 \
+	Comment=void pascal qsort(void *array, word count, word elementSize, int (* compare) (const void *, const void *)) in ansi/stdlib.h
+42 Name=BSEARCH Pascal=12 \
+	Comment=void *pascal bsearch(const void *key, const void *array, word count, word elementSize, int (* compare) (const void *, const void *)) in ansi/stdlib.h
+43 Name=MEMCHR Pascal=8 \
+	Comment=void *pascal memchr (const void *__s, int __c, size_t __n) in ansi/string.h
+44 Name=MEMCMP Pascal=10 \
+	Comment=int pascal memcmp (const void *__dest, const void *__src, size_t __n) in ansi/string.h
+45 Name=MEMCPY Pascal=10 \
+	Comment=void *pascal memcpy (void *__dest, const void *__src, size_t __n) in ansi/string.h
+46 Name=MEMMOVE Pascal=10 \
+	Comment=void *pascal memmove (void *__dest, const void *__src, size_t __n) in ansi/string.h
+47 Name=MEMSET Pascal=8 \
+	Comment=void *pascal memset (void *__dest, int __c, size_t __n) in ansi/string.h
+48 Name=MEMCCPY Pascal=12 \
+	Comment=void *pascal memccpy(void *__dest, void *__src, word __c, word __n) in geomisc.h
+49 Name=STRNCAT Pascal=10 \
+	Comment=TCHAR *pascal strncat (TCHAR *__s, const TCHAR *__t, const size_t __n) in ansi/string.h
+50 Name=FEOF Pascal=4 \
+	Comment=int pascal feof(FILE *_stream) in ansi/stdio.h
+51 Name=FGETS Pascal=10 \
+	Comment=char * pascal fgets(char *buffer, int buflength, FILE *_stream) in ansi/stdio.h
+52 Name=FGETC Pascal=4 \
+	Comment=int pascal fgetc(FILE *_stream) in ansi/stdio.h
+;------------------EOF------------------

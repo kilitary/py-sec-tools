@@ -1,0 +1,59 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=libpthreaddll Pascal=0
+;---------------------------------------
+1 Name=pthreadattrdestroy
+2 Name=pthreadattrgetdetachstate
+3 Name=pthreadattrgetschedparam
+4 Name=pthreadattrgetschedpolicy
+5 Name=pthreadattrgetscope
+6 Name=pthreadattrgetstacksie
+7 Name=pthreadattrinit
+8 Name=pthreadattrsetdetachstate
+9 Name=pthreadattrsetschedparam
+10 Name=pthreadattrsetschedpolicy
+11 Name=pthreadattrsetscope
+12 Name=pthreadattrsetstacksie
+13 Name=pthreadcondbroadcast
+14 Name=pthreadconddestroy
+15 Name=pthreadcondinit
+16 Name=pthreadcondsignal
+17 Name=pthreadcondtimedwait
+18 Name=pthreadcondwait
+19 Name=pthreadcondattrdestroy
+20 Name=pthreadcondattrinit
+21 Name=pthreadcreate
+22 Name=pthreaddetach
+23 Name=pthreadequal
+24 Name=pthreadexit
+25 Name=pthreadgetschedparam
+26 Name=pthreadgetspecific
+27 Name=pthreadjoin
+28 Name=pthreadkeycreate
+29 Name=pthreadkeydelete
+30 Name=pthreadmutexdestroy
+31 Name=pthreadmutexinit
+32 Name=pthreadmutexlock
+33 Name=pthreadmutextimedlock
+34 Name=pthreadmutextrylock
+35 Name=pthreadmutexunlock
+36 Name=pthreadmutexattrdestroy
+37 Name=pthreadmutexattrgetpshared
+38 Name=pthreadmutexattrgettype
+39 Name=pthreadmutexattrinit
+40 Name=pthreadmutexattrsetpshared
+41 Name=pthreadmutexattrsettype
+42 Name=pthreadonce
+43 Name=pthreadself
+44 Name=pthreadsetschedparam
+45 Name=pthreadsetspecific
+46 Name=semdestroy
+47 Name=semgetvalue
+48 Name=seminit
+49 Name=sempost
+50 Name=semtimedwait
+51 Name=semtrywait
+52 Name=semwait
+;------------------EOF------------------

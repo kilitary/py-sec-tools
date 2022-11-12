@@ -1,0 +1,10 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=TISRVS Pascal=0
+;---------------------------------------
+1 Name=StartupTextInputServer__29TextInputServerStartFunctions
+2 Name=TextInputServerSemaphoreName__29TextInputServerStartFunctions
+3 Name=TextInputServerThreadName__29TextInputServerStartFunctions
+;------------------EOF------------------

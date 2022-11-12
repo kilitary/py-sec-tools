@@ -1,0 +1,52 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BIOWATCHER Pascal=0
+;---------------------------------------
+1 Name=_ZN15CSmsBaseWatcher10ConstructLEv
+2 Name=_ZN15CSmsBaseWatcher10DeleteBifLE4TUid
+3 Name=_ZN15CSmsBaseWatcher10ReloadBifLE4TUid
+4 Name=_ZN15CSmsBaseWatcher14CompleteMyselfEi
+5 Name=_ZN15CSmsBaseWatcher15AddBifWithTypeLE13TBioMsgIdType4TUid
+6 Name=_ZN15CSmsBaseWatcher15SetupAndAppendLER27CBaseSmsActiveSocketWatcherR13CArrayPtrFlatIS0_E
+7 Name=_ZN15CSmsBaseWatcher16HandleBifChangeLEN18MBifChangeObserver15TBifChangeEventE4TUid
+8 Name=_ZN15CSmsBaseWatcher20StartSocketWatchersLEv
+9 Name=_ZN15CSmsBaseWatcher21HandleWatcherCompleteER27CBaseSmsActiveSocketWatcheri
+10 Name=_ZN15CSmsBaseWatcher28DeleteSocketWatchersWithUidLE4TUid
+11 Name=_ZN15CSmsBaseWatcher30CreateSocketWatchersFromBioDbLE13TBioMsgIdType
+12 Name=_ZN15CSmsBaseWatcher30CreateSocketWatchersFromBioDbLE13TBioMsgIdType4TUid
+13 Name=_ZN15CSmsBaseWatcher4RunLEv
+14 Name=_ZN15CSmsBaseWatcher5ResetEv
+15 Name=_ZN15CSmsBaseWatcher6StartLEv
+16 Name=_ZN15CSmsBaseWatcher7ResetDbEv
+17 Name=_ZN15CSmsBaseWatcher8DoCancelEv
+18 Name=_ZN15CSmsBaseWatcher8RunErrorEi
+19 Name=_ZThn32_N15CSmsBaseWatcher16HandleBifChangeLEN18MBifChangeObserver15TBifChangeEventE4TUid
+20 Name=_ZN15CSmsBaseWatcherC2ER3RFsR11CWatcherLogi
+21 Name=_ZN15CSmsBaseWatcherD0Ev
+22 Name=_ZN15CSmsBaseWatcherD1Ev
+23 Name=_ZN15CSmsBaseWatcherD2Ev
+24 Name=_ZN27CBaseSmsActiveSocketWatcher10ConstructLER12CBIODatabasell
+25 Name=_ZN27CBaseSmsActiveSocketWatcher13SetBioMsgTextER12CBIODatabase
+26 Name=_ZN27CBaseSmsActiveSocketWatcher15PreStoreActionLER11CMsvSessionR11CSmsMessage
+27 Name=_ZN27CBaseSmsActiveSocketWatcher16RestoreSettingsLER11CMsvSession
+28 Name=_ZN27CBaseSmsActiveSocketWatcher4RunLEv
+29 Name=_ZN27CBaseSmsActiveSocketWatcher6SetupLEv
+30 Name=_ZN27CBaseSmsActiveSocketWatcher6StartLEv
+31 Name=_ZN27CBaseSmsActiveSocketWatcher8CompleteEi
+32 Name=_ZN27CBaseSmsActiveSocketWatcher8RunErrorEi
+33 Name=_ZN27CBaseSmsActiveSocketWatcher9StoreMsgLEP11CSmsMessage
+34 Name=_ZThn28_N15CSmsBaseWatcher21HandleWatcherCompleteER27CBaseSmsActiveSocketWatcheri
+35 Name=_ZN27CBaseSmsActiveSocketWatcherC2ER11CWatcherLogi4TUidR3RFs
+36 Name=_ZN27CBaseSmsActiveSocketWatcherD0Ev
+37 Name=_ZN27CBaseSmsActiveSocketWatcherD1Ev
+38 Name=_ZN27CBaseSmsActiveSocketWatcherD2Ev
+39 Name=_ZTI15CSmsBaseWatcher
+40 Name=_ZTI27CBaseSmsActiveSocketWatcher
+41 Name=_ZTV15CSmsBaseWatcher
+42 Name=_ZTV27CBaseSmsActiveSocketWatcher
+43 Name=_ZN27CBaseSmsActiveSocketWatcher9StoreMsgLEP11CSmsMessagei
+44 Name=_ZN15CSmsBaseWatcher15GetBioServiceIdER11CMsvSessionRlS2_
+45 Name=_ZN27CBaseSmsActiveSocketWatcher16RestoreSettingsLEll
+;------------------EOF------------------

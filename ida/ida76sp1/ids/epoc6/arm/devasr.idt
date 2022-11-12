@@ -1,0 +1,29 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DEVASR Pascal=0
+;---------------------------------------
+1 Name=_._CDevASR
+2 Name=CustomInterface__CDevASRGTUid
+3 Name=EDll__FTDllReason
+4 Name=EndRecSession__CDevASR
+5 Name=GetEnginePropertiesL__CDevASRRCtRArrayZiRtRArrayZi
+6 Name=GetUtteranceData__CDevASRPTDes8RTTimeIntervalMicroSeconds32
+7 Name=InitFrontEnd__CDevASRTRecognizerMode
+8 Name=InitPlayL__CDevASRGTTimeIntervalMicroSeconds32
+9 Name=InitRecognizerBE__CDevASRRCSDResultSet
+10 Name=InitTrainBE__CDevASRRCSDModel
+11 Name=LoadEngineParametersL__CDevASRRCtRArrayZiT1
+12 Name=LoadGrammar__CDevASRRCCSDGrammar
+13 Name=LoadLexicon__CDevASRRCCSDLexicon
+14 Name=LoadModels__CDevASRRCCSDModelBank
+15 Name=NewLC__CDevASRRMDevASRObserver
+16 Name=NewL__CDevASRRMDevASRObserver
+17 Name=Play__CDevASR
+18 Name=Record__CDevASRGTTimeIntervalMicroSeconds32
+19 Name=SetPrioritySettings__CDevASRRCTMMFPrioritySettings
+20 Name=StartRecSession__CDevASRTRecognizerMode
+21 Name=UnloadRule__CDevASRUlUl
+22 Name=Cancel__CDevASR
+;------------------EOF------------------

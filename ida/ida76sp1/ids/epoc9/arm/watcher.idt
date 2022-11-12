@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=WATCHER Pascal=0
+;---------------------------------------
+1 Name=_Z8WinsMainv
+2 Name=_ZN11CWatcherLog6PrintfE11TRefByValueIK6TDesC8Ez
+3 Name=_ZN11CWatcherLog6PrintfE11TRefByValueIK7TDesC16Ez
+4 Name=_ZN12CWatcherWait5NewLCEi
+5 Name=_ZN12CWatcherWait5StartEv
+6 Name=_ZN12CWatcherWaitD0Ev
+7 Name=_ZN12CWatcherWaitD1Ev
+8 Name=_ZN12CWatcherWaitD2Ev
+13 Name=_ZN8CWatcher4NewLEi
+14 Name=_ZN8CWatcher5StartER14TRequestStatus
+15 Name=_ZN8CWatcherD0Ev
+16 Name=_ZN8CWatcherD1Ev
+17 Name=_ZN8CWatcherD2Ev
+18 Name=_ZNK11CWatcherLog9IsLoggingEv
+20 Name=_ZTI11CWatcherLog
+21 Name=_ZTI12CWatcherWait
+23 Name=_ZTI8CWatcher
+25 Name=_ZTV11CWatcherLog
+26 Name=_ZTV12CWatcherWait
+28 Name=_ZTV8CWatcher
+29 Name=_ZTI16CWatcherLauncher
+30 Name=_ZTI21CWatcherLauncherArray
+31 Name=_ZTV16CWatcherLauncher
+32 Name=_ZTV21CWatcherLauncherArray
+;------------------EOF------------------

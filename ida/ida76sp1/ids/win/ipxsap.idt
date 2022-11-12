@@ -1,0 +1,9 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ipxsap.dll Args=0 Drops=2
+;---------------------------------------
+2 Name=RegisterProtocol Pascal=8
+3 Name=ServiceMain Pascal=8
+;------------------EOF------------------

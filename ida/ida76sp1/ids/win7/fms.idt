@@ -1,0 +1,30 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=fms.dll Args=0 Drops=23
+;---------------------------------------
+1 Name=FmsActivateFonts Pascal=16
+2 Name=FmsAddFilter Pascal=12
+3 Name=FmsDeactivateFonts Pascal=16
+4 Name=FmsFreeEnumerator Pascal=4
+5 Name=FmsGetBestMatchInFamily Pascal=16
+6 Name=FmsGetCurrentFilter Pascal=12
+7 Name=FmsGetDirectWriteLogFont Pascal=12
+8 Name=FmsGetFilteredFontList Pascal=12
+9 Name=FmsGetFilteredPropertyList Pascal=20
+10 Name=FmsGetFontAutoActivationMode Pascal=4
+11 Name=FmsGetFontProperty Pascal=20
+12 Name=FmsGetGDILogFont Pascal=20
+13 Name=FmsGetGdiLogicalFont Pascal=24
+14 Name=FmsInitializeEnumerator Pascal=8
+15 Name=FmsMapGdiLogicalFont Pascal=12
+16 Name=FmsMapLogicalFont Pascal=16
+17 Name=FmsResetEnumerator Pascal=4
+18 Name=FmsResetFontsActivationState Pascal=0
+19 Name=FmsSetDefaultFilter Pascal=4
+20 Name=FmsSetFilter Pascal=12
+21 Name=FmsSetFontAutoActivationMode Pascal=4
+22 Name=FmsSetTextFilter Pascal=8
+23 Name=FmsToggleOnDesignAxis Pascal=20
+;------------------EOF------------------

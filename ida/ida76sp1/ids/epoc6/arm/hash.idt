@@ -1,0 +1,49 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=HASH Pascal=0
+;---------------------------------------
+1 Name=__14CMessageDigestRC14CMessageDigest
+2 Name=BlockSize__4CMD5
+3 Name=BlockSize__4CSHA
+4 Name=BlockSize__5CHMAC
+5 Name=BlockSize__5CSHA1
+6 Name=CopyL__4CMD2
+7 Name=CopyL__4CMD5
+8 Name=CopyL__4CSHA
+9 Name=CopyL__5CHMAC
+10 Name=CopyL__5CSHA1
+11 Name=HashSize__4CMD2
+12 Name=HashSize__4CMD5
+13 Name=HashSize__4CSHA
+14 Name=HashSize__5CHMAC
+15 Name=HashSize__5CSHA1
+16 Name=Hash__4CMD2RC6TDesC8
+17 Name=Hash__4CMD5RC6TDesC8
+18 Name=Hash__4CSHARC6TDesC8
+19 Name=Hash__5CHMACRC6TDesC8
+20 Name=Hash__5CSHA1RC6TDesC8
+21 Name=NewL__4CMD2
+22 Name=NewL__4CMD5
+23 Name=NewL__4CSHA
+24 Name=NewL__5CHMACRC6TDesC8P14CMessageDigest
+25 Name=NewL__5CSHA1
+26 Name=ReplicateL__4CMD2
+27 Name=ReplicateL__4CMD5
+28 Name=ReplicateL__4CSHA
+29 Name=ReplicateL__5CHMAC
+30 Name=ReplicateL__5CSHA1
+31 Name=_._14CMessageDigest
+32 Name=_._4CMD2
+33 Name=_._4CMD5
+34 Name=_._4CSHA
+35 Name=_._5CSHA1
+36 Name=__14CMessageDigest
+37 Name=BlockSize__4CMD2
+38 Name=Reset__4CMD2
+39 Name=Reset__4CMD5
+40 Name=Reset__4CSHA
+41 Name=Reset__5CHMAC
+42 Name=Reset__5CSHA1
+;------------------EOF------------------

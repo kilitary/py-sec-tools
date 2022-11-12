@@ -1,0 +1,11 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-debug-l1-1-0.dll Args=0 Drops=4
+;---------------------------------------
+1 Name=DebugBreak Pascal=0
+2 Name=IsDebuggerPresent Pascal=0
+3 Name=OutputDebugStringA Pascal=4
+4 Name=OutputDebugStringW Pascal=4
+;------------------EOF------------------

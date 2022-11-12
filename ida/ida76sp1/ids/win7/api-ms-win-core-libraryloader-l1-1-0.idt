@@ -1,0 +1,27 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=api-ms-win-core-libraryloader-l1-1-0.dll Args=0 Drops=20
+;---------------------------------------
+1 Name=DisableThreadLibraryCalls Pascal=4
+2 Name=FindResourceExW Pascal=16
+3 Name=FindStringOrdinal Pascal=24
+4 Name=FreeLibrary Pascal=4
+5 Name=FreeLibraryAndExitThread Pascal=8
+6 Name=FreeResource Pascal=4
+7 Name=GetModuleFileNameA Pascal=12
+8 Name=GetModuleFileNameW Pascal=12
+9 Name=GetModuleHandleA Pascal=4
+10 Name=GetModuleHandleExA Pascal=12
+11 Name=GetModuleHandleExW Pascal=12
+12 Name=GetModuleHandleW Pascal=4
+13 Name=GetProcAddress Pascal=8
+14 Name=LoadLibraryExA Pascal=12
+15 Name=LoadLibraryExW Pascal=12
+16 Name=LoadResource Pascal=8
+17 Name=LoadStringA Pascal=16
+18 Name=LoadStringW Pascal=16
+19 Name=LockResource Pascal=4
+20 Name=SizeofResource Pascal=8
+;------------------EOF------------------

@@ -1,0 +1,42 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=samcli.dll Args=0 Drops=35
+;---------------------------------------
+1 Name=NetGetDisplayInformationIndex Pascal=16
+2 Name=NetGroupAdd Pascal=16
+3 Name=NetGroupAddUser Pascal=12
+4 Name=NetGroupDel Pascal=8
+5 Name=NetGroupDelUser Pascal=12
+6 Name=NetGroupEnum Pascal=28
+7 Name=NetGroupGetInfo Pascal=16
+8 Name=NetGroupGetUsers Pascal=32
+9 Name=NetGroupSetInfo Pascal=20
+10 Name=NetGroupSetUsers Pascal=20
+11 Name=NetLocalGroupAdd Pascal=16
+12 Name=NetLocalGroupAddMember Pascal=12
+13 Name=NetLocalGroupAddMembers Pascal=20
+14 Name=NetLocalGroupDel Pascal=8
+15 Name=NetLocalGroupDelMember Pascal=12
+16 Name=NetLocalGroupDelMembers Pascal=20
+17 Name=NetLocalGroupEnum Pascal=28
+18 Name=NetLocalGroupGetInfo Pascal=16
+19 Name=NetLocalGroupGetMembers Pascal=32
+20 Name=NetLocalGroupSetInfo Pascal=20
+21 Name=NetLocalGroupSetMembers Pascal=20
+22 Name=NetQueryDisplayInformation Pascal=28
+23 Name=NetUserAdd Pascal=16
+24 Name=NetUserChangePassword Pascal=16
+25 Name=NetUserDel Pascal=8
+26 Name=NetUserEnum Pascal=32
+27 Name=NetUserGetGroups Pascal=28
+28 Name=NetUserGetInfo Pascal=16
+29 Name=NetUserGetLocalGroups Pascal=32
+30 Name=NetUserModalsGet Pascal=12
+31 Name=NetUserModalsSet Pascal=16
+32 Name=NetUserSetGroups Pascal=20
+33 Name=NetUserSetInfo Pascal=20
+34 Name=NetValidatePasswordPolicy Pascal=20
+35 Name=NetValidatePasswordPolicyFree Pascal=4
+;------------------EOF------------------

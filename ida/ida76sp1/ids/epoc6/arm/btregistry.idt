@@ -1,0 +1,31 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=BTREGISTRY Pascal=0
+;---------------------------------------
+1 Name=__19TBTCommPortSettingsRC7TDesC16G5TUUIDUlUcG10TBTDevAddr
+2 Name=BDAddr__C19TBTCommPortSettings
+3 Name=Delete__11CBTRegistryRC9CBTDevice
+4 Name=GetDefaultCommPort__11CBTRegistryUlR19TBTCommPortSettings
+5 Name=IsAuthenticationOnlySet__C19TBTCommPortSettings
+6 Name=IsEncryptionSet__C19TBTCommPortSettings
+7 Name=IsSecuritySet__C19TBTCommPortSettings
+8 Name=Modify__11CBTRegistryRC9CBTDeviceT1
+9 Name=Name__C19TBTCommPortSettings
+10 Name=NewLC__11CBTRegistry
+11 Name=NewL__11CBTRegistry
+12 Name=Port__C19TBTCommPortSettings
+13 Name=Retrieve__11CBTRegistryRC9CBTDeviceRt13CArrayPtrFlat1Z9CBTDevice
+14 Name=SetAuthentication__19TBTCommPortSettings
+15 Name=SetBTAddr__19TBTCommPortSettingsG10TBTDevAddr
+16 Name=SetDefaultCommPort__11CBTRegistryRC19TBTCommPortSettings
+17 Name=SetEncryption__19TBTCommPortSettings
+18 Name=SetName__19TBTCommPortSettingsRC7TDesC16
+19 Name=SetNoSecurity__19TBTCommPortSettings
+20 Name=SetPort__19TBTCommPortSettingsUl
+21 Name=SetUUID__19TBTCommPortSettingsG5TUUID
+22 Name=UUID__C19TBTCommPortSettings
+23 Name=__19TBTCommPortSettings
+24 Name=Add__11CBTRegistryRC9CBTDevice
+;------------------EOF------------------

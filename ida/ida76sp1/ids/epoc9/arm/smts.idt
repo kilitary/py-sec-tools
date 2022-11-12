@@ -1,0 +1,22 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SMTS Pascal=0
+;---------------------------------------
+1 Name=_ZN11CSmtpSrvMtm4NewLER17CRegisteredMtmDllP15CMsvServerEntry
+2 Name=_ZTI11CImSmtpFile
+3 Name=_ZTI11CSmtpSrvMtm
+4 Name=_ZTI14CImSmtpSession
+5 Name=_ZTI16CMsgImOutboxSend
+6 Name=_ZTI29CSmtpAuthLoginMechanismHelper
+7 Name=_ZTI29CSmtpAuthPlainMechanismHelper
+8 Name=_ZTI31CSmtpAuthCramMd5MechanismHelper
+9 Name=_ZTV11CImSmtpFile
+10 Name=_ZTV11CSmtpSrvMtm
+11 Name=_ZTV14CImSmtpSession
+12 Name=_ZTV16CMsgImOutboxSend
+13 Name=_ZTV29CSmtpAuthLoginMechanismHelper
+14 Name=_ZTV29CSmtpAuthPlainMechanismHelper
+15 Name=_ZTV31CSmtpAuthCramMd5MechanismHelper
+;------------------EOF------------------

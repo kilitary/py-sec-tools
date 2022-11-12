@@ -1,0 +1,16 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=quartz.dll Args=0 Drops=9
+;---------------------------------------
+1 Name=AMGetErrorTextA Pascal=12
+2 Name=AMGetErrorTextW Pascal=12
+3 Name=AmpFactorToDB Pascal=4
+4 Name=DBToAmpFactor Pascal=4
+5 Name=DllCanUnloadNow Pascal=0
+6 Name=DllGetClassObject Pascal=12
+7 Name=DllRegisterServer Pascal=0
+8 Name=DllUnregisterServer Pascal=0
+9 Name=GetProxyDllInfo Pascal=8
+;------------------EOF------------------

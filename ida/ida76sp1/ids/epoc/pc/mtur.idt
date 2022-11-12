@@ -1,0 +1,77 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MTUR Pascal=0
+;---------------------------------------
+1 Name=??0CBaseMtmUi@@IAE@AAVCBaseMtm@@AAVCRegisteredMtmDll@@@Z
+2 Name=??0CBaseMtmUiData@@IAE@AAVCRegisteredMtmDll@@@Z
+3 Name=??0CMessagePrintProgressDialog@@QAE@AAVCPrintSetup@@PAVMPageRegionPrinter@@ABVTPrintParameters@@@Z
+4 Name=??0CMsgEditorThreadWatchingOperation@@QAE@AAVCMsvSession@@HAAVTRequestStatus@@VTUid@@@Z
+5 Name=??0CMsgEditorWatchingOperation@@QAE@AAVCMsvSession@@HAAVTRequestStatus@@VTUid@@@Z
+6 Name=??0CMsgEmbeddedEditorWatchingOperation@@QAE@AAVCMsvSession@@HAAVTRequestStatus@@VTUid@@@Z
+7 Name=??0CMsvOperationWatcher@@QAE@AAVMMsvOperationObserver@@@Z
+8 Name=??0TMtmUiFunction@CBaseMtmUiData@@QAE@AAVTResourceReader@@@Z
+9 Name=??0TMtmUiFunction@CBaseMtmUiData@@QAE@ABVTDesC8@@HHHH@Z
+10 Name=??1CBaseMtmUi@@UAE@XZ
+11 Name=??1CBaseMtmUiData@@UAE@XZ
+12 Name=??1CMessagePrinter@@UAE@XZ
+13 Name=??1CMsgEditorThreadWatchingOperation@@UAE@XZ
+14 Name=??1CMsgEditorWatchingOperation@@UAE@XZ
+15 Name=??1CMsgEmbeddedEditorWatchingOperation@@UAE@XZ
+16 Name=??1CMsvGenericUiSettings@@UAE@XZ
+17 Name=??1CMsvOperationWatcher@@UAE@XZ
+18 Name=?AddOperationL@CMsvOperationWatcher@@QAEXPAVCMsvOperation@@@Z
+19 Name=?At@CMsvOperationWatcher@@QBEPAVCMsvOperation@@H@Z
+20 Name=?ChangeLocalEntrySynchronouslyL@MtuiUtils@@SA?AVTMsvLocalOperationProgress@@AAVCMsvEntry@@ABVTMsvEntry@@@Z
+21 Name=?ConstructL@CBaseMtmUi@@MAEXXZ
+22 Name=?ConstructL@CBaseMtmUiData@@IAEXXZ
+23 Name=?CopyFromL@CBaseMtmUi@@UAEPAVCMsvOperation@@ABVCMsvEntrySelection@@JAAVTRequestStatus@@@Z
+24 Name=?CopyToL@CBaseMtmUi@@UAEPAVCMsvOperation@@ABVCMsvEntrySelection@@AAVTRequestStatus@@@Z
+25 Name=?Count@CMsvOperationWatcher@@QBEHXZ
+26 Name=?CreateBitmapsL@CBaseMtmUiData@@IAEXHABVTDesC8@@HH@Z
+27 Name=?CreateL@CBaseMtmUi@@UAEPAVCMsvOperation@@ABVTMsvEntry@@AAVCMsvEntry@@AAVTRequestStatus@@@Z
+28 Name=?CreateLocalEntrySynchronouslyL@MtuiUtils@@SA?AVTMsvLocalOperationProgress@@AAVCMsvEntry@@ABVTMsvEntry@@@Z
+29 Name=?DefaultServiceForMTML@MtuiUtils@@SAJAAVCMsvSession@@VTUid@@H@Z
+30 Name=?DeleteFromL@CBaseMtmUi@@UAEPAVCMsvOperation@@ABVCMsvEntrySelection@@AAVTRequestStatus@@@Z
+31 Name=?DeleteLocalEntrySynchronouslyL@MtuiUtils@@SAXAAVCMsvEntry@@J@Z
+32 Name=?DeleteServiceL@CBaseMtmUi@@UAEPAVCMsvOperation@@ABVTMsvEntry@@AAVTRequestStatus@@@Z
+33 Name=?DisplayProgressSummary@CBaseMtmUi@@UBEHABVTDesC8@@@Z
+34 Name=?FunctionRecognised@CBaseMtmUiData@@QBEHH@Z
+35 Name=?GetListOfAccountsL@MtuiUtils@@SAPAVCMsvEntrySelection@@AAVCMsvSession@@@Z
+36 Name=?GetListOfAccountsWithMTML@MtuiUtils@@SAPAVCMsvEntrySelection@@AAVCMsvSession@@VTUid@@@Z
+37 Name=?GetProgress@CBaseMtmUi@@UBEHABVTDesC8@@AAV?$TBuf@$0PP@@@AAH222@Z
+38 Name=?InvokeAsyncFunctionL@CBaseMtmUi@@UAEPAVCMsvOperation@@HABVCMsvEntrySelection@@AAVTRequestStatus@@AAVTDes8@@@Z
+39 Name=?InvokeSyncFunctionL@CBaseMtmUi@@UAEXHABVCMsvEntrySelection@@AAVTDes8@@@Z
+40 Name=?LaunchEditorApplicationEmbeddedL@MsgEditorLauncher@@SAPAVCMsvOperation@@AAVCMsvSession@@VTUid@@AAVTRequestStatus@@ABVTEditorParameters@@ABVTDesC8@@4@Z
+41 Name=?LaunchEditorApplicationEmbeddedL@MsgEditorLauncher@@SAPAVCMsvOperation@@AAVCMsvSession@@VTUid@@AAVTRequestStatus@@ABVTEditorParameters@@ABVTDesC8@@@Z
+42 Name=?LaunchEditorApplicationL@MsgEditorLauncher@@SAPAVCMsvOperation@@AAVCMsvSession@@VTUid@@AAVTRequestStatus@@ABVTEditorParameters@@ABVTDesC8@@4PBV7@@Z
+43 Name=?LaunchEditorApplicationL@MsgEditorLauncher@@SAPAVCMsvOperation@@AAVCMsvSession@@VTUid@@AAVTRequestStatus@@ABVTEditorParameters@@ABVTDesC8@@PBV7@@Z
+44 Name=?MoveFromL@CBaseMtmUi@@UAEPAVCMsvOperation@@ABVCMsvEntrySelection@@JAAVTRequestStatus@@@Z
+45 Name=?MoveToL@CBaseMtmUi@@UAEPAVCMsvOperation@@ABVCMsvEntrySelection@@AAVTRequestStatus@@@Z
+46 Name=?NewL@CMsvGenericUiSettings@@SAPAV1@XZ
+47 Name=?NewL@CMsvRemoteOperationProgress@@SAPAV1@AAVMMsvRemoteOperationProgressObserver@@H@Z
+48 Name=?NewL@CMtmUiDataRegistry@@SAPAV1@AAVCMsvSession@@VTTimeIntervalMicroSeconds32@@@Z
+49 Name=?NewL@CMtmUiRegistry@@SAPAV1@AAVCMsvSession@@VTTimeIntervalMicroSeconds32@@@Z
+50 Name=?NewLC@CCommandAbsorbingControl@@SAPAV1@XZ
+51 Name=?NewMtmUiDataLayerL@CMtmUiDataRegistry@@QAEPAVCBaseMtmUiData@@ABVTUid@@@Z
+52 Name=?NewMtmUiL@CMtmUiRegistry@@QAEPAVCBaseMtmUi@@AAVCBaseMtm@@@Z
+53 Name=?Operation@CMsvOperationWatcher@@QBEPAVCMsvOperation@@J@Z
+54 Name=?PreferEmbedded@CBaseMtmUi@@QBEHXZ
+55 Name=?PreviewL@CMessagePrinter@@SAXPAVCRichText@@AAVCPrintSetup@@AAVTPrintParameters@@H@Z
+56 Name=?PreviewL@CMessagePrinter@@SAXPAVMPageRegionPrinter@@HAAVCPrintSetup@@AAVTPrintParameters@@H@Z
+57 Name=?PrintL@CMessagePrinter@@SAHPAVCRichText@@AAVCPrintSetup@@AAVTPrintParameters@@H@Z
+58 Name=?PrintL@CMessagePrinter@@SAHPAVMPageRegionPrinter@@HAAVCPrintSetup@@AAVTPrintParameters@@H@Z
+59 Name=?PrintSetup@CMsvGenericUiSettings@@QBEAAVCPrintSetup@@XZ
+60 Name=?QueryCapability@CBaseMtmUi@@UAEHVTUid@@AAH@Z
+61 Name=?ReadFunctionsFromResourceFileL@CBaseMtmUiData@@IAEXH@Z
+62 Name=?RestoreFromRootStreamL@CMsvGenericUiSettings@@QAEXAAVCMsvSession@@@Z
+63 Name=?RestoreL@CMsvGenericUiSettings@@QAEXAAVCMsvStore@@@Z
+64 Name=?Session@CBaseMtmUi@@IBEAAVCMsvSession@@XZ
+65 Name=?SetDocumentToWatch@CMsgEmbeddedEditorWatchingOperation@@QAEHPAVCEikDocument@@@Z
+66 Name=?SetPreferEmbeddedL@CBaseMtmUi@@QAEXH@Z
+67 Name=?SetProgressPackageL@CMsgEditorWatchingOperation@@QAEXABVTDesC8@@@Z
+68 Name=?SetThreadIdToWatch@CMsgEditorThreadWatchingOperation@@QAEHVTThreadId@@@Z
+69 Name=?StoreInRootStreamL@CMsvGenericUiSettings@@QBEXAAVCMsvSession@@@Z
+70 Name=?StoreL@CMsvGenericUiSettings@@QBEXAAVCMsvStore@@@Z
+;------------------EOF------------------

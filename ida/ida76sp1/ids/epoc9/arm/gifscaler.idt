@@ -1,0 +1,17 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=GIFSCALER Pascal=0
+;---------------------------------------
+1 Name=_ZN10CGifScaler14ThresholdScaleEP14TRequestStatusR10CFbsBitmapR8CPalettehi
+2 Name=_ZN10CGifScaler4NewLER10CFbsBitmapNS_8TOptionsE
+3 Name=_ZN10CGifScaler4NewLER10CFbsBitmapS1_NS_8TOptionsE
+4 Name=_ZN10CGifScaler5ScaleEP14TRequestStatusR10CFbsBitmapR8CPalettei
+5 Name=_ZN10CGifScaler6CancelEv
+6 Name=_ZN10CGifScalerD0Ev
+7 Name=_ZN10CGifScalerD1Ev
+8 Name=_ZN10CGifScalerD2Ev
+9 Name=_ZTI10CGifScaler
+10 Name=_ZTV10CGifScaler
+;------------------EOF------------------

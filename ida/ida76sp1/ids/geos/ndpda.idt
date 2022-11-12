@@ -1,0 +1,26 @@
+DECLARATION Nokia 9110 Geos 3.0 library ndpda.geo
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=ndpdadll Pascal=0
+;---------------------------------------
+1 Name=NDPDACallState
+2 Name=NDPDADerefAppData
+3 Name=NDPDAFinish
+4 Name=NDPDAForkEnum
+5 Name=NDPDAGetInput
+6 Name=NDPDAGetVar
+7 Name=NDPDAGotoState
+8 Name=NDPDAGrowVar
+9 Name=NDPDAInit
+10 Name=NDPDAKill
+11 Name=NDPDAPeekToken
+12 Name=NDPDAPopToken
+13 Name=NDPDAProcessInput
+14 Name=NDPDAPushToken
+15 Name=NDPDAResizeVar
+16 Name=NDPDAReturnState
+17 Name=NDPDASetLabel
+18 Name=NDPDAStart
+19 Name=NDPDAUngetInput
+;------------------EOF------------------

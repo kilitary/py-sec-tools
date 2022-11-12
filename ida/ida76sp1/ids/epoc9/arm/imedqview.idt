@@ -1,0 +1,34 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=IMEDQVIEW Pascal=0
+;---------------------------------------
+1 Name=_ZN10CImedQView14PostConstructLEP9CEikonEnv
+2 Name=_ZN10CImedQView9CancelOpsEv
+3 Name=_ZN10CImedQViewC1Ev
+4 Name=_ZN10CImedQViewC2Ev
+5 Name=_ZN10CImedQViewD0Ev
+6 Name=_ZN10CImedQViewD1Ev
+7 Name=_ZN10CImedQViewD2Ev
+8 Name=_ZTI10CImedQView
+9 Name=_ZTI11CImedQModel
+10 Name=_ZTI13CImedQFactory
+11 Name=_ZTI15CAttachmentInfo
+12 Name=_ZTI15CQMsgEditAttLbx
+13 Name=_ZTI17CQImedEncodingDlg
+14 Name=_ZTI17CQMsgBeamAttchDlg
+15 Name=_ZTI23CAttachmentListBoxModel
+16 Name=_ZTI25CAttachmentActiveListener
+17 Name=_ZTI30TInternetMailEditorPreferences
+18 Name=_ZTV10CImedQView
+19 Name=_ZTV11CImedQModel
+20 Name=_ZTV13CImedQFactory
+21 Name=_ZTV15CAttachmentInfo
+22 Name=_ZTV15CQMsgEditAttLbx
+23 Name=_ZTV17CQImedEncodingDlg
+24 Name=_ZTV17CQMsgBeamAttchDlg
+25 Name=_ZTV23CAttachmentListBoxModel
+26 Name=_ZTV25CAttachmentActiveListener
+27 Name=_ZTV30TInternetMailEditorPreferences
+;------------------EOF------------------

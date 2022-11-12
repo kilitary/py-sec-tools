@@ -1,0 +1,33 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=MMCAPPENGINE Pascal=0
+;---------------------------------------
+1 Name=__TMABackupItemArrayPCDesCArrayPHBufC16
+2 Name=CancelOperationL__CMAMMCAppEngine
+3 Name=Capacity__CTMAMMCInfo
+4 Name=GetInfo__CMAMMCAppEngineRTMAMMCInfo
+5 Name=ID__CTMAMMCInfo
+6 Name=IsFormattable__CTMAMMCInfo
+7 Name=IsFormatted__CTMAMMCInfo
+8 Name=IsInserted__CTMAMMCInfo
+9 Name=IsLockable__CTMAMMCInfo
+10 Name=IsLocked__CTMAMMCInfo
+11 Name=IsPasswordSet__CTMAMMCInfo
+12 Name=IsReadOnly__CTMAMMCInfo
+13 Name=Name__CTMAMMCInfo
+14 Name=NewLC__CMAMMCAppEngineRCTDesC16
+15 Name=NewL__CMAMMCAppEngineRCTDesC16
+16 Name=RemovePassword__CMAMMCAppEngineRCtTBufi16
+17 Name=Rename__CMAMMCAppEngineRTDesC16
+18 Name=SetObserver__CMAMMCAppEnginePMMAProgressObserver
+19 Name=SetPassword__CMAMMCAppEngineRCtTBufiT1
+20 Name=SpaceFree__CTMAMMCInfo
+21 Name=StartBackupL__CMAMMCAppEnginePMMAPermissionAskerRTMABackupItemArray
+22 Name=StartFormatL__CMAMMCAppEnginePCDesCArray
+23 Name=StartRestoreL__CMAMMCAppEngine
+24 Name=Unlock__CMAMMCAppEngineRCtTBufi16
+25 Name=_._CMAMMCAppEngine
+26 Name=BackupExists__CTMAMMCInfo
+;------------------EOF------------------

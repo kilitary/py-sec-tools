@@ -1,0 +1,23 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=SOURCEORIENTATIONEFFECT Pascal=0
+;---------------------------------------
+1 Name=_ZN18CSourceOrientation4NewLEP21CCustomCommandUtility
+2 Name=_ZN18CSourceOrientation4NewLER12CMMFDevSound
+3 Name=_ZN18CSourceOrientation4NewLER16MCustomInterface
+4 Name=_ZN18CSourceOrientation4NewLER20CMdaAudioInputStream
+5 Name=_ZN18CSourceOrientation4NewLER20CMdaAudioToneUtility
+6 Name=_ZN18CSourceOrientation4NewLER21CMdaAudioOutputStream
+7 Name=_ZN18CSourceOrientation4NewLER22CMdaAudioPlayerUtility
+8 Name=_ZN18CSourceOrientation4NewLER23CMdaAudioConvertUtility
+9 Name=_ZN18CSourceOrientation4NewLER24CMdaAudioRecorderUtilityi
+10 Name=_ZN18CSourceOrientationC2Ev
+11 Name=_ZN18CSourceOrientationD0Ev
+12 Name=_ZN18CSourceOrientationD1Ev
+13 Name=_ZN18CSourceOrientationD2Ev
+14 Name=_ZNK18CSourceOrientation3UidEv
+15 Name=_ZTI18CSourceOrientation
+16 Name=_ZTV18CSourceOrientation
+;------------------EOF------------------

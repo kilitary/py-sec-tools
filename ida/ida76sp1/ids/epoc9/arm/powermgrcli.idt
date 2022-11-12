@@ -1,0 +1,18 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=POWERMGRCLI Pascal=0
+;---------------------------------------
+1 Name=_ZN12PowerManager8SwitchOnEv
+2 Name=_ZN13CSaveNotifier11HandleErrorEi
+3 Name=_ZN13CSaveNotifier12DelayRequeueEv
+4 Name=_ZN13CSaveNotifier4NewLER13MSaveObserver
+5 Name=_ZN13CSaveNotifier5QueueEv
+6 Name=_ZN13CSaveNotifierD0Ev
+7 Name=_ZN13CSaveNotifierD1Ev
+8 Name=_ZN13CSaveNotifierD2Ev
+9 Name=_ZTI13CSaveNotifier
+10 Name=_ZTV13CSaveNotifier
+11 Name=_ZN13CSaveNotifier9SwitchOffEN13MSaveObserver9TSaveTypeEi
+;------------------EOF------------------

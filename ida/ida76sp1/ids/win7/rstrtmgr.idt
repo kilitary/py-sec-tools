@@ -1,0 +1,19 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=RstrtMgr.dll Args=0 Drops=12
+;---------------------------------------
+1 Name=RmAddFilter Pascal=20
+2 Name=RmCancelCurrentTask Pascal=4
+3 Name=RmEndSession Pascal=4
+4 Name=RmGetFilterList Pascal=16
+5 Name=RmGetList Pascal=20
+6 Name=RmJoinSession Pascal=8
+7 Name=RmRegisterResources Pascal=28
+8 Name=RmRemoveFilter Pascal=16
+9 Name=RmReserveHeap Pascal=4
+10 Name=RmRestart Pascal=12
+11 Name=RmShutdown Pascal=12
+12 Name=RmStartSession Pascal=12
+;------------------EOF------------------

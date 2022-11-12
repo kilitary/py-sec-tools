@@ -1,0 +1,13 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=AzSqlExt.dll Args=0 Drops=6
+;---------------------------------------
+1 Name=AzGenerateAudit Pascal=4
+2 Name=__GetXpVersion Pascal=0
+3 Name=xp_AzManAddRole Pascal=4
+4 Name=xp_AzManAddUserToRole Pascal=4
+5 Name=xp_AzManDeleteRole Pascal=4
+6 Name=xp_AzManRemoveUserFromRole Pascal=4
+;------------------EOF------------------

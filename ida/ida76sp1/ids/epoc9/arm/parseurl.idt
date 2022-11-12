@@ -1,0 +1,8 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=PARSEURL Pascal=0
+;---------------------------------------
+1 Name=_ZN9CParseUrl10NewParserLEv
+;------------------EOF------------------

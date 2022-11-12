@@ -1,0 +1,48 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=DOWNLOADMGR Pascal=0
+;---------------------------------------
+1 Name=__RHttpDownloadMgr
+2 Name=Close__RHttpDownloadMgr
+3 Name=ConnectL__RHttpDownloadMgrGTUidRMHttpDownloadMgrObserveri
+4 Name=CreateDownloadL__RHttpDownloadMgrRCTDesC8Ri
+5 Name=CurrentDownloads__CRHttpDownloadMgr
+6 Name=DeleteAll__RHttpDownloadMgr
+7 Name=Delete__RHttpDownload
+8 Name=Disconnect__RHttpDownloadMgr
+9 Name=GetBoolAttribute__RHttpDownloadUiRi
+10 Name=GetBoolAttribute__RHttpDownloadMgrUiRi
+11 Name=GetIntAttribute__RHttpDownloadUiRl
+12 Name=GetIntAttribute__RHttpDownloadMgrUiRl
+13 Name=GetStringAttribute__RHttpDownloadUiRTDes8
+14 Name=GetStringAttribute__RHttpDownloadUiRTDes16
+15 Name=GetStringAttribute__RHttpDownloadMgrUiRTDes8
+16 Name=GetStringAttribute__RHttpDownloadMgrUiRTDes16
+17 Name=Move__RHttpDownload
+18 Name=PauseAll__RHttpDownloadMgr
+19 Name=Pause__RHttpDownload
+20 Name=RemoveObserver__RHttpDownloadMgrRMHttpDownloadMgrObserver
+21 Name=ResetAll__RHttpDownloadMgr
+22 Name=Reset__RHttpDownload
+23 Name=SetBoolAttribute__RHttpDownloadUii
+24 Name=SetBoolAttribute__RHttpDownloadMgrUii
+25 Name=SetDefaultBoolAttribute__RHttpDownloadMgrUii
+26 Name=SetDefaultIntAttribute__RHttpDownloadMgrUil
+27 Name=SetDefaultStringAttribute__RHttpDownloadMgrUiRCTDesC8
+28 Name=SetDefaultStringAttribute__RHttpDownloadMgrUiRCTDesC16
+29 Name=SetIntAttribute__RHttpDownloadUil
+30 Name=SetIntAttribute__RHttpDownloadMgrUil
+31 Name=SetStringAttribute__RHttpDownloadUiRCTDesC8
+32 Name=SetStringAttribute__RHttpDownloadUiRCTDesC16
+33 Name=SetStringAttribute__RHttpDownloadMgrUiRCTDesC8
+34 Name=SetStringAttribute__RHttpDownloadMgrUiRCTDesC16
+35 Name=StartAll__RHttpDownloadMgr
+36 Name=StartDownloadMgrServer__FPv
+37 Name=Start__RHttpDownload
+38 Name=Version__CRHttpDownloadMgr
+39 Name=AddObserverL__RHttpDownloadMgrRMHttpDownloadMgrObserver
+40 Name=GetFileHandleAttribute__RHttpDownloadRRFile
+41 Name=SetFileHandleAttribute__RHttpDownloadRRFile
+;------------------EOF------------------

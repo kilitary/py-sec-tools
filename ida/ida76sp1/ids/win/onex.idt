@@ -1,0 +1,37 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=onex.dll Args=0 Drops=30
+;---------------------------------------
+1 Name=OneXAddEapAttributes Pascal=16
+2 Name=OneXAddTLV Pascal=20
+3 Name=OneXCompareAuthParams Pascal=28
+4 Name=OneXCopyAuthParams Pascal=12
+5 Name=OneXCreateDefaultProfile Pascal=20
+6 Name=OneXCreateDiscoveryProfiles Pascal=24
+7 Name=OneXCreateSupplicantPort Pascal=2144
+8 Name=OneXDeInitialize Pascal=4
+9 Name=OneXDestroySupplicantPort Pascal=12
+10 Name=OneXForceAuthenticatedState Pascal=16
+11 Name=OneXFreeAuthParams Pascal=4
+12 Name=OneXFreeMemory Pascal=4
+13 Name=OneXGetUserFriendlyText Pascal=24
+14 Name=OneXIndicatePacket Pascal=20
+15 Name=OneXIndicateSessionChange Pascal=16
+16 Name=OneXInitialize Pascal=4
+17 Name=OneXQueryAuthParams Pascal=20
+18 Name=OneXQueryPendingUIRequest Pascal=24
+19 Name=OneXQueryState Pascal=20
+20 Name=OneXQueryStatistics Pascal=20
+21 Name=OneXReasonCodeToString Pascal=16
+22 Name=OneXRestartReasonCodeToString Pascal=16
+23 Name=OneXSetAuthParams Pascal=20
+24 Name=OneXSetRuntimeState Pascal=16
+25 Name=OneXShowUI Pascal=16
+26 Name=OneXStartAuthentication Pascal=16
+27 Name=OneXStopAuthentication Pascal=12
+28 Name=OneXUIResponse Pascal=32
+29 Name=OneXUpdatePortProfile Pascal=24
+30 Name=OneXUpdateProfilePostDiscovery Pascal=20
+;------------------EOF------------------

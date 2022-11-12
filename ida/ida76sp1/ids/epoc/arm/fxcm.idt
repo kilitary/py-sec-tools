@@ -1,0 +1,26 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=FXCM Pascal=0
+;---------------------------------------
+1 Name=NewL__13CFaxMtmClientR17CRegisteredMtmDllR11CMsvSession
+2 Name=__as__15TMTMFaxSettingsRC15TMTMFaxSettings
+3 Name=ExternalizeL__C15TMTMFaxSettingsR12RWriteStream
+4 Name=InternalizeL__13CFaxRecipientR14RMsvReadStream
+5 Name=InternalizeL__15TMTMFaxSettingsR11RReadStream
+6 Name=Name__C13CFaxRecipient
+7 Name=Number__C13CFaxRecipient
+8 Name=RestoreL__10CFaxHeaderR9CMsvStore
+9 Name=RestoreL__15TMTMFaxSettingsRC9CMsvStore
+10 Name=SetNameL__13CFaxRecipientRC6TDesC8
+11 Name=SetNumberL__13CFaxRecipientRC6TDesC8
+12 Name=StoreL__10CFaxHeaderR9CMsvStore
+13 Name=StoreL__C15TMTMFaxSettingsR9CMsvStore
+14 Name=_._10CFaxHeader
+15 Name=_._13CFaxRecipient
+16 Name=__10CFaxHeader
+17 Name=__13CFaxRecipient
+18 Name=ExternalizeL__C13CFaxRecipientR15RMsvWriteStream
+19 Name=SizeL__8FaxUtilsR9CMsvEntryR3RFs
+;------------------EOF------------------

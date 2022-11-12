@@ -1,0 +1,21 @@
+;DECLARATION 
+;ALIGNMENT 2
+
+; Module Name and Description
+0 Name=msswch.dll Args=0 Drops=14
+;---------------------------------------
+1 Name=RegisterHookSendWindow Pascal=8
+2 Name=XswchEndAll Pascal=0
+3 Name=XswchPollSwitches Pascal=4
+4 Name=XswchRegHelperWnd Pascal=8
+5 Name=XswchSetSwitchConfig Pascal=8
+6 Name=XswchTimerProc Pascal=4
+7 Name=swcKeyboardHookProc Pascal=12
+8 Name=swchCheckForScanChar Pascal=4
+9 Name=swchCloseSwitchPort Pascal=4
+10 Name=swchGetDeviceType Pascal=8
+11 Name=swchGetSwitchConfig Pascal=12
+12 Name=swchGetSwitchDevice Pascal=12
+13 Name=swchOpenSwitchPort Pascal=8
+14 Name=swchSetSwitchConfig Pascal=12
+;------------------EOF------------------
