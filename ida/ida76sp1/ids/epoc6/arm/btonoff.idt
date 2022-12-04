@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=BTONOFF Pascal=0
-;---------------------------------------
-1 Name=SetBluetoothRadio__8CBTOnOffQ28CBTOnOff8TBTRadio
-2 Name=BluetoothRadio__8CBTOnOff
-;------------------EOF------------------

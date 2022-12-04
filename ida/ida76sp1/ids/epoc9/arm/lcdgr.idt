@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=LCDGR Pascal=0
-;---------------------------------------
-1 Name=_Z11NewFactoryLR3RFs12TDisplayMode
-;------------------EOF------------------

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=ativtmxx.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=?OTM_DisableLiveTV@@YAXXZ Pascal=0
-2 Name=?OTM_EnableLiveTV@@YAHXZ Pascal=0
-;------------------EOF------------------

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=modem Pascal=0
-;---------------------------------------
-1 Name=ModemProcessClass
-2 Name=ModemStrategy
-;------------------EOF------------------

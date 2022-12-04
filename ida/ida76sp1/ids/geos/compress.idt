@@ -1,9 +1,0 @@
-DECLARATION Nokia 9110 Geos 3.0 library compress.geo
-;ALIGNMENT 2
-
-; Module Name and Description
-1 Name=compressdll Args=0 Drops=1
-;---------------------------------------
-1 Name=COMPRESSDECOMPRESS Pascal=16 \
-	Comment=word pascal CompressDecompress(CompLibFlags flags, FileHandle sourceFileHandle, void *sourceBuffer, word sourceBufferSize, FileHandle destFileHandle, void *destBuffer) in compress.h
-;------------------EOF------------------

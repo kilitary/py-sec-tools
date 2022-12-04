@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=QIKALLOCDLL Pascal=0
-;---------------------------------------
-1 Name=_ZN13RQikAllocator13ThreadInstallEiR24SStdEpocThreadCreateInfo
-2 Name=_ZN13RQikAllocator7InstallEv
-;------------------EOF------------------

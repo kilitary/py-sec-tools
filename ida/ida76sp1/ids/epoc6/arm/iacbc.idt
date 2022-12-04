@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=IACBC Pascal=0
-;---------------------------------------
-1 Name=NewL__CIACBioControlRMMsgBioControlObserverPCMsvSessionlTMsgBioModeRCtTBuf1i256
-;------------------EOF------------------

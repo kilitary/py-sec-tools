@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=FAXS Pascal=0
-;---------------------------------------
-1 Name=NewL__13CFaxServerMtmR17CRegisteredMtmDllP15CMsvServerEntry
-2 Name=SizeL__14FaxServerUtilsR15CMsvServerEntryR3RFs
-;------------------EOF------------------

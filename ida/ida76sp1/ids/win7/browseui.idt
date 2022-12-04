@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=browseui.dll Args=0 Drops=1
-;---------------------------------------
-104 Name=DllGetVersion Pascal=4
-;------------------EOF------------------

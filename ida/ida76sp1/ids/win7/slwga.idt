@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=slwga.dll Args=0 Drops=2
-;---------------------------------------
-227 Name=SLGetEncryptedPID Pascal=8
-228 Name=SLIsGenuineLocal Pascal=12
-;------------------EOF------------------

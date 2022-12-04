@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=AKNSWALLPAPERUTILS Pascal=0
-;---------------------------------------
-1 Name=_ZN18AknsWallpaperUtils16SetIdleWallpaperERK7TDesC16P7CCoeEnvii
-;------------------EOF------------------

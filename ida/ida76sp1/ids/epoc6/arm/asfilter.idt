@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=ASFILTER Pascal=0
-;---------------------------------------
-1 Name=NewInterface__Fv
-2 Name=ConnectivityIsValid__C14TSyncAidFilterRC18TAgnSmartLiteEntry
-;------------------EOF------------------

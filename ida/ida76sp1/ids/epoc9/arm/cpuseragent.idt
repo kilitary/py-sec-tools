@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=CPUSERAGENT Pascal=0
-;---------------------------------------
-1 Name=_ZN12MCpUserAgent4NewLEi
-2 Name=_ZN12MCpUserAgent4NewLEi4TUid
-;------------------EOF------------------

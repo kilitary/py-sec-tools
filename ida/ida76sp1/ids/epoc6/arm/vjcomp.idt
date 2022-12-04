@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=VJCOMP Pascal=0
-;---------------------------------------
-1 Name=NewVJCompFactoryL
-;------------------EOF------------------

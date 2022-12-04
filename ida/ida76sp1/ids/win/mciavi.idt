@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=mciavi.drv Args=0 Drops=2
-;---------------------------------------
-1 Name=WEP Pascal=2
-2 Name=DRIVERPROC Pascal=16
-;------------------EOF------------------

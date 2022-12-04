@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=QSBLICENSEE Pascal=0
-;---------------------------------------
-1 Name=ControlFactory__19CQSbLicenseeLibrary
-2 Name=ResourceFile__19CQSbLicenseeLibrary
-;------------------EOF------------------

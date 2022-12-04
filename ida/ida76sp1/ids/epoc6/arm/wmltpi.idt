@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=WMLTPI Pascal=0
-;---------------------------------------
-1 Name=AAAPluginL__Fv
-2 Name=MDataProviderTransmissionData_Reserved1__12CWmlPostData
-;------------------EOF------------------

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=SSLADAPTOR Pascal=0
-;---------------------------------------
-1 Name=NewL__CSslAdaptorRRSocketRCTDesC16
-2 Name=UnloadDll__FPv
-;------------------EOF------------------

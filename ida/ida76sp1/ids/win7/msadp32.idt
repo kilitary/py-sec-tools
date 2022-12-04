@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=msadp32.acm Args=0 Drops=1
-;---------------------------------------
-1 Name=DriverProc Pascal=20
-;------------------EOF------------------

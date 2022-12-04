@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=PUSHMTMUI Pascal=0
-;---------------------------------------
-1 Name=NewL__CPushMtmUiRCBaseMtmRCRegisteredMtmDll
-2 Name=NewL__CPushMtmUiDataRCRegisteredMtmDll
-;------------------EOF------------------

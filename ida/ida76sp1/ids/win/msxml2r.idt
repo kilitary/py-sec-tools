@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=msxml2r.dll Args=0 Drops=1
-;---------------------------------------
-12 Name=DllMain Pascal=12
-;------------------EOF------------------

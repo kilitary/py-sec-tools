@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=QBTOPERATIONMODE Pascal=0
-;---------------------------------------
-1 Name=_ZN17CQBtOperationMode4NewLEv
-;------------------EOF------------------

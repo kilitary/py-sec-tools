@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=napipsec.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=InitializeNapIpsecRp Pascal=0
-2 Name=UninitializeNapIpsecRp Pascal=4
-;------------------EOF------------------

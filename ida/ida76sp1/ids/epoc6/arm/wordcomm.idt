@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=WORDCOMM Pascal=0
-;---------------------------------------
-1 Name=NewL__12CWconLibraryRCt4TBuf1i25616TWconWordVersionT1T2R3RFsPCt4TBuf1i16
-2 Name=SaveConversionL__12CWconLibrary
-;------------------EOF------------------

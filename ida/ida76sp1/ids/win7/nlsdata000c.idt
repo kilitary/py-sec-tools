@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=NlsData000c.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=LangDataCall Pascal=4
-;------------------EOF------------------

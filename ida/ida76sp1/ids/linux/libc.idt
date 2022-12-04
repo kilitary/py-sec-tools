@@ -1,9 +1,0 @@
-DECLARATION Linux C RunTime
-;ALIGNMENT 2
-
-; Module Name and Description
-1 Name=libc.so.5 Pascal=0
-;---------------------------------------
-1 Name=__libc_init \
-	Comment=RunTime Initialising
-;------------------EOF------------------

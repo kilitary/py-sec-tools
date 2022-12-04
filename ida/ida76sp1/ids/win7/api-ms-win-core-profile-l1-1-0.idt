@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=api-ms-win-core-profile-l1-1-0.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=QueryPerformanceCounter Pascal=4
-2 Name=QueryPerformanceFrequency Pascal=4
-;------------------EOF------------------

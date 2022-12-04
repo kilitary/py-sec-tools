@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=SMS.dll Pascal=0
-;---------------------------------------
-20 Name=SmsReceiveAllMessagesFromSIM
-;------------------EOF------------------

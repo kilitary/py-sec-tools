@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=ECCECSVR Pascal=0
-;---------------------------------------
-1 Name=NewECCEServerL
-;------------------EOF------------------

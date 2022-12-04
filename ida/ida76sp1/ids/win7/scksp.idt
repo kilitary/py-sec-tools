@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=scksp.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=DllMain Pascal=12
-2 Name=GetKeyStorageInterface Pascal=12
-;------------------EOF------------------

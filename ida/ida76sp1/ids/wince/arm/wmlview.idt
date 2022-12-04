@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=WMLView.DLL Pascal=0
-;---------------------------------------
-10 Name=AddPhoneBookEntry
-;------------------EOF------------------

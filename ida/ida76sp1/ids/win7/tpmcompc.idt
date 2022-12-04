@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=tpmcompc.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=CHOOSER2_PickTargetComputer Pascal=8
-2 Name=DllMain Pascal=12
-;------------------EOF------------------

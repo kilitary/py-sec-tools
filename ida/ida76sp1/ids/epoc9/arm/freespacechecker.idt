@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=FREESPACECHECKER Pascal=0
-;---------------------------------------
-1 Name=_ZN4conn21IsFreeSpaceAvailableLER3RFsii
-2 Name=_ZN4conn21IsFreeSpaceAvailableLER3RFsiiPNS_15TFreeSpaceCacheE
-;------------------EOF------------------

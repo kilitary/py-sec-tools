@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=WININET.dll Pascal=0
-;---------------------------------------
-112 Name=IsProfilesEnabled
-;------------------EOF------------------

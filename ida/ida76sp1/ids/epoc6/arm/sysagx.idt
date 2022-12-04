@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=SYSAGX Pascal=0
-;---------------------------------------
-1 Name=StartSystemAgent__FPv
-;------------------EOF------------------

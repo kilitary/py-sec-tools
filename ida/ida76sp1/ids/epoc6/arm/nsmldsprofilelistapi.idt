@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=NSMLDSPROFILELISTAPI Pascal=0
-;---------------------------------------
-1 Name=CreateDSProfileListAPIL__Fv
-;------------------EOF------------------

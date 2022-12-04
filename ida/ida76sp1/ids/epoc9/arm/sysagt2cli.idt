@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=SYSAGT2CLI Pascal=0
-;---------------------------------------
-1 Name=_Z12StartSysAgt2v
-;------------------EOF------------------

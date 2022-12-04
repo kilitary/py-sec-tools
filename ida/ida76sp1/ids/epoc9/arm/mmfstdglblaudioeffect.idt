@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=MMFSTDGLBLAUDIOEFFECT Pascal=0
-;---------------------------------------
-1 Name=_ZN18CMmfGlobalEqEffect4NewLEP29MMmfGlobalAudioEffectObserver
-2 Name=_ZN20CMmfGlobalMegaEffect4NewLEP29MMmfGlobalAudioEffectObserver
-;------------------EOF------------------

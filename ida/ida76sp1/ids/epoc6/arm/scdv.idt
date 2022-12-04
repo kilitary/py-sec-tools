@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=SCDV Pascal=0
-;---------------------------------------
-1 Name=NewBitmapDeviceL__14CFbsDrawDeviceG14TScreenInfoV0112TDisplayMode
-2 Name=NewScreenDeviceL__14CFbsDrawDeviceG14TScreenInfoV0112TDisplayMode
-;------------------EOF------------------

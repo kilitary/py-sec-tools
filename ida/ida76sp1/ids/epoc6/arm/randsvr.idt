@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=RANDSVR Pascal=0
-;---------------------------------------
-1 Name=RunRandomServer__FPv
-2 Name=ServiceL__14CRandomSessionRC8RMessage
-;------------------EOF------------------

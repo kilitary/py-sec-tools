@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=SMSS Pascal=0
-;---------------------------------------
-1 Name=_ZN13CSmsServerMtm4NewLER17CRegisteredMtmDllP15CMsvServerEntry
-;------------------EOF------------------

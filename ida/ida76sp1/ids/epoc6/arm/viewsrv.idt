@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=VIEWSRV Pascal=0
-;---------------------------------------
-1 Name=NewL__10CVwsServerR14MVwsAppStarter
-2 Name=_._10CVwsServer
-;------------------EOF------------------

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=RpcRtRemote.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=DllGetContractDescription Pascal=8
-2 Name=I_RpcExtInitializeExtensionPoint Pascal=8
-;------------------EOF------------------

@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=TapiSysprep.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=TapiSysPrepClean Pascal=0
-;------------------EOF------------------

@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=UIKINIT Pascal=0
-;---------------------------------------
-1 Name=NewL__18CEikDllInitializer
-;------------------EOF------------------

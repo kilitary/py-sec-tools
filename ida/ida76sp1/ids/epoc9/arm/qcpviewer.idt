@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=QCPVIEWER Pascal=0
-;---------------------------------------
-1 Name=_ZN12CCPViewerDlg8RunDlgLDERK13CCpProvDocMsg
-;------------------EOF------------------

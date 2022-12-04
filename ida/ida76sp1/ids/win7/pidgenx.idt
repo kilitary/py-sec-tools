@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=pidgenx.dll Pascal=0
-;---------------------------------------
-118 Name=PidGenX
-;------------------EOF------------------

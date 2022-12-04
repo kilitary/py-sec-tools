@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=PROTOM Pascal=0
-;---------------------------------------
-1 Name=CProtocolManager_Reserved1__16CProtocolManager
-2 Name=__16CProtocolManagerR3RFsRC8RLibraryi
-;------------------EOF------------------

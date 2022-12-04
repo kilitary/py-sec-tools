@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=vcdex.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=VDDDispatch Pascal=0
-3 Name=VDDRegisterInit Pascal=0
-;------------------EOF------------------

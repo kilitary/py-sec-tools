@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=BIUM Pascal=0
-;---------------------------------------
-1 Name=NewBIOIMtmUiDataLayerL__FR17CRegisteredMtmDll
-2 Name=NewBIOUMtmUiL__FR8CBaseMtmR17CRegisteredMtmDll
-;------------------EOF------------------

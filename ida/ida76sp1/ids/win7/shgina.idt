@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=shgina.dll Args=0 Drops=2
-;---------------------------------------
-7 Name=DllCanUnloadNow Pascal=0
-8 Name=DllGetClassObject Pascal=12
-;------------------EOF------------------

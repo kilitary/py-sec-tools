@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=spwmp.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=Sysprep_Clean_WMP Pascal=0
-2 Name=Sysprep_Generalize_WMP Pascal=0
-;------------------EOF------------------

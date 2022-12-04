@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=FXUM Pascal=0
-;---------------------------------------
-1 Name=?NewMtmUiL@@YAPAVCBaseMtmUi@@PAVCBaseMtm@@AAVCRegisteredMtmDll@@@Z
-2 Name=?NewMtmUiDataLayerL@@YAPAVCBaseMtmUiData@@AAVCRegisteredMtmDll@@@Z
-;------------------EOF------------------

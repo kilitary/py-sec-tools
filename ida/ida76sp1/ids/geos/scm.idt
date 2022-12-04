@@ -1,9 +1,0 @@
-DECLARATION Nokia 9110 Geos 3.0 library scm.geo
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=scmdll Pascal=0
-;---------------------------------------
-1 Name=ScmDoNumberSearch
-2 Name=ScmSIMNumberSearch
-;------------------EOF------------------

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=system.dll Pascal=0
-;---------------------------------------
-1 Name=CPlApplet
-2 Name=KillAllApps
-;------------------EOF------------------

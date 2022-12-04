@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=WAPPUSHMTMCLIENTSERVER Pascal=0
-;---------------------------------------
-1 Name=NewL__17CWapPushClientMtmR17CRegisteredMtmDllR11CMsvSession
-2 Name=NewL__17CWapPushServerMtmR17CRegisteredMtmDllP15CMsvServerEntry
-;------------------EOF------------------

@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=CALENINTERIMUTILS Pascal=0
-;---------------------------------------
-1 Name=_ZN17CalenInterimUtils10GlobalUidLEv
-2 Name=_ZN17CalenInterimUtils24PopulateChildFromParentLER9CCalEntryRKS0_
-;------------------EOF------------------

@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=slcoinst.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=_MyCoInst@16 Pascal=16
-;------------------EOF------------------

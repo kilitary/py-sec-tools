@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=dhcpcore6.dll Args=0 Drops=1
-;---------------------------------------
-1 Name=Dhcpv6Main Pascal=4
-;------------------EOF------------------

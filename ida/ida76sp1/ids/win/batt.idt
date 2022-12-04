@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=batt.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=BatteryClassCoInstaller Pascal=16
-2 Name=BatteryClassInstall Pascal=12
-;------------------EOF------------------

@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=LCDGDRV Pascal=0
-;---------------------------------------
-1 Name=_ZN18CLcdGraphicsDriver4NewLE12TDisplayMode
-;------------------EOF------------------

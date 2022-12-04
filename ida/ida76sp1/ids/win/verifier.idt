@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=verifier.dll Args=0 Drops=2
-;---------------------------------------
-1 Name=VerifierEnumerateResource Pascal=20
-2 Name=VerifierSetFlags Pascal=12
-;------------------EOF------------------

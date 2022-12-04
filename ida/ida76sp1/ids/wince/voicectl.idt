@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=VoiceCtl.dll Pascal=0
-;---------------------------------------
-1 Name=VoiceRecorder_Create
-;------------------EOF------------------

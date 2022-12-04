@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=BTSMTM Pascal=0
-;---------------------------------------
-1 Name=NewL__CBtSrvMtmRCRegisteredMtmDllPCMsvServerEntry
-2 Name=StartCommandL__CBtSrvMtmRCMsvEntrySelectioniRCTDesC8RTRequestStatus
-;------------------EOF------------------

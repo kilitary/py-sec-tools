@@ -1,9 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=JPEGYUVDECODER Pascal=0
-;---------------------------------------
-1 Name=ConvertYuv__CJpegYuvDecoderPTRequestStatusRCFbsBitmapTi
-2 Name=ConvertYuv__CJpegYuvDecoderPTRequestStatusRCFbsBitmapi
-;------------------EOF------------------

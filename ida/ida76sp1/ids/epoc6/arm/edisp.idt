@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=EDISP Pascal=0
-;---------------------------------------
-1 Name=New__13CScreenDriver
-;------------------EOF------------------

@@ -1,8 +1,0 @@
-;DECLARATION 
-;ALIGNMENT 2
-
-; Module Name and Description
-0 Name=RT2HTMCV Pascal=0
-;---------------------------------------
-1 Name=GateFunction__Fv
-;------------------EOF------------------
