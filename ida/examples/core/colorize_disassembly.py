@@ -14,10 +14,9 @@ keywords: coloring, idc
 
 from __future__ import print_function
 
-
-BG_BLUE  = 0xc02020
+BG_BLUE = 0xc02020
 BG_GREEN = 0x208020
-BG_RED   = 0x2020c0
+BG_RED = 0x2020c0
 
 import idc
 

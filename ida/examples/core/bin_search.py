@@ -19,7 +19,6 @@ description:
 
 from __future__ import print_function
 
-
 import ida_kernwin
 import ida_bytes
 import ida_ida
@@ -27,6 +26,7 @@ import ida_idaapi
 import ida_nalt
 
 class search_strlit_form_t(ida_kernwin.Form):
+    
     def __init__(self):
         ida_kernwin.Form.__init__(
             self,
@@ -36,14 +36,15 @@ class search_strlit_form_t(ida_kernwin.Form):
 <#UTF16-BE if file is big-endian, UTF16-LE otherwise#As UTF-16: {UTF16}>{Encoding}>
 """,
             {
-                "Text" : ida_kernwin.Form.StringInput(),
-                "Encoding" : ida_kernwin.Form.ChkGroupControl(("UTF16",)),
+                "Text":     ida_kernwin.Form.StringInput(),
+                "Encoding": ida_kernwin.Form.ChkGroupControl(("UTF16",)),
             })
 
 class search_strlit_ah_t(ida_kernwin.action_handler_t):
+    
     def __init__(self):
         ida_kernwin.action_handler_t.__init__(self)
-
+    
     def activate(self, ctx):
         f = search_strlit_form_t()
         f, args = f.Compile()
@@ -64,7 +65,7 @@ class search_strlit_ah_t(ida_kernwin.action_handler_t):
                 patterns,
                 current_ea,
                 text,
-                10, # radix (not that it matters though, since we're all about string literals)
+                10,  # radix (not that it matters though, since we're all about string literals)
                 encoding)
             if not err:
                 ea = ida_bytes.bin_search(
@@ -72,28 +73,27 @@ class search_strlit_ah_t(ida_kernwin.action_handler_t):
                     ida_ida.inf_get_max_ea(),
                     patterns,
                     ida_bytes.BIN_SEARCH_FORWARD
-                  | ida_bytes.BIN_SEARCH_NOBREAK
-                  | ida_bytes.BIN_SEARCH_NOSHOW)
+                    | ida_bytes.BIN_SEARCH_NOBREAK
+                    | ida_bytes.BIN_SEARCH_NOSHOW)
                 ok = ea != ida_idaapi.BADADDR
                 if ok:
                     ida_kernwin.jumpto(ea)
             else:
                 print("Failed parsing binary pattern: \"%s\"" % err)
         return ok
-
+    
     def update(self, ctx):
         return ida_kernwin.AST_ENABLE_FOR_WIDGET \
             if ctx.widget_type == ida_kernwin.BWN_DISASM \
             else ida_kernwin.AST_DISABLE_FOR_WIDGET
 
-
 ACTION_NAME = "bin_search:search"
 ACTION_SHORTCUT = "Ctrl+Shift+S"
 
 if ida_kernwin.register_action(
-        ida_kernwin.action_desc_t(
-            ACTION_NAME,
-            "Search for string literal",
-            search_strlit_ah_t(),
-            ACTION_SHORTCUT)):
+    ida_kernwin.action_desc_t(
+        ACTION_NAME,
+        "Search for string literal",
+        search_strlit_ah_t(),
+        ACTION_SHORTCUT)):
     print("Please use \"%s\" to search for string literals" % ACTION_SHORTCUT)

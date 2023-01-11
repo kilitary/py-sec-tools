@@ -29,6 +29,7 @@ import platform
 
 # -----------------------------------------------------------------------
 class pascal_data_type(ida_bytes.data_type_t):
+    
     def __init__(self):
         ida_bytes.data_type_t.__init__(
             self,
@@ -37,16 +38,16 @@ class pascal_data_type(ida_bytes.data_type_t):
             "Pascal string",
             None,
             "pstr")
-
+    
     def calc_item_size(self, ea, maxsize):
         # Custom data types may be used in structure definitions. If this case
         # ea is a member id. Check for this situation and return 1
         if ida_struct.is_member_id(ea):
             return 1
-
+        
         # get the length byte
         n = ida_bytes.get_byte(ea)
-
+        
         # string too big?
         if n > maxsize:
             return 0
@@ -55,11 +56,12 @@ class pascal_data_type(ida_bytes.data_type_t):
 
 class pascal_data_format(ida_bytes.data_format_t):
     FORMAT_NAME = "py_pascal_string_pstr"
+    
     def __init__(self):
         ida_bytes.data_format_t.__init__(
             self,
             pascal_data_format.FORMAT_NAME)
-
+    
     def printf(self, value, current_ea, operand_num, dtid):
         # Take the length byte
         n = ord(value[0]) if sys.version_info.major < 3 else value[0]
@@ -76,12 +78,13 @@ class pascal_data_format(ida_bytes.data_format_t):
 # -----------------------------------------------------------------------
 class simplevm_data_type(ida_bytes.data_type_t):
     ASM_KEYWORD = "svm_emit"
+    
     def __init__(
-            self,
-            name="py_simple_vm",
-            value_size=1,
-            menu_name="SimpleVM",
-            asm_keyword=ASM_KEYWORD):
+        self,
+        name="py_simple_vm",
+        value_size=1,
+        menu_name="SimpleVM",
+        asm_keyword=ASM_KEYWORD):
         ida_bytes.data_type_t.__init__(
             self,
             name,
@@ -89,7 +92,7 @@ class simplevm_data_type(ida_bytes.data_type_t):
             menu_name,
             None,
             asm_keyword)
-
+    
     def calc_item_size(self, ea, maxsize):
         if ida_struct.is_member_id(ea):
             return 1
@@ -102,42 +105,44 @@ class simplevm_data_type(ida_bytes.data_type_t):
         return n
 
 class simplevm_data_format(ida_bytes.data_format_t):
+    
     def __init__(
-            self,
-            name="py_simple_vm_format",
-            menu_name="SimpleVM"):
+        self,
+        name="py_simple_vm_format",
+        menu_name="SimpleVM"):
         ida_bytes.data_format_t.__init__(
             self,
             name,
             0,
             menu_name)
-
+    
     # Some tables for the disassembler
     INST = {1: 'add', 2: 'mul', 3: 'sub', 4: 'xor', 5: 'mov'}
     REGS = {1: 'r1', 2: 'r2', 3: 'r3'}
+    
     def disasm(self, inst):
         """A simple local disassembler. In reality one can use a full-blown disassembler to render the text"""
         opbyte = ord(inst[0]) if sys.version_info.major < 3 else inst[0]
-        op     = opbyte >> 4
-        if not (1<=op<=5):
+        op = opbyte >> 4
+        if not (1 <= op <= 5):
             return None
-        r1     = (opbyte & 0xf) >> 2
-        r2     = opbyte & 3
-        sz     = 0
+        r1 = (opbyte & 0xf) >> 2
+        r2 = opbyte & 3
+        sz = 0
         if r2 == 0:
             if len(inst) != 5:
                 return None
             imm = struct.unpack_from('L', inst, 1)[0]
-            sz  = 5
+            sz = 5
         else:
             imm = None
-            sz  = 1
+            sz = 1
         text = "%s %s, %s" % (
             ida_lines.COLSTR(simplevm_data_format.INST[op], ida_lines.SCOLOR_INSN),
             ida_lines.COLSTR(simplevm_data_format.REGS[r1], ida_lines.SCOLOR_REG),
             ida_lines.COLSTR("0x%08X" % imm, ida_lines.SCOLOR_NUMBER) if imm is not None else ida_lines.COLSTR(simplevm_data_format.REGS[r2], ida_lines.SCOLOR_REG))
-        return (sz, text)
-
+        return sz, text
+    
     def printf(self, value, current_ea, operand_num, dtid):
         r = self.disasm(value)
         if not r:
@@ -149,13 +154,14 @@ class simplevm_data_format(ida_bytes.data_format_t):
 # -----------------------------------------------------------------------
 # This format will display DWORD values as MAKE_DWORD(0xHI, 0xLO)
 class makedword_data_format(ida_bytes.data_format_t):
+    
     def __init__(self):
         ida_bytes.data_format_t.__init__(
             self,
             "py_makedword",
             4,
             "Make DWORD")
-
+    
     def printf(self, value, current_ea, operand_num, dtid):
         if len(value) != 4: return None
         w1 = struct.unpack_from("H", value, 0)[0]
@@ -174,6 +180,7 @@ class makedword_data_format(ida_bytes.data_format_t):
 # The get_rsrc_string() is not optimal since it loads/unloads the
 # DLL each time for a new string. It can be improved in many ways.
 class rsrc_string_format(ida_bytes.data_format_t):
+    
     def __init__(self):
         ida_bytes.data_format_t.__init__(
             self,
@@ -181,7 +188,7 @@ class rsrc_string_format(ida_bytes.data_format_t):
             1,
             "Resource string")
         self.cache_node = ida_netnode.netnode("$ py_w32rsrcstring", 0, 1)
-
+    
     def get_rsrc_string(self, fn, id):
         """
         Simple method that loads the input file as a DLL with LOAD_LIBRARY_AS_DATAFILE flag.
@@ -189,19 +196,19 @@ class rsrc_string_format(ida_bytes.data_format_t):
         """
         k32 = ctypes.windll.kernel32
         u32 = ctypes.windll.user32
-
+        
         hinst = k32.LoadLibraryExA(fn, 0, 0x2)
         if hinst == 0:
             return ""
         buf = ctypes.create_string_buffer(1024)
-        r   = u32.LoadStringA(hinst, id, buf, 1024-1)
+        r = u32.LoadStringA(hinst, id, buf, 1024 - 1)
         k32.FreeLibrary(hinst)
         return buf.value if r else ""
-
+    
     def printf(self, value, current_ea, operand_num, dtid):
         # Is it already cached?
         val = self.cache_node.supval(current_ea)
-
+        
         # Not cached?
         if val == None:
             # Retrieve it
@@ -209,7 +216,7 @@ class rsrc_string_format(ida_bytes.data_format_t):
             val = self.get_rsrc_string(ida_nalt.get_input_file_path(), num)
             # Cache it
             self.cache_node.supset(current_ea, val)
-
+        
         # Failed to retrieve?
         if val == "" or val == "\x00":
             return None
@@ -221,10 +228,10 @@ class rsrc_string_format(ida_bytes.data_format_t):
 # If a tuple has one element then it is the format to be registered with dtid=0
 # If the tuple has more than one element, the tuple[0] is the data type and tuple[1:] are the data formats
 new_formats = [
-  (pascal_data_type(), pascal_data_format()),
-  (simplevm_data_type(), simplevm_data_format()),
-  (makedword_data_format(),),
-  (simplevm_data_format(),),
+    (pascal_data_type(), pascal_data_format()),
+    (simplevm_data_type(), simplevm_data_format()),
+    (makedword_data_format(),),
+    (simplevm_data_format(),),
 ]
 
 try:

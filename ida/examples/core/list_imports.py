@@ -20,8 +20,9 @@ for i in range(nimps):
     if not name:
         print("Failed to get import module name for #%d" % i)
         name = "<unnamed>"
-
+    
     print("Walking imports for module %s" % name)
+    
     def imp_cb(ea, name, ordinal):
         if not name:
             print("%08x: ordinal #%d" % (ea, ordinal))
@@ -30,6 +31,7 @@ for i in range(nimps):
         # True -> Continue enumeration
         # False -> Stop enumeration
         return True
+    
     ida_nalt.enum_import_names(i, imp_cb)
 
 print("All done...")

@@ -27,22 +27,22 @@ class mycli_t(ida_kernwin.cli_t):
     flags = 0
     sname = "pycli"
     lname = "Python CLI"
-    hint  = "pycli hint"
-
+    hint = "pycli hint"
+    
     def OnExecuteLine(self, line):
         print("OnExecute:", line)
         return True
-
+    
     def OnKeydown(self, line, x, sellen, vkey, shift):
         print("Onkeydown: line=%s x=%d sellen=%d vkey=%d shift=%d" % (line, x, sellen, vkey, shift))
         return None
-
+    
     completions = [
         "bonnie & clyde",
         "bonfire of the vanities",
         "bongiorno",
     ]
-
+    
     def OnCompleteLine(self, prefix, n, line, prefix_start):
         print("OnCompleteLine: prefix=%s n=%d line=%s prefix_start=%d" % (prefix, n, line, prefix_start))
         if prefix == "bon":

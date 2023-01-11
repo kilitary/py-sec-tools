@@ -15,10 +15,11 @@ import ida_idaapi
 
 # -------------------------------------------------------------------------
 class patched_bytes_visitor(object):
+    
     def __init__(self):
         self.skip = 0
         self.patch = 0
-
+    
     def __call__(self, ea, fpos, o, v, cnt=()):
         if fpos == -1:
             self.skip += 1
@@ -27,7 +28,6 @@ class patched_bytes_visitor(object):
             self.patch += 1
             print("  ea: %x fpos: %x o: %x v: %x" % (ea, fpos, o, v))
         return 0
-
 
 # -------------------------------------------------------------------------
 def main():
@@ -38,7 +38,6 @@ def main():
         print("visit_patched_bytes() returned %d" % r)
     else:
         print("Patched: %d Skipped: %d" % (v.patch, v.skip))
-
 
 # -------------------------------------------------------------------------
 if __name__ == '__main__':

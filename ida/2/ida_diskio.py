@@ -11,6 +11,7 @@ IDA Plugin SDK API wrapper: diskio
 """
 
 from sys import version_info as _swig_python_version_info
+
 if _swig_python_version_info < (2, 7, 0):
     raise RuntimeError('Python 2.7 or later required')
 
@@ -40,10 +41,8 @@ def _swig_setattr_nondynamic(self, class_type, name, value, static=1):
     else:
         raise AttributeError("You cannot add attributes to %s" % self)
 
-
 def _swig_setattr(self, class_type, name, value):
     return _swig_setattr_nondynamic(self, class_type, name, value, 0)
-
 
 def _swig_getattr(self, class_type, name):
     if name == "thisown":
@@ -53,14 +52,12 @@ def _swig_getattr(self, class_type, name):
         return method(self)
     raise AttributeError("'%s' object has no attribute '%s'" % (class_type.__name__, name))
 
-
 def _swig_repr(self):
     try:
         strthis = "proxy of " + self.this.__repr__()
     except __builtin__.Exception:
         strthis = ""
     return "<%s.%s; %s >" % (self.__class__.__module__, self.__class__.__name__, strthis,)
-
 
 def _swig_setattr_nondynamic_instance_variable(set):
     def set_instance_attr(self, name, value):
@@ -72,8 +69,8 @@ def _swig_setattr_nondynamic_instance_variable(set):
             set(self, name, value)
         else:
             raise AttributeError("You cannot add instance attributes to %s" % self)
+    
     return set_instance_attr
-
 
 def _swig_setattr_nondynamic_class_variable(set):
     def set_class_attr(cls, name, value):
@@ -81,17 +78,18 @@ def _swig_setattr_nondynamic_class_variable(set):
             set(cls, name, value)
         else:
             raise AttributeError("You cannot add class attributes to %s" % cls)
+    
     return set_class_attr
-
 
 def _swig_add_metaclass(metaclass):
     """
     Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down version of six.add_metaclass
     """
+    
     def wrapper(cls):
         return metaclass(cls.__name__, cls.__bases__, cls.__dict__.copy())
+    
     return wrapper
-
 
 class _SwigNonDynamicMeta(type):
     """
@@ -99,28 +97,20 @@ class _SwigNonDynamicMeta(type):
     """
     __setattr__ = _swig_setattr_nondynamic_class_variable(type.__setattr__)
 
-
 import weakref
 
 SWIG_PYTHON_LEGACY_BOOL = _ida_diskio.SWIG_PYTHON_LEGACY_BOOL
 
 import ida_idaapi
 
-
 import sys
+
 _BC695 = sys.modules["__main__"].IDAPYTHON_COMPAT_695_API
 
 if _BC695:
-
-
-
-
-
-
     def bc695redef(func):
         ida_idaapi._BC695.replace_fun(func)
         return func
-
 
 def idadir(*args):
     r"""
@@ -148,6 +138,7 @@ def getsysfile(*args):
         @return: NULL if not found, otherwise a pointer to full file name.
     """
     return _ida_diskio.getsysfile(*args)
+
 CFG_SUBDIR = _ida_diskio.CFG_SUBDIR
 
 IDC_SUBDIR = _ida_diskio.IDC_SUBDIR
@@ -165,7 +156,6 @@ TIL_SUBDIR = _ida_diskio.TIL_SUBDIR
 PLG_SUBDIR = _ida_diskio.PLG_SUBDIR
 
 THM_SUBDIR = _ida_diskio.THM_SUBDIR
-
 
 def get_user_idadir(*args):
     r"""
@@ -196,6 +186,7 @@ def get_ida_subdirs(*args):
         @return: number of directories appended to 'dirs'
     """
     return _ida_diskio.get_ida_subdirs(*args)
+
 IDA_SUBDIR_IDP = _ida_diskio.IDA_SUBDIR_IDP
 """
 append the processor name as a subdirectory
@@ -211,7 +202,6 @@ IDA_SUBDIR_ONLY_EXISTING = _ida_diskio.IDA_SUBDIR_ONLY_EXISTING
 only existing directories will be present
 """
 
-
 def get_special_folder(*args):
     r"""
 
@@ -223,6 +213,7 @@ def get_special_folder(*args):
         @param csidl (C++: int)
     """
     return _ida_diskio.get_special_folder(*args)
+
 CSIDL_APPDATA = _ida_diskio.CSIDL_APPDATA
 
 CSIDL_LOCAL_APPDATA = _ida_diskio.CSIDL_LOCAL_APPDATA
@@ -237,10 +228,10 @@ class file_enumerator_t(object):
     r"""
     Proxy of C++ file_enumerator_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
-
+    
     def visit_file(self, *args):
         r"""
 
@@ -249,8 +240,9 @@ class file_enumerator_t(object):
             @param file (C++: const char *)
         """
         return _ida_diskio.file_enumerator_t_visit_file(self, *args)
+    
     __swig_destroy__ = _ida_diskio.delete_file_enumerator_t
-
+    
     def __init__(self, *args):
         r"""
 
@@ -263,6 +255,7 @@ class file_enumerator_t(object):
         else:
             _self = self
         _ida_diskio.file_enumerator_t_swiginit(self, _ida_diskio.new_file_enumerator_t(_self, *args))
+    
     def __disown__(self):
         self.this.disown()
         _ida_diskio.disown_file_enumerator_t(self)
@@ -270,7 +263,6 @@ class file_enumerator_t(object):
 
 # Register file_enumerator_t in _ida_diskio:
 _ida_diskio.file_enumerator_t_swigregister(file_enumerator_t)
-
 
 def enumerate_files2(*args):
     r"""
@@ -358,14 +350,15 @@ def fopenA(*args):
         @return: NULL if failure
     """
     return _ida_diskio.fopenA(*args)
+
 class ioports_fallback_t(object):
     r"""
     Proxy of C++ ioports_fallback_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
-
+    
     def handle(self, *args):
         r"""
 
@@ -375,7 +368,7 @@ class ioports_fallback_t(object):
             @param line (C++: const char *)
         """
         return _ida_diskio.ioports_fallback_t_handle(self, *args)
-
+    
     def __init__(self, *args):
         r"""
 
@@ -388,7 +381,9 @@ class ioports_fallback_t(object):
         else:
             _self = self
         _ida_diskio.ioports_fallback_t_swiginit(self, _ida_diskio.new_ioports_fallback_t(_self, *args))
+    
     __swig_destroy__ = _ida_diskio.delete_ioports_fallback_t
+    
     def __disown__(self):
         self.this.disown()
         _ida_diskio.disown_ioports_fallback_t(self)
@@ -396,7 +391,6 @@ class ioports_fallback_t(object):
 
 # Register ioports_fallback_t in _ida_diskio:
 _ida_diskio.ioports_fallback_t_swigregister(ioports_fallback_t)
-
 
 def read_ioports2(*args):
     r"""
@@ -409,14 +403,15 @@ def read_ioports2(*args):
         @param callback (C++: ioports_fallback_t  *)
     """
     return _ida_diskio.read_ioports2(*args)
+
 class choose_ioport_parser_t(object):
     r"""
     Proxy of C++ choose_ioport_parser_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
-
+    
     def parse(self, *args):
         r"""
 
@@ -429,7 +424,7 @@ class choose_ioport_parser_t(object):
             @retval: false - and fill PARAM with an error message
         """
         return _ida_diskio.choose_ioport_parser_t_parse(self, *args)
-
+    
     def __init__(self, *args):
         r"""
 
@@ -442,7 +437,9 @@ class choose_ioport_parser_t(object):
         else:
             _self = self
         _ida_diskio.choose_ioport_parser_t_swiginit(self, _ida_diskio.new_choose_ioport_parser_t(_self, *args))
+    
     __swig_destroy__ = _ida_diskio.delete_choose_ioport_parser_t
+    
     def __disown__(self):
         self.this.disown()
         _ida_diskio.disown_choose_ioport_parser_t(self)
@@ -450,7 +447,6 @@ class choose_ioport_parser_t(object):
 
 # Register choose_ioport_parser_t in _ida_diskio:
 _ida_diskio.choose_ioport_parser_t_swigregister(choose_ioport_parser_t)
-
 
 def choose_ioport_device2(*args):
     r"""
@@ -462,6 +458,7 @@ def choose_ioport_device2(*args):
         @param parse_params (C++: choose_ioport_parser_t  *)
     """
     return _ida_diskio.choose_ioport_device2(*args)
+
 LINPUT_NONE = _ida_diskio.LINPUT_NONE
 
 LINPUT_LOCAL = _ida_diskio.LINPUT_LOCAL
@@ -471,7 +468,6 @@ LINPUT_RFILE = _ida_diskio.LINPUT_RFILE
 LINPUT_PROCMEM = _ida_diskio.LINPUT_PROCMEM
 
 LINPUT_GENERIC = _ida_diskio.LINPUT_GENERIC
-
 
 def qlgetz(*args):
     r"""
@@ -497,19 +493,21 @@ def open_linput(*args):
         @param remote (C++: bool)
     """
     return _ida_diskio.open_linput(*args)
+
 class generic_linput_t(object):
     r"""
     Proxy of C++ generic_linput_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
-
+    
     def __init__(self, *args, **kwargs):
         raise AttributeError("No constructor defined - class is abstract")
+    
     __repr__ = _swig_repr
     filesize = property(_ida_diskio.generic_linput_t_filesize_get, _ida_diskio.generic_linput_t_filesize_set)
     blocksize = property(_ida_diskio.generic_linput_t_blocksize_get, _ida_diskio.generic_linput_t_blocksize_set)
-
+    
     def read(self, *args):
         r"""
 
@@ -520,11 +518,11 @@ class generic_linput_t(object):
             @param nbytes (C++: size_t)
         """
         return _ida_diskio.generic_linput_t_read(self, *args)
+    
     __swig_destroy__ = _ida_diskio.delete_generic_linput_t
 
 # Register generic_linput_t in _ida_diskio:
 _ida_diskio.generic_linput_t_swigregister(generic_linput_t)
-
 
 def create_generic_linput(*args):
     r"""
@@ -612,10 +610,10 @@ def close_linput(*args):
     """
     return _ida_diskio.close_linput(*args)
 
-#<pycode(py_diskio)>
-#</pycode(py_diskio)>
+# <pycode(py_diskio)>
+# </pycode(py_diskio)>
 
 
 if _BC695:
-    create_generic_linput64=create_generic_linput
-    generic_linput64_t=generic_linput_t
+    create_generic_linput64 = create_generic_linput
+    generic_linput64_t = generic_linput_t

@@ -23,6 +23,7 @@ import ida_kernwin
 import ida_lines
 
 class dump_selection_handler_t(ida_kernwin.action_handler_t):
+    
     def activate(self, ctx):
         if ctx.has_flag(ida_kernwin.ACF_HAS_SELECTION):
             tp0, tp1 = ctx.cur_sel._from, ctx.cur_sel.to
@@ -34,18 +35,18 @@ class dump_selection_handler_t(ida_kernwin.action_handler_t):
                 cur_place = lnar.get_place()
                 first_line_ref = ida_kernwin.l_compare2(cur_place, tp0.at, ud)
                 last_line_ref = ida_kernwin.l_compare2(cur_place, tp1.at, ud)
-                if last_line_ref > 0: # beyond last line
+                if last_line_ref > 0:  # beyond last line
                     break
                 line = ida_lines.tag_remove(lnar.down())
-                if last_line_ref == 0: # at last line
+                if last_line_ref == 0:  # at last line
                     line = line[0:tp1.x]
-                elif first_line_ref == 0: # at first line
+                elif first_line_ref == 0:  # at first line
                     line = ' ' * tp0.x + line[tp0.x:]
                 lines.append(line)
             for line in lines:
                 print(line)
         return 1
-
+    
     def update(self, ctx):
         ok_widgets = [
             ida_kernwin.BWN_DISASM,
@@ -57,7 +58,6 @@ class dump_selection_handler_t(ida_kernwin.action_handler_t):
             if ctx.widget_type in ok_widgets \
             else ida_kernwin.AST_DISABLE_FOR_WIDGET
 
-
 # -----------------------------------------------------------------------
 # create actions (and attach them to IDA View-A's context menu if possible)
 ACTION_NAME = "dump_selection"
@@ -67,9 +67,9 @@ if ida_kernwin.unregister_action(ACTION_NAME):
     print("Unregistered previously-registered action \"%s\"" % ACTION_NAME)
 
 if ida_kernwin.register_action(
-        ida_kernwin.action_desc_t(
-            ACTION_NAME,
-            "Dump selection",
-            dump_selection_handler_t(),
-            ACTION_SHORTCUT)):
+    ida_kernwin.action_desc_t(
+        ACTION_NAME,
+        "Dump selection",
+        dump_selection_handler_t(),
+        ACTION_SHORTCUT)):
     print("Registered action \"%s\"" % ACTION_NAME)

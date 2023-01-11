@@ -11,6 +11,7 @@ IDA Plugin SDK API wrapper: dirtree
 """
 
 from sys import version_info as _swig_python_version_info
+
 if _swig_python_version_info < (2, 7, 0):
     raise RuntimeError('Python 2.7 or later required')
 
@@ -40,10 +41,8 @@ def _swig_setattr_nondynamic(self, class_type, name, value, static=1):
     else:
         raise AttributeError("You cannot add attributes to %s" % self)
 
-
 def _swig_setattr(self, class_type, name, value):
     return _swig_setattr_nondynamic(self, class_type, name, value, 0)
-
 
 def _swig_getattr(self, class_type, name):
     if name == "thisown":
@@ -53,14 +52,12 @@ def _swig_getattr(self, class_type, name):
         return method(self)
     raise AttributeError("'%s' object has no attribute '%s'" % (class_type.__name__, name))
 
-
 def _swig_repr(self):
     try:
         strthis = "proxy of " + self.this.__repr__()
     except __builtin__.Exception:
         strthis = ""
     return "<%s.%s; %s >" % (self.__class__.__module__, self.__class__.__name__, strthis,)
-
 
 def _swig_setattr_nondynamic_instance_variable(set):
     def set_instance_attr(self, name, value):
@@ -72,8 +69,8 @@ def _swig_setattr_nondynamic_instance_variable(set):
             set(self, name, value)
         else:
             raise AttributeError("You cannot add instance attributes to %s" % self)
+    
     return set_instance_attr
-
 
 def _swig_setattr_nondynamic_class_variable(set):
     def set_class_attr(cls, name, value):
@@ -81,17 +78,18 @@ def _swig_setattr_nondynamic_class_variable(set):
             set(cls, name, value)
         else:
             raise AttributeError("You cannot add class attributes to %s" % cls)
+    
     return set_class_attr
-
 
 def _swig_add_metaclass(metaclass):
     """
     Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down version of six.add_metaclass
     """
+    
     def wrapper(cls):
         return metaclass(cls.__name__, cls.__bases__, cls.__dict__.copy())
+    
     return wrapper
-
 
 class _SwigNonDynamicMeta(type):
     """
@@ -99,24 +97,17 @@ class _SwigNonDynamicMeta(type):
     """
     __setattr__ = _swig_setattr_nondynamic_class_variable(type.__setattr__)
 
-
 import weakref
 
 SWIG_PYTHON_LEGACY_BOOL = _ida_dirtree.SWIG_PYTHON_LEGACY_BOOL
 
 import ida_idaapi
 
-
 import sys
+
 _BC695 = sys.modules["__main__"].IDAPYTHON_COMPAT_695_API
 
 if _BC695:
-
-
-
-
-
-
     def bc695redef(func):
         ida_idaapi._BC695.replace_fun(func)
         return func
@@ -125,10 +116,10 @@ class direntry_vec_t(object):
     r"""
     Proxy of C++ qvector< direntry_t > class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
-
+    
     def __init__(self, *args):
         r"""
 
@@ -137,8 +128,9 @@ class direntry_vec_t(object):
             x: qvector< direntry_t > const &
         """
         _ida_dirtree.direntry_vec_t_swiginit(self, _ida_dirtree.new_direntry_vec_t(*args))
+    
     __swig_destroy__ = _ida_dirtree.delete_direntry_vec_t
-
+    
     def push_back(self, *args):
         r"""
 
@@ -147,25 +139,25 @@ class direntry_vec_t(object):
             x: direntry_t const &
         """
         return _ida_dirtree.direntry_vec_t_push_back(self, *args)
-
+    
     def pop_back(self, *args):
         r"""
         pop_back(self)
         """
         return _ida_dirtree.direntry_vec_t_pop_back(self, *args)
-
+    
     def size(self, *args):
         r"""
         size(self) -> size_t
         """
         return _ida_dirtree.direntry_vec_t_size(self, *args)
-
+    
     def empty(self, *args):
         r"""
         empty(self) -> bool
         """
         return _ida_dirtree.direntry_vec_t_empty(self, *args)
-
+    
     def at(self, *args):
         r"""
 
@@ -174,19 +166,19 @@ class direntry_vec_t(object):
             _idx: size_t
         """
         return _ida_dirtree.direntry_vec_t_at(self, *args)
-
+    
     def qclear(self, *args):
         r"""
         qclear(self)
         """
         return _ida_dirtree.direntry_vec_t_qclear(self, *args)
-
+    
     def clear(self, *args):
         r"""
         clear(self)
         """
         return _ida_dirtree.direntry_vec_t_clear(self, *args)
-
+    
     def resize(self, *args):
         r"""
 
@@ -200,7 +192,7 @@ class direntry_vec_t(object):
             _newsize: size_t
         """
         return _ida_dirtree.direntry_vec_t_resize(self, *args)
-
+    
     def grow(self, *args):
         r"""
 
@@ -209,13 +201,13 @@ class direntry_vec_t(object):
             x: direntry_t const &
         """
         return _ida_dirtree.direntry_vec_t_grow(self, *args)
-
+    
     def capacity(self, *args):
         r"""
         capacity(self) -> size_t
         """
         return _ida_dirtree.direntry_vec_t_capacity(self, *args)
-
+    
     def reserve(self, *args):
         r"""
 
@@ -224,13 +216,13 @@ class direntry_vec_t(object):
             cnt: size_t
         """
         return _ida_dirtree.direntry_vec_t_reserve(self, *args)
-
+    
     def truncate(self, *args):
         r"""
         truncate(self)
         """
         return _ida_dirtree.direntry_vec_t_truncate(self, *args)
-
+    
     def swap(self, *args):
         r"""
 
@@ -239,13 +231,13 @@ class direntry_vec_t(object):
             r: qvector< direntry_t > &
         """
         return _ida_dirtree.direntry_vec_t_swap(self, *args)
-
+    
     def extract(self, *args):
         r"""
         extract(self) -> direntry_t
         """
         return _ida_dirtree.direntry_vec_t_extract(self, *args)
-
+    
     def inject(self, *args):
         r"""
 
@@ -255,7 +247,7 @@ class direntry_vec_t(object):
             len: size_t
         """
         return _ida_dirtree.direntry_vec_t_inject(self, *args)
-
+    
     def __eq__(self, *args):
         r"""
 
@@ -264,7 +256,7 @@ class direntry_vec_t(object):
             r: qvector< direntry_t > const &
         """
         return _ida_dirtree.direntry_vec_t___eq__(self, *args)
-
+    
     def __ne__(self, *args):
         r"""
 
@@ -273,21 +265,21 @@ class direntry_vec_t(object):
             r: qvector< direntry_t > const &
         """
         return _ida_dirtree.direntry_vec_t___ne__(self, *args)
-
+    
     def begin(self, *args):
         r"""
         begin(self) -> direntry_t
         begin(self) -> direntry_t
         """
         return _ida_dirtree.direntry_vec_t_begin(self, *args)
-
+    
     def end(self, *args):
         r"""
         end(self) -> direntry_t
         end(self) -> direntry_t
         """
         return _ida_dirtree.direntry_vec_t_end(self, *args)
-
+    
     def insert(self, *args):
         r"""
 
@@ -297,7 +289,7 @@ class direntry_vec_t(object):
             x: direntry_t const &
         """
         return _ida_dirtree.direntry_vec_t_insert(self, *args)
-
+    
     def erase(self, *args):
         r"""
 
@@ -311,7 +303,7 @@ class direntry_vec_t(object):
             last: qvector< direntry_t >::iterator
         """
         return _ida_dirtree.direntry_vec_t_erase(self, *args)
-
+    
     def find(self, *args):
         r"""
 
@@ -324,7 +316,7 @@ class direntry_vec_t(object):
             x: direntry_t const &
         """
         return _ida_dirtree.direntry_vec_t_find(self, *args)
-
+    
     def has(self, *args):
         r"""
 
@@ -333,7 +325,7 @@ class direntry_vec_t(object):
             x: direntry_t const &
         """
         return _ida_dirtree.direntry_vec_t_has(self, *args)
-
+    
     def add_unique(self, *args):
         r"""
 
@@ -342,7 +334,7 @@ class direntry_vec_t(object):
             x: direntry_t const &
         """
         return _ida_dirtree.direntry_vec_t_add_unique(self, *args)
-
+    
     def _del(self, *args):
         r"""
 
@@ -351,13 +343,13 @@ class direntry_vec_t(object):
             x: direntry_t const &
         """
         return _ida_dirtree.direntry_vec_t__del(self, *args)
-
+    
     def __len__(self, *args):
         r"""
         __len__(self) -> size_t
         """
         return _ida_dirtree.direntry_vec_t___len__(self, *args)
-
+    
     def __getitem__(self, *args):
         r"""
 
@@ -366,7 +358,7 @@ class direntry_vec_t(object):
             i: size_t
         """
         return _ida_dirtree.direntry_vec_t___getitem__(self, *args)
-
+    
     def __setitem__(self, *args):
         r"""
 
@@ -376,11 +368,10 @@ class direntry_vec_t(object):
             v: direntry_t const &
         """
         return _ida_dirtree.direntry_vec_t___setitem__(self, *args)
-
+    
     front = ida_idaapi._qvector_front
     back = ida_idaapi._qvector_back
     __iter__ = ida_idaapi._bounded_getitem_iterator
-
 
 # Register direntry_vec_t in _ida_dirtree:
 _ida_dirtree.direntry_vec_t_swigregister(direntry_vec_t)
@@ -389,10 +380,10 @@ class dirtree_cursor_vec_t(object):
     r"""
     Proxy of C++ qvector< dirtree_cursor_t > class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
-
+    
     def __init__(self, *args):
         r"""
 
@@ -401,8 +392,9 @@ class dirtree_cursor_vec_t(object):
             x: qvector< dirtree_cursor_t > const &
         """
         _ida_dirtree.dirtree_cursor_vec_t_swiginit(self, _ida_dirtree.new_dirtree_cursor_vec_t(*args))
+    
     __swig_destroy__ = _ida_dirtree.delete_dirtree_cursor_vec_t
-
+    
     def push_back(self, *args):
         r"""
 
@@ -411,25 +403,25 @@ class dirtree_cursor_vec_t(object):
             x: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t_push_back(self, *args)
-
+    
     def pop_back(self, *args):
         r"""
         pop_back(self)
         """
         return _ida_dirtree.dirtree_cursor_vec_t_pop_back(self, *args)
-
+    
     def size(self, *args):
         r"""
         size(self) -> size_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_size(self, *args)
-
+    
     def empty(self, *args):
         r"""
         empty(self) -> bool
         """
         return _ida_dirtree.dirtree_cursor_vec_t_empty(self, *args)
-
+    
     def at(self, *args):
         r"""
 
@@ -438,19 +430,19 @@ class dirtree_cursor_vec_t(object):
             _idx: size_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_at(self, *args)
-
+    
     def qclear(self, *args):
         r"""
         qclear(self)
         """
         return _ida_dirtree.dirtree_cursor_vec_t_qclear(self, *args)
-
+    
     def clear(self, *args):
         r"""
         clear(self)
         """
         return _ida_dirtree.dirtree_cursor_vec_t_clear(self, *args)
-
+    
     def resize(self, *args):
         r"""
 
@@ -464,7 +456,7 @@ class dirtree_cursor_vec_t(object):
             _newsize: size_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_resize(self, *args)
-
+    
     def grow(self, *args):
         r"""
 
@@ -473,13 +465,13 @@ class dirtree_cursor_vec_t(object):
             x: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t_grow(self, *args)
-
+    
     def capacity(self, *args):
         r"""
         capacity(self) -> size_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_capacity(self, *args)
-
+    
     def reserve(self, *args):
         r"""
 
@@ -488,13 +480,13 @@ class dirtree_cursor_vec_t(object):
             cnt: size_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_reserve(self, *args)
-
+    
     def truncate(self, *args):
         r"""
         truncate(self)
         """
         return _ida_dirtree.dirtree_cursor_vec_t_truncate(self, *args)
-
+    
     def swap(self, *args):
         r"""
 
@@ -503,13 +495,13 @@ class dirtree_cursor_vec_t(object):
             r: qvector< dirtree_cursor_t > &
         """
         return _ida_dirtree.dirtree_cursor_vec_t_swap(self, *args)
-
+    
     def extract(self, *args):
         r"""
         extract(self) -> dirtree_cursor_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_extract(self, *args)
-
+    
     def inject(self, *args):
         r"""
 
@@ -519,7 +511,7 @@ class dirtree_cursor_vec_t(object):
             len: size_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_inject(self, *args)
-
+    
     def __eq__(self, *args):
         r"""
 
@@ -528,7 +520,7 @@ class dirtree_cursor_vec_t(object):
             r: qvector< dirtree_cursor_t > const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t___eq__(self, *args)
-
+    
     def __ne__(self, *args):
         r"""
 
@@ -537,21 +529,21 @@ class dirtree_cursor_vec_t(object):
             r: qvector< dirtree_cursor_t > const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t___ne__(self, *args)
-
+    
     def begin(self, *args):
         r"""
         begin(self) -> dirtree_cursor_t
         begin(self) -> dirtree_cursor_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_begin(self, *args)
-
+    
     def end(self, *args):
         r"""
         end(self) -> dirtree_cursor_t
         end(self) -> dirtree_cursor_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t_end(self, *args)
-
+    
     def insert(self, *args):
         r"""
 
@@ -561,7 +553,7 @@ class dirtree_cursor_vec_t(object):
             x: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t_insert(self, *args)
-
+    
     def erase(self, *args):
         r"""
 
@@ -575,7 +567,7 @@ class dirtree_cursor_vec_t(object):
             last: qvector< dirtree_cursor_t >::iterator
         """
         return _ida_dirtree.dirtree_cursor_vec_t_erase(self, *args)
-
+    
     def find(self, *args):
         r"""
 
@@ -588,7 +580,7 @@ class dirtree_cursor_vec_t(object):
             x: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t_find(self, *args)
-
+    
     def has(self, *args):
         r"""
 
@@ -597,7 +589,7 @@ class dirtree_cursor_vec_t(object):
             x: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t_has(self, *args)
-
+    
     def add_unique(self, *args):
         r"""
 
@@ -606,7 +598,7 @@ class dirtree_cursor_vec_t(object):
             x: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t_add_unique(self, *args)
-
+    
     def _del(self, *args):
         r"""
 
@@ -615,13 +607,13 @@ class dirtree_cursor_vec_t(object):
             x: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t__del(self, *args)
-
+    
     def __len__(self, *args):
         r"""
         __len__(self) -> size_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t___len__(self, *args)
-
+    
     def __getitem__(self, *args):
         r"""
 
@@ -630,7 +622,7 @@ class dirtree_cursor_vec_t(object):
             i: size_t
         """
         return _ida_dirtree.dirtree_cursor_vec_t___getitem__(self, *args)
-
+    
     def __setitem__(self, *args):
         r"""
 
@@ -640,11 +632,10 @@ class dirtree_cursor_vec_t(object):
             v: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_vec_t___setitem__(self, *args)
-
+    
     front = ida_idaapi._qvector_front
     back = ida_idaapi._qvector_back
     __iter__ = ida_idaapi._bounded_getitem_iterator
-
 
 # Register dirtree_cursor_vec_t in _ida_dirtree:
 _ida_dirtree.dirtree_cursor_vec_t_swigregister(dirtree_cursor_vec_t)
@@ -653,16 +644,15 @@ class direntry_t(object):
     r"""
     Proxy of C++ direntry_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     idx = property(_ida_dirtree.direntry_t_idx_get, _ida_dirtree.direntry_t_idx_set)
     isdir = property(_ida_dirtree.direntry_t_isdir_get, _ida_dirtree.direntry_t_isdir_set)
     BADIDX = _ida_dirtree.direntry_t_BADIDX
-
+    
     ROOTIDX = _ida_dirtree.direntry_t_ROOTIDX
-
-
+    
     def __init__(self, *args):
         r"""
 
@@ -672,13 +662,13 @@ class direntry_t(object):
             d: bool
         """
         _ida_dirtree.direntry_t_swiginit(self, _ida_dirtree.new_direntry_t(*args))
-
+    
     def valid(self, *args):
         r"""
         valid(self) -> bool
         """
         return _ida_dirtree.direntry_t_valid(self, *args)
-
+    
     def __eq__(self, *args):
         r"""
 
@@ -687,7 +677,7 @@ class direntry_t(object):
             r: direntry_t const &
         """
         return _ida_dirtree.direntry_t___eq__(self, *args)
-
+    
     def __ne__(self, *args):
         r"""
 
@@ -696,7 +686,7 @@ class direntry_t(object):
             r: direntry_t const &
         """
         return _ida_dirtree.direntry_t___ne__(self, *args)
-
+    
     def __lt__(self, *args):
         r"""
 
@@ -705,6 +695,7 @@ class direntry_t(object):
             r: direntry_t const &
         """
         return _ida_dirtree.direntry_t___lt__(self, *args)
+    
     __swig_destroy__ = _ida_dirtree.delete_direntry_t
 
 # Register direntry_t in _ida_dirtree:
@@ -714,16 +705,16 @@ class dirspec_t(object):
     r"""
     Proxy of C++ dirspec_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     flags = property(_ida_dirtree.dirspec_t_flags_get, _ida_dirtree.dirspec_t_flags_set)
     DSF_INODE_EA = _ida_dirtree.dirspec_t_DSF_INODE_EA
-
+    
     DSF_PRIVRANGE = _ida_dirtree.dirspec_t_DSF_PRIVRANGE
-
+    
     nodename = property(_ida_dirtree.dirspec_t_nodename_get, _ida_dirtree.dirspec_t_nodename_set)
-
+    
     def __init__(self, *args):
         r"""
 
@@ -737,8 +728,9 @@ class dirspec_t(object):
         else:
             _self = self
         _ida_dirtree.dirspec_t_swiginit(self, _ida_dirtree.new_dirspec_t(_self, *args))
+    
     __swig_destroy__ = _ida_dirtree.delete_dirspec_t
-
+    
     def get_name(self, *args):
         r"""
 
@@ -750,7 +742,7 @@ class dirspec_t(object):
             @return: false if the entry does not exist.
         """
         return _ida_dirtree.dirspec_t_get_name(self, *args)
-
+    
     def get_inode(self, *args):
         r"""
 
@@ -763,7 +755,7 @@ class dirspec_t(object):
             @return: the entry inode
         """
         return _ida_dirtree.dirspec_t_get_inode(self, *args)
-
+    
     def get_attrs(self, *args):
         r"""
 
@@ -772,7 +764,7 @@ class dirspec_t(object):
             @param inode (C++: inode_t)
         """
         return _ida_dirtree.dirspec_t_get_attrs(self, *args)
-
+    
     def rename_inode(self, *args):
         r"""
 
@@ -785,7 +777,7 @@ class dirspec_t(object):
             @return: success
         """
         return _ida_dirtree.dirspec_t_rename_inode(self, *args)
-
+    
     def unlink_inode(self, *args):
         r"""
 
@@ -796,6 +788,7 @@ class dirspec_t(object):
             @param inode (C++: inode_t)
         """
         return _ida_dirtree.dirspec_t_unlink_inode(self, *args)
+    
     def __disown__(self):
         self.this.disown()
         _ida_dirtree.disown_dirspec_t(self)
@@ -808,12 +801,12 @@ class dirtree_cursor_t(object):
     r"""
     Proxy of C++ dirtree_cursor_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     parent = property(_ida_dirtree.dirtree_cursor_t_parent_get, _ida_dirtree.dirtree_cursor_t_parent_set)
     rank = property(_ida_dirtree.dirtree_cursor_t_rank_get, _ida_dirtree.dirtree_cursor_t_rank_set)
-
+    
     def __init__(self, *args):
         r"""
 
@@ -823,32 +816,32 @@ class dirtree_cursor_t(object):
             _rank: size_t
         """
         _ida_dirtree.dirtree_cursor_t_swiginit(self, _ida_dirtree.new_dirtree_cursor_t(*args))
-
+    
     def valid(self, *args):
         r"""
         valid(self) -> bool
         """
         return _ida_dirtree.dirtree_cursor_t_valid(self, *args)
-
+    
     def is_root_cursor(self, *args):
         r"""
         is_root_cursor(self) -> bool
         """
         return _ida_dirtree.dirtree_cursor_t_is_root_cursor(self, *args)
-
+    
     def set_root_cursor(self, *args):
         r"""
         set_root_cursor(self)
         """
         return _ida_dirtree.dirtree_cursor_t_set_root_cursor(self, *args)
-
+    
     @staticmethod
     def root_cursor(*args):
         r"""
         root_cursor() -> dirtree_cursor_t
         """
         return _ida_dirtree.dirtree_cursor_t_root_cursor(*args)
-
+    
     def __eq__(self, *args):
         r"""
 
@@ -857,7 +850,7 @@ class dirtree_cursor_t(object):
             r: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_t___eq__(self, *args)
-
+    
     def __ne__(self, *args):
         r"""
 
@@ -866,7 +859,7 @@ class dirtree_cursor_t(object):
             r: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_t___ne__(self, *args)
-
+    
     def __lt__(self, *args):
         r"""
 
@@ -875,7 +868,7 @@ class dirtree_cursor_t(object):
             r: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_t___lt__(self, *args)
-
+    
     def __gt__(self, *args):
         r"""
 
@@ -884,7 +877,7 @@ class dirtree_cursor_t(object):
             r: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_t___gt__(self, *args)
-
+    
     def __le__(self, *args):
         r"""
 
@@ -893,7 +886,7 @@ class dirtree_cursor_t(object):
             r: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_t___le__(self, *args)
-
+    
     def __ge__(self, *args):
         r"""
 
@@ -902,7 +895,7 @@ class dirtree_cursor_t(object):
             r: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_t___ge__(self, *args)
-
+    
     def compare(self, *args):
         r"""
 
@@ -911,6 +904,7 @@ class dirtree_cursor_t(object):
             r: dirtree_cursor_t const &
         """
         return _ida_dirtree.dirtree_cursor_t_compare(self, *args)
+    
     __swig_destroy__ = _ida_dirtree.delete_dirtree_cursor_t
 
 # Register dirtree_cursor_t in _ida_dirtree:
@@ -926,15 +920,16 @@ class dirtree_selection_t(dirtree_cursor_vec_t):
     r"""
     Proxy of C++ dirtree_selection_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
-
+    
     def __init__(self, *args):
         r"""
         __init__(self) -> dirtree_selection_t
         """
         _ida_dirtree.dirtree_selection_t_swiginit(self, _ida_dirtree.new_dirtree_selection_t(*args))
+    
     __swig_destroy__ = _ida_dirtree.delete_dirtree_selection_t
 
 # Register dirtree_selection_t in _ida_dirtree:
@@ -944,17 +939,18 @@ class dirtree_iterator_t(object):
     r"""
     Proxy of C++ dirtree_iterator_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
     pattern = property(_ida_dirtree.dirtree_iterator_t_pattern_get, _ida_dirtree.dirtree_iterator_t_pattern_set)
     cursor = property(_ida_dirtree.dirtree_iterator_t_cursor_get, _ida_dirtree.dirtree_iterator_t_cursor_set)
-
+    
     def __init__(self, *args):
         r"""
         __init__(self) -> dirtree_iterator_t
         """
         _ida_dirtree.dirtree_iterator_t_swiginit(self, _ida_dirtree.new_dirtree_iterator_t(*args))
+    
     __swig_destroy__ = _ida_dirtree.delete_dirtree_iterator_t
 
 # Register dirtree_iterator_t in _ida_dirtree:
@@ -984,10 +980,10 @@ class dirtree_t(object):
     r"""
     Proxy of C++ dirtree_t class.
     """
-
+    
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
     __repr__ = _swig_repr
-
+    
     def __init__(self, *args):
         r"""
 
@@ -996,8 +992,9 @@ class dirtree_t(object):
             ds: dirspec_t *
         """
         _ida_dirtree.dirtree_t_swiginit(self, _ida_dirtree.new_dirtree_t(*args))
+    
     __swig_destroy__ = _ida_dirtree.delete_dirtree_t
-
+    
     @staticmethod
     def errstr(*args):
         r"""
@@ -1007,7 +1004,7 @@ class dirtree_t(object):
             err: enum dterr_t
         """
         return _ida_dirtree.dirtree_t_errstr(*args)
-
+    
     def chdir(self, *args):
         r"""
 
@@ -1019,7 +1016,7 @@ class dirtree_t(object):
             @return: dterr_t  error code
         """
         return _ida_dirtree.dirtree_t_chdir(self, *args)
-
+    
     def getcwd(self, *args):
         r"""
 
@@ -1027,7 +1024,7 @@ class dirtree_t(object):
         Get current directory
         """
         return _ida_dirtree.dirtree_t_getcwd(self, *args)
-
+    
     def get_abspath(self, *args):
         r"""
 
@@ -1044,7 +1041,7 @@ class dirtree_t(object):
             @return: path. empty path means wrong directory part of RELPATH
         """
         return _ida_dirtree.dirtree_t_get_abspath(self, *args)
-
+    
     def resolve_cursor(self, *args):
         r"""
 
@@ -1057,7 +1054,7 @@ class dirtree_t(object):
                      will be invalid.
         """
         return _ida_dirtree.dirtree_t_resolve_cursor(self, *args)
-
+    
     def resolve_path(self, *args):
         r"""
 
@@ -1069,7 +1066,7 @@ class dirtree_t(object):
             @return: directory entry
         """
         return _ida_dirtree.dirtree_t_resolve_path(self, *args)
-
+    
     def isdir(self, *args):
         r"""
 
@@ -1086,7 +1083,7 @@ class dirtree_t(object):
             @return: true if the specified path is a directory
         """
         return _ida_dirtree.dirtree_t_isdir(self, *args)
-
+    
     def isfile(self, *args):
         r"""
 
@@ -1103,7 +1100,7 @@ class dirtree_t(object):
             @return: true if the specified path is a file
         """
         return _ida_dirtree.dirtree_t_isfile(self, *args)
-
+    
     def get_entry_name(self, *args):
         r"""
 
@@ -1115,7 +1112,7 @@ class dirtree_t(object):
             @return: name
         """
         return _ida_dirtree.dirtree_t_get_entry_name(self, *args)
-
+    
     def get_dir_size(self, *args):
         r"""
 
@@ -1127,7 +1124,7 @@ class dirtree_t(object):
             @return: number of entries under this directory; if error, return -1
         """
         return _ida_dirtree.dirtree_t_get_dir_size(self, *args)
-
+    
     def get_entry_attrs(self, *args):
         r"""
 
@@ -1139,7 +1136,7 @@ class dirtree_t(object):
             @return: name
         """
         return _ida_dirtree.dirtree_t_get_entry_attrs(self, *args)
-
+    
     def findfirst(self, *args):
         r"""
 
@@ -1153,7 +1150,7 @@ class dirtree_t(object):
             @return: success
         """
         return _ida_dirtree.dirtree_t_findfirst(self, *args)
-
+    
     def findnext(self, *args):
         r"""
 
@@ -1165,7 +1162,7 @@ class dirtree_t(object):
             @return: success
         """
         return _ida_dirtree.dirtree_t_findnext(self, *args)
-
+    
     def mkdir(self, *args):
         r"""
 
@@ -1177,7 +1174,7 @@ class dirtree_t(object):
             @return: dterr_t  error code
         """
         return _ida_dirtree.dirtree_t_mkdir(self, *args)
-
+    
     def rmdir(self, *args):
         r"""
 
@@ -1189,7 +1186,7 @@ class dirtree_t(object):
             @return: dterr_t  error code
         """
         return _ida_dirtree.dirtree_t_rmdir(self, *args)
-
+    
     def link(self, *args):
         r"""
 
@@ -1206,7 +1203,7 @@ class dirtree_t(object):
             @return: dterr_t  error code
         """
         return _ida_dirtree.dirtree_t_link(self, *args)
-
+    
     def unlink(self, *args):
         r"""
 
@@ -1223,7 +1220,7 @@ class dirtree_t(object):
             @return: dterr_t  error code
         """
         return _ida_dirtree.dirtree_t_unlink(self, *args)
-
+    
     def rename(self, *args):
         r"""
 
@@ -1236,7 +1233,7 @@ class dirtree_t(object):
             @return: dterr_t  error code
         """
         return _ida_dirtree.dirtree_t_rename(self, *args)
-
+    
     def get_rank(self, *args):
         r"""
 
@@ -1250,7 +1247,7 @@ class dirtree_t(object):
                      in the parent directory. -1 if error
         """
         return _ida_dirtree.dirtree_t_get_rank(self, *args)
-
+    
     def change_rank(self, *args):
         r"""
 
@@ -1264,7 +1261,7 @@ class dirtree_t(object):
             @return: dterr_t  error code
         """
         return _ida_dirtree.dirtree_t_change_rank(self, *args)
-
+    
     def get_parent_cursor(self, *args):
         r"""
 
@@ -1276,7 +1273,7 @@ class dirtree_t(object):
             @return: cursor's parent
         """
         return _ida_dirtree.dirtree_t_get_parent_cursor(self, *args)
-
+    
     def load(self, *args):
         r"""
 
@@ -1287,7 +1284,7 @@ class dirtree_t(object):
         considered a success.dirspec_t::nodename.
         """
         return _ida_dirtree.dirtree_t_load(self, *args)
-
+    
     def save(self, *args):
         r"""
 
@@ -1295,7 +1292,7 @@ class dirtree_t(object):
         Save the tree structure to the netnode.dirspec_t::nodename.
         """
         return _ida_dirtree.dirtree_t_save(self, *args)
-
+    
     def get_nodename(self, *args):
         r"""
 
@@ -1303,7 +1300,7 @@ class dirtree_t(object):
         netnode name
         """
         return _ida_dirtree.dirtree_t_get_nodename(self, *args)
-
+    
     def set_nodename(self, *args):
         r"""
 
@@ -1312,7 +1309,7 @@ class dirtree_t(object):
             @param nm (C++: const char *)
         """
         return _ida_dirtree.dirtree_t_set_nodename(self, *args)
-
+    
     def notify_dirtree(self, *args):
         r"""
 
@@ -1356,7 +1353,6 @@ DIRTREE_STRUCTS_BOOKMARKS = _ida_dirtree.DIRTREE_STRUCTS_BOOKMARKS
 DIRTREE_ENUMS_BOOKMARKS = _ida_dirtree.DIRTREE_ENUMS_BOOKMARKS
 
 DIRTREE_END = _ida_dirtree.DIRTREE_END
-
 
 def get_std_dirtree(*args):
     r"""

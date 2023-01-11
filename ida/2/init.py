@@ -52,7 +52,6 @@ except ImportError as e:
         print("\t%s" % p)
     raise
 
-
 # -----------------------------------------------------------------------
 # Take over the standard text outputs
 # -----------------------------------------------------------------------
@@ -60,14 +59,15 @@ class IDAPythonStdOut:
     """
     Dummy file-like class that receives stout and stderr
     """
+    
     def write(self, text):
         # NB: in case 'text' is Unicode, msg() will decode it
         # and call msg() to print it
         ida_kernwin.msg(text)
-
+    
     def flush(self):
         pass
-
+    
     def isatty(self):
         return False
 
@@ -81,18 +81,19 @@ def runscript(script):
 
     @return: Error string or None on success
     """
-
+    
     import ida_idaapi
+    
     return ida_idaapi.IDAPython_ExecScript(script, globals())
 
 # -----------------------------------------------------------------------
 def print_banner():
     banner = [
-      "Python %s " % sys.version,
-      "IDAPython" + (" 64-bit" if ida_idaapi.__EA64__ else "") + " v%d.%d.%d %s (serial %d) (c) The IDAPython Team <idapython@googlegroups.com>" % IDAPYTHON_VERSION
+        "Python %s " % sys.version,
+        "IDAPython" + (" 64-bit" if ida_idaapi.__EA64__ else "") + " v%d.%d.%d %s (serial %d) (c) The IDAPython Team <idapython@googlegroups.com>" % IDAPYTHON_VERSION
     ]
-    sepline = '-' * (max([len(s) for s in banner])+1)
-
+    sepline = '-' * (max([len(s) for s in banner]) + 1)
+    
     print(sepline)
     print("\n".join(banner))
     print(sepline)
@@ -108,10 +109,13 @@ sys.stdout = sys.stderr = IDAPythonStdOut()
 # Initialize the help, with our own stdin wrapper, that'll query the user
 # -----------------------------------------------------------------------
 import pydoc
+
 class IDAPythonHelpPrompter:
+    
     def readline(self):
         return ida_kernwin.ask_str('', 0, 'Help topic?')
-help = pydoc.Helper(input = IDAPythonHelpPrompter(), output = sys.stdout)
+
+help = pydoc.Helper(input=IDAPythonHelpPrompter(), output=sys.stdout)
 
 # Assign a default sys.argv
 sys.argv = [""]
@@ -120,7 +124,7 @@ sys.argv = [""]
 sys.path.append(ida_diskio.idadir("python"))
 
 # Remove current directory from the top of the patch search
-if '' in sys.path: # On non Windows, the empty path is added
+if '' in sys.path:  # On non Windows, the empty path is added
     sys.path.remove('')
 
 if os.getcwd() in sys.path:
@@ -133,9 +137,10 @@ if not IDAPYTHON_REMOVE_CWD_SYS_PATH:
 if IDAPYTHON_COMPAT_AUTOIMPORT_MODULES:
     # Import all the required modules
     from idaapi import get_user_idadir, cvar, Appcall, Form
+    
     if IDAPYTHON_COMPAT_695_API:
         from idaapi import Choose2
-    from idc      import *
+    from idc import *
     from idautils import *
     import idaapi
 
@@ -150,12 +155,14 @@ if os.path.exists(userrc):
 # since it'll prevent us from killing IDA with Ctrl+C on a TTY.
 if sys.version_info.major >= 3:
     import signal
+    
     signal.signal(signal.SIGINT, signal.SIG_DFL)
-
+    
     # Also, embedded Python3 will not include the 'site packages' by
     # default, which means many packages provided by the distribution
     # would not be reachable. Let's provide a way to load them.
     import site
+    
     for sp in site.getsitepackages():
         if sp not in sys.path:
             sys.path.append(sp)

@@ -9,14 +9,14 @@ description:
 #  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
 
 from __future__ import print_function
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 # Structure test
 #
 # This script demonstrates how to create structures and populate them
 # with members of different types.
 #
 # Author: Gergely Erdelyi <gergely.erdelyi@d-dome.net>
-#---------------------------------------------------------------------
+# ---------------------------------------------------------------------
 
 import ida_struct
 import ida_idaapi
@@ -45,26 +45,26 @@ simple_types_data = [
 ]
 for i, tpl in enumerate(simple_types_data):
     t, nsize = tpl
-    print("t%x:"% ((t|ida_bytes.FF_DATA) & 0xFFFFFFFF),
-          idc.add_struc_member(sid, "t%02d"%i, ida_idaapi.BADADDR, (t|ida_bytes.FF_DATA )&0xFFFFFFFF, -1, nsize))
+    print("t%x:" % ((t | ida_bytes.FF_DATA) & 0xFFFFFFFF),
+          idc.add_struc_member(sid, "t%02d" % i, ida_idaapi.BADADDR, (t | ida_bytes.FF_DATA) & 0xFFFFFFFF, -1, nsize))
 
 # Test ASCII type
-print("ASCII:", idc.add_struc_member(sid, "tascii", -1, ida_bytes.FF_STRLIT|ida_bytes.FF_DATA, ida_nalt.STRTYPE_C, 8))
+print("ASCII:", idc.add_struc_member(sid, "tascii", -1, ida_bytes.FF_STRLIT | ida_bytes.FF_DATA, ida_nalt.STRTYPE_C, 8))
 
 # Test struc member type
 msid = ida_struct.get_struc_id("mystr2")
 if msid != -1:
     idc.del_struc(msid)
 msid = idc.add_struc(-1, "mystr2", 0)
-print(idc.add_struc_member(msid, "member1", -1, (ida_bytes.FF_DWORD|ida_bytes.FF_DATA )&0xFFFFFFFF, -1, 4))
-print(idc.add_struc_member(msid, "member2", -1, (ida_bytes.FF_DWORD|ida_bytes.FF_DATA )&0xFFFFFFFF, -1, 4))
+print(idc.add_struc_member(msid, "member1", -1, (ida_bytes.FF_DWORD | ida_bytes.FF_DATA) & 0xFFFFFFFF, -1, 4))
+print(idc.add_struc_member(msid, "member2", -1, (ida_bytes.FF_DWORD | ida_bytes.FF_DATA) & 0xFFFFFFFF, -1, 4))
 
 msize = ida_struct.get_struc_size(msid)
-print("Struct:", idc.add_struc_member(sid, "tstruct", -1, ida_bytes.FF_STRUCT|ida_bytes.FF_DATA, msid, msize))
-print("Stroff:", idc.add_struc_member(sid, "tstroff", -1, ida_bytes.stroff_flag()|ida_bytes.FF_DWORD, msid, 4))
+print("Struct:", idc.add_struc_member(sid, "tstruct", -1, ida_bytes.FF_STRUCT | ida_bytes.FF_DATA, msid, msize))
+print("Stroff:", idc.add_struc_member(sid, "tstroff", -1, ida_bytes.stroff_flag() | ida_bytes.FF_DWORD, msid, 4))
 
 # Test offset types
-print("Offset:", idc.add_struc_member(sid, "toffset", -1, ida_bytes.off_flag()|ida_bytes.FF_DATA|ida_bytes.FF_DWORD, 0, 4))
-print("Offset:", idc.set_member_type(sid, 0, ida_bytes.off_flag()|ida_bytes.FF_DATA|ida_bytes.FF_DWORD, 0, 4))
+print("Offset:", idc.add_struc_member(sid, "toffset", -1, ida_bytes.off_flag() | ida_bytes.FF_DATA | ida_bytes.FF_DWORD, 0, 4))
+print("Offset:", idc.set_member_type(sid, 0, ida_bytes.off_flag() | ida_bytes.FF_DATA | ida_bytes.FF_DWORD, 0, 4))
 
 print("Done")
