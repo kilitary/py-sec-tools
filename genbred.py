@@ -4,7 +4,6 @@ import math
 import random
 import sys
 
-
 with open("bsd-patches.tok", 'r', encoding='utf-8') as bsd_pathes_file:
     bsd_file_pathes = bsd_pathes_file.readlines()
 
