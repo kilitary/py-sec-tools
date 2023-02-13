@@ -23,6 +23,7 @@ class Operand(Enum):
     GOTO = auto()
     TITLE = auto()
     ECHO = auto()
+    CALL = auto()
     REM = auto()
     EXIT = auto()
     DISALLOWED = auto()
@@ -31,7 +32,7 @@ def write(filename: str, code: str) -> None:
     with open(filename, "w") as file:
         file.write("@ECHO ===========================================================\n")
         ret = file.write(code)
-        deb(f'\nwritten {ret} bytes to {filename}\r\n')
+        deb(f'\nwritten {ret} bytes ({len(assembled)} commands) to {filename}\r\n')
 
 def get_unused_label(min_i=0):
     try:
@@ -71,30 +72,33 @@ def setup_allowed():
     allowed.append(Operand.TITLE)
     allowed.append(Operand.COLOR)
     allowed.append(Operand.REM)
+    allowed.append(Operand.CALL)
 
 if __name__ == '__main__':
     
     setup_allowed()
     num_instructions = random.randint(13, 11111)
     
-    ''' Generate lables '''
+    # Generate lables
     cur_i = 0
     print(f'generating labels ...', end='', flush=True)
     for n_label in range(0, num_instructions - 1):
-        label = Randomer.str_id_generator()
+        label = Randomer.str_id_generator(size=10)
         labels[label] = 0
         assembled.append([Operand.LABEL, label])
         cur_i += 1
         print(f'\rgenerating labels ... {cur_i / num_instructions * 100.0:.2f}%', end="", flush=True)
     
-    ''' Use labels '''
+    # Use labels
     print(f"\nconnecting labels ... ", end='', flush=True)
     cur_i = 0
     for n_instruction in range(0, num_instructions):
+        # find next allowed function
         instruction_type = Operand.DISALLOWED
         while instruction_type not in allowed:
             instruction_type = Operand(random.randint(1, len(Operand) - 1))
-        
+            
+        # operands loop
         if instruction_type == Operand.GOTO:
             lbl = get_unused_label()
             if lbl == None:
@@ -135,18 +139,23 @@ if __name__ == '__main__':
             ai_offset = random.randint(1, len(assembled) - 1)
             assembled.insert(ai_offset, [Operand.COLOR, op])
         
+        if instruction_type == Operand.CALL:
+            pass
+        
+        # save op's stats
         num_op_count = operands_stat.get(instruction_type, None)
         if num_op_count == None:
             operands_stat[instruction_type] = 1
         else:
             operands_stat[instruction_type] += 1
         
+        # show what
         cur_i += 1
         print(f'\rconnecting labels ... {cur_i / num_instructions * 100.0:.2f}%', end="", flush=True)
     
     assembled.append([Operand.EXIT, ''])
     
-    print(f'assembling code ... ', end="\r")
+    print(f'\nassembling code ... ', end="")
     
     code = ''
     n_inst = 0
@@ -175,4 +184,4 @@ if __name__ == '__main__':
     
     write('mut.cmd', code)
     
-    pprint(operands_stat)
+    pprint(operands_stat, indent=4, compact=True)
