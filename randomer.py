@@ -15,14 +15,15 @@ class Randomer(object):
         global names
         if len(names) == 0:
             names = open('names.txt', 'r').read().lower().split("\n")
-        return secrets.choice(names) + "_" + (''.join(secrets.choice('1234567890') for _ in range(4)))
+        return secrets.choice(names) + (
+            ''.join(secrets.choice('1234567890qwertyuiopasdfghjklzxcvbnm_') for _ in range(4)))
     
     @staticmethod
-    def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890") -> str:
+    def str_id_generator(size=6, chars="Aqwertyuiopasdfghjklzxcvbnm1234567890_") -> str:
         return ''.join(secrets.choice(chars) for _ in range(size)).strip()
     
     @staticmethod
-    def str_str_generator(size=6, chars=" Aqwertyuiopasdfghjklzxcvbnm 1234567890 ") -> str:
+    def str_str_generator(size=6, chars=" Aqwertyuiopasdfghjklzxcvbnm 1234567890_") -> str:
         y = ''
         for x in range(0, random.randint(1, 4)):
             y += ''.join(secrets.choice(chars) for _ in range(size)).strip()
