@@ -99,6 +99,8 @@ def hexify_data(data: str) -> str:
     return code
 
 def check_assembled():
+    global assembled
+    
     error = False
     print(f'\nchecking code overlap ... ', end='')
     visited_lables = []
@@ -114,34 +116,39 @@ def check_assembled():
         sys.exit(-1)
     else:
         print(f'OK')
-    
+
+def remove_unlinked():
     if blackhole:
-        print(f'skip logically not linked inst\'s elimination (blackhole mode)')
+        print(f'emit not linked instructions')
         return
     
     print(f'unused instructions check ... ', end='')
-    index, deleted = 0, 0
+    
+    deleted = 0
     cur = 0
     tot = len(labels)
     for name, usage in labels.items():
+        # print(f'\n{name}:{usage}')
         cur += 1
-        print(f'\runused instructions check ... {cur / tot * 100.0:.2f}%', end='')
+        print(f'\remit unused instructions ... {cur / tot * 100.0:.2f}%', end='')
         if usage == 0:
+            index = 0
             for i, d in assembled:
                 if i == Operand.LABEL and d == name:
                     try:
-                        del assembled[assembled.index(name)]
+                        del assembled[index]
                         deleted += 1
                     except Exception as e:
-                        # print(f'warn({index}): {e}')
+                        print(f"\nwarn({index}/{name}): {e}")
                         pass
-        index += 1
+                index += 1
     if deleted:
-        print(f'deleted {deleted} instructions, retry check ... ')
-        check_assembled()
+        print(f'\ndeleted {deleted} instructions, retry check ... ')
+        remove_unlinked()
+    else:
+        print(f'none found')
 
 if __name__ == '__main__':
-    
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--file", type=str, default='', help="embedded file")
     parser.add_argument("-d", "--debug", action='store_true', default=False,
@@ -274,6 +281,7 @@ if __name__ == '__main__':
     assembled.append([Operand.EXIT, ''])
     
     check_assembled()
+    remove_unlinked()
     
     print(f'\nassembling code ... ', end="")
     
