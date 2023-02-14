@@ -16,6 +16,8 @@ assembled = []
 labels = {}
 allowed = []
 operands_stat = {}
+debug_trace = False
+blackhole = False
 
 class Operand(Enum):
     LABEL = auto()
@@ -53,7 +55,7 @@ def mark_used_label(label):
     try:
         labels[label] += 1
     except Exception as e:
-        print(f'exception({label}): {e}')
+        labels[label] = 1
 
 def get_unlinked_label_index():
     try:
@@ -96,24 +98,79 @@ def hexify_data(data: str) -> str:
     code += "\n"
     return code
 
+def check_assembled():
+    error = False
+    print(f'\nchecking code overlap ... ', end='')
+    visited_lables = []
+    for i, d in assembled:
+        if i == Operand.GOTO:
+            if d in visited_lables:
+                print(f'jmp {d} looped')
+                error = True
+            else:
+                visited_lables.append(d)
+    if error:
+        print(f'FAIL')
+        sys.exit(-1)
+    else:
+        print(f'OK')
+    
+    if blackhole:
+        print(f'skip logically not linked inst\'s elimination (blackhole mode)')
+        return
+    
+    print(f'unused instructions check ... ', end='')
+    index, deleted = 0, 0
+    cur = 0
+    tot = len(labels)
+    for name, usage in labels.items():
+        cur += 1
+        print(f'\runused instructions check ... {cur / tot * 100.0:.2f}%', end='')
+        if usage == 0:
+            for i, d in assembled:
+                if i == Operand.LABEL and d == name:
+                    try:
+                        del assembled[assembled.index(name)]
+                        deleted += 1
+                    except Exception as e:
+                        # print(f'warn({index}): {e}')
+                        pass
+        index += 1
+    if deleted:
+        print(f'deleted {deleted} instructions, retry check ... ')
+        check_assembled()
+
 if __name__ == '__main__':
     
     parser = argparse.ArgumentParser()
     parser.add_argument("-f", "--file", type=str, default='', help="embedded file")
+    parser.add_argument("-d", "--debug", action='store_true', default=False,
+                        help="include debug trace", required=False)
+    parser.add_argument("-b", "--blackhole", action='store_true', default=False,
+                        help="cpu expensive mode (dont exclude unused instructions)", required=False)
     parser.add_argument("-m", "--max", type=int, default=1000, help="max instructions")
     args = parser.parse_args()
     
+    if args.debug:
+        debug_trace = True
+        print(f'use tracing')
+    
+    if args.blackhole:
+        blackhole = True
+        print(f'blackhole mode')
+    
     if args.file:
         size = os.path.getsize(args.file)
-        print(f'embedding {args.file} size: {size / 1024.0 / 1024.0:.2f} Mbytes')
+        print(f'embedding {args.file} size: {size / 1024.0 / 1024.0:.2f} Mbytes ({size} bytes)')
         
         with open(args.file, "rb") as file:
-            embeddedData = file.read()
-            base64encodedData = str(base64.b64encode(embeddedData).decode('utf-8'))
+            overlayData = file.read()
+            base64encodedData = str(base64.b64encode(overlayData).decode('utf-8'))
             # base64encodedData = base64encodedData.replace('A', 'C')
-            print(f'base64 size: {len(base64encodedData) / 1024.0 / 1024.0:.2f} Mbytes')
+            size = len(base64encodedData)
+            print(f'base64 size: {size / 1024.0 / 1024.0:.2f} Mbytes  ({size} bytes)')
     else:
-        print(f'blackhole mode')
+        print(f'dumb mode')
     
     setup_allowed()
     num_instructions = random.randint(13, args.max)
@@ -167,6 +224,8 @@ if __name__ == '__main__':
         if instruction_type == Operand.TITLE:
             op2 = Randomer.str_str_generator(size=random.randint(14, 50))
             ai_offset = get_random_index()
+            if debug_trace:
+                op2 = f'(run {cur_i}/{num_instructions}) '
             assembled.insert(ai_offset, [Operand.TITLE, op2])
         
         if instruction_type == Operand.ECHO:
@@ -199,20 +258,22 @@ if __name__ == '__main__':
         cur_i += 1
         print(f'\rconnecting labels ... {cur_i / num_instructions * 100.0:.2f}%', end="", flush=True)
     
-    if embeddedData != None:
-        pre = f"@echo off\nerase hex.temp\n"
-        data = hexify_data(embeddedData)
-        post = " > hex.temp (" \
+    if overlayData != None:
+        pre = f"@echo off\nerase hex.temp p_{args.file}\n"
+        data = hexify_data(overlayData)
+        post = ">hex.temp (" \
                "for /f \"delims=: tokens=*\" %%A in " \
                "('findstr \"^:::\" \"%~f0\"') do echo %%A" \
                ")"
-        decoder = f"\ncertutil -f -decodeHex hex.temp {args.file} >nul\n"
+        decoder = f"\ncertutil -f -decodeHex hex.temp p_{args.file} >nul\n"
         eraser = "\nerase hex.temp\n"
-        executer = f"\n{args.file}"
+        executer = f"\ncmd /c p_{args.file}\nrem erase p_{args.file}\n"
         body = pre + data + post + decoder + eraser + executer
         assembled.append([Operand.PLAIN, body])
     
     assembled.append([Operand.EXIT, ''])
+    
+    check_assembled()
     
     print(f'\nassembling code ... ', end="")
     
@@ -247,4 +308,4 @@ if __name__ == '__main__':
     
     write('mut.cmd', code)
     
-    pprint(operands_stat, indent=4, compact=True)
+    pprint(operands_stat, indent=2, compact=False)
