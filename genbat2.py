@@ -4,17 +4,19 @@ import random
 import secrets
 import sys
 from enum import Enum, auto
-from var_dump import var_dump
 from helpers import deb
 from pprint import pprint
 from outputdebugstring import olog
 from randomer import Randomer
 import argparse
-import base64
+import base64, time
+import ctypes
+import win32api, win32con
 
 assembled = []
 labels = {}
 allowed = []
+
 operands_stat = {}
 debug_trace = False
 blackhole = False
@@ -138,15 +140,15 @@ def remove_unlinked():
                     try:
                         del assembled[index]
                         deleted += 1
+                    
                     except Exception as e:
                         print(f"\nwarn({index}/{name}): {e}")
                         pass
                 index += 1
     if deleted:
-        print(f'\ndeleted {deleted} instructions, retry check ... ')
-        remove_unlinked()
+        print(f'\n{deleted} instructions removed')
     else:
-        print(f'none found')
+        print(f' none found')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -154,7 +156,7 @@ if __name__ == '__main__':
     parser.add_argument("-d", "--debug", action='store_true', default=False,
                         help="include debug trace", required=False)
     parser.add_argument("-b", "--blackhole", action='store_true', default=False,
-                        help="cpu expensive mode (dont exclude unused instructions)", required=False)
+                        help="cpu exhaust mode (dont exclude unused instructions)", required=False)
     parser.add_argument("-m", "--max", type=int, default=1000, help="max instructions")
     args = parser.parse_args()
     
