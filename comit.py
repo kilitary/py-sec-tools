@@ -30,7 +30,6 @@ import atexit
 from datetime import datetime
 import traceback
 
-
 ip = None
 names = []
 MAX_BYTES_IN = 1 * 1024 * 1024
@@ -46,11 +45,7 @@ version = "commit-0.1a"
 subject = ''
 
 class Randomer(object):
-    
     def __init__(self):
-        """
-
-        """
         pass
     
     @staticmethod
@@ -109,21 +104,21 @@ def store_mail(mta_id=None, rcpt=None, sender=None, message=None):
     ip = r.get(f'{mta_id}_ip').decode('utf-8')
     
     body = {
-        "mail": {
-            'source': message
+        "mail":{
+            'source':message
         },
-        "meta": {
-            'timestamp_ns': time.time_ns(),
-            "created_at":   dt,
-            "check-pid":    os.getpid(),
-            "subject":      subject,
-            "check-id":     cid,
-            'size_b':       len(message),
-            "mta-id":       mta_id,
-            "from":         sender,
-            "dns":          dns,
-            "ip":           ip,
-            "to":           rcpt
+        "meta":{
+            'timestamp_ns':time.time_ns(),
+            "created_at"  :dt,
+            "check-pid"   :os.getpid(),
+            "subject"     :subject,
+            "check-id"    :cid,
+            'size_b'      :len(message),
+            "mta-id"      :mta_id,
+            "from"        :sender,
+            "dns"         :dns,
+            "ip"          :ip,
+            "to"          :rcpt
             
         }
         
@@ -141,11 +136,11 @@ def store_mail(mta_id=None, rcpt=None, sender=None, message=None):
 def store_mail_log(messages=None):
     global connection_id, elapsed
     body = {
-        'log':            messages or '#empty',
-        'mta-id':         connection_id,
-        'timestamp_ns':   time.time_ns(),
-        'time_taken_sms': time.time() - elapsed,
-        'size_b':         len(messages)
+        'log'           :messages or '#empty',
+        'mta-id'        :connection_id,
+        'timestamp_ns'  :time.time_ns(),
+        'time_taken_sms':time.time() - elapsed,
+        'size_b'        :len(messages)
     }
     
     id = Randomer.str_id_generator(size=20)
@@ -395,17 +390,17 @@ if __name__ == '__main__':
                 
                 if registered and len(line):
                     filters = {
-                        "data-line":       filter_dataline,
-                        "tx-rcpt":         filter_tx_rcpt,
-                        "tx-mail":         filter_tx_mail,
-                        "protocol-client": filter_print,
-                        "protocol-server": filter_print,
-                        "mail-from":       filter_mail_from,
-                        'connect':         filter_connect,
-                        'link-disconnect': filter_disconnect
+                        "data-line"      :filter_dataline,
+                        "tx-rcpt"        :filter_tx_rcpt,
+                        "tx-mail"        :filter_tx_mail,
+                        "protocol-client":filter_print,
+                        "protocol-server":filter_print,
+                        "mail-from"      :filter_mail_from,
+                        'connect'        :filter_connect,
+                        'link-disconnect':filter_disconnect
                     }
                     
-                    filter = filters.get(event, lambda x: filter_non_implemented)
+                    filter = filters.get(event, lambda x:filter_non_implemented)
                     
                     if 'v3rb0s3' in line:
                         verbose = True

@@ -36,43 +36,92 @@ class Operand(Enum):
     DISALLOWED = auto()
 
 def write(filename: str, code: str) -> None:
+    """
+    Writes the given code to the specified file.
+
+    Args:
+        filename (str): The name of the file to write to.
+        code (str): The code to write to the file.
+    """
     with open(filename, "w") as file:
         file.write("@ECHO ===========================================================\n")
         ret = file.write(code)
         deb(f'\nwritten {ret} bytes ({len(assembled)} commands) to {filename}\r\n')
 
-def get_unused_label(min_i=0):
-    try:
-        lst = []
-        for label, used in labels.items():
-            if used == 0:
-                lst.append(label)
-        random.shuffle(lst)
-        s = lst[random.randint(0, len(lst) - 1)]
-        return s
-    except Exception as e:
-        print(f'error: {e}')
+# def get_unused_label(min_i=0):
+#     try:
+#         lst = []
+#         for label, used in labels.items():
+#             if used == 0:
+#                 lst.append(label)
+#         random.shuffle(lst)
+#         s = lst[random.randint(0, len(lst) - 1)]
+#         return s
+#     except Exception as e:
+#         print(f'error: {e}')
+
+# def get_unused_label() -> str:
+#     unused_labels = [label for label, used in labels.items() if not used]
+#     if unused_labels:
+#         return random.choice(unused_labels)
+#     else:
+#         return None
+
+def get_unused_label() -> str:
+    unused_labels = [label for label, used in labels.items() if not used]
+    return random.choice(unused_labels) if unused_labels else None
 
 def mark_used_label(label):
-    try:
-        labels[label] += 1
-    except Exception as e:
-        labels[label] = 1
+    """
+    Increments the count of the given label in the 'labels' dictionary.
+
+    """
+    labels[label] = labels.get(label, 0) + 1
+
+# def get_unlinked_label_index():
+#     try:
+#         lst = []
+#         for label, used in labels.items():
+#             if used == 1:
+#                 for ai in range(0, len(assembled)):
+#                     if assembled[ai][0] == Operand.LABEL and assembled[ai][1] == label:
+#                         labels[label] += 1
+#                         return ai
+#         return 0
+#     except Exception as e:
+#         print(f'error: {e}')
 
 def get_unlinked_label_index():
-    try:
-        lst = []
-        for label, used in labels.items():
-            if used == 1:
-                for ai in range(0, len(assembled)):
-                    if assembled[ai][0] == Operand.LABEL and assembled[ai][1] == label:
-                        labels[label] += 1
-                        return ai
-        return 0
-    except Exception as e:
-        print(f'error: {e}')
+    """
+    Finds the index of the first unlinked label in the assembled code.
+
+    Returns:
+        int: The index of the first unlinked label in the assembled code. If no unlinked label is found, returns 0.
+
+    Algorithm:
+        1. Iterate through each label in the dictionary 'labels'.
+        2. If the label has been used only once, search for it in the assembled code.
+        3. If the label is found, increment its usage count and return the index of the instruction containing the label.
+        4. If no unlinked label is found, return 0.
+
+    Example:
+        If the 'labels' dictionary contains {'label1': 1, 'label2': 2} and the 'assembled' list contains
+        [(Operand.LABEL, 'label2'), (Operand.OPCODE, 'ADD'), (Operand.REGISTER, 'R1'), (Operand.NUMBER, '5')],
+        then this function will return 0 because 'label1' is the only unlinked label and it is not present in the assembled code.
+    """
+    for i, (label, used) in enumerate(labels.items()):
+        if used == 1:
+            for j in range(len(assembled)):
+                if assembled[j][0] == Operand.LABEL and assembled[j][1] == label:
+                    labels[label] += 1
+                    return j
+    return 0
 
 def setup_allowed():
+    """
+    Adds a list of allowed operands to the global 'allowed' list.
+
+    """
     allowed.append(Operand.GOTO)
     allowed.append(Operand.SET)
     allowed.append(Operand.ECHO)
@@ -82,10 +131,23 @@ def setup_allowed():
     # allowed.append(Operand.CALL)
 
 def get_random_index():
+    """
+    Returns a random index within the range of the 'assembled' list.
+
+    :return: A random integer index within the range of the 'assembled' list.
+    :rtype: int
+    """
     ai_offset = random.randint(1, len(assembled) - 1)
     return ai_offset
 
 def hexify_data(data: str) -> str:
+    """
+    Converts the input string into a hexadecimal format with a maximum of 16 characters per row.
+
+    Args:
+    - data (str): The input string to be converted into hexadecimal format.
+
+    """
     cur_row = 0
     code = '::: '
     for i in range(0, len(data)):
@@ -100,55 +162,120 @@ def hexify_data(data: str) -> str:
     code += "\n"
     return code
 
+# def check_assembled():
+#     """
+#     Checks for code overlap in the assembled code.
+#
+#     :return: None
+#     """
+#     global assembled
+#
+#     error = False
+#     print(f'\nchecking code overlap ... ', end='')
+#     visited_lables = []
+#     for i, d in assembled:
+#         if i == Operand.GOTO:
+#             if d in visited_lables:
+#                 print(f'jmp {d} looped')
+#                 error = True
+#             else:
+#                 visited_lables.append(d)
+#     if error:
+#         print(f'FAIL')
+#         sys.exit(-1)
+#     else:
+#         print(f'OK')
+
 def check_assembled():
+    """
+    Checks for code overlap in the assembled code.
+
+    :return: None
+    """
     global assembled
     
     error = False
-    print(f'\nchecking code overlap ... ', end='')
-    visited_lables = []
-    for i, d in assembled:
-        if i == Operand.GOTO:
-            if d in visited_lables:
-                print(f'jmp {d} looped')
+    visited_labels = set()
+    print('\r\nchecking code overlap ... ', end='')
+    for op, item in assembled:
+        if op == Operand.GOTO:
+            if item in visited_labels:
+                print(f'jmp {item} looped')
                 error = True
-            else:
-                visited_lables.append(d)
+                break
+            visited_labels.add(item)
+    
     if error:
-        print(f'FAIL')
-        sys.exit(-1)
+        print('FAIL')
+        sys.exit(-8)
     else:
-        print(f'OK')
+        print('LOOKS OK')
 
-def remove_unlinked():
+# def emit_unlinked_instructions():
+#     if blackhole:
+#         print(f'emit not linked instructions')
+#         return
+#
+#     print(f'unused instructions check ... ', end='')
+#
+#     deleted = 0
+#     cur = 0
+#     tot = len(labels)
+#     for name, usage in labels.items():
+#         # print(f'\n{name}:{usage}')
+#         cur += 1
+#         print(f'\remit unused instructions ... {cur / tot * 100.0:.2f}%', end='')
+#         if usage == 0:
+#             index = 0
+#             for i, d in assembled:
+#                 if i == Operand.LABEL and d == name:
+#                     try:
+#                         del assembled[index]
+#                         deleted += 1
+#
+#                     except Exception as e:
+#                         print(f"\nwarn({index}/{name}): {e}")
+#                         pass
+#                 index += 1
+#     if deleted:
+#         print(f'\n{deleted} instructions removed')
+#     else:
+#         print(f' none found')
+
+def emit_unlinked_instructions():
+    """
+    Removes unused instructions from the assembled code.
+
+    If blackhole is True, the function forgives not used labels
+
+    Otherwise, the function iterates through the labels dictionary and removes any instructions that are not used.
+    It prints the progress of the removal process and the number of instructions removed.
+
+    :return: None
+    """
     if blackhole:
-        print(f'emit not linked instructions')
+        print('emit not linked instructions')
         return
     
-    print(f'unused instructions check ... ', end='')
+    print('unused instructions check ... ', end='')
     
     deleted = 0
-    cur = 0
     tot = len(labels)
-    for name, usage in labels.items():
-        # print(f'\n{name}:{usage}')
-        cur += 1
-        print(f'\remit unused instructions ... {cur / tot * 100.0:.2f}%', end='')
-        if usage == 0:
-            index = 0
-            for i, d in assembled:
-                if i == Operand.LABEL and d == name:
-                    try:
-                        del assembled[index]
-                        deleted += 1
-                    
-                    except Exception as e:
-                        print(f"\nwarn({index}/{name}): {e}")
-                        pass
-                index += 1
+    for idx, (label_name, label_usage) in enumerate(labels.items(), start=0):
+        print(f'\remit unused instructions ... {100 * idx / tot:.2f}%', end='')
+        if not label_usage:
+            count = 0
+            for j in range(len(assembled) - 1, -1, -1):
+                op, item = assembled[j]
+                if op == Operand.LABEL and item == label_name:
+                    del assembled[j]
+                    count += 1
+            deleted += count
+    
     if deleted:
         print(f'\n{deleted} instructions removed')
     else:
-        print(f' none found')
+        print(' none found')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -157,7 +284,7 @@ if __name__ == '__main__':
                         help="include debug trace", required=False)
     parser.add_argument("-b", "--blackhole", action='store_true', default=False,
                         help="cpu exhaust mode (dont exclude unused instructions)", required=False)
-    parser.add_argument("-m", "--max", type=int, default=1000, help="max instructions")
+    parser.add_argument("-m", "--max", type=int, default=15000, help="max instructions")
     args = parser.parse_args()
     
     if args.debug:
@@ -170,7 +297,7 @@ if __name__ == '__main__':
     
     if args.file:
         size = os.path.getsize(args.file)
-        print(f'embedding {args.file} size: {size / 1024.0 / 1024.0:.2f} Mbytes ({size} bytes)')
+        print(f'embedding "{args.file}" size: {size / 1024.0 / 1024.0:.2f} Mbytes ({size} bytes)')
         
         with open(args.file, "rb") as file:
             overlayData = file.read()
@@ -182,8 +309,8 @@ if __name__ == '__main__':
         print(f'dumb mode')
     
     setup_allowed()
-    num_instructions = random.randint(13, args.max)
     
+    num_instructions = random.randint(13, args.max)
     # Generate lables
     cur_i = 0
     print(f'generating labels ...', end='', flush=True)
@@ -254,9 +381,6 @@ if __name__ == '__main__':
             ai_offset = get_random_index()
             assembled.insert(ai_offset, [Operand.COLOR, op])
         
-        if instruction_type == Operand.CALL:
-            pass
-        
         # save op's stats
         try:
             operands_stat[instruction_type] += 1
@@ -283,7 +407,7 @@ if __name__ == '__main__':
     assembled.append([Operand.EXIT, ''])
     
     check_assembled()
-    remove_unlinked()
+    emit_unlinked_instructions()
     
     print(f'\nassembling code ... ', end="")
     

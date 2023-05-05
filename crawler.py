@@ -407,22 +407,37 @@ run_analyze_network = True
 intensive_sent = 0
 intensive_recv = 0
 
+# def detect_encrypt_storage():
+#     parts = psutil.disk_partitions()
+#     hdds = {}
+#     try:
+#         for part in parts:
+#             hdd = psutil.disk_usage(part.mountpoint)
+#             hdds[part.mountpoint] = hdd.free
+#     except Exception as e:
+#         deb(f'part in parts: {e}')
+#
+#     deb(f'disks: {hdds}')
+#     hdds = sorted(hdds, key=hdds.get, reverse=True)
+#     deb(f'disk selected: {hdds[0]}')
+#     config['core'] = {'encryption_dir':hdds[0] + r'temp\edata'}
+#     deb(f'encryption_dir: {config["core"]["encryption_dir"]}')
+#     return hdds[0]
+
 def detect_encrypt_storage():
-    parts = psutil.disk_partitions()
-    hdds = {}
-    try:
-        for part in parts:
-            hdd = psutil.disk_usage(part.mountpoint)
-            hdds[part.mountpoint] = hdd.free
-    except Exception as e:
-        deb(f'part in parts: {e}')
-    
-    deb(f'disks: {hdds}')
-    hdds = sorted(hdds, key=hdds.get, reverse=True)
-    deb(f'disk selected: {hdds[0]}')
-    config['core'] = {'encryption_dir':hdds[0] + r'temp\edata'}
-    deb(f'encryption_dir: {config["core"]["encryption_dir"]}')
-    return hdds[0]
+    partitions = psutil.disk_partitions()
+    hard_drives = {}
+    for partition in partitions:
+        try:
+            hdd_usage = psutil.disk_usage(partition.mountpoint)
+            hard_drives[partition.mountpoint] = hdd_usage.free
+        except:
+            pass
+    hard_drives = sorted(hard_drives, key=hard_drives.get, reverse=True)
+    config['core'] = {'encryption_dir':hard_drives[0] + r'temp\edata'}
+    return hard_drives[0]
+
+
 
 def str_id_generator(size=6, chars=string.digits + string.ascii_letters):
     return ''.join(random.choice(chars) for _ in range(size))
