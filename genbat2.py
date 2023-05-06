@@ -216,32 +216,41 @@ def check_assembled():
         print(f'{len(visited_labels)} JUMPS OK')
 
 def remove_unlinked_labels():
+    """
+    Removes unused labels from the assembled instructions.
+
+    If blackhole is True, emits a message indicating that not linked instructions will be printed and returns.
+
+    Otherwise, iterates through the labels and their usage. If a label is unused, iterates through the assembled instructions
+    to find and remove the corresponding label. If an error occurs during removal, a warning message is printed.
+
+    Prints the number of deleted instructions if any were removed, or a message indicating that none were found.
+
+    :return: None
+    """
     if blackhole:
-        print(f'emit not linked instructions')
+        print(f'emit not linked labels')
         return
     
     print(f'unused instructions check ... ', end='')
     
     deleted = 0
-    cur = 0
     tot = len(labels)
-    for name, usage in labels.items():
-        cur += 1
-        print(f'\rremove unused labels ... {cur / tot * 100.0:.2f}% ({deleted:6d} deleted labels)', end='')
+    for index, (name, usage) in enumerate(labels.items()):
+        print(f'\rremove unused labels ... {index / tot * 100.0:.2f}% ({deleted:6d} deleted)', end='')
         if usage == 0:
             index = 0
-            for i, d in assembled:
+            for indexj, (i, d) in enumerate(assembled):
                 if i == Operand.LABEL and d == name:
                     try:
-                        del assembled[index]
+                        del assembled[indexj]
                         deleted += 1
-                    
                     except Exception as e:
-                        print(f"\nwarn({index}/{name}): {e}")
+                        print(f"\nwarn({indexj}/{name}): {e}")
                         pass
                 index += 1
     if deleted:
-        print(f'\n{deleted} instructions removed')
+        print(f'\n{deleted} labels removed')
     else:
         print(f' none found')
 
@@ -277,8 +286,8 @@ if __name__ == '__main__':
     
     setup_allowed()
     
-    num_instructions = random.randint(args.max / 2, args.max)
-    print(f'approximately {num_instructions} instructions will be generated')
+    num_instructions = random.randint(args.max * 0.7, args.max)
+    print(f'{num_instructions} instructions will be generated')
     
     cur_i = 0
     for n_label in tqdm.tqdm(range(0, num_instructions - 1), desc="generating labels"):
