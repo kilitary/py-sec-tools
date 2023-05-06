@@ -77,6 +77,15 @@ def is_banned(match):
     return False
 
 def collect_domains(url):
+    """
+    Collects unique domains from the given URL using regular expressions and stores them in a global dictionary.
+    
+    Args:
+    url (str): The URL to collect domains from.
+    
+    Returns:
+    List[str]: A list of unique domains collected from the URL.
+    """
     global stable_domains, domains, hosts
     
     print(f'[ * ] refreshing via {url} ...')

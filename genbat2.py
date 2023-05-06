@@ -12,6 +12,7 @@ import argparse
 import base64, time
 import ctypes
 import win32api, win32con
+import tqdm
 
 assembled = []
 labels = {}
@@ -46,7 +47,7 @@ def write(filename: str, code: str) -> None:
     with open(filename, "w") as file:
         file.write("@ECHO ===========================================================\n")
         ret = file.write(code)
-        deb(f'\nwritten {ret} bytes ({len(assembled)} commands) to {filename}\r\n')
+        deb(f'\nwritten {ret} bytes ({len(assembled)} commands, ~{(len(assembled) * 0.2) / 1000:7.2f}mins) to {filename}\r\n')
 
 # def get_unused_label(min_i=0):
 #     try:
@@ -94,20 +95,8 @@ def mark_used_label(label):
 def get_unlinked_label_index():
     """
     Finds the index of the first unlinked label in the assembled code.
-
     Returns:
         int: The index of the first unlinked label in the assembled code. If no unlinked label is found, returns 0.
-
-    Algorithm:
-        1. Iterate through each label in the dictionary 'labels'.
-        2. If the label has been used only once, search for it in the assembled code.
-        3. If the label is found, increment its usage count and return the index of the instruction containing the label.
-        4. If no unlinked label is found, return 0.
-
-    Example:
-        If the 'labels' dictionary contains {'label1': 1, 'label2': 2} and the 'assembled' list contains
-        [(Operand.LABEL, 'label2'), (Operand.OPCODE, 'ADD'), (Operand.REGISTER, 'R1'), (Operand.NUMBER, '5')],
-        then this function will return 0 because 'label1' is the only unlinked label and it is not present in the assembled code.
     """
     for i, (label, used) in enumerate(labels.items()):
         if used == 1:
@@ -189,8 +178,6 @@ def hexify_data(data: str) -> str:
 def check_assembled():
     """
     Checks for code overlap in the assembled code.
-
-    :return: None
     """
     global assembled
     
@@ -209,73 +196,37 @@ def check_assembled():
         print('FAIL')
         sys.exit(-8)
     else:
-        print('LOOKS OK')
-
-# def emit_unlinked_instructions():
-#     if blackhole:
-#         print(f'emit not linked instructions')
-#         return
-#
-#     print(f'unused instructions check ... ', end='')
-#
-#     deleted = 0
-#     cur = 0
-#     tot = len(labels)
-#     for name, usage in labels.items():
-#         # print(f'\n{name}:{usage}')
-#         cur += 1
-#         print(f'\remit unused instructions ... {cur / tot * 100.0:.2f}%', end='')
-#         if usage == 0:
-#             index = 0
-#             for i, d in assembled:
-#                 if i == Operand.LABEL and d == name:
-#                     try:
-#                         del assembled[index]
-#                         deleted += 1
-#
-#                     except Exception as e:
-#                         print(f"\nwarn({index}/{name}): {e}")
-#                         pass
-#                 index += 1
-#     if deleted:
-#         print(f'\n{deleted} instructions removed')
-#     else:
-#         print(f' none found')
+        print(f'{len(visited_labels)} labels LOOKS OK')
 
 def emit_unlinked_instructions():
-    """
-    Removes unused instructions from the assembled code.
-
-    If blackhole is True, the function forgives not used labels
-
-    Otherwise, the function iterates through the labels dictionary and removes any instructions that are not used.
-    It prints the progress of the removal process and the number of instructions removed.
-
-    :return: None
-    """
     if blackhole:
-        print('emit not linked instructions')
+        print(f'emit not linked instructions')
         return
     
-    print('unused instructions check ... ', end='')
+    print(f'unused instructions check ... ', end='')
     
     deleted = 0
+    cur = 0
     tot = len(labels)
-    for idx, (label_name, label_usage) in enumerate(labels.items(), start=0):
-        print(f'\remit unused instructions ... {100 * idx / tot:.2f}%', end='')
-        if not label_usage:
-            count = 0
-            for j in range(len(assembled) - 1, -1, -1):
-                op, item = assembled[j]
-                if op == Operand.LABEL and item == label_name:
-                    del assembled[j]
-                    count += 1
-            deleted += count
-    
+    for name, usage in labels.items():
+        cur += 1
+        print(f'\remit unused instructions ... {cur / tot * 100.0:.2f}% ({cur:6d}/{tot:6d})', end='')
+        if usage == 0:
+            index = 0
+            for i, d in assembled:
+                if i == Operand.LABEL and d == name:
+                    try:
+                        del assembled[index]
+                        deleted += 1
+                    
+                    except Exception as e:
+                        print(f"\nwarn({index}/{name}): {e}")
+                        pass
+                index += 1
     if deleted:
         print(f'\n{deleted} instructions removed')
     else:
-        print(' none found')
+        print(f' none found')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
@@ -302,7 +253,6 @@ if __name__ == '__main__':
         with open(args.file, "rb") as file:
             overlayData = file.read()
             base64encodedData = str(base64.b64encode(overlayData).decode('utf-8'))
-            # base64encodedData = base64encodedData.replace('A', 'C')
             size = len(base64encodedData)
             print(f'base64 size: {size / 1024.0 / 1024.0:.2f} Mbytes  ({size} bytes)')
     else:
@@ -310,21 +260,21 @@ if __name__ == '__main__':
     
     setup_allowed()
     
-    num_instructions = random.randint(13, args.max)
-    # Generate lables
+    num_instructions = random.randint(args.max / 2, args.max)
+    print(f'approximately {num_instructions} instructions will be generated')
+    
     cur_i = 0
-    print(f'generating labels ...', end='', flush=True)
-    for n_label in range(0, num_instructions - 1):
+    for n_label in tqdm.tqdm(range(0, num_instructions - 1), desc="generating labels"):
         label = Randomer.str_generator()
         labels[label] = 0
         assembled.append([Operand.LABEL, label])
         cur_i += 1
-        print(f'\rgenerating labels ... {cur_i / (num_instructions - 1) * 100.0:.2f}%', end="", flush=True)
+        # print(f'\rgenerating labels ... {cur_i / (num_instructions - 1) * 100.0:6.2f}%', end="", flush=True)
     
     # Use labels
-    print(f"\nconnecting labels ... ", end='', flush=True)
+    # print(f"\nconnecting labels ... ", end='', flush=True)
     cur_i = 0
-    for n_instruction in range(0, num_instructions):
+    for n_instruction in tqdm.tqdm(range(num_instructions), desc="connecting labels"):
         # find next allowed function
         instruction_type = Operand.DISALLOWED
         while instruction_type not in allowed:
@@ -389,7 +339,7 @@ if __name__ == '__main__':
         
         # show what
         cur_i += 1
-        print(f'\rconnecting labels ... {cur_i / num_instructions * 100.0:.2f}%', end="", flush=True)
+        # print(f'\rconnecting labels ... {(cur_i / num_instructions) * 100.0:6.2f}%', end="", flush=True)
     
     if overlayData != None:
         pre = f"@echo off\nerase hex.temp p_{args.file}\n"
@@ -438,7 +388,7 @@ if __name__ == '__main__':
         if instruction == Operand.PLAIN:
             code += data + "\n"
         n_inst += 1
-        print(f'\rassembling code ... {n_inst / tot * 100.0:.2f}%', end='')
+        print(f'\rassembling code ... {n_inst / tot * 100.0:6.2f}%', end='')
     
     write('mut.cmd', code)
     
