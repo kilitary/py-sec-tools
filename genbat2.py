@@ -151,30 +151,6 @@ def hexify_data(data: str) -> str:
     code += "\n"
     return code
 
-# def check_assembled():
-#     """
-#     Checks for code overlap in the assembled code.
-#
-#     :return: None
-#     """
-#     global assembled
-#
-#     error = False
-#     print(f'\nchecking code overlap ... ', end='')
-#     visited_lables = []
-#     for i, d in assembled:
-#         if i == Operand.GOTO:
-#             if d in visited_lables:
-#                 print(f'jmp {d} looped')
-#                 error = True
-#             else:
-#                 visited_lables.append(d)
-#     if error:
-#         print(f'FAIL')
-#         sys.exit(-1)
-#     else:
-#         print(f'OK')
-
 def check_assembled():
     """
     Checks for code overlap in the assembled code.
@@ -183,7 +159,6 @@ def check_assembled():
     
     error = False
     visited_labels = set()
-    label_visit_count = {}
     print('\r\nchecking code overlap ... ', end='')
     for op, item in assembled:
         if op == Operand.GOTO:
@@ -192,22 +167,6 @@ def check_assembled():
                 error = True
                 break
             visited_labels.add(item)
-            try:
-                label_visit_count[item] = label_visit_count[item] + 1
-            except:
-                label_visit_count[item] = 1
-    
-    if error:
-        print('FAIL')
-        sys.exit(-8)
-    
-    print('2nd check ... ', end='')
-    for op, item in assembled:
-        if op == Operand.GOTO:
-            if label_visit_count[item] > 1:
-                print(f'jmp {item} looped')
-                error = True
-                break
     
     if error:
         print('FAIL')
@@ -237,16 +196,14 @@ def remove_unlinked_labels():
     
     deleted = 0
     tot = len(labels)
-    processed = 0
-    for _, (name, usage) in enumerate(labels.items()):
-        print(f'\rremoving unused labels ... {processed / tot * 100.0:.2f}% ' +
+    for idx, (name, usage) in enumerate(labels.items()):
+        print(f'\rremoving unused labels ... {idx / tot * 100.0:.2f}% ' +
               f'({deleted:6d} deleted {deleted / tot * 100.0:.2f}%)', end='')
         if usage == 0:
             for indexj, (i, d) in enumerate(assembled):
                 if i == Operand.LABEL and d == name:
                     del assembled[indexj]
                     deleted += 1
-        processed += 1
     if deleted:
         print(f'\n{deleted} labels removed')
     else:
