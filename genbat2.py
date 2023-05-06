@@ -1,3 +1,5 @@
+#  (c) kilitary@gmail.com ^ axis9 ^ umbrella division @2024 (approaching 2029)
+
 import os.path
 import random
 import secrets
@@ -44,10 +46,12 @@ def write(filename: str, code: str) -> None:
         filename (str): The name of the file to write to.
         code (str): The code to write to the file.
     """
+    
+    code += '\r\nver\r\n'
     with open(filename, "w") as file:
         file.write("@ECHO ===========================================================\n")
         ret = file.write(code)
-        deb(f'\nwritten {ret} bytes ({len(assembled)} commands, ~{(len(assembled) * 0.2) / 1000:7.2f}mins) to {filename}\r\n')
+        deb(f'\nwritten {ret} bytes ({len(assembled)} commands, ~{len(assembled) / 1000.0:7.2f}mins) to {filename}\r\n')
 
 def get_unused_label() -> str:
     unused_labels = [label for label, used in labels.items() if not used]

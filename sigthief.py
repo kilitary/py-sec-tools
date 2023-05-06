@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+
+#  (c) kilitary@gmail.com ^ axis9 ^ umbrella division @2024 (approaching 2029)
+
 # LICENSE: BSD-3
 # Copyright: Josh Pitts @midnite_runr
 
@@ -119,7 +122,7 @@ def copyCert(exe):
 def writeCert(cert, exe, output):
     flItms = gather_file_info_win(exe)
     
-    if not output: 
+    if not output:
         output = output = str(exe) + "_signed"
 
     shutil.copy2(exe, output)
@@ -193,7 +196,7 @@ def signfile(exe, sigfile, output):
     
     cert = open(sigfile, 'rb').read()
 
-    if not output: 
+    if not output:
         output = output = str(exe) + "_signed"
 
     shutil.copy2(exe, output)
@@ -216,7 +219,7 @@ if __name__ == "__main__":
     usage = 'usage: %prog [options]'
     print("\n!! Like the software? Sponsor here: https://github.com/sponsors/secretsquirrel\n\n")
     parser = OptionParser()
-    parser.add_option("-i", "--file", dest="inputfile", 
+    parser.add_option("-i", "--file", dest="inputfile",
                   help="input file", metavar="FILE")
     parser.add_option('-r', '--rip', dest='ripsig', action='store_true',
                   help='rip signature off inputfile')
@@ -239,19 +242,19 @@ if __name__ == "__main__":
     if options.inputfile and options.ripsig:
         print("Ripping signature to file!")
         outputCert(options.inputfile, options.outputfile)
-        sys.exit()    
+        sys.exit()
 
     # copy from one to another
-    # inputfile and rip to targetfile to outputfile    
+    # inputfile and rip to targetfile to outputfile
     if options.inputfile and options.targetfile:
         cert = copyCert(options.inputfile)
         writeCert(cert, options.targetfile, options.outputfile)
         sys.exit()
 
     # check signature
-    # inputfile 
+    # inputfile
     if options.inputfile and options.checksig:
-        check_sig(options.inputfile) 
+        check_sig(options.inputfile)
         sys.exit()
 
     # add sig to target file
@@ -266,4 +269,3 @@ if __name__ == "__main__":
 
     parser.print_help()
     parser.error("You must do something!")
-

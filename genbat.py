@@ -1,4 +1,6 @@
-# 2  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+#  (c) kilitary@gmail.com ^ axis9 ^ umbrella division @2024 (approaching 2029)
+
+# version 1  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
 
 import random
 import secrets
