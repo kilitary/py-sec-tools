@@ -183,6 +183,7 @@ def check_assembled():
     
     error = False
     visited_labels = set()
+    label_visit_count = {}
     print('\r\nchecking code overlap ... ', end='')
     for op, item in assembled:
         if op == Operand.GOTO:
@@ -191,14 +192,30 @@ def check_assembled():
                 error = True
                 break
             visited_labels.add(item)
+            try:
+                label_visit_count[item] = label_visit_count[item] + 1
+            except:
+                label_visit_count[item] = 1
+    
+    if error:
+        print('FAIL')
+        sys.exit(-8)
+    
+    print('2nd check ... ', end='')
+    for op, item in assembled:
+        if op == Operand.GOTO:
+            if label_visit_count[item] > 1:
+                print(f'jmp {item} looped')
+                error = True
+                break
     
     if error:
         print('FAIL')
         sys.exit(-8)
     else:
-        print(f'{len(visited_labels)} labels LOOKS OK')
+        print(f'{len(visited_labels)} JUMPS OK')
 
-def emit_unlinked_instructions():
+def remove_unlinked_labels():
     if blackhole:
         print(f'emit not linked instructions')
         return
@@ -210,7 +227,7 @@ def emit_unlinked_instructions():
     tot = len(labels)
     for name, usage in labels.items():
         cur += 1
-        print(f'\remit unused instructions ... {cur / tot * 100.0:.2f}% ({cur:6d}/{tot:6d})', end='')
+        print(f'\rremove unused labels ... {cur / tot * 100.0:.2f}% ({deleted:6d} deleted labels)', end='')
         if usage == 0:
             index = 0
             for i, d in assembled:
@@ -357,7 +374,7 @@ if __name__ == '__main__':
     assembled.append([Operand.EXIT, ''])
     
     check_assembled()
-    emit_unlinked_instructions()
+    remove_unlinked_labels()
     
     print(f'\nassembling code ... ', end="")
     
@@ -388,8 +405,9 @@ if __name__ == '__main__':
         if instruction == Operand.PLAIN:
             code += data + "\n"
         n_inst += 1
-        print(f'\rassembling code ... {n_inst / tot * 100.0:6.2f}%', end='')
+        print(f'\rassembling code ... {n_inst / tot * 100.0:6.2f}% ', end='')
     
+    print(f' done: assembled {n_inst} instructions')
     write('mut.cmd', code)
     
     pprint(operands_stat, indent=2, compact=False)
