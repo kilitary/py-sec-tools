@@ -228,6 +228,7 @@ def remove_unlinked_labels():
 
     :return: None
     """
+    global assembled
     if blackhole:
         print(f'emit not linked labels')
         return
@@ -236,19 +237,16 @@ def remove_unlinked_labels():
     
     deleted = 0
     tot = len(labels)
-    for index, (name, usage) in enumerate(labels.items()):
-        print(f'\rremove unused labels ... {index / tot * 100.0:.2f}% ({deleted:6d} deleted)', end='')
+    processed = 0
+    for _, (name, usage) in enumerate(labels.items()):
+        print(f'\rremoving unused labels ... {processed / tot * 100.0:.2f}% ' +
+              f'({deleted:6d} deleted {deleted / tot * 100.0:.2f}%)', end='')
         if usage == 0:
-            index = 0
             for indexj, (i, d) in enumerate(assembled):
                 if i == Operand.LABEL and d == name:
-                    try:
-                        del assembled[indexj]
-                        deleted += 1
-                    except Exception as e:
-                        print(f"\nwarn({indexj}/{name}): {e}")
-                        pass
-                index += 1
+                    del assembled[indexj]
+                    deleted += 1
+        processed += 1
     if deleted:
         print(f'\n{deleted} labels removed')
     else:
