@@ -1,4 +1,3 @@
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
 import os.path
 import random
 import secrets
@@ -49,25 +48,6 @@ def write(filename: str, code: str) -> None:
         file.write("@ECHO ===========================================================\n")
         ret = file.write(code)
         deb(f'\nwritten {ret} bytes ({len(assembled)} commands, ~{(len(assembled) * 0.2) / 1000:7.2f}mins) to {filename}\r\n')
-
-# def get_unused_label(min_i=0):
-#     try:
-#         lst = []
-#         for label, used in labels.items():
-#             if used == 0:
-#                 lst.append(label)
-#         random.shuffle(lst)
-#         s = lst[random.randint(0, len(lst) - 1)]
-#         return s
-#     except Exception as e:
-#         print(f'error: {e}')
-
-# def get_unused_label() -> str:
-#     unused_labels = [label for label, used in labels.items() if not used]
-#     if unused_labels:
-#         return random.choice(unused_labels)
-#     else:
-#         return None
 
 def get_unused_label() -> str:
     unused_labels = [label for label, used in labels.items() if not used]
@@ -144,8 +124,6 @@ def check_assembled():
     """
     Checks for code overlap in the assembled code.
     """
-    global assembled
-    
     error = False
     visited_labels = set()
     print('\r\nchecking code overlap ... ', end='')
@@ -161,7 +139,7 @@ def check_assembled():
         print('FAIL')
         sys.exit(-8)
     else:
-        print(f'{len(visited_labels)} JUMPS OK')
+        print(f'{len(visited_labels)} GOTO OK')
 
 def remove_unlinked_labels():
     """
@@ -241,7 +219,7 @@ if __name__ == '__main__':
         # operands loop
         if instruction_type == Operand.GOTO:
             lbl = get_unused_label()
-            if lbl == None:
+            if lbl is None:
                 break
             ai_offset = get_unlinked_label_index()
             assembled.insert(ai_offset, [Operand.GOTO, lbl])
@@ -249,7 +227,7 @@ if __name__ == '__main__':
         
         if instruction_type == Operand.CALL:
             lbl = get_unused_label()
-            if lbl == None:
+            if lbl is None:
                 break
             ai_offset = get_unlinked_label_index()
             assembled.insert(ai_offset, [Operand.CALL, lbl])
@@ -290,16 +268,13 @@ if __name__ == '__main__':
             assembled.insert(ai_offset, [Operand.COLOR, op])
         
         # save op's stats
-        try:
-            operands_stat[instruction_type] += 1
-        except:
-            operands_stat[instruction_type] = 1
+        operands_stat[instruction_type] = operands_stat.get(instruction_type, 0) + 1
         
         # show what
         cur_i += 1
         # print(f'\rconnecting labels ... {(cur_i / num_instructions) * 100.0:6.2f}%', end="", flush=True)
     
-    if overlayData != None:
+    if overlayData is not None:
         pre = f"@echo off\nerase hex.temp p_{args.file}\n"
         data = hexify_data(overlayData)
         post = ">hex.temp (" \
