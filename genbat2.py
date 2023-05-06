@@ -16,6 +16,7 @@ import tqdm
 
 assembled = []
 labels = {}
+used_labels = {}
 allowed = []
 
 operands_stat = {}
@@ -78,19 +79,7 @@ def mark_used_label(label):
 
     """
     labels[label] = labels.get(label, 0) + 1
-
-# def get_unlinked_label_index():
-#     try:
-#         lst = []
-#         for label, used in labels.items():
-#             if used == 1:
-#                 for ai in range(0, len(assembled)):
-#                     if assembled[ai][0] == Operand.LABEL and assembled[ai][1] == label:
-#                         labels[label] += 1
-#                         return ai
-#         return 0
-#     except Exception as e:
-#         print(f'error: {e}')
+    used_labels[label] = used_labels.get(label, 0) + 1
 
 def get_unlinked_label_index():
     """
@@ -176,15 +165,9 @@ def check_assembled():
 
 def remove_unlinked_labels():
     """
-    Removes unused labels from the assembled instructions.
-
-    If blackhole is True, emits a message indicating that not linked instructions will be printed and returns.
-
-    Otherwise, iterates through the labels and their usage. If a label is unused, iterates through the assembled instructions
-    to find and remove the corresponding label. If an error occurs during removal, a warning message is printed.
-
-    Prints the number of deleted instructions if any were removed, or a message indicating that none were found.
-
+    Removes any labels that are not linked to any instructions in the assembled code.
+    If blackhole is True, no labels will be removed and a message will be printed.
+    
     :return: None
     """
     global assembled
@@ -194,20 +177,14 @@ def remove_unlinked_labels():
     
     print(f'unused instructions check ... ', end='')
     
-    deleted = 0
     tot = len(labels)
-    for idx, (name, usage) in enumerate(labels.items()):
-        print(f'\rremoving unused labels ... {idx / tot * 100.0:.2f}% ' +
-              f'({deleted:6d} deleted {deleted / tot * 100.0:.2f}%)', end='')
-        if usage == 0:
-            for indexj, (i, d) in enumerate(assembled):
-                if i == Operand.LABEL and d == name:
-                    del assembled[indexj]
-                    deleted += 1
+    deleted = len(assembled)
+    
+    assembled = [(i, d) for i, d in assembled if (d in used_labels and i is Operand.LABEL) or i is not Operand.LABEL]
+    deleted -= len(assembled)
+    
     if deleted:
-        print(f'\n{deleted} labels removed')
-    else:
-        print(f' none found')
+        print(f'{deleted} labels removed')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
