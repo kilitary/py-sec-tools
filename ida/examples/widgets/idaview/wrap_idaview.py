@@ -10,7 +10,7 @@ keywords: idaview, graph
 see_also: custom_graph_with_actions, sync_two_graphs
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 from __future__ import print_function
 

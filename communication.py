@@ -1,6 +1,6 @@
 #  (c) kilitary@gmail.com ^ axis9 ^ umbrella division @2024 (approaching 2029)
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
+# revised
 
 import random
 import logging

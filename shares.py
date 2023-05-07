@@ -1,4 +1,4 @@
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 import os
 import subprocess

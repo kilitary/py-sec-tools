@@ -13,7 +13,7 @@ keywords: xrefs
 see_also: list_segment_functions
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 from __future__ import print_function
 #

@@ -6,7 +6,7 @@ description:
   comments and/or types of local variables.
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 import ida_hexrays
 import ida_typeinf

@@ -16,7 +16,7 @@ description:
     Note: 'ti_changed' is also called for changes to the function
     frames, but we'll only record function prototypes changes.
 """
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 import ida_idp
 import ida_funcs

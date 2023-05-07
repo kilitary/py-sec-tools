@@ -10,7 +10,7 @@ description:
   idat -Ldecompile.log -Sdecompile_entry_points.py -c file
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 from __future__ import print_function
 

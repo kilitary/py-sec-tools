@@ -8,7 +8,7 @@ description:
   glyphs, not the whole line.
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 import ida_kernwin
 import ida_bytes

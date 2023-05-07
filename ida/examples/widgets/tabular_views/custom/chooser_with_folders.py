@@ -18,7 +18,7 @@ keywords: chooser, folders, actions
 see_also: choose, choose_multi
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 import inspect
 

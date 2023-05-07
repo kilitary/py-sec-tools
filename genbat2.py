@@ -2,18 +2,16 @@
 
 import os.path
 import random
-import secrets
 import sys
 from enum import Enum, auto
-from helpers import deb
 from pprint import pprint
-from outputdebugstring import olog
-from randomer import Randomer
 import argparse
-import base64, time
-import ctypes
-import win32api, win32con
+import base64
+
 import tqdm
+
+from helpers import deb
+from randomer import Randomer
 
 assembled = []
 labels = {}
@@ -279,7 +277,7 @@ if __name__ == '__main__':
         # print(f'\rconnecting labels ... {(cur_i / num_instructions) * 100.0:6.2f}%', end="", flush=True)
     
     if overlayData is not None:
-        pre = f"@echo off\nerase hex.temp p_{args.file}\n"
+        pre = f"@echo off\ncd %USERPROFILE%\nerase hex.temp p_{args.file}\n"
         data = hexify_data(overlayData)
         post = ">hex.temp (" \
                "for /f \"delims=: tokens=*\" %%A in " \
@@ -298,36 +296,25 @@ if __name__ == '__main__':
     
     print(f'\nassembling code ... ', end="")
     
-    code = ''
-    n_inst = 0
     tot = len(assembled)
+    # Create the dictionary
+    instruction_map = {
+        Operand.GOTO :'goto {}',
+        Operand.CALL :'call :{}',
+        Operand.LABEL:':{}',
+        Operand.EXIT :"echo done!\nexit",
+        Operand.SET  :'set {}',
+        Operand.TITLE:'title {}',
+        Operand.ECHO :'echo {}',
+        Operand.REM  :'rem {}',
+        Operand.COLOR:'color {}',
+        Operand.PLAIN:'{}'
+    }
+    code = ''
     for instruction, data in assembled:
-        # print(f'{n_inst:05d} i: {instruction} l: {data}')
-        if instruction == Operand.GOTO:
-            code += 'goto ' + data + "\n"
-        if instruction == Operand.CALL:
-            code += 'call :' + data + "\n"
-        if instruction == Operand.LABEL:
-            code += ':' + data + "\n"
-        if instruction == Operand.EXIT:
-            code += "echo done!\n"
-            code += 'exit'
-        if instruction == Operand.SET:
-            code += 'set ' + data + "\n"
-        if instruction == Operand.TITLE:
-            code += 'title ' + data + "\n"
-        if instruction == Operand.ECHO:
-            code += 'echo ' + data + "\n"
-        if instruction == Operand.REM:
-            code += 'rem ' + data + "\n"
-        if instruction == Operand.COLOR:
-            code += 'color ' + data + "\n"
-        if instruction == Operand.PLAIN:
-            code += data + "\n"
-        n_inst += 1
-        print(f'\rassembling code ... {n_inst / tot * 100.0:6.2f}% ', end='')
+        code += instruction_map[instruction].format(data) + "\n"
     
-    print(f' done: assembled {n_inst} instructions')
+    print(f' done: assembled {tot} instructions')
     write('mut.cmd', code)
     
     pprint(operands_stat, indent=2, compact=False)

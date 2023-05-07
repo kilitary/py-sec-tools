@@ -12,7 +12,7 @@ keywords: xrefs
 ACTION_NAME = "list_stkvar_xrefs:list"
 ACTION_SHORTCUT = "Ctrl+Shift+F7"
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 import ida_bytes
 import ida_frame

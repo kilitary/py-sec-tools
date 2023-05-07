@@ -11,7 +11,7 @@ description:
   IDAPython is done successfully initializing.
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 # Add your favourite script to ScriptBox for easy access
 # scriptbox.addscript("/here/is/my/favourite/script.py")

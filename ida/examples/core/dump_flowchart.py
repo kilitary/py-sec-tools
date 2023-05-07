@@ -10,7 +10,7 @@ description:
       `ida_gdl.FlowChart` type.
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 from __future__ import print_function
 

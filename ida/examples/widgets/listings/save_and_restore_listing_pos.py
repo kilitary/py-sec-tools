@@ -17,7 +17,7 @@ keywords: listing, actions
 see_also: jump_next_comment
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 import ida_kernwin
 import ida_moves

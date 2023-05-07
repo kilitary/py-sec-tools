@@ -1,4 +1,4 @@
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
+# revised
 
 import os
 import sys

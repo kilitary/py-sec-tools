@@ -8,7 +8,7 @@ description:
        ida[t].exe -B -Sdbg_trace.py -Ltrace.log file.exe
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 import time
 

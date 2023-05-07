@@ -8,7 +8,7 @@ description:
   regular Qt widgets.
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 

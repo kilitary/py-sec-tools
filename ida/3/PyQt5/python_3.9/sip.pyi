@@ -1,4 +1,4 @@
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 # This file is the Python type hints stub file for the sip extension module.
 #

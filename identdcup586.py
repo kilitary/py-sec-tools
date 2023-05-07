@@ -1,4 +1,4 @@
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com
+# revised
 
 from var_dump import var_dump
 import socket

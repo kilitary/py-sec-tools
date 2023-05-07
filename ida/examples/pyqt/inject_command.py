@@ -19,7 +19,7 @@ description:
     `ida_kernwin.PluginForm.TWidgetToPyQtWidget`
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 from PyQt5 import QtCore
 from PyQt5 import QtGui

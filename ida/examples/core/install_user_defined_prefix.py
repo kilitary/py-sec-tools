@@ -8,7 +8,7 @@ description:
   `ida_lines.user_defined_prefix_t` helper type.
 """
 
-#  Copyright> YEAR:2022 WHO:Sergey Efimov EMAIL:kilitary@gmail.com WHERE:RUSSIA WHY:L
+# revised WHERE:RUSSIA WHY:L
 
 from __future__ import print_function
 
