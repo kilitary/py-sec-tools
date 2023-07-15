@@ -11,6 +11,7 @@ IDA Plugin SDK API wrapper: moves
 """
 
 from sys import version_info as _swig_python_version_info
+
 if _swig_python_version_info < (2, 7, 0):
     raise RuntimeError('Python 2.7 or later required')
 
@@ -23,7 +24,8 @@ else:
 try:
     import builtins as __builtin__
 except ImportError:
-    import __builtin__
+    import builtins
+
 
 def _swig_setattr_nondynamic(self, class_type, name, value, static=1):
     if name == "thisown":
@@ -72,6 +74,7 @@ def _swig_setattr_nondynamic_instance_variable(set):
             set(self, name, value)
         else:
             raise AttributeError("You cannot add instance attributes to %s" % self)
+
     return set_instance_attr
 
 
@@ -81,6 +84,7 @@ def _swig_setattr_nondynamic_class_variable(set):
             set(cls, name, value)
         else:
             raise AttributeError("You cannot add class attributes to %s" % cls)
+
     return set_class_attr
 
 
@@ -88,8 +92,10 @@ def _swig_add_metaclass(metaclass):
     """
     Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down version of six.add_metaclass
     """
+
     def wrapper(cls):
         return metaclass(cls.__name__, cls.__bases__, cls.__dict__.copy())
+
     return wrapper
 
 
@@ -106,20 +112,15 @@ SWIG_PYTHON_LEGACY_BOOL = _ida_moves.SWIG_PYTHON_LEGACY_BOOL
 
 import ida_idaapi
 
-
 import sys
+
 _BC695 = sys.modules["__main__"].IDAPYTHON_COMPAT_695_API
 
 if _BC695:
-
-
-
-
-
-
     def bc695redef(func):
         ida_idaapi._BC695.replace_fun(func)
         return func
+
 
 class segm_move_info_vec_t(object):
     r"""
@@ -137,6 +138,7 @@ class segm_move_info_vec_t(object):
             x: qvector< segm_move_info_t > const &
         """
         _ida_moves.segm_move_info_vec_t_swiginit(self, _ida_moves.new_segm_move_info_vec_t(*args))
+
     __swig_destroy__ = _ida_moves.delete_segm_move_info_vec_t
 
     def push_back(self, *args):
@@ -194,7 +196,7 @@ class segm_move_info_vec_t(object):
         resize(self, _newsize, x)
             _newsize: size_t
             x: segm_move_info_t const &
-        
+
 
         resize(self, _newsize)
             _newsize: size_t
@@ -304,7 +306,7 @@ class segm_move_info_vec_t(object):
 
         erase(self, it) -> segm_move_info_t
             it: qvector< segm_move_info_t >::iterator
-        
+
 
         erase(self, first, last) -> segm_move_info_t
             first: qvector< segm_move_info_t >::iterator
@@ -318,7 +320,7 @@ class segm_move_info_vec_t(object):
 
         find(self, x) -> segm_move_info_t
             x: segm_move_info_t const &
-        
+
 
         find(self, x) -> segm_move_info_t
             x: segm_move_info_t const &
@@ -385,6 +387,7 @@ class segm_move_info_vec_t(object):
 # Register segm_move_info_vec_t in _ida_moves:
 _ida_moves.segm_move_info_vec_t_swigregister(segm_move_info_vec_t)
 
+
 class graph_location_info_t(object):
     r"""
     Proxy of C++ graph_location_info_t class.
@@ -419,10 +422,13 @@ class graph_location_info_t(object):
             r: graph_location_info_t const &
         """
         return _ida_moves.graph_location_info_t___ne__(self, *args)
+
     __swig_destroy__ = _ida_moves.delete_graph_location_info_t
+
 
 # Register graph_location_info_t in _ida_moves:
 _ida_moves.graph_location_info_t_swigregister(graph_location_info_t)
+
 
 class segm_move_info_t(object):
     r"""
@@ -442,6 +448,7 @@ class segm_move_info_t(object):
             _sz: size_t
         """
         _ida_moves.segm_move_info_t_swiginit(self, _ida_moves.new_segm_move_info_t(*args))
+
     _from = property(_ida_moves.segm_move_info_t__from_get, _ida_moves.segm_move_info_t__from_set)
     to = property(_ida_moves.segm_move_info_t_to_get, _ida_moves.segm_move_info_t_to_set)
     size = property(_ida_moves.segm_move_info_t_size_get, _ida_moves.segm_move_info_t_size_set)
@@ -463,10 +470,13 @@ class segm_move_info_t(object):
             r: segm_move_info_t const &
         """
         return _ida_moves.segm_move_info_t___ne__(self, *args)
+
     __swig_destroy__ = _ida_moves.delete_segm_move_info_t
+
 
 # Register segm_move_info_t in _ida_moves:
 _ida_moves.segm_move_info_t_swigregister(segm_move_info_t)
+
 
 class segm_move_infos_t(segm_move_info_vec_t):
     r"""
@@ -490,10 +500,13 @@ class segm_move_infos_t(segm_move_info_vec_t):
         __init__(self) -> segm_move_infos_t
         """
         _ida_moves.segm_move_infos_t_swiginit(self, _ida_moves.new_segm_move_infos_t(*args))
+
     __swig_destroy__ = _ida_moves.delete_segm_move_infos_t
+
 
 # Register segm_move_infos_t in _ida_moves:
 _ida_moves.segm_move_infos_t_swigregister(segm_move_infos_t)
+
 
 class renderer_info_pos_t(object):
     r"""
@@ -529,10 +542,13 @@ class renderer_info_pos_t(object):
             r: renderer_info_pos_t const &
         """
         return _ida_moves.renderer_info_pos_t___ne__(self, *args)
+
     __swig_destroy__ = _ida_moves.delete_renderer_info_pos_t
+
 
 # Register renderer_info_pos_t in _ida_moves:
 _ida_moves.renderer_info_pos_t_swigregister(renderer_info_pos_t)
+
 
 class renderer_info_t(object):
     r"""
@@ -568,7 +584,9 @@ class renderer_info_t(object):
         __init__(self) -> renderer_info_t
         """
         _ida_moves.renderer_info_t_swiginit(self, _ida_moves.new_renderer_info_t(*args))
+
     __swig_destroy__ = _ida_moves.delete_renderer_info_t
+
 
 # Register renderer_info_t in _ida_moves:
 _ida_moves.renderer_info_t_swigregister(renderer_info_t)
@@ -580,6 +598,7 @@ LSEF_RINFO = _ida_moves.LSEF_RINFO
 LSEF_PTYPE = _ida_moves.LSEF_PTYPE
 
 LSEF_ALL = _ida_moves.LSEF_ALL
+
 
 class lochist_entry_t(object):
     r"""
@@ -598,12 +617,13 @@ class lochist_entry_t(object):
         __init__(self) -> lochist_entry_t
             p: place_t const *
             r: renderer_info_t const &
-        
+
 
         __init__(self, other) -> lochist_entry_t
             other: lochist_entry_t const &
         """
         _ida_moves.lochist_entry_t_swiginit(self, _ida_moves.new_lochist_entry_t(*args))
+
     __swig_destroy__ = _ida_moves.delete_lochist_entry_t
 
     def renderer_info(self, *args):
@@ -644,6 +664,7 @@ class lochist_entry_t(object):
         """
         return _ida_moves.lochist_entry_t_acquire_place(self, *args)
 
+
 # Register lochist_entry_t in _ida_moves:
 _ida_moves.lochist_entry_t_swigregister(lochist_entry_t)
 
@@ -661,6 +682,7 @@ CURLOC_LIST = _ida_moves.CURLOC_LIST
 
 MAX_MARK_SLOT = _ida_moves.MAX_MARK_SLOT
 
+
 class lochist_t(object):
     r"""
     Proxy of C++ lochist_t class.
@@ -674,6 +696,7 @@ class lochist_t(object):
         __init__(self) -> lochist_t
         """
         _ida_moves.lochist_t_swiginit(self, _ida_moves.new_lochist_t(*args))
+
     __swig_destroy__ = _ida_moves.delete_lochist_t
 
     def is_history_enabled(self, *args):
@@ -811,8 +834,10 @@ class lochist_t(object):
         """
         return _ida_moves.lochist_t_get_template_place(self, *args)
 
+
 # Register lochist_t in _ida_moves:
 _ida_moves.lochist_t_swigregister(lochist_t)
+
 
 class bookmarks_t(object):
     r"""
@@ -823,6 +848,7 @@ class bookmarks_t(object):
 
     def __init__(self, *args, **kwargs):
         raise AttributeError("No constructor defined")
+
     __repr__ = _swig_repr
 
     @staticmethod
@@ -909,6 +935,7 @@ class bookmarks_t(object):
         """
         return _ida_moves.bookmarks_t_get_dirtree_id(*args)
 
+
 # Register bookmarks_t in _ida_moves:
 _ida_moves.bookmarks_t_swigregister(bookmarks_t)
 BOOKMARKS_PROMPT_WITH_HINT_PREFIX = _ida_moves.BOOKMARKS_PROMPT_WITH_HINT_PREFIX
@@ -927,6 +954,7 @@ def bookmarks_t_mark(*args):
     """
     return _ida_moves.bookmarks_t_mark(*args)
 
+
 def bookmarks_t_get(*args):
     r"""
 
@@ -939,6 +967,7 @@ def bookmarks_t_get(*args):
     """
     return _ida_moves.bookmarks_t_get(*args)
 
+
 def bookmarks_t_get_desc(*args):
     r"""
 
@@ -950,6 +979,7 @@ def bookmarks_t_get_desc(*args):
     """
     return _ida_moves.bookmarks_t_get_desc(*args)
 
+
 def bookmarks_t_find_index(*args):
     r"""
 
@@ -959,6 +989,7 @@ def bookmarks_t_find_index(*args):
         ud: void *
     """
     return _ida_moves.bookmarks_t_find_index(*args)
+
 
 def bookmarks_t_size(*args):
     r"""
@@ -970,6 +1001,7 @@ def bookmarks_t_size(*args):
     """
     return _ida_moves.bookmarks_t_size(*args)
 
+
 def bookmarks_t_erase(*args):
     r"""
 
@@ -980,6 +1012,7 @@ def bookmarks_t_erase(*args):
         ud: void *
     """
     return _ida_moves.bookmarks_t_erase(*args)
+
 
 def bookmarks_t_get_dirtree_id(*args):
     r"""
